@@ -213,5 +213,37 @@
     "No full GPU census rerun",
     "CUDA build portability has not been requalified",
     "Exact arithmetic audit is not proof-assistant formalization"
-  ]
+  ],
+  "ternary_million_supplement": {
+    "status": "PASS_FULL_FIXED_TERNARY_MILLION",
+    "exact_full_run_CPU_checks": 1189,
+    "all_parent_M_L_match": true,
+    "all_graphs_reconstructed_and_match": true,
+    "seconds": 12.813228493963834,
+    "profiles": 1000000,
+    "blocks": 248,
+    "canonical_runs18": 33257058,
+    "canonical_runs21": 1235473,
+    "a21": 299150,
+    "ab21": 293872,
+    "graph_witness_primes": 390,
+    "graph_edges": 398,
+    "limitations": "Stored-data verification and bounded independent CPU run checks; no new GPU census, no requalification of optional CUDA build, no reconstruction of unretained positions at lengths18..20.",
+    "files_verified": 758,
+    "CSV_exports": {
+      "counts": {
+        "rows": 1000000,
+        "canonical18": 33257058,
+        "canonical21": 1235473,
+        "a21": 299150,
+        "ab21": 293872
+      },
+      "positions": {
+        "rows": 1235473
+      },
+      "status": "PASS_ALL_COUNT_AND_POSITION_CSV_EXPORTS",
+      "seconds": 15.40587166097248
+    },
+    "corruption_and_query_tests": "PASS, seven tests including the existing atlas fixtures"
+  }
 }

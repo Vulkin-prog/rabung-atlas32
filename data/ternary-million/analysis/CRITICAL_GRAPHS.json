@@ -1,0 +1,1293 @@
+{
+  "blocks": [
+    {
+      "n": 4096,
+      "name": "s0-000000",
+      "science_sha256": "0bb38f4e316357ec545bbf45dda9e8b45c2e13e0642710a114676f65968f55f4"
+    },
+    {
+      "n": 4096,
+      "name": "s0-004096",
+      "science_sha256": "30f7a1b1073a11e6d051b5f30aa6b28c0ed8d990511cdb65d72bc5eebcf775b8"
+    },
+    {
+      "n": 4096,
+      "name": "s0-008192",
+      "science_sha256": "4941aceb4fcdef1b93a05f39c445a50a6b66f7c099d383589a7ef0e8da111410"
+    },
+    {
+      "n": 4096,
+      "name": "s0-012288",
+      "science_sha256": "70ba0364385f40060cd7d1e5a23653d6af7e1d0e4fab486a27a0364f924d60e6"
+    },
+    {
+      "n": 4096,
+      "name": "s0-016384",
+      "science_sha256": "8f2b3298da9d71bb6584728eaa3b0679ffeb2af40fa577b9e3ca5e4b6a5f12d9"
+    },
+    {
+      "n": 4096,
+      "name": "s0-020480",
+      "science_sha256": "2847300969a5996c89d319468a03c3676424d20902fd75539a3c13a0eaff2893"
+    },
+    {
+      "n": 4096,
+      "name": "s0-024576",
+      "science_sha256": "87af827a55a59c0d289df2335388854e4eb8741b851fbe6a4061961bc62e6ad4"
+    },
+    {
+      "n": 4096,
+      "name": "s0-028672",
+      "science_sha256": "5f50e3a0cdecd60bbbd51b8b14689d1543aca029d906e00941f84c3c8736b944"
+    },
+    {
+      "n": 4096,
+      "name": "s0-032768",
+      "science_sha256": "53a0bf943061fa4f5fe63dd7150af6e949b0e3b6206a26b43940a2892d53973d"
+    },
+    {
+      "n": 4096,
+      "name": "s0-036864",
+      "science_sha256": "deb95893ed85c29a1db40ad73c048c096d9a23ff21aee1af6573736c74b1b4aa"
+    },
+    {
+      "n": 4096,
+      "name": "s0-040960",
+      "science_sha256": "dcf92bee6c5c832b8950779bbb28daa5e5e182c59ebf4f83a3831bdc831bf60d"
+    },
+    {
+      "n": 4096,
+      "name": "s0-045056",
+      "science_sha256": "788273e9f2bbfc289e4dfc979fd247ba7a1e9007bea3ca389e6e1c7164a7ca93"
+    },
+    {
+      "n": 4096,
+      "name": "s0-049152",
+      "science_sha256": "51884d893454bd09d19910e4d531ac4888ef58cd0ca393847e7cb1a8c15bc94c"
+    },
+    {
+      "n": 4096,
+      "name": "s0-053248",
+      "science_sha256": "22a1bba5f5ba609b9270263f5f36e5518b4cafe162b446fd10189890f768c358"
+    },
+    {
+      "n": 4096,
+      "name": "s0-057344",
+      "science_sha256": "de8e8f660657a1e9f645997057d7a86881b19c8e9c2c2a3a4e9881e76c17b72f"
+    },
+    {
+      "n": 4096,
+      "name": "s0-061440",
+      "science_sha256": "309c4b059ea69b1033081a2e89aa2022045538d52233db46edc8c69c4d7eee45"
+    },
+    {
+      "n": 4096,
+      "name": "s0-065536",
+      "science_sha256": "cc0684629245afc8c1812d7030d74c1bec78c5bcab7c0baa72d814ec98047ea8"
+    },
+    {
+      "n": 4096,
+      "name": "s0-069632",
+      "science_sha256": "b0520daba22bc259ed089bd66e7282b9522a46072fabad259505fc3497e632e0"
+    },
+    {
+      "n": 4096,
+      "name": "s0-073728",
+      "science_sha256": "e0a972c74b0a9e3d32e1a6565b1afd920739fe4f2d2d47b264a5b0ae7d3b22b7"
+    },
+    {
+      "n": 4096,
+      "name": "s0-077824",
+      "science_sha256": "f006ed390b2674d28a058d5b19d7ef4bc0ef039779f81706aa09d5f9a0eeaa22"
+    },
+    {
+      "n": 4096,
+      "name": "s0-081920",
+      "science_sha256": "c44dff97928d9142b354e75232d077e03ace5ad7d5628b44bf204d8bae033fd8"
+    },
+    {
+      "n": 4096,
+      "name": "s0-086016",
+      "science_sha256": "ad82b3245c885a9a7b3998a5db72d48f80eeba4922d326736b4ce501510e90c0"
+    },
+    {
+      "n": 4096,
+      "name": "s0-090112",
+      "science_sha256": "2cb25498a42f4f896c0c0ff8efa6f8c5a039618133f8cc146faa6406b2733b6b"
+    },
+    {
+      "n": 4096,
+      "name": "s0-094208",
+      "science_sha256": "0006b62b4f0fdfeba5a8cad343d0bc332bdd8d9d667a9309dc72038ba15a6b7f"
+    },
+    {
+      "n": 4096,
+      "name": "s0-098304",
+      "science_sha256": "b223da0eaabf763b318a3e67eee1f92cfb5f0a270b5594b1839527253709e0d8"
+    },
+    {
+      "n": 4096,
+      "name": "s0-102400",
+      "science_sha256": "92d44fe4f0f61f17c020b1f7aa17f6a0273f340c05cccffbdfeca6eb88602a26"
+    },
+    {
+      "n": 4096,
+      "name": "s0-106496",
+      "science_sha256": "0879cc361e1bb6a4dc21e8506e5cd01e89e9bd19183141464281b040b4cdb01b"
+    },
+    {
+      "n": 4096,
+      "name": "s0-110592",
+      "science_sha256": "9e815e38f45d2d1908436e4eb2c52769837da13b7c84ac1cf349050dccfbf25a"
+    },
+    {
+      "n": 4096,
+      "name": "s0-114688",
+      "science_sha256": "12f9126ba2953d870106c8b427c254fc47b1c4870d1702b85409405e30789839"
+    },
+    {
+      "n": 4096,
+      "name": "s0-118784",
+      "science_sha256": "3f4baf18efa1aa945b8c5ad817b24aaa0abef9d2bd0932c6aad5500e1d1f8e1e"
+    },
+    {
+      "n": 4096,
+      "name": "s0-122880",
+      "science_sha256": "1eccdc3d6d7185f2d1584cee5cfc2755457b0212cfc29f65d7bd8c2e26a71e75"
+    },
+    {
+      "n": 4096,
+      "name": "s0-126976",
+      "science_sha256": "5f1c8791ea93f791c7f9f4ca1b439ff5bc4787b9b784f392fb33609eeedbbc75"
+    },
+    {
+      "n": 4096,
+      "name": "s0-131072",
+      "science_sha256": "c5033c7fd112854f41fa409098fa97ec168d237c09879c86b988950b11e24dc0"
+    },
+    {
+      "n": 4096,
+      "name": "s0-135168",
+      "science_sha256": "0ac8e828c62f6c6ed79a44cb155c3d6ae0a5d5a5e1648d9efe2ac468c356e1da"
+    },
+    {
+      "n": 4096,
+      "name": "s0-139264",
+      "science_sha256": "62aea1f7443a8da7f6cfda64b819f91c9db10e0839b7c0b1b638e84444e34897"
+    },
+    {
+      "n": 4096,
+      "name": "s0-143360",
+      "science_sha256": "4f2483ae878fb36f932adabbf3620283fc92258c4b5812ae9b4c2ec311cd97fc"
+    },
+    {
+      "n": 4096,
+      "name": "s0-147456",
+      "science_sha256": "01e2379eb0e81b40d443970d8ec08fdbb1bbd23b7faa1aed2eb6b61a88765874"
+    },
+    {
+      "n": 4096,
+      "name": "s0-151552",
+      "science_sha256": "27b0dcfe7aaae6c72843f4d661f09b47a2760ab7107a631242ad1e8da186b889"
+    },
+    {
+      "n": 4096,
+      "name": "s0-155648",
+      "science_sha256": "b9d3edc54365b1857f612d1e019139bdf5a6f3063ad2a662ceea3fed9293b981"
+    },
+    {
+      "n": 4096,
+      "name": "s0-159744",
+      "science_sha256": "f2a32f7617defe022f8d3ca1bb666fd57be18de93a2cf54ef8264a50d4a0c8b4"
+    },
+    {
+      "n": 4096,
+      "name": "s0-163840",
+      "science_sha256": "77fcac1b1c63b3b09541e8644cc6ec7be4d870df0a653a0139bd57b23047128f"
+    },
+    {
+      "n": 4096,
+      "name": "s0-167936",
+      "science_sha256": "eabd4688b3206a664cde3cdc707d79500a30aea056488ff4a3fffe724c61d762"
+    },
+    {
+      "n": 4096,
+      "name": "s0-172032",
+      "science_sha256": "3d9d02d6557ba22ea0f19d3d0a11609d21ff7ded64ad7250e53a4a9b825b1540"
+    },
+    {
+      "n": 4096,
+      "name": "s0-176128",
+      "science_sha256": "baccfcec21e23471ac1a146c917aa32686eedfcb379b70b59c81d720cbaf3865"
+    },
+    {
+      "n": 4096,
+      "name": "s0-180224",
+      "science_sha256": "d97faf32ccda6577ba032340ae8fab2202a43e331f599eae6f950e72dab8286b"
+    },
+    {
+      "n": 4096,
+      "name": "s0-184320",
+      "science_sha256": "2a2a6306c99eb7911b3e5404741cf20468bccd61ad96753ef8115f2682034528"
+    },
+    {
+      "n": 4096,
+      "name": "s0-188416",
+      "science_sha256": "9933b8eca5bdb8c766a0ccf5f03715ba10d56dbb0716e43723d8423fc13653da"
+    },
+    {
+      "n": 4096,
+      "name": "s0-192512",
+      "science_sha256": "133ec77cfcb677ee4a4745f156cd52fc38a48e8a3369d11461d0dfab55e895ba"
+    },
+    {
+      "n": 4096,
+      "name": "s0-196608",
+      "science_sha256": "0ba8ea78a8ed1ede3459a946397a498b6f502b762f49202c74977a801cb227b7"
+    },
+    {
+      "n": 4096,
+      "name": "s0-200704",
+      "science_sha256": "8f24f99a014eee503a6a9a3f6eb153438325c6de3628bde6ae38459b446465cc"
+    },
+    {
+      "n": 4096,
+      "name": "s0-204800",
+      "science_sha256": "531e328920117b44b63cb4c8779a9becf6365b59b78454b482302c549984d81f"
+    },
+    {
+      "n": 4096,
+      "name": "s0-208896",
+      "science_sha256": "4aadc5a6b1505a88a0c8908b70bb7f374915c41c0763b152b6027c94090e1e93"
+    },
+    {
+      "n": 4096,
+      "name": "s0-212992",
+      "science_sha256": "d1c8ccccb076cafa68fd14a39b1353020b6ada7a5d666b9b22ca0a4cd882e9c0"
+    },
+    {
+      "n": 4096,
+      "name": "s0-217088",
+      "science_sha256": "98871dd4b5b7f878ac627ae104106e712004e550cec4ddc30900d6fba8877b65"
+    },
+    {
+      "n": 4096,
+      "name": "s0-221184",
+      "science_sha256": "e731e5cdf3228103a19417603a845dd514de27d88bde505731317f384a93ac2c"
+    },
+    {
+      "n": 4096,
+      "name": "s0-225280",
+      "science_sha256": "d0d65f5786eecde892a120ba78f91e14ff42fb79c3ba53b9d0b1c8e1462237d0"
+    },
+    {
+      "n": 4096,
+      "name": "s0-229376",
+      "science_sha256": "ad48dd99c9fbcd5d7da7a38146983419f625befe32a4c93eaa772314bf32feab"
+    },
+    {
+      "n": 4096,
+      "name": "s0-233472",
+      "science_sha256": "b8476ea4f6fbd5ba6f055e0910c6ca9188e117a17462b3e0568761ae7d977ae0"
+    },
+    {
+      "n": 4096,
+      "name": "s0-237568",
+      "science_sha256": "55ed182fa9b9259fb9833ddb95d09252e86d72c186a2a03ae41dc84d9d43411c"
+    },
+    {
+      "n": 4096,
+      "name": "s0-241664",
+      "science_sha256": "c51f45224fa9da8640529bcd47be0abc152ae3a3916e8b7fcf4bb4e0c72ec122"
+    },
+    {
+      "n": 4096,
+      "name": "s0-245760",
+      "science_sha256": "11f96d3784172a628b5a3cc8efe8e883a8da326ae454c4d87bbe0c920d33cc76"
+    },
+    {
+      "n": 144,
+      "name": "s0-249856",
+      "science_sha256": "6bd2b1457f70c9d333f2bb59df1f8a6c3bdbf2a6fecbc19873cda43223729998"
+    },
+    {
+      "n": 4096,
+      "name": "s1-000000",
+      "science_sha256": "cfc37caea6b68468332e53be773f7f014de300d7479a346f9fa5d27fc19bbecb"
+    },
+    {
+      "n": 4096,
+      "name": "s1-004096",
+      "science_sha256": "3cc4cfcceff498a059e50f9dfde519e8ab3d43687b7a257687c5005b62079f41"
+    },
+    {
+      "n": 4096,
+      "name": "s1-008192",
+      "science_sha256": "e22a9c8ed31404355dbbd1d925213b8294e5106d1e66ed27d6c3da18d1b0c641"
+    },
+    {
+      "n": 4096,
+      "name": "s1-012288",
+      "science_sha256": "47b827d7a892ab042d25811c4633f715fe506765f503e65859dac16ec082ec0f"
+    },
+    {
+      "n": 4096,
+      "name": "s1-016384",
+      "science_sha256": "3f1296f6e07508fc3f0a8f49e6298998f3f0a908522d6066d4dde9ba5753a843"
+    },
+    {
+      "n": 4096,
+      "name": "s1-020480",
+      "science_sha256": "701fac3701ee154a92b02579f3109c2cd85acd7f167efd2a9ab150b4510822e8"
+    },
+    {
+      "n": 4096,
+      "name": "s1-024576",
+      "science_sha256": "7308ceaa4d3412928aace7b825b6b1207b13d878da63a79c2dfdd9935e056ea5"
+    },
+    {
+      "n": 4096,
+      "name": "s1-028672",
+      "science_sha256": "e8c47043a983cd3dc89acde5d392c1beeb817f73a3141deaae74f30bc07eb522"
+    },
+    {
+      "n": 4096,
+      "name": "s1-032768",
+      "science_sha256": "72a01972e41883fe6419cd54191052c475447ed7240ae9bb18c489bd560e0104"
+    },
+    {
+      "n": 4096,
+      "name": "s1-036864",
+      "science_sha256": "7aaaa3271f9cb277529d9266bf3e471663f295ff2b8af84427aa8bb8680712f9"
+    },
+    {
+      "n": 4096,
+      "name": "s1-040960",
+      "science_sha256": "57d00563bcdb35b2969227eeb782845b983dba0997323ce12d1810e64a1607a9"
+    },
+    {
+      "n": 4096,
+      "name": "s1-045056",
+      "science_sha256": "1ce540321c36986ba958c69070f049f97c2d8917ea5e8168a48d32f378bd2fc0"
+    },
+    {
+      "n": 4096,
+      "name": "s1-049152",
+      "science_sha256": "33d12d605dc2506cd22d9c1008ddf1b666cd558305e49620c26921419dfa9d21"
+    },
+    {
+      "n": 4096,
+      "name": "s1-053248",
+      "science_sha256": "7365b9a1ac22cce05d34a80b1009b38da0be5ab2fbfe387374925ac6db1277c8"
+    },
+    {
+      "n": 4096,
+      "name": "s1-057344",
+      "science_sha256": "f514aff6375fc479fd925692bb8ebb7a7cb465e3919d5ac813538a85a9a213f8"
+    },
+    {
+      "n": 4096,
+      "name": "s1-061440",
+      "science_sha256": "edd1780c964e4f4ab8a7e365b0846bc63efec8f1750c9dd76e81443d9d49b358"
+    },
+    {
+      "n": 4096,
+      "name": "s1-065536",
+      "science_sha256": "d0593ce0310a3533b2f9f595208f8e503da7f2d506729d59a6a94e22b991b555"
+    },
+    {
+      "n": 4096,
+      "name": "s1-069632",
+      "science_sha256": "14457ef12b99f8a9ff147797e630840c42c0f3e9666d5910e9619ea6035367cb"
+    },
+    {
+      "n": 4096,
+      "name": "s1-073728",
+      "science_sha256": "08bd4a77dd385493ce9b23f998e117e960e2ae72cc7252e603a7a70a94d07f86"
+    },
+    {
+      "n": 4096,
+      "name": "s1-077824",
+      "science_sha256": "fbe05a2a1177ce7d75ffe372e276d5cc0bb2e3e95f9c37a45c25fc3bfb32a071"
+    },
+    {
+      "n": 4096,
+      "name": "s1-081920",
+      "science_sha256": "1b41115a16c5adf302032379be9d36f28d488984e126b18419e1617223cb52e1"
+    },
+    {
+      "n": 4096,
+      "name": "s1-086016",
+      "science_sha256": "08bb1d0a2535275c8d8a487cb42368f14fa0b8c75b6296fb25a098219b54e2cd"
+    },
+    {
+      "n": 4096,
+      "name": "s1-090112",
+      "science_sha256": "93cafb22a5353fde214136fcbab4dbd53d2c0b7d3496387f7170c479721ce1fd"
+    },
+    {
+      "n": 4096,
+      "name": "s1-094208",
+      "science_sha256": "dfd866571cdd9214d21cc3364b26ba6a0632b5f7744448027202afb13a91c303"
+    },
+    {
+      "n": 4096,
+      "name": "s1-098304",
+      "science_sha256": "0b1a232b83cdb01841017f7dbce17cfa4eb51a4b651b1364aa5d4e1268d7762a"
+    },
+    {
+      "n": 4096,
+      "name": "s1-102400",
+      "science_sha256": "d43f2978005ae9e9fa30b59eec6fe831dc43087b88569a1a9d2abfec09d23ba0"
+    },
+    {
+      "n": 4096,
+      "name": "s1-106496",
+      "science_sha256": "9f882dfadb601f52750004b412487aa4de6e2d59338eb490b4230f276e8186d5"
+    },
+    {
+      "n": 4096,
+      "name": "s1-110592",
+      "science_sha256": "62d35ccb8707d9a4089ace94de74440401467ef9c52c2ef572ccee95b77e5d28"
+    },
+    {
+      "n": 4096,
+      "name": "s1-114688",
+      "science_sha256": "fbd292cb97110ecf66c5604652afab1f984b8857ef55bb7046679d8e91c2973b"
+    },
+    {
+      "n": 4096,
+      "name": "s1-118784",
+      "science_sha256": "85f52cae48d6e220af621ce4ea69ba476cfb263f90c69b165de842a323146366"
+    },
+    {
+      "n": 4096,
+      "name": "s1-122880",
+      "science_sha256": "c4c1901e2e5c76cddcba785f16f7b1e10adf1831d2ba1511e800bda4ae91796e"
+    },
+    {
+      "n": 4096,
+      "name": "s1-126976",
+      "science_sha256": "9b7f5614120f7c991142994460bf98b553813016a2397ec86029471978c888ad"
+    },
+    {
+      "n": 4096,
+      "name": "s1-131072",
+      "science_sha256": "b464e9d242d50d90383d57ef9f5fe36151f10de51be997bd266e5dc904a95e2b"
+    },
+    {
+      "n": 4096,
+      "name": "s1-135168",
+      "science_sha256": "1480dac50c7fdae323bff63d115c01ea484dd127168f6ac101e4a80076c3d538"
+    },
+    {
+      "n": 4096,
+      "name": "s1-139264",
+      "science_sha256": "690027849660100da5f1d7696f5ac5c36133320399c53dec5af4794312e857eb"
+    },
+    {
+      "n": 4096,
+      "name": "s1-143360",
+      "science_sha256": "b5569a65741d0edda2fa68c20a8b7a386950e95377153d35c30b2fcab6767c83"
+    },
+    {
+      "n": 4096,
+      "name": "s1-147456",
+      "science_sha256": "f932ca5cf6004343df69c9dcf59b850a56f8f1d6936909ca280538f1fc93ad87"
+    },
+    {
+      "n": 4096,
+      "name": "s1-151552",
+      "science_sha256": "5e5a667a07ed79c0fcbcc6fd018a4cd96ab889f85ceff61f070f8c3bac23b2f8"
+    },
+    {
+      "n": 4096,
+      "name": "s1-155648",
+      "science_sha256": "28dd8c7fa137f591f9a2992f3935ee5eb7f9939c844e98909814a2208da83304"
+    },
+    {
+      "n": 4096,
+      "name": "s1-159744",
+      "science_sha256": "90ec4f0ac12d6679daab4fd3f1c32077976666096c695af89432124bcfc37261"
+    },
+    {
+      "n": 4096,
+      "name": "s1-163840",
+      "science_sha256": "1303d4d67f739bc86d0c6e81b8a9700d5c1c5b7aaa87d624811fda7d98363542"
+    },
+    {
+      "n": 4096,
+      "name": "s1-167936",
+      "science_sha256": "8b469195ef15351528517348a8595e5e71ada6479297609f4fac23c9ca2574dd"
+    },
+    {
+      "n": 4096,
+      "name": "s1-172032",
+      "science_sha256": "32b7bda385233adfa6646ba52fa896a31afe55551ef8e5c4eb7486bd27cc57bb"
+    },
+    {
+      "n": 4096,
+      "name": "s1-176128",
+      "science_sha256": "0fa3bbb1019ce541ec0f3a867db36e2467063106cd430c34bfcf0ad036786bb6"
+    },
+    {
+      "n": 4096,
+      "name": "s1-180224",
+      "science_sha256": "9c5e61c00125b53106a0bfa6ee241e56c1702ce5da30b501f992b2d62a319a8d"
+    },
+    {
+      "n": 4096,
+      "name": "s1-184320",
+      "science_sha256": "8dd939da6bd3de698d439e16c0ed447b5b75031a2cbee4c49ed66e9ebb8c8bf0"
+    },
+    {
+      "n": 4096,
+      "name": "s1-188416",
+      "science_sha256": "38654d47b65c847805fa31a84f8a05b7fc21cb750877ad3a079c3f1ecec09fb7"
+    },
+    {
+      "n": 4096,
+      "name": "s1-192512",
+      "science_sha256": "89c57f349f0148bc89032359f8a8acd3f5b40d6ad80d77a2c1a6ca158aac36af"
+    },
+    {
+      "n": 4096,
+      "name": "s1-196608",
+      "science_sha256": "4d6087531cf8f4daab27c21615223c91e697e6fb300b554e49ae15ec53e5159f"
+    },
+    {
+      "n": 4096,
+      "name": "s1-200704",
+      "science_sha256": "fd8c4cde6379c13acfea752a13c5a4b86c183288297ef435b336b19246320b2d"
+    },
+    {
+      "n": 4096,
+      "name": "s1-204800",
+      "science_sha256": "63b9b3a7bf371779ef90645f8397b84850bae303d1b073b2551373f39cc8289e"
+    },
+    {
+      "n": 4096,
+      "name": "s1-208896",
+      "science_sha256": "b6153b98bcd302e52fc733221220b495057c91ba8e38c995c1170acf0f01aca2"
+    },
+    {
+      "n": 4096,
+      "name": "s1-212992",
+      "science_sha256": "8aa05cab2056da7b32bd0e13dabcbc09c003e450cd6ed4307f631fd73fd040dd"
+    },
+    {
+      "n": 4096,
+      "name": "s1-217088",
+      "science_sha256": "c7c565c1b602db9a9cef72de2a8fecd4a0c7a533f9fca0b4a7d6cdf60ac28ecf"
+    },
+    {
+      "n": 4096,
+      "name": "s1-221184",
+      "science_sha256": "746f6c0ee19aef7f2381e5c881477bf305a2a6473d6d2fb22131115c7d265514"
+    },
+    {
+      "n": 4096,
+      "name": "s1-225280",
+      "science_sha256": "f3361dd5ae587fa2bb8e6ea5c260f414ff68c43933c912feed25c8b088f13140"
+    },
+    {
+      "n": 4096,
+      "name": "s1-229376",
+      "science_sha256": "3b3d69df190918f4295157ce39203d9c67b3086e645fc97aba004f3658520f5a"
+    },
+    {
+      "n": 4096,
+      "name": "s1-233472",
+      "science_sha256": "b8854dc35bd26ae76967c8c21a86e896ae21ec70855418b80fc97373071c0238"
+    },
+    {
+      "n": 4096,
+      "name": "s1-237568",
+      "science_sha256": "b790d7c4b126089d89515d81a9963ac60fd48b0140049e275835d39d0043435e"
+    },
+    {
+      "n": 4096,
+      "name": "s1-241664",
+      "science_sha256": "1f780a113cf0a69fb63114887858298a26f8bffaf4c5be96a891cd5f74d7bc8a"
+    },
+    {
+      "n": 4096,
+      "name": "s1-245760",
+      "science_sha256": "fdc4742125678e189b5ef05cf4e099c7ef9641edfa7d34986d2e7a64218a4875"
+    },
+    {
+      "n": 144,
+      "name": "s1-249856",
+      "science_sha256": "f392be670ebd7bf9ffc203babc7b13e450ee66a3c4acb135564510a701330bd9"
+    },
+    {
+      "n": 4096,
+      "name": "s2-000000",
+      "science_sha256": "ab4893b2a1a9632a3b97310cd571f325855cc632abc32333b45debf2f9d24c2c"
+    },
+    {
+      "n": 4096,
+      "name": "s2-004096",
+      "science_sha256": "a6e5a870b68b6f0416afb49726c06e1052859918f8986faa581b01290aa1193e"
+    },
+    {
+      "n": 4096,
+      "name": "s2-008192",
+      "science_sha256": "b18c75e0a55b80e938e61b2a2ed432a19d94534efc100d1db2b80d3d684a27eb"
+    },
+    {
+      "n": 4096,
+      "name": "s2-012288",
+      "science_sha256": "1ee3538767a7f5187b41f37f37e617e3f9c0aa7400f0f2971c3acb8e6de57ac5"
+    },
+    {
+      "n": 4096,
+      "name": "s2-016384",
+      "science_sha256": "bc2e66710be976bdc8fa828aaa84b50029e9a70903d9e523ee7cc9e75dcc2bea"
+    },
+    {
+      "n": 4096,
+      "name": "s2-020480",
+      "science_sha256": "b19d42568d865f854646d93e872ea3a3d05a7b77119e64ed0879b044ee0e4b78"
+    },
+    {
+      "n": 4096,
+      "name": "s2-024576",
+      "science_sha256": "5c8859763dca42de8f0437ba9d2f95530e0821711c3a51ced2a56f2d9f34f30f"
+    },
+    {
+      "n": 4096,
+      "name": "s2-028672",
+      "science_sha256": "4dcd84c1e2ddd0b3f9fbd9ed58996fa55764d042b119cf84ff92a52c57b15459"
+    },
+    {
+      "n": 4096,
+      "name": "s2-032768",
+      "science_sha256": "9c1b50e8b66ffa79b899728c71c4ecc4af4c85ccaa971aa51926f0fc74918a9f"
+    },
+    {
+      "n": 4096,
+      "name": "s2-036864",
+      "science_sha256": "aaaee4163943ae4ed7777072b66ae82879a22bc1b92345b138c0842ed7e13cc0"
+    },
+    {
+      "n": 4096,
+      "name": "s2-040960",
+      "science_sha256": "dec9efcbe377888c0a37dc8b9680da3341d8588e71dc8401c4333083322d3974"
+    },
+    {
+      "n": 4096,
+      "name": "s2-045056",
+      "science_sha256": "4552e68a7611d6adefd31af908fc914f6f12c0c7cc974dd4dd5d19762bd1c7ab"
+    },
+    {
+      "n": 4096,
+      "name": "s2-049152",
+      "science_sha256": "ddfcb2ea37feaaa54b9d0d7edf8e534c2ea0883ac4408c604137781af973b914"
+    },
+    {
+      "n": 4096,
+      "name": "s2-053248",
+      "science_sha256": "8f937eaa223ecbeec6275487523a837d3f45b68cdb0510295c929d3e2ac94703"
+    },
+    {
+      "n": 4096,
+      "name": "s2-057344",
+      "science_sha256": "a63d033626ba6851da73c4d07aad3deb91cd212ca8ea20aa07fc5e9dba4d51ee"
+    },
+    {
+      "n": 4096,
+      "name": "s2-061440",
+      "science_sha256": "e16578a57bda5a476a709e07b4b996f2cdc461da25ae191a14308dde62afd3c2"
+    },
+    {
+      "n": 4096,
+      "name": "s2-065536",
+      "science_sha256": "71bba84129b9849c44e95c10e5f0808800d5ffc501f56093ac30c30ab5276458"
+    },
+    {
+      "n": 4096,
+      "name": "s2-069632",
+      "science_sha256": "859782404d94ba81a568fa271d0e246247351ca464d2eb375719b9ac2b02768e"
+    },
+    {
+      "n": 4096,
+      "name": "s2-073728",
+      "science_sha256": "92dbc50ed5ff9c56f755cbb4f412238a1867284bbc1ad001273f247d0cc8c264"
+    },
+    {
+      "n": 4096,
+      "name": "s2-077824",
+      "science_sha256": "b2b858549e83cdb5f202a1585b231d8b52a92d40b541cf07af6837ba6d0e050f"
+    },
+    {
+      "n": 4096,
+      "name": "s2-081920",
+      "science_sha256": "fc5da95a6367ecc8dce5d72c7c0177d9e19a352638b564735a0333ae6241e12e"
+    },
+    {
+      "n": 4096,
+      "name": "s2-086016",
+      "science_sha256": "8ae4f4f1232f0c1ca2c812dcd3f79b9ae55e50b7a913585d4c2eb01a0de02c76"
+    },
+    {
+      "n": 4096,
+      "name": "s2-090112",
+      "science_sha256": "1e6246a40ffa21d0db5239c4da4647582272e939ca8ced09906c3d6b085b0443"
+    },
+    {
+      "n": 4096,
+      "name": "s2-094208",
+      "science_sha256": "91443e48e87c2bbce4c33479751633905e6ffc3828faef245a3b5d19d948d860"
+    },
+    {
+      "n": 4096,
+      "name": "s2-098304",
+      "science_sha256": "e2817d6db88c06fc26db4b47deecc304cd94e817d1855973c0d8e1c0417464a0"
+    },
+    {
+      "n": 4096,
+      "name": "s2-102400",
+      "science_sha256": "507edb209942f0e4c852cbedb53254876b0d09970e3881a3d97329f768a22695"
+    },
+    {
+      "n": 4096,
+      "name": "s2-106496",
+      "science_sha256": "ce3596f4bce6b39f7097c5d46ee66c108bc1a47a9393feed3a872eee201a19b1"
+    },
+    {
+      "n": 4096,
+      "name": "s2-110592",
+      "science_sha256": "d616b4650dbd913d72222205300f62319597fd2e0d3a997d83bf6e84f8aedf2d"
+    },
+    {
+      "n": 4096,
+      "name": "s2-114688",
+      "science_sha256": "6b954d2ef74f2aee55bc750193f1369c65a647aa4ba3be0a8d345a88315698f4"
+    },
+    {
+      "n": 4096,
+      "name": "s2-118784",
+      "science_sha256": "4931cb8a0b13cee20777aec16b15adf6a6771c1120e27f66da4984166eee1b08"
+    },
+    {
+      "n": 4096,
+      "name": "s2-122880",
+      "science_sha256": "da392d16fc030a1d10359afa55fd4692d8354397d286889ffb27f099f7182b76"
+    },
+    {
+      "n": 4096,
+      "name": "s2-126976",
+      "science_sha256": "323fe2851959853949afea2e738c5cbf1337fbd4706593b4feb6dba717693075"
+    },
+    {
+      "n": 4096,
+      "name": "s2-131072",
+      "science_sha256": "77c90665be5cbd33b0b1d2bcb95a4d1c1961b051c7a3a9a925283db71b701808"
+    },
+    {
+      "n": 4096,
+      "name": "s2-135168",
+      "science_sha256": "fc64d61ebe80d91e2bcdad67b2909dbcaea0678419e13c4f3f112d2f46818650"
+    },
+    {
+      "n": 4096,
+      "name": "s2-139264",
+      "science_sha256": "e0b7f9725a9db7fb908615f8e62ca64bab3b536c085c8a7fcdca4dfa5d44fa3d"
+    },
+    {
+      "n": 4096,
+      "name": "s2-143360",
+      "science_sha256": "646653156d8de7d9f24c41c67f15ad5881694644ce2b75cfd8f92a70a75c56fa"
+    },
+    {
+      "n": 4096,
+      "name": "s2-147456",
+      "science_sha256": "a852b86bfaad290672844b16a8cce53f6b983f33b359aabb62b9262994a604b4"
+    },
+    {
+      "n": 4096,
+      "name": "s2-151552",
+      "science_sha256": "141e8305d01333ebe63ec121b7a0645f3e659a26dc63555fb6ca7a99e71948c3"
+    },
+    {
+      "n": 4096,
+      "name": "s2-155648",
+      "science_sha256": "103ab0cec0ae1a262d15b15d645b405fa06f0c4580d7a6a3178237175cebe608"
+    },
+    {
+      "n": 4096,
+      "name": "s2-159744",
+      "science_sha256": "041b453b52229b111fe705f8ced15b2b695ad1691071da30cd9e761263a12e9d"
+    },
+    {
+      "n": 4096,
+      "name": "s2-163840",
+      "science_sha256": "a9aa81d79da285bc9cebbad7ba043c15fe85129411701d7ff4ce0ba3e0003c2b"
+    },
+    {
+      "n": 4096,
+      "name": "s2-167936",
+      "science_sha256": "d02ad0001a70302c2f29f979da2d3243cc185795b89f48f5f9e6663df482de5d"
+    },
+    {
+      "n": 4096,
+      "name": "s2-172032",
+      "science_sha256": "892f36c6b61ff9efb0bcaaf773bbdce95b050ddfc853eb01b83faff7a284756d"
+    },
+    {
+      "n": 4096,
+      "name": "s2-176128",
+      "science_sha256": "200695ca358541c998f4302e1d3f36b577549d15606c664a9b9f730a1d010fd2"
+    },
+    {
+      "n": 4096,
+      "name": "s2-180224",
+      "science_sha256": "fde39b51441e96b0d287f07bdc80fe317f6e97bc23da9b5536156c8b4ad287ef"
+    },
+    {
+      "n": 4096,
+      "name": "s2-184320",
+      "science_sha256": "fc042d11a23ee72d68542185a0aa092b563797c3ea7ebd3f512df1f3d209fc6f"
+    },
+    {
+      "n": 4096,
+      "name": "s2-188416",
+      "science_sha256": "ba880375369b550a994fe8f7ce4c5831570adfad1fc564267be108569c259110"
+    },
+    {
+      "n": 4096,
+      "name": "s2-192512",
+      "science_sha256": "9244fab9f5311cf8e34eccaff9fbd2838adce3c13bc6efb46de1b4b1afc712b7"
+    },
+    {
+      "n": 4096,
+      "name": "s2-196608",
+      "science_sha256": "87ba50a49512ace00396b8e32fb9d82649965b061fba952d3465033bd746d1ad"
+    },
+    {
+      "n": 4096,
+      "name": "s2-200704",
+      "science_sha256": "5f8828fe9166c8c5c42c785caefc9e3d9220b5e041c13b4a439600883f41fa69"
+    },
+    {
+      "n": 4096,
+      "name": "s2-204800",
+      "science_sha256": "db696582ad901f53d7608b4a124ffeb80d3e600edcf21cefc8f2ae22cfc8c8e8"
+    },
+    {
+      "n": 4096,
+      "name": "s2-208896",
+      "science_sha256": "15b96ad85829080817af3225f8b6765d4e2c22f405f930aaecab1fa72ea12228"
+    },
+    {
+      "n": 4096,
+      "name": "s2-212992",
+      "science_sha256": "80b662709dffb5af3ddaf2b7e4cda5241f9a3360cf77de1298be3923e1f04170"
+    },
+    {
+      "n": 4096,
+      "name": "s2-217088",
+      "science_sha256": "b89c4a6b375b358dda4cf270a180d3ac6dc76177be484314766b4effe8ff7d15"
+    },
+    {
+      "n": 4096,
+      "name": "s2-221184",
+      "science_sha256": "7e03a2d2d3540f47113684d4033d5904cad08cd2ca31057d2c3e0f17dac23ba0"
+    },
+    {
+      "n": 4096,
+      "name": "s2-225280",
+      "science_sha256": "e56f789605ede705e8d4417a904fa6bc70ef3eb5b8da490bdba709595afb0faf"
+    },
+    {
+      "n": 4096,
+      "name": "s2-229376",
+      "science_sha256": "f6fda2f04509490eeb65b1ff19e0dd039f172abb77d172c650bcf771b5806c1c"
+    },
+    {
+      "n": 4096,
+      "name": "s2-233472",
+      "science_sha256": "24eab60d2ff342d9e113f4f060ea9549a0d6e23ab481ef766b637d7a86633588"
+    },
+    {
+      "n": 4096,
+      "name": "s2-237568",
+      "science_sha256": "9e6a0a09a2a504ae0b24e38c78b054be462cf04efa03623c0628b91ffc8d7ff0"
+    },
+    {
+      "n": 4096,
+      "name": "s2-241664",
+      "science_sha256": "55feb7d1f3b10cf688d1ffda702bcf125eb55ff7d996ea4029394ab500fcabf7"
+    },
+    {
+      "n": 4096,
+      "name": "s2-245760",
+      "science_sha256": "08c96d15ca5e806fc86e52db41d660179c07aae69e9f5ac85ffdf3f3f346a2b3"
+    },
+    {
+      "n": 144,
+      "name": "s2-249856",
+      "science_sha256": "d91e81f9e6e3b1022f1d57a83b8b0a33c82d3e0f83a1e5c4af78183e11fa052d"
+    },
+    {
+      "n": 4096,
+      "name": "s3-000000",
+      "science_sha256": "732b9eb395ec89314d889889eec741f812511afd2697375aa37f37e9eac3ee89"
+    },
+    {
+      "n": 4096,
+      "name": "s3-004096",
+      "science_sha256": "150c31681cd3deed0779a4a190d8f7daafd30a60544ff54414aa45ad5b452a35"
+    },
+    {
+      "n": 4096,
+      "name": "s3-008192",
+      "science_sha256": "53be493e6e9d4a735ca4bbdeb57f9263d48ab3fd092b7b016315d444c1157d4d"
+    },
+    {
+      "n": 4096,
+      "name": "s3-012288",
+      "science_sha256": "e86e072517b3c6c90ff069222eac30d095b0bd95f09cf7df36b41b965e17ffe0"
+    },
+    {
+      "n": 4096,
+      "name": "s3-016384",
+      "science_sha256": "ccb5772427062a9c0196be8ecfe8c83169363828f95200e57ae6799e3619ff8a"
+    },
+    {
+      "n": 4096,
+      "name": "s3-020480",
+      "science_sha256": "8b2863a0c8d559730db98cde0f8542155dfd873cba4f323ffea85e17c2483baa"
+    },
+    {
+      "n": 4096,
+      "name": "s3-024576",
+      "science_sha256": "c9567075da207884102d6bcfebe4d96293bd774e2b1c25fb012fcbe1dd582d46"
+    },
+    {
+      "n": 4096,
+      "name": "s3-028672",
+      "science_sha256": "d103d2c1a95c14ae7fc9357a8645ac927f3a65735d14fb32350d32f81516f5f1"
+    },
+    {
+      "n": 4096,
+      "name": "s3-032768",
+      "science_sha256": "faa6582bd4cef88883e6730ec19a503274b80b34fdeef6f92bbdae87e4617726"
+    },
+    {
+      "n": 4096,
+      "name": "s3-036864",
+      "science_sha256": "0122e05823098d6c20efcfd1cdf3187ba0011b4207ad03401929ec79a8c86671"
+    },
+    {
+      "n": 4096,
+      "name": "s3-040960",
+      "science_sha256": "e15895a0ace70d47457ad4a68993494d62dbcd08b7d5f731de8e5698380029b2"
+    },
+    {
+      "n": 4096,
+      "name": "s3-045056",
+      "science_sha256": "0a7cfb60d2f0189ce6e891b733c819b743082d8e349ade0d057ddce5f9e82902"
+    },
+    {
+      "n": 4096,
+      "name": "s3-049152",
+      "science_sha256": "7cd434333d2b5a579c238d520ed4637df74191107a8a40ae3d5921750e6fd0c1"
+    },
+    {
+      "n": 4096,
+      "name": "s3-053248",
+      "science_sha256": "817a3d81c91c64ae5efec3f5430e76152846ed9e2ac4d9a846657294cf6f78ce"
+    },
+    {
+      "n": 4096,
+      "name": "s3-057344",
+      "science_sha256": "72d2d83e6c04bdca99724de9f1083d78f1cd581905d4945e48fd9eca8e97b49d"
+    },
+    {
+      "n": 4096,
+      "name": "s3-061440",
+      "science_sha256": "5c82274ab39785cc554256aa63bad1427033d37215a8918b52eb8e6e3cc4955b"
+    },
+    {
+      "n": 4096,
+      "name": "s3-065536",
+      "science_sha256": "7bba3430414cfbfb836404a86c1242afc2acf5d10402197821cebe47d4aa9272"
+    },
+    {
+      "n": 4096,
+      "name": "s3-069632",
+      "science_sha256": "cfc128686e1b4508156790b093961ded0ac38cb18fc5c5e2d2081124048c4e3b"
+    },
+    {
+      "n": 4096,
+      "name": "s3-073728",
+      "science_sha256": "1809ec384f6ca98562e34d4c28ee0dd2cc48194ad29ff69170e9caf9e0b63b32"
+    },
+    {
+      "n": 4096,
+      "name": "s3-077824",
+      "science_sha256": "ed76df439ac22c87ad1f9ae9ac7914a7cf9228cafaa6a370aed7c33a112e161d"
+    },
+    {
+      "n": 4096,
+      "name": "s3-081920",
+      "science_sha256": "6764c220e0825acc4b73dd0277b1a8d0af5e163a7c7ae514a044273ac38c11ae"
+    },
+    {
+      "n": 4096,
+      "name": "s3-086016",
+      "science_sha256": "ed6f9737a06deb9b4246a9c108a50f1815dafd68f62cfe967adcad3dabf10c6d"
+    },
+    {
+      "n": 4096,
+      "name": "s3-090112",
+      "science_sha256": "1e2c2363ddd82c95ae8c73bf166d8e2b0caf948b54ef34e370e748fcd7ad7b4b"
+    },
+    {
+      "n": 4096,
+      "name": "s3-094208",
+      "science_sha256": "689cd286c82f8170336d1cc7e30999610028b0faeb621ba4339a32ad57dc7a33"
+    },
+    {
+      "n": 4096,
+      "name": "s3-098304",
+      "science_sha256": "09bdb74545e7964f075eb8e96022e24e860dc5a8efcc9da2a0e978e40e3a99db"
+    },
+    {
+      "n": 4096,
+      "name": "s3-102400",
+      "science_sha256": "329ace1e5075a04818b07d36e5aae3f57bca094247c52d4e4bde21a38f2ede43"
+    },
+    {
+      "n": 4096,
+      "name": "s3-106496",
+      "science_sha256": "238cd98a4e6c2f7d316b199d23618560cea791fb3afe9f004603bd9395b7f4a8"
+    },
+    {
+      "n": 4096,
+      "name": "s3-110592",
+      "science_sha256": "298487f5e1a3e0d08f17801c5ec2cd7a08d4426b5da18cd3205b58b424b47e9b"
+    },
+    {
+      "n": 4096,
+      "name": "s3-114688",
+      "science_sha256": "427aef670079b21a8edc0b0a4886c500901d4bba8c7a8a8071d24b3f61b229f4"
+    },
+    {
+      "n": 4096,
+      "name": "s3-118784",
+      "science_sha256": "8bb7d64c309e6a7a0d5e8bb0449221615d2d3f098d23ef9d61299c88b97b8cfb"
+    },
+    {
+      "n": 4096,
+      "name": "s3-122880",
+      "science_sha256": "bbbe1a78f0ffa7a899be16b8c3b10dd1cffa22701179c7fffc0cbacb2817699d"
+    },
+    {
+      "n": 4096,
+      "name": "s3-126976",
+      "science_sha256": "232d5db3b14050a44adf6918dc0a0a214d9e81d1165c49afc659a56f782f7879"
+    },
+    {
+      "n": 4096,
+      "name": "s3-131072",
+      "science_sha256": "6872af85cfa9f55500c0cff0ba802e8c6e69b534735f4ce98e7e92c6bfd30e12"
+    },
+    {
+      "n": 4096,
+      "name": "s3-135168",
+      "science_sha256": "36951b684fcadefd673c8564df819e36f19837a3201f9cc2b2f5e8163377621f"
+    },
+    {
+      "n": 4096,
+      "name": "s3-139264",
+      "science_sha256": "973540bbdc7dceed47cc67d1ace2bbeef0b97d2a9c7513e08fa3b890de98c59b"
+    },
+    {
+      "n": 4096,
+      "name": "s3-143360",
+      "science_sha256": "eebff6549fae999a83630c21c8f3f2d8ba17d19131675b86ca599f849c93546e"
+    },
+    {
+      "n": 4096,
+      "name": "s3-147456",
+      "science_sha256": "e6c67d6fd682e0dedfd08083246e7924cf8b23da7cbaa3bf6e44765c6e93af4e"
+    },
+    {
+      "n": 4096,
+      "name": "s3-151552",
+      "science_sha256": "35f8d7b250bdb02a2130004a6f7cf77e9cf405eef898c66f56e3832eb6b45c58"
+    },
+    {
+      "n": 4096,
+      "name": "s3-155648",
+      "science_sha256": "6ac2dafad6f80fe68b7d3d32cce481937e4d12d6cd5e8f6ea04e2be63b968236"
+    },
+    {
+      "n": 4096,
+      "name": "s3-159744",
+      "science_sha256": "6aeafbb60e3cb748dcac7cd2bab1a82fbf37e7d78bd65f3b65c4f82c903bb59a"
+    },
+    {
+      "n": 4096,
+      "name": "s3-163840",
+      "science_sha256": "14e37ec450eac6fa3a732356441eb4f1a993e07b9d6bf85d64b98854aa0d152c"
+    },
+    {
+      "n": 4096,
+      "name": "s3-167936",
+      "science_sha256": "6942f1bdf6a1f5679424860065650105c22078a2fadbefda5f21a3a7e25b93b4"
+    },
+    {
+      "n": 4096,
+      "name": "s3-172032",
+      "science_sha256": "e3e5260c6162ff86309a429a5b2ac229ed2f138ad6c556c09545bbeefb219c76"
+    },
+    {
+      "n": 4096,
+      "name": "s3-176128",
+      "science_sha256": "bb298d192a6377bab0408cc08d962e8d8bf3fbaa77343ba3e9dbcbcb1ef02615"
+    },
+    {
+      "n": 4096,
+      "name": "s3-180224",
+      "science_sha256": "e7b3695c9bc08bb53320ffe30f753f968c225b455a486bef9954dbabc5458e08"
+    },
+    {
+      "n": 4096,
+      "name": "s3-184320",
+      "science_sha256": "498f8403bf1a3af31ae0c3498789dd6018c45a2ada98c99727ecfcf03ff23541"
+    },
+    {
+      "n": 4096,
+      "name": "s3-188416",
+      "science_sha256": "a3774874bdec728f92f644fec82c2c5984ac94a9050855e9da3c74833f74408b"
+    },
+    {
+      "n": 4096,
+      "name": "s3-192512",
+      "science_sha256": "2d3e8edac16697648d8ad15b80e8ca60c41b1b6e59fa3e7800a8d959e9b9db18"
+    },
+    {
+      "n": 4096,
+      "name": "s3-196608",
+      "science_sha256": "84a38bdd9badfd9d98e9b7ff4f3594bef41209ed1f1e26273ceb646eefa237b0"
+    },
+    {
+      "n": 4096,
+      "name": "s3-200704",
+      "science_sha256": "09a2af65e628e4a30d740fa0a6c51a8cd953583be7bbdb6f48b235fdde163874"
+    },
+    {
+      "n": 4096,
+      "name": "s3-204800",
+      "science_sha256": "415d670d750abba345390c7191768b3bb66d5ad80fc16f5e560539d04f978b87"
+    },
+    {
+      "n": 4096,
+      "name": "s3-208896",
+      "science_sha256": "a1af129e8cebd7fdea80ec9a050f6f64a960323526ca4253e21834220f6fe9fc"
+    },
+    {
+      "n": 4096,
+      "name": "s3-212992",
+      "science_sha256": "7c55c3d44f95366b16157b3d0994277abb81c330dd3135faffbf111a4419e4b9"
+    },
+    {
+      "n": 4096,
+      "name": "s3-217088",
+      "science_sha256": "c51d60cfd69b1c6ea7decad8bdce508401a04bb69977f59306c4251df4be053c"
+    },
+    {
+      "n": 4096,
+      "name": "s3-221184",
+      "science_sha256": "2c87a160df4010402e6f1538bf46484a05070496ff334426f33d7e9540435fb1"
+    },
+    {
+      "n": 4096,
+      "name": "s3-225280",
+      "science_sha256": "6a355dacad8ac1705fa1a4d072895c329901df0281007614bdd94def2f8dd2fb"
+    },
+    {
+      "n": 4096,
+      "name": "s3-229376",
+      "science_sha256": "8217a39069c60f27469343ab37d0f80e0fe02e3580ebebf502f37230f76628f3"
+    },
+    {
+      "n": 4096,
+      "name": "s3-233472",
+      "science_sha256": "a8516489b467ba16bddbce08bae21e65d04cefd5e1eddb5923e131932cabb722"
+    },
+    {
+      "n": 4096,
+      "name": "s3-237568",
+      "science_sha256": "52ec43a5855cc430e48c5f6a9d722d47f91163db36d48ad0b68e07b09946f06a"
+    },
+    {
+      "n": 4096,
+      "name": "s3-241664",
+      "science_sha256": "0f81063267d39c7610ab2e679a578c460af2a445995716e0c3a96ee5a22b1f36"
+    },
+    {
+      "n": 4096,
+      "name": "s3-245760",
+      "science_sha256": "6fb7b2497c1859b90b6b98c9fe5339c0624989518399334bc355c71ff51256a3"
+    },
+    {
+      "n": 144,
+      "name": "s3-249856",
+      "science_sha256": "c63be58b60798b94eac5416b9d3e4f2882009157ed6cd1d324cabe4a27a34d4a"
+    }
+  ],
+  "edge_definition": "An actual integer point in the full source run doubles/folds into the full target run. These edges differ from the first-k-window containment echoes.",
+  "input_count_audit_sha256": "523acaf67b2554ae67d131f7932b22e0f57075dd4072d979d67a3d468dc0c0f0",
+  "limits": "Descriptive extension of an already explored sample; no independent primary inference, fitted model or global Poisson law.",
+  "n": 1000000,
+  "proof_checks": "Every edge has an integer position witness; its two endpoint colours are checked with exact modular powers. All edge shifts equal chi3(2), so a directed cycle of length d requires d*chi3(2)=0 mod3.",
+  "qualification_sha256": "4a81eff2ef0b14adf63fe4dc5b04b2b365659701eaf214355b6639c4e70d7209",
+  "raw_witnesses_sha256": "c70e49d9b1a8e3d21561a38d67833aba1cdf2b0892ab9c0e485b59e86fd280c0",
+  "scope": "Every ordinary canonical maximal run>=21 in the existing million; both folded doubling branches, self edges included. Directed simple cycles of lengths1,2,3 enumerated; longer cycles are not claimed absent.",
+  "status": "PASS_ALL_MILLION_ORDINARY_RUN21_DOUBLING_GRAPHS",
+  "summary_by_stratum": {
+    "0": {
+      "cycles_length1": 86,
+      "cycles_length2": 1,
+      "edges": 155,
+      "ordinary_runs21": 257816,
+      "ordinary_runs_in_weak_edge_graph": 221,
+      "primes": 250000,
+      "primes_with_cycle": 87,
+      "primes_with_edge": 152
+    },
+    "1": {
+      "edges": 37,
+      "ordinary_runs21": 256265,
+      "ordinary_runs_in_weak_edge_graph": 74,
+      "primes": 250000,
+      "primes_with_cycle": 0,
+      "primes_with_edge": 37
+    },
+    "2": {
+      "cycles_length1": 81,
+      "cycles_length2": 3,
+      "edges": 161,
+      "ordinary_runs21": 361270,
+      "ordinary_runs_in_weak_edge_graph": 235,
+      "primes": 250000,
+      "primes_with_cycle": 83,
+      "primes_with_edge": 156
+    },
+    "3": {
+      "edges": 45,
+      "ordinary_runs21": 359457,
+      "ordinary_runs_in_weak_edge_graph": 90,
+      "primes": 250000,
+      "primes_with_cycle": 0,
+      "primes_with_edge": 45
+    }
+  },
+  "witness_prime_records": 390,
+  "witnesses_sha256": "767ad1676b886d8252b98a53110068ba7b3215e128aac918b5dacf5d2bf5d710"
+}

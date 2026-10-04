@@ -18,6 +18,8 @@ jobs:
         run: |
           python3 -B scripts/verify_atlas.py
           python3 -B -m unittest discover -s tests
+      - name: Verify the fixed million ternary profiles and long-run positions
+        run: python3 -B scripts/verify_ternary.py
       - name: Verify mathematical certificates
         run: |
           python3 -B reproducibility/proofs/verify_synthesis.py

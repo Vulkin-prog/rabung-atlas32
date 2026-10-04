@@ -1,0 +1,9 @@
+{
+  "status": "PASS_FULL_EXISTING_MILLION_COUNT_EXTENSION",
+  "n": 1000000,
+  "canonical_runs18": 33257058,
+  "canonical_runs21": 1235473,
+  "protocol_sha256": "e5ce9422e0b6635087a6699483af7b9849272ad8b260d04bf9f84effe0f1163a",
+  "original_complete_sha256": "7be3962ba3a47c58ec7d0b4bbe80a5a8ab08420372727d7ee5ed11e17f998678",
+  "publication_note": "Block identities are in manifest.json; the original COMPLETE hash is a historical anchor, not the hash of this selected publication metadata."
+}

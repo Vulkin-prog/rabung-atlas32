@@ -1,0 +1,17 @@
+{
+  "all_retained_canonical_runs18": 112370,
+  "counts_sha256": "e32ea89f9893850838e1861f0f767db3137d5cc64f214f756d8c74e19173ef8a",
+  "n": 4096,
+  "packed_bytes": 87130,
+  "packed_sha256": "972bef5bc52c872049c68a2385bade207cde7d12c7aaba54268661a1333a0838",
+  "parent_frame_sha256": "203ae4621c02e7ba6484329f8ed0e5ba1bd6e239afaa5afa4a2cda332df99f9f",
+  "parent_science_sha256": "91afcc57c397480e048569f3610dab14a21d6dd36b6b7e8ebfd7c05b97c0cf70",
+  "positions21_sha256": "7a17f8dbe2686fb4cb2394f33d383c800f391913ae10f6a362f43272531be685",
+  "prime_hash": "356d1b74fc54ea0a60193b18f88565aec915dd8e66542438119b2a6a660abf7c",
+  "protocol_sha256": "e5ce9422e0b6635087a6699483af7b9849272ad8b260d04bf9f84effe0f1163a",
+  "retained_canonical_runs21": 4160,
+  "s": 1,
+  "science_sha256": "85f52cae48d6e220af621ce4ea69ba476cfb263f90c69b165de842a323146366",
+  "start": 118784,
+  "status": "PASS_COUNT_CATALOGUE_BLOCK"
+}

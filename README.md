@@ -112,6 +112,32 @@ NVIDIA toolchain. No GPU calculation is started by any default command or CI.
 Historical binaries, machine-specific monitors and launch scripts are omitted.
 See [REPRODUCTION.md](docs/REPRODUCTION.md) for worker protocols and limitations.
 
+## Fixed million ternary profiles and long-run positions
+
+The [ternary-million supplement](data/ternary-million/) is committed directly
+in Git: **1,000,000 sampled profiles** in **[2^33, 2^34)**, split into four
+fixed strata, with exact M, L and K, ordinary and canonical counts at
+thresholds 18..27, and **1,235,473 canonical maximal-run positions at length
+at least 21**. It contains 33,257,058 canonical maximal runs at length at least
+18. Positions at lengths 18..20 were not retained for the full million.
+
+This existing descriptive supplement is separate from the complete atlas
+below 2^32. The 248 count blocks, four prime lists, parent profiles, doubling
+graph witnesses and collector sources are included with original hash anchors
+and publication provenance. No extra download or GPU calculation is required.
+
+```bash
+python3 -B scripts/verify_ternary.py
+python3 -B scripts/query_ternary.py 8611114591
+```
+
+The verifier checks the entire stored million and all long positions, repeats
+1,189 exact full-run CPU checks and reconstructs all 398 doubling edges.
+The [supplement documentation](data/ternary-million/README.md) explains
+canonical reflection, colour labels, binary formats and CSV exports. This
+sample includes the earlier 512 diagnostic primes; it is not an independent
+validation and does not alter any closed primary test.
+
 ## Manuscript and theory
 
 The paper combines the atlas analysis with exact character-class certification,

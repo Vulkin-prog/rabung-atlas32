@@ -1,0 +1,25 @@
+{
+  "functions": [
+    {
+      "source": "outputs/dependances_runs_sm120_20261002/preuves/count_million.py",
+      "source_sha256": "1b5316a2089174024a61a6b906e0052db277738d68855c7741f9f4e884e11d11",
+      "function": "vu",
+      "destination": "scripts/ternary_capture.py",
+      "operation": "unchanged function body extracted with AST line boundaries"
+    },
+    {
+      "source": "outputs/dependances_runs_sm120_20261002/preuves/count_million.py",
+      "source_sha256": "1b5316a2089174024a61a6b906e0052db277738d68855c7741f9f4e884e11d11",
+      "function": "process",
+      "destination": "scripts/ternary_capture.py",
+      "operation": "unchanged function body extracted with AST line boundaries"
+    },
+    {
+      "source": "outputs/dependances_runs_sm120_20261002/preuves/critical_graphs.py",
+      "source_sha256": "6f762e17234f260ea65d9671d76fec8cee59a8ad31394cbedcbbcceb170a6d92",
+      "function": "graph",
+      "destination": "scripts/ternary_graph.py",
+      "operation": "unchanged function body extracted with AST line boundaries"
+    }
+  ]
+}

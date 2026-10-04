@@ -1,0 +1,692 @@
+{
+  "profiles": 1000000,
+  "blocks": 248,
+  "canonical_runs18": 33257058,
+  "canonical_runs21": 1235473,
+  "a21": 299150,
+  "ab21": 293872,
+  "threshold_counts_by_stratum": {
+    "0": {
+      "18": {
+        "ordinary_runs": 6928498,
+        "canonical_runs": 6929076,
+        "zero_ordinary_profiles": 0,
+        "ordinary_factorial_moment_sum": 194608620
+      },
+      "19": {
+        "ordinary_runs": 2311639,
+        "canonical_runs": 2311837,
+        "zero_ordinary_profiles": 43,
+        "ordinary_factorial_moment_sum": 21666892
+      },
+      "20": {
+        "ordinary_runs": 771269,
+        "canonical_runs": 771467,
+        "zero_ordinary_profiles": 12046,
+        "ordinary_factorial_moment_sum": 2410738
+      },
+      "21": {
+        "ordinary_runs": 257816,
+        "canonical_runs": 258014,
+        "zero_ordinary_profiles": 89578,
+        "ordinary_factorial_moment_sum": 268984
+      },
+      "22": {
+        "ordinary_runs": 86835,
+        "canonical_runs": 87033,
+        "zero_ordinary_profiles": 176742,
+        "ordinary_factorial_moment_sum": 30434
+      },
+      "23": {
+        "ordinary_runs": 29497,
+        "canonical_runs": 29557,
+        "zero_ordinary_profiles": 222270,
+        "ordinary_factorial_moment_sum": 3692
+      },
+      "24": {
+        "ordinary_runs": 10064,
+        "canonical_runs": 10124,
+        "zero_ordinary_profiles": 240168,
+        "ordinary_factorial_moment_sum": 468
+      },
+      "25": {
+        "ordinary_runs": 3515,
+        "canonical_runs": 3575,
+        "zero_ordinary_profiles": 246518,
+        "ordinary_factorial_moment_sum": 66
+      },
+      "26": {
+        "ordinary_runs": 1309,
+        "canonical_runs": 1369,
+        "zero_ordinary_profiles": 248697,
+        "ordinary_factorial_moment_sum": 12
+      },
+      "27": {
+        "ordinary_runs": 451,
+        "canonical_runs": 511,
+        "zero_ordinary_profiles": 249549,
+        "ordinary_factorial_moment_sum": 0
+      }
+    },
+    "1": {
+      "18": {
+        "ordinary_runs": 6923904,
+        "canonical_runs": 6924228,
+        "zero_ordinary_profiles": 0,
+        "ordinary_factorial_moment_sum": 194355502
+      },
+      "19": {
+        "ordinary_runs": 2308358,
+        "canonical_runs": 2308469,
+        "zero_ordinary_profiles": 40,
+        "ordinary_factorial_moment_sum": 21602688
+      },
+      "20": {
+        "ordinary_runs": 769090,
+        "canonical_runs": 769201,
+        "zero_ordinary_profiles": 12314,
+        "ordinary_factorial_moment_sum": 2398554
+      },
+      "21": {
+        "ordinary_runs": 256265,
+        "canonical_runs": 256376,
+        "zero_ordinary_profiles": 90238,
+        "ordinary_factorial_moment_sum": 266100
+      },
+      "22": {
+        "ordinary_runs": 85659,
+        "canonical_runs": 85770,
+        "zero_ordinary_profiles": 177691,
+        "ordinary_factorial_moment_sum": 29810
+      },
+      "23": {
+        "ordinary_runs": 28366,
+        "canonical_runs": 28401,
+        "zero_ordinary_profiles": 223228,
+        "ordinary_factorial_moment_sum": 3302
+      },
+      "24": {
+        "ordinary_runs": 9497,
+        "canonical_runs": 9532,
+        "zero_ordinary_profiles": 240682,
+        "ordinary_factorial_moment_sum": 364
+      },
+      "25": {
+        "ordinary_runs": 3156,
+        "canonical_runs": 3191,
+        "zero_ordinary_profiles": 246868,
+        "ordinary_factorial_moment_sum": 48
+      },
+      "26": {
+        "ordinary_runs": 1049,
+        "canonical_runs": 1084,
+        "zero_ordinary_profiles": 248954,
+        "ordinary_factorial_moment_sum": 6
+      },
+      "27": {
+        "ordinary_runs": 358,
+        "canonical_runs": 393,
+        "zero_ordinary_profiles": 249643,
+        "ordinary_factorial_moment_sum": 2
+      }
+    },
+    "2": {
+      "18": {
+        "ordinary_runs": 9701887,
+        "canonical_runs": 9702563,
+        "zero_ordinary_profiles": 0,
+        "ordinary_factorial_moment_sum": 379152518
+      },
+      "19": {
+        "ordinary_runs": 3238695,
+        "canonical_runs": 3238929,
+        "zero_ordinary_profiles": 2,
+        "ordinary_factorial_moment_sum": 42262414
+      },
+      "20": {
+        "ordinary_runs": 1081180,
+        "canonical_runs": 1081414,
+        "zero_ordinary_profiles": 3455,
+        "ordinary_factorial_moment_sum": 4706712
+      },
+      "21": {
+        "ordinary_runs": 361270,
+        "canonical_runs": 361504,
+        "zero_ordinary_profiles": 59460,
+        "ordinary_factorial_moment_sum": 526598
+      },
+      "22": {
+        "ordinary_runs": 121357,
+        "canonical_runs": 121591,
+        "zero_ordinary_profiles": 154099,
+        "ordinary_factorial_moment_sum": 59672
+      },
+      "23": {
+        "ordinary_runs": 40873,
+        "canonical_runs": 40943,
+        "zero_ordinary_profiles": 212246,
+        "ordinary_factorial_moment_sum": 6566
+      },
+      "24": {
+        "ordinary_runs": 13877,
+        "canonical_runs": 13947,
+        "zero_ordinary_profiles": 236525,
+        "ordinary_factorial_moment_sum": 814
+      },
+      "25": {
+        "ordinary_runs": 4776,
+        "canonical_runs": 4846,
+        "zero_ordinary_profiles": 245271,
+        "ordinary_factorial_moment_sum": 96
+      },
+      "26": {
+        "ordinary_runs": 1788,
+        "canonical_runs": 1858,
+        "zero_ordinary_profiles": 248220,
+        "ordinary_factorial_moment_sum": 16
+      },
+      "27": {
+        "ordinary_runs": 636,
+        "canonical_runs": 706,
+        "zero_ordinary_profiles": 249365,
+        "ordinary_factorial_moment_sum": 2
+      }
+    },
+    "3": {
+      "18": {
+        "ordinary_runs": 9700837,
+        "canonical_runs": 9701191,
+        "zero_ordinary_profiles": 0,
+        "ordinary_factorial_moment_sum": 378981604
+      },
+      "19": {
+        "ordinary_runs": 3233484,
+        "canonical_runs": 3233606,
+        "zero_ordinary_profiles": 0,
+        "ordinary_factorial_moment_sum": 42116060
+      },
+      "20": {
+        "ordinary_runs": 1078688,
+        "canonical_runs": 1078810,
+        "zero_ordinary_profiles": 3660,
+        "ordinary_factorial_moment_sum": 4692440
+      },
+      "21": {
+        "ordinary_runs": 359457,
+        "canonical_runs": 359579,
+        "zero_ordinary_profiles": 59979,
+        "ordinary_factorial_moment_sum": 521380
+      },
+      "22": {
+        "ordinary_runs": 119669,
+        "canonical_runs": 119791,
+        "zero_ordinary_profiles": 155210,
+        "ordinary_factorial_moment_sum": 58070
+      },
+      "23": {
+        "ordinary_runs": 39959,
+        "canonical_runs": 39990,
+        "zero_ordinary_profiles": 213138,
+        "ordinary_factorial_moment_sum": 6580
+      },
+      "24": {
+        "ordinary_runs": 13229,
+        "canonical_runs": 13260,
+        "zero_ordinary_profiles": 237140,
+        "ordinary_factorial_moment_sum": 754
+      },
+      "25": {
+        "ordinary_runs": 4328,
+        "canonical_runs": 4359,
+        "zero_ordinary_profiles": 245729,
+        "ordinary_factorial_moment_sum": 116
+      },
+      "26": {
+        "ordinary_runs": 1414,
+        "canonical_runs": 1445,
+        "zero_ordinary_profiles": 248593,
+        "ordinary_factorial_moment_sum": 14
+      },
+      "27": {
+        "ordinary_runs": 467,
+        "canonical_runs": 498,
+        "zero_ordinary_profiles": 249533,
+        "ordinary_factorial_moment_sum": 0
+      }
+    }
+  },
+  "profile_histograms_by_stratum": {
+    "0": {
+      "M": {
+        "20": 77511,
+        "23": 17892,
+        "21": 87143,
+        "19": 11998,
+        "22": 45560,
+        "24": 6348,
+        "26": 852,
+        "25": 2177,
+        "18": 43,
+        "27": 262,
+        "28": 120,
+        "36": 3,
+        "30": 25,
+        "32": 8,
+        "29": 47,
+        "42": 1,
+        "31": 6,
+        "34": 2,
+        "35": 1,
+        "37": 1
+      },
+      "L": {
+        "2": 166877,
+        "4": 55581,
+        "6": 18450,
+        "10": 6095,
+        "16": 672,
+        "12": 2036,
+        "18": 190,
+        "36": 3,
+        "28": 21,
+        "30": 6,
+        "22": 69
+      },
+      "K": {
+        "21": 74806,
+        "24": 17649,
+        "22": 88286,
+        "20": 11592,
+        "23": 44970,
+        "25": 6267,
+        "27": 843,
+        "26": 4147,
+        "34": 672,
+        "19": 42,
+        "28": 260,
+        "38": 191,
+        "29": 99,
+        "74": 3,
+        "31": 16,
+        "33": 8,
+        "30": 44,
+        "58": 21,
+        "62": 6,
+        "46": 69,
+        "43": 1,
+        "32": 5,
+        "35": 2,
+        "36": 1
+      }
+    },
+    "1": {
+      "M": {
+        "20": 77893,
+        "21": 87421,
+        "22": 45577,
+        "19": 12265,
+        "23": 17454,
+        "24": 6184,
+        "26": 689,
+        "25": 2085,
+        "32": 3,
+        "28": 104,
+        "18": 40,
+        "27": 236,
+        "30": 17,
+        "29": 25,
+        "31": 4,
+        "36": 1,
+        "46": 1,
+        "40": 1
+      },
+      "L": {
+        "1": 250000
+      },
+      "K": {
+        "21": 77893,
+        "22": 87421,
+        "23": 45577,
+        "20": 12265,
+        "24": 17454,
+        "25": 6184,
+        "27": 689,
+        "26": 2085,
+        "33": 3,
+        "29": 104,
+        "19": 40,
+        "28": 236,
+        "31": 17,
+        "30": 25,
+        "32": 4,
+        "37": 1,
+        "47": 1,
+        "41": 1
+      }
+    },
+    "2": {
+      "M": {
+        "22": 58187,
+        "21": 94592,
+        "19": 3451,
+        "20": 55993,
+        "24": 8745,
+        "23": 24274,
+        "25": 2945,
+        "26": 1145,
+        "28": 164,
+        "27": 389,
+        "29": 55,
+        "30": 31,
+        "32": 5,
+        "35": 2,
+        "31": 12,
+        "36": 6,
+        "33": 1,
+        "18": 2,
+        "40": 1
+      },
+      "L": {
+        "4": 55360,
+        "2": 166698,
+        "6": 18485,
+        "10": 6278,
+        "12": 2137,
+        "18": 221,
+        "28": 27,
+        "16": 704,
+        "22": 82,
+        "36": 2,
+        "30": 5,
+        "40": 1
+      },
+      "K": {
+        "23": 57456,
+        "22": 94912,
+        "20": 3341,
+        "21": 53937,
+        "25": 8613,
+        "24": 23940,
+        "26": 5001,
+        "27": 1137,
+        "29": 135,
+        "28": 384,
+        "38": 221,
+        "58": 27,
+        "34": 703,
+        "30": 54,
+        "46": 82,
+        "31": 24,
+        "33": 5,
+        "36": 2,
+        "32": 12,
+        "74": 2,
+        "37": 4,
+        "62": 5,
+        "19": 2,
+        "82": 1
+      }
+    },
+    "3": {
+      "M": {
+        "21": 95188,
+        "20": 56297,
+        "23": 23996,
+        "22": 57971,
+        "24": 8589,
+        "25": 2864,
+        "19": 3657,
+        "28": 125,
+        "27": 317,
+        "26": 940,
+        "29": 37,
+        "30": 13,
+        "36": 3,
+        "32": 1,
+        "33": 1,
+        "31": 1
+      },
+      "L": {
+        "1": 250000
+      },
+      "K": {
+        "22": 95188,
+        "21": 56297,
+        "24": 23996,
+        "23": 57971,
+        "25": 8589,
+        "26": 2864,
+        "20": 3657,
+        "29": 125,
+        "28": 317,
+        "27": 940,
+        "30": 37,
+        "31": 13,
+        "37": 3,
+        "33": 1,
+        "34": 1,
+        "32": 1
+      }
+    }
+  },
+  "ordinary_colour_counts18_by_stratum": {
+    "0": [
+      2313443,
+      2305613,
+      2309442
+    ],
+    "1": [
+      2304146,
+      2309711,
+      2310047
+    ],
+    "2": [
+      3239177,
+      3230664,
+      3232046
+    ],
+    "3": [
+      3233859,
+      3236072,
+      3230906
+    ]
+  },
+  "ordinary_position_bins18_by_stratum": {
+    "0": [
+      433280,
+      433350,
+      432251,
+      432253,
+      432747,
+      432793,
+      435260,
+      433407,
+      432498,
+      432449,
+      433267,
+      432697,
+      433196,
+      432474,
+      433145,
+      433431
+    ],
+    "1": [
+      433237,
+      432869,
+      431588,
+      433460,
+      432957,
+      432827,
+      432984,
+      432368,
+      432120,
+      433693,
+      432486,
+      432161,
+      433670,
+      431916,
+      431991,
+      433577
+    ],
+    "2": [
+      605923,
+      605747,
+      606574,
+      606745,
+      606213,
+      607333,
+      605734,
+      606617,
+      606520,
+      607188,
+      606743,
+      605891,
+      605458,
+      607014,
+      606260,
+      605927
+    ],
+    "3": [
+      605937,
+      605826,
+      606071,
+      605915,
+      606936,
+      606887,
+      605409,
+      605746,
+      606309,
+      606682,
+      606453,
+      605753,
+      606155,
+      607801,
+      606440,
+      606517
+    ]
+  },
+  "first_window_echoes18_by_stratum": {
+    "0": {
+      "2": 2339,
+      "3": 345
+    },
+    "1": {
+      "2": 2150,
+      "3": 196
+    },
+    "2": {
+      "2": 3222,
+      "3": 421
+    },
+    "3": {
+      "2": 3024,
+      "3": 293
+    }
+  },
+  "ordinary_length_histograms21": {
+    "0": {
+      "23": 19433,
+      "21": 170981,
+      "22": 57338,
+      "24": 6549,
+      "26": 858,
+      "25": 2206,
+      "27": 264,
+      "28": 101,
+      "30": 19,
+      "32": 8,
+      "29": 47,
+      "42": 1,
+      "31": 7,
+      "34": 2,
+      "35": 1,
+      "37": 1
+    },
+    "1": {
+      "21": 170606,
+      "22": 57293,
+      "23": 18869,
+      "24": 6341,
+      "26": 691,
+      "25": 2107,
+      "32": 3,
+      "28": 81,
+      "27": 237,
+      "30": 8,
+      "29": 25,
+      "31": 4
+    },
+    "2": {
+      "21": 239913,
+      "22": 80484,
+      "24": 9101,
+      "23": 26996,
+      "25": 2988,
+      "26": 1152,
+      "28": 139,
+      "27": 392,
+      "29": 55,
+      "30": 26,
+      "32": 5,
+      "35": 2,
+      "31": 12,
+      "36": 4,
+      "33": 1
+    },
+    "3": {
+      "21": 239788,
+      "23": 26730,
+      "22": 79710,
+      "24": 8901,
+      "25": 2914,
+      "28": 100,
+      "27": 317,
+      "26": 947,
+      "29": 37,
+      "30": 10,
+      "32": 1,
+      "33": 1,
+      "31": 1
+    }
+  },
+  "doubling_graphs_by_stratum": {
+    "0": {
+      "primes": 250000,
+      "ordinary_runs21": 257816,
+      "primes_with_edge": 152,
+      "edges": 155,
+      "primes_with_cycle": 87,
+      "ordinary_runs_in_weak_edge_graph": 221,
+      "cycles_length1": 86,
+      "cycles_length2": 1
+    },
+    "1": {
+      "primes": 250000,
+      "ordinary_runs21": 256265,
+      "primes_with_edge": 37,
+      "edges": 37,
+      "primes_with_cycle": 0,
+      "ordinary_runs_in_weak_edge_graph": 74
+    },
+    "2": {
+      "primes": 250000,
+      "ordinary_runs21": 361270,
+      "primes_with_edge": 156,
+      "edges": 161,
+      "primes_with_cycle": 83,
+      "ordinary_runs_in_weak_edge_graph": 235,
+      "cycles_length1": 81,
+      "cycles_length2": 3
+    },
+    "3": {
+      "primes": 250000,
+      "ordinary_runs21": 359457,
+      "primes_with_edge": 45,
+      "edges": 45,
+      "primes_with_cycle": 0,
+      "ordinary_runs_in_weak_edge_graph": 90
+    }
+  },
+  "graph_witness_primes": 390,
+  "graph_edges": 398
+}

@@ -1,0 +1,36 @@
+{
+  "CPU_catalogue_cases": [
+    {
+      "cycles1to3": 0,
+      "edges": 100,
+      "minimum": 2,
+      "ordinary_nodes": 115,
+      "p": 1009
+    },
+    {
+      "cycles1to3": 0,
+      "edges": 25,
+      "minimum": 3,
+      "ordinary_nodes": 38,
+      "p": 1009
+    },
+    {
+      "cycles1to3": 1,
+      "edges": 403,
+      "minimum": 2,
+      "ordinary_nodes": 462,
+      "p": 4099
+    },
+    {
+      "cycles1to3": 0,
+      "edges": 98,
+      "minimum": 3,
+      "ordinary_nodes": 153,
+      "p": 4099
+    }
+  ],
+  "checks": "Both branches against complete point enumeration; all edge endpoint colours and cycles checked on complete small-prime catalogues.",
+  "integer_geometry_cases": 12800,
+  "seed": 847191,
+  "status": "PASS_INTEGER_BRANCH_AND_COMPLETE_CPU_GRAPHS"
+}

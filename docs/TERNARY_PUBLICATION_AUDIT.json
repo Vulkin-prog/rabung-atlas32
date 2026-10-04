@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Existing sealed ternary-million supplement added to the private publication repository",
+  "repository_files_inspected_before_new_audit_record": 1923,
+  "repository_bytes_before_new_audit_record": 170821743,
+  "text_files_scanned": 1408,
+  "compressed_JSON_files_scanned": 7,
+  "new_scientific_binary_files_format_checked": 500,
+  "scientific_data_files_hash_checked": 758,
+  "profiles_checked": 1000000,
+  "canonical_run_positions_checked": 1235473,
+  "exact_full_run_CPU_checks": 1189,
+  "all_parent_M_L_and_all_graphs_match": true,
+  "frozen_collector_sources_unchanged": 58,
+  "extracted_scientific_function_ASTs_unchanged": 3,
+  "unexpected_private_path_secret_email_or_binary_findings": [],
+  "execution_timing_metadata_omitted_in_publication_copies": true,
+  "received_review_reports_host_logs_launchers_and_binaries_omitted": true,
+  "original_scientific_archives_preserved": true,
+  "original_atlas_release_and_manuscript_unchanged": true,
+  "new_GPU_calculations_started": 0,
+  "repository_visibility": "PRIVATE",
+  "license_state": "Rights reserved; owner selection pending",
+  "limits": "Automated curation does not establish legal ownership or novelty. This is a fixed descriptive sample outside the complete atlas domain, with retained positions only at length>=21.",
+  "full_CSV_exports_checked": {
+    "count_rows": 1000000,
+    "position_rows": 1235473,
+    "integer_totals_match": true
+  },
+  "whitespace_notes": "Two pre-existing whitespace diagnostics in the frozen collector source snapshots are retained to preserve their scientific source hashes; new publication code has no whitespace errors."
+}

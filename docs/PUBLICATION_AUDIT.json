@@ -15,5 +15,8 @@
   "license_state": "Rights reserved; owner selection pending",
   "author_name_in_paper_is_intentionally_retained": "Brice Pouly",
   "public_GitHub_account_and_repository_identifiers_intentionally_retained": true,
-  "scope": "Curated publication content; automated content audit does not determine legal ownership or novelty"
+  "scope": "Curated publication content; automated content audit does not determine legal ownership or novelty",
+  "additional_publication_audits": [
+    "docs/TERNARY_PUBLICATION_AUDIT.json"
+  ]
 }

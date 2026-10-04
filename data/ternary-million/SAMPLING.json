@@ -1,0 +1,38 @@
+{
+  "population": "Admissible primes p=1mod6 in two equal-width high bands, excluding the conservative prior profile inventory.",
+  "sampling": {
+    "algorithm": "SHA256(seed32 || little_endian_uint64_counter), exact256-bit rejection before modulo, deterministic qualified primality and cubic class, reject exclusions and duplicates, first quota in each stratum.",
+    "intervals": [
+      [
+        8589934592,
+        12884901888
+      ],
+      [
+        12884901888,
+        17179869184
+      ]
+    ],
+    "n": 1000000,
+    "quota_per_stratum": 250000,
+    "seed_label": "Rabung small-prime neutrality transport v1, 2026-10-02 morning",
+    "strata": "Band1 cube,band1 noncube,band2 cube,band2 noncube; independent SRS without replacement in each stratum."
+  },
+  "seed_hex_per_band": [
+    "2b40a62a7ac280b84e07467630dcdd2e803afa6b97fc10100478c5e956edce13",
+    "213a18d74af2bbf45436ef4a55f532ab1065430dbc34b85b58202fc1d7e7cf0a"
+  ],
+  "created_after_exploratory_training": true,
+  "training": "Only the two already closed million-prime studies below2^33; their primary tests remain unchanged.",
+  "limits": "Finite-range predictive comparison and associations; no universal Poisson/intensity law, no causal proof, no exhaustive scan and no global-record/priority certificate.",
+  "exclusions_sha256": "9f321e3c7fc4e00a5eee5616501c5250830aefb15150a92d45d37627029db74c",
+  "status": "PUBLICATION_SAMPLING_METADATA_FROM_FROZEN_PARENT",
+  "original_parent_protocol_sha256": "b220afba8bfc5faad4fd9200313c6f8571672800924030581ef45abbbc009c86",
+  "original_parent_frozen_sha256": "20ad71f2a92b8d584edecba32c6a8ce7455c2fc411b93086579894523475a52d",
+  "list_sha256": {
+    "0": "50d651a0b8270de7439ffa965d2cfc3fab840e31d7f3ce7026cfc7c10addf1b3",
+    "1": "37cd30fe33fdbcbff58623dff2032aad3511f82185bfd13de45dd9ca80d90d8a",
+    "2": "2ee90db3e41b86db9298d8e6b12035e4d7e96c55120c9883b4b9f1aae2ef6e32",
+    "3": "150a8518d6fdd541a5f5cbb74145f89fde767de889eaeab0041a45e21a1ed2b8"
+  },
+  "reproduction_scope": "The exact accepted lists are included. Sampler traces and the earlier exclusion inventory are not bundled; do not claim this subset regenerates the sampling process from seeds alone."
+}
