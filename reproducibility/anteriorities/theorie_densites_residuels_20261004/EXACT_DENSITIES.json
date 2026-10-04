@@ -1,0 +1,184 @@
+{
+  "cubic": {
+    "p_origin": 1779238511,
+    "polynomial": [
+      1,
+      -197,
+      -9264,
+      -90252
+    ],
+    "m": 53,
+    "base_rank": 51,
+    "normal_subset_ranks": {
+      "1": 51,
+      "2": 94,
+      "3": 121
+    },
+    "intersections": [
+      {
+        "root_subset": [
+          0,
+          1
+        ],
+        "intersection_dimension": 8
+      },
+      {
+        "root_subset": [
+          0,
+          2
+        ],
+        "intersection_dimension": 8
+      },
+      {
+        "root_subset": [
+          1,
+          2
+        ],
+        "intersection_dimension": 8
+      },
+      {
+        "root_subset": [
+          0,
+          1,
+          2
+        ],
+        "intersection_dimension": 8
+      }
+    ],
+    "density_fraction": [
+      7083549724304065167361,
+      15950735949418990474845684723364134912
+    ],
+    "density_float": 4.4408920985003737e-16,
+    "density_formula": "2^-51 - 2^-95 + 1/(3*2^122)",
+    "marked_pair_given_marked_single_fraction": [
+      1,
+      17592186044416
+    ],
+    "scope": "Asymptotic natural density among all rational primes for at least one neutral root-window of the fixed polynomial; finitely many bad reductions excluded.",
+    "all_roots_common_dimension": 8,
+    "higher_order_relation_dimension_after_common_quotient": 16
+  },
+  "quartic": {
+    "p_origin": 3173249399,
+    "polynomial": [
+      1,
+      100,
+      3258,
+      34844,
+      26309
+    ],
+    "m": 52,
+    "base_rank": 44,
+    "normal_subset_ranks": {
+      "1": 44,
+      "2": 85,
+      "3": 126,
+      "4": 159
+    },
+    "intersections": [
+      {
+        "root_subset": [
+          0,
+          1
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          0,
+          2
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          0,
+          3
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          1,
+          2
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          1,
+          3
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          2,
+          3
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          0,
+          1,
+          2
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          0,
+          1,
+          3
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          0,
+          2,
+          3
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          1,
+          2,
+          3
+        ],
+        "intersection_dimension": 3
+      },
+      {
+        "root_subset": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "intersection_dimension": 3
+      }
+    ],
+    "density_fraction": [
+      996920996838460231086677586599739391,
+      17538019647970835018444217992595396235871190515712
+    ],
+    "density_float": 5.684341886079509e-14,
+    "density_formula": "2^-44 - 2^-86 + 1/(3*2^127) - 1/(3*2^162)",
+    "marked_pair_given_marked_single_fraction": [
+      1,
+      6597069766656
+    ],
+    "scope": "Asymptotic natural density among all rational primes for at least one neutral root-window of the fixed polynomial; finitely many bad reductions excluded.",
+    "all_roots_common_dimension": 3,
+    "higher_order_relation_dimension_after_common_quotient": 8,
+    "common_rational_square_classes": [
+      2,
+      3,
+      14
+    ],
+    "shared_classes_explanation": "The three independent rational classes 2, 3 and 14 belong to every marked-root group, by coefficients 32, 192 and 224 in the archived product identities. Pair intersections have dimension three and are exactly this common subspace."
+  }
+}

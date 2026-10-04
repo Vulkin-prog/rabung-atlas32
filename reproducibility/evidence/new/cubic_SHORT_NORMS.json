@@ -1,0 +1,389 @@
+{
+  "kind": "cubic",
+  "norms": [
+    90252,
+    81186,
+    72520,
+    64260,
+    56412,
+    48982,
+    41976,
+    35400,
+    29260,
+    23562,
+    18312,
+    13516,
+    9180,
+    5310,
+    1912,
+    -1008,
+    -3444,
+    -5390,
+    -6840,
+    -7788,
+    -8228,
+    -8154,
+    -7560,
+    -6440,
+    -4788,
+    -2598,
+    136,
+    3420,
+    7260,
+    11662,
+    16632,
+    22176,
+    28300,
+    35010,
+    42312,
+    50212,
+    58716,
+    67830,
+    77560,
+    87912,
+    98892,
+    110506,
+    122760,
+    135660,
+    149212,
+    163422,
+    178296,
+    193840,
+    210060,
+    226962,
+    244552,
+    262836,
+    281820
+  ],
+  "norm_square_cores": [
+    2507,
+    81186,
+    370,
+    1785,
+    1567,
+    48982,
+    1166,
+    354,
+    7315,
+    2618,
+    4578,
+    3379,
+    255,
+    590,
+    478,
+    -7,
+    -861,
+    -110,
+    -190,
+    -1947,
+    -17,
+    -906,
+    -210,
+    -1610,
+    -133,
+    -2598,
+    34,
+    95,
+    15,
+    238,
+    462,
+    154,
+    283,
+    3890,
+    10578,
+    12553,
+    1631,
+    67830,
+    19390,
+    2442,
+    2747,
+    110506,
+    3410,
+    33915,
+    7,
+    18158,
+    44574,
+    12115,
+    5835,
+    2802,
+    61138,
+    149,
+    70455
+  ],
+  "discriminant_core": 3931281390,
+  "rational_primes": [
+    -1,
+    2,
+    3,
+    5,
+    7,
+    11,
+    17,
+    19,
+    23,
+    31,
+    37,
+    41,
+    43,
+    53,
+    59,
+    61,
+    67,
+    109,
+    149,
+    151,
+    233,
+    239,
+    277,
+    283,
+    389,
+    397,
+    433,
+    467,
+    1289,
+    1297,
+    1567,
+    1933,
+    2423,
+    5023,
+    12553,
+    131042713
+  ],
+  "rational_norm_rank_after_common_and_discriminant": 27,
+  "short_norm_relation_basis": [
+    {
+      "positions": [
+        7
+      ],
+      "constant_factors": [
+        2,
+        3,
+        59
+      ],
+      "constant_product": 354,
+      "integer_square_root": 3540,
+      "norm_product": 35400
+    },
+    {
+      "positions": [
+        10
+      ],
+      "constant_factors": [
+        2,
+        3,
+        763
+      ],
+      "constant_product": 4578,
+      "integer_square_root": 9156,
+      "norm_product": 18312
+    },
+    {
+      "positions": [
+        12
+      ],
+      "constant_factors": [
+        3,
+        5,
+        17
+      ],
+      "constant_product": 255,
+      "integer_square_root": 1530,
+      "norm_product": 9180
+    },
+    {
+      "positions": [
+        13
+      ],
+      "constant_factors": [
+        2,
+        5,
+        59
+      ],
+      "constant_product": 590,
+      "integer_square_root": 1770,
+      "norm_product": 5310
+    },
+    {
+      "positions": [
+        26
+      ],
+      "constant_factors": [
+        2,
+        17
+      ],
+      "constant_product": 34,
+      "integer_square_root": 68,
+      "norm_product": 136
+    },
+    {
+      "positions": [
+        27
+      ],
+      "constant_factors": [
+        5,
+        19
+      ],
+      "constant_product": 95,
+      "integer_square_root": 570,
+      "norm_product": 3420
+    },
+    {
+      "positions": [
+        28
+      ],
+      "constant_factors": [
+        3,
+        5
+      ],
+      "constant_product": 15,
+      "integer_square_root": 330,
+      "norm_product": 7260
+    },
+    {
+      "positions": [
+        3,
+        8
+      ],
+      "constant_factors": [
+        3,
+        11,
+        17,
+        19
+      ],
+      "constant_product": 10659,
+      "integer_square_root": 4476780,
+      "norm_product": 1880247600
+    },
+    {
+      "positions": [
+        3,
+        9
+      ],
+      "constant_factors": [
+        2,
+        3,
+        5,
+        11
+      ],
+      "constant_product": 330,
+      "integer_square_root": 706860,
+      "norm_product": 1514094120
+    },
+    {
+      "positions": [
+        17,
+        18
+      ],
+      "constant_factors": [
+        11,
+        19
+      ],
+      "constant_product": 209,
+      "integer_square_root": 87780,
+      "norm_product": 36867600
+    },
+    {
+      "positions": [
+        17,
+        19
+      ],
+      "constant_factors": [
+        2,
+        3,
+        5,
+        59
+      ],
+      "constant_product": 1770,
+      "integer_square_root": 272580,
+      "norm_product": 41977320
+    },
+    {
+      "positions": [
+        17,
+        20
+      ],
+      "constant_factors": [
+        2,
+        5,
+        11,
+        17
+      ],
+      "constant_product": 1870,
+      "integer_square_root": 287980,
+      "norm_product": 44348920
+    },
+    {
+      "positions": [
+        15,
+        22
+      ],
+      "constant_factors": [
+        2,
+        3,
+        5
+      ],
+      "constant_product": 30,
+      "integer_square_root": 15120,
+      "norm_product": 7620480
+    },
+    {
+      "positions": [
+        15,
+        24
+      ],
+      "constant_factors": [
+        19
+      ],
+      "constant_product": 19,
+      "integer_square_root": 9576,
+      "norm_product": 4826304
+    },
+    {
+      "positions": [
+        33,
+        48
+      ],
+      "constant_factors": [
+        2,
+        3
+      ],
+      "constant_product": 6,
+      "integer_square_root": 210060,
+      "norm_product": 7354200600
+    },
+    {
+      "positions": [
+        0,
+        17,
+        23
+      ],
+      "constant_factors": [
+        11,
+        763
+      ],
+      "constant_product": 8393,
+      "integer_square_root": 162152760,
+      "norm_product": 3132791323200
+    }
+  ],
+  "basis_weights": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3
+  ],
+  "all_higher_relations_explained": true,
+  "scope": "Short basis selected from circuits of weight at most five and the full archived norm kernel; no claim of globally optimal basis."
+}

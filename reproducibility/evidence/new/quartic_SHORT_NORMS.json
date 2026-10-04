@@ -1,0 +1,262 @@
+{
+  "kind": "quartic",
+  "norms": [
+    26309,
+    -5376,
+    -31131,
+    -51520,
+    -67083,
+    -78336,
+    -85771,
+    -89856,
+    -91035,
+    -89728,
+    -86331,
+    -81216,
+    -74731,
+    -67200,
+    -58923,
+    -50176,
+    -41211,
+    -32256,
+    -23515,
+    -15168,
+    -7371,
+    -256,
+    6069,
+    11520,
+    16037,
+    19584,
+    22149,
+    23744,
+    24405,
+    24192,
+    23189,
+    21504,
+    19269,
+    16640,
+    13797,
+    10944,
+    8309,
+    6144,
+    4725,
+    4352,
+    5349,
+    8064,
+    12869,
+    20160,
+    30357,
+    43904,
+    61269,
+    82944,
+    109445,
+    141312,
+    179109,
+    223424
+  ],
+  "norm_square_cores": [
+    26309,
+    -21,
+    -3459,
+    -805,
+    -67083,
+    -34,
+    -85771,
+    -39,
+    -35,
+    -1402,
+    -86331,
+    -141,
+    -74731,
+    -42,
+    -6547,
+    -1,
+    -4579,
+    -14,
+    -23515,
+    -237,
+    -91,
+    -1,
+    21,
+    5,
+    16037,
+    34,
+    2461,
+    371,
+    24405,
+    42,
+    23189,
+    21,
+    2141,
+    65,
+    1533,
+    19,
+    8309,
+    6,
+    21,
+    17,
+    5349,
+    14,
+    12869,
+    35,
+    3373,
+    14,
+    61269,
+    1,
+    109445,
+    138,
+    19901,
+    3491
+  ],
+  "discriminant_core": -261104739,
+  "rational_primes": [
+    -1,
+    2,
+    3,
+    5,
+    7,
+    13,
+    17,
+    19,
+    23,
+    29,
+    47,
+    53,
+    59,
+    73,
+    79,
+    107,
+    241,
+    379,
+    701,
+    757,
+    1153,
+    1187,
+    1571,
+    1627,
+    1783,
+    2141,
+    2843,
+    3373,
+    3413,
+    3491,
+    3643,
+    4111,
+    4703,
+    6547,
+    12253,
+    23189,
+    26309,
+    74731
+  ],
+  "rational_norm_rank_after_common_and_discriminant": 33,
+  "short_norm_relation_basis": [
+    {
+      "positions": [
+        22
+      ],
+      "constant_factors": [
+        2,
+        3,
+        14
+      ],
+      "constant_product": 84,
+      "integer_square_root": 714,
+      "norm_product": 6069
+    },
+    {
+      "positions": [
+        29
+      ],
+      "constant_factors": [
+        3,
+        14
+      ],
+      "constant_product": 42,
+      "integer_square_root": 1008,
+      "norm_product": 24192
+    },
+    {
+      "positions": [
+        31
+      ],
+      "constant_factors": [
+        2,
+        3,
+        14
+      ],
+      "constant_product": 84,
+      "integer_square_root": 1344,
+      "norm_product": 21504
+    },
+    {
+      "positions": [
+        37
+      ],
+      "constant_factors": [
+        2,
+        3
+      ],
+      "constant_product": 6,
+      "integer_square_root": 192,
+      "norm_product": 6144
+    },
+    {
+      "positions": [
+        38
+      ],
+      "constant_factors": [
+        2,
+        3,
+        14
+      ],
+      "constant_product": 84,
+      "integer_square_root": 630,
+      "norm_product": 4725
+    },
+    {
+      "positions": [
+        41
+      ],
+      "constant_factors": [
+        14
+      ],
+      "constant_product": 14,
+      "integer_square_root": 336,
+      "norm_product": 8064
+    },
+    {
+      "positions": [
+        47
+      ],
+      "constant_factors": [],
+      "constant_product": 1,
+      "integer_square_root": 288,
+      "norm_product": 82944
+    },
+    {
+      "positions": [
+        25,
+        39
+      ],
+      "constant_factors": [
+        2
+      ],
+      "constant_product": 2,
+      "integer_square_root": 13056,
+      "norm_product": 85229568
+    }
+  ],
+  "basis_weights": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "all_higher_relations_explained": true,
+  "scope": "Short basis selected from circuits of weight at most five and the full archived norm kernel; no claim of globally optimal basis."
+}

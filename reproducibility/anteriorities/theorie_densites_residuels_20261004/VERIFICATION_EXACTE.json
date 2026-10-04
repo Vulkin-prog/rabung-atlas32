@@ -1,0 +1,116 @@
+{
+  "status": "ALL_EXACT_CHECKS_PASS",
+  "standard_python_only": true,
+  "exact_square_identities": 124,
+  "exact_fourth_power_identities": 91,
+  "auxiliary_and_origin_character_values_checked": 237922,
+  "elementary_galois_certificates": 10,
+  "r4_models": [
+    {
+      "p": 1065972469,
+      "polynomial": [
+        4,
+        168,
+        2485,
+        15006,
+        30001
+      ],
+      "m": 28,
+      "neutral_log2_order": 48,
+      "equal_phase_log2_order": 47,
+      "saved_bits": 7
+    },
+    {
+      "p": 1583868241,
+      "polynomial": [
+        2,
+        58,
+        411
+      ],
+      "m": 28,
+      "neutral_log2_order": 38,
+      "equal_phase_log2_order": 36,
+      "saved_bits": 18
+    },
+    {
+      "p": 2400748661,
+      "polynomial": [
+        5,
+        117,
+        640
+      ],
+      "m": 28,
+      "neutral_log2_order": 34,
+      "equal_phase_log2_order": 32,
+      "saved_bits": 22
+    },
+    {
+      "p": 2453400749,
+      "polynomial": [
+        5,
+        256,
+        3707,
+        16560
+      ],
+      "m": 28,
+      "neutral_log2_order": 48,
+      "equal_phase_log2_order": 46,
+      "saved_bits": 8
+    },
+    {
+      "p": 2789197129,
+      "polynomial": [
+        5,
+        255,
+        2818,
+        1848
+      ],
+      "m": 29,
+      "neutral_log2_order": 53,
+      "equal_phase_log2_order": 51,
+      "saved_bits": 5
+    },
+    {
+      "p": 3318080401,
+      "polynomial": [
+        2,
+        49,
+        288
+      ],
+      "m": 29,
+      "neutral_log2_order": 38,
+      "equal_phase_log2_order": 37,
+      "saved_bits": 19
+    },
+    {
+      "p": 3832210429,
+      "polynomial": [
+        9,
+        493,
+        8612,
+        47628
+      ],
+      "m": 28,
+      "neutral_log2_order": 54,
+      "equal_phase_log2_order": 52,
+      "saved_bits": 2
+    },
+    {
+      "p": 4129372337,
+      "polynomial": [
+        1,
+        41,
+        424,
+        164,
+        -8320
+      ],
+      "m": 28,
+      "neutral_log2_order": 53,
+      "equal_phase_log2_order": 51,
+      "saved_bits": 3
+    }
+  ],
+  "density_formulas_verified": true,
+  "class_group_completeness_assumed": false,
+  "seconds": 0.9768227009917609
+}

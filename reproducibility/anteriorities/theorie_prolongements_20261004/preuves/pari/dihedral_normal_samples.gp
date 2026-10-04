@@ -1,0 +1,15 @@
+default(parisizemax,512000000);
+default(parisize,128000000);
+setrand(1);
+run()={my(P=x^4+80*x^3+2281*x^2+27240*x+116640,fp,nf,fac,roots,z,t,q=1000000,rr,k=0,xx,logs);
+ fp=subst(polredbest(polcompositum(P,x^2-265,1)[1][1]),x,y);nf=nfinit(fp);
+ fac=nffactor(nf,P);z=-polcoef(fac[1,1],0);roots=[z,-40-z];
+ for(i=1,4,t=-polcoef(fac[i,1],0);if(t!=roots[1]&&t!=roots[2],roots=concat(roots,[t,-40-t]);break));
+ print("FIELD ",vector(9,j,Str(polcoef(fp,j-1))));
+ print("ROOTS ",vector(4,i,vector(8,j,Str(polcoef(lift(roots[i]),j-1)))));
+ while(k<224,q=nextprime(q+1);if(q>=2^32,error("range"));rr=lift(polrootsmod(fp,q));if(!#rr,next);xx=rr[1];
+  if(prod(i=1,4,prod(j=0,51,Mod(subst(lift(roots[i]),y,xx)+j,q)))==0,next);
+  logs=vector(208,j,my(i=(j-1)\52+1,tj=(j-1)%52,v=lift(Mod(subst(lift(roots[i]),y,xx)+tj,q)^((q-1)/2)));if(v==1,0,1));
+  print("SAMPLE ",[q,xx,logs]);k++);
+ print("END 1");};
+iferr(run(),err,print("ERROR ",err);quit(1));quit;

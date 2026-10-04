@@ -1,0 +1,17 @@
+default(parisize,128000000);
+v=polcompositum((1)*x^3+(65)*x^2+(1342)*x^1+(9000)*x^0,polcyclo(3),1)[1];fp=v[1];z=v[3];print("CASE ",[1,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(54)*x^2+(815)*x^1+(3906)*x^0;z=Mod(-1,fp);print("CASE ",[2,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(37)*x^2+(390)*x^1+(1143)*x^0;z=Mod(-1,fp);print("CASE ",[3,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(25)*x^2+(66)*x^1+(-1008)*x^0;z=Mod(-1,fp);print("CASE ",[4,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(60)*x^2+(1107)*x^1+(7366)*x^0;z=Mod(-1,fp);print("CASE ",[5,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(74)*x^2+(1633)*x^1+(10314)*x^0;z=Mod(-1,fp);print("CASE ",[6,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+v=polcompositum((1)*x^3+(43)*x^2+(586)*x^1+(2592)*x^0,polcyclo(4),1)[1];fp=v[1];z=v[3];print("CASE ",[7,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(70)*x^2+(1416)*x^1+(8568)*x^0;z=Mod(-1,fp);print("CASE ",[8,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(94)*x^2+(1944)*x^1+(11620)*x^0;z=Mod(-1,fp);print("CASE ",[9,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(159)*x^2+(6578)*x^1+(82500)*x^0;z=Mod(-1,fp);print("CASE ",[10,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(-20)*x^2+(-2317)*x^1+(-26488)*x^0;z=Mod(-1,fp);print("CASE ",[11,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(-15)*x^2+(-3136)*x^1+(-45996)*x^0;z=Mod(-1,fp);print("CASE ",[12,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(187)*x^2+(9104)*x^1+(132770)*x^0;z=Mod(-1,fp);print("CASE ",[13,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(163)*x^2+(8010)*x^1+(121176)*x^0;z=Mod(-1,fp);print("CASE ",[14,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+fp=(1)*x^3+(28)*x^2+(-1061)*x^1+(-27288)*x^0;z=Mod(-1,fp);print("CASE ",[15,vector(poldegree(fp),j,Str(polcoef(lift(z),j-1)))]);
+quit;

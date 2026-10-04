@@ -1,0 +1,44 @@
+[
+  {
+    "p": 1583868241,
+    "possible_constant_phase_exponent_pairs": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "pair_neutral_to_pair_constant_index": 4
+  },
+  {
+    "p": 2400748661,
+    "possible_constant_phase_exponent_pairs": [
+      [
+        0,
+        0
+      ]
+    ],
+    "pair_neutral_to_pair_constant_index": 1
+  },
+  {
+    "p": 3318080401,
+    "possible_constant_phase_exponent_pairs": [
+      [
+        0,
+        0
+      ]
+    ],
+    "pair_neutral_to_pair_constant_index": 1
+  }
+]

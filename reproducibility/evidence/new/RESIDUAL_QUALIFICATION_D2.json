@@ -1,0 +1,808 @@
+{
+  "p": 2940141229,
+  "degree": 2,
+  "tested": 40,
+  "models": [
+    {
+      "certificate": "residual_d2_000_certificate.json",
+      "polynomial": [
+        19,
+        1555,
+        15087
+      ],
+      "window_norm_height": 15087,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_001_certificate.json",
+      "polynomial": [
+        68,
+        1022,
+        -20273
+      ],
+      "window_norm_height": 24097,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_002_certificate.json",
+      "polynomial": [
+        87,
+        2577,
+        -5186
+      ],
+      "window_norm_height": 24266,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_003_certificate.json",
+      "polynomial": [
+        206,
+        5301,
+        8689
+      ],
+      "window_norm_height": 25410,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_004_certificate.json",
+      "polynomial": [
+        119,
+        2724,
+        13875
+      ],
+      "window_norm_height": 27078,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_005_certificate.json",
+      "polynomial": [
+        225,
+        6856,
+        23776
+      ],
+      "window_norm_height": 28439,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_006_certificate.json",
+      "polynomial": [
+        187,
+        3746,
+        -6398
+      ],
+      "window_norm_height": 28783,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_007_certificate.json",
+      "polynomial": [
+        138,
+        4279,
+        28962
+      ],
+      "window_norm_height": 28962,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_008_certificate.json",
+      "polynomial": [
+        106,
+        4132,
+        9901
+      ],
+      "window_norm_height": 30341,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_009_certificate.json",
+      "polynomial": [
+        51,
+        1702,
+        34148
+      ],
+      "window_norm_height": 34148,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_010_certificate.json",
+      "polynomial": [
+        49,
+        -533,
+        -35360
+      ],
+      "window_norm_height": 35360,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_011_certificate.json",
+      "polynomial": [
+        32,
+        147,
+        19061
+      ],
+      "window_norm_height": 38420,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_012_certificate.json",
+      "polynomial": [
+        100,
+        1169,
+        -1212
+      ],
+      "window_norm_height": 40125,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_013_certificate.json",
+      "polynomial": [
+        168,
+        2191,
+        -21485
+      ],
+      "window_norm_height": 41830,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_014_certificate.json",
+      "polynomial": [
+        257,
+        7003,
+        42837
+      ],
+      "window_norm_height": 42837,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_015_certificate.json",
+      "polynomial": [
+        157,
+        5834,
+        44049
+      ],
+      "window_norm_height": 44049,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_016_certificate.json",
+      "polynomial": [
+        36,
+        875,
+        -39334
+      ],
+      "window_norm_height": 44650,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_017_certificate.json",
+      "polynomial": [
+        155,
+        3599,
+        -25459
+      ],
+      "window_norm_height": 46327,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_018_certificate.json",
+      "polynomial": [
+        70,
+        3257,
+        49235
+      ],
+      "window_norm_height": 49235,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_019_certificate.json",
+      "polynomial": [
+        30,
+        -2088,
+        -50447
+      ],
+      "window_norm_height": 50447,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_020_certificate.json",
+      "polynomial": [
+        55,
+        2430,
+        -24247
+      ],
+      "window_norm_height": 51087,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_021_certificate.json",
+      "polynomial": [
+        13,
+        -1408,
+        3974
+      ],
+      "window_norm_height": 51467,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_022_certificate.json",
+      "polynomial": [
+        170,
+        4426,
+        48023
+      ],
+      "window_norm_height": 52451,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_023_certificate.json",
+      "polynomial": [
+        81,
+        -386,
+        -16299
+      ],
+      "window_norm_height": 53172,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_024_certificate.json",
+      "polynomial": [
+        17,
+        -680,
+        -54421
+      ],
+      "window_norm_height": 54421,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_025_certificate.json",
+      "polynomial": [
+        149,
+        636,
+        -36572
+      ],
+      "window_norm_height": 54877,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_026_certificate.json",
+      "polynomial": [
+        117,
+        489,
+        -55633
+      ],
+      "window_norm_height": 56143,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_027_certificate.json",
+      "polynomial": [
+        74,
+        3985,
+        -9160
+      ],
+      "window_norm_height": 62809,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_028_certificate.json",
+      "polynomial": [
+        189,
+        5981,
+        63110
+      ],
+      "window_norm_height": 63110,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_029_certificate.json",
+      "polynomial": [
+        83,
+        1849,
+        53209
+      ],
+      "window_norm_height": 63793,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_030_certificate.json",
+      "polynomial": [
+        89,
+        4812,
+        64322
+      ],
+      "window_norm_height": 64322,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_031_certificate.json",
+      "polynomial": [
+        6,
+        2963,
+        11113
+      ],
+      "window_norm_height": 64514,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_032_certificate.json",
+      "polynomial": [
+        151,
+        2871,
+        32936
+      ],
+      "window_norm_height": 65498,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_033_certificate.json",
+      "polynomial": [
+        11,
+        -3643,
+        -65534
+      ],
+      "window_norm_height": 65534,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_034_certificate.json",
+      "polynomial": [
+        62,
+        -1941,
+        -31386
+      ],
+      "window_norm_height": 66219,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_035_certificate.json",
+      "polynomial": [
+        219,
+        3893,
+        12663
+      ],
+      "window_norm_height": 67203,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_036_certificate.json",
+      "polynomial": [
+        130,
+        -919,
+        -51659
+      ],
+      "window_norm_height": 67924,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_037_certificate.json",
+      "polynomial": [
+        376,
+        9727,
+        56712
+      ],
+      "window_norm_height": 68187,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_038_certificate.json",
+      "polynomial": [
+        104,
+        1897,
+        -59607
+      ],
+      "window_norm_height": 68256,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d2_039_certificate.json",
+      "polynomial": [
+        123,
+        3452,
+        -44520
+      ],
+      "window_norm_height": 68740,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    }
+  ],
+  "seconds": 0.9227339990320615
+}

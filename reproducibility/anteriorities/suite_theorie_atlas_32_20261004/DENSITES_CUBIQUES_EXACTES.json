@@ -1,0 +1,1359 @@
+{
+  "status": "UNCONDITIONAL_EXACT",
+  "models": 15,
+  "cases": [
+    {
+      "r": 3,
+      "p": 496108447,
+      "M": 37,
+      "polynomial": [
+        1,
+        65,
+        1342,
+        9000
+      ],
+      "phase": 1,
+      "witness": 232156242,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": -20607,
+      "polynomial_discriminant": -741852,
+      "irreducibility_prime": 7,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 31381059609,
+          "common_subgroup_order": 9,
+          "norm_subgroup_order": 387420489,
+          "h2": 109418989131512359209,
+          "h3": 4710128697246244834921603689,
+          "character_lower_bounds": [
+            31381059609,
+            31381059609,
+            31381059609,
+            109418989131512359209,
+            109418989131512359209,
+            109418989131512359209,
+            4710128697246244834921603689
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 450283905826427282,
+            "denominator": 14130386091738734504764811067,
+            "float": 3.186635544867976e-11
+          },
+          "density_among_all_primes": {
+            "numerator": 225141952913213641,
+            "denominator": 14130386091738734504764811067,
+            "float": 1.593317772433988e-11
+          },
+          "relative_overlap_correction": {
+            "numerator": 64570081,
+            "denominator": 450283905890997363,
+            "float": 1.433985984292115e-10
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 31381059609,
+          "common_subgroup_order": 9,
+          "norm_subgroup_order": 387420489,
+          "h2": 109418989131512359209,
+          "h3": 4710128697246244834921603689,
+          "character_lower_bounds": [
+            31381059609,
+            31381059609,
+            31381059609,
+            109418989131512359209,
+            109418989131512359209,
+            109418989131512359209,
+            4710128697246244834921603689
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 450283905826427282,
+            "denominator": 14130386091738734504764811067,
+            "float": 3.186635544867976e-11
+          },
+          "density_among_all_primes": {
+            "numerator": 225141952913213641,
+            "denominator": 14130386091738734504764811067,
+            "float": 1.593317772433988e-11
+          },
+          "relative_overlap_correction": {
+            "numerator": 64570081,
+            "denominator": 450283905890997363,
+            "float": 1.433985984292115e-10
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 830419297,
+      "M": 54,
+      "polynomial": [
+        1,
+        54,
+        815,
+        3906
+      ],
+      "phase": 1,
+      "witness": 189592162,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": -1597607,
+      "polynomial_discriminant": -6390428,
+      "irreducibility_prime": 17,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 68719476736,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 268435456,
+          "h2": 147573952589676412928,
+          "h3": 1237940039285380274899124224,
+          "character_lower_bounds": [
+            68719476736,
+            68719476736,
+            68719476736,
+            147573952589676412928,
+            147573952589676412928,
+            147573952589676412928,
+            1237940039285380274899124224
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 108086391031726081,
+            "denominator": 7427640235712281649394745344,
+            "float": 1.455191522497872e-11
+          },
+          "density_among_all_primes": {
+            "numerator": 108086391031726081,
+            "denominator": 7427640235712281649394745344,
+            "float": 1.455191522497872e-11
+          },
+          "relative_overlap_correction": {
+            "numerator": 25165823,
+            "denominator": 108086391056891904,
+            "float": 2.328306344020111e-10
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 68719476736,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 268435456,
+          "h2": 147573952589676412928,
+          "h3": 1237940039285380274899124224,
+          "character_lower_bounds": [
+            68719476736,
+            68719476736,
+            68719476736,
+            147573952589676412928,
+            147573952589676412928,
+            147573952589676412928,
+            1237940039285380274899124224
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 108086391031726081,
+            "denominator": 7427640235712281649394745344,
+            "float": 1.455191522497872e-11
+          },
+          "density_among_all_primes": {
+            "numerator": 108086391031726081,
+            "denominator": 7427640235712281649394745344,
+            "float": 1.455191522497872e-11
+          },
+          "relative_overlap_correction": {
+            "numerator": 25165823,
+            "denominator": 108086391056891904,
+            "float": 2.328306344020111e-10
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 1195052273,
+      "M": 55,
+      "polynomial": [
+        1,
+        37,
+        390,
+        1143
+      ],
+      "phase": 1,
+      "witness": 41324824,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": 12001,
+      "polynomial_discriminant": 972081,
+      "irreducibility_prime": 2,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 281474976710656,
+          "common_subgroup_order": 4,
+          "norm_subgroup_order": 1099511627776,
+          "h2": 19807040628566084398385987584,
+          "h3": 5444517870735015415413993718908291383296,
+          "character_lower_bounds": [
+            281474976710656,
+            281474976710656,
+            281474976710656,
+            19807040628566084398385987584,
+            19807040628566084398385987584,
+            19807040628566084398385987584,
+            5444517870735015415413993718908291383296
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 116056878683003576138072065,
+            "denominator": 32667107224410092492483962313449748299776,
+            "float": 3.5527136788004757e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 116056878683003576138072065,
+            "denominator": 32667107224410092492483962313449748299776,
+            "float": 3.5527136788004757e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 824633720831,
+            "denominator": 116056878683004400771792896,
+            "float": 7.105427357592385e-15
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 281474976710656,
+          "common_subgroup_order": 4,
+          "norm_subgroup_order": 1099511627776,
+          "h2": 19807040628566084398385987584,
+          "h3": 5444517870735015415413993718908291383296,
+          "character_lower_bounds": [
+            281474976710656,
+            281474976710656,
+            281474976710656,
+            19807040628566084398385987584,
+            19807040628566084398385987584,
+            19807040628566084398385987584,
+            5444517870735015415413993718908291383296
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 116056878683003576138072065,
+            "denominator": 32667107224410092492483962313449748299776,
+            "float": 3.5527136788004757e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 116056878683003576138072065,
+            "denominator": 32667107224410092492483962313449748299776,
+            "float": 3.5527136788004757e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 824633720831,
+            "denominator": 116056878683004400771792896,
+            "float": 7.105427357592385e-15
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 1227020759,
+      "M": 53,
+      "polynomial": [
+        1,
+        25,
+        66,
+        -1008
+      ],
+      "phase": 1,
+      "witness": 554363595,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": 200033,
+      "polynomial_discriminant": 7201188,
+      "irreducibility_prime": 11,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 274877906944,
+          "common_subgroup_order": 8,
+          "norm_subgroup_order": 4294967296,
+          "h2": 9444732965739290427392,
+          "h3": 5070602400912917605986812821504,
+          "character_lower_bounds": [
+            274877906944,
+            274877906944,
+            274877906944,
+            9444732965739290427392,
+            9444732965739290427392,
+            9444732965739290427392,
+            5070602400912917605986812821504
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 110680464440646696961,
+            "denominator": 30423614405477505635920876929024,
+            "float": 3.6379788070387734e-12
+          },
+          "density_among_all_primes": {
+            "numerator": 110680464440646696961,
+            "denominator": 30423614405477505635920876929024,
+            "float": 3.6379788070387734e-12
+          },
+          "relative_overlap_correction": {
+            "numerator": 1610612735,
+            "denominator": 110680464442257309696,
+            "float": 1.4551915219331834e-11
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 274877906944,
+          "common_subgroup_order": 8,
+          "norm_subgroup_order": 4294967296,
+          "h2": 9444732965739290427392,
+          "h3": 5070602400912917605986812821504,
+          "character_lower_bounds": [
+            274877906944,
+            274877906944,
+            274877906944,
+            9444732965739290427392,
+            9444732965739290427392,
+            9444732965739290427392,
+            5070602400912917605986812821504
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 110680464440646696961,
+            "denominator": 30423614405477505635920876929024,
+            "float": 3.6379788070387734e-12
+          },
+          "density_among_all_primes": {
+            "numerator": 110680464440646696961,
+            "denominator": 30423614405477505635920876929024,
+            "float": 3.6379788070387734e-12
+          },
+          "relative_overlap_correction": {
+            "numerator": 1610612735,
+            "denominator": 110680464442257309696,
+            "float": 1.4551915219331834e-11
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 2889743819,
+      "M": 52,
+      "polynomial": [
+        1,
+        60,
+        1107,
+        7366
+      ],
+      "phase": 1,
+      "witness": 1391210215,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": -51256,
+      "polynomial_discriminant": -37365624,
+      "irreducibility_prime": 5,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 140737488355328,
+          "common_subgroup_order": 128,
+          "norm_subgroup_order": 34359738368,
+          "h2": 154742504910672534362390528,
+          "h3": 41538374868278621028243970633760768,
+          "character_lower_bounds": [
+            140737488355328,
+            140737488355328,
+            140737488355328,
+            154742504910672534362390528,
+            154742504910672534362390528,
+            154742504910672534362390528,
+            41538374868278621028243970633760768
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 1770887431075311648769,
+            "denominator": 249230249209671726169463823802564608,
+            "float": 7.105427357597771e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 1770887431075311648769,
+            "denominator": 249230249209671726169463823802564608,
+            "float": 7.105427357597771e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 805306367,
+            "denominator": 1770887431076116955136,
+            "float": 4.5474735032177547e-13
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 140737488355328,
+          "common_subgroup_order": 128,
+          "norm_subgroup_order": 34359738368,
+          "h2": 154742504910672534362390528,
+          "h3": 41538374868278621028243970633760768,
+          "character_lower_bounds": [
+            140737488355328,
+            140737488355328,
+            140737488355328,
+            154742504910672534362390528,
+            154742504910672534362390528,
+            154742504910672534362390528,
+            41538374868278621028243970633760768
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 1770887431075311648769,
+            "denominator": 249230249209671726169463823802564608,
+            "float": 7.105427357597771e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 1770887431075311648769,
+            "denominator": 249230249209671726169463823802564608,
+            "float": 7.105427357597771e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 805306367,
+            "denominator": 1770887431076116955136,
+            "float": 4.5474735032177547e-13
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 2936508541,
+      "M": 52,
+      "polynomial": [
+        1,
+        74,
+        1633,
+        10314
+      ],
+      "phase": 2936508540,
+      "witness": 917247659,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": 28391964,
+      "polynomial_discriminant": 28391964,
+      "irreducibility_prime": 5,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 2,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 281474976710656,
+          "common_subgroup_order": 128,
+          "norm_subgroup_order": 34359738368,
+          "h2": 618970019642690137449562112,
+          "h3": 166153499473114484112975882535043072,
+          "character_lower_bounds": [
+            281474976710656,
+            281474976710656,
+            281474976710656,
+            618970019642690137449562112,
+            618970019642690137449562112,
+            618970019642690137449562112,
+            166153499473114484112975882535043072
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 3541774862151428603905,
+            "denominator": 996920996838686904677855295210258432,
+            "float": 3.552713678799693e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 3541774862151428603905,
+            "denominator": 996920996838686904677855295210258432,
+            "float": 3.552713678799693e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 805306367,
+            "denominator": 3541774862152233910272,
+            "float": 2.2737367516088774e-13
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 140737488355328,
+          "common_subgroup_order": 64,
+          "norm_subgroup_order": 34359738368,
+          "h2": 309485009821345068724781056,
+          "h3": 166153499473114484112975882535043072,
+          "character_lower_bounds": [
+            140737488355328,
+            140737488355328,
+            140737488355328,
+            309485009821345068724781056,
+            309485009821345068724781056,
+            309485009821345068724781056,
+            166153499473114484112975882535043072
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 7083549724302857207809,
+            "denominator": 996920996838686904677855295210258432,
+            "float": 7.105427357599386e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 7083549724302857207809,
+            "denominator": 996920996838686904677855295210258432,
+            "float": 7.105427357599386e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 1610612735,
+            "denominator": 7083549724304467820544,
+            "float": 2.273736753020599e-13
+          }
+        }
+      }
+    },
+    {
+      "r": 4,
+      "p": 3594614377,
+      "M": 30,
+      "polynomial": [
+        1,
+        43,
+        586,
+        2592
+      ],
+      "phase": 1,
+      "witness": 1609339803,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": -1951,
+      "polynomial_discriminant": -70236,
+      "irreducibility_prime": 5,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 68719476736,
+          "common_subgroup_order": 64,
+          "norm_subgroup_order": 16777216,
+          "h2": 73786976294838206464,
+          "h3": 19342813113834066795298816,
+          "character_lower_bounds": [
+            68719476736,
+            68719476736,
+            68719476736,
+            73786976294838206464,
+            73786976294838206464,
+            73786976294838206464,
+            19342813113834066795298816
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 1688849859477505,
+            "denominator": 116056878683004400771792896,
+            "float": 1.4551915221590596e-11
+          },
+          "density_among_all_primes": {
+            "numerator": 1688849859477505,
+            "denominator": 232113757366008801543585792,
+            "float": 7.275957610795298e-12
+          },
+          "relative_overlap_correction": {
+            "numerator": 786431,
+            "denominator": 1688849860263936,
+            "float": 4.6566069518879277e-10
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 68719476736,
+          "common_subgroup_order": 64,
+          "norm_subgroup_order": 16777216,
+          "h2": 73786976294838206464,
+          "h3": 19342813113834066795298816,
+          "character_lower_bounds": [
+            68719476736,
+            68719476736,
+            68719476736,
+            73786976294838206464,
+            73786976294838206464,
+            73786976294838206464,
+            19342813113834066795298816
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 1688849859477505,
+            "denominator": 116056878683004400771792896,
+            "float": 1.4551915221590596e-11
+          },
+          "density_among_all_primes": {
+            "numerator": 1688849859477505,
+            "denominator": 232113757366008801543585792,
+            "float": 7.275957610795298e-12
+          },
+          "relative_overlap_correction": {
+            "numerator": 786431,
+            "denominator": 1688849860263936,
+            "float": 4.6566069518879277e-10
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 4105332313,
+      "M": 54,
+      "polynomial": [
+        1,
+        70,
+        1416,
+        8568
+      ],
+      "phase": 1,
+      "witness": 1374108864,
+      "origin": "eight_previously_certified_cubic_models",
+      "cubic_field_discriminant": 30273,
+      "polynomial_discriminant": 17437248,
+      "irreducibility_prime": 13,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 1099511627776,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 4294967296,
+          "h2": 37778931862957161709568,
+          "h3": 5070602400912917605986812821504,
+          "character_lower_bounds": [
+            1099511627776,
+            1099511627776,
+            1099511627776,
+            37778931862957161709568,
+            37778931862957161709568,
+            37778931862957161709568,
+            5070602400912917605986812821504
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 27670116110161674241,
+            "denominator": 30423614405477505635920876929024,
+            "float": 9.094947017596933e-13
+          },
+          "density_among_all_primes": {
+            "numerator": 27670116110161674241,
+            "denominator": 30423614405477505635920876929024,
+            "float": 9.094947017596933e-13
+          },
+          "relative_overlap_correction": {
+            "numerator": 402653183,
+            "denominator": 27670116110564327424,
+            "float": 1.455191519222678e-11
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 1099511627776,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 4294967296,
+          "h2": 37778931862957161709568,
+          "h3": 5070602400912917605986812821504,
+          "character_lower_bounds": [
+            1099511627776,
+            1099511627776,
+            1099511627776,
+            37778931862957161709568,
+            37778931862957161709568,
+            37778931862957161709568,
+            5070602400912917605986812821504
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 27670116110161674241,
+            "denominator": 30423614405477505635920876929024,
+            "float": 9.094947017596933e-13
+          },
+          "density_among_all_primes": {
+            "numerator": 27670116110161674241,
+            "denominator": 30423614405477505635920876929024,
+            "float": 9.094947017596933e-13
+          },
+          "relative_overlap_correction": {
+            "numerator": 402653183,
+            "denominator": 27670116110564327424,
+            "float": 1.455191519222678e-11
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 910400021,
+      "M": 53,
+      "polynomial": [
+        1,
+        94,
+        1944,
+        11620
+      ],
+      "phase": 1,
+      "witness": 49535061,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": -242572,
+      "polynomial_discriminant": -24257200,
+      "irreducibility_prime": 17,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 2,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 2251799813685248,
+          "common_subgroup_order": 64,
+          "norm_subgroup_order": 2199023255552,
+          "h2": 79228162514264337593543950336,
+          "h3": 2722258935367507707706996859454145691648,
+          "character_lower_bounds": [
+            2251799813685248,
+            2251799813685248,
+            2251799813685248,
+            79228162514264337593543950336,
+            79228162514264337593543950336,
+            79228162514264337593543950336,
+            2722258935367507707706996859454145691648
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 7253554917687671969021953,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 4.440892098500563e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 7253554917687671969021953,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 4.440892098500563e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 103079215103,
+            "denominator": 7253554917687775048237056,
+            "float": 1.4210854715064141e-14
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 1125899906842624,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 2199023255552,
+          "h2": 39614081257132168796771975168,
+          "h3": 2722258935367507707706996859454145691648,
+          "character_lower_bounds": [
+            1125899906842624,
+            1125899906842624,
+            1125899906842624,
+            39614081257132168796771975168,
+            39614081257132168796771975168,
+            39614081257132168796771975168,
+            2722258935367507707706996859454145691648
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 14507109835375343938043905,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 8.881784197001126e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 14507109835375343938043905,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 8.881784197001126e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 206158430207,
+            "denominator": 14507109835375550096474112,
+            "float": 1.4210854715133071e-14
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 1363287157,
+      "M": 52,
+      "polynomial": [
+        1,
+        159,
+        6578,
+        82500
+      ],
+      "phase": 1,
+      "witness": 327660609,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": -427451651,
+      "polynomial_discriminant": -1709806604,
+      "irreducibility_prime": 13,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 2,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 35184372088832,
+          "common_subgroup_order": 64,
+          "norm_subgroup_order": 4294967296,
+          "h2": 19342813113834066795298816,
+          "h3": 1298074214633706907132624082305024,
+          "character_lower_bounds": [
+            35184372088832,
+            35184372088832,
+            35184372088832,
+            19342813113834066795298816,
+            19342813113834066795298816,
+            19342813113834066795298816,
+            1298074214633706907132624082305024
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 221360928884313292801,
+            "denominator": 7788445287802241442795744493830144,
+            "float": 2.8421709430378158e-14
+          },
+          "density_among_all_primes": {
+            "numerator": 221360928884313292801,
+            "denominator": 7788445287802241442795744493830144,
+            "float": 2.8421709430378158e-14
+          },
+          "relative_overlap_correction": {
+            "numerator": 201326591,
+            "denominator": 221360928884514619392,
+            "float": 9.094946972554192e-13
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 17592186044416,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 2147483648,
+          "h2": 9671406556917033397649408,
+          "h3": 649037107316853453566312041152512,
+          "character_lower_bounds": [
+            17592186044416,
+            17592186044416,
+            17592186044416,
+            9671406556917033397649408,
+            9671406556917033397649408,
+            9671406556917033397649408,
+            649037107316853453566312041152512
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 221360928884313292801,
+            "denominator": 3894222643901120721397872246915072,
+            "float": 5.6843418860756316e-14
+          },
+          "density_among_all_primes": {
+            "numerator": 221360928884313292801,
+            "denominator": 3894222643901120721397872246915072,
+            "float": 5.6843418860756316e-14
+          },
+          "relative_overlap_correction": {
+            "numerator": 201326591,
+            "denominator": 221360928884514619392,
+            "float": 9.094946972554192e-13
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 1478917823,
+      "M": 53,
+      "polynomial": [
+        1,
+        -20,
+        -2317,
+        -26488
+      ],
+      "phase": 1,
+      "witness": 274632974,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": 278255089,
+      "polynomial_discriminant": 10017183204,
+      "irreducibility_prime": 5,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 140737488355328,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 68719476736,
+          "h2": 618970019642690137449562112,
+          "h3": 1329227995784915872903807060280344576,
+          "character_lower_bounds": [
+            140737488355328,
+            140737488355328,
+            140737488355328,
+            618970019642690137449562112,
+            618970019642690137449562112,
+            618970019642690137449562112,
+            1329227995784915872903807060280344576
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 56668397794429300113409,
+            "denominator": 7975367974709495237422842361682067456,
+            "float": 7.105427357600194e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 56668397794429300113409,
+            "denominator": 7975367974709495237422842361682067456,
+            "float": 7.105427357600194e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 6442450943,
+            "denominator": 56668397794435742564352,
+            "float": 1.1368683770396951e-13
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 140737488355328,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 68719476736,
+          "h2": 618970019642690137449562112,
+          "h3": 1329227995784915872903807060280344576,
+          "character_lower_bounds": [
+            140737488355328,
+            140737488355328,
+            140737488355328,
+            618970019642690137449562112,
+            618970019642690137449562112,
+            618970019642690137449562112,
+            1329227995784915872903807060280344576
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 56668397794429300113409,
+            "denominator": 7975367974709495237422842361682067456,
+            "float": 7.105427357600194e-15
+          },
+          "density_among_all_primes": {
+            "numerator": 56668397794429300113409,
+            "denominator": 7975367974709495237422842361682067456,
+            "float": 7.105427357600194e-15
+          },
+          "relative_overlap_correction": {
+            "numerator": 6442450943,
+            "denominator": 56668397794435742564352,
+            "float": 1.1368683770396951e-13
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 1862482781,
+      "M": 53,
+      "polynomial": [
+        1,
+        -15,
+        -3136,
+        -45996
+      ],
+      "phase": 1,
+      "witness": 804490272,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": 1805495992,
+      "polynomial_discriminant": 28887935872,
+      "irreducibility_prime": 11,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 1,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 4503599627370496,
+          "common_subgroup_order": 8,
+          "norm_subgroup_order": 1099511627776,
+          "h2": 2535301200456458802993406410752,
+          "h3": 348449143727040986586495598010130648530944,
+          "character_lower_bounds": [
+            4503599627370496,
+            4503599627370496,
+            4503599627370496,
+            2535301200456458802993406410752,
+            2535301200456458802993406410752,
+            2535301200456458802993406410752,
+            348449143727040986586495598010130648530944
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 464227514732017190770311169,
+            "denominator": 2090694862362245919518973588060783891185664,
+            "float": 2.220446049250311e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 464227514732017190770311169,
+            "denominator": 2090694862362245919518973588060783891185664,
+            "float": 2.220446049250311e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 412316860415,
+            "denominator": 464227514732017603087171584,
+            "float": 8.881784196979711e-16
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 4503599627370496,
+          "common_subgroup_order": 8,
+          "norm_subgroup_order": 1099511627776,
+          "h2": 2535301200456458802993406410752,
+          "h3": 348449143727040986586495598010130648530944,
+          "character_lower_bounds": [
+            4503599627370496,
+            4503599627370496,
+            4503599627370496,
+            2535301200456458802993406410752,
+            2535301200456458802993406410752,
+            2535301200456458802993406410752,
+            348449143727040986586495598010130648530944
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 464227514732017190770311169,
+            "denominator": 2090694862362245919518973588060783891185664,
+            "float": 2.220446049250311e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 464227514732017190770311169,
+            "denominator": 2090694862362245919518973588060783891185664,
+            "float": 2.220446049250311e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 412316860415,
+            "denominator": 464227514732017603087171584,
+            "float": 8.881784196979711e-16
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 2080022621,
+      "M": 52,
+      "polynomial": [
+        1,
+        187,
+        9104,
+        132770
+      ],
+      "phase": 2080022620,
+      "witness": 157647132,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": -111555012,
+      "polynomial_discriminant": -111555012,
+      "irreducibility_prime": 13,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 2,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 2251799813685248,
+          "common_subgroup_order": 8,
+          "norm_subgroup_order": 2199023255552,
+          "h2": 633825300114114700748351602688,
+          "h3": 174224571863520493293247799005065324265472,
+          "character_lower_bounds": [
+            2251799813685248,
+            2251799813685248,
+            2251799813685248,
+            633825300114114700748351602688,
+            633825300114114700748351602688,
+            633825300114114700748351602688,
+            174224571863520493293247799005065324265472
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 464227514732016778453450753,
+            "denominator": 1045347431181122959759486794030391945592832,
+            "float": 4.4408920985006183e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 464227514732016778453450753,
+            "denominator": 1045347431181122959759486794030391945592832,
+            "float": 4.4408920985006183e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 824633720831,
+            "denominator": 464227514732017603087171584,
+            "float": 1.7763568393980963e-15
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 1125899906842624,
+          "common_subgroup_order": 4,
+          "norm_subgroup_order": 1099511627776,
+          "h2": 316912650057057350374175801344,
+          "h3": 87112285931760246646623899502532662132736,
+          "character_lower_bounds": [
+            1125899906842624,
+            1125899906842624,
+            1125899906842624,
+            316912650057057350374175801344,
+            316912650057057350374175801344,
+            316912650057057350374175801344,
+            87112285931760246646623899502532662132736
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 464227514732016778453450753,
+            "denominator": 522673715590561479879743397015195972796416,
+            "float": 8.881784197001237e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 464227514732016778453450753,
+            "denominator": 522673715590561479879743397015195972796416,
+            "float": 8.881784197001237e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 824633720831,
+            "denominator": 464227514732017603087171584,
+            "float": 1.7763568393980963e-15
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 3836617441,
+      "M": 53,
+      "polynomial": [
+        1,
+        163,
+        8010,
+        121176
+      ],
+      "phase": 1,
+      "witness": 1084557646,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": 146945,
+      "polynomial_discriminant": 1190254500,
+      "irreducibility_prime": 7,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 2,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 2199023255552,
+          "common_subgroup_order": 16,
+          "norm_subgroup_order": 34359738368,
+          "h2": 302231454903657293676544,
+          "h3": 649037107316853453566312041152512,
+          "character_lower_bounds": [
+            2199023255552,
+            2199023255552,
+            2199023255552,
+            302231454903657293676544,
+            302231454903657293676544,
+            302231454903657293676544,
+            649037107316853453566312041152512
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 1770887431069674504193,
+            "denominator": 3894222643901120721397872246915072,
+            "float": 4.5474735088480976e-13
+          },
+          "density_among_all_primes": {
+            "numerator": 1770887431069674504193,
+            "denominator": 3894222643901120721397872246915072,
+            "float": 4.5474735088480976e-13
+          },
+          "relative_overlap_correction": {
+            "numerator": 6442450943,
+            "denominator": 1770887431076116955136,
+            "float": 3.6379788065270245e-12
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 1099511627776,
+          "common_subgroup_order": 8,
+          "norm_subgroup_order": 34359738368,
+          "h2": 151115727451828646838272,
+          "h3": 649037107316853453566312041152512,
+          "character_lower_bounds": [
+            1099511627776,
+            1099511627776,
+            1099511627776,
+            151115727451828646838272,
+            151115727451828646838272,
+            151115727451828646838272,
+            649037107316853453566312041152512
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 3541774862139349008385,
+            "denominator": 3894222643901120721397872246915072,
+            "float": 9.094947017696195e-13
+          },
+          "density_among_all_primes": {
+            "numerator": 3541774862139349008385,
+            "denominator": 3894222643901120721397872246915072,
+            "float": 9.094947017696195e-13
+          },
+          "relative_overlap_correction": {
+            "numerator": 12884901887,
+            "denominator": 3541774862152233910272,
+            "float": 3.6379788068093685e-12
+          }
+        }
+      }
+    },
+    {
+      "r": 2,
+      "p": 3920044319,
+      "M": 54,
+      "polynomial": [
+        1,
+        28,
+        -1061,
+        -27288
+      ],
+      "phase": 3920044318,
+      "witness": 1003973382,
+      "origin": "new_bounded_residual_search",
+      "cubic_field_discriminant": 635795169,
+      "polynomial_discriminant": 2543180676,
+      "irreducibility_prime": 7,
+      "galois_group": "S3",
+      "normal_degree_over_cyclotomic_base": 6,
+      "cyclotomic_field_disjoint_from_splitting_field": true,
+      "allowed_phase_order": 2,
+      "certification": "EXACT_IDENTITIES_PLUS_MATCHING_CHARACTER_BOUNDS",
+      "modes": {
+        "neutral": {
+          "mode": "neutral",
+          "g": 2251799813685248,
+          "common_subgroup_order": 32,
+          "norm_subgroup_order": 549755813888,
+          "h2": 158456325028528675187087900672,
+          "h3": 2722258935367507707706996859454145691648,
+          "character_lower_bounds": [
+            2251799813685248,
+            2251799813685248,
+            2251799813685248,
+            158456325028528675187087900672,
+            158456325028528675187087900672,
+            158456325028528675187087900672,
+            2722258935367507707706996859454145691648
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 7253554917687723508629505,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 4.4408920985005946e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 7253554917687723508629505,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 4.4408920985005946e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 51539607551,
+            "denominator": 7253554917687775048237056,
+            "float": 7.105427357463138e-15
+          }
+        },
+        "equal_phase": {
+          "mode": "equal_phase",
+          "g": 1125899906842624,
+          "common_subgroup_order": 16,
+          "norm_subgroup_order": 549755813888,
+          "h2": 79228162514264337593543950336,
+          "h3": 2722258935367507707706996859454145691648,
+          "character_lower_bounds": [
+            1125899906842624,
+            1125899906842624,
+            1125899906842624,
+            79228162514264337593543950336,
+            79228162514264337593543950336,
+            79228162514264337593543950336,
+            2722258935367507707706996859454145691648
+          ],
+          "upper_bounds_match_lower_bounds": true,
+          "density_among_r_admissible_primes": {
+            "numerator": 14507109835375447017259009,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 8.881784197001189e-16
+          },
+          "density_among_all_primes": {
+            "numerator": 14507109835375447017259009,
+            "denominator": 16333553612205046246241981156724874149888,
+            "float": 8.881784197001189e-16
+          },
+          "relative_overlap_correction": {
+            "numerator": 103079215103,
+            "denominator": 14507109835375550096474112,
+            "float": 7.1054273575320704e-15
+          }
+        }
+      }
+    }
+  ],
+  "seconds": 25.323444214998744,
+  "formula": "1/g - 1/(2*h2) + 1/(6*h3)",
+  "scope": "Existence of at least one root of a fixed irreducible cubic with a neutral or constant character window of the fixed length. Asymptotic density; no finite-range error bound or prospective test claimed."
+}

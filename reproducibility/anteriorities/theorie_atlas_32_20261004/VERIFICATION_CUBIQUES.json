@@ -1,0 +1,1734 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "r": 3,
+      "p": 496108447,
+      "M": 37,
+      "polynomial": [
+        1,
+        65,
+        1342,
+        9000
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": -20607,
+      "neutral_group_invariants": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "neutral_group_order": 31381059609,
+      "equal_phase_group_invariants": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "equal_phase_group_order": 31381059609,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            1,
+            9,
+            28
+          ],
+          "right": [
+            12,
+            27
+          ],
+          "coefficient": -27,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            4,
+            22,
+            31
+          ],
+          "right": [
+            28,
+            28
+          ],
+          "coefficient": -8,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            6,
+            20,
+            31
+          ],
+          "right": [
+            22,
+            30
+          ],
+          "coefficient": -8,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            7,
+            20,
+            30
+          ],
+          "right": [
+            24,
+            25
+          ],
+          "coefficient": -8,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            9,
+            10,
+            19
+          ],
+          "right": [
+            15,
+            18
+          ],
+          "coefficient": -27,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            14,
+            23,
+            36
+          ],
+          "right": [
+            12,
+            27
+          ],
+          "coefficient": 8,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            15,
+            24,
+            25
+          ],
+          "right": [
+            0,
+            7
+          ],
+          "coefficient": -1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            16,
+            20,
+            28
+          ],
+          "right": [
+            4,
+            10
+          ],
+          "coefficient": -1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            22,
+            23,
+            28
+          ],
+          "right": [
+            19,
+            34
+          ],
+          "coefficient": 8,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          17,
+          21,
+          26,
+          29,
+          33,
+          35
+        ],
+        "total_conditions": 23,
+        "necessary_as_well": true
+      }
+    },
+    {
+      "r": 2,
+      "p": 830419297,
+      "M": 54,
+      "polynomial": [
+        1,
+        54,
+        815,
+        3906
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": -1597607,
+      "neutral_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "neutral_group_order": 68719476736,
+      "equal_phase_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "equal_phase_group_order": 68719476736,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            6,
+            21,
+            31
+          ],
+          "right": [
+            0,
+            37
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            7,
+            27,
+            29
+          ],
+          "right": [
+            5,
+            35
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            9,
+            11,
+            43
+          ],
+          "right": [
+            3,
+            13
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            10,
+            13,
+            35
+          ],
+          "right": [
+            7,
+            23
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            10,
+            21,
+            27
+          ],
+          "right": [
+            9,
+            49
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            11,
+            11,
+            33
+          ],
+          "right": [
+            3,
+            29
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            11,
+            16,
+            36
+          ],
+          "right": [
+            10,
+            27
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            16,
+            18,
+            29
+          ],
+          "right": [
+            13,
+            38
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3,
+          11
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          20,
+          22,
+          24,
+          26,
+          32,
+          39,
+          40,
+          42,
+          44,
+          45,
+          46,
+          47,
+          50,
+          51,
+          52
+        ],
+        "total_conditions": 36,
+        "necessary_as_well": true
+      }
+    },
+    {
+      "r": 2,
+      "p": 1195052273,
+      "M": 55,
+      "polynomial": [
+        1,
+        37,
+        390,
+        1143
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": 12001,
+      "neutral_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "neutral_group_order": 281474976710656,
+      "equal_phase_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "equal_phase_group_order": 281474976710656,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            6,
+            6,
+            34
+          ],
+          "right": [
+            3,
+            3
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            6,
+            12,
+            20
+          ],
+          "right": [
+            9,
+            33
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          3,
+          11
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ],
+        "total_conditions": 50,
+        "necessary_as_well": false
+      }
+    },
+    {
+      "r": 2,
+      "p": 1227020759,
+      "M": 53,
+      "polynomial": [
+        1,
+        25,
+        66,
+        -1008
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": 200033,
+      "neutral_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "neutral_group_order": 274877906944,
+      "equal_phase_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "equal_phase_group_order": 274877906944,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            0,
+            11,
+            18
+          ],
+          "right": [
+            12,
+            21
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            0,
+            12,
+            22
+          ],
+          "right": [
+            8,
+            14
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            0,
+            13,
+            21
+          ],
+          "right": [
+            7,
+            16
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            1,
+            6,
+            19
+          ],
+          "right": [
+            22,
+            51
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            3,
+            8,
+            18
+          ],
+          "right": [
+            15,
+            24
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            3,
+            10,
+            16
+          ],
+          "right": [
+            12,
+            31
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            3,
+            13,
+            18
+          ],
+          "right": [
+            10,
+            19
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            6,
+            8,
+            15
+          ],
+          "right": [
+            12,
+            36
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            6,
+            13,
+            15
+          ],
+          "right": [
+            11,
+            22
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            6,
+            15,
+            40
+          ],
+          "right": [
+            8,
+            16
+          ],
+          "coefficient": 36,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3,
+          7
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9,
+          10,
+          12,
+          16,
+          20,
+          23,
+          25,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          37,
+          38,
+          39,
+          41,
+          42,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          52
+        ],
+        "total_conditions": 39,
+        "necessary_as_well": false
+      }
+    },
+    {
+      "r": 2,
+      "p": 2889743819,
+      "M": 52,
+      "polynomial": [
+        1,
+        60,
+        1107,
+        7366
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": -51256,
+      "neutral_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "neutral_group_order": 140737488355328,
+      "equal_phase_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "equal_phase_group_order": 140737488355328,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            10,
+            19,
+            40
+          ],
+          "right": [
+            1,
+            26
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            16,
+            19,
+            34
+          ],
+          "right": [
+            10,
+            33
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3,
+          17
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          32,
+          35,
+          36,
+          37,
+          38,
+          39,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          49,
+          51
+        ],
+        "total_conditions": 48,
+        "necessary_as_well": false
+      }
+    },
+    {
+      "r": 2,
+      "p": 2936508541,
+      "M": 52,
+      "polynomial": [
+        1,
+        74,
+        1633,
+        10314
+      ],
+      "phase": 2936508540,
+      "cubic_field_discriminant": 28391964,
+      "neutral_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "neutral_group_order": 281474976710656,
+      "equal_phase_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "equal_phase_group_order": 140737488355328,
+      "allowed_phase_order": 2,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3,
+          13,
+          19
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          40,
+          41,
+          43,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "total_conditions": 48,
+        "necessary_as_well": true
+      }
+    },
+    {
+      "r": 4,
+      "p": 3594614377,
+      "M": 30,
+      "polynomial": [
+        1,
+        43,
+        586,
+        2592
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": -1951,
+      "neutral_group_invariants": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "neutral_group_order": 68719476736,
+      "equal_phase_group_invariants": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "equal_phase_group_order": 68719476736,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            8,
+            18,
+            18
+          ],
+          "right": [
+            0,
+            26
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            10,
+            14,
+            20
+          ],
+          "right": [
+            8,
+            26
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            11,
+            11,
+            22
+          ],
+          "right": [
+            5,
+            14
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            11,
+            12,
+            21
+          ],
+          "right": [
+            9,
+            20
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            16,
+            17,
+            26
+          ],
+          "right": [
+            14,
+            20
+          ],
+          "coefficient": 16,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3,
+          17
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          11,
+          19,
+          25,
+          27,
+          28,
+          29
+        ],
+        "total_conditions": 19,
+        "necessary_as_well": true
+      }
+    },
+    {
+      "r": 2,
+      "p": 4105332313,
+      "M": 54,
+      "polynomial": [
+        1,
+        70,
+        1416,
+        8568
+      ],
+      "phase": 1,
+      "cubic_field_discriminant": 30273,
+      "neutral_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "neutral_group_order": 1099511627776,
+      "equal_phase_group_invariants": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "equal_phase_group_order": 1099511627776,
+      "allowed_phase_order": 1,
+      "all_polynomial_and_character_identities_verified": true,
+      "elementary_phase_forcing_identities": [
+        {
+          "left": [
+            9,
+            22,
+            48
+          ],
+          "right": [
+            4,
+            26
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            12,
+            17,
+            42
+          ],
+          "right": [
+            0,
+            6
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            12,
+            18,
+            49
+          ],
+          "right": [
+            14,
+            16
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            13,
+            18,
+            40
+          ],
+          "right": [
+            22,
+            36
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            13,
+            24,
+            42
+          ],
+          "right": [
+            14,
+            36
+          ],
+          "coefficient": 9,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            14,
+            17,
+            40
+          ],
+          "right": [
+            28,
+            34
+          ],
+          "coefficient": 1,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            14,
+            18,
+            42
+          ],
+          "right": [
+            21,
+            24
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            14,
+            22,
+            38
+          ],
+          "right": [
+            16,
+            49
+          ],
+          "coefficient": 4,
+          "perfect_rth_power": true
+        },
+        {
+          "left": [
+            22,
+            42,
+            42
+          ],
+          "right": [
+            21,
+            40
+          ],
+          "coefficient": 36,
+          "perfect_rth_power": true
+        }
+      ],
+      "sufficient_neutral_criterion": {
+        "constant_primes": [
+          2,
+          3,
+          11,
+          17
+        ],
+        "include_minus_one": true,
+        "anchor_positions": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          15,
+          16,
+          19,
+          20,
+          23,
+          25,
+          29,
+          30,
+          31,
+          32,
+          33,
+          35,
+          37,
+          41,
+          43,
+          45,
+          46,
+          47,
+          50,
+          52,
+          53
+        ],
+        "total_conditions": 40,
+        "necessary_as_well": true
+      }
+    }
+  ],
+  "module_verifier": "verify_kummer.py; integer arithmetic modulo r only"
+}

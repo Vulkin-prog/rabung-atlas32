@@ -1,0 +1,12 @@
+run()={my(P);
+P=(1)*x^4+(107)*x^3+(4112)*x^2+(66262)*x^1+(379356)*x^0;print("CASE ",[0,500177861,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(115)*x^3+(4827)*x^2+(86717)*x^1+(531860)*x^0;print("CASE ",[1,500177861,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(96)*x^3+(3191)*x^2+(41056)*x^1+(144240)*x^0;print("CASE ",[2,1657464163,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^3+(-197)*x^2+(-9264)*x^1+(-90252)*x^0;print("CASE ",[3,1779238511,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(118)*x^3+(4543)*x^2+(59466)*x^1+(94680)*x^0;print("CASE ",[4,1779238511,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(98)*x^3+(3463)*x^2+(51510)*x^1+(280488)*x^0;print("CASE ",[5,2088598739,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(73)*x^3+(1773)*x^2+(14931)*x^1+(9240)*x^0;print("CASE ",[6,2654052683,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(100)*x^3+(3258)*x^2+(34844)*x^1+(26309)*x^0;print("CASE ",[7,3173249399,2,poldegree(P),polisirreducible(P)]);
+P=(1)*x^4+(126)*x^3+(5593)*x^2+(102996)*x^1+(657004)*x^0;print("CASE ",[8,3696971783,2,poldegree(P),polisirreducible(P)]);
+};
+iferr(run(),err,print("ERROR ",err);quit(1));quit;

@@ -1,0 +1,20 @@
+{
+  "p": 1428586013,
+  "roots": [
+    {
+      "root": 171477315,
+      "neutral_terms": 52,
+      "neutral_window_52": true,
+      "constant_window_52": true,
+      "opposite_root": 1257108658
+    },
+    {
+      "root": 1257108658,
+      "neutral_terms": 47,
+      "neutral_window_52": false,
+      "constant_window_52": false,
+      "opposite_root": 171477315
+    }
+  ],
+  "scope": "Only the fixed 52-term intervals at algebraic roots; no new global census"
+}

@@ -1,0 +1,11 @@
+default(parisizemax,1024000000);
+default(parisize,128000000);
+setrand(1);
+run()={my(P=(1)*x^4+(100)*x^3+(3258)*x^2+(34844)*x^1+(26309)*x^0,fp=(-601585318656)*x^0+(0)*x^1+(-71799455268)*x^2+(0)*x^3+(3306171393)*x^4+(0)*x^5+(-50719084)*x^6+(0)*x^7+(342630)*x^8+(0)*x^9+(-984)*x^10+(0)*x^11+(1)*x^12,C,raw,nf,fac,roots);
+ C=polcompositum(fp,x^2-(-261104739),1);for(i=1,#C,if(poldegree(C[i][1])==24,raw=C[i][1];break));print("STAGE normal raw");fp=polredbest(raw);print("STAGE normal reduced");
+ fp=subst(fp,x,y);nf=nfinit(fp);print("STAGE nfinit done");fac=nffactor(nf,P);
+ if(matsize(fac)[1]!=4,error("not split"));roots=vector(4,i,-polcoef(fac[i,1],0));
+ print("FIELD ",vector(poldegree(fp)+1,i,Str(polcoef(fp,i-1))));
+ print("ROOTS ",vector(4,i,vector(poldegree(fp),j,Str(polcoef(lift(roots[i]),j-1)))));
+ print("END 1");};
+iferr(run(),err,print("ERROR ",err);quit(1));quit;

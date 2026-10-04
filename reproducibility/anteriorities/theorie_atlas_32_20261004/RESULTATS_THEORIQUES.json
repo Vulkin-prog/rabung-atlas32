@@ -1,0 +1,440 @@
+{
+  "status": "PASS",
+  "scope": "Exploratory follow-up of the sealed [1,2^32) atlas; exact fixed-template algebra, no refit or reopened primary test.",
+  "propagation": {
+    "r": 9,
+    "A": 31,
+    "B": 216,
+    "D": 97,
+    "initial_neutral_prefix": 11,
+    "forced_neutral_prefix": 26,
+    "sufficient_position_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      9,
+      10
+    ]
+  },
+  "certified_quadratic_models": 17,
+  "certified_cubic_models": 8,
+  "deep_classification": {
+    "cutoffs": [
+      52,
+      36,
+      28,
+      26,
+      26,
+      22,
+      20,
+      20
+    ],
+    "labels": [
+      "prefix_or_center",
+      "rational",
+      "small_quadratic",
+      "repeated_cubic",
+      "remaining"
+    ],
+    "counts": [
+      [
+        7675,
+        430,
+        531,
+        6,
+        44
+      ],
+      [
+        1538,
+        26,
+        170,
+        1,
+        0
+      ],
+      [
+        573,
+        24,
+        203,
+        1,
+        9
+      ],
+      [
+        118,
+        1,
+        58,
+        0,
+        0
+      ],
+      [
+        43,
+        0,
+        4,
+        0,
+        0
+      ],
+      [
+        36,
+        1,
+        9,
+        0,
+        0
+      ],
+      [
+        12,
+        1,
+        22,
+        0,
+        0
+      ],
+      [
+        7,
+        1,
+        13,
+        0,
+        0
+      ]
+    ],
+    "total": 11557,
+    "remaining": 53
+  },
+  "r3_through_r9_quadratic_neutral_profiles": 479,
+  "quadratic_densities": [
+    {
+      "r": 8,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "radical_order": 2097152,
+      "normal_closure_radical_order": 2097152,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 4194304,
+        "decimal": 2.384185791015625e-07
+      }
+    },
+    {
+      "r": 8,
+      "A": 23,
+      "B": 114,
+      "D": 73,
+      "M": 22,
+      "radical_order": 16777216,
+      "normal_closure_radical_order": 134217728,
+      "density_among_r_admissible_primes": {
+        "numerator": 15,
+        "denominator": 268435456,
+        "decimal": 5.587935447692871e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "radical_order": 4782969,
+      "normal_closure_radical_order": 4782969,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 9565938,
+        "decimal": 1.0453757906438448e-07
+      }
+    },
+    {
+      "r": 9,
+      "A": 31,
+      "B": 216,
+      "D": 97,
+      "M": 26,
+      "radical_order": 3486784401,
+      "normal_closure_radical_order": 2541865828329,
+      "density_among_r_admissible_primes": {
+        "numerator": 1457,
+        "denominator": 5083731656658,
+        "decimal": 2.8660049318138454e-10
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "radical_order": 16777216,
+      "normal_closure_radical_order": 16777216,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "radical_order": 43046721,
+      "normal_closure_radical_order": 43046721,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 86093442,
+        "decimal": 1.1615286562709387e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "radical_order": 4782969,
+      "normal_closure_radical_order": 4782969,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 9565938,
+        "decimal": 1.0453757906438448e-07
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "radical_order": 2097152,
+      "normal_closure_radical_order": 2097152,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 4194304,
+        "decimal": 2.384185791015625e-07
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "radical_order": 43046721,
+      "normal_closure_radical_order": 43046721,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 86093442,
+        "decimal": 1.1615286562709387e-08
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 22,
+      "radical_order": 134217728,
+      "normal_closure_radical_order": 1073741824,
+      "density_among_r_admissible_primes": {
+        "numerator": 15,
+        "denominator": 2147483648,
+        "decimal": 6.984919309616089e-09
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "radical_order": 16777216,
+      "normal_closure_radical_order": 16777216,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "radical_order": 43046721,
+      "normal_closure_radical_order": 43046721,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 86093442,
+        "decimal": 1.1615286562709387e-08
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "radical_order": 16777216,
+      "normal_closure_radical_order": 16777216,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 26,
+      "B": 132,
+      "D": 148,
+      "M": 25,
+      "radical_order": 3486784401,
+      "normal_closure_radical_order": 31381059609,
+      "density_among_r_admissible_primes": {
+        "numerator": 17,
+        "denominator": 62762119218,
+        "decimal": 2.7086402135261944e-10
+      }
+    },
+    {
+      "r": 8,
+      "A": 17,
+      "B": 64,
+      "D": 33,
+      "M": 21,
+      "radical_order": 134217728,
+      "normal_closure_radical_order": 8589934592,
+      "density_among_r_admissible_primes": {
+        "numerator": 127,
+        "denominator": 17179869184,
+        "decimal": 7.392372936010361e-09
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 24,
+      "radical_order": 134217728,
+      "normal_closure_radical_order": 8589934592,
+      "density_among_r_admissible_primes": {
+        "numerator": 127,
+        "denominator": 17179869184,
+        "decimal": 7.392372936010361e-09
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 102,
+      "D": -47,
+      "M": 20,
+      "radical_order": 16777216,
+      "normal_closure_radical_order": 16777216,
+      "density_among_r_admissible_primes": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    }
+  ],
+  "targeted_CPU_search": {
+    "status": "PASS",
+    "blocks": 49901,
+    "primes": 203280221,
+    "seconds": 31.0516,
+    "max_block_seconds": 0.00136514,
+    "models": [
+      {
+        "r": 9,
+        "A": 31,
+        "D": 97,
+        "M": 26,
+        "eligible": 33879336,
+        "eligible_p_gt_512": 33879322,
+        "sign_pass": 33879322,
+        "small_prime_filter_pass": [
+          3762903,
+          417128,
+          45824
+        ],
+        "split_candidates": 22990,
+        "anchor_filter_pass": [
+          45980,
+          5056,
+          585,
+          60,
+          6,
+          1,
+          1,
+          1
+        ],
+        "hits": [
+          {
+            "p": 569704789,
+            "root": 77806457,
+            "archived_M": 26,
+            "archived_L": 4,
+            "archived_witness": 77806457
+          }
+        ]
+      },
+      {
+        "r": 8,
+        "A": 19,
+        "D": 97,
+        "M": 24,
+        "eligible": 50817342,
+        "eligible_p_gt_512": 50817322,
+        "sign_pass": 25409233,
+        "small_prime_filter_pass": [
+          6350827,
+          793312,
+          97949
+        ],
+        "split_candidates": 48834,
+        "anchor_filter_pass": [
+          97668,
+          11950,
+          1498,
+          172,
+          16,
+          1,
+          1
+        ],
+        "hits": [
+          {
+            "p": 3636492721,
+            "root": 71897859,
+            "archived_M": 24,
+            "archived_L": 4,
+            "archived_witness": 71897859
+          }
+        ]
+      }
+    ],
+    "scope": "Fixed neutral templates only, within existing prime list [1,2^32). Maxima are used only to verify hits; no GPU and no new global census."
+  },
+  "validation": {
+    "deep_profiles": 11557,
+    "character_evaluations": 616064,
+    "Python_decoded_blocks": 135,
+    "Python_decoded_primes": 549312,
+    "original_archive": {
+      "status": "PASS",
+      "source_manifest_sha256": "762dc0aadc9beaa8a6bf2cb1a82604ad0c3dfcbb9f67c1a852ca7a2bb4468c20",
+      "files": 203,
+      "bytes": 4893897425,
+      "seconds": 2.1567859890055843,
+      "scientific_archive_unchanged": true
+    }
+  },
+  "cubic_density_status": "Not computed exactly: two normal-closure attempts were stopped at their 60-second limit; no result accepted.",
+  "study_GPU_jobs": 0,
+  "multi_hour_jobs": 0
+}

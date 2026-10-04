@@ -1,0 +1,7 @@
+threshold,below_code_syndrome,below_code_fourier,below_iid
+1,0,0,0
+2,0,0,2
+3,0,0,16
+4,0,0,26
+5,1,1,30
+6,2,2,32

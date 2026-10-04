@@ -1,0 +1,34 @@
+name: Bounded reproduction
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  exact-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # official v4
+      - name: Check sample data and reject damaged frames
+        run: |
+          python3 -B scripts/verify_atlas.py
+          python3 -B -m unittest discover -s tests
+      - name: Verify mathematical certificates
+        run: |
+          python3 -B reproducibility/proofs/verify_synthesis.py
+          python3 -B reproducibility/proofs/verify_report4.py
+          python3 -B reproducibility/anteriorities/theorie_densites_residuels_20261004/preuves/verify_results.py
+      - name: Recompute initial primes on CPU
+        run: |
+          python3 -B scripts/build_workers.py
+          python3 -B scripts/recompute_small.py --count 256
+      - name: Regenerate local maximum counts by two exact algorithms
+        run: |
+          g++ -O3 -std=c++17 reproducibility/proofs/local_maximum.cpp -o build/local_maximum
+          build/local_maximum reproducibility/evidence/new/local_relations_input.txt build/local_maximum.csv
+          cmp build/local_maximum.csv reproducibility/evidence/new/LOCAL_MAXIMUM_CUBIC.csv

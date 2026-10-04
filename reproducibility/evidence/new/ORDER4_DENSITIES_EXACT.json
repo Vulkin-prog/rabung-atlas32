@@ -1,0 +1,2117 @@
+{
+  "status": "UNCONDITIONAL_EXACT_CERTIFIED_SUBSET_GROUPS",
+  "models": 8,
+  "scope": "Natural densities for good rational primes; not finite-atlas probabilities or record probabilities.",
+  "cyclotomic_factor": 2,
+  "cases": [
+    {
+      "p_origin": 1065972469,
+      "P": [
+        4,
+        168,
+        2485,
+        15006,
+        30001
+      ],
+      "m": 28,
+      "degree": 4,
+      "galois": "S4",
+      "allowed_single_constant_phase_order": 2,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 22,
+              "C2": 4,
+              "order": 281474976710656,
+              "log2_order": 48
+            },
+            {
+              "C4": 42,
+              "C2": 9,
+              "order": 9903520314283042199192993792,
+              "log2_order": 93
+            },
+            {
+              "C4": 62,
+              "C2": 14,
+              "order": 348449143727040986586495598010130648530944,
+              "log2_order": 138
+            },
+            {
+              "C4": 78,
+              "C2": 18,
+              "order": 23945242826029513411849172299223580994042798784118784,
+              "log2_order": 174
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 281474976710656,
+              "decimal": 3.552713678800501e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 19807040628566084398385987584,
+              "decimal": 5.048709793414476e-29
+            },
+            {
+              "numerator": 1,
+              "denominator": 2090694862362245919518973588060783891185664,
+              "decimal": 4.783098758228709e-43
+            },
+            {
+              "numerator": 1,
+              "denominator": 574685827824708321884380135181365943857027170818850816,
+              "decimal": 1.740081191466273e-54
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 562949953421312,
+              "decimal": 1.7763568394002505e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 39614081257132168796771975168,
+              "decimal": 2.524354896707238e-29
+            },
+            {
+              "numerator": 1,
+              "denominator": 4181389724724491839037947176121567782371328,
+              "decimal": 2.3915493791143543e-43
+            },
+            {
+              "numerator": 1,
+              "denominator": 1149371655649416643768760270362731887714054341637701632,
+              "decimal": 8.700405957331366e-55
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 191561942608235426730059536526533127760044468508207787,
+              "denominator": 191561942608236107294793378393788647952342390272950272,
+              "decimal": 0.9999999999999964
+            },
+            {
+              "numerator": 510423550381393188085226535803714273279,
+              "denominator": 143671456956177080471095033795341485964256792704712704,
+              "decimal": 3.5527136788004e-15
+            },
+            {
+              "numerator": 4835703278458379259871233,
+              "denominator": 95780971304118053647396689196894323976171195136475136,
+              "decimal": 5.048709793414332e-29
+            },
+            {
+              "numerator": 22906492245,
+              "denominator": 47890485652059026823698344598447161988085597568237568,
+              "decimal": 4.783098758159106e-43
+            },
+            {
+              "numerator": 1,
+              "denominator": 574685827824708321884380135181365943857027170818850816,
+              "decimal": 1.740081191466273e-54
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 383123885216471534024852914920321775712386858781158059,
+              "denominator": 383123885216472214589586756787577295904684780545900544,
+              "decimal": 0.9999999999999982
+            },
+            {
+              "numerator": 510423550381393188085226535803714273279,
+              "denominator": 287342913912354160942190067590682971928513585409425408,
+              "decimal": 1.7763568394002e-15
+            },
+            {
+              "numerator": 4835703278458379259871233,
+              "denominator": 191561942608236107294793378393788647952342390272950272,
+              "decimal": 2.524354896707166e-29
+            },
+            {
+              "numerator": 22906492245,
+              "denominator": 95780971304118053647396689196894323976171195136475136,
+              "decimal": 2.391549379079553e-43
+            },
+            {
+              "numerator": 1,
+              "denominator": 1149371655649416643768760270362731887714054341637701632,
+              "decimal": 8.700405957331366e-55
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 680564733841867255520192297921764742485,
+            "denominator": 383123885216472214589586756787577295904684780545900544,
+            "decimal": 1.7763568394002252e-15
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 680564733841867255520192297921764742485,
+            "denominator": 191561942608236107294793378393788647952342390272950272,
+            "decimal": 3.5527136788004504e-15
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 29014219670750550437134339,
+            "denominator": 2041694201525601766560576893765294227455,
+            "decimal": 1.4210854715201936e-14
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 22,
+              "C2": 3,
+              "order": 140737488355328,
+              "log2_order": 47
+            },
+            {
+              "C4": 42,
+              "C2": 7,
+              "order": 2475880078570760549798248448,
+              "log2_order": 91
+            },
+            {
+              "C4": 62,
+              "C2": 11,
+              "order": 43556142965880123323311949751266331066368,
+              "log2_order": 135
+            },
+            {
+              "C4": 78,
+              "C2": 15,
+              "order": 2993155353253689176481146537402947624255349848014848,
+              "log2_order": 171
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 140737488355328,
+              "decimal": 7.105427357601002e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 4951760157141521099596496896,
+              "decimal": 2.0194839173657902e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 261336857795280739939871698507597986398208,
+              "decimal": 3.826479006582967e-42
+            },
+            {
+              "numerator": 1,
+              "denominator": 71835728478088540235547516897670742982128396352356352,
+              "decimal": 1.3920649531730185e-53
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 281474976710656,
+              "decimal": 3.552713678800501e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 9903520314283042199192993792,
+              "decimal": 1.0097419586828951e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 522673715590561479879743397015195972796416,
+              "decimal": 1.9132395032914835e-42
+            },
+            {
+              "numerator": 1,
+              "denominator": 143671456956177080471095033795341485964256792704712704,
+              "decimal": 6.960324765865092e-54
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 23945242826029343270665711834827552585197507972868779,
+              "denominator": 23945242826029513411849172299223580994042798784118784,
+              "decimal": 0.9999999999999929
+            },
+            {
+              "numerator": 127605887595344670243847790218023272447,
+              "denominator": 17958932119522135058886879224417685745532099088089088,
+              "decimal": 7.105427357600598e-15
+            },
+            {
+              "numerator": 2417851639229120910458881,
+              "denominator": 11972621413014756705924586149611790497021399392059392,
+              "decimal": 2.0194839173656754e-28
+            },
+            {
+              "numerator": 22906492245,
+              "denominator": 5986310706507378352962293074805895248510699696029696,
+              "decimal": 3.8264790065272846e-42
+            },
+            {
+              "numerator": 1,
+              "denominator": 71835728478088540235547516897670742982128396352356352,
+              "decimal": 1.3920649531730185e-53
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 47890485652058856682514884134051133579240306756987563,
+              "denominator": 47890485652059026823698344598447161988085597568237568,
+              "decimal": 0.9999999999999964
+            },
+            {
+              "numerator": 127605887595344670243847790218023272447,
+              "denominator": 35917864239044270117773758448835371491064198176178176,
+              "decimal": 3.552713678800299e-15
+            },
+            {
+              "numerator": 2417851639229120910458881,
+              "denominator": 23945242826029513411849172299223580994042798784118784,
+              "decimal": 1.0097419586828377e-28
+            },
+            {
+              "numerator": 22906492245,
+              "denominator": 11972621413014756705924586149611790497021399392059392,
+              "decimal": 1.9132395032636423e-42
+            },
+            {
+              "numerator": 1,
+              "denominator": 143671456956177080471095033795341485964256792704712704,
+              "decimal": 6.960324765865092e-54
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 170141183460464396028408845290811250005,
+            "denominator": 47890485652059026823698344598447161988085597568237568,
+            "decimal": 3.5527136788004e-15
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 170141183460464396028408845290811250005,
+            "denominator": 23945242826029513411849172299223580994042798784118784,
+            "decimal": 7.1054273576008e-15
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 14507109835375000340660227,
+            "denominator": 510423550381393188085226535872433750015,
+            "decimal": 2.842170943040374e-14
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_1065972469_d4_certificate.json",
+        "order4_1065972469_normal_certificate.json",
+        "order4_1065972469_pair_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 1583868241,
+      "P": [
+        2,
+        58,
+        411
+      ],
+      "m": 28,
+      "degree": 2,
+      "galois": "C2",
+      "allowed_single_constant_phase_order": 4,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 19,
+              "C2": 0,
+              "order": 274877906944,
+              "log2_order": 38
+            },
+            {
+              "C4": 21,
+              "C2": 0,
+              "order": 4398046511104,
+              "log2_order": 42
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 274877906944,
+              "decimal": 3.637978807091713e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 8796093022208,
+              "decimal": 1.1368683772161603e-13
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 549755813888,
+              "decimal": 1.8189894035458565e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 17592186044416,
+              "decimal": 5.684341886080802e-14
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 8796093022177,
+              "denominator": 8796093022208,
+              "decimal": 0.9999999999964757
+            },
+            {
+              "numerator": 15,
+              "denominator": 4398046511104,
+              "decimal": 3.410605131648481e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 8796093022208,
+              "decimal": 1.1368683772161603e-13
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 17592186044385,
+              "denominator": 17592186044416,
+              "decimal": 0.9999999999982379
+            },
+            {
+              "numerator": 15,
+              "denominator": 8796093022208,
+              "decimal": 1.7053025658242404e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 17592186044416,
+              "decimal": 5.684341886080802e-14
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 31,
+            "denominator": 17592186044416,
+            "decimal": 1.7621459846850485e-12
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 31,
+            "denominator": 8796093022208,
+            "decimal": 3.524291969370097e-12
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 1,
+            "denominator": 31,
+            "decimal": 0.03225806451612903
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 18,
+              "C2": 0,
+              "order": 68719476736,
+              "log2_order": 36
+            },
+            {
+              "C4": 20,
+              "C2": 0,
+              "order": 1099511627776,
+              "log2_order": 40
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 68719476736,
+              "decimal": 1.4551915228366852e-11
+            },
+            {
+              "numerator": 1,
+              "denominator": 2199023255552,
+              "decimal": 4.547473508864641e-13
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 137438953472,
+              "decimal": 7.275957614183426e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 4398046511104,
+              "decimal": 2.2737367544323206e-13
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 2199023255521,
+              "denominator": 2199023255552,
+              "decimal": 0.9999999999859028
+            },
+            {
+              "numerator": 15,
+              "denominator": 1099511627776,
+              "decimal": 1.3642420526593924e-11
+            },
+            {
+              "numerator": 1,
+              "denominator": 2199023255552,
+              "decimal": 4.547473508864641e-13
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 4398046511073,
+              "denominator": 4398046511104,
+              "decimal": 0.9999999999929514
+            },
+            {
+              "numerator": 15,
+              "denominator": 2199023255552,
+              "decimal": 6.821210263296962e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 4398046511104,
+              "decimal": 2.2737367544323206e-13
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 31,
+            "denominator": 4398046511104,
+            "decimal": 7.048583938740194e-12
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 31,
+            "denominator": 2199023255552,
+            "decimal": 1.4097167877480388e-11
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 1,
+            "denominator": 31,
+            "decimal": 0.03225806451612903
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_1583868241_d2_certificate.json",
+        "order4_pair_1583868241_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 2400748661,
+      "P": [
+        5,
+        117,
+        640
+      ],
+      "m": 28,
+      "degree": 2,
+      "galois": "C2",
+      "allowed_single_constant_phase_order": 4,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 17,
+              "C2": 0,
+              "order": 17179869184,
+              "log2_order": 34
+            },
+            {
+              "C4": 26,
+              "C2": 0,
+              "order": 4503599627370496,
+              "log2_order": 52
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 17179869184,
+              "decimal": 5.820766091346741e-11
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 34359738368,
+              "decimal": 2.9103830456733704e-11
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 9007199254216705,
+              "denominator": 9007199254740992,
+              "decimal": 0.9999999999417925
+            },
+            {
+              "numerator": 262143,
+              "denominator": 4503599627370496,
+              "decimal": 5.820743886886248e-11
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 18014398508957697,
+              "denominator": 18014398509481984,
+              "decimal": 0.9999999999708962
+            },
+            {
+              "numerator": 262143,
+              "denominator": 9007199254740992,
+              "decimal": 2.910371943443124e-11
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 524287,
+            "denominator": 18014398509481984,
+            "decimal": 2.9103774945582472e-11
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 524287,
+            "denominator": 9007199254740992,
+            "decimal": 5.8207549891164945e-11
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 1,
+            "denominator": 524287,
+            "decimal": 1.907352270798246e-06
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 16,
+              "C2": 0,
+              "order": 4294967296,
+              "log2_order": 32
+            },
+            {
+              "C4": 26,
+              "C2": 0,
+              "order": 4503599627370496,
+              "log2_order": 52
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 4294967296,
+              "decimal": 2.3283064365386963e-10
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 8589934592,
+              "decimal": 1.1641532182693481e-10
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 9007199252643841,
+              "denominator": 9007199254740992,
+              "decimal": 0.9999999997671695
+            },
+            {
+              "numerator": 1048575,
+              "denominator": 4503599627370496,
+              "decimal": 2.328304216092647e-10
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 18014398507384833,
+              "denominator": 18014398509481984,
+              "decimal": 0.9999999998835847
+            },
+            {
+              "numerator": 1048575,
+              "denominator": 9007199254740992,
+              "decimal": 1.1641521080463235e-10
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 2097151,
+            "denominator": 18014398509481984,
+            "decimal": 1.1641526631578358e-10
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 2097151,
+            "denominator": 9007199254740992,
+            "decimal": 2.3283053263156717e-10
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 1,
+            "denominator": 2097151,
+            "decimal": 4.768373855769089e-07
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_2400748661_d2_certificate.json",
+        "order4_pair_2400748661_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 2453400749,
+      "P": [
+        5,
+        256,
+        3707,
+        16560
+      ],
+      "m": 28,
+      "degree": 3,
+      "galois": "S3",
+      "allowed_single_constant_phase_order": 4,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 24,
+              "C2": 0,
+              "order": 281474976710656,
+              "log2_order": 48
+            },
+            {
+              "C4": 45,
+              "C2": 0,
+              "order": 1237940039285380274899124224,
+              "log2_order": 90
+            },
+            {
+              "C4": 59,
+              "C2": 0,
+              "order": 332306998946228968225951765070086144,
+              "log2_order": 118
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 281474976710656,
+              "decimal": 3.552713678800501e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 2475880078570760549798248448,
+              "decimal": 4.0389678347315804e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 1993841993677373809355710590420516864,
+              "decimal": 5.0154425635084264e-37
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 562949953421312,
+              "decimal": 1.7763568394002505e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 4951760157141521099596496896,
+              "decimal": 2.0194839173657902e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 3987683987354747618711421180841033728,
+              "decimal": 2.5077212817542132e-37
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 1993841993677366725805986286758002687,
+              "denominator": 1993841993677373809355710590420516864,
+              "decimal": 0.9999999999999964
+            },
+            {
+              "numerator": 2361183241434285735937,
+              "denominator": 664613997892457936451903530140172288,
+              "decimal": 3.552713678799693e-15
+            },
+            {
+              "numerator": 268435455,
+              "denominator": 664613997892457936451903530140172288,
+              "decimal": 4.0389678196852528e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 1993841993677373809355710590420516864,
+              "decimal": 5.0154425635084264e-37
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 3987683987354740535161696877178519551,
+              "denominator": 3987683987354747618711421180841033728,
+              "decimal": 0.9999999999999982
+            },
+            {
+              "numerator": 2361183241434285735937,
+              "denominator": 1329227995784915872903807060280344576,
+              "decimal": 1.7763568393998466e-15
+            },
+            {
+              "numerator": 268435455,
+              "denominator": 1329227995784915872903807060280344576,
+              "decimal": 2.0194839098426264e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 3987683987354747618711421180841033728,
+              "decimal": 2.5077212817542132e-37
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 7083549724303662514177,
+            "denominator": 3987683987354747618711421180841033728,
+            "decimal": 1.7763568394000485e-15
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 7083549724303662514177,
+            "denominator": 1993841993677373809355710590420516864,
+            "decimal": 3.552713678800097e-15
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 805306366,
+            "denominator": 7083549724303662514177,
+            "decimal": 1.1368683743928464e-13
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 23,
+              "C2": 0,
+              "order": 70368744177664,
+              "log2_order": 46
+            },
+            {
+              "C4": 44,
+              "C2": 0,
+              "order": 309485009821345068724781056,
+              "log2_order": 88
+            },
+            {
+              "C4": 59,
+              "C2": 0,
+              "order": 332306998946228968225951765070086144,
+              "log2_order": 118
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 70368744177664,
+              "decimal": 1.4210854715202004e-14
+            },
+            {
+              "numerator": 1,
+              "denominator": 618970019642690137449562112,
+              "decimal": 1.6155871338926322e-27
+            },
+            {
+              "numerator": 1,
+              "denominator": 1993841993677373809355710590420516864,
+              "decimal": 5.0154425635084264e-37
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 140737488355328,
+              "decimal": 7.105427357601002e-15
+            },
+            {
+              "numerator": 1,
+              "denominator": 1237940039285380274899124224,
+              "decimal": 8.077935669463161e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 3987683987354747618711421180841033728,
+              "decimal": 2.5077212817542132e-37
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 1993841993677345475156813375770460159,
+              "denominator": 1993841993677373809355710590420516864,
+              "decimal": 0.9999999999999858
+            },
+            {
+              "numerator": 9444732965737142943745,
+              "denominator": 664613997892457936451903530140172288,
+              "decimal": 1.4210854715198773e-14
+            },
+            {
+              "numerator": 1073741823,
+              "denominator": 664613997892457936451903530140172288,
+              "decimal": 1.6155871323879994e-27
+            },
+            {
+              "numerator": 1,
+              "denominator": 1993841993677373809355710590420516864,
+              "decimal": 5.0154425635084264e-37
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 3987683987354719284512523966190977023,
+              "denominator": 3987683987354747618711421180841033728,
+              "decimal": 0.9999999999999929
+            },
+            {
+              "numerator": 9444732965737142943745,
+              "denominator": 1329227995784915872903807060280344576,
+              "decimal": 7.105427357599386e-15
+            },
+            {
+              "numerator": 1073741823,
+              "denominator": 1329227995784915872903807060280344576,
+              "decimal": 8.077935661939997e-28
+            },
+            {
+              "numerator": 1,
+              "denominator": 3987683987354747618711421180841033728,
+              "decimal": 2.5077212817542132e-37
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 28334198897214650056705,
+            "denominator": 3987683987354747618711421180841033728,
+            "decimal": 7.105427357600194e-15
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 28334198897214650056705,
+            "denominator": 1993841993677373809355710590420516864,
+            "decimal": 1.4210854715200388e-14
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 644245094,
+            "denominator": 5666839779442930011341,
+            "decimal": 1.1368683765104288e-13
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_2453400749_d3_certificate.json",
+        "order4_2453400749_normal_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 2789197129,
+      "P": [
+        5,
+        255,
+        2818,
+        1848
+      ],
+      "m": 29,
+      "degree": 3,
+      "galois": "S3",
+      "allowed_single_constant_phase_order": 4,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 26,
+              "C2": 1,
+              "order": 9007199254740992,
+              "log2_order": 53
+            },
+            {
+              "C4": 49,
+              "C2": 3,
+              "order": 2535301200456458802993406410752,
+              "log2_order": 101
+            },
+            {
+              "C4": 64,
+              "C2": 6,
+              "order": 21778071482940061661655974875633165533184,
+              "log2_order": 134
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 5070602400912917605986812821504,
+              "decimal": 1.9721522630525295e-31
+            },
+            {
+              "numerator": 1,
+              "denominator": 130668428897640369969935849253798993199104,
+              "decimal": 7.652958013165934e-42
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            },
+            {
+              "numerator": 1,
+              "denominator": 10141204801825835211973625643008,
+              "decimal": 9.860761315262648e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 261336857795280739939871698507597986398208,
+              "decimal": 3.826479006582967e-42
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 130668428897640355462826013878274666528767,
+              "denominator": 130668428897640369969935849253798993199104,
+              "decimal": 0.9999999999999999
+            },
+            {
+              "numerator": 4835703278458499518955521,
+              "denominator": 43556142965880123323311949751266331066368,
+              "decimal": 1.1102230246251526e-16
+            },
+            {
+              "numerator": 8589934591,
+              "denominator": 43556142965880123323311949751266331066368,
+              "decimal": 1.9721522628229408e-31
+            },
+            {
+              "numerator": 1,
+              "denominator": 130668428897640369969935849253798993199104,
+              "decimal": 7.652958013165934e-42
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 261336857795280725432761863132073659727871,
+              "denominator": 261336857795280739939871698507597986398208,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 4835703278458499518955521,
+              "denominator": 87112285931760246646623899502532662132736,
+              "decimal": 5.551115123125763e-17
+            },
+            {
+              "numerator": 8589934591,
+              "denominator": 87112285931760246646623899502532662132736,
+              "decimal": 9.860761314114704e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 261336857795280739939871698507597986398208,
+              "decimal": 3.826479006582967e-42
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 14507109835375524326670337,
+            "denominator": 261336857795280739939871698507597986398208,
+            "decimal": 5.551115123125773e-17
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 14507109835375524326670337,
+            "denominator": 130668428897640369969935849253798993199104,
+            "decimal": 1.1102230246251546e-16
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 2342709434,
+            "denominator": 1318828166852320393333667,
+            "decimal": 1.7763568392623901e-15
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 25,
+              "C2": 1,
+              "order": 2251799813685248,
+              "log2_order": 51
+            },
+            {
+              "C4": 47,
+              "C2": 4,
+              "order": 316912650057057350374175801344,
+              "log2_order": 98
+            },
+            {
+              "C4": 62,
+              "C2": 8,
+              "order": 5444517870735015415413993718908291383296,
+              "log2_order": 132
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 2251799813685248,
+              "decimal": 4.440892098500626e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 633825300114114700748351602688,
+              "decimal": 1.5777218104420236e-30
+            },
+            {
+              "numerator": 1,
+              "denominator": 32667107224410092492483962313449748299776,
+              "decimal": 3.0611832052663735e-41
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 4503599627370496,
+              "decimal": 2.220446049250313e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 1267650600228229401496703205376,
+              "decimal": 7.888609052210118e-31
+            },
+            {
+              "numerator": 1,
+              "denominator": 65334214448820184984967924626899496599552,
+              "decimal": 1.5305916026331868e-41
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 32667107224410077985374126937951191433215,
+              "denominator": 32667107224410092492483962313449748299776,
+              "decimal": 0.9999999999999996
+            },
+            {
+              "numerator": 4835703278458482339086337,
+              "denominator": 10889035741470030830827987437816582766592,
+              "decimal": 4.4408920985005946e-16
+            },
+            {
+              "numerator": 17179869183,
+              "denominator": 10889035741470030830827987437816582766592,
+              "decimal": 1.5777218103501881e-30
+            },
+            {
+              "numerator": 1,
+              "denominator": 32667107224410092492483962313449748299776,
+              "decimal": 3.0611832052663735e-41
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 65334214448820170477858089251400939732991,
+              "denominator": 65334214448820184984967924626899496599552,
+              "decimal": 0.9999999999999998
+            },
+            {
+              "numerator": 4835703278458482339086337,
+              "denominator": 21778071482940061661655974875633165533184,
+              "decimal": 2.2204460492502973e-16
+            },
+            {
+              "numerator": 17179869183,
+              "denominator": 21778071482940061661655974875633165533184,
+              "decimal": 7.888609051750941e-31
+            },
+            {
+              "numerator": 1,
+              "denominator": 65334214448820184984967924626899496599552,
+              "decimal": 1.5305916026331868e-41
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 14507109835375498556866561,
+            "denominator": 65334214448820184984967924626899496599552,
+            "decimal": 2.2204460492503052e-16
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 14507109835375498556866561,
+            "denominator": 32667107224410092492483962313449748299776,
+            "decimal": 4.4408920985006104e-16
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 51539607550,
+            "denominator": 14507109835375498556866561,
+            "decimal": 3.5527136786626502e-15
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_2789197129_d3_certificate.json",
+        "order4_2789197129_normal_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 3318080401,
+      "P": [
+        2,
+        49,
+        288
+      ],
+      "m": 29,
+      "degree": 2,
+      "galois": "C2",
+      "allowed_single_constant_phase_order": 2,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 19,
+              "C2": 0,
+              "order": 274877906944,
+              "log2_order": 38
+            },
+            {
+              "C4": 27,
+              "C2": 0,
+              "order": 18014398509481984,
+              "log2_order": 54
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 274877906944,
+              "decimal": 3.637978807091713e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 36028797018963968,
+              "decimal": 2.7755575615628914e-17
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 549755813888,
+              "decimal": 1.8189894035458565e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 72057594037927936,
+              "decimal": 1.3877787807814457e-17
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 36028797018832897,
+              "denominator": 36028797018963968,
+              "decimal": 0.999999999996362
+            },
+            {
+              "numerator": 65535,
+              "denominator": 18014398509481984,
+              "decimal": 3.6379232959404817e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 36028797018963968,
+              "decimal": 2.7755575615628914e-17
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 72057594037796865,
+              "denominator": 72057594037927936,
+              "decimal": 0.999999999998181
+            },
+            {
+              "numerator": 65535,
+              "denominator": 36028797018963968,
+              "decimal": 1.8189616479702408e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 72057594037927936,
+              "decimal": 1.3877787807814457e-17
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 131071,
+            "denominator": 72057594037927936,
+            "decimal": 1.8189755257580487e-12
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 131071,
+            "denominator": 36028797018963968,
+            "decimal": 3.6379510515160973e-12
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 1,
+            "denominator": 131071,
+            "decimal": 7.629452739355006e-06
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 18,
+              "C2": 1,
+              "order": 137438953472,
+              "log2_order": 37
+            },
+            {
+              "C4": 27,
+              "C2": 0,
+              "order": 18014398509481984,
+              "log2_order": 54
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 137438953472,
+              "decimal": 7.275957614183426e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 36028797018963968,
+              "decimal": 2.7755575615628914e-17
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 274877906944,
+              "decimal": 3.637978807091713e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 72057594037927936,
+              "decimal": 1.3877787807814457e-17
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 36028797018701825,
+              "denominator": 36028797018963968,
+              "decimal": 0.999999999992724
+            },
+            {
+              "numerator": 131071,
+              "denominator": 18014398509481984,
+              "decimal": 7.275902103032195e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 36028797018963968,
+              "decimal": 2.7755575615628914e-17
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 72057594037665793,
+              "denominator": 72057594037927936,
+              "decimal": 0.999999999996362
+            },
+            {
+              "numerator": 131071,
+              "denominator": 36028797018963968,
+              "decimal": 3.6379510515160973e-12
+            },
+            {
+              "numerator": 1,
+              "denominator": 72057594037927936,
+              "decimal": 1.3877787807814457e-17
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 262143,
+            "denominator": 72057594037927936,
+            "decimal": 3.637964929303905e-12
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 262143,
+            "denominator": 36028797018963968,
+            "decimal": 7.27592985860781e-12
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 1,
+            "denominator": 262143,
+            "decimal": 3.8147118175957395e-06
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_3318080401_d2_certificate.json",
+        "order4_pair_3318080401_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 3832210429,
+      "P": [
+        9,
+        493,
+        8612,
+        47628
+      ],
+      "m": 28,
+      "degree": 3,
+      "galois": "S3",
+      "allowed_single_constant_phase_order": 4,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 27,
+              "C2": 0,
+              "order": 18014398509481984,
+              "log2_order": 54
+            },
+            {
+              "C4": 52,
+              "C2": 0,
+              "order": 20282409603651670423947251286016,
+              "log2_order": 104
+            },
+            {
+              "C4": 70,
+              "C2": 0,
+              "order": 1393796574908163946345982392040522594123776,
+              "log2_order": 140
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            },
+            {
+              "numerator": 1,
+              "denominator": 40564819207303340847894502572032,
+              "decimal": 2.465190328815662e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 8362779449448983678075894352243135564742656,
+              "decimal": 1.1957746895571772e-43
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 36028797018963968,
+              "decimal": 2.7755575615628914e-17
+            },
+            {
+              "numerator": 1,
+              "denominator": 81129638414606681695789005144064,
+              "decimal": 1.232595164407831e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 16725558898897967356151788704486271129485312,
+              "decimal": 5.978873447785886e-44
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 8362779449448983213848379620225738636001279,
+              "denominator": 8362779449448983678075894352243135564742656,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 154742504910672396923437057,
+              "denominator": 2787593149816327892691964784081045188247552,
+              "decimal": 5.551115123125778e-17
+            },
+            {
+              "numerator": 68719476735,
+              "denominator": 2787593149816327892691964784081045188247552,
+              "decimal": 2.4651903287797887e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 8362779449448983678075894352243135564742656,
+              "decimal": 1.1957746895571772e-43
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 16725558898897966891924273972468874200743935,
+              "denominator": 16725558898897967356151788704486271129485312,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 154742504910672396923437057,
+              "denominator": 5575186299632655785383929568162090376495104,
+              "decimal": 2.775557561562889e-17
+            },
+            {
+              "numerator": 68719476735,
+              "denominator": 5575186299632655785383929568162090376495104,
+              "decimal": 1.2325951643898943e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 16725558898897967356151788704486271129485312,
+              "decimal": 5.978873447785886e-44
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 464227514732017396928741377,
+            "denominator": 16725558898897967356151788704486271129485312,
+            "decimal": 2.77555756156289e-17
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 464227514732017396928741377,
+            "denominator": 8362779449448983678075894352243135564742656,
+            "decimal": 5.55111512312578e-17
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 3889781702,
+            "denominator": 8759009711924856545825309,
+            "decimal": 4.440892098457546e-16
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 26,
+              "C2": 0,
+              "order": 4503599627370496,
+              "log2_order": 52
+            },
+            {
+              "C4": 51,
+              "C2": 0,
+              "order": 5070602400912917605986812821504,
+              "log2_order": 102
+            },
+            {
+              "C4": 70,
+              "C2": 0,
+              "order": 1393796574908163946345982392040522594123776,
+              "log2_order": 140
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 4503599627370496,
+              "decimal": 2.220446049250313e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 10141204801825835211973625643008,
+              "decimal": 9.860761315262648e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 8362779449448983678075894352243135564742656,
+              "decimal": 1.1957746895571772e-43
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 20282409603651670423947251286016,
+              "decimal": 4.930380657631324e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 16725558898897967356151788704486271129485312,
+              "decimal": 5.978873447785886e-44
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 8362779449448981821165835424173547849777151,
+              "denominator": 8362779449448983678075894352243135564742656,
+              "decimal": 0.9999999999999998
+            },
+            {
+              "numerator": 618970019642689587693748225,
+              "denominator": 2787593149816327892691964784081045188247552,
+              "decimal": 2.220446049250311e-16
+            },
+            {
+              "numerator": 274877906943,
+              "denominator": 2787593149816327892691964784081045188247552,
+              "decimal": 9.860761315226774e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 8362779449448983678075894352243135564742656,
+              "decimal": 1.1957746895571772e-43
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 16725558898897965499241729776416683414519807,
+              "denominator": 16725558898897967356151788704486271129485312,
+              "decimal": 0.9999999999999999
+            },
+            {
+              "numerator": 618970019642689587693748225,
+              "denominator": 5575186299632655785383929568162090376495104,
+              "decimal": 1.1102230246251556e-16
+            },
+            {
+              "numerator": 274877906943,
+              "denominator": 5575186299632655785383929568162090376495104,
+              "decimal": 4.930380657613387e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 16725558898897967356151788704486271129485312,
+              "decimal": 5.978873447785886e-44
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 1856910058928069587714965505,
+            "denominator": 16725558898897967356151788704486271129485312,
+            "decimal": 1.110223024625156e-16
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 1856910058928069587714965505,
+            "denominator": 8362779449448983678075894352243135564742656,
+            "decimal": 2.220446049250312e-16
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 164926744166,
+            "denominator": 371382011785613917542993101,
+            "decimal": 4.4408920984898577e-16
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_3832210429_d3_certificate.json",
+        "order4_3832210429_normal_certificate.json"
+      ]
+    },
+    {
+      "p_origin": 4129372337,
+      "P": [
+        1,
+        41,
+        424,
+        164,
+        -8320
+      ],
+      "m": 28,
+      "degree": 4,
+      "galois": "S4",
+      "allowed_single_constant_phase_order": 4,
+      "modes": {
+        "neutral": {
+          "subset_groups_by_size": [
+            {
+              "C4": 26,
+              "C2": 1,
+              "order": 9007199254740992,
+              "log2_order": 53
+            },
+            {
+              "C4": 50,
+              "C2": 2,
+              "order": 5070602400912917605986812821504,
+              "log2_order": 102
+            },
+            {
+              "C4": 74,
+              "C2": 3,
+              "order": 2854495385411919762116571938898990272765493248,
+              "log2_order": 151
+            },
+            {
+              "C4": 90,
+              "C2": 3,
+              "order": 12259964326927110866866776217202473468949912977468817408,
+              "log2_order": 183
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 9007199254740992,
+              "decimal": 1.1102230246251565e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 10141204801825835211973625643008,
+              "decimal": 9.860761315262648e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 17126972312471518572699431633393941636592959488,
+              "decimal": 5.838743601353404e-47
+            },
+            {
+              "numerator": 1,
+              "denominator": 294239143846250660804802629212859363254797911459251617792,
+              "decimal": 3.3985960770825647e-57
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 18014398509481984,
+              "decimal": 5.551115123125783e-17
+            },
+            {
+              "numerator": 1,
+              "denominator": 20282409603651670423947251286016,
+              "decimal": 4.930380657631324e-32
+            },
+            {
+              "numerator": 1,
+              "denominator": 34253944624943037145398863266787883273185918976,
+              "decimal": 2.919371800676702e-47
+            },
+            {
+              "numerator": 1,
+              "denominator": 588478287692501321609605258425718726509595822918503235584,
+              "decimal": 1.6992980385412823e-57
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 98079714615416876045898468267598628330168783030838799019,
+              "denominator": 98079714615416886934934209737619787751599303819750539264,
+              "decimal": 0.9999999999999999
+            },
+            {
+              "numerator": 8166776806102508616011155202825225502719,
+              "denominator": 73559785961562665201200657303214840813699477864812904448,
+              "decimal": 1.1102230246251546e-16
+            },
+            {
+              "numerator": 4835703278458508108890113,
+              "denominator": 49039857307708443467467104868809893875799651909875269632,
+              "decimal": 9.86076131526263e-32
+            },
+            {
+              "numerator": 1431655765,
+              "denominator": 24519928653854221733733552434404946937899825954937634816,
+              "decimal": 5.838743599993966e-47
+            },
+            {
+              "numerator": 1,
+              "denominator": 294239143846250660804802629212859363254797911459251617792,
+              "decimal": 3.3985960770825647e-57
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 196159429230833762980832678005218416081768086850589338283,
+              "denominator": 196159429230833773869868419475239575503198607639501078528,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 8166776806102508616011155202825225502719,
+              "denominator": 147119571923125330402401314606429681627398955729625808896,
+              "decimal": 5.551115123125773e-17
+            },
+            {
+              "numerator": 4835703278458508108890113,
+              "denominator": 98079714615416886934934209737619787751599303819750539264,
+              "decimal": 4.930380657631315e-32
+            },
+            {
+              "numerator": 1431655765,
+              "denominator": 49039857307708443467467104868809893875799651909875269632,
+              "decimal": 2.919371799996983e-47
+            },
+            {
+              "numerator": 1,
+              "denominator": 588478287692501321609605258425718726509595822918503235584,
+              "decimal": 1.6992980385412823e-57
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 10889035741470021159421430520788911740245,
+            "denominator": 196159429230833773869868419475239575503198607639501078528,
+            "decimal": 5.551115123125778e-17
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 10889035741470021159421430520788911740245,
+            "denominator": 98079714615416886934934209737619787751599303819750539264,
+            "decimal": 1.1102230246251556e-16
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 29014219670751065833209859,
+            "denominator": 32667107224410063478264291562366735220735,
+            "decimal": 8.881784197001249e-16
+          }
+        },
+        "ratios": {
+          "subset_groups_by_size": [
+            {
+              "C4": 25,
+              "C2": 1,
+              "order": 2251799813685248,
+              "log2_order": 51
+            },
+            {
+              "C4": 49,
+              "C2": 2,
+              "order": 1267650600228229401496703205376,
+              "log2_order": 100
+            },
+            {
+              "C4": 73,
+              "C2": 3,
+              "order": 713623846352979940529142984724747568191373312,
+              "log2_order": 149
+            },
+            {
+              "C4": 90,
+              "C2": 3,
+              "order": 12259964326927110866866776217202473468949912977468817408,
+              "log2_order": 183
+            }
+          ],
+          "binomial_moments_among_p_one_mod_four": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 2251799813685248,
+              "decimal": 4.440892098500626e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 2535301200456458802993406410752,
+              "decimal": 3.944304526105059e-31
+            },
+            {
+              "numerator": 1,
+              "denominator": 4281743078117879643174857908348485409148239872,
+              "decimal": 2.3354974405413617e-46
+            },
+            {
+              "numerator": 1,
+              "denominator": 294239143846250660804802629212859363254797911459251617792,
+              "decimal": 3.3985960770825647e-57
+            }
+          ],
+          "binomial_moments_among_all_primes": [
+            {
+              "numerator": 1,
+              "denominator": 1,
+              "decimal": 1.0
+            },
+            {
+              "numerator": 1,
+              "denominator": 4503599627370496,
+              "decimal": 2.220446049250313e-16
+            },
+            {
+              "numerator": 1,
+              "denominator": 5070602400912917605986812821504,
+              "decimal": 1.9721522630525295e-31
+            },
+            {
+              "numerator": 1,
+              "denominator": 8563486156235759286349715816696970818296479744,
+              "decimal": 1.1677487202706808e-46
+            },
+            {
+              "numerator": 1,
+              "denominator": 588478287692501321609605258425718726509595822918503235584,
+              "decimal": 1.6992980385412823e-57
+            }
+          ],
+          "root_count_law_among_p_one_mod_four": [
+            {
+              "numerator": 98079714615416843378791243857535150065877220664103578283,
+              "denominator": 98079714615416886934934209737619787751599303819750539264,
+              "decimal": 0.9999999999999996
+            },
+            {
+              "numerator": 32667107224410034464044620811300902010879,
+              "denominator": 73559785961562665201200657303214840813699477864812904448,
+              "decimal": 4.4408920985006183e-16
+            },
+            {
+              "numerator": 19342813113834032435560449,
+              "denominator": 49039857307708443467467104868809893875799651909875269632,
+              "decimal": 3.944304526105052e-31
+            },
+            {
+              "numerator": 5726623061,
+              "denominator": 24519928653854221733733552434404946937899825954937634816,
+              "decimal": 2.335497440405418e-46
+            },
+            {
+              "numerator": 1,
+              "denominator": 294239143846250660804802629212859363254797911459251617792,
+              "decimal": 3.3985960770825647e-57
+            }
+          ],
+          "root_count_law_among_all_primes": [
+            {
+              "numerator": 196159429230833730313725453595154937817476524483854117547,
+              "denominator": 196159429230833773869868419475239575503198607639501078528,
+              "decimal": 0.9999999999999998
+            },
+            {
+              "numerator": 32667107224410034464044620811300902010879,
+              "denominator": 147119571923125330402401314606429681627398955729625808896,
+              "decimal": 2.2204460492503091e-16
+            },
+            {
+              "numerator": 19342813113834032435560449,
+              "denominator": 98079714615416886934934209737619787751599303819750539264,
+              "decimal": 1.972152263052526e-31
+            },
+            {
+              "numerator": 5726623061,
+              "denominator": 49039857307708443467467104868809893875799651909875269632,
+              "decimal": 1.167748720202709e-46
+            },
+            {
+              "numerator": 1,
+              "denominator": 588478287692501321609605258425718726509595822918503235584,
+              "decimal": 1.6992980385412823e-57
+            }
+          ],
+          "density_among_all_primes": {
+            "numerator": 43556142965880084637685722083155646960981,
+            "denominator": 196159429230833773869868419475239575503198607639501078528,
+            "decimal": 2.220446049250311e-16
+          },
+          "density_among_p_one_mod_four": {
+            "numerator": 43556142965880084637685722083155646960981,
+            "denominator": 98079714615416886934934209737619787751599303819750539264,
+            "decimal": 4.440892098500622e-16
+          },
+          "two_or_more_given_at_least_one": {
+            "numerator": 116056878683004263332839427,
+            "denominator": 130668428897640253913057166249466940882943,
+            "decimal": 8.881784197001249e-16
+          }
+        }
+      },
+      "phase_scope": "Constant mode permits a separate phase at each root; it does not require the same phase at different roots.",
+      "proof_files": [
+        "r4_4129372337_d4_certificate.json",
+        "order4_4129372337_normal_certificate.json",
+        "order4_4129372337_pair_certificate.json"
+      ]
+    }
+  ]
+}

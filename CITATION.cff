@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the manuscript and identify the atlas32-v1.0.0 data release."
+type: software
+title: "Rabung atlas below 2^32: reproducible census and arithmetic structure"
+authors:
+  - family-names: "Pouly"
+    given-names: "Brice"
+version: "1.0.0"
+date-released: 2026-10-04
+repository-code: "https://github.com/Vulkin-prog/rabung-atlas32"
+url: "https://github.com/Vulkin-prog/rabung-atlas32/releases/tag/atlas32-v1.0.0"
+abstract: >-
+  A complete power-residue profile census below 2^32 for admissible orders 2
+  through 9, exact quadratic four-window counts, descriptive analyses,
+  algebraic certificates, and an English research manuscript. Prepared with
+  AI assistance. No journal publication or established priority is claimed.

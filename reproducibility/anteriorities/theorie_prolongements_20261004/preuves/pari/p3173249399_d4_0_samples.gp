@@ -1,0 +1,11 @@
+default(parisizemax,512000000);
+default(parisize,128000000);
+setrand(1);
+run()={my(P=(1)*x^4+(100)*x^3+(3258)*x^2+(34844)*x^1+(26309)*x^0,m=52,q=1000000,rr,xx,logs,k=0);
+ if(!polisirreducible(P),error("reducible"));print("GALOIS ",polgalois(P));
+ while(k<128,q=nextprime(q+1);if(q>=2^32,error("range"));rr=lift(polrootsmod(P,q));if(!#rr,next);xx=rr[1];
+  if(prod(j=0,m-1,Mod(xx+j,q))==0,next);
+  logs=vector(m,j,my(v=lift(Mod(xx+j-1,q)^((q-1)/2)));if(v==1,0,1));
+  print("SAMPLE ",[q,xx,logs]);k++);
+ print("END 1");};
+iferr(run(),err,print("ERROR ",err);quit(1));quit;

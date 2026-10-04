@@ -1,0 +1,1043 @@
+{
+  "status": "PASS",
+  "model": {
+    "r": 9,
+    "A": 31,
+    "B": 216,
+    "D": 97
+  },
+  "initial_neutral_positions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "variable_names": [
+    "chi(w+0)",
+    "chi(w+1)",
+    "chi(w+2)",
+    "chi(w+3)",
+    "chi(w+4)",
+    "chi(w+5)",
+    "chi(w+6)",
+    "chi(w+7)",
+    "chi(w+8)",
+    "chi(w+9)",
+    "chi(w+10)",
+    "chi(w+11)",
+    "chi(w+12)",
+    "chi(w+13)",
+    "chi(w+14)",
+    "chi(w+15)",
+    "chi(w+16)",
+    "chi(w+17)",
+    "chi(w+18)",
+    "chi(w+19)",
+    "chi(w+20)",
+    "chi(w+21)",
+    "chi(w+22)",
+    "chi(w+23)",
+    "chi(w+24)",
+    "chi(w+25)",
+    "chi(2)",
+    "chi(3)",
+    "chi(11)"
+  ],
+  "steps": [
+    {
+      "new_variables": [
+        22
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            10,
+            22
+          ],
+          "a": 1,
+          "target_position": 4,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        26
+      ],
+      "matrix_mod_9": [
+        [
+          5
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          2
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            7,
+            8
+          ],
+          "a": -16,
+          "target_position": 10,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        24
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            9,
+            24
+          ],
+          "a": 2,
+          "target_position": 0,
+          "exponents": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        21
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            8,
+            21
+          ],
+          "a": -2,
+          "target_position": 24,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        23
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            10,
+            23
+          ],
+          "a": 2,
+          "target_position": 7,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        27
+      ],
+      "matrix_mod_9": [
+        [
+          8
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          8
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            7,
+            21
+          ],
+          "a": -3,
+          "target_position": 23,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            -1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        25
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            9,
+            25
+          ],
+          "a": 3,
+          "target_position": 3,
+          "exponents": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        28
+      ],
+      "matrix_mod_9": [
+        [
+          8
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          8
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            3,
+            6
+          ],
+          "a": -22,
+          "target_position": 9,
+          "exponents": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        12
+      ],
+      "matrix_mod_9": [
+        [
+          2
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          5
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            12,
+            12,
+            21
+          ],
+          "a": -2,
+          "target_position": 0,
+          "exponents": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        18
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            12,
+            18
+          ],
+          "a": -1,
+          "target_position": 0,
+          "exponents": [
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        20
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            12,
+            20
+          ],
+          "a": 1,
+          "target_position": 24,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        16
+      ],
+      "matrix_mod_9": [
+        [
+          8
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          8
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            10,
+            20
+          ],
+          "a": -1,
+          "target_position": 16,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        11
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            11,
+            18
+          ],
+          "a": -2,
+          "target_position": 9,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        19
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            11,
+            19
+          ],
+          "a": -1,
+          "target_position": 7,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        15
+      ],
+      "matrix_mod_9": [
+        [
+          8
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          8
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            11,
+            21
+          ],
+          "a": 1,
+          "target_position": 15,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        13
+      ],
+      "matrix_mod_9": [
+        [
+          8
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          8
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            10,
+            19
+          ],
+          "a": -2,
+          "target_position": 13,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        17
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            12,
+            17
+          ],
+          "a": -2,
+          "target_position": 6,
+          "exponents": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "new_variables": [
+        14
+      ],
+      "matrix_mod_9": [
+        [
+          1
+        ]
+      ],
+      "inverse_mod_9": [
+        [
+          1
+        ]
+      ],
+      "identities": [
+        {
+          "positions": [
+            14,
+            15
+          ],
+          "a": -2,
+          "target_position": 3,
+          "exponents": [
+            0,
+            0,
+            0,
+            -1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "neutral_variables": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+  ],
+  "steps_count": 18,
+  "proof": "At every step, all already known characters are neutral. The exact displayed identities give a one- or two-variable homogeneous system; the inverse modulo 9 forces the new characters to be neutral."
+}

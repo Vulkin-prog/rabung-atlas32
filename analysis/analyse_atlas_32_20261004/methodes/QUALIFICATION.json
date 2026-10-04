@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_python_decoding": true,
+  "first_contiguous_blocks": 32,
+  "primes": 127650,
+  "histograms_and_joint_ML_equal": true,
+  "threshold_counts_and_gaps_equal": true,
+  "A4_and_trace_sums_equal": true,
+  "seconds": 2.2351170770125464
+}

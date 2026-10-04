@@ -1,0 +1,22 @@
+Title:           Quartique diédérale, cubique de 53 positions et profils résiduels
+Subject:         Prolongements mathématiques certifiés
+Keywords:        
+Author:          Étude de l'atlas Rabung
+Creator:         LaTeX with hyperref
+Producer:        pdfTeX-1.40.28
+CreationDate:    Sun Oct  4 13:40:44 2026 CEST
+ModDate:         Sun Oct  4 13:40:44 2026 CEST
+Custom Metadata: yes
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           9
+Encrypted:       no
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       334324 bytes
+Optimized:       no
+PDF version:     1.7

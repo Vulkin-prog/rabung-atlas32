@@ -1,0 +1,653 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "r": 8,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "prime_count": 7,
+      "root_count": 14,
+      "hits": [
+        {
+          "p": 268277281,
+          "root": 246639077,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 268277281,
+          "root": 21638185,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 306671473,
+          "root": 281169739,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 306671473,
+          "root": 25501715,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 1148960017,
+          "root": 83227912,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1148960017,
+          "root": 1065732086,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2324806849,
+          "root": 380225800,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2324806849,
+          "root": 1944581030,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2552056561,
+          "root": 705183747,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 2552056561,
+          "root": 1846872795,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 3326173057,
+          "root": 2280866510,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 3326173057,
+          "root": 1045306528,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 3816301681,
+          "root": 747332859,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 3816301681,
+          "root": 3068968803,
+          "canonical_maximum": 22
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 4194304,
+        "decimal": 2.384185791015625e-07
+      }
+    },
+    {
+      "r": 8,
+      "A": 23,
+      "B": 114,
+      "D": 73,
+      "M": 22,
+      "prime_count": 4,
+      "root_count": 4,
+      "hits": [
+        {
+          "p": 306671473,
+          "root": 25501713,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 2552056561,
+          "root": 705183745,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 3326173057,
+          "root": 1045306526,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 3816301681,
+          "root": 747332857,
+          "canonical_maximum": 22
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 15,
+        "denominator": 268435456,
+        "decimal": 5.587935447692871e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "prime_count": 3,
+      "root_count": 6,
+      "hits": [
+        {
+          "p": 392095063,
+          "root": 129323831,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 392095063,
+          "root": 262771213,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2745736003,
+          "root": 1634606827,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2745736003,
+          "root": 1111129157,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3471467833,
+          "root": 1791991057,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3471467833,
+          "root": 1679476757,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 9565938,
+        "decimal": 1.0453757906438448e-07
+      }
+    },
+    {
+      "r": 9,
+      "A": 31,
+      "B": 216,
+      "D": 97,
+      "M": 26,
+      "prime_count": 1,
+      "root_count": 1,
+      "hits": [
+        {
+          "p": 569704789,
+          "root": 77806457,
+          "canonical_maximum": 26
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1457,
+        "denominator": 5083731656658,
+        "decimal": 2.8660049318138454e-10
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "prime_count": 1,
+      "root_count": 2,
+      "hits": [
+        {
+          "p": 756156721,
+          "root": 307595822,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 756156721,
+          "root": 448560880,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "prime_count": 1,
+      "root_count": 2,
+      "hits": [
+        {
+          "p": 1085933287,
+          "root": 323993140,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1085933287,
+          "root": 761940128,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 86093442,
+        "decimal": 1.1615286562709387e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "prime_count": 6,
+      "root_count": 12,
+      "hits": [
+        {
+          "p": 569704789,
+          "root": 491898307,
+          "canonical_maximum": 26
+        },
+        {
+          "p": 569704789,
+          "root": 77806463,
+          "canonical_maximum": 26
+        },
+        {
+          "p": 1093753207,
+          "root": 888867301,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1093753207,
+          "root": 204885887,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2123264701,
+          "root": 2060720639,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2123264701,
+          "root": 62544043,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3311257051,
+          "root": 911720809,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3311257051,
+          "root": 2399536223,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3743741233,
+          "root": 1075229351,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3743741233,
+          "root": 2668511863,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 4065586849,
+          "root": 1002053478,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 4065586849,
+          "root": 3063533352,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 9565938,
+        "decimal": 1.0453757906438448e-07
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "prime_count": 8,
+      "root_count": 16,
+      "hits": [
+        {
+          "p": 1163268529,
+          "root": 924852033,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1163268529,
+          "root": 238416477,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1163581633,
+          "root": 651501184,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1163581633,
+          "root": 512080430,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1557784897,
+          "root": 575971354,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1557784897,
+          "root": 981813524,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2006686177,
+          "root": 1537496419,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2006686177,
+          "root": 469189739,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2021253217,
+          "root": 2004895657,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2021253217,
+          "root": 16357541,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2519025697,
+          "root": 1894057551,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2519025697,
+          "root": 624968127,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3636492721,
+          "root": 3564594843,
+          "canonical_maximum": 24
+        },
+        {
+          "p": 3636492721,
+          "root": 71897859,
+          "canonical_maximum": 24
+        },
+        {
+          "p": 3636548017,
+          "root": 3176380779,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3636548017,
+          "root": 460167219,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 4194304,
+        "decimal": 2.384185791015625e-07
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "prime_count": 1,
+      "root_count": 2,
+      "hits": [
+        {
+          "p": 1268376463,
+          "root": 218537361,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1268376463,
+          "root": 1049839083,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 86093442,
+        "decimal": 1.1615286562709387e-08
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 22,
+      "prime_count": 1,
+      "root_count": 1,
+      "hits": [
+        {
+          "p": 1292602081,
+          "root": 384536449,
+          "canonical_maximum": 22
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 15,
+        "denominator": 2147483648,
+        "decimal": 6.984919309616089e-09
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "prime_count": 1,
+      "root_count": 2,
+      "hits": [
+        {
+          "p": 1693172641,
+          "root": 1541196145,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1693172641,
+          "root": 151976477,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "prime_count": 1,
+      "root_count": 2,
+      "hits": [
+        {
+          "p": 1859083021,
+          "root": 1278526235,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1859083021,
+          "root": 580556767,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 86093442,
+        "decimal": 1.1615286562709387e-08
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "prime_count": 3,
+      "root_count": 6,
+      "hits": [
+        {
+          "p": 1292602081,
+          "root": 384536449,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 1292602081,
+          "root": 908065613,
+          "canonical_maximum": 22
+        },
+        {
+          "p": 1887494641,
+          "root": 360615185,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 1887494641,
+          "root": 1526879437,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2599569361,
+          "root": 208636059,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 2599569361,
+          "root": 2390933283,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    },
+    {
+      "r": 9,
+      "A": 26,
+      "B": 132,
+      "D": 148,
+      "M": 25,
+      "prime_count": 1,
+      "root_count": 1,
+      "hits": [
+        {
+          "p": 3072189007,
+          "root": 652558766,
+          "canonical_maximum": 25
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 17,
+        "denominator": 62762119218,
+        "decimal": 2.7086402135261944e-10
+      }
+    },
+    {
+      "r": 8,
+      "A": 17,
+      "B": 64,
+      "D": 33,
+      "M": 21,
+      "prime_count": 1,
+      "root_count": 1,
+      "hits": [
+        {
+          "p": 3106722961,
+          "root": 602886452,
+          "canonical_maximum": 21
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 127,
+        "denominator": 17179869184,
+        "decimal": 7.392372936010361e-09
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 24,
+      "prime_count": 1,
+      "root_count": 1,
+      "hits": [
+        {
+          "p": 3636492721,
+          "root": 71897859,
+          "canonical_maximum": 24
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 127,
+        "denominator": 17179869184,
+        "decimal": 7.392372936010361e-09
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 102,
+      "D": -47,
+      "M": 20,
+      "prime_count": 1,
+      "root_count": 2,
+      "hits": [
+        {
+          "p": 3835689601,
+          "root": 3265240393,
+          "canonical_maximum": 20
+        },
+        {
+          "p": 3835689601,
+          "root": 570449189,
+          "canonical_maximum": 20
+        }
+      ],
+      "asymptotic_density": {
+        "numerator": 1,
+        "denominator": 33554432,
+        "decimal": 2.9802322387695312e-08
+      }
+    }
+  ],
+  "scope": "Exhaustive for these fixed neutral templates in the sealed [1,2^32) atlas. No fitted finite-range frequency model."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "Independent enumeration of each small finite-module image",
+  "cases": 640,
+  "r_values": [
+    2,
+    3,
+    4,
+    8,
+    9
+  ],
+  "seed": 20261004,
+  "seconds": 0.07319105800706893
+}

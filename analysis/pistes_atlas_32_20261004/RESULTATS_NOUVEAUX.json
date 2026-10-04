@@ -1,0 +1,178 @@
+{
+  "status": "PASS",
+  "scope": "Exploration descriptive et certificats algébriques finis; aucun refit ni nouveau test primaire.",
+  "high_tail_M_ge_20": {
+    "profiles": 56,
+    "center_or_prefix": 19,
+    "thirds": 2,
+    "quadratic": 35
+  },
+  "complete_fine_profiles": 84696678,
+  "phase_by_threshold": {
+    "8": {
+      "13": {
+        "N": 679419,
+        "neutral": 89367,
+        "quadratic": 4240,
+        "neutral_quadratic": 4024,
+        "background_N": 675179,
+        "background_neutral": 85343
+      },
+      "14": {
+        "N": 89277,
+        "neutral": 14019,
+        "quadratic": 3292,
+        "neutral_quadratic": 3135,
+        "background_N": 85985,
+        "background_neutral": 10884
+      },
+      "15": {
+        "N": 11848,
+        "neutral": 2473,
+        "quadratic": 1000,
+        "neutral_quadratic": 965,
+        "background_N": 10848,
+        "background_neutral": 1508
+      },
+      "16": {
+        "N": 1767,
+        "neutral": 612,
+        "quadratic": 440,
+        "neutral_quadratic": 431,
+        "background_N": 1327,
+        "background_neutral": 181
+      },
+      "17": {
+        "N": 441,
+        "neutral": 298,
+        "quadratic": 279,
+        "neutral_quadratic": 278,
+        "background_N": 162,
+        "background_neutral": 20
+      },
+      "18": {
+        "N": 117,
+        "neutral": 97,
+        "quadratic": 96,
+        "neutral_quadratic": 95,
+        "background_N": 21,
+        "background_neutral": 2
+      },
+      "19": {
+        "N": 38,
+        "neutral": 34,
+        "quadratic": 34,
+        "neutral_quadratic": 34,
+        "background_N": 4,
+        "background_neutral": 0
+      },
+      "20": {
+        "N": 22,
+        "neutral": 22,
+        "quadratic": 22,
+        "neutral_quadratic": 22,
+        "background_N": 0,
+        "background_neutral": 0
+      }
+    },
+    "9": {
+      "13": {
+        "N": 114178,
+        "neutral": 14270,
+        "quadratic": 1613,
+        "neutral_quadratic": 1611,
+        "background_N": 112565,
+        "background_neutral": 12659
+      },
+      "14": {
+        "N": 13768,
+        "neutral": 2693,
+        "quadratic": 1240,
+        "neutral_quadratic": 1240,
+        "background_N": 12528,
+        "background_neutral": 1453
+      },
+      "15": {
+        "N": 1736,
+        "neutral": 509,
+        "quadratic": 359,
+        "neutral_quadratic": 359,
+        "background_N": 1377,
+        "background_neutral": 150
+      },
+      "16": {
+        "N": 340,
+        "neutral": 202,
+        "quadratic": 188,
+        "neutral_quadratic": 188,
+        "background_N": 152,
+        "background_neutral": 14
+      },
+      "17": {
+        "N": 153,
+        "neutral": 134,
+        "quadratic": 133,
+        "neutral_quadratic": 133,
+        "background_N": 20,
+        "background_neutral": 1
+      },
+      "18": {
+        "N": 53,
+        "neutral": 52,
+        "quadratic": 51,
+        "neutral_quadratic": 51,
+        "background_N": 2,
+        "background_neutral": 1
+      },
+      "19": {
+        "N": 23,
+        "neutral": 23,
+        "quadratic": 23,
+        "neutral_quadratic": 23,
+        "background_N": 0,
+        "background_neutral": 0
+      },
+      "20": {
+        "N": 13,
+        "neutral": 13,
+        "quadratic": 13,
+        "neutral_quadratic": 13,
+        "background_N": 0,
+        "background_neutral": 0
+      }
+    }
+  },
+  "quadratic_bounds": {
+    "A_bound": 64,
+    "D_bound": 256,
+    "nonzero_nonsquare_D": true
+  },
+  "discriminant_counts": {
+    "73": 10,
+    "97": 14,
+    "145": 2,
+    "-31": 4,
+    "-23": 2,
+    "148": 1,
+    "33": 1,
+    "-47": 1
+  },
+  "source_manifest_sha256": "762dc0aadc9beaa8a6bf2cb1a82604ad0c3dfcbb9f67c1a852ca7a2bb4468c20",
+  "quadratic_certificate_scope": "35 exact sufficient criteria; unit matrices and inverses modulo 8 or 9; not the exact Kummer degree or prime density.",
+  "validation": {
+    "archive_files_rechecked": 203,
+    "Python_sample_fine_profiles": 12965,
+    "gpu_qualified_cases": 56,
+    "gpu_catalogued_profiles": 74
+  },
+  "computation": {
+    "CPU_archive_read_seconds": 93.306773763,
+    "GPU_kernel_seconds": 19.728178790571498,
+    "catalogue_process_seconds": 37.35557518299902,
+    "observed_temperature_maxima": {
+      "gpu_C": 60.0,
+      "cpu_C": 65.25,
+      "nvme_C": 51.85
+    }
+  }
+}

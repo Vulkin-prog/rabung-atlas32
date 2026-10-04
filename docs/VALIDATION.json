@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "bounded_sample_blocks": 2,
+  "bounded_sample_primes": 6409,
+  "bounded_cpu_recomputed_primes": 256,
+  "bounded_cpu_recomputed_profiles": 820,
+  "bounded_cpu_sum_A4": 23605,
+  "all_72_asset_hashes_match": true,
+  "complete_index_chains_and_histograms_match": true,
+  "complete_descriptive_reanalysis": {
+    "status": "PASS",
+    "all_scientific_aggregates_equal": true,
+    "normalization": "Original reduction replaces undefined joined centres with null; selected centres evaluated directly",
+    "blocks": 49901,
+    "primes": 203280221,
+    "sum_A4": 53206216723199456,
+    "decoded_pack_bytes": 4628105653,
+    "seconds": 114.95090285
+  },
+  "exact_theory": {
+    "status": "PASS",
+    "multi_root_certificates": 10,
+    "fourth_power_identities": 445,
+    "checked_character_values": 808064,
+    "norm_integer_square_identities": 35,
+    "norms": {
+      "cubic": {
+        "common_dimension": 8,
+        "single_quotient_dimension": 43,
+        "higher_norm_relations": 16,
+        "short_weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3
+        ]
+      },
+      "quartic": {
+        "common_dimension": 3,
+        "single_quotient_dimension": 41,
+        "higher_norm_relations": 8,
+        "short_weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ]
+      }
+    },
+    "local_code": {
+      "dimension": 41,
+      "relations": 12,
+      "dual_minimum_distance": 4,
+      "checked_maximum_thresholds": 54,
+      "monochromatic_enhancement": 4096
+    },
+    "residual_models_with_full_character_group": 100,
+    "density_laws": {
+      "order_four_density_laws": 16,
+      "quadratic_phase_pair_laws": 3,
+      "dihedral_reflected_length": 63
+    },
+    "small_arithmetic_checks": {
+      "residual_local_context": "PASS",
+      "direct_A4_and_elliptic_checks": 53,
+      "small_prime_maximum": 257
+    },
+    "seconds": 42.771467388025485,
+    "requirements": "Standard Python library only; previous sealed proof bundle."
+  },
+  "earlier_exact_theory": {
+    "status": "ALL_EXACT_CHECKS_PASS",
+    "standard_python_only": true,
+    "exact_square_identities": 124,
+    "exact_fourth_power_identities": 91,
+    "auxiliary_and_origin_character_values_checked": 237922,
+    "elementary_galois_certificates": 10,
+    "r4_models": [
+      {
+        "p": 1065972469,
+        "polynomial": [
+          4,
+          168,
+          2485,
+          15006,
+          30001
+        ],
+        "m": 28,
+        "neutral_log2_order": 48,
+        "equal_phase_log2_order": 47,
+        "saved_bits": 7
+      },
+      {
+        "p": 1583868241,
+        "polynomial": [
+          2,
+          58,
+          411
+        ],
+        "m": 28,
+        "neutral_log2_order": 38,
+        "equal_phase_log2_order": 36,
+        "saved_bits": 18
+      },
+      {
+        "p": 2400748661,
+        "polynomial": [
+          5,
+          117,
+          640
+        ],
+        "m": 28,
+        "neutral_log2_order": 34,
+        "equal_phase_log2_order": 32,
+        "saved_bits": 22
+      },
+      {
+        "p": 2453400749,
+        "polynomial": [
+          5,
+          256,
+          3707,
+          16560
+        ],
+        "m": 28,
+        "neutral_log2_order": 48,
+        "equal_phase_log2_order": 46,
+        "saved_bits": 8
+      },
+      {
+        "p": 2789197129,
+        "polynomial": [
+          5,
+          255,
+          2818,
+          1848
+        ],
+        "m": 29,
+        "neutral_log2_order": 53,
+        "equal_phase_log2_order": 51,
+        "saved_bits": 5
+      },
+      {
+        "p": 3318080401,
+        "polynomial": [
+          2,
+          49,
+          288
+        ],
+        "m": 29,
+        "neutral_log2_order": 38,
+        "equal_phase_log2_order": 37,
+        "saved_bits": 19
+      },
+      {
+        "p": 3832210429,
+        "polynomial": [
+          9,
+          493,
+          8612,
+          47628
+        ],
+        "m": 28,
+        "neutral_log2_order": 54,
+        "equal_phase_log2_order": 52,
+        "saved_bits": 2
+      },
+      {
+        "p": 4129372337,
+        "polynomial": [
+          1,
+          41,
+          424,
+          164,
+          -8320
+        ],
+        "m": 28,
+        "neutral_log2_order": 53,
+        "equal_phase_log2_order": 51,
+        "saved_bits": 3
+      }
+    ],
+    "density_formulas_verified": true,
+    "class_group_completeness_assumed": false,
+    "seconds": 0.9781803840305656
+  },
+  "local_maximum_two_algorithms_equal": true,
+  "paper": {
+    "pages": 24,
+    "compiler": "installed pdfLaTeX, shell escape disabled, two passes",
+    "fonts_embedded": true,
+    "visual_review_all_pages": true,
+    "overfull_or_undefined_diagnostics": false,
+    "sha256": "d402631662e83211402bdf4cb37fe9a28607c02784f68d97bc6069cef985d316"
+  },
+  "limitations": [
+    "No full GPU census rerun",
+    "CUDA build portability has not been requalified",
+    "Exact arithmetic audit is not proof-assistant formalization"
+  ]
+}

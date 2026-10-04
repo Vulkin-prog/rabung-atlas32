@@ -1,0 +1,31 @@
+{
+  "status": "VERIFIED_REVISION",
+  "source_report_sha256": "f57e6e169fd994cbed434305063e3eea774971c8cc48c7c5e79a092bd6c5dae8",
+  "original_18_step_proof_retained": true,
+  "added_identity": "A9*A22=-18",
+  "constant_phase_propagation_to_26": "All odd r, p>512, r divides p-1, Q(w)=0; common phase becomes 1",
+  "even_order_condition": "chi(-1)=1; positions 11..20 can all have phase -1",
+  "even_counterexample": {
+    "p": 98641,
+    "r": 2,
+    "w": 28104
+  },
+  "extension_26_to_29_rooted_conditional": {
+    "numerator": 1,
+    "denominator": 9
+  },
+  "extension_26_to_29_prime_conditional": {
+    "numerator": 161,
+    "denominator": 1457
+  },
+  "cubic_bound_when_g_odd": "2/(3*g) <= delta <= 1/g",
+  "previous_exact_cubic_results_preserved": true,
+  "asymptotic_fixed_family_scope_only": true,
+  "audit_full_PARi_certification": "PASS for 19 scripts and three targeted bounded reruns",
+  "revision_verifier": "preuves/verify_revision_report.py",
+  "pdf": "NOTE_MATHEMATIQUE_FR.pdf",
+  "pdf_pages": 10,
+  "gpu_calculations_launched": false,
+  "multi_hour_calculations_launched": false,
+  "sealed_campaign_modified": false
+}

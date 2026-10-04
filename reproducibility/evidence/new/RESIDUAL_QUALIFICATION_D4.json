@@ -1,0 +1,448 @@
+{
+  "p": 2940141229,
+  "degree": 4,
+  "tested": 20,
+  "models": [
+    {
+      "certificate": "residual_d4_000_certificate.json",
+      "polynomial": [
+        1,
+        57,
+        1079,
+        7387,
+        5802
+      ],
+      "window_norm_height": 10692,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_001_certificate.json",
+      "polynomial": [
+        1,
+        52,
+        857,
+        5123,
+        10762
+      ],
+      "window_norm_height": 10762,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_002_certificate.json",
+      "polynomial": [
+        1,
+        56,
+        1001,
+        6496,
+        11091
+      ],
+      "window_norm_height": 11091,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_003_certificate.json",
+      "polynomial": [
+        1,
+        56,
+        982,
+        4941,
+        -3996
+      ],
+      "window_norm_height": 11412,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_004_certificate.json",
+      "polynomial": [
+        1,
+        53,
+        935,
+        6014,
+        5473
+      ],
+      "window_norm_height": 12952,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_005_certificate.json",
+      "polynomial": [
+        1,
+        61,
+        1223,
+        8760,
+        6131
+      ],
+      "window_norm_height": 14281,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_006_certificate.json",
+      "polynomial": [
+        1,
+        64,
+        1389,
+        10411,
+        10537
+      ],
+      "window_norm_height": 14453,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_007_certificate.json",
+      "polynomial": [
+        1,
+        60,
+        1126,
+        6314,
+        -3667
+      ],
+      "window_norm_height": 14491,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_008_certificate.json",
+      "polynomial": [
+        1,
+        46,
+        606,
+        1435,
+        -14349
+      ],
+      "window_norm_height": 15223,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_009_certificate.json",
+      "polynomial": [
+        1,
+        54,
+        1032,
+        8460,
+        15271
+      ],
+      "window_norm_height": 15271,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_010_certificate.json",
+      "polynomial": [
+        1,
+        62,
+        1214,
+        7074,
+        6028
+      ],
+      "window_norm_height": 15531,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_011_certificate.json",
+      "polynomial": [
+        1,
+        58,
+        1176,
+        9833,
+        15600
+      ],
+      "window_norm_height": 15600,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_012_certificate.json",
+      "polynomial": [
+        1,
+        48,
+        713,
+        3750,
+        10433
+      ],
+      "window_norm_height": 15617,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_013_certificate.json",
+      "polynomial": [
+        1,
+        63,
+        1311,
+        9520,
+        15826
+      ],
+      "window_norm_height": 15826,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_014_certificate.json",
+      "polynomial": [
+        1,
+        42,
+        481,
+        1617,
+        409
+      ],
+      "window_norm_height": 15908,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_015_certificate.json",
+      "polynomial": [
+        1,
+        59,
+        1167,
+        8147,
+        15497
+      ],
+      "window_norm_height": 16415,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_016_certificate.json",
+      "polynomial": [
+        1,
+        60,
+        1145,
+        7869,
+        11420
+      ],
+      "window_norm_height": 16738,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_017_certificate.json",
+      "polynomial": [
+        1,
+        47,
+        703,
+        3881,
+        -4551
+      ],
+      "window_norm_height": 16971,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_018_certificate.json",
+      "polynomial": [
+        1,
+        50,
+        750,
+        2808,
+        -14020
+      ],
+      "window_norm_height": 17020,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d4_019_certificate.json",
+      "polynomial": [
+        1,
+        55,
+        1110,
+        9351,
+        9982
+      ],
+      "window_norm_height": 17850,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    }
+  ],
+  "seconds": 0.5464054110343568
+}

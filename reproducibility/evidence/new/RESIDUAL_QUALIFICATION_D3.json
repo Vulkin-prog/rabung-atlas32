@@ -1,0 +1,428 @@
+{
+  "p": 2940141229,
+  "degree": 3,
+  "tested": 20,
+  "models": [
+    {
+      "certificate": "residual_d3_000_certificate.json",
+      "polynomial": [
+        1,
+        78,
+        891,
+        -5289
+      ],
+      "window_norm_height": 8047,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_001_certificate.json",
+      "polynomial": [
+        3,
+        47,
+        -1073,
+        -9469
+      ],
+      "window_norm_height": 9469,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_002_certificate.json",
+      "polynomial": [
+        1,
+        97,
+        2446,
+        9798
+      ],
+      "window_norm_height": 9798,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_003_certificate.json",
+      "polynomial": [
+        4,
+        144,
+        1373,
+        329
+      ],
+      "window_norm_height": 10498,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_004_certificate.json",
+      "polynomial": [
+        10,
+        376,
+        3506,
+        10353
+      ],
+      "window_norm_height": 10885,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_005_certificate.json",
+      "polynomial": [
+        11,
+        454,
+        4397,
+        5064
+      ],
+      "window_norm_height": 11070,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_006_certificate.json",
+      "polynomial": [
+        5,
+        222,
+        2264,
+        -4960
+      ],
+      "window_norm_height": 11645,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_007_certificate.json",
+      "polynomial": [
+        6,
+        232,
+        2133,
+        10024
+      ],
+      "window_norm_height": 12164,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_008_certificate.json",
+      "polynomial": [
+        2,
+        -31,
+        -1964,
+        -4180
+      ],
+      "window_norm_height": 13117,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_009_certificate.json",
+      "polynomial": [
+        2,
+        175,
+        3337,
+        4509
+      ],
+      "window_norm_height": 13791,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_010_certificate.json",
+      "polynomial": [
+        7,
+        310,
+        3024,
+        4735
+      ],
+      "window_norm_height": 14004,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_011_certificate.json",
+      "polynomial": [
+        2,
+        88,
+        760,
+        9695
+      ],
+      "window_norm_height": 14495,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_012_certificate.json",
+      "polynomial": [
+        8,
+        407,
+        5470,
+        14533
+      ],
+      "window_norm_height": 14533,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_013_certificate.json",
+      "polynomial": [
+        4,
+        125,
+        -182,
+        -14758
+      ],
+      "window_norm_height": 14758,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_014_certificate.json",
+      "polynomial": [
+        12,
+        551,
+        6843,
+        14862
+      ],
+      "window_norm_height": 14862,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_015_certificate.json",
+      "polynomial": [
+        9,
+        366,
+        3637,
+        -4631
+      ],
+      "window_norm_height": 15243,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_016_certificate.json",
+      "polynomial": [
+        5,
+        154,
+        1242,
+        15313
+      ],
+      "window_norm_height": 15313,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_017_certificate.json",
+      "polynomial": [
+        12,
+        532,
+        5288,
+        -225
+      ],
+      "window_norm_height": 15393,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_018_certificate.json",
+      "polynomial": [
+        9,
+        298,
+        2615,
+        15642
+      ],
+      "window_norm_height": 15642,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    },
+    {
+      "certificate": "residual_d3_019_certificate.json",
+      "polynomial": [
+        5,
+        241,
+        3819,
+        10127
+      ],
+      "window_norm_height": 15712,
+      "neutral": {
+        "C4": 28,
+        "C2": 0,
+        "log2_order": 56
+      },
+      "ratios": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "saved_bits": 0
+    }
+  ],
+  "seconds": 0.5372141299885698
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Two non-contiguous original blocks for bounded tests",
+  "blocks": [
+    {
+      "block": 0,
+      "lo": 1,
+      "hi": 38891,
+      "primes": 4096,
+      "prime_hash": "50d5ab339509fb0ce16dfd80cb5898c6151566b5ba7384afeb690482d5c2a024",
+      "science_hash": "a802f383f4e20e471ad68908d6ab6ff033a64efd96f389434609c7b125217a01",
+      "values_hash": "b36300f431e0fbf6852143102769c2f9fe0ec16e9e028a249067cbff0d1aa8e7",
+      "frames": [
+        {
+          "file": "scan-00000.vdw",
+          "bytes": 46234,
+          "sha256": "6109a04605f7f89ea44f383fb2b38ee45b6341e548da94951fdc0f1d2cd71a10"
+        },
+        {
+          "file": "quadruplets-00000.a4",
+          "bytes": 6116,
+          "sha256": "44e12840b57cf62d02cfa74421e78f7861da57c53144fd8eb611222202288eee"
+        }
+      ]
+    },
+    {
+      "block": 49900,
+      "lo": 4294915433,
+      "hi": 4294967296,
+      "primes": 2313,
+      "prime_hash": "682f0e7d194928f0ad9c523b5b640c4542486cd6e095464f576ecd6048b528cd",
+      "science_hash": "0ec2dbed6133b326c2f42578f020e7d6608b83422569080f4b364d78f28f9087",
+      "values_hash": "672e2a73ff95f0e5dc1ac4ad3bda6014c4a8b160ed4e0323b3b344b1a3fdef37",
+      "frames": [
+        {
+          "file": "scan-49900.vdw",
+          "bytes": 49045,
+          "sha256": "49b2788030b904f606aa07f27e70350c728895fb5f469f9328736df1fdc2aa3f"
+        },
+        {
+          "file": "quadruplets-49900.a4",
+          "bytes": 6222,
+          "sha256": "52d82abc44b72793853591708596d7662048d2dacb51c514a8e7aa5405e76592"
+        }
+      ]
+    }
+  ]
+}

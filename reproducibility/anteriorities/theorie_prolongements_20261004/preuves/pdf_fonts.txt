@@ -1,0 +1,22 @@
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+WLLQMB+LMRoman17-Regular             Type 1            Custom           yes yes yes     72  0
+TMUMNC+LMRoman12-Regular             Type 1            Custom           yes yes yes     73  0
+TMUMNC+LMRoman12-Regular             Type 1            Custom           yes yes yes     74  0
+WFWVWL+LMMathItalic12-Regular        Type 1            Custom           yes yes yes     75  0
+XWQZMC+LMRoman8-Regular              Type 1            Custom           yes yes yes     76  0
+GQPZDS+LMRoman10-Bold                Type 1            Custom           yes yes yes     77  0
+MDGQOE+LMRoman10-Regular             Type 1            Custom           yes yes yes     78  0
+MDGQOE+LMRoman10-Regular             Type 1            Custom           yes yes yes     79  0
+CIXFWA+LMMathSymbols7-Regular        Type 1            Custom           yes yes yes     80  0
+RHJNCR+LMRoman7-Regular              Type 1            Custom           yes yes yes     81  0
+HFNGDQ+LMMathSymbols10-Regular       Type 1            Custom           yes yes yes     82  0
+IYBXQL+LMRoman12-Bold                Type 1            Custom           yes yes yes     83  0
+XTZRJL+LMMathItalic10-Regular        Type 1            Custom           yes yes yes     84  0
+XFUIQH+LMMathItalic8-Regular         Type 1            Custom           yes yes yes     85  0
+SOBIXP+LMMathSymbols8-Regular        Type 1            Custom           yes yes yes     86  0
+ANHWAN+MSBM10                        Type 1            Builtin          yes yes yes     87  0
+VOOUHD+LMRoman10-Italic              Type 1            Custom           yes yes yes     88  0
+CCSTXP+LMRoman6-Regular              Type 1            Custom           yes yes yes     89  0
+FJQORQ+LMMathExtension10-Regular     Type 1            Custom           yes yes yes     90  0
+YMXEEW+LMMono10-Regular              Type 1            Custom           yes yes yes    102  0

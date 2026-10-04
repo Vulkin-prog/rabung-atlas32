@@ -1,0 +1,1566 @@
+{
+  "status": "PASS",
+  "random_exhaustive_tests": 144,
+  "models": 17,
+  "quadratic_crosschecks": 7,
+  "verified_orders": 120,
+  "r9_record_short_basis": {
+    "elements": [
+      "2",
+      "3",
+      "11",
+      "alpha",
+      "alpha+1",
+      "alpha+2",
+      "alpha+3",
+      "alpha+4",
+      "alpha+5",
+      "alpha+6"
+    ],
+    "invariant_factors": [
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9,
+      9
+    ],
+    "order": 3486784401
+  },
+  "cases": [
+    {
+      "r": 8,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 23,
+      "B": 114,
+      "D": 73,
+      "M": 22,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 31,
+      "B": 216,
+      "D": 97,
+      "M": 26,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 22,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 26,
+      "B": 132,
+      "D": 148,
+      "M": 25,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 17,
+      "B": 64,
+      "D": 33,
+      "M": 21,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 24,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 8,
+      "A": 19,
+      "B": 102,
+      "D": -47,
+      "M": 20,
+      "base_mode": "cyclotomic",
+      "invariant_factors": {
+        "radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "conjugate_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "normal_closure_radical_order": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "radical_with_small_primes_and_sign": [
+          2,
+          4,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 72,
+      "D": 73,
+      "M": 20,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 31,
+      "B": 216,
+      "D": 97,
+      "M": 26,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 98,
+      "D": -31,
+      "M": 20,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 66,
+      "D": 97,
+      "M": 20,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 54,
+      "D": 145,
+      "M": 20,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 19,
+      "B": 96,
+      "D": -23,
+      "M": 20,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    },
+    {
+      "r": 9,
+      "A": 26,
+      "B": 132,
+      "D": 148,
+      "M": 25,
+      "base_mode": "quadratic",
+      "invariant_factors": {
+        "radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "conjugate_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "normal_closure_radical_order": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "radical_with_small_primes_and_sign": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    }
+  ],
+  "limitation": "Independent module algebra; number-field S-unit saturation is certified by PARI bnfcertify."
+}

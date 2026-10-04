@@ -1,0 +1,276 @@
+{
+  "status": "PASS",
+  "higher_models": 20,
+  "cubic_norm_models": 15,
+  "exact_decompositions_checked": 2581,
+  "class_group_completeness_assumed": false,
+  "external_libraries_used": false,
+  "seconds": 1.272080720984377,
+  "cases": [
+    {
+      "tag": "r2_p910400021_d3_0",
+      "irreducibility_prime": 17,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05693318200064823
+    },
+    {
+      "tag": "r2_p910400021_d4_1",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.059134983050171286
+    },
+    {
+      "tag": "r2_p1363287157_d4_0",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05501078499946743
+    },
+    {
+      "tag": "r2_p1363287157_d3_1",
+      "irreducibility_prime": 13,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.06825299002230167
+    },
+    {
+      "tag": "r2_p1428586013_d4_0",
+      "irreducibility_prime": 17,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.04846119397552684
+    },
+    {
+      "tag": "r2_p1428586013_d4_1",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.0547740519978106
+    },
+    {
+      "tag": "r2_p1440133553_d4_0",
+      "irreducibility_prime": 61,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05244231998221949
+    },
+    {
+      "tag": "r2_p1478917823_d3_0",
+      "irreducibility_prime": 5,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05320471100276336
+    },
+    {
+      "tag": "r2_p1532710759_d4_0",
+      "irreducibility_prime": 5,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05341234302613884
+    },
+    {
+      "tag": "r2_p1862482781_d3_0",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05652771599125117
+    },
+    {
+      "tag": "r2_p1862482781_d4_1",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.06101290899096057
+    },
+    {
+      "tag": "r2_p2080022621_d3_0",
+      "irreducibility_prime": 13,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.056582657038234174
+    },
+    {
+      "tag": "r2_p2194988227_d4_0",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05377232801401988
+    },
+    {
+      "tag": "r2_p2194988227_d4_1",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.06528578902361915
+    },
+    {
+      "tag": "r2_p2197584787_d4_0",
+      "irreducibility_prime": 23,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05867354600923136
+    },
+    {
+      "tag": "r2_p3354019703_d4_0",
+      "irreducibility_prime": 53,
+      "decompositions_checked": 55,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05684574000770226
+    },
+    {
+      "tag": "r2_p3732899699_d4_0",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.05974724097177386
+    },
+    {
+      "tag": "r2_p3836617441_d3_0",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 53,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.04632519499864429
+    },
+    {
+      "tag": "r2_p3920044319_d3_0",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 54,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.06010535603854805
+    },
+    {
+      "tag": "r2_p4283876587_d4_0",
+      "irreducibility_prime": 47,
+      "decompositions_checked": 52,
+      "character_homomorphisms_checked": 96,
+      "groups_match": true,
+      "seconds": 0.056734530022367835
+    },
+    {
+      "tag": "norm_r3_p496108447",
+      "irreducibility_prime": 23,
+      "decompositions_checked": 75,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.005464895977638662
+    },
+    {
+      "tag": "norm_r2_p830419297",
+      "irreducibility_prime": 17,
+      "decompositions_checked": 109,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.004323930013924837
+    },
+    {
+      "tag": "norm_r2_p1195052273",
+      "irreducibility_prime": 2,
+      "decompositions_checked": 111,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0016342130256816745
+    },
+    {
+      "tag": "norm_r2_p1227020759",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 107,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0024612550041638315
+    },
+    {
+      "tag": "norm_r2_p2889743819",
+      "irreducibility_prime": 5,
+      "decompositions_checked": 105,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.001667583012022078
+    },
+    {
+      "tag": "norm_r2_p2936508541",
+      "irreducibility_prime": 5,
+      "decompositions_checked": 105,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0021537099964916706
+    },
+    {
+      "tag": "norm_r4_p3594614377",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 61,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0039418250089511275
+    },
+    {
+      "tag": "norm_r2_p4105332313",
+      "irreducibility_prime": 13,
+      "decompositions_checked": 109,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0017872150056064129
+    },
+    {
+      "tag": "norm_r2_p910400021",
+      "irreducibility_prime": 17,
+      "decompositions_checked": 107,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.001916956971399486
+    },
+    {
+      "tag": "norm_r2_p1363287157",
+      "irreducibility_prime": 13,
+      "decompositions_checked": 105,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.062372477957978845
+    },
+    {
+      "tag": "norm_r2_p1478917823",
+      "irreducibility_prime": 5,
+      "decompositions_checked": 107,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.00964889395982027
+    },
+    {
+      "tag": "norm_r2_p1862482781",
+      "irreducibility_prime": 11,
+      "decompositions_checked": 107,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0035956299980171025
+    },
+    {
+      "tag": "norm_r2_p2080022621",
+      "irreducibility_prime": 13,
+      "decompositions_checked": 105,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.008115853008348495
+    },
+    {
+      "tag": "norm_r2_p3836617441",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 107,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.0021217300090938807
+    },
+    {
+      "tag": "norm_r2_p3920044319",
+      "irreducibility_prime": 7,
+      "decompositions_checked": 109,
+      "cyclotomic_base_verified": true,
+      "seconds": 0.013933474023360759
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "EXACT_DIHEDRAL_DENSITY",
+  "formula": "1/g-1/(2*g_opposite)-1/(2*h_adjacent)+1/(2*h_triple)-1/(8*h_all)",
+  "formula_specific": "2^-43 - 2^-54 - 2^-80 + 2^-90 - 2^-98",
+  "r": 2,
+  "m": 52,
+  "polynomial": [
+    1,
+    80,
+    2281,
+    27240,
+    116640
+  ],
+  "g": 8796093022208,
+  "g_opposite_in_root_field": 9007199254740992,
+  "h_adjacent_in_normal_field": 604462909807314587353088,
+  "h_triple_in_normal_field": 618970019642690137449562112,
+  "h_all_in_normal_field": 39614081257132168796771975168,
+  "density_among_odd_primes": {
+    "numerator": 36011204832657663,
+    "denominator": 316912650057057350374175801344,
+    "float": 1.136313265695584e-13
+  },
+  "root_count_probabilities": {
+    "4": {
+      "numerator": 1,
+      "denominator": 316912650057057350374175801344,
+      "float": 3.1554436208840472e-30
+    },
+    "3": {
+      "numerator": 63,
+      "denominator": 79228162514264337593543950336,
+      "float": 7.951717924627799e-28
+    },
+    "2": {
+      "numerator": 8796093152899,
+      "denominator": 158456325028528675187087900672,
+      "float": 5.551115205603399e-17
+    },
+    "1": {
+      "numerator": 8998403161587903,
+      "denominator": 79228162514264337593543950336,
+      "float": 1.1357581541750156e-13
+    }
+  },
+  "opposite_partner_given_neutral_root": {
+    "numerator": 1,
+    "denominator": 1024,
+    "float": 0.0009765625
+  },
+  "intersection_dimensions": {
+    "opposite_roots": 33,
+    "adjacent_roots": 7,
+    "opposite_pairs": 11
+  },
+  "phase_forcing_square_relation": {
+    "positions": [
+      0,
+      5,
+      12,
+      24,
+      27
+    ],
+    "square_root_power_basis": [
+      "0",
+      "-134",
+      "-43/3",
+      "-1/3"
+    ]
+  },
+  "constant_phase_forced_neutral": true,
+  "pointwise_stabilizer_orders": {
+    "single": 2,
+    "opposite_pair": 2,
+    "adjacent_pair": 1,
+    "triple": 1,
+    "all_four": 1
+  },
+  "group_order": 8,
+  "galois_group": "D4 (order 8)",
+  "scope": "Fixed polynomial and length; asymptotic natural density, no effective finite-range error bound"
+}

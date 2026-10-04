@@ -1,0 +1,11 @@
+default(parisize,128000000);default(parisizemax,512000000);setrand(1);
+run()={my(P=x^3+43*x^2+586*x+2592,v,fp,bn,fac,roots);
+ v=polcompositum(P,x^2+1951,1)[1];fp=v[1];
+ fp=polcompositum(fp,polcyclo(4),1)[1][1];fp=subst(fp,x,y);
+ print("DEGREE ",poldegree(fp));bn=bnfinit(fp,1);print("CERTIFIED ",bnfcertify(bn));
+ fac=nffactor(bn,P);print("FACTORS ",fac);
+ roots=vector(3,i,-polcoef(fac[i,1],0));
+ print("ROOT_IDENTITIES ",vector(3,i,subst(P,x,roots[i])));print("CLASSNO ",bn.no);
+};
+iferr(run(),err,print("ERROR ",err);quit(1));
+quit;

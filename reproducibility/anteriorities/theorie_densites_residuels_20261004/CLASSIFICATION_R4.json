@@ -1,0 +1,280 @@
+{
+  "status": "EIGHT_EXACT_COMPRESSIONS_ONE_BOUNDED_RESIDUAL",
+  "input_r4_profiles": 9,
+  "exact_compressed_models": 8,
+  "remaining_without_retained_model": [
+    {
+      "p": 2940141229,
+      "r": 4,
+      "M": 28,
+      "witness": 390499731,
+      "phase": 2940141228,
+      "larger_quadratics": [],
+      "nearest_fraction": [
+        1568131,
+        17,
+        128,
+        1564675,
+        1568131
+      ],
+      "cubic_relations": []
+    }
+  ],
+  "search_probes": 96431235,
+  "modular_matches_including_repeats": 60471,
+  "model_selection": "Irreducible root factor of degree at most four with at least three product identities; then exact fourth-power compression.",
+  "larger_degree_candidates_not_qualified": [
+    {
+      "p": 3318080401,
+      "polynomial": [
+        1,
+        69,
+        1613,
+        13731,
+        21543,
+        -27
+      ],
+      "degree": 5,
+      "relations_count": 3
+    },
+    {
+      "p": 2789197129,
+      "polynomial": [
+        1,
+        92,
+        3307,
+        58060,
+        498052,
+        1672368
+      ],
+      "degree": 5,
+      "relations_count": 3
+    }
+  ],
+  "models": [
+    {
+      "p": 1065972469,
+      "m": 28,
+      "polynomial": [
+        4,
+        168,
+        2485,
+        15006,
+        30001
+      ],
+      "galois": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "neutral_group": {
+        "C4": 22,
+        "C2": 4,
+        "log2_order": 48
+      },
+      "equal_phase_group": {
+        "C4": 22,
+        "C2": 3,
+        "log2_order": 47
+      },
+      "saved_bits": 7,
+      "allowed_phase_order": 2
+    },
+    {
+      "p": 1583868241,
+      "m": 28,
+      "polynomial": [
+        2,
+        58,
+        411
+      ],
+      "galois": [
+        2,
+        -1,
+        1,
+        "C2"
+      ],
+      "neutral_group": {
+        "C4": 19,
+        "C2": 0,
+        "log2_order": 38
+      },
+      "equal_phase_group": {
+        "C4": 18,
+        "C2": 0,
+        "log2_order": 36
+      },
+      "saved_bits": 18,
+      "allowed_phase_order": 4
+    },
+    {
+      "p": 2400748661,
+      "m": 28,
+      "polynomial": [
+        5,
+        117,
+        640
+      ],
+      "galois": [
+        2,
+        -1,
+        1,
+        "C2"
+      ],
+      "neutral_group": {
+        "C4": 17,
+        "C2": 0,
+        "log2_order": 34
+      },
+      "equal_phase_group": {
+        "C4": 16,
+        "C2": 0,
+        "log2_order": 32
+      },
+      "saved_bits": 22,
+      "allowed_phase_order": 4
+    },
+    {
+      "p": 2453400749,
+      "m": 28,
+      "polynomial": [
+        5,
+        256,
+        3707,
+        16560
+      ],
+      "galois": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "neutral_group": {
+        "C4": 24,
+        "C2": 0,
+        "log2_order": 48
+      },
+      "equal_phase_group": {
+        "C4": 23,
+        "C2": 0,
+        "log2_order": 46
+      },
+      "saved_bits": 8,
+      "allowed_phase_order": 4
+    },
+    {
+      "p": 2789197129,
+      "m": 29,
+      "polynomial": [
+        5,
+        255,
+        2818,
+        1848
+      ],
+      "galois": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "neutral_group": {
+        "C4": 26,
+        "C2": 1,
+        "log2_order": 53
+      },
+      "equal_phase_group": {
+        "C4": 25,
+        "C2": 1,
+        "log2_order": 51
+      },
+      "saved_bits": 5,
+      "allowed_phase_order": 4
+    },
+    {
+      "p": 3318080401,
+      "m": 29,
+      "polynomial": [
+        2,
+        49,
+        288
+      ],
+      "galois": [
+        2,
+        -1,
+        1,
+        "C2"
+      ],
+      "neutral_group": {
+        "C4": 19,
+        "C2": 0,
+        "log2_order": 38
+      },
+      "equal_phase_group": {
+        "C4": 18,
+        "C2": 1,
+        "log2_order": 37
+      },
+      "saved_bits": 19,
+      "allowed_phase_order": 2
+    },
+    {
+      "p": 3832210429,
+      "m": 28,
+      "polynomial": [
+        9,
+        493,
+        8612,
+        47628
+      ],
+      "galois": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "neutral_group": {
+        "C4": 27,
+        "C2": 0,
+        "log2_order": 54
+      },
+      "equal_phase_group": {
+        "C4": 26,
+        "C2": 0,
+        "log2_order": 52
+      },
+      "saved_bits": 2,
+      "allowed_phase_order": 4
+    },
+    {
+      "p": 4129372337,
+      "m": 28,
+      "polynomial": [
+        1,
+        41,
+        424,
+        164,
+        -8320
+      ],
+      "galois": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "neutral_group": {
+        "C4": 26,
+        "C2": 1,
+        "log2_order": 53
+      },
+      "equal_phase_group": {
+        "C4": 25,
+        "C2": 1,
+        "log2_order": 51
+      },
+      "saved_bits": 3,
+      "allowed_phase_order": 4
+    }
+  ],
+  "scope": "The nine archived canonical order-four intervals; no new prime census, no exhaustive algebraic classification."
+}

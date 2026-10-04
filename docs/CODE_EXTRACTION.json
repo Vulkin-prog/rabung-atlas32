@@ -1,0 +1,13 @@
+{
+  "core_source_sha256": "eb0dd626b32c138bc0bffcd0fb1875317e94afdc650646f307c7ebf0103339b7",
+  "functions": [
+    "decode_frame",
+    "expected_mask",
+    "get_uint",
+    "minimum_k",
+    "science_hash"
+  ],
+  "A4_source_sha256": "27fcfda84a7e554745f49bc385530d93a24a6483e7672050bd7c104e85c13f1b",
+  "A4_function": "decode",
+  "arithmetic_modified": false
+}

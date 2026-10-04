@@ -1,0 +1,35 @@
+{
+  "P": [
+    1,
+    80,
+    2281,
+    27240,
+    116640
+  ],
+  "reflection": "alpha_prime=-40-alpha",
+  "original_positions": [
+    0,
+    51
+  ],
+  "reflected_positions": [
+    -11,
+    40
+  ],
+  "joined_positions": [
+    -11,
+    51
+  ],
+  "joined_length": 63,
+  "max_abs_P_on_joined_negative_positions": 813402,
+  "prime_density": {
+    "numerator": 17592186044415,
+    "denominator": 316912650057057350374175801344,
+    "decimal": 5.551115123125467e-17
+  },
+  "conditional_on_at_least_one_neutral_52_window": {
+    "numerator": 5864062014805,
+    "denominator": 12003734944219221,
+    "decimal": 0.0004885197850548195
+  },
+  "scope": "Existence of an opposite neutral pair equals existence of this shifted length-63 window. It implies a lower bound for the global maximum, not its exact value."
+}

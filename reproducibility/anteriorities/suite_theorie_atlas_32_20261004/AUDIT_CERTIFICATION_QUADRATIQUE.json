@@ -1,0 +1,215 @@
+{
+  "status": "PASS",
+  "script_calls_audited": 19,
+  "published_quadratic_density_models": 17,
+  "full_length_cost_models_audited": 2,
+  "calls": [
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D73_M20_cyclotomic.gp",
+      "sha256": "c8b99858987556292cccf2025a566d0e6bae8f824cd6ddb57905d4c18cf77dbd",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A23_D73_M22_cyclotomic.gp",
+      "sha256": "1de96dcafa3bf4d6e7e0d50de42527a75c2a9eca1bdc5f5219f4648313f92bf5",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A19_D73_M20_cyclotomic.gp",
+      "sha256": "0a79bfa1850f7a15066ac0815eea4df2f4e66971175c6fa1f9fe199699d6a0c3",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A31_D97_M26_cyclotomic.gp",
+      "sha256": "d26335608a1decd044269de44757116b27b0761fb31e5cfb2c9236877a189962",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D145_M20_cyclotomic.gp",
+      "sha256": "40031b6c8b666f4267cce6ad64a55fe0eb5e62d21eb3b88b41174119a848e140",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A19_D-31_M20_cyclotomic.gp",
+      "sha256": "39b3f5e161a50223b8b60ee76b0633411a1ab80730bd552436e1a69c5984905c",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A19_D97_M20_cyclotomic.gp",
+      "sha256": "d32971b0510e21561c9df0cd1a1acf71974890492951ebe54e68aee769e41cf5",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D97_M20_cyclotomic.gp",
+      "sha256": "bf79ed62c27219dd6c7d3acdd32e2f4df385ee8217ced1592981784e59740a56",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A19_D145_M20_cyclotomic.gp",
+      "sha256": "ef62c389c3149cb557adbf402e072335c1b1d52980da5143ac50b1b4b066e906",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D-31_M22_cyclotomic.gp",
+      "sha256": "3f4a988fa450e91bc93c49ed55e39ad88bb6646e8c819bb4e16b3cda079d50c2",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D-23_M20_cyclotomic.gp",
+      "sha256": "f003a9693a941dfd30e6ab805afeccd3a35ca9537d108b7be957a32c950b9f0c",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A19_D-23_M20_cyclotomic.gp",
+      "sha256": "1ce8bd12ec25ae579b9a0f9cf5799e69cb5a7e76fa35eb626ce2a65cb5b911dd",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D-31_M20_cyclotomic.gp",
+      "sha256": "335643175b79650178f3d2feb119f7753a4070e22a314171ac468b7f11025dd0",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A26_D148_M25_cyclotomic.gp",
+      "sha256": "f0977e10997824a6aa045ad6177c8c692af5ffeb32229ec3f11ac7b711b1ad19",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A17_D33_M21_cyclotomic.gp",
+      "sha256": "e3f994ece41d4c7c1720b64a921ad65ba0f9ac1913c22beea09f01ec42cbf126",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D97_M24_cyclotomic.gp",
+      "sha256": "2838d621d2ce101ccd1d1880ee5f85258cf8cf7c8097774e0259b6aefcb48aa8",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D-47_M20_cyclotomic.gp",
+      "sha256": "70c335d581556875a7110f8ecd36ef05175c423def1f7254a0a88f1642e634cf",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r9_A31_D97_M40_cyclotomic.gp",
+      "sha256": "e69dd30f6d2bcfec78a864bff9aed82ebb430568b392a9e6b27c7c72640233d4",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    },
+    {
+      "path": "outputs/theorie_atlas_32_20261004/preuves/pari/kummer/r8_A19_D97_M40_cyclotomic.gp",
+      "sha256": "167aa6e8429b0ca7eed6d8c70eda99e53799c164255c1fd39bff3bd95d7635f2",
+      "bnfinit_flag": 1,
+      "bnfcertify_flag": 0,
+      "success_required_before_S_units": true
+    }
+  ],
+  "bounded_reruns": [
+    {
+      "tag": "r9_A31_D97_M26_cyclotomic",
+      "status": "PASS",
+      "seconds": 1.7851602209848352,
+      "default_full_bnf_certification_passed": true,
+      "all_14_result_fields_match_archive": true,
+      "result": {
+        "r": 9,
+        "A": 31,
+        "B": 216,
+        "M": 26,
+        "base_degree": 12,
+        "class_number": 50,
+        "torsion_order": 18,
+        "S_prime_ideals": 18,
+        "S_unit_rows": 24,
+        "radical_order": 3486784401,
+        "conjugate_radical_order": 3486784401,
+        "normal_closure_radical_order": 2541865828329,
+        "radical_with_sign": 3486784401,
+        "radical_with_small_primes_and_sign": 3486784401
+      }
+    },
+    {
+      "tag": "r9_A31_D97_M40_cyclotomic",
+      "status": "PASS",
+      "seconds": 2.0514039269764908,
+      "default_full_bnf_certification_passed": true,
+      "all_14_result_fields_match_archive": true,
+      "result": {
+        "r": 9,
+        "A": 31,
+        "B": 216,
+        "M": 40,
+        "base_degree": 12,
+        "class_number": 50,
+        "torsion_order": 18,
+        "S_prime_ideals": 48,
+        "S_unit_rows": 54,
+        "radical_order": 150094635296999121,
+        "conjugate_radical_order": 150094635296999121,
+        "normal_closure_radical_order": 8862938119652501095929,
+        "radical_with_sign": 150094635296999121,
+        "radical_with_small_primes_and_sign": 150094635296999121
+      }
+    },
+    {
+      "tag": "r8_A19_D97_M24_cyclotomic",
+      "status": "PASS",
+      "seconds": 0.12630178802646697,
+      "default_full_bnf_certification_passed": true,
+      "all_14_result_fields_match_archive": true,
+      "result": {
+        "r": 8,
+        "A": 19,
+        "B": 66,
+        "M": 24,
+        "base_degree": 8,
+        "class_number": 20,
+        "torsion_order": 8,
+        "S_prime_ideals": 18,
+        "S_unit_rows": 22,
+        "radical_order": 134217728,
+        "conjugate_radical_order": 134217728,
+        "normal_closure_radical_order": 8589934592,
+        "radical_with_sign": 134217728,
+        "radical_with_small_primes_and_sign": 134217728
+      }
+    }
+  ],
+  "total_seconds": 3.9629843970178626,
+  "primary_documentation": "https://pari.math.u-bordeaux.fr/dochtml/html-stable/General_number_fields.html#bnfcertify",
+  "scope": "Exact default PARI certification, script identities, and bounded recomputation of three relevant models. Independent Python alone does not certify quadratic S-unit completeness."
+}

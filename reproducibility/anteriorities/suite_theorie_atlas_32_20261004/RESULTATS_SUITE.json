@@ -1,0 +1,58 @@
+{
+  "status": "VERIFIED_CONTINUATION",
+  "propagation_steps": 18,
+  "certified_cubic_density_models": 15,
+  "new_higher_models": 20,
+  "new_cubic_models": 7,
+  "new_quartic_models": 13,
+  "initial_residual_profiles": 53,
+  "newly_covered_profiles": 15,
+  "remaining_profiles": 38,
+  "remaining_by_r": {
+    "2": 29,
+    "4": 9
+  },
+  "exact_decompositions_checked": 2581,
+  "character_homomorphisms": 4800,
+  "individual_character_values_checked": 537024,
+  "all_claimed_new_group_orders_have_matching_explicit_upper_and_character_lower_bounds": true,
+  "quartic_densities_computed": false,
+  "special_quartic": {
+    "tag": "r2_p1428586013_d4_0",
+    "centered_polynomial_ascending": [
+      4240,
+      0,
+      -119,
+      0,
+      1
+    ],
+    "quadratic_subfield_discriminant_parameter": -311,
+    "square_root_norm_parameter": 265
+  },
+  "strongest_new_compression": {
+    "p": 3836617441,
+    "r": 2,
+    "M": 53,
+    "witness": 1084557646,
+    "phase": 1,
+    "model_tag": "r2_p3836617441_d3_0",
+    "degree": 3,
+    "polynomial": [
+      1,
+      163,
+      8010,
+      121176
+    ],
+    "equal_phase_binary_conditions": 40,
+    "generic_equal_phase_binary_conditions": 52,
+    "saved_binary_conditions": 12,
+    "allowed_phase_order": 2
+  },
+  "density_formula": "1/g - 1/(2*h2) + 1/(6*h3)",
+  "all_counts_are_for_fixed_post_observation_models": true,
+  "limits": [
+    "Asymptotic fixed-template densities; no numerical finite-range error bound.",
+    "Bounded search, not a complete classification of algebraic mechanisms.",
+    "No refit, reopened primary test, universal law, or priority claim."
+  ]
+}

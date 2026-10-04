@@ -1,0 +1,23 @@
+{
+  "status": "BOUNDED_NO_RESULT",
+  "scope": "Additional cubic normal closure, r=4, polynomial x^3+43x^2+586x+2592",
+  "attempts": [
+    {
+      "script": "cubic_normal_pilot.gp",
+      "sha256": "629c35986babcb946b00549ba84e4036a1a19f42b22a967517cda9c9e22335b0",
+      "degree": 12,
+      "deadline_seconds": 60,
+      "exit_code": 124,
+      "accepted_result": false
+    },
+    {
+      "script": "cubic_normal_reduced_pilot.gp",
+      "sha256": "46ed5c11d7d7bc8cd46b203fd6024439acd6ae3a16205aca8cc5644b4f060b1e",
+      "degree": 12,
+      "deadline_seconds": 60,
+      "exit_code": 124,
+      "accepted_result": false
+    }
+  ],
+  "consequence": "No exact cubic prime density claimed. The certified base radical orders and explicit interval identities are independent of these unfinished attempts."
+}

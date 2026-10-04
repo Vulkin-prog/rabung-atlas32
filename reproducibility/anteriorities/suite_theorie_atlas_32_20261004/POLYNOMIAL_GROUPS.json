@@ -1,0 +1,358 @@
+{
+  "status": "EXACT_POLYNOMIAL_CHECK",
+  "cases": [
+    {
+      "tag": "r2_p910400021_d3_0",
+      "polynomial": [
+        1,
+        94,
+        1944,
+        11620
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": -24257200
+    },
+    {
+      "tag": "r2_p910400021_d4_1",
+      "polynomial": [
+        1,
+        131,
+        6295,
+        130905,
+        987740
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": 1331647444800
+    },
+    {
+      "tag": "r2_p1363287157_d4_0",
+      "polynomial": [
+        1,
+        108,
+        4376,
+        79104,
+        541056
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": 167881211904
+    },
+    {
+      "tag": "r2_p1363287157_d3_1",
+      "polynomial": [
+        1,
+        159,
+        6578,
+        82500
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": -1709806604
+    },
+    {
+      "tag": "r2_p1428586013_d4_0",
+      "polynomial": [
+        1,
+        80,
+        2281,
+        27240,
+        116640
+      ],
+      "irreducible": true,
+      "galois_group": [
+        8,
+        -1,
+        3,
+        "D(4)"
+      ],
+      "polynomial_discriminant": 531485763840
+    },
+    {
+      "tag": "r2_p1428586013_d4_1",
+      "polynomial": [
+        1,
+        120,
+        5214,
+        95741,
+        607836
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -349217876043
+    },
+    {
+      "tag": "r2_p1440133553_d4_0",
+      "polynomial": [
+        1,
+        114,
+        4753,
+        85452,
+        558016
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -4774810300416
+    },
+    {
+      "tag": "r2_p1478917823_d3_0",
+      "polynomial": [
+        1,
+        -20,
+        -2317,
+        -26488
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": 10017183204
+    },
+    {
+      "tag": "r2_p1532710759_d4_0",
+      "polynomial": [
+        1,
+        147,
+        8004,
+        191188,
+        1687968
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -687116535552
+    },
+    {
+      "tag": "r2_p1862482781_d3_0",
+      "polynomial": [
+        1,
+        -15,
+        -3136,
+        -45996
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": 28887935872
+    },
+    {
+      "tag": "r2_p1862482781_d4_1",
+      "polynomial": [
+        1,
+        111,
+        4196,
+        63396,
+        359640
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -5655635367823296
+    },
+    {
+      "tag": "r2_p2080022621_d3_0",
+      "polynomial": [
+        1,
+        187,
+        9104,
+        132770
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": -111555012
+    },
+    {
+      "tag": "r2_p2194988227_d4_0",
+      "polynomial": [
+        1,
+        105,
+        3819,
+        56903,
+        297012
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": 88721358220800
+    },
+    {
+      "tag": "r2_p2194988227_d4_1",
+      "polynomial": [
+        1,
+        108,
+        4223,
+        69528,
+        392772
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -14049799304640
+    },
+    {
+      "tag": "r2_p2197584787_d4_0",
+      "polynomial": [
+        1,
+        54,
+        940,
+        5466,
+        6883
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -3368281964544
+    },
+    {
+      "tag": "r2_p3354019703_d4_0",
+      "polynomial": [
+        1,
+        136,
+        6527,
+        130196,
+        906876
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": 2266768827654912
+    },
+    {
+      "tag": "r2_p3732899699_d4_0",
+      "polynomial": [
+        1,
+        106,
+        3883,
+        58938,
+        309456
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -232630819384176
+    },
+    {
+      "tag": "r2_p3836617441_d3_0",
+      "polynomial": [
+        1,
+        163,
+        8010,
+        121176
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": 1190254500
+    },
+    {
+      "tag": "r2_p3920044319_d3_0",
+      "polynomial": [
+        1,
+        28,
+        -1061,
+        -27288
+      ],
+      "irreducible": true,
+      "galois_group": [
+        6,
+        -1,
+        2,
+        "S3"
+      ],
+      "polynomial_discriminant": 2543180676
+    },
+    {
+      "tag": "r2_p4283876587_d4_0",
+      "polynomial": [
+        1,
+        76,
+        2041,
+        21726,
+        73920
+      ],
+      "irreducible": true,
+      "galois_group": [
+        24,
+        -1,
+        5,
+        "S4"
+      ],
+      "polynomial_discriminant": -114588023967936
+    }
+  ]
+}

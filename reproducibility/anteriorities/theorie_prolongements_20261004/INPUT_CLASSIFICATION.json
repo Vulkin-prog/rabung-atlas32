@@ -1,0 +1,666 @@
+[
+  {
+    "p": 500177861,
+    "r": 2,
+    "M": 52,
+    "witness": 3145419,
+    "phase": 500177860,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      97564229,
+      1,
+      128,
+      -97564229,
+      -97557701
+    ],
+    "cubic_relations": [
+      {
+        "positions": [
+          6,
+          34,
+          50
+        ],
+        "target": 32,
+        "coefficient": 73,
+        "polynomial": [
+          1,
+          90,
+          2131,
+          7864
+        ],
+        "coefficient_character": 1
+      },
+      {
+        "positions": [
+          24,
+          28,
+          32
+        ],
+        "target": 34,
+        "coefficient": -67,
+        "polynomial": [
+          1,
+          84,
+          2403,
+          23782
+        ],
+        "coefficient_character": 1
+      }
+    ]
+  },
+  {
+    "p": 1065972469,
+    "r": 4,
+    "M": 28,
+    "witness": 89261921,
+    "phase": 1065972468,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      5170907,
+      1,
+      12,
+      5170583,
+      5170907
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 1583868241,
+    "r": 4,
+    "M": 28,
+    "witness": 277099290,
+    "phase": 55005470,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      3106087,
+      7,
+      40,
+      -3106087,
+      -3105007
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 1657464163,
+    "r": 2,
+    "M": 53,
+    "witness": 236578613,
+    "phase": 1657464162,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      1413872,
+      1,
+      7,
+      -1413872,
+      -1413508
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 1696623701,
+    "r": 2,
+    "M": 53,
+    "witness": 638241123,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      6716334,
+      41,
+      109,
+      6710666,
+      6716334
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 1779238511,
+    "r": 2,
+    "M": 53,
+    "witness": 367276933,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      8349412,
+      13,
+      63,
+      8346136,
+      8349412
+    ],
+    "cubic_relations": [
+      {
+        "positions": [
+          1,
+          41,
+          44
+        ],
+        "target": 49,
+        "coefficient": 75,
+        "polynomial": [
+          1,
+          86,
+          1814,
+          -1871
+        ],
+        "coefficient_character": 1
+      }
+    ]
+  },
+  {
+    "p": 1834842341,
+    "r": 2,
+    "M": 52,
+    "witness": 237152251,
+    "phase": 1834842340,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      12351998,
+      4,
+      31,
+      12350417,
+      12351998
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2088598739,
+    "r": 2,
+    "M": 52,
+    "witness": 710125081,
+    "phase": 2088598738,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      78037,
+      17,
+      50,
+      75487,
+      78037
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2265768629,
+    "r": 2,
+    "M": 52,
+    "witness": 774443740,
+    "phase": 2265768628,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      5306506,
+      27,
+      79,
+      5302477,
+      5306506
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2400748661,
+    "r": 4,
+    "M": 28,
+    "witness": 305768270,
+    "phase": 426618384,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      12015708,
+      7,
+      55,
+      12014223,
+      12015708
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2453400749,
+    "r": 4,
+    "M": 28,
+    "witness": 87191394,
+    "phase": 1,
+    "larger_quadratics": [
+      [
+        101,
+        130772,
+        -512887
+      ]
+    ],
+    "nearest_fraction": [
+      12041717,
+      1,
+      28,
+      -12041717,
+      -12040961
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2568588571,
+    "r": 2,
+    "M": 52,
+    "witness": 567459014,
+    "phase": 2568588570,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      1707645,
+      19,
+      86,
+      -1707645,
+      -1703259
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2588121931,
+    "r": 2,
+    "M": 52,
+    "witness": 607093980,
+    "phase": 2588121930,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      299822,
+      19,
+      81,
+      295691,
+      299822
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2654052683,
+    "r": 2,
+    "M": 52,
+    "witness": 838212191,
+    "phase": 2654052682,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      1716500,
+      6,
+      19,
+      1715531,
+      1716500
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2789197129,
+    "r": 4,
+    "M": 29,
+    "witness": 332093213,
+    "phase": 1315640064,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      1930477,
+      5,
+      42,
+      1929301,
+      1930477
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2826391597,
+    "r": 2,
+    "M": 52,
+    "witness": 688246520,
+    "phase": 2826391596,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      9390949,
+      28,
+      115,
+      9385084,
+      9390949
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 2940141229,
+    "r": 4,
+    "M": 28,
+    "witness": 390499731,
+    "phase": 2940141228,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      1568131,
+      17,
+      128,
+      1564675,
+      1568131
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3173249399,
+    "r": 2,
+    "M": 52,
+    "witness": 1241029932,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      15556155,
+      9,
+      23,
+      -15556155,
+      -15554982
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3185590523,
+    "r": 2,
+    "M": 54,
+    "witness": 1507038282,
+    "phase": 3185590522,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      11422786,
+      44,
+      93,
+      -11422786,
+      -11417857
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3242270989,
+    "r": 2,
+    "M": 52,
+    "witness": 1012602738,
+    "phase": 3242270988,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      9711137,
+      5,
+      16,
+      -9711137,
+      -9710321
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3294072869,
+    "r": 2,
+    "M": 53,
+    "witness": 373968514,
+    "phase": 3294072868,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      15749729,
+      5,
+      44,
+      -15749729,
+      -15747441
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3318080401,
+    "r": 4,
+    "M": 29,
+    "witness": 1181984629,
+    "phase": 3318080400,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      14789535,
+      26,
+      73,
+      14787491,
+      14789535
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3481399781,
+    "r": 2,
+    "M": 52,
+    "witness": 464942737,
+    "phase": 3481399780,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      11342258,
+      2,
+      15,
+      11341493,
+      11342258
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3562649873,
+    "r": 2,
+    "M": 53,
+    "witness": 1514276917,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      6030919,
+      17,
+      40,
+      6028839,
+      6030919
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3696971783,
+    "r": 2,
+    "M": 55,
+    "witness": 1623112765,
+    "phase": 3696971782,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      2133485,
+      18,
+      41,
+      2131271,
+      2133485
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3714153019,
+    "r": 2,
+    "M": 52,
+    "witness": 1443349490,
+    "phase": 3714153018,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      18780313,
+      7,
+      18,
+      -18780313,
+      -18779395
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3720425861,
+    "r": 2,
+    "M": 52,
+    "witness": 1819505478,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      24659769,
+      45,
+      92,
+      -24659769,
+      -24655077
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 3832210429,
+    "r": 4,
+    "M": 28,
+    "witness": 1400981215,
+    "phase": 2840133894,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      3901591,
+      34,
+      93,
+      -3901591,
+      -3899080
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4004429239,
+    "r": 2,
+    "M": 52,
+    "witness": 357897704,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      20128085,
+      5,
+      56,
+      20125229,
+      20128085
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4020098809,
+    "r": 2,
+    "M": 52,
+    "witness": 68772330,
+    "phase": 4020098808,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      6170959,
+      2,
+      117,
+      6164992,
+      6170959
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4057853027,
+    "r": 2,
+    "M": 52,
+    "witness": 1152094873,
+    "phase": 4057853026,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      10934908,
+      23,
+      81,
+      -10934908,
+      -10930777
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4061612663,
+    "r": 2,
+    "M": 53,
+    "witness": 703292571,
+    "phase": 4061612662,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      16702429,
+      9,
+      52,
+      16699725,
+      16702429
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4100195963,
+    "r": 2,
+    "M": 53,
+    "witness": 282267571,
+    "phase": 4100195962,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      14632367,
+      2,
+      29,
+      -14632367,
+      -14630859
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4102589303,
+    "r": 2,
+    "M": 53,
+    "witness": 1063148142,
+    "phase": 1,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      13125287,
+      7,
+      27,
+      -13125287,
+      -13123883
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4127975503,
+    "r": 2,
+    "M": 52,
+    "witness": 1092589916,
+    "phase": 4127975502,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      3722383,
+      9,
+      34,
+      -3722383,
+      -3720649
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4129372337,
+    "r": 4,
+    "M": 28,
+    "witness": 792434815,
+    "phase": 884240500,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      7027718,
+      19,
+      99,
+      -7027718,
+      -7025045
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4263778579,
+    "r": 2,
+    "M": 52,
+    "witness": 2125510391,
+    "phase": 4263778578,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      12757797,
+      1,
+      2,
+      -12757797,
+      -12757695
+    ],
+    "cubic_relations": []
+  },
+  {
+    "p": 4277010487,
+    "r": 2,
+    "M": 52,
+    "witness": 1010499738,
+    "phase": 4277010486,
+    "larger_quadratics": [],
+    "nearest_fraction": [
+      23158593,
+      30,
+      127,
+      23152116,
+      23158593
+    ],
+    "cubic_relations": []
+  }
+]

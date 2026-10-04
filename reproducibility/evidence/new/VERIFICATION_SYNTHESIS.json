@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "multi_root_certificates": 10,
+  "fourth_power_identities": 445,
+  "checked_character_values": 808064,
+  "norm_integer_square_identities": 35,
+  "norms": {
+    "cubic": {
+      "common_dimension": 8,
+      "single_quotient_dimension": 43,
+      "higher_norm_relations": 16,
+      "short_weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    "quartic": {
+      "common_dimension": 3,
+      "single_quotient_dimension": 41,
+      "higher_norm_relations": 8,
+      "short_weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ]
+    }
+  },
+  "local_code": {
+    "dimension": 41,
+    "relations": 12,
+    "dual_minimum_distance": 4,
+    "checked_maximum_thresholds": 54,
+    "monochromatic_enhancement": 4096
+  },
+  "residual_models_with_full_character_group": 100,
+  "density_laws": {
+    "order_four_density_laws": 16,
+    "quadratic_phase_pair_laws": 3,
+    "dihedral_reflected_length": 63
+  },
+  "small_arithmetic_checks": {
+    "residual_local_context": "PASS",
+    "direct_A4_and_elliptic_checks": 53,
+    "small_prime_maximum": 257
+  },
+  "seconds": 42.860836412990466,
+  "requirements": "Standard Python library only; previous sealed proof bundle."
+}

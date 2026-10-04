@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "interval": [
+    970000000,
+    2000000000
+  ],
+  "primes": 48823489,
+  "windows": 499,
+  "all_window_histograms_equal": true,
+  "all_global_histograms_equal": true,
+  "all_M_ge_63_coalesced_as_in_old_archive": true,
+  "original_target_semantics": "A only; no AB comparison",
+  "old_per_prime_data_absent": true,
+  "seconds": 6.21237
+}

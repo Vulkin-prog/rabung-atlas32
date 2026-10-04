@@ -1,0 +1,15 @@
+default(parisizemax,1024000000);
+default(parisize,128000000);
+setrand(1);
+run()={my(P=(1)*x^3+(-197)*x^2+(-9264)*x^1+(-90252)*x^0,C,raw,red,fp,nf,fac,roots,R);
+ C=polcompositum(P,P,1);print("STAGE compositum ",vector(#C,i,poldegree(C[i][1])));
+ for(i=1,#C,if(poldegree(C[i][1])==6,raw=C[i];break));
+ red=polredbest(raw[1],1);fp=subst(red[1],x,y);
+ print("STAGE reduced ",poldegree(fp));nf=nfinit(fp);
+ roots=vector(2,i,subst(subst(lift(raw[i+1]),x,red[2]),x,y));
+ print("FIELD ",vector(poldegree(fp)+1,i,Str(polcoef(fp,i-1))));
+ print("ROOTS ",vector(2,i,vector(poldegree(fp),j,Str(polcoef(lift(roots[i]),j-1)))));
+ print("DISCRIMINANT ",poldisc(P));print("DISCRIMINANT_CORE ",core(poldisc(P)));
+ fac=nffactor(nf,P);print("FACTORS ",vector(matsize(fac)[1],i,Str(fac[i,1])));
+ print("END 1");};
+iferr(run(),err,print("ERROR ",err);quit(1));quit;

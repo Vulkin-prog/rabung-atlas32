@@ -1,0 +1,4741 @@
+{
+  "p": 2940141229,
+  "r": 4,
+  "M": 28,
+  "witness": 390499731,
+  "phase": 2940141228,
+  "status": "BOUNDED_LLL_CANDIDATE_SEARCH",
+  "configurations": [
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      4
+    ],
+    [
+      2,
+      0,
+      14
+    ],
+    [
+      2,
+      0,
+      28
+    ],
+    [
+      2,
+      14,
+      1
+    ],
+    [
+      2,
+      14,
+      4
+    ],
+    [
+      2,
+      14,
+      14
+    ],
+    [
+      2,
+      14,
+      28
+    ],
+    [
+      3,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      4
+    ],
+    [
+      3,
+      0,
+      14
+    ],
+    [
+      3,
+      0,
+      28
+    ],
+    [
+      3,
+      14,
+      1
+    ],
+    [
+      3,
+      14,
+      4
+    ],
+    [
+      3,
+      14,
+      14
+    ],
+    [
+      3,
+      14,
+      28
+    ],
+    [
+      4,
+      0,
+      1
+    ],
+    [
+      4,
+      0,
+      4
+    ],
+    [
+      4,
+      0,
+      14
+    ],
+    [
+      4,
+      0,
+      28
+    ],
+    [
+      4,
+      14,
+      1
+    ],
+    [
+      4,
+      14,
+      4
+    ],
+    [
+      4,
+      14,
+      14
+    ],
+    [
+      4,
+      14,
+      28
+    ],
+    [
+      5,
+      0,
+      1
+    ],
+    [
+      5,
+      0,
+      4
+    ],
+    [
+      5,
+      0,
+      14
+    ],
+    [
+      5,
+      0,
+      28
+    ],
+    [
+      5,
+      14,
+      1
+    ],
+    [
+      5,
+      14,
+      4
+    ],
+    [
+      5,
+      14,
+      14
+    ],
+    [
+      5,
+      14,
+      28
+    ],
+    [
+      6,
+      0,
+      1
+    ],
+    [
+      6,
+      0,
+      4
+    ],
+    [
+      6,
+      0,
+      14
+    ],
+    [
+      6,
+      0,
+      28
+    ],
+    [
+      6,
+      14,
+      1
+    ],
+    [
+      6,
+      14,
+      4
+    ],
+    [
+      6,
+      14,
+      14
+    ],
+    [
+      6,
+      14,
+      28
+    ]
+  ],
+  "coefficient_combinations_per_basis": "-2..2, up to sign",
+  "probes": 390480,
+  "distinct_polynomials": 303842,
+  "factored_best_per_degree": 40,
+  "irreducible_root_factors": [
+    {
+      "polynomial": [
+        19,
+        1555,
+        15087
+      ],
+      "degree": 2,
+      "window_norm_height": 15087,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        68,
+        1022,
+        -20273
+      ],
+      "degree": 2,
+      "window_norm_height": 24097,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        87,
+        2577,
+        -5186
+      ],
+      "degree": 2,
+      "window_norm_height": 24266,
+      "config": [
+        2,
+        0,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        206,
+        5301,
+        8689
+      ],
+      "degree": 2,
+      "window_norm_height": 25410,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        119,
+        2724,
+        13875
+      ],
+      "degree": 2,
+      "window_norm_height": 27078,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        225,
+        6856,
+        23776
+      ],
+      "degree": 2,
+      "window_norm_height": 28439,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        187,
+        3746,
+        -6398
+      ],
+      "degree": 2,
+      "window_norm_height": 28783,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        138,
+        4279,
+        28962
+      ],
+      "degree": 2,
+      "window_norm_height": 28962,
+      "config": [
+        2,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        106,
+        4132,
+        9901
+      ],
+      "degree": 2,
+      "window_norm_height": 30341,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        51,
+        1702,
+        34148
+      ],
+      "degree": 2,
+      "window_norm_height": 34148,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        49,
+        -533,
+        -35360
+      ],
+      "degree": 2,
+      "window_norm_height": 35360,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        32,
+        147,
+        19061
+      ],
+      "degree": 2,
+      "window_norm_height": 38420,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        100,
+        1169,
+        -1212
+      ],
+      "degree": 2,
+      "window_norm_height": 40125,
+      "config": [
+        2,
+        0,
+        1
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        168,
+        2191,
+        -21485
+      ],
+      "degree": 2,
+      "window_norm_height": 41830,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        257,
+        7003,
+        42837
+      ],
+      "degree": 2,
+      "window_norm_height": 42837,
+      "config": [
+        2,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        157,
+        5834,
+        44049
+      ],
+      "degree": 2,
+      "window_norm_height": 44049,
+      "config": [
+        2,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        36,
+        875,
+        -39334
+      ],
+      "degree": 2,
+      "window_norm_height": 44650,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        2,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        155,
+        3599,
+        -25459
+      ],
+      "degree": 2,
+      "window_norm_height": 46327,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        70,
+        3257,
+        49235
+      ],
+      "degree": 2,
+      "window_norm_height": 49235,
+      "config": [
+        2,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        30,
+        -2088,
+        -50447
+      ],
+      "degree": 2,
+      "window_norm_height": 50447,
+      "config": [
+        2,
+        0,
+        28
+      ],
+      "basis_combination": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        55,
+        2430,
+        -24247
+      ],
+      "degree": 2,
+      "window_norm_height": 51087,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        13,
+        -1408,
+        3974
+      ],
+      "degree": 2,
+      "window_norm_height": 51467,
+      "config": [
+        2,
+        0,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        170,
+        4426,
+        48023
+      ],
+      "degree": 2,
+      "window_norm_height": 52451,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        81,
+        -386,
+        -16299
+      ],
+      "degree": 2,
+      "window_norm_height": 53172,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        17,
+        -680,
+        -54421
+      ],
+      "degree": 2,
+      "window_norm_height": 54421,
+      "config": [
+        2,
+        0,
+        28
+      ],
+      "basis_combination": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        149,
+        636,
+        -36572
+      ],
+      "degree": 2,
+      "window_norm_height": 54877,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        2,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        117,
+        489,
+        -55633
+      ],
+      "degree": 2,
+      "window_norm_height": 56143,
+      "config": [
+        2,
+        0,
+        28
+      ],
+      "basis_combination": [
+        1,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        74,
+        3985,
+        -9160
+      ],
+      "degree": 2,
+      "window_norm_height": 62809,
+      "config": [
+        2,
+        14,
+        28
+      ],
+      "basis_combination": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        189,
+        5981,
+        63110
+      ],
+      "degree": 2,
+      "window_norm_height": 63110,
+      "config": [
+        2,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        83,
+        1849,
+        53209
+      ],
+      "degree": 2,
+      "window_norm_height": 63793,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        89,
+        4812,
+        64322
+      ],
+      "degree": 2,
+      "window_norm_height": 64322,
+      "config": [
+        2,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        6,
+        2963,
+        11113
+      ],
+      "degree": 2,
+      "window_norm_height": 64514,
+      "config": [
+        2,
+        0,
+        4
+      ],
+      "basis_combination": [
+        2,
+        2,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        151,
+        2871,
+        32936
+      ],
+      "degree": 2,
+      "window_norm_height": 65498,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        11,
+        -3643,
+        -65534
+      ],
+      "degree": 2,
+      "window_norm_height": 65534,
+      "config": [
+        2,
+        0,
+        28
+      ],
+      "basis_combination": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        62,
+        -1941,
+        -31386
+      ],
+      "degree": 2,
+      "window_norm_height": 66219,
+      "config": [
+        2,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        219,
+        3893,
+        12663
+      ],
+      "degree": 2,
+      "window_norm_height": 67203,
+      "config": [
+        2,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        130,
+        -919,
+        -51659
+      ],
+      "degree": 2,
+      "window_norm_height": 67924,
+      "config": [
+        2,
+        0,
+        28
+      ],
+      "basis_combination": [
+        1,
+        0,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        376,
+        9727,
+        56712
+      ],
+      "degree": 2,
+      "window_norm_height": 68187,
+      "config": [
+        2,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        104,
+        1897,
+        -59607
+      ],
+      "degree": 2,
+      "window_norm_height": 68256,
+      "config": [
+        2,
+        0,
+        28
+      ],
+      "basis_combination": [
+        1,
+        2,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        123,
+        3452,
+        -44520
+      ],
+      "degree": 2,
+      "window_norm_height": 68740,
+      "config": [
+        2,
+        14,
+        28
+      ],
+      "basis_combination": [
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        78,
+        891,
+        -5289
+      ],
+      "degree": 3,
+      "window_norm_height": 8047,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        3,
+        47,
+        -1073,
+        -9469
+      ],
+      "degree": 3,
+      "window_norm_height": 9469,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        97,
+        2446,
+        9798
+      ],
+      "degree": 3,
+      "window_norm_height": 9798,
+      "config": [
+        3,
+        0,
+        28
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        4,
+        144,
+        1373,
+        329
+      ],
+      "degree": 3,
+      "window_norm_height": 10498,
+      "config": [
+        3,
+        0,
+        4
+      ],
+      "basis_combination": [
+        2,
+        2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        10,
+        376,
+        3506,
+        10353
+      ],
+      "degree": 3,
+      "window_norm_height": 10885,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        11,
+        454,
+        4397,
+        5064
+      ],
+      "degree": 3,
+      "window_norm_height": 11070,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        5,
+        222,
+        2264,
+        -4960
+      ],
+      "degree": 3,
+      "window_norm_height": 11645,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        6,
+        232,
+        2133,
+        10024
+      ],
+      "degree": 3,
+      "window_norm_height": 12164,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        2,
+        -31,
+        -1964,
+        -4180
+      ],
+      "degree": 3,
+      "window_norm_height": 13117,
+      "config": [
+        3,
+        0,
+        28
+      ],
+      "basis_combination": [
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        2,
+        175,
+        3337,
+        4509
+      ],
+      "degree": 3,
+      "window_norm_height": 13791,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        7,
+        310,
+        3024,
+        4735
+      ],
+      "degree": 3,
+      "window_norm_height": 14004,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        2,
+        88,
+        760,
+        9695
+      ],
+      "degree": 3,
+      "window_norm_height": 14495,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        8,
+        407,
+        5470,
+        14533
+      ],
+      "degree": 3,
+      "window_norm_height": 14533,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        4,
+        125,
+        -182,
+        -14758
+      ],
+      "degree": 3,
+      "window_norm_height": 14758,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        12,
+        551,
+        6843,
+        14862
+      ],
+      "degree": 3,
+      "window_norm_height": 14862,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        9,
+        366,
+        3637,
+        -4631
+      ],
+      "degree": 3,
+      "window_norm_height": 15243,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        5,
+        154,
+        1242,
+        15313
+      ],
+      "degree": 3,
+      "window_norm_height": 15313,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        12,
+        532,
+        5288,
+        -225
+      ],
+      "degree": 3,
+      "window_norm_height": 15393,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        9,
+        298,
+        2615,
+        15642
+      ],
+      "degree": 3,
+      "window_norm_height": 15642,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        5,
+        241,
+        3819,
+        10127
+      ],
+      "degree": 3,
+      "window_norm_height": 15712,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        7,
+        191,
+        300,
+        -9140
+      ],
+      "degree": 3,
+      "window_norm_height": 15782,
+      "config": [
+        3,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        0,
+        -2,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        8,
+        269,
+        1191,
+        -14429
+      ],
+      "degree": 3,
+      "window_norm_height": 15799,
+      "config": [
+        3,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        10,
+        -131,
+        14984
+      ],
+      "degree": 3,
+      "window_norm_height": 16304,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        6,
+        319,
+        4710,
+        4838
+      ],
+      "degree": 3,
+      "window_norm_height": 16362,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        4,
+        263,
+        4097,
+        14204
+      ],
+      "degree": 3,
+      "window_norm_height": 16580,
+      "config": [
+        3,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        3,
+        66,
+        482,
+        5618
+      ],
+      "degree": 3,
+      "window_norm_height": 18331,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        10,
+        357,
+        1951,
+        -4734
+      ],
+      "degree": 3,
+      "window_norm_height": 19122,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        -41,
+        -1833,
+        -19164
+      ],
+      "degree": 3,
+      "window_norm_height": 19245,
+      "config": [
+        3,
+        0,
+        28
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        2,
+        -50,
+        -3519,
+        -19267
+      ],
+      "degree": 3,
+      "window_norm_height": 19267,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        8,
+        388,
+        3915,
+        -554
+      ],
+      "degree": 3,
+      "window_norm_height": 19336,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        10,
+        463,
+        6083,
+        5167
+      ],
+      "degree": 3,
+      "window_norm_height": 19367,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        9,
+        279,
+        1060,
+        555
+      ],
+      "degree": 3,
+      "window_norm_height": 19403,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        3,
+        185,
+        3206,
+        19493
+      ],
+      "degree": 3,
+      "window_norm_height": 19493,
+      "config": [
+        3,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        3,
+        134,
+        1504,
+        -14655
+      ],
+      "degree": 3,
+      "window_norm_height": 19647,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        1,
+        2,
+        -2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        6,
+        300,
+        3155,
+        -10249
+      ],
+      "degree": 3,
+      "window_norm_height": 19692,
+      "config": [
+        3,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        7,
+        329,
+        4579,
+        19822
+      ],
+      "degree": 3,
+      "window_norm_height": 19822,
+      "config": [
+        3,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        -128,
+        -4410,
+        -13978
+      ],
+      "degree": 3,
+      "window_norm_height": 19997,
+      "config": [
+        3,
+        14,
+        28
+      ],
+      "basis_combination": [
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        11,
+        473,
+        5952,
+        20151
+      ],
+      "degree": 3,
+      "window_norm_height": 20151,
+      "config": [
+        3,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        5,
+        135,
+        -313,
+        226
+      ],
+      "degree": 3,
+      "window_norm_height": 20613,
+      "config": [
+        3,
+        0,
+        1
+      ],
+      "basis_combination": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        4,
+        76,
+        351,
+        20602
+      ],
+      "degree": 3,
+      "window_norm_height": 20692,
+      "config": [
+        3,
+        0,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        57,
+        1079,
+        7387,
+        5802
+      ],
+      "degree": 4,
+      "window_norm_height": 10692,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        52,
+        857,
+        5123,
+        10762
+      ],
+      "degree": 4,
+      "window_norm_height": 10762,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        56,
+        1001,
+        6496,
+        11091
+      ],
+      "degree": 4,
+      "window_norm_height": 11091,
+      "config": [
+        4,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        2,
+        0,
+        2,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        56,
+        982,
+        4941,
+        -3996
+      ],
+      "degree": 4,
+      "window_norm_height": 11412,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        53,
+        935,
+        6014,
+        5473
+      ],
+      "degree": 4,
+      "window_norm_height": 12952,
+      "config": [
+        4,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        2,
+        2,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        61,
+        1223,
+        8760,
+        6131
+      ],
+      "degree": 4,
+      "window_norm_height": 14281,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        64,
+        1389,
+        10411,
+        10537
+      ],
+      "degree": 4,
+      "window_norm_height": 14453,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        0,
+        -1,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        60,
+        1126,
+        6314,
+        -3667
+      ],
+      "degree": 4,
+      "window_norm_height": 14491,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        46,
+        606,
+        1435,
+        -14349
+      ],
+      "degree": 4,
+      "window_norm_height": 15223,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        54,
+        1032,
+        8460,
+        15271
+      ],
+      "degree": 4,
+      "window_norm_height": 15271,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        62,
+        1214,
+        7074,
+        6028
+      ],
+      "degree": 4,
+      "window_norm_height": 15531,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -2,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        58,
+        1176,
+        9833,
+        15600
+      ],
+      "degree": 4,
+      "window_norm_height": 15600,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        48,
+        713,
+        3750,
+        10433
+      ],
+      "degree": 4,
+      "window_norm_height": 15617,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        63,
+        1311,
+        9520,
+        15826
+      ],
+      "degree": 4,
+      "window_norm_height": 15826,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        -1,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        42,
+        481,
+        1617,
+        409
+      ],
+      "degree": 4,
+      "window_norm_height": 15908,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        1,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        59,
+        1167,
+        8147,
+        15497
+      ],
+      "degree": 4,
+      "window_norm_height": 16415,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        60,
+        1145,
+        7869,
+        11420
+      ],
+      "degree": 4,
+      "window_norm_height": 16738,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        47,
+        703,
+        3881,
+        -4551
+      ],
+      "degree": 4,
+      "window_norm_height": 16971,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        50,
+        750,
+        2808,
+        -14020
+      ],
+      "degree": 4,
+      "window_norm_height": 17020,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        55,
+        1110,
+        9351,
+        9982
+      ],
+      "degree": 4,
+      "window_norm_height": 17850,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        2,
+        110,
+        2014,
+        13401,
+        11275
+      ],
+      "degree": 4,
+      "window_norm_height": 17880,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        62,
+        1320,
+        11206,
+        15929
+      ],
+      "degree": 4,
+      "window_norm_height": 18042,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        46,
+        625,
+        2990,
+        738
+      ],
+      "degree": 4,
+      "window_norm_height": 18094,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        52,
+        838,
+        3568,
+        -4325
+      ],
+      "degree": 4,
+      "window_norm_height": 18166,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        50,
+        888,
+        7087,
+        14942
+      ],
+      "degree": 4,
+      "window_norm_height": 18236,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        58,
+        1157,
+        8278,
+        513
+      ],
+      "degree": 4,
+      "window_norm_height": 18735,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        51,
+        847,
+        5254,
+        -4222
+      ],
+      "degree": 4,
+      "window_norm_height": 18859,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        63,
+        1292,
+        7965,
+        739
+      ],
+      "degree": 4,
+      "window_norm_height": 18964,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -2,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        57,
+        1060,
+        5832,
+        -9285
+      ],
+      "degree": 4,
+      "window_norm_height": 19045,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        48,
+        781,
+        4772,
+        -9840
+      ],
+      "degree": 4,
+      "window_norm_height": 19550,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        0,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        54,
+        894,
+        4181,
+        -13691
+      ],
+      "degree": 4,
+      "window_norm_height": 19565,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        43,
+        559,
+        2508,
+        -4880
+      ],
+      "degree": 4,
+      "window_norm_height": 19987,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        1,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        61,
+        1342,
+        11484,
+        20006
+      ],
+      "degree": 4,
+      "window_norm_height": 20006,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        49,
+        810,
+        6196,
+        20231
+      ],
+      "degree": 4,
+      "window_norm_height": 20231,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        65,
+        1486,
+        12857,
+        20335
+      ],
+      "degree": 4,
+      "window_norm_height": 20335,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        54,
+        945,
+        5883,
+        20457
+      ],
+      "degree": 4,
+      "window_norm_height": 20457,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        53,
+        954,
+        7569,
+        20560
+      ],
+      "degree": 4,
+      "window_norm_height": 20560,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -1,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        2,
+        107,
+        1967,
+        14474,
+        20744
+      ],
+      "degree": 4,
+      "window_norm_height": 20744,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        54,
+        1013,
+        6905,
+        184
+      ],
+      "degree": 4,
+      "window_norm_height": 20785,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        58,
+        1089,
+        7256,
+        20786
+      ],
+      "degree": 4,
+      "window_norm_height": 20786,
+      "config": [
+        4,
+        14,
+        14
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1767,
+        21748,
+        124389,
+        252460
+      ],
+      "degree": 5,
+      "window_norm_height": 252460,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1781,
+        22306,
+        132378,
+        293316
+      ],
+      "degree": 5,
+      "window_norm_height": 293316,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -2,
+        1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1722,
+        20982,
+        118397,
+        233770
+      ],
+      "degree": 5,
+      "window_norm_height": 303557,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1788,
+        22635,
+        136957,
+        313138
+      ],
+      "degree": 5,
+      "window_norm_height": 313138,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1792,
+        22779,
+        138330,
+        313467
+      ],
+      "degree": 5,
+      "window_norm_height": 313467,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        69,
+        1837,
+        23426,
+        141598,
+        318282
+      ],
+      "degree": 5,
+      "window_norm_height": 318282,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        2,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1736,
+        21659,
+        129110,
+        288501
+      ],
+      "degree": 5,
+      "window_norm_height": 320106,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1743,
+        21988,
+        133689,
+        308323
+      ],
+      "degree": 5,
+      "window_norm_height": 321857,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        1,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        56,
+        1120,
+        9220,
+        24966
+      ],
+      "degree": 4,
+      "window_norm_height": 324558,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        1,
+        2,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        66,
+        1666,
+        19862,
+        109177,
+        208804
+      ],
+      "degree": 5,
+      "window_norm_height": 325256,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        66,
+        1673,
+        20191,
+        113756,
+        228626
+      ],
+      "degree": 5,
+      "window_norm_height": 327007,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        1,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1799,
+        22989,
+        140185,
+        319414
+      ],
+      "degree": 5,
+      "window_norm_height": 327236,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        0,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        69,
+        1837,
+        23545,
+        144322,
+        332157
+      ],
+      "degree": 5,
+      "window_norm_height": 332157,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1795,
+        22964,
+        141536,
+        332960
+      ],
+      "degree": 5,
+      "window_norm_height": 332960,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        70,
+        1882,
+        24192,
+        147590,
+        336972
+      ],
+      "degree": 5,
+      "window_norm_height": 336972,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        2,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        69,
+        1844,
+        23755,
+        146177,
+        338104
+      ],
+      "degree": 5,
+      "window_norm_height": 338104,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        70,
+        1893,
+        24546,
+        150818,
+        343248
+      ],
+      "degree": 5,
+      "window_norm_height": 343248,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        0,
+        2,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1743,
+        21869,
+        130965,
+        294448
+      ],
+      "degree": 5,
+      "window_norm_height": 348935,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1750,
+        22198,
+        135544,
+        314270
+      ],
+      "degree": 5,
+      "window_norm_height": 350686,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1802,
+        23193,
+        144946,
+        353994
+      ],
+      "degree": 5,
+      "window_norm_height": 353994,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        2,
+        -1,
+        1,
+        -2,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        66,
+        1691,
+        21012,
+        125842,
+        283686
+      ],
+      "degree": 5,
+      "window_norm_height": 354054,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        2,
+        1,
+        0,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1806,
+        23337,
+        146319,
+        354323
+      ],
+      "degree": 5,
+      "window_norm_height": 354323,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        1,
+        -2,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        70,
+        1889,
+        24521,
+        152169,
+        356794
+      ],
+      "degree": 5,
+      "window_norm_height": 356794,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        1,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        65,
+        1621,
+        19215,
+        105909,
+        203989
+      ],
+      "degree": 5,
+      "window_norm_height": 359204,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        2,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1747,
+        22013,
+        132338,
+        294777
+      ],
+      "degree": 5,
+      "window_norm_height": 359433,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        0,
+        2,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        71,
+        1938,
+        25312,
+        156810,
+        361938
+      ],
+      "degree": 5,
+      "window_norm_height": 361938,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        2,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1750,
+        22217,
+        137099,
+        329357
+      ],
+      "degree": 5,
+      "window_norm_height": 363733,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        2,
+        -2,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        64,
+        1551,
+        17418,
+        85976,
+        124292
+      ],
+      "degree": 5,
+      "window_norm_height": 364354,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        2,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        66,
+        1677,
+        20216,
+        112405,
+        215080
+      ],
+      "degree": 5,
+      "window_norm_height": 364583,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        0,
+        2,
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1803,
+        23014,
+        138834,
+        305868
+      ],
+      "degree": 5,
+      "window_norm_height": 364812,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        2,
+        2,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1757,
+        22546,
+        141678,
+        349179
+      ],
+      "degree": 5,
+      "window_norm_height": 365484,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1806,
+        23456,
+        149043,
+        368198
+      ],
+      "degree": 5,
+      "window_norm_height": 368198,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        2,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        67,
+        1764,
+        22875,
+        146257,
+        369001
+      ],
+      "degree": 5,
+      "window_norm_height": 369001,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        66,
+        1687,
+        20749,
+        121745,
+        269482
+      ],
+      "degree": 5,
+      "window_norm_height": 370634,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -1,
+        0,
+        -2,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        68,
+        1813,
+        23547,
+        148174,
+        360270
+      ],
+      "degree": 5,
+      "window_norm_height": 370863,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        0,
+        1,
+        -1,
+        2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        66,
+        1694,
+        21078,
+        126324,
+        289304
+      ],
+      "degree": 5,
+      "window_norm_height": 372385,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        69,
+        1851,
+        24103,
+        152311,
+        373013
+      ],
+      "degree": 5,
+      "window_norm_height": 373013,
+      "config": [
+        5,
+        14,
+        4
+      ],
+      "basis_combination": [
+        0,
+        2,
+        -2,
+        1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        84,
+        2815,
+        47882,
+        429308,
+        1855669,
+        2729819
+      ],
+      "degree": 6,
+      "window_norm_height": 2729819,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        2,
+        1,
+        -2,
+        1,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        79,
+        2472,
+        38437,
+        298830,
+        951505,
+        215744
+      ],
+      "degree": 6,
+      "window_norm_height": 3395696,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        2,
+        2,
+        -1,
+        -2,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        85,
+        2889,
+        50058,
+        461108,
+        2086701,
+        3397473
+      ],
+      "degree": 6,
+      "window_norm_height": 3397473,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        2,
+        1,
+        -1,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2653,
+        44707,
+        404157,
+        1816419,
+        3007713
+      ],
+      "degree": 6,
+      "window_norm_height": 3698967,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        0,
+        0,
+        2,
+        -2,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2654,
+        44717,
+        403359,
+        1799130,
+        2910994
+      ],
+      "degree": 6,
+      "window_norm_height": 3821920,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -1,
+        2,
+        2,
+        0,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        80,
+        2579,
+        42531,
+        372357,
+        1585387,
+        2340059
+      ],
+      "degree": 6,
+      "window_norm_height": 3939458,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        0,
+        0,
+        1,
+        -1,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        83,
+        2791,
+        48505,
+        456205,
+        2171153,
+        3968476
+      ],
+      "degree": 6,
+      "window_norm_height": 3968476,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        0,
+        0,
+        -2,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2662,
+        45170,
+        413025,
+        1891248,
+        3241883
+      ],
+      "degree": 6,
+      "window_norm_height": 4047266,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        0,
+        1,
+        1,
+        0,
+        -2,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        86,
+        2963,
+        52234,
+        492908,
+        2317733,
+        4065127
+      ],
+      "degree": 6,
+      "window_norm_height": 4065127,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        0,
+        2,
+        1,
+        0,
+        -1,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2670,
+        45623,
+        422691,
+        1983366,
+        3572772
+      ],
+      "degree": 6,
+      "window_norm_height": 4272612,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        1,
+        1,
+        2,
+        -2,
+        -2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        80,
+        2588,
+        42994,
+        381225,
+        1660216,
+        2574229
+      ],
+      "degree": 6,
+      "window_norm_height": 4287757,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        1,
+        1,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        83,
+        2799,
+        48958,
+        465871,
+        2263271,
+        4299365
+      ],
+      "degree": 6,
+      "window_norm_height": 4299365,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        2,
+        0,
+        2,
+        2,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        83,
+        2802,
+        49104,
+        468523,
+        2284475,
+        4361711
+      ],
+      "degree": 6,
+      "window_norm_height": 4361711,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        0,
+        1,
+        -2,
+        -2,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2671,
+        45633,
+        421893,
+        1966077,
+        3476053
+      ],
+      "degree": 6,
+      "window_norm_height": 4395565,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -2,
+        2,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        79,
+        2514,
+        40818,
+        349425,
+        1429184,
+        1906575
+      ],
+      "degree": 6,
+      "window_norm_height": 4528248,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        1,
+        1,
+        -2,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2679,
+        46086,
+        431559,
+        2058195,
+        3806942
+      ],
+      "degree": 6,
+      "window_norm_height": 4620911,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        2,
+        2,
+        0,
+        -2,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        84,
+        2865,
+        50681,
+        488005,
+        2402185,
+        4636130
+      ],
+      "degree": 6,
+      "window_norm_height": 4636130,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        0,
+        -1,
+        -1,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        87,
+        3037,
+        54410,
+        524708,
+        2548765,
+        4732781
+      ],
+      "degree": 6,
+      "window_norm_height": 4732781,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        -1,
+        2,
+        2,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        79,
+        2522,
+        41236,
+        357527,
+        1498021,
+        2122055
+      ],
+      "degree": 6,
+      "window_norm_height": 4815521,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        -2,
+        2,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2695,
+        47088,
+        454752,
+        2294098,
+        4698544
+      ],
+      "degree": 6,
+      "window_norm_height": 4831519,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -1,
+        -1,
+        1,
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        80,
+        2605,
+        43910,
+        399759,
+        1827163,
+        3139288
+      ],
+      "degree": 6,
+      "window_norm_height": 4861402,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        2,
+        2,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        77,
+        2365,
+        36421,
+        285059,
+        961128,
+        552577
+      ],
+      "degree": 6,
+      "window_norm_height": 4948204,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        1,
+        0,
+        2,
+        0,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        78,
+        2448,
+        39060,
+        325727,
+        1266989,
+        1454401
+      ],
+      "degree": 6,
+      "window_norm_height": 5056012,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        -2,
+        -1,
+        -1,
+        1,
+        1,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        77,
+        2366,
+        36431,
+        284261,
+        943839,
+        455858
+      ],
+      "degree": 6,
+      "window_norm_height": 5071157,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        2,
+        0,
+        0,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        80,
+        2621,
+        44912,
+        422952,
+        2063066,
+        4030890
+      ],
+      "degree": 6,
+      "window_norm_height": 5072010,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        -1,
+        -1,
+        0,
+        1,
+        -1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        85,
+        2931,
+        52439,
+        511703,
+        2564380,
+        5088304
+      ],
+      "degree": 6,
+      "window_norm_height": 5088304,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        1,
+        0,
+        -2,
+        2,
+        -1,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2704,
+        47551,
+        463620,
+        2368927,
+        4932714
+      ],
+      "degree": 6,
+      "window_norm_height": 5179818,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        88,
+        3103,
+        56168,
+        548406,
+        2710960,
+        5184955
+      ],
+      "degree": 6,
+      "window_norm_height": 5184955,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        1,
+        1,
+        -2,
+        -1,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        76,
+        2291,
+        34245,
+        253259,
+        730096,
+        -115077
+      ],
+      "degree": 6,
+      "window_norm_height": 5188695,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        1,
+        0,
+        1,
+        1,
+        -2,
+        2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        77,
+        2374,
+        36884,
+        293927,
+        1035957,
+        786747
+      ],
+      "degree": 6,
+      "window_norm_height": 5296503,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        0,
+        2,
+        1,
+        0,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        82,
+        2769,
+        49264,
+        486552,
+        2525130,
+        5366198
+      ],
+      "degree": 6,
+      "window_norm_height": 5366198,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        0,
+        1,
+        1,
+        -2,
+        1,
+        1,
+        -2
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2712,
+        48004,
+        473286,
+        2461045,
+        5263603
+      ],
+      "degree": 6,
+      "window_norm_height": 5405164,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        80,
+        2630,
+        45375,
+        431820,
+        2137895,
+        4265060
+      ],
+      "degree": 6,
+      "window_norm_height": 5420309,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        0,
+        0,
+        -2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        77,
+        2382,
+        37337,
+        303593,
+        1128075,
+        1117636
+      ],
+      "degree": 6,
+      "window_norm_height": 5521849,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        2,
+        2,
+        1,
+        2,
+        0,
+        -2,
+        0
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        76,
+        2300,
+        34708,
+        262127,
+        804925,
+        119093
+      ],
+      "degree": 6,
+      "window_norm_height": 5536994,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        2,
+        1,
+        -1,
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2718,
+        48325,
+        479527,
+        2513319,
+        5421881
+      ],
+      "degree": 6,
+      "window_norm_height": 5572136,
+      "config": [
+        6,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -2,
+        -2,
+        -1,
+        -2,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2719,
+        48395,
+        481324,
+        2533252,
+        5501578
+      ],
+      "degree": 6,
+      "window_norm_height": 5577286,
+      "config": [
+        6,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -2,
+        -2,
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2720,
+        48465,
+        483121,
+        2553185,
+        5581275
+      ],
+      "degree": 6,
+      "window_norm_height": 5582436,
+      "config": [
+        6,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -2,
+        -2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        82,
+        2778,
+        49727,
+        495420,
+        2599959,
+        5600368
+      ],
+      "degree": 6,
+      "window_norm_height": 5600368,
+      "config": [
+        6,
+        14,
+        1
+      ],
+      "basis_combination": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        -1
+      ]
+    },
+    {
+      "polynomial": [
+        1,
+        81,
+        2720,
+        48447,
+        482300,
+        2541099,
+        5526215
+      ],
+      "degree": 6,
+      "window_norm_height": 5609483,
+      "config": [
+        6,
+        14,
+        4
+      ],
+      "basis_combination": [
+        2,
+        -2,
+        -1,
+        -2,
+        -1,
+        -2,
+        1
+      ]
+    }
+  ],
+  "gp_seconds": 0.010641360015142709
+}

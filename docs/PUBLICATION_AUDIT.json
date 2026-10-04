@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "tracked_files_before_audit_record": 1093,
+  "bytes_before_audit_record": 132492193,
+  "text_files_audited": 1078,
+  "compressed_JSON_files_audited_after_decompression": 6,
+  "derived_SQLite_block_and_audit_rows_inspected": 106039,
+  "pdf_text_metadata_and_attachments_inspected": true,
+  "unexpected_private_path_or_secret_findings": [],
+  "excluded_received_reviews": true,
+  "excluded_host_health_and_command_histories": true,
+  "original_scientific_packs_byte_identical_and_all_hashes_checked": true,
+  "publication_indices_rebuilt_and_scientific_columns_compared": true,
+  "intended_repository_visibility": "PRIVATE",
+  "license_state": "Rights reserved; owner selection pending",
+  "author_name_in_paper_is_intentionally_retained": "Brice Pouly",
+  "public_GitHub_account_and_repository_identifiers_intentionally_retained": true,
+  "scope": "Curated publication content; automated content audit does not determine legal ownership or novelty"
+}

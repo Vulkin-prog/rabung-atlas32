@@ -1,0 +1,17 @@
+default(parisize,128000000);default(parisizemax,512000000);default(realprecision,64);setrand(1);
+run()={my(P=(1)*x^3+(187)*x^2+(9104)*x^1+(132770)*x^0,r=2,m=52,qs=[2, 3, 5, 7, 11, 17, 19, 43, 47, 53, 71, 73, 79, 83, 107, 127, 137, 163, 223, 281, 283, 419, 563, 653, 683, 1093, 1259, 1433, 1483, 1747, 1801, 2179, 2357, 3407, 3491, 5147, 8017, 10321, 11827, 16547, 42331],bn,S,U,E,h,units,xx,q=1000000,roots,logs,k=0,D);
+ gettime();if(!polisirreducible(P),error("reducible"));bn=bnfinit(P,1);
+ S=concat(vector(#qs,j,idealprimedec(bn,qs[j])));U=bnfunits(bn,S);
+ E=Mat(vector(m,j,bnfisunit(bn,Mod(x+j-1,P),U)));h=#U[1];if(matsize(E)[1]!=h,error("decomposition"));
+ units=vector(h,i,nffactorback(bn,U[1][i]));
+ for(j=1,m,if(nffactorback(bn,units,E[,j])!=nfalgtobasis(bn,Mod(x+j-1,P)),error("explicit equality")));
+ if(nfeltpow(bn,units[h],bn.tu[1])!=nfalgtobasis(bn,1),error("torsion equality"));
+ print("RESULT ",[r,m,poldegree(P),bn.tu[1],h,nfdisc(P)]);print("MATRIX ",vector(h,i,vector(m,j,E[i,j])));
+ print("UNITS ",vector(h,i,xx=lift(nfbasistoalg(bn,units[i]));vector(poldegree(P),j,Str(polcoef(xx,j-1)))));
+ print("EXPLICIT_DECOMPOSITIONS 1");D=poldisc(P);
+ while(k<96,q=nextprime(q+1);if(q>=2^32,error("auxiliary range"));if(D%q==0,next);roots=lift(polrootsmod(P,q));if(!#roots,next);xx=roots[1];if(prod(j=0,m-1,Mod(xx+j,q))==0,next);
+ logs=vector(m,j,my(v=lift(Mod(xx+j-1,q)^((q-1)/2)));if(v==0,error("zero character"));if(v==1,0,1));
+ print("SAMPLE ",[q,xx,logs]);k++);
+ print("MILLISECONDS ",gettime());
+};
+iferr(run(),err,print("ERROR ",err);quit(1));quit;
