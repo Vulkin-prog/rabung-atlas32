@@ -1,36 +1,59 @@
-name: Bounded reproduction
+# Isolated operational branch only. Do not merge this replacement into main.
+name: Isolated CPU export - ternary million
 
 on:
   push:
-  pull_request:
-  workflow_dispatch:
+    branches: [research/ternary-cpu-export-20261005]
 
 permissions:
   contents: read
 
+concurrency:
+  group: isolated-ternary-cpu-export
+  cancel-in-progress: false
+
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PYTHONUNBUFFERED: '1'
+
 jobs:
-  exact-checks:
+  export:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # official v4
-      - name: Check sample data and reject damaged frames
+      - name: Read the isolated branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            data/ternary-million
+            research/cpu_export
+      - name: Check immutable scientific inputs
+        shell: bash
         run: |
-          python3 -B scripts/verify_atlas.py
-          python3 -B -m unittest discover -s tests
-      - name: Verify the fixed million ternary profiles and long-run positions
-        run: python3 -B scripts/verify_ternary.py
-      - name: Verify mathematical certificates
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = 452907920dc623d4d1e6ae7675428fe02ed840c4
+          git diff --exit-code HEAD^ HEAD -- data scripts
+          mkdir -p "$RUNNER_TEMP/ternary-export"
+          git rev-parse HEAD > "$RUNNER_TEMP/ternary-export/WORKFLOW_COMMIT.txt"
+          cp research/cpu_export/export_compact.py "$RUNNER_TEMP/ternary-export/export_compact.py"
+      - name: Validate every native block and export aggregates - CPU only
+        shell: bash
         run: |
-          python3 -B reproducibility/proofs/verify_synthesis.py
-          python3 -B reproducibility/proofs/verify_report4.py
-          python3 -B reproducibility/anteriorities/theorie_densites_residuels_20261004/preuves/verify_results.py
-      - name: Recompute initial primes on CPU
-        run: |
-          python3 -B scripts/build_workers.py
-          python3 -B scripts/recompute_small.py --count 256
-      - name: Regenerate local maximum counts by two exact algorithms
-        run: |
-          g++ -O3 -std=c++17 reproducibility/proofs/local_maximum.cpp -o build/local_maximum
-          build/local_maximum reproducibility/evidence/new/local_relations_input.txt build/local_maximum.csv
-          cmp build/local_maximum.csv reproducibility/evidence/new/LOCAL_MAXIMUM_CUBIC.csv
+          set -euo pipefail
+          timeout --signal=TERM --kill-after=5s 480s python3 -B research/cpu_export/export_compact.py --repo "$GITHUB_WORKSPACE" --output "$RUNNER_TEMP/ternary-export/COMPACT.json" --seconds 450 2>&1 | tee "$RUNNER_TEMP/ternary-export/EXPORT.log"
+          git diff --exit-code
+          test -z "$(git status --porcelain --untracked-files=all)"
+          cd "$RUNNER_TEMP/ternary-export"
+          sha256sum COMPACT.json export_compact.py WORKFLOW_COMMIT.txt EXPORT.log > SHA256SUMS
+      - name: Upload the compact text artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ternary-compact-export-${{ github.run_id }}
+          path: ${{ runner.temp }}/ternary-export/
+          if-no-files-found: error
+          compression-level: 6
+          retention-days: 7
+          overwrite: false
