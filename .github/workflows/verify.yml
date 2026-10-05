@@ -1,36 +1,49 @@
-name: Bounded reproduction
-
+# Operational isolated branch; do not merge into main.
+name: Isolated CPU coordinates - ternary million
 on:
   push:
-  pull_request:
-  workflow_dispatch:
-
+    branches: [research/ternary-coordinate-export-20261005]
 permissions:
   contents: read
-
+concurrency:
+  group: isolated-ternary-cpu-export
+  cancel-in-progress: false
+env:
+  PYTHONDONTWRITEBYTECODE: '1'
+  PYTHONUNBUFFERED: '1'
 jobs:
-  exact-checks:
+  export:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # official v4
-      - name: Check sample data and reject damaged frames
+      - name: Read the isolated branch
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 2
+          persist-credentials: false
+          sparse-checkout: |
+            scripts
+            data/ternary-million
+            research/coordinate_export
+      - name: Check unchanged data and reader
+        shell: bash
         run: |
-          python3 -B scripts/verify_atlas.py
-          python3 -B -m unittest discover -s tests
-      - name: Verify the fixed million ternary profiles and long-run positions
-        run: python3 -B scripts/verify_ternary.py
-      - name: Verify mathematical certificates
+          set -euo pipefail
+          test "$(git rev-parse HEAD^)" = 452907920dc623d4d1e6ae7675428fe02ed840c4
+          git diff --exit-code HEAD^ HEAD -- data scripts
+      - name: Read retained positions and classify bounded coordinates - CPU only
+        shell: bash
         run: |
-          python3 -B reproducibility/proofs/verify_synthesis.py
-          python3 -B reproducibility/proofs/verify_report4.py
-          python3 -B reproducibility/anteriorities/theorie_densites_residuels_20261004/preuves/verify_results.py
-      - name: Recompute initial primes on CPU
-        run: |
-          python3 -B scripts/build_workers.py
-          python3 -B scripts/recompute_small.py --count 256
-      - name: Regenerate local maximum counts by two exact algorithms
-        run: |
-          g++ -O3 -std=c++17 reproducibility/proofs/local_maximum.cpp -o build/local_maximum
-          build/local_maximum reproducibility/evidence/new/local_relations_input.txt build/local_maximum.csv
-          cmp build/local_maximum.csv reproducibility/evidence/new/LOCAL_MAXIMUM_CUBIC.csv
+          set -euo pipefail
+          timeout --signal=TERM --kill-after=5s 480s python3 -B research/coordinate_export/export_classified.py --repo "$GITHUB_WORKSPACE" --output-dir "$RUNNER_TEMP/coordinate-export" --seconds 450
+          git diff --exit-code
+          test -z "$(git status --porcelain --untracked-files=all)"
+      - name: Upload compact text witnesses and counts
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ternary-coordinate-export-${{ github.run_id }}
+          path: ${{ runner.temp }}/coordinate-export/
+          if-no-files-found: error
+          compression-level: 6
+          retention-days: 7
+          overwrite: false
