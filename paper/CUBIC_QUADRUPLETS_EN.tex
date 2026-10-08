@@ -1,0 +1,1176 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage[a4paper,margin=25mm,headheight=15pt]{geometry}
+\usepackage{booktabs,array,longtable,enumitem,fancyhdr,xurl,xcolor}
+\usepackage[colorlinks=true,allcolors=blue!45!black]{hyperref}
+\hypersetup{pdftitle={Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations},pdfauthor={Brice Pouly}}
+\pagestyle{fancy}\fancyhf{}
+\fancyhead[L]{\small Cubic-residue quadruplets}
+\fancyhead[R]{\small Research manuscript}
+\fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\newcommand{\Fp}{\mathbb F_p}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Pcal}{\mathcal P}
+\newcommand{\Sym}{\operatorname{Sym}}
+\newcommand{\Rea}{\operatorname{Re}}
+\newcommand{\Nm}{\operatorname{N}}
+\newcommand{\ind}{\mathbf1}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\title{Cubic-residue quadruplets:\\
+elliptic formulas and arithmetic fluctuations}
+\author{Brice Pouly\thanks{Prepared with AI assistance for proof development, computation, literature retrieval, and English writing. This is a research manuscript; repository deposit is not peer review.}}
+\date{8 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+For a nontrivial cubic character modulo a prime, we study the number of
+monochromatic four-windows on the nonzero residues. An explicit
+four-position identity reduces each conjugate correlation pair to an
+elliptic trace with its exact cubic phase. The proof uses a genus-two
+curve, two elliptic quotients, and a degree-three isogeny. It gives a
+finite formula for consecutive quadruplets in terms of three fixed
+elliptic curves and a Jacobi sum, and an equivalent formula using six
+fixed elliptic curves. The complex-multiplication traces are related
+cubic twists, rather than independent contributions. Using
+symmetric-power automorphy, cyclic base change, and a finite list of
+Rankin--Selberg prime number theorems, we obtain the first four
+vertical moments. For $(27A_p-p)/\sqrt p$, they are
+$(0,44,0,4224)$ when three is a cube, $(0,17,0,738)$ otherwise, and
+$(0,26,0,1900)$ over all admissible primes. The arguments use no
+GRH. Point-order and Hasse certificates support exact numerical
+examples without constructing billion-letter character words.
+The results concern a fixed pattern length. They do not prove a
+complete limiting law, a constant-order centring of the raw count,
+or a law for maxima at logarithmic length.
+\end{abstract}
+\noindent\textbf{Keywords.} Cubic characters; Jacobi sums; elliptic
+curves; isogenies; complex multiplication; vertical moments;
+Rankin--Selberg functions; exact certificates.
+
+\section{The observable and the two main results}
+\subsection{Windows, characters, and the prime population}
+Throughout, $p>3$ is prime, $p\equiv1\pmod3$, and $\chi$ is a
+nontrivial cubic character of $\Fp^\times$. Write
+$\omega^2+\omega+1=0$ and regard its values as
+$1,\omega,\omega^2$. Extend $\chi$ by $\chi(0)=0$.
+Because $3\mid(p-1)/2$, we have $\chi(-1)=1$.
+Conjugating $\chi$ does not change any equality of colours.
+
+Define the cubic four-window count by
+\begin{equation}\label{eq:count}
+ A_p=\#\{1\le x\le p-4:
+       \chi(x)=\chi(x+1)=\chi(x+2)=\chi(x+3)\}.
+\end{equation}
+All three nonzero colours are included. The four entries are consecutive
+integer residues, and overlapping windows are counted separately.
+This is a window statistic, not a count of maximal runs. It is also
+distinct from the \emph{quadratic} A4 column of the Rabung
+atlas~\cite{atlas}. In particular, the cubic count is not obtained
+by relabelling that historical column.
+
+Put
+\begin{equation}\label{eq:correction}
+ I_2(p)=\ind_{\chi(2)=1},\qquad
+ I_{23}(p)=\ind_{\chi(2)=\chi(3)=1},\qquad
+ b_p=26+18I_2(p)+18I_{23}(p).
+\end{equation}
+Thus $b_p\in\{26,44,62\}$. We use both normalizations
+\begin{equation}\label{eq:DY}
+ D_p=\frac{27A_p-p+b_p}{\sqrt p},
+ \qquad Y_p=\frac{27A_p-p}{\sqrt p}.
+\end{equation}
+The first retains the exact finite boundary correction; the second
+is the more immediate fluctuation around $p/27$.
+
+Our vertical population is
+\[
+ \Pcal(X)=\{p\text{ prime}:X\le p<2X,\ p\equiv1\pmod3\}.
+\]
+Let $\Pcal_0(X)$ consist of its primes for which three is a cube,
+and let $\Pcal_*(X)$ be the complement. Each average below is
+uniform on the stated finite set and is divided by that set's own
+cardinality. There is no additional random origin in a character
+word, or additional random choice of the orientation of $\chi$.
+
+\subsection{An exact elliptic formula}
+For an elliptic curve $E/\Fp$ write
+$t_E(p)=p+1-\#E(\Fp)$. Consider the fixed rational curves
+\begin{align}
+ E_1&:y^2=x^3-99x+414,\nonumber\\
+ E_2&:y^2=x^3-21x+37,\label{eq:noncm}\\
+ E_3&:y^2=x^3-2835x+58158,\nonumber
+\end{align}
+and the three curves with complex multiplication
+\begin{equation}\label{eq:cmcurves}
+ C_0:y^2=x^3-27,\quad
+ C_1:y^2=x^3-243,\quad
+ C_2:y^2=x^3-2187.
+\end{equation}
+All six have good reduction for $p>3$. Write $t_i=t_{E_i}$,
+$c_j=t_{C_j}$, and
+$\beta_p=\chi(3)+\overline{\chi(3)}\in\{2,-1\}$.
+
+\begin{theorem}[Exact four-window formula]\label{thm:exact}
+For every admissible prime,
+\begin{equation}\label{eq:exact}
+ 27A_p=p-b_p-2c_0(p)-2c_1(p)
+                    -2t_1(p)-2t_2(p)-\beta_p t_3(p).
+\end{equation}
+Equivalently, if $J_p=J(\chi,\chi)$,
+\begin{align}
+ 27A_p={}&p-b_p+
+ 4\Rea\{J_p(\overline{\chi(2)}+\overline{\chi(6)})\}
+ \nonumber\\[-2pt]
+ &-2t_1(p)-2t_2(p)-\beta_p t_3(p).
+ \label{eq:jacobi-form}
+\end{align}
+The CM traces satisfy
+\begin{equation}\label{eq:twistrelations}
+ \begin{cases}
+ c_0=c_1=c_2,& \chi(3)=1,\\
+ c_0+c_1+c_2=0,& \chi(3)\ne1.
+ \end{cases}
+\end{equation}
+\end{theorem}
+Sections~\ref{sec:fourpositions}--\ref{sec:CM} prove these formulas.
+The finite corrections in \eqref{eq:exact} matter for an exact count:
+the character expansion on all of $\Fp$ is not the desired count
+until the four excluded residues have been removed.
+
+\subsection{Four vertical moments}
+\begin{theorem}[Moments over the actual primes]\label{thm:moments}
+As $X\to\infty$, the relative cardinalities of $\Pcal_0(X)$ and
+$\Pcal_*(X)$ inside $\Pcal(X)$ tend to $1/3$ and $2/3$.
+For $r=1,2,3,4$, the limits of the averages of $D_p^r$ are
+\[
+ \begin{array}{c|rrrr}
+ \text{population}&r=1&r=2&r=3&r=4\\ \hline
+ \Pcal_0(X)&0&44&0&4224\\
+ \Pcal_*(X)&0&17&0&738\\
+ \Pcal(X)&0&26&0&1900
+ \end{array}
+\]
+The same statements hold with $Y_p$ in place of $D_p$.
+\end{theorem}
+The analytic proof in Sections~\ref{sec:qualification}--\ref{sec:moments}
+uses fixed automorphic objects. It establishes the mixed moments
+needed up to total degree four, without postulating complete joint
+equidistribution of the six curves.
+The displayed limits have $o(1)$ errors; we do not extract a
+numerical error bound applicable near $2^{32}$.
+
+\section{A universal four-position identity}\label{sec:fourpositions}
+\subsection{The phase and the elliptic curve}
+Take distinct $a,b,c,d\in\Fp$ and set
+\begin{equation}\label{eq:parameters}
+ \rho=\frac{c-d}{a-b},\qquad
+ A=\frac{4(ab+cd)-2(a+b)(c+d)}{(a-b)(c-d)}.
+\end{equation}
+Define
+\begin{equation}\label{eq:EA}
+ E_A:Y^2=X^3-(6A+15)X+(A^2+14A+22),\qquad
+ t_A(p)=p+1-\#E_A(\Fp).
+\end{equation}
+The identities
+\[
+ A-2=\frac{4(a-d)(b-c)}{(a-b)(c-d)},\qquad
+ A+2=\frac{4(a-c)(b-d)}{(a-b)(c-d)}
+\]
+give $A\ne\pm2$. Direct substitution in the Weierstrass
+discriminant gives
+\begin{equation}\label{eq:disc}
+ \Delta(E_A)=-432(A-2)^3(A+2)\ne0.
+\end{equation}
+Thus none of the curves occurring in the identity is singular.
+
+\begin{theorem}[Four-position correlation]\label{thm:fourpositions}
+With the conventions above,
+\begin{equation}\label{eq:fouridentity}
+ 1+\sum_{z\in\Fp}
+ \chi((z+a)(z+b)(z+c)^2(z+d)^2)
+ =-\overline{\chi(\rho)}\,t_A(p).
+\end{equation}
+Moreover $t_A(p)=t_{-A}(p)$.
+If $\beta_p(u)=\chi(u)+\overline{\chi(u)}$, the conjugate pair
+of sums is therefore
+\begin{equation}\label{eq:pair}
+ S_e(p)+S_{-e}(p)=-2-\beta_p(\rho)t_A(p).
+\end{equation}
+\end{theorem}
+The explicit phase is part of the formula. Isomorphism over an
+algebraic closure alone would not recover it.
+
+\subsection{A degree-two rational map}
+Let
+$R(z)=(z+a)(z+b)/((z+c)(z+d))$.
+Its character equals that of the polynomial in
+\eqref{eq:fouridentity} wherever the quotient is defined, because
+the two differ by a cube. Its poles contribute zero, while
+$R(\infty)=1$. If $S_e$ denotes the affine polynomial sum,
+the character sum on this projective source is $S_e+1$.
+
+For $v\in\Fp$, the homogeneous equation $R(z)=v$ has
+$1+\lambda(D(v))$ distinct rational roots, where $\lambda$ is
+the quadratic character and
+\[
+ D(v)=(c-d)^2v^2+
+ [4(ab+cd)-2(a+b)(c+d)]v+(a-b)^2.
+\]
+This root count includes infinity when the affine leading
+coefficient vanishes. The equation is never identically zero:
+its numerator and denominator have four distinct roots.
+Since $\sum_v\chi(v)=0$, changing variables by $w=\rho v$ gives
+\begin{equation}\label{eq:mixed}
+ S_e+1=\overline{\chi(\rho)}B_A,\qquad
+ B_A=\sum_{w\in\Fp}\chi(w)\lambda(w^2+Aw+1).
+\end{equation}
+Inversion $w\mapsto w^{-1}$, with the zero term treated separately,
+shows that $B_A=\overline{B_A}$. Since it belongs to $\Z[\omega]$,
+it is an integer. We will identify it with $-t_A$.
+
+\subsection{The genus-two curve and its elliptic quotients}
+Let $C_A$ be the smooth completion of
+$y^2=x^6+Ax^3+1$. The polynomial is squarefree because $A^2\ne4$,
+and the leading coefficient gives two rational points at infinity.
+The number of cube roots of $w$ is
+$1+\chi(w)+\overline{\chi(w)}$, including the value one at zero.
+Using $\sum_w\lambda(w^2+Aw+1)=-1$ gives
+\[
+ \sum_x\lambda(x^6+Ax^3+1)=-1+2B_A,\qquad
+ \#C_A(\Fp)=p+1+2B_A.
+\]
+Thus its genus-two trace, defined as $p+1-\#C_A(\Fp)$,
+is $-2B_A$.
+
+The two quotient curves are
+\[
+ E_+:v^2=(u+2)(u^3-3u+A),\qquad
+ E_-:v^2=(u-2)(u^3-3u+A).
+\]
+On suitable affine opens the maps are
+$u=x+x^{-1}$ and $v=y(x\pm1)/x^2$.
+We keep track of the traces by an elementary count, rather than
+requiring a decomposition theorem for the Jacobian.
+For each $u$,
+\begin{equation}\label{eq:fibers}
+ \sum_{\substack{x\ne0\\x+x^{-1}=u}}\lambda(x)
+ =\lambda(u+2)+\lambda(u-2).
+\end{equation}
+Indeed, away from $u=\pm2$, the two roots have the same
+quadratic character, and $(x\pm1)^2/x=u\pm2$. A nonsplit fibre
+has zero on both sides in aggregate. At $u=\pm2$ the formula
+is checked with the single root $x=\pm1$.
+Now
+$x^6+Ax^3+1=x^3(u^3-3u+A)$ for $x\ne0$.
+Equation~\eqref{eq:fibers}, the term $x=0$, and the two
+infinities on each quartic yield
+\begin{equation}\label{eq:trace-split}
+ t(C_A)=t(E_+)+t(E_-).
+\end{equation}
+
+The substitutions
+\[
+ w=(u+2)^{-1},\quad v'=vw^2,\quad
+ X=(A-2)w+3,\quad Y=(A-2)v'
+\]
+transform $E_+$ to \eqref{eq:EA}.
+Birational maps between their smooth projective completions
+preserve the point count, including the points outside this open.
+The change $u\mapsto-u$ identifies $E_-$ with the corresponding
+quartic for $-A$, hence with $E_{-A}$.
+
+\subsection{The degree-three isogeny and the square twist}
+The point $Q=(3,A-2)$ on $E_A$ has order exactly three.
+Its tangent has slope $-3$, and the group law gives $2Q=-Q$.
+With $h=X-3$, put
+\[
+ T=-12(A-2),\qquad V=4(A-2)^2,\qquad
+ r(X)=X+\frac{T}{h}+\frac{V}{h^2}.
+\]
+The map $(X,Y)\mapsto(r(X),r'(X)Y)$ is the
+V\'elu isogeny with kernel $\{O,Q,-Q\}$, whose target is
+\begin{equation}\label{eq:velu-target}
+ Y^2=X^3+(54A-135)X-27A^2+378A-594.
+\end{equation}
+The rational identity defining this map can also be verified
+directly over $\Z[A,X]$ after multiplication by $h^6$;
+the supplied verifier does this formal calculation.
+Since $p>3$ the isogeny is separable and extends across its
+kernel to the smooth projective curves.
+
+The target coefficients are those of the quadratic twist of
+$E_{-A}$ by $-3$: they are nine times its linear coefficient
+and $-27$ times its constant coefficient. A primitive cubic
+root $\zeta\in\Fp$ satisfies $(2\zeta+1)^2=-3$.
+Consequently this twist is isomorphic to $E_{-A}$ over $\Fp$.
+Curves isogenous over a finite field have the same trace.
+For this direction, an isogeny commutes with Frobenius minus
+the identity; taking degrees and cancelling its degree proves
+equality of the degrees of Frobenius minus the identity,
+which are the point counts.
+
+We have proved $t(E_+)=t(E_-)=t_A(p)$.
+Combining this with \eqref{eq:trace-split} gives
+$-2B_A=2t_A(p)$. Equation~\eqref{eq:mixed} proves
+\eqref{eq:fouridentity}, and conjugation proves \eqref{eq:pair}.
+This completes the proof of Theorem~\ref{thm:fourpositions}.
+The two elliptic quotients need not be isomorphic to each other;
+their equality of traces here follows from the isogeny and the
+square twist.
+
+\section{Derivation of the consecutive quadruplet formula}
+\subsection{The pair and triple sectors}
+Away from the four zeros, the equality indicator has the expansion
+\begin{equation}\label{eq:expansion}
+ 27\,\ind_{\chi(z)=\cdots=\chi(z+3)}
+ =\sum_{\substack{e\in\{0,1,2\}^4\\\sum e_i=0\ (3)}}
+   \prod_{i:e_i\ne0}\chi(z+i)^{e_i}.
+\end{equation}
+An empty product is one. This convention for zero exponents
+is retained at the excluded residues when the polynomial
+expansion is summed over $\Fp$.
+There are 27 terms: the constant, 12 of support two, eight
+of support three, and six of support four.
+
+Every support-two sum is $-1$. For example, the quotient
+$(z+a)/(z+b)$ parametrizes $\Fp\setminus\{1\}$ as $z$ runs
+away from its pole, and has the same cubic character as
+$(z+a)(z+b)^2$. Its full sum is therefore $-1$.
+
+For distinct $i<j<l$, set
+$\delta=(j-i)(l-i)(l-j)$.
+We claim the exact triple identity
+\begin{equation}\label{eq:triple}
+ 1+\sum_{z\in\Fp}\chi((z+i)(z+j)(z+l))
+ =J_p\overline{\chi(\delta)}.
+\end{equation}
+To see the missing constant explicitly, let
+$t=(l-j)(z+i)/((l-i)(z+j))$.
+It sends the three roots to $0,\infty,1$ and satisfies
+\[
+ (z+i)(z+j)(z+l)=
+ \delta^{-1}\big((l-i)(z+j)\big)^3t(1-t).
+\]
+The value of $t$ omitted by finite $z$ is
+$t_\infty=(l-j)/(l-i)$.
+Since $\chi(t_\infty(1-t_\infty))=\chi(\delta)$,
+the Jacobi sum loses exactly one after multiplication by
+$\overline{\chi(\delta)}$. The pole at $z=-j$ contributes zero.
+This proves \eqref{eq:triple} with its orientation and its constant.
+
+The four triples of $\{0,1,2,3\}$ have difference products
+$2,6,6,2$. Adding their conjugates gives the nonconstant
+contribution
+$4\Rea\{J_p(\overline{\chi(2)}+\overline{\chi(6)})\}-8$.
+
+\subsection{The four-support sector and all four exclusions}
+For the three unoriented partitions of $\{0,1,2,3\}$, the
+parameters $(A,\rho)$ in \eqref{eq:parameters} are
+\[
+ (14,1),\qquad(-1,1),\qquad(-10/3,1/3).
+\]
+Their conjugate sums contribute
+$-6-2t_{14}-2t_1-\beta_p t_{10/3}$.
+The equalities of opposite-parameter traces have been proved,
+and $\beta_p(1/3)=\beta_p(3)$.
+The first two positive parameters give $E_1,E_2$ in
+\eqref{eq:noncm}. Scaling $(X,Y)=(9x,27y)$ for $E_{10/3}$
+gives $E_3$, and is valid for every $p>3$.
+Together with the constant and pair sectors, the complete
+sum over $\Fp$ has main term $p-26$.
+
+We must remove $z=-r$, $r=0,1,2,3$.
+Terms with an active exponent at $r$ are already zero.
+The remaining terms sum to nine if the other three values
+are equal, and to zero otherwise. At $r=0,3$ the equality
+condition is $\chi(2)=\chi(3)=1$; at $r=1,2$ it is
+$\chi(2)=1$, using $\chi(-1)=1$.
+Thus the exclusions subtract exactly
+$18I_2+18I_{23}$, including their share of the constant term.
+The remaining residues are precisely $z=1,\ldots,p-4$,
+and \eqref{eq:jacobi-form} follows.
+This calculation accounts for all zero terms and avoids an
+error of four from treating the full field as the nonzero interval.
+
+\section{Complex multiplication and the exact conditional form}\label{sec:CM}
+\subsection{Fermat curves and Jacobi traces}
+For $a\in\Fp^\times$, the smooth projective Fermat cubic
+$u^3+v^3=aw^3$ has three rational points at infinity.
+Counting cube fibres in the affine chart gives
+\begin{equation}\label{eq:fermat-count}
+ \#F_a(\Fp)=p+1+
+ J_p\overline{\chi(a)}+\overline{J_p}\chi(a).
+\end{equation}
+Indeed the two mixed character terms each equal $-1$;
+the remaining nonconstant pair is the two Jacobi terms.
+The affine count is $p-2$ plus that pair, and the three
+infinities add three. This proves the sign in
+\eqref{eq:fermat-count} directly.
+
+On $u+v\ne0$, the change
+\[
+ X=\frac{12a}{u+v},\qquad
+ Y=\frac{36a(u-v)}{u+v}
+\]
+gives $Y^2=X^3-432a^2$.
+Conversely $u+v=12a/X$ and $u-v=Y/(3X)$.
+These birational maps identify the smooth projective curves,
+so the exceptional points do not alter the point count.
+For $a=2,6,18$, scaling $(X,Y)=(4x,8y)$ gives
+the three curves in \eqref{eq:cmcurves}. Hence
+\begin{equation}\label{eq:cm-jacobi}
+ c_j(p)=-2\Rea\{J_p\overline{\chi(2\cdot3^j)}\},
+ \qquad j=0,1,2.
+\end{equation}
+Substitution proves \eqref{eq:exact}.
+If $\eta=\chi(3)$ is one, the three traces coincide.
+Otherwise $1+\eta+\eta^2=0$ proves their zero sum.
+This also proves \eqref{eq:twistrelations}.
+
+\subsection{Two arithmetic fluctuation regimes}
+Put $x_i=t_i/\sqrt p$ and $v_j=c_j/\sqrt p$.
+Equations~\eqref{eq:exact} and \eqref{eq:twistrelations} give
+\begin{equation}\label{eq:conditional}
+ D_p=
+ \begin{cases}
+ -4v_0-2x_1-2x_2-2x_3,&3\text{ a cube},\\
+  2v_2-2x_1-2x_2+x_3,&3\text{ not a cube}.
+ \end{cases}
+\end{equation}
+Hasse gives $|v_j|,|x_i|\le2$. Thus $|D_p|\le20$
+in the first class and $|D_p|\le14$ in the second.
+Since $|D_p-Y_p|\le62/\sqrt X$ on $[X,2X)$,
+the limits of every fixed moment agree for these two
+normalizations whenever either limit is established.
+
+The two CM terms in the original exact formula are related
+twists. Treating them as independent would give the wrong
+second and fourth moments. Their dependence also persists
+when their unconditional covariance happens to vanish.
+
+\section{Arithmetic qualification of the non-CM factors}\label{sec:qualification}
+\subsection{Non-CM and good reduction}
+The $j$-invariants of $E_1,E_2,E_3$ are, respectively,
+$-35937/4$, $790272$, and $-3472875/4$.
+The first and third are not algebraic integers, which
+already excludes complex multiplication for them.
+A uniform alternative for all three curves uses two
+good ordinary reductions with different Frobenius fields:
+\begin{center}
+\begin{tabular}{c rr l rr l}
+\toprule
+Curve&$p$&$t_p$&Frobenius field&$p$&$t_p$&Frobenius field\\
+\midrule
+$E_1$&5&$-3$&$\Q(\sqrt{-11})$&7&$-4$&$\Q(\sqrt{-3})$\\
+$E_2$&5&3&$\Q(\sqrt{-11})$&7&$-1$&$\Q(\sqrt{-3})$\\
+$E_3$&7&$-1$&$\Q(\sqrt{-3})$&19&5&$\Q(\sqrt{-51})$\\
+\bottomrule
+\end{tabular}
+\end{center}
+In each entry $p\nmid t_p$, so the reduction is ordinary.
+The specialization of endomorphisms is injective at good
+reduction~\cite{sutherland21}. For an ordinary reduction,
+the geometric endomorphism algebra is the imaginary
+quadratic field $\Q(\sqrt{t_p^2-4p})$~\cite{sutherland13}.
+This remains the same on finite extensions: the two
+Frobenius roots have different $p$-adic valuations, so their
+ratio is not a root of unity and no power of Frobenius
+becomes rational. A characteristic-zero CM field would
+therefore inject into each of the two different fields
+in its row, which is impossible.
+
+The Weierstrass discriminants are
+$-2^{14}3^6$, $2^4 3^4$, and $-2^{14}3^{11}$.
+Thus all primes under consideration are good.
+The trace witnesses and these elementary invariants are
+recomputed in the finite verifier.
+
+\subsection{Symmetric powers and quadratic base change}
+Let $\pi_i$ denote the unitary-normalized modular
+representation attached to $E_i/\Q$. Its central character
+is trivial and it is self-contragredient.
+Modularity and Newton--Thorne's Theorem A~\cite{newtonthorne}
+provide cuspidal $\Sym^m\pi_i$ on $\mathrm{GL}_{m+1}/\Q$
+for $1\le m\le4$.
+Set $K=\Q(\omega)$. The cyclic base-change criterion
+recalled in~\cite[printed p.~54]{ramakrishnan} says that a
+cuspidal representation remains cuspidal in this quadratic
+extension unless it has the corresponding quadratic
+self-twist.
+
+This exceptional self-twist is excluded by a single inert
+prime for each curve and every needed $m$.
+Define $B_0=1$, $B_1=t$, and
+$B_m=tB_{m-1}-pB_{m-2}$.
+The normalized symmetric-power trace is $B_m/p^{m/2}$.
+At the following inert primes, none is zero:
+\begin{center}
+\begin{tabular}{c r rrrr}
+\toprule
+Curve&$p$&$B_1$&$B_2$&$B_3$&$B_4$\\
+\midrule
+$E_1$&5&$-3$&4&3&$-29$\\
+$E_2$&5&3&4&$-3$&$-29$\\
+$E_3$&11&$-6$&25&$-84$&229\\
+\bottomrule
+\end{tabular}
+\end{center}
+A self-twist by the quadratic character of $K/\Q$
+would negate each such trace, forcing it to be zero.
+Write $\Pi_i$ for the base change of $\pi_i$ to $K$.
+The representations $\Sym^m\Pi_i$ are consequently
+cuspidal, unitary, and self-contragredient, with trivial
+central character. In particular $\Pi_i$ is nondihedral,
+because a dihedral $\mathrm{GL}_2$ representation has a
+noncuspidal symmetric square.
+
+\subsection{Twist exclusions and the tensor products}
+At either place of $K$ above the split prime 31 the traces
+are
+\begin{equation}\label{eq:31}
+ (t_1,t_2,t_3)=(-4,5,-7).
+\end{equation}
+If two $\Pi_i$ were character twists of each other, their
+trivial central characters would force the twisting
+character to have square one. Both local representations
+are unramified at 31, so that character is unramified there
+and the absolute values of their traces would agree.
+The three distinct values in \eqref{eq:31} exclude this.
+Ramakrishnan's tensor-product theorem~\cite[Theorem M]{ramakrishnan}
+therefore gives cuspidal, self-contragredient
+$\Pi_i\boxtimes\Pi_j$ on $\mathrm{GL}_4/K$ for $i\ne j$.
+Here we use both nondihedrality and the twist exclusion.
+
+The normalized symmetric-square traces at 31 are
+\begin{equation}\label{eq:sym2-31}
+ -15/31,\qquad-6/31,\qquad18/31.
+\end{equation}
+Their absolute values are also distinct. In the moment
+proof all Hecke twists are unramified at 31 and unitary.
+Consequently \eqref{eq:31} and \eqref{eq:sym2-31}
+exclude the equal-rank collisions even after an arbitrary
+imaginary power of the norm is included: such a twist
+still multiplies a trace at 31 by a number of modulus one.
+This local argument deals with the norm twists appearing
+in the prime number theorem as well as the finite cubic
+characters. We do not infer independence just from
+different equations or different $j$-invariants.
+
+\section{A twisted averaging lemma through degree four}\label{sec:analytic}
+\subsection{The CM Hecke character and the finite prescription}
+CM Hecke theory~\cite[Theorem 3.6]{chenshen} associates to
+$C_0$ a unitary Hecke character $\gamma$ of $K$ with
+nonzero angular infinity type. At a good prime ideal
+$\mathfrak p$, its normalized trace is
+$\gamma(\mathfrak p)+\gamma(\mathfrak p)^{-1}$.
+The field $K(\sqrt[3]{3})/K$ is cyclic of degree three.
+Indeed the valuation of three at the place above three
+is two, not a multiple of three.
+Let $\eta$ denote its nontrivial cubic Hecke character.
+At a degree-one place it records the cubic class of
+three, with conjugation coherent with the character
+orientation.
+
+The three CM twists may be labelled so that
+\begin{equation}\label{eq:gamma}
+ \begin{split}
+ v_0&=\gamma+\gamma^{-1},\\
+ v_1&=\gamma\eta^{-1}+\gamma^{-1}\eta,\\
+ v_2&=\gamma\eta+\gamma^{-1}\eta^{-1}.
+ \end{split}
+\end{equation}
+Reversing the reciprocity convention conjugates both
+characters and leaves the class-conditioned moments
+unchanged. Their conductors have support only above
+two and three, so all twists here are unramified at 31.
+
+At any good place of $K$ with residue cardinality $q$,
+let $x_i$ be the trace of $E_i$ divided by $\sqrt q$.
+Define $P_0(x)=1$, $P_1(x)=x$,
+$P_m(x)=xP_{m-1}(x)-P_{m-2}(x)$.
+Then $P_m(x_i)$ is the local trace of $\Sym^m\Pi_i$.
+
+\begin{lemma}[Fixed-object twisted averages]\label{lem:averages}
+For $h\in\Z$, $u\in\{0,1,2\}$, and nonnegative
+$m_1,m_2,m_3$ with
+$|h|+m_1+m_2+m_3\le4$, the average over good prime
+ideals $\mathfrak p$ of $K$ with $X\le\Nm\mathfrak p<2X$ of
+\begin{equation}\label{eq:monomial}
+ \gamma(\mathfrak p)^h\eta(\mathfrak p)^u
+ \prod_{i=1}^3P_{m_i}(x_i(\mathfrak p))
+\end{equation}
+tends to zero unless $h=m_1=m_2=m_3=u=0$.
+In that constant case the average is one.
+\end{lemma}
+
+\subsection{The finite list of analytic products}
+Let $\theta=\gamma^h\eta^u$.
+Gillespie--Ji's Theorem 1.1~\cite{gillespieji} applies over
+the fixed Galois field $K$ to two unitary cuspidal factors
+when at least one is self-contragredient.
+Its possible main term comes from equivalence of the
+factors up to an imaginary norm twist. We use the
+contragredient on the second factor when converting
+the notation to a product of the desired local traces.
+
+The required products are exhausted by the following list.
+The indices $i,j,l$ are distinct whenever they occur together.
+\begin{center}\small
+\begin{tabular}{P{20mm}P{40mm}P{78mm}}
+\toprule
+Positive $m_i$&Allowed pattern&Factors for the prime number theorem\\
+\midrule
+None&$\theta$ alone&$\theta$ and the trivial $\mathrm{GL}_1$ character\\
+One&$1\le m_i\le4$&$\Sym^{m_i}\Pi_i$ and $\theta$\\
+Two&$m_i+m_j\le4$&$\Sym^{m_i}\Pi_i$ and $\Sym^{m_j}\Pi_j\otimes\theta$\\
+Three&$(1,1,1)$, $|h|\le1$&
+ $\Pi_1\boxtimes\Pi_2$ and $\Pi_3\otimes\theta$\\
+Three&Permutation of $(2,1,1)$, $h=0$&
+ $\Sym^2\Pi_i$ and $(\Pi_j\boxtimes\Pi_l)\otimes\eta^u$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Every listed first factor, except for the first row
+where the trivial factor can be used, is cuspidal
+and self-contragredient by Section~\ref{sec:qualification}.
+If the two ranks differ, equivalence is impossible.
+The two three-index rows have ranks $(4,2)$ and
+$(3,4)$, respectively. In the two-index row the only
+equal-rank patterns are $(1,1)$ and $(2,2)$.
+Equations~\eqref{eq:31} and \eqref{eq:sym2-31}
+exclude both after every twist under consideration,
+including the imaginary norm twist.
+The one-index row has ranks $m_i+1$ and one.
+
+In the first row $\theta$ can equal an imaginary norm
+power only when $h=0$, by its angular infinity type.
+Then its order-three part is nontrivial unless $u=0$.
+In the constant case the usual prime ideal theorem
+provides the main term. Thus every nonconstant
+case has no main term.
+
+\subsection{Prime powers, ramified places, and unweighted averages}
+The cited theorem initially controls coefficients of a
+logarithmic derivative, with norm logarithms as weights.
+We spell out the passage to prime ideals used here.
+At every good place, normalized elliptic eigenvalues
+have modulus one. Symmetric powers and the two-factor
+tensor products retain that property; the Hecke
+characters are also unitary. Their traces at prime
+powers are therefore bounded by a constant depending
+only on the fixed ranks.
+The contribution from powers of order at least two up
+to norm $2X$ is $O(\sqrt X(\log X)^2)$.
+
+There are finitely many bad places. Their factors here
+come from the local parameters of elliptic curves
+and CM characters, followed by the same fixed tensor
+and symmetric-power operations. In unitary
+normalization their local parameters in the Euler
+factors have modulus at most one. This follows from
+the Weil--Deligne description of the elliptic local
+factors (and is preserved by these operations).
+Their higher-power contribution is consequently
+$O(\log X)$ after summing over the fixed bad places.
+Equivalently these factors may be removed before
+applying the prime number theorem and their finite
+Euler corrections restored afterwards.
+
+The nonconstant logarithmically weighted sum is $o(X)$;
+the constant sum is $X+o(X)$.
+Partial summation on $[X,2X)$ removes the logarithmic
+weight and gives $o(X/\log X)$ in the nonconstant cases,
+against $X/\log X+o(X/\log X)$ for the prime count.
+This proves Lemma~\ref{lem:averages}.
+We have paid for prime powers directly using known
+tempered parameters. No general Ramanujan conjecture,
+Hypothesis H, or growing-conductor uniformity is being
+imported from a more general statement.
+
+\section{Conditioning and the integer moment calculations}\label{sec:moments}
+\subsection{From prime ideals to rational primes}
+Prime ideals of residue degree at least two and norm
+at most $2X$ lie over rational primes at most $\sqrt{2X}$.
+There are $O(\sqrt X)$ of them in this quadratic field.
+All observables needed here are bounded, so their
+contribution is negligible in the prime ideal averages.
+Each split rational prime $p\equiv1\pmod3$ has exactly
+two conjugate degree-one places of norm $p$.
+The actual count, the trace combination $D_p$, and the
+events $\eta=1$ and $\eta\ne1$ are invariant under
+conjugation. Averaging them over the two places is
+therefore exactly the rational-prime average in
+Theorem~\ref{thm:moments}.
+
+The class indicators are
+\begin{equation}\label{eq:indicators}
+ \ind_{\eta=1}=\frac{1+\eta+\eta^2}{3},\qquad
+ \ind_{\eta\ne1}=\frac{2-\eta-\eta^2}{3}.
+\end{equation}
+Lemma~\ref{lem:averages} gives relative densities
+$1/3$ and $2/3$. Dividing the corresponding
+weighted averages by those densities gives the
+class-conditioned moments, not moments divided
+by the total population.
+
+\subsection{The mixed functional only through degree four}
+For nonnegative $r_0,r_1,r_2,r_3$ of total degree
+at most four, the conditional averages of
+$v_0^{r_0}\prod_i x_i^{r_i}$ in the cube class,
+and of $v_2^{r_0}\prod_i x_i^{r_i}$ in the
+noncube class, factor as
+\begin{equation}\label{eq:functional}
+ M_{\rm CM}(r_0)\prod_{i=1}^3M_{\rm ST}(r_i).
+\end{equation}
+Here, for orders zero through four,
+\[
+ M_{\rm CM}=(1,0,2,0,6),\qquad
+ M_{\rm ST}=(1,0,1,0,2).
+\]
+To prove this formula, expand \eqref{eq:gamma} in
+powers of $\gamma$ and $\eta$, use
+\[
+ x^2=P_2(x)+1,\quad
+ x^3=P_3(x)+2P_1(x),\quad
+ x^4=P_4(x)+3P_2(x)+2,
+\]
+and multiply by \eqref{eq:indicators}.
+Every nonconstant term vanishes by
+Lemma~\ref{lem:averages}. The surviving constant
+coefficients are $\binom{2r}{r}$ for a CM even
+power $2r$ and the Catalan number
+$\binom{2r}{r}/(r+1)$ for each non-CM factor.
+Odd powers have no constant coefficient.
+The factors of $\eta$ in $v_2$ cancel in its
+constant term, so the same functional applies
+in the noncube class.
+
+This factorization is proved only in the degree
+range just specified. It does not assert that
+the four variables have an independent joint
+law in all degrees.
+
+\subsection{Second and fourth moments}
+In the cube class, \eqref{eq:conditional} has
+coefficient vector $(-4,-2,-2,-2)$.
+The CM contribution has variance $16\cdot2=32$,
+and the other three have variance four each.
+Thus the variance is 44. In the noncube class,
+the coefficient vector is $(2,-2,-2,1)$:
+its variance is $4\cdot2+4+4+1=17$.
+The first and third moments vanish by
+\eqref{eq:functional}.
+
+Only the single-variable fourth powers and
+products of two squares survive in the
+fourth moment. They give
+\begin{align*}
+ 4224&=4^4\cdot6+3\cdot2^4\cdot2
+       +6\{3(32\cdot4)+3(4\cdot4)\},\\
+ 738&=2^4\cdot6+(2^4+2^4+1)\cdot2
+       +6\{8\cdot9+(4\cdot4+4\cdot1+4\cdot1)\}.
+\end{align*}
+Finally
+\[
+ \frac{44+2\cdot17}{3}=26,\qquad
+ \frac{4224+2\cdot738}{3}=1900.
+\]
+The uniform bounds following \eqref{eq:conditional}
+justify replacing $D_p$ by $Y_p$.
+This completes the proof of
+Theorem~\ref{thm:moments}.
+For the unmultiplied fluctuation
+$(A_p-p/27)/\sqrt p$, the second and fourth
+moments are $26/729$ and $1900/531441$.
+
+\subsection{The covariance of the original CM pair}
+The same lemma applied to \eqref{eq:gamma} gives
+\[
+ \lim\E\left[
+ \begin{pmatrix}v_0^2&v_0v_1\\v_0v_1&v_1^2\end{pmatrix}
+ \,\middle|\,3\text{ a cube}\right]
+ =\begin{pmatrix}2&2\\2&2\end{pmatrix},
+\]
+and in the noncube class the matrix is
+$\left(\begin{smallmatrix}2&-1\\-1&2\end{smallmatrix}\right)$.
+The unconditional covariance is zero,
+although the exact twist relations remain.
+The arithmetic contrast concerns the cubic
+class of \emph{three}. It must not be confused
+with the cube/noncube class of \emph{two}
+used to stratify the million-profile
+ternary supplement of the atlas.
+
+\section{Exact certificates and reproducibility}\label{sec:certificates}
+\subsection{Point orders determine the trace}
+For a nonsingular short Weierstrass curve over
+$\Fp$, a trace certificate contains a point $P$,
+its claimed order $r$ with complete prime
+factorization, and a claimed group order $N$.
+The verifier checks
+\[
+ [r]P=O,\qquad [r/q]P\ne O
+ \quad\text{for each prime }q\mid r,
+\]
+and
+\begin{equation}\label{eq:hasse-certificate}
+ r>2\lfloor2\sqrt p\rfloor,\qquad
+ |N-p-1|\le\lfloor2\sqrt p\rfloor,\qquad r\mid N.
+\end{equation}
+The scalar checks and the complete prime
+factorization prove the exact point order.
+Lagrange then makes $r$ a divisor of the
+true group order. Hasse puts that order
+in an integer interval of width
+$2\lfloor2\sqrt p\rfloor<r$. There can be
+only one multiple of $r$ in it, namely $N$.
+Thus $p+1-N$ is the certified trace.
+
+The generator uses baby-step/giant-step in the
+Hasse interval and searches at most 256
+candidate abscissas. Failure to find a
+sufficiently large point order is a refusal,
+not a presumed trace. The portable program
+uses exact trial primality and a declared
+modulus range $p<10^{10}$. This numerical
+domain restricts the software, not the
+mathematical identities or prime limits.
+The verifier checks the point orders without
+repeating their search.
+
+\subsection{Three illustrative primes}
+The archived exact counts and traces include:
+\begin{center}
+\begin{tabular}{r rrr r}
+\toprule
+$p$&$t_1$&$t_2$&$t_3$&$A_p$\\
+\midrule
+$1\,000\,033$&119&227&$-1069$&$36\,876$\\
+$4\,294\,967\,197$&$-34978$&$-101713$&$-19969$&$159\,072\,704$\\
+$4\,294\,967\,311$&$-52264$&$-46204$&$-7891$&$159\,072\,584$\\
+\bottomrule
+\end{tabular}
+\end{center}
+Their CM triples are, in the same order,
+$(-670,1967,-1297)$,
+$(43250,85529,-128779)$, and
+$(124244,-25963,-98281)$.
+All three are in the noncube class of three.
+Their exact corrected fluctuation numerators
+are $-4355$, $-4145$, and $-7517$.
+
+The first count is also checked against a
+direct independent walk through its
+$1\,000\,032$ character values. The two
+billion-scale examples are obtained from
+certificates; their full character words
+are not constructed. These examples check
+identities and are not a statistical
+confirmation sample for the moment limits.
+
+\subsection{What the finite programs establish}
+The elliptic verifier checks the formal
+V\'elu map, its discriminant, the quotient
+change of variables, and small-prime sums.
+It rechecks 2625 large point-order
+certificates for the fixed-support
+applications, as well as the nine
+non-CM certificates for the three
+quadruplet examples.
+
+The moment verifier checks 207 admissible
+primes below 3000, including both classes
+of three. It performs 1242 point counts by
+two methods, 621 CM--Jacobi comparisons,
+621 Fermat-fibre comparisons, and 207
+direct four-window checks. It verifies
+nine additional CM point-order
+certificates at the three illustrative
+primes. Arithmetic qualification is
+checked at the small primes specified
+above. Two separate integer computations,
+by multinomials and Laurent constant
+terms, reproduce the four moments.
+All 70 joint monomials through degree
+four and all 315 index cases of
+Lemma~\ref{lem:averages} are enumerated.
+Altered certificates and requests outside
+the stated degree range are rejected.
+
+The 315 cases verify the completeness of
+the finite routing table. They do not
+prove automorphy or a prime number
+theorem. The output moment constants
+are exact evaluations of the functional
+justified in the proof, not empirical
+moments fitted to the 207 primes.
+
+The supporting programs and certificates are preserved separately in
+the \href{https://github.com/Vulkin-prog/rabung-atlas32/tree/59a9f9c501ab6781996222470049940ddef2e691}{pinned editorial integration snapshot}
+(commit \texttt{59a9f9c501ab}), including
+\path{reproducibility/cubic_quadruplets/}.
+This manuscript-only revision does not add those programs or
+alter the repository workflows. The standalone LaTeX source
+compiles without the supporting package. The following paths
+and commands refer to a separate checkout of that pinned
+snapshot, not to the manuscript-only checkout.
+From the root of the supporting snapshot, the exact
+six-curve oracle can be invoked as
+\begin{quote}\ttfamily\small
+python3 -B scripts/cubic\_quadruplets.py 4294967197
+\end{quote}
+It checks all six required curve identities
+and certificates and evaluates
+\eqref{eq:exact}, without using a fast
+Jacobi evaluator. A missing stored
+certificate set is reported as such.
+The explicit option \texttt{--generate}
+requests a bounded new six-curve
+certificate search and may refuse.
+The integrated replay command is
+\begin{quote}\ttfamily\small
+python3 -B scripts/verify\_editorial.py
+\end{quote}
+Its cubic verification uses standard
+Python only. The additional archived
+ternary diagnostics use a C++ compiler.
+No network, GPU, new prime census,
+or regeneration of the sealed atlas
+is part of these checks.
+
+\section{Consequences, scope, and review status}
+\subsection{A non-Gaussian moment signature}
+The ratio of the conditional variances
+is $44/17$. Globally the standardized
+fourth-moment ratio is
+\[
+ \frac{1900}{26^2}=\frac{475}{169}.
+\]
+A centred Gaussian of variance 26 has
+fourth moment 2028, not 1900.
+Uniform boundedness makes moment
+convergence necessary under weak
+convergence, so $D_p$ and $Y_p$ cannot
+converge in law to that Gaussian.
+This conclusion does not establish
+existence of a different complete
+limiting distribution. Compactness
+only assures subsequential limits,
+all sharing the four displayed moments.
+
+\subsection{A candidate distribution, not a theorem}
+Full joint equidistribution, if proved,
+would suggest the mixture
+\begin{align*}
+ &\frac13\,\mathcal L(8\cos\Theta+2T_1+2T_2+2T_3)\\
+ &\qquad+\frac23\,\mathcal L(4\cos\Theta+2T_1+2T_2+T_3),
+\end{align*}
+where $\Theta$ is uniform and the $T_i$
+have semicircle density
+$(2\pi)^{-1}\sqrt{4-t^2}$ on $[-2,2]$,
+independently in this candidate model.
+Symmetry makes the signs immaterial.
+Theorem~\ref{thm:moments} verifies its
+moments through degree four by a
+separate analytic argument. It does
+not prove this distributional limit.
+For example, the degree-six product
+$P_2(x_1)P_2(x_2)P_2(x_3)$ is outside
+the finite routing table established
+here. Results about one or two curves
+are not silently extended to three.
+
+\subsection{Normalized centring and critical maxima}
+The bounded correction $b_p$ vanishes
+after division by $\sqrt p$.
+Vanishing averages of normalized
+traces do not imply
+\[
+ \E(A_p-p/27)=-\E b_p/27+o(1).
+\]
+That would require substantially
+stronger cancellation of the raw
+trace sums. No constant-order
+raw-centering formula is asserted.
+
+Likewise, a four-window count of
+order $p$, with fluctuations of order
+$\sqrt p$, does not determine the
+rare occurrence count at length
+$k\sim\log_3p$ or its probability
+of being zero. The fixed-support
+application in the appendix retains
+exact signs, but makes no uniform
+claim about a family whose number
+and parameters grow with $k$.
+The global maximum problem remains
+separate from the theorems here.
+
+\subsection{Provenance and publication status}
+This manuscript consolidates the two
+research notes of 7 October 2026 on
+four-position elliptic correlations
+and cubic vertical moments.
+The companion's formulas and their
+proofs have a single principal home
+here; the atlas manuscript refers
+to them rather than duplicating
+their derivations.
+The algebraic tools, CM theory,
+and automorphic inputs are classical
+or cited published results.
+A targeted source check is not a
+complete priority review of their
+specialization to this statistic,
+and no worldwide priority claim
+is made.
+
+The analytic proof has been
+re-examined for this repository
+integration, including its base-change
+criteria, cuspidality, pole exclusions,
+and conversion from logarithmic
+coefficients to rational primes.
+The local trace test at 31 makes
+the norm-twist exclusion explicit.
+This internal revision does not
+constitute independent external
+peer review. Independent review
+of the analytic argument remains
+an editorial condition before
+publication. It is a review task,
+not an additional mathematical
+hypothesis or a GRH assumption.
+AI assistance does not replace
+author responsibility for the proof.
+
+\appendix
+\section{The signed support-four sector of a longer start count}
+For $k+1<p$ define the predecessor-indexed starts
+\[
+ J_{p,z}^{(k)}=
+ \ind_{\chi(z)\ne\chi(z+1)=\cdots=\chi(z+k)},
+ \quad 1\le z\le p-k-1,
+ \qquad Z_{p,k}=\sum_zJ_{p,z}^{(k)}.
+\]
+The neutral prefix has no predecessor in this interval.
+At each admissible $z$, subtracting the $(k+1)$-colour
+equality indicator from the last-$k$ equality indicator gives
+\begin{equation}\label{eq:long-expansion}
+ J_{p,z}^{(k)}=3^{-k}
+ \sum_{\substack{e\in\{0,1,2\}^{k+1}\\\sum e_j=0\ (3)}}
+ (3\ind_{e_0=0}-1)
+ \prod_{j:e_j\ne0}\chi(z+j)^{e_j}.
+\end{equation}
+For a support $S$ of cardinality four, the six
+active exponent patterns have two ones and two twos.
+They form three conjugate pairs, with common coefficient
+$c(S)=-1$ if $0\in S$, and $c(S)=2$ otherwise.
+Apply Theorem~\ref{thm:fourpositions} to the three
+unoriented partitions of each support.
+For integer indices compute $A,\rho$ rationally first
+and then reduce modulo $p$.
+Grouping $A$ and $-A$ is legitimate because their traces
+are equal, as proved above.
+
+Set
+\[
+ C_k=3\left(2\binom{k}{4}-\binom{k}{3}\right),\qquad
+ \mathcal E^{[4]}_{p,k}=
+ \sum_{S,\{a,b\}\mid\{c,d\}}c(S)\beta_p(\rho)t_A(p).
+\]
+The excluded residues are $z=-r$ for $0\le r\le k$.
+The active roots already contribute zero; the others
+produce the finite correction
+\[
+ H^{[4]}_{p,k}=
+ \sum_{S,\{a,b\}\mid\{c,d\}}c(S)
+ \sum_{r\in\{0,\ldots,k\}\setminus S}
+ \beta_p\left(\frac{(a-r)(b-r)}{(c-r)(d-r)}\right).
+\]
+Both the phase weights and this correction use
+only small character values of differences.
+The exact support-four contribution to $Z_{p,k}$ is
+\begin{equation}\label{eq:sector}
+ \mathcal L^{[4]}_{p,k}=
+ -\frac{2C_k+\mathcal E^{[4]}_{p,k}+H^{[4]}_{p,k}}{3^k}.
+\end{equation}
+This is a signed identity in the actual count,
+not an absolute-value upper bound or a substitute
+for the rest of the expansion.
+
+At $k=21$ there are 43890 monomials, 21945
+conjugate pairs, and 1169 rational absolute
+parameters $|A|$. Zero aggregated weights
+can be removed before trace evaluation.
+The certified applications are
+\begin{center}
+\begin{tabular}{r r r r}
+\toprule
+$p$&$k$&$\mathcal E^{[4]}_{p,k}$&$\mathcal L^{[4]}_{p,k}$\\
+\midrule
+$1\,000\,033$&13&438273&$-148373/531441$\\
+$4\,294\,967\,197$&21&$-108879048$&$36273779/3486784401$\\
+$4\,294\,967\,311$&21&130803933&$-43623131/3486784401$\\
+\bottomrule
+\end{tabular}
+\end{center}
+The corresponding $H$ values are $-18$, $-6129$,
+and 1620. This sector is expressed in units
+of the full count $Z_{p,k}$.
+The reduction does not estimate all higher
+supports collectively, and the four vertical
+moments for the six fixed curves provide no
+uniform moment theorem for these growing
+parameter lists.
+
+\begin{thebibliography}{99}
+\bibitem{atlas}
+B. Pouly, \emph{Arithmetic structure in a complete atlas of
+power-residue runs below $2^{32}$}, research manuscript,
+2026. Repository:
+\url{https://github.com/Vulkin-prog/rabung-atlas32}.
+\bibitem{velu}
+J. V\'elu, Isog\'enies entre courbes elliptiques,
+\emph{C. R. Acad. Sci. Paris S\'er. A--B} 273 (1971), A238--A241.
+\bibitem{newtonthorne}
+J. Newton and J. A. Thorne, Symmetric power functoriality
+for holomorphic modular forms, II,
+\emph{Publ. Math. IH\'ES} 134 (2021), 117--152.
+\url{https://arxiv.org/abs/2009.07180}.
+\bibitem{ramakrishnan}
+D. Ramakrishnan, Modularity of the Rankin--Selberg
+$L$-series, and multiplicity one for $\mathrm{SL}(2)$,
+\emph{Ann. of Math.} 152 (2000), 45--111.
+\url{https://arxiv.org/abs/math/0007203}.
+\bibitem{gillespieji}
+T. Gillespie and G. Ji, A prime number theorem for
+Rankin--Selberg $L$-functions over number fields,
+arXiv:0910.3660.
+\url{https://arxiv.org/abs/0910.3660}.
+\bibitem{chenshen}
+Q. Chen and E. Shen, Effective Sato--Tate distributions
+for surfaces arising from products of elliptic curves,
+arXiv:2309.08848, Section 3.3.
+\url{https://arxiv.org/abs/2309.08848}.
+\bibitem{sutherland13}
+A. V. Sutherland, \emph{18.783 Elliptic Curves},
+MIT lecture notes 13 (2023).
+\url{https://math.mit.edu/classes/18.783/2023/LectureNotes13.pdf}.
+\bibitem{sutherland21}
+A. V. Sutherland, \emph{18.783 Elliptic Curves},
+MIT lecture notes 21 (2023), Section 21.5.
+\url{https://math.mit.edu/classes/18.783/2023/LectureNotes21.pdf}.
+\end{thebibliography}
+\end{document}

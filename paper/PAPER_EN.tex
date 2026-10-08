@@ -16,7 +16,7 @@
 \makeatother
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Arithmetic structure in power-residue runs}
-\fancyhead[R]{\small Research manuscript v1.1}
+\fancyhead[R]{\small Research manuscript v1.2}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -39,7 +39,7 @@
 of power-residue runs below $2^{32}$\\[3pt]
 \large Rabung profiles, Kummer densities, norm dependencies, and local codes}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The scope of the assistance and the status of the manuscript are stated in Section~\ref{sec:reproduction}.}}
-\date{4 October 2026 \quad Research manuscript v1.1}
+\date{8 October 2026 \quad Research manuscript v1.2}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -65,6 +65,12 @@ $4096$ times the independent-sign value. The article separates exact
 finite census statements, algebraic proofs, limiting prime densities, and
 exploratory model selection. It gives no universal law for global run
 maxima and no finite-range error estimate for the limiting densities.
+A separate stratified million-profile ternary supplement localizes a
+continuation contrast on a bounded arithmetic catalogue, with the same
+filter evaluated in an independent-colour comparator. A companion
+article develops an exact cubic four-window oracle and its first four
+vertical moments; these fixed-length results remain separate from
+the critical maximum problem.
 \end{abstract}
 \noindent\textbf{Keywords.} Multiplicative characters; residue runs;
 van der Waerden numbers; Rabung construction; Kummer theory; Chebotarev
@@ -386,6 +392,266 @@ runs of length $\ell$, then
 \]
 A single weighted sum such as $A_4$ does not determine the farthest
 nonzero entry of $h_\ell$.
+
+\section{The fixed million ternary supplement}\label{sec:ternary}
+\subsection{A separate population and three different counts}
+The repository also contains a fixed sample of $1\,000\,000$
+ternary profiles on $[2^{33},2^{34})$. It is a supplement,
+not an extension of the complete census below $2^{32}$.
+There are four strata of $250\,000$ primes each: the two
+bands $[2^{33},3\cdot2^{32})$ and
+$[3\cdot2^{32},2^{34})$, each divided according to whether
+two is a cube. The equal sample weights differ from the
+asymptotic natural relative cube-class density $1/3$.
+No average with these four equal weights is presented as
+a uniform prime average over the whole band.
+
+For a prime $p$ in the supplement put $h=(p-1)/2$.
+Reflection $x\mapsto p-x$ preserves the cubic character.
+An ordinary canonical run is a maximal constant interval
+strictly inside this half-period; it excludes the initial
+run and the merged central run. Let $N_{p,k}$ count these
+ordinary runs of length at least $k$, and let $C_p$ be
+the full length of the central run. Then the predecessor
+start count on the unfolded interval is
+\begin{equation}\label{eq:ternary-starts}
+ Z_{p,k}=2N_{p,k}+\mathbf1_{L_p\ge k}+\mathbf1_{C_p\ge k}.
+\end{equation}
+Here the predecessor ranges over $1,\ldots,p-k-1$.
+The initial run at one has no predecessor, whereas its
+reflected copy does; a central run has one start.
+Overlapping $k$-windows inside a longer run are a third
+observable and must not be substituted for $N_{p,k}$.
+
+The stored thresholds are 18 through 27. The supplement
+contains $33\,257\,058$ canonical maximal runs of length
+at least 18, and $1\,235\,473$ retained canonical
+positions at length at least 21. Exactly $1\,234\,808$
+of the latter are ordinary. The difference is accounted
+for by the prefix and centre conventions. Full-million
+positions of lengths 18 through 20 were not retained.
+The stored central field is zero below length 18; it does
+not assert that the central run is absent.
+
+At threshold 21, $299\,150$ profiles satisfy the interior
+criterion $M<21$, while $293\,872$ satisfy both Rabung
+criteria $K\le21$. For these primes
+$K=\max(M+1,2L+2)$, consistent with
+Section~\ref{sec:atlas}. Supplement membership includes
+earlier diagnostic primes and is not an independent
+validation of the analyses subsequently made on it.
+The fixed selection and its scientific commitments
+are documented in \path{data/ternary-million/}.
+
+\subsection{Intensity, continuation, and a fixed comparator}
+For an independent word of $h$ uniform $r$-colours,
+the expected number of strictly interior maximal runs
+of length at least $k$ is, for $k\le h-2$,
+\begin{equation}\label{eq:iid-ordinary}
+ \mu_{h,k}=\frac{(r-1)(h-k-1)-1}{r^k}+r^{1-h}.
+\end{equation}
+For proof, an interval of exact length $\ell$ has
+probability $(r-1)^2/r^{\ell+1}$ of being constant
+and different from its two neighbours. There are
+$h-\ell-1$ interior placements; summing over
+$k\le\ell\le h-2$ gives \eqref{eq:iid-ordinary}.
+The formula retains the finite-word endpoints.
+The tiny terminal term is omitted only when an
+explicit bound or a cancelling equal-weight contrast
+allows it.
+
+Observed counts, their continuation from one threshold
+to another, and the number of profiles with zero count
+describe different features. For thresholds $a<b$,
+the independent reference has geometric continuation
+$3^{a-b}$, but the actual terminal and length corrections
+must still be respected. A raised continuation rate can
+decrease a void probability, while concentration of the
+same total on fewer primes can increase it.
+An unconditioned void deficit alone is therefore not a
+proof of repulsion.
+
+Conditioning a thinning model on its observed total
+also changes its meaning. If $A$ initial objects are
+allocated in groups and exactly $B$ survive, the
+conditional count in a group of size $n$ is
+hypergeometric:
+\[
+ \Prob(T=t\mid B)=
+ \frac{\binom nt\binom{A-n}{B-t}}{\binom AB}.
+\]
+This describes an allocation model with the total
+learned from the same sample. Even a close fit of that
+conditional comparator does not estimate the
+unconditional first intensity or prove a Poisson
+law. We retain this distinction in reporting
+the arithmetic contrasts below.
+
+\subsection{A bounded arithmetic catalogue}
+For each stored ordinary interval $[x,x+\ell-1]$,
+the wide quadratic catalogue asks whether it contains
+a position $y$ satisfying
+\[
+ (2y+A)^2\equiv D\pmod p,\qquad
+ |A|\le128,\quad0<|D|\le4096,\quad
+ D\notin\Q^2,\quad D\equiv A^2\pmod4.
+\]
+This is a root of the integer polynomial
+$X^2+AX+(A^2-D)/4$ anywhere in the run,
+not necessarily at its first position.
+The rational catalogue asks whether the complete
+interval contains a reduced cut $ap/q$ with
+$2\le q\le128$.
+The cut is nonintegral at these primes, so the
+two neighbouring integer positions must both
+belong to the interval. These parameter bounds
+are fixed catalogue limits, not an assertion that
+all possible arithmetic structures were found.
+
+The CPU classification of all $1\,234\,808$
+ordinary runs gives $1\,994$ wide quadratic hits
+and 306 rational hits. Their union has 2300 runs
+on 2187 primes. The two categories happen to be
+disjoint in this extraction; the implementation
+computes their union and does not rely on that
+being a general property.
+Among the quadratic hits, internal cubic
+identities force two to be a cube for 1856 runs,
+force the constant phase to be neutral for 1935,
+and prove both conditions for 1855.
+These are necessary-condition certificates,
+not exact Kummer density calculations for
+each detected model.
+
+Removing only this fixed union moves the
+prime-size-corrected cube/noncube contrast by
+60.53\% at threshold 21, 52.86\% at 24,
+and 83.93\% at 27. For the continuation
+24 to 27, its contrast moves from 217 to
+$563/27$, about 20.852, in units of the
+cumulative half-million counts.
+This is a finite descriptive decomposition
+after model selection. It is not a causal
+percentage explained or a prospective test.
+
+\subsection{Applying the same filter to independent colours}
+Removing an arithmetic catalogue from the observed
+word requires evaluating that very same filter
+in its comparator. Here the prime and its coordinate
+mask are kept fixed and only its colours are
+replaced by independent uniform colours.
+The mask marks a complete maximal run if it meets
+any allowed quadratic position or contains
+any allowed rational cut; it is not truncated
+to its first $k$ letters.
+
+There is a useful exact finite geometry formula.
+Remove the marked vertices and cut edges from
+the interior positions $[2,h-1]$, and let
+$L_1,\ldots,L_s$ be the remaining component lengths.
+For $L\ge k$ define
+\[
+ F_{k,r}(L)=
+ \frac{(r-1)(L-k+1)-1}{r^k}+r^{-L-1},
+ \qquad F_{k,r}(L)=0\quad(L<k).
+\]
+If $T_{p,k}$ is the count marked by the filter,
+then
+\begin{equation}\label{eq:same-filter}
+ \EE_{\rm iid}T_{p,k}
+ =F_{k,r}(h-2)-\sum_{j=1}^sF_{k,r}(L_j).
+\end{equation}
+Indeed, for every exact length $\ell$ the number
+of marked interior placements is
+$(h-\ell-1)-\sum_j(L_j-\ell+1)_+$.
+Multiplying by $(r-1)^2/r^{\ell+1}$ and summing
+proves \eqref{eq:same-filter}. Components are
+used to count placements; the observed word is
+never shortened or concatenated.
+
+For the wide mask there are 4032 nonsquare
+discriminants. In one half-period, each
+splitting discriminant gives at most one
+interval of 128 or 129 marked vertices,
+since its allowed $A$ values advance by two.
+For $p>20996$ these intervals avoid the
+word endpoints. Their total length is at
+most 518112, and there are 2510 rational
+cuts. Thus the number of intervals plus
+cuts is at most 6542. In general, if total
+marked length is at most $B$ and this
+number is at most $J$, coverage of an
+exact $\ell$-interval is bounded by
+$B+(\ell-1)J$. Summing gives the uniform
+bound
+\[
+ \EE_{\rm iid}T_{p,k}\le
+ \frac{(r-1)(B+(k-1)J)+J}{r^k}.
+\]
+Using the same word lengths for all sampled
+primes therefore gives:
+\begin{center}
+\begin{tabular}{r rr}
+\toprule
+$k$&Observed marked runs&Upper bound for iid expected total\\
+\midrule
+21&2300&124.703820\\
+24&682&4.757640\\
+27&228&0.181357\\
+\bottomrule
+\end{tabular}
+\end{center}
+The decimal upper bounds are rounded upwards.
+They compare counts with bounded expectations;
+they are not $p$-values.
+
+The continuation correction admits a sharper signed
+bound. Adding one letter to the length of a
+test interval increases its covered placements
+by a number between zero and $J$, apart from
+the final finite-word cutoff. Summing these
+increments gives, per profile,
+\[
+ -\frac{(r-1)(b-a)}{r^b}
+ \le \EE_{\rm iid}T_{p,b}
+       -r^{a-b}\EE_{\rm iid}T_{p,a}
+ \le\frac{J(r-1)(b-a)}{r^b}.
+\]
+The same bounds applied to the two equal-sized
+cube/noncube populations give an absolute
+iid contrast below 0.002575 for 24 to 27.
+After subtracting this background, the marked
+catalogue accounts for a fraction between
+90.389665\% and 90.392038\% of the initial
+contrast 217; the centred residual lies in
+$[20.849277,20.854427]$ cumulative occurrences.
+These are outward-rounded rigorous enclosures
+for the fixed comparator, not bounds for the
+error of a universal maximum law.
+
+\subsection{A separate fixed-length elliptic contribution}
+The companion manuscript~\cite{cubiccompanion}
+studies the cubic window count
+$A^{(3)}_{p,4}$ on $1,\ldots,p-1$.
+It proves an exact six-curve formula and
+four vertical moments for
+$(27A^{(3)}_{p,4}-p)/\sqrt p$.
+Its conditional second moments are 44
+when three is a cube and 17 otherwise;
+the unconditional second and fourth
+moments are 26 and 1900.
+The conditioning concerns three, whereas
+the present supplement is stratified by two.
+The principal proof and its external analytic
+inputs are in that companion.
+
+The new oracle is useful as an exact
+short-pattern cross-check. It neither
+replaces the atlas's quadratic A4 column
+nor reconstructs the maximum. In particular,
+fixed-length trace moments do not close
+the first intensity or the void probability
+for logarithmically long cubic runs.
 
 \section{Structural classification of extreme witnesses}\label{sec:classification}
 \subsection{Boundary structure and rational anchors}
@@ -1362,6 +1628,33 @@ including dependencies invisible at lower orders of marginals.
 These statements have different scopes and should not be combined
 into one fitted extreme-value law.
 
+For clarity, one critical conjecture pursued by this
+programme chooses a prime uniformly from
+$\mathcal P_3(X)=\{X\le p<2X:p\equiv1\pmod3\}$
+and an integer threshold $k=\log_3X+O(1)$.
+The independent-colour half-period intensity is
+$\lambda_{p,k}=(p-1)/3^k$. Its proposed void target is
+\[
+ \Pr_{\mathcal P_3(X)}(M_3(p)<k)
+ -\EE_{\mathcal P_3(X)}e^{-\lambda_{p,k}}\longrightarrow0.
+\]
+This is a research conjecture, not a theorem
+of the atlas or its companion. Prime-size
+variation is retained inside the mixture;
+$\EE e^{-\lambda}$ is not replaced by
+$e^{-\EE\lambda}$. Reflection also prevents
+interpreting the full-word start count as
+a simple Poisson variable merely by doubling
+a half-word mean. First intensity, dependence
+of occurrences, and a vanishing count
+probability each require an argument.
+Fixed templates, local codes, and short
+trace moments do not supply these estimates
+uniformly at growing length. The bounded
+catalogue removal above leaves a measured
+residual, and supplies no automatic
+asymptotic estimate for it.
+
 Several focused questions now have concrete starting points.
 For a general $S_d$ family, one can ask when the quotient of the
 relation space by internal and common-class identifications is
@@ -1451,9 +1744,30 @@ This verification is an exact arithmetic audit, not a formal
 proof assistant development. The additional
 \texttt{reproducibility/proofs/verify\_report4.py} checks the short
 quadratic identities, the sixteen comparison generators, and
-explicit parity normal forms. The public repository edition
-changes only packaging and provenance descriptions relative to
-manuscript version 1.1; its mathematical content is unchanged.
+explicit parity normal forms.
+
+The additional supporting evidence is preserved separately in the
+\href{https://github.com/Vulkin-prog/rabung-atlas32/tree/59a9f9c501ab6781996222470049940ddef2e691}{pinned editorial integration snapshot}
+(commit \texttt{59a9f9c501ab}). It is not imported by this
+manuscript-only revision. In that snapshot,
+\path{reproducibility/ternary_diagnostics/} and
+\path{reproducibility/cubic_quadruplets/} contain the fixed-coordinate
+diagnostics, the same-filter finite comparator, the elliptic
+identities and trace certificates, and the moment arithmetic.
+Its \path{scripts/verify_editorial.py} replays these checks;
+the explicit \texttt{--catalogue} option reclassifies the retained
+ordinary positions on CPU and compares the archived hit lists,
+without rescanning the full character words. These paths and
+commands refer to a separate checkout of the supporting snapshot,
+not to additional files in this manuscript-only revision.
+The snapshot also retains its editorial provenance and hashes
+separately from the original publication manifest.
+Both manuscript sources compile independently without this
+supporting code or the atlas data. This revision changes only
+the two manuscript sources and their compiled PDFs. The complete
+atlas, the fixed-million scientific files, their seals, the
+repository programs and workflows, and earlier primary tests
+are unchanged.
 
 The manuscript was prepared with AI assistance for computation,
 proof development, literature retrieval, and English writing.
@@ -1627,6 +1941,14 @@ $3\,696\,971\,783$ & $(1,126,5593,102996,657004)$ & 55 & 54 & 53 \\
 
 
 \begin{thebibliography}{99}
+\bibitem{cubiccompanion}
+B. Pouly, \emph{Cubic-residue quadruplets:
+elliptic formulas and arithmetic fluctuations},
+research manuscript, 2026, in the same repository.
+Standalone source:
+\path{paper/CUBIC_QUADRUPLETS_EN.tex}.
+Supporting certificates are in the pinned snapshot described
+in Section~\ref{sec:reproduction}.
 \bibitem{rabung} J.~R. Rabung,
 \emph{Some Progression-Free Partitions Constructed using Folkman's Method},
 Canadian Mathematical Bulletin \textbf{22} (1979), 87--91.
