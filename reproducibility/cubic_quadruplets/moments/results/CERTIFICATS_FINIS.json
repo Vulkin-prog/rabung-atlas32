@@ -1,0 +1,3505 @@
+{
+  "arithmetic_witnesses": {
+    "curves": [
+      {
+        "Weierstrass_discriminant": -11943936,
+        "a": -99,
+        "b": 414,
+        "curve_index": 0,
+        "inert_prime": 5,
+        "j_invariant": {
+          "denominator": 4,
+          "numerator": -35937
+        },
+        "ordinary_witnesses": [
+          {
+            "Frobenius_field_squarefree": -11,
+            "p": 5,
+            "trace": -3
+          },
+          {
+            "Frobenius_field_squarefree": -3,
+            "p": 7,
+            "trace": -4
+          }
+        ],
+        "symmetric_power_integer_traces": [
+          -3,
+          4,
+          3,
+          -29
+        ]
+      },
+      {
+        "Weierstrass_discriminant": 1296,
+        "a": -21,
+        "b": 37,
+        "curve_index": 1,
+        "inert_prime": 5,
+        "j_invariant": {
+          "denominator": 1,
+          "numerator": 790272
+        },
+        "ordinary_witnesses": [
+          {
+            "Frobenius_field_squarefree": -11,
+            "p": 5,
+            "trace": 3
+          },
+          {
+            "Frobenius_field_squarefree": -3,
+            "p": 7,
+            "trace": -1
+          }
+        ],
+        "symmetric_power_integer_traces": [
+          3,
+          4,
+          -3,
+          -29
+        ]
+      },
+      {
+        "Weierstrass_discriminant": -2902376448,
+        "a": -2835,
+        "b": 58158,
+        "curve_index": 2,
+        "inert_prime": 11,
+        "j_invariant": {
+          "denominator": 4,
+          "numerator": -3472875
+        },
+        "ordinary_witnesses": [
+          {
+            "Frobenius_field_squarefree": -3,
+            "p": 7,
+            "trace": -1
+          },
+          {
+            "Frobenius_field_squarefree": -51,
+            "p": 19,
+            "trace": 5
+          }
+        ],
+        "symmetric_power_integer_traces": [
+          -6,
+          25,
+          -84,
+          229
+        ]
+      }
+    ],
+    "normalized_Sym2_at_31": [
+      {
+        "denominator": 31,
+        "numerator": -15
+      },
+      {
+        "denominator": 31,
+        "numerator": -6
+      },
+      {
+        "denominator": 31,
+        "numerator": 18
+      }
+    ],
+    "traces31": [
+      -4,
+      5,
+      -7
+    ]
+  },
+  "large_cases": [
+    {
+      "A4": 36876,
+      "CM_traces": [
+        -670,
+        1967,
+        -1297
+      ],
+      "E_traces": [
+        119,
+        227,
+        -1069
+      ],
+      "corrected_fourth": {
+        "denominator": 1000066001089,
+        "numerator": 359710104300625
+      },
+      "corrected_numerator": -4355,
+      "corrected_square": {
+        "denominator": 1000033,
+        "numerator": 18966025
+      },
+      "correction": 26,
+      "cube3": false,
+      "p": 1000033
+    },
+    {
+      "A4": 159072704,
+      "CM_traces": [
+        43250,
+        85529,
+        -128779
+      ],
+      "E_traces": [
+        -34978,
+        -101713,
+        -19969
+      ],
+      "corrected_fourth": {
+        "denominator": 18446743223306036809,
+        "numerator": 295187620050625
+      },
+      "corrected_numerator": -4145,
+      "corrected_square": {
+        "denominator": 4294967197,
+        "numerator": 17181025
+      },
+      "correction": 44,
+      "cube3": false,
+      "p": 4294967197
+    },
+    {
+      "A4": 159072584,
+      "CM_traces": [
+        124244,
+        -25963,
+        -98281
+      ],
+      "E_traces": [
+        -52264,
+        -46204,
+        -7891
+      ],
+      "corrected_fourth": {
+        "denominator": 18446744202558570721,
+        "numerator": 3192847684973521
+      },
+      "corrected_numerator": -7517,
+      "corrected_square": {
+        "denominator": 4294967311,
+        "numerator": 56505289
+      },
+      "correction": 26,
+      "cube3": false,
+      "p": 4294967311
+    }
+  ],
+  "purpose": "exact identities, not statistical validation",
+  "small_cases": [
+    {
+      "A4": 0,
+      "CM_traces": [
+        -4,
+        -1,
+        5
+      ],
+      "E_traces": [
+        -4,
+        -1,
+        -1
+      ],
+      "corrected_numerator": 19,
+      "cube3": false,
+      "p": 7
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        2,
+        -7,
+        5
+      ],
+      "E_traces": [
+        -1,
+        -1,
+        -1
+      ],
+      "corrected_numerator": 13,
+      "cube3": false,
+      "p": 13
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        8,
+        -1,
+        -7
+      ],
+      "E_traces": [
+        -4,
+        -4,
+        5
+      ],
+      "corrected_numerator": 7,
+      "cube3": false,
+      "p": 19
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        -4,
+        -7,
+        11
+      ],
+      "E_traces": [
+        -4,
+        5,
+        -7
+      ],
+      "corrected_numerator": 13,
+      "cube3": false,
+      "p": 31
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        -10,
+        11,
+        -1
+      ],
+      "E_traces": [
+        -1,
+        2,
+        -7
+      ],
+      "corrected_numerator": -11,
+      "cube3": false,
+      "p": 37
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        8,
+        -13,
+        5
+      ],
+      "E_traces": [
+        8,
+        -1,
+        5
+      ],
+      "corrected_numerator": 1,
+      "cube3": false,
+      "p": 43
+    },
+    {
+      "A4": 1,
+      "CM_traces": [
+        14,
+        14,
+        14
+      ],
+      "E_traces": [
+        -1,
+        -13,
+        -10
+      ],
+      "corrected_numerator": -8,
+      "cube3": true,
+      "p": 61
+    },
+    {
+      "A4": 5,
+      "CM_traces": [
+        -16,
+        -16,
+        -16
+      ],
+      "E_traces": [
+        -4,
+        -7,
+        -4
+      ],
+      "corrected_numerator": 94,
+      "cube3": true,
+      "p": 67
+    },
+    {
+      "A4": 3,
+      "CM_traces": [
+        -10,
+        -10,
+        -10
+      ],
+      "E_traces": [
+        11,
+        -10,
+        2
+      ],
+      "corrected_numerator": 34,
+      "cube3": true,
+      "p": 73
+    },
+    {
+      "A4": 4,
+      "CM_traces": [
+        -4,
+        -13,
+        17
+      ],
+      "E_traces": [
+        -16,
+        11,
+        11
+      ],
+      "corrected_numerator": 55,
+      "cube3": false,
+      "p": 79
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        14,
+        5,
+        -19
+      ],
+      "E_traces": [
+        2,
+        11,
+        -7
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 97
+    },
+    {
+      "A4": 1,
+      "CM_traces": [
+        20,
+        20,
+        20
+      ],
+      "E_traces": [
+        -4,
+        -7,
+        -4
+      ],
+      "corrected_numerator": -50,
+      "cube3": true,
+      "p": 103
+    },
+    {
+      "A4": 0,
+      "CM_traces": [
+        2,
+        17,
+        -19
+      ],
+      "E_traces": [
+        11,
+        2,
+        -1
+      ],
+      "corrected_numerator": -65,
+      "cube3": false,
+      "p": 109
+    },
+    {
+      "A4": 6,
+      "CM_traces": [
+        20,
+        -19,
+        -1
+      ],
+      "E_traces": [
+        -16,
+        -16,
+        17
+      ],
+      "corrected_numerator": 79,
+      "cube3": false,
+      "p": 127
+    },
+    {
+      "A4": 2,
+      "CM_traces": [
+        -16,
+        23,
+        -7
+      ],
+      "E_traces": [
+        20,
+        5,
+        5
+      ],
+      "corrected_numerator": -59,
+      "cube3": false,
+      "p": 139
+    },
+    {
+      "A4": 5,
+      "CM_traces": [
+        -4,
+        -4,
+        -4
+      ],
+      "E_traces": [
+        8,
+        -13,
+        8
+      ],
+      "corrected_numerator": 10,
+      "cube3": true,
+      "p": 151
+    },
+    {
+      "A4": 4,
+      "CM_traces": [
+        14,
+        11,
+        -25
+      ],
+      "E_traces": [
+        -13,
+        -13,
+        -7
+      ],
+      "corrected_numerator": -5,
+      "cube3": false,
+      "p": 157
+    },
+    {
+      "A4": 4,
+      "CM_traces": [
+        8,
+        -25,
+        17
+      ],
+      "E_traces": [
+        8,
+        20,
+        -7
+      ],
+      "corrected_numerator": -29,
+      "cube3": false,
+      "p": 163
+    },
+    {
+      "A4": 4,
+      "CM_traces": [
+        26,
+        -7,
+        -19
+      ],
+      "E_traces": [
+        -10,
+        2,
+        -25
+      ],
+      "corrected_numerator": -47,
+      "cube3": false,
+      "p": 181
+    },
+    {
+      "A4": 5,
+      "CM_traces": [
+        2,
+        2,
+        2
+      ],
+      "E_traces": [
+        -13,
+        11,
+        14
+      ],
+      "corrected_numerator": -32,
+      "cube3": true,
+      "p": 193
+    },
+    {
+      "A4": 8,
+      "CM_traces": [
+        -28,
+        17,
+        11
+      ],
+      "E_traces": [
+        -4,
+        -4,
+        5
+      ],
+      "corrected_numerator": 43,
+      "cube3": false,
+      "p": 199
+    },
+    {
+      "A4": 4,
+      "CM_traces": [
+        -16,
+        29,
+        -13
+      ],
+      "E_traces": [
+        8,
+        17,
+        -1
+      ],
+      "corrected_numerator": -77,
+      "cube3": false,
+      "p": 211
+    },
+    {
+      "A4": 8,
+      "CM_traces": [
+        -28,
+        5,
+        23
+      ],
+      "E_traces": [
+        8,
+        -1,
+        5
+      ],
+      "corrected_numerator": 37,
+      "cube3": false,
+      "p": 223
+    },
+    {
+      "A4": 6,
+      "CM_traces": [
+        -22,
+        29,
+        -7
+      ],
+      "E_traces": [
+        23,
+        -13,
+        11
+      ],
+      "corrected_numerator": -23,
+      "cube3": false,
+      "p": 229
+    },
+    {
+      "A4": 6,
+      "CM_traces": [
+        14,
+        17,
+        -31
+      ],
+      "E_traces": [
+        -13,
+        -1,
+        -19
+      ],
+      "corrected_numerator": -53,
+      "cube3": false,
+      "p": 241
+    },
+    {
+      "A4": 15,
+      "CM_traces": [
+        -28,
+        -28,
+        -28
+      ],
+      "E_traces": [
+        -16,
+        8,
+        -16
+      ],
+      "corrected_numerator": 160,
+      "cube3": true,
+      "p": 271
+    },
+    {
+      "A4": 8,
+      "CM_traces": [
+        26,
+        5,
+        -31
+      ],
+      "E_traces": [
+        -10,
+        -1,
+        23
+      ],
+      "corrected_numerator": -17,
+      "cube3": false,
+      "p": 277
+    },
+    {
+      "A4": 8,
+      "CM_traces": [
+        32,
+        -25,
+        -7
+      ],
+      "E_traces": [
+        -4,
+        5,
+        -7
+      ],
+      "corrected_numerator": -23,
+      "cube3": false,
+      "p": 283
+    },
+    {
+      "A4": 7,
+      "CM_traces": [
+        -16,
+        -16,
+        -16
+      ],
+      "E_traces": [
+        20,
+        20,
+        20
+      ],
+      "corrected_numerator": -56,
+      "cube3": true,
+      "p": 307
+    },
+    {
+      "A4": 8,
+      "CM_traces": [
+        -22,
+        35,
+        -13
+      ],
+      "E_traces": [
+        23,
+        -1,
+        -1
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 313
+    },
+    {
+      "A4": 8,
+      "CM_traces": [
+        32,
+        -31,
+        -1
+      ],
+      "E_traces": [
+        20,
+        11,
+        -25
+      ],
+      "corrected_numerator": -89,
+      "cube3": false,
+      "p": 331
+    },
+    {
+      "A4": 12,
+      "CM_traces": [
+        -34,
+        5,
+        29
+      ],
+      "E_traces": [
+        2,
+        23,
+        5
+      ],
+      "corrected_numerator": 13,
+      "cube3": false,
+      "p": 337
+    },
+    {
+      "A4": 12,
+      "CM_traces": [
+        14,
+        -37,
+        23
+      ],
+      "E_traces": [
+        14,
+        -1,
+        -19
+      ],
+      "corrected_numerator": 1,
+      "cube3": false,
+      "p": 349
+    },
+    {
+      "A4": 13,
+      "CM_traces": [
+        -4,
+        -4,
+        -4
+      ],
+      "E_traces": [
+        8,
+        -13,
+        8
+      ],
+      "corrected_numerator": 10,
+      "cube3": true,
+      "p": 367
+    },
+    {
+      "A4": 12,
+      "CM_traces": [
+        38,
+        -25,
+        -13
+      ],
+      "E_traces": [
+        -10,
+        -1,
+        -19
+      ],
+      "corrected_numerator": -23,
+      "cube3": false,
+      "p": 373
+    },
+    {
+      "A4": 14,
+      "CM_traces": [
+        8,
+        29,
+        -37
+      ],
+      "E_traces": [
+        -28,
+        -16,
+        11
+      ],
+      "corrected_numerator": 25,
+      "cube3": false,
+      "p": 379
+    },
+    {
+      "A4": 14,
+      "CM_traces": [
+        -34,
+        35,
+        -1
+      ],
+      "E_traces": [
+        -25,
+        2,
+        -19
+      ],
+      "corrected_numerator": 25,
+      "cube3": false,
+      "p": 397
+    },
+    {
+      "A4": 14,
+      "CM_traces": [
+        38,
+        -31,
+        -7
+      ],
+      "E_traces": [
+        -25,
+        23,
+        5
+      ],
+      "corrected_numerator": -5,
+      "cube3": false,
+      "p": 409
+    },
+    {
+      "A4": 16,
+      "CM_traces": [
+        -22,
+        -19,
+        41
+      ],
+      "E_traces": [
+        -13,
+        35,
+        -1
+      ],
+      "corrected_numerator": 37,
+      "cube3": false,
+      "p": 421
+    },
+    {
+      "A4": 20,
+      "CM_traces": [
+        2,
+        -37,
+        35
+      ],
+      "E_traces": [
+        11,
+        -34,
+        35
+      ],
+      "corrected_numerator": 151,
+      "cube3": false,
+      "p": 433
+    },
+    {
+      "A4": 17,
+      "CM_traces": [
+        -28,
+        -28,
+        -28
+      ],
+      "E_traces": [
+        -28,
+        35,
+        8
+      ],
+      "corrected_numerator": 82,
+      "cube3": true,
+      "p": 439
+    },
+    {
+      "A4": 20,
+      "CM_traces": [
+        -10,
+        -31,
+        41
+      ],
+      "E_traces": [
+        -1,
+        -37,
+        -31
+      ],
+      "corrected_numerator": 127,
+      "cube3": false,
+      "p": 457
+    },
+    {
+      "A4": 18,
+      "CM_traces": [
+        20,
+        -43,
+        23
+      ],
+      "E_traces": [
+        8,
+        -19,
+        -19
+      ],
+      "corrected_numerator": 49,
+      "cube3": false,
+      "p": 463
+    },
+    {
+      "A4": 12,
+      "CM_traces": [
+        44,
+        -19,
+        -25
+      ],
+      "E_traces": [
+        -4,
+        32,
+        -31
+      ],
+      "corrected_numerator": -137,
+      "cube3": false,
+      "p": 487
+    },
+    {
+      "A4": 17,
+      "CM_traces": [
+        32,
+        32,
+        32
+      ],
+      "E_traces": [
+        -40,
+        5,
+        -40
+      ],
+      "corrected_numerator": 22,
+      "cube3": true,
+      "p": 499
+    },
+    {
+      "A4": 19,
+      "CM_traces": [
+        8,
+        8,
+        8
+      ],
+      "E_traces": [
+        -16,
+        8,
+        -16
+      ],
+      "corrected_numerator": 16,
+      "cube3": true,
+      "p": 523
+    },
+    {
+      "A4": 22,
+      "CM_traces": [
+        -46,
+        29,
+        17
+      ],
+      "E_traces": [
+        -1,
+        -34,
+        -25
+      ],
+      "corrected_numerator": 79,
+      "cube3": false,
+      "p": 541
+    },
+    {
+      "A4": 25,
+      "CM_traces": [
+        -40,
+        -40,
+        -40
+      ],
+      "E_traces": [
+        44,
+        -13,
+        -28
+      ],
+      "corrected_numerator": 154,
+      "cube3": true,
+      "p": 547
+    },
+    {
+      "A4": 28,
+      "CM_traces": [
+        -16,
+        -31,
+        47
+      ],
+      "E_traces": [
+        -16,
+        -31,
+        23
+      ],
+      "corrected_numerator": 211,
+      "cube3": false,
+      "p": 571
+    },
+    {
+      "A4": 27,
+      "CM_traces": [
+        -46,
+        -46,
+        -46
+      ],
+      "E_traces": [
+        -25,
+        -10,
+        38
+      ],
+      "corrected_numerator": 178,
+      "cube3": true,
+      "p": 577
+    },
+    {
+      "A4": 18,
+      "CM_traces": [
+        26,
+        -49,
+        23
+      ],
+      "E_traces": [
+        35,
+        35,
+        23
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 601
+    },
+    {
+      "A4": 20,
+      "CM_traces": [
+        20,
+        -49,
+        29
+      ],
+      "E_traces": [
+        20,
+        41,
+        23
+      ],
+      "corrected_numerator": -41,
+      "cube3": false,
+      "p": 607
+    },
+    {
+      "A4": 21,
+      "CM_traces": [
+        -10,
+        -10,
+        -10
+      ],
+      "E_traces": [
+        38,
+        26,
+        -34
+      ],
+      "corrected_numerator": -20,
+      "cube3": true,
+      "p": 613
+    },
+    {
+      "A4": 17,
+      "CM_traces": [
+        32,
+        32,
+        32
+      ],
+      "E_traces": [
+        8,
+        -13,
+        8
+      ],
+      "corrected_numerator": -134,
+      "cube3": true,
+      "p": 619
+    },
+    {
+      "A4": 24,
+      "CM_traces": [
+        44,
+        -43,
+        -1
+      ],
+      "E_traces": [
+        8,
+        -16,
+        29
+      ],
+      "corrected_numerator": 43,
+      "cube3": false,
+      "p": 631
+    },
+    {
+      "A4": 25,
+      "CM_traces": [
+        -40,
+        -40,
+        -40
+      ],
+      "E_traces": [
+        -4,
+        41,
+        -4
+      ],
+      "corrected_numerator": 94,
+      "cube3": true,
+      "p": 643
+    },
+    {
+      "A4": 17,
+      "CM_traces": [
+        38,
+        38,
+        38
+      ],
+      "E_traces": [
+        23,
+        11,
+        -22
+      ],
+      "corrected_numerator": -176,
+      "cube3": true,
+      "p": 661
+    },
+    {
+      "A4": 20,
+      "CM_traces": [
+        50,
+        -13,
+        -37
+      ],
+      "E_traces": [
+        11,
+        11,
+        11
+      ],
+      "corrected_numerator": -107,
+      "cube3": false,
+      "p": 673
+    },
+    {
+      "A4": 22,
+      "CM_traces": [
+        8,
+        41,
+        -49
+      ],
+      "E_traces": [
+        -28,
+        -1,
+        -13
+      ],
+      "corrected_numerator": -53,
+      "cube3": false,
+      "p": 691
+    },
+    {
+      "A4": 28,
+      "CM_traces": [
+        -22,
+        -31,
+        53
+      ],
+      "E_traces": [
+        47,
+        -25,
+        11
+      ],
+      "corrected_numerator": 73,
+      "cube3": false,
+      "p": 709
+    },
+    {
+      "A4": 25,
+      "CM_traces": [
+        44,
+        44,
+        44
+      ],
+      "E_traces": [
+        -28,
+        -37,
+        -28
+      ],
+      "corrected_numerator": 10,
+      "cube3": true,
+      "p": 727
+    },
+    {
+      "A4": 20,
+      "CM_traces": [
+        50,
+        -7,
+        -43
+      ],
+      "E_traces": [
+        14,
+        23,
+        11
+      ],
+      "corrected_numerator": -149,
+      "cube3": false,
+      "p": 733
+    },
+    {
+      "A4": 24,
+      "CM_traces": [
+        -16,
+        53,
+        -37
+      ],
+      "E_traces": [
+        20,
+        -16,
+        35
+      ],
+      "corrected_numerator": -47,
+      "cube3": false,
+      "p": 739
+    },
+    {
+      "A4": 30,
+      "CM_traces": [
+        -52,
+        41,
+        11
+      ],
+      "E_traces": [
+        20,
+        -31,
+        41
+      ],
+      "corrected_numerator": 85,
+      "cube3": false,
+      "p": 751
+    },
+    {
+      "A4": 21,
+      "CM_traces": [
+        26,
+        26,
+        26
+      ],
+      "E_traces": [
+        38,
+        -10,
+        2
+      ],
+      "corrected_numerator": -164,
+      "cube3": true,
+      "p": 757
+    },
+    {
+      "A4": 28,
+      "CM_traces": [
+        2,
+        47,
+        -49
+      ],
+      "E_traces": [
+        -37,
+        -1,
+        35
+      ],
+      "corrected_numerator": 13,
+      "cube3": false,
+      "p": 769
+    },
+    {
+      "A4": 21,
+      "CM_traces": [
+        56,
+        56,
+        56
+      ],
+      "E_traces": [
+        32,
+        -43,
+        -4
+      ],
+      "corrected_numerator": -194,
+      "cube3": true,
+      "p": 787
+    },
+    {
+      "A4": 26,
+      "CM_traces": [
+        56,
+        -37,
+        -19
+      ],
+      "E_traces": [
+        -16,
+        20,
+        -19
+      ],
+      "corrected_numerator": -65,
+      "cube3": false,
+      "p": 811
+    },
+    {
+      "A4": 28,
+      "CM_traces": [
+        -52,
+        47,
+        5
+      ],
+      "E_traces": [
+        44,
+        -19,
+        -1
+      ],
+      "corrected_numerator": -41,
+      "cube3": false,
+      "p": 823
+    },
+    {
+      "A4": 24,
+      "CM_traces": [
+        -46,
+        53,
+        -7
+      ],
+      "E_traces": [
+        14,
+        50,
+        -13
+      ],
+      "corrected_numerator": -155,
+      "cube3": false,
+      "p": 829
+    },
+    {
+      "A4": 39,
+      "CM_traces": [
+        -58,
+        -58,
+        -58
+      ],
+      "E_traces": [
+        -10,
+        -13,
+        26
+      ],
+      "corrected_numerator": 226,
+      "cube3": true,
+      "p": 853
+    },
+    {
+      "A4": 30,
+      "CM_traces": [
+        56,
+        -13,
+        -43
+      ],
+      "E_traces": [
+        -52,
+        41,
+        41
+      ],
+      "corrected_numerator": -23,
+      "cube3": false,
+      "p": 859
+    },
+    {
+      "A4": 30,
+      "CM_traces": [
+        -34,
+        59,
+        -25
+      ],
+      "E_traces": [
+        -25,
+        23,
+        5
+      ],
+      "corrected_numerator": -41,
+      "cube3": false,
+      "p": 877
+    },
+    {
+      "A4": 34,
+      "CM_traces": [
+        8,
+        -55,
+        47
+      ],
+      "E_traces": [
+        -4,
+        -4,
+        -49
+      ],
+      "corrected_numerator": 61,
+      "cube3": false,
+      "p": 883
+    },
+    {
+      "A4": 30,
+      "CM_traces": [
+        -40,
+        59,
+        -19
+      ],
+      "E_traces": [
+        -16,
+        47,
+        29
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 907
+    },
+    {
+      "A4": 43,
+      "CM_traces": [
+        -52,
+        -52,
+        -52
+      ],
+      "E_traces": [
+        -16,
+        -16,
+        -16
+      ],
+      "corrected_numerator": 304,
+      "cube3": true,
+      "p": 919
+    },
+    {
+      "A4": 42,
+      "CM_traces": [
+        26,
+        -61,
+        35
+      ],
+      "E_traces": [
+        -37,
+        -34,
+        11
+      ],
+      "corrected_numerator": 223,
+      "cube3": false,
+      "p": 937
+    },
+    {
+      "A4": 33,
+      "CM_traces": [
+        20,
+        20,
+        20
+      ],
+      "E_traces": [
+        -4,
+        -43,
+        32
+      ],
+      "corrected_numerator": -50,
+      "cube3": true,
+      "p": 967
+    },
+    {
+      "A4": 31,
+      "CM_traces": [
+        44,
+        44,
+        44
+      ],
+      "E_traces": [
+        -52,
+        8,
+        20
+      ],
+      "corrected_numerator": -128,
+      "cube3": true,
+      "p": 991
+    },
+    {
+      "A4": 37,
+      "CM_traces": [
+        -10,
+        -10,
+        -10
+      ],
+      "E_traces": [
+        -37,
+        -1,
+        26
+      ],
+      "corrected_numerator": 64,
+      "cube3": true,
+      "p": 997
+    },
+    {
+      "A4": 27,
+      "CM_traces": [
+        62,
+        62,
+        62
+      ],
+      "E_traces": [
+        11,
+        -10,
+        2
+      ],
+      "corrected_numerator": -254,
+      "cube3": true,
+      "p": 1009
+    },
+    {
+      "A4": 29,
+      "CM_traces": [
+        14,
+        14,
+        14
+      ],
+      "E_traces": [
+        23,
+        23,
+        14
+      ],
+      "corrected_numerator": -176,
+      "cube3": true,
+      "p": 1021
+    },
+    {
+      "A4": 42,
+      "CM_traces": [
+        -58,
+        53,
+        5
+      ],
+      "E_traces": [
+        -13,
+        -37,
+        17
+      ],
+      "corrected_numerator": 127,
+      "cube3": false,
+      "p": 1033
+    },
+    {
+      "A4": 46,
+      "CM_traces": [
+        -52,
+        -7,
+        59
+      ],
+      "E_traces": [
+        8,
+        -55,
+        17
+      ],
+      "corrected_numerator": 229,
+      "cube3": false,
+      "p": 1039
+    },
+    {
+      "A4": 40,
+      "CM_traces": [
+        -64,
+        23,
+        41
+      ],
+      "E_traces": [
+        8,
+        -1,
+        5
+      ],
+      "corrected_numerator": 73,
+      "cube3": false,
+      "p": 1051
+    },
+    {
+      "A4": 42,
+      "CM_traces": [
+        -28,
+        -37,
+        65
+      ],
+      "E_traces": [
+        32,
+        -40,
+        -49
+      ],
+      "corrected_numerator": 97,
+      "cube3": false,
+      "p": 1063
+    },
+    {
+      "A4": 36,
+      "CM_traces": [
+        62,
+        -13,
+        -49
+      ],
+      "E_traces": [
+        -1,
+        -1,
+        41
+      ],
+      "corrected_numerator": -53,
+      "cube3": false,
+      "p": 1069
+    },
+    {
+      "A4": 42,
+      "CM_traces": [
+        -4,
+        -55,
+        59
+      ],
+      "E_traces": [
+        32,
+        -1,
+        17
+      ],
+      "corrected_numerator": 73,
+      "cube3": false,
+      "p": 1087
+    },
+    {
+      "A4": 45,
+      "CM_traces": [
+        -22,
+        -22,
+        -22
+      ],
+      "E_traces": [
+        -13,
+        -13,
+        -22
+      ],
+      "corrected_numerator": 184,
+      "cube3": true,
+      "p": 1093
+    },
+    {
+      "A4": 47,
+      "CM_traces": [
+        -46,
+        -46,
+        -46
+      ],
+      "E_traces": [
+        -61,
+        62,
+        2
+      ],
+      "corrected_numerator": 178,
+      "cube3": true,
+      "p": 1117
+    },
+    {
+      "A4": 38,
+      "CM_traces": [
+        32,
+        35,
+        -67
+      ],
+      "E_traces": [
+        -40,
+        -1,
+        -19
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 1123
+    },
+    {
+      "A4": 36,
+      "CM_traces": [
+        38,
+        29,
+        -67
+      ],
+      "E_traces": [
+        26,
+        -1,
+        53
+      ],
+      "corrected_numerator": -131,
+      "cube3": false,
+      "p": 1129
+    },
+    {
+      "A4": 40,
+      "CM_traces": [
+        62,
+        -55,
+        -7
+      ],
+      "E_traces": [
+        23,
+        14,
+        41
+      ],
+      "corrected_numerator": -47,
+      "cube3": false,
+      "p": 1153
+    },
+    {
+      "A4": 44,
+      "CM_traces": [
+        -64,
+        11,
+        53
+      ],
+      "E_traces": [
+        8,
+        20,
+        -7
+      ],
+      "corrected_numerator": 43,
+      "cube3": false,
+      "p": 1171
+    },
+    {
+      "A4": 52,
+      "CM_traces": [
+        2,
+        -61,
+        59
+      ],
+      "E_traces": [
+        -1,
+        -37,
+        35
+      ],
+      "corrected_numerator": 229,
+      "cube3": false,
+      "p": 1201
+    },
+    {
+      "A4": 42,
+      "CM_traces": [
+        50,
+        -67,
+        17
+      ],
+      "E_traces": [
+        -34,
+        47,
+        -61
+      ],
+      "corrected_numerator": -53,
+      "cube3": false,
+      "p": 1213
+    },
+    {
+      "A4": 48,
+      "CM_traces": [
+        68,
+        -49,
+        -19
+      ],
+      "E_traces": [
+        -16,
+        -25,
+        47
+      ],
+      "corrected_numerator": 91,
+      "cube3": false,
+      "p": 1231
+    },
+    {
+      "A4": 50,
+      "CM_traces": [
+        -70,
+        29,
+        41
+      ],
+      "E_traces": [
+        -10,
+        -37,
+        -37
+      ],
+      "corrected_numerator": 139,
+      "cube3": false,
+      "p": 1237
+    },
+    {
+      "A4": 45,
+      "CM_traces": [
+        14,
+        14,
+        14
+      ],
+      "E_traces": [
+        -1,
+        23,
+        -46
+      ],
+      "corrected_numerator": -8,
+      "cube3": true,
+      "p": 1249
+    },
+    {
+      "A4": 46,
+      "CM_traces": [
+        -28,
+        71,
+        -43
+      ],
+      "E_traces": [
+        -4,
+        -40,
+        -13
+      ],
+      "corrected_numerator": -11,
+      "cube3": false,
+      "p": 1279
+    },
+    {
+      "A4": 44,
+      "CM_traces": [
+        56,
+        -67,
+        11
+      ],
+      "E_traces": [
+        20,
+        5,
+        -49
+      ],
+      "corrected_numerator": -77,
+      "cube3": false,
+      "p": 1291
+    },
+    {
+      "A4": 52,
+      "CM_traces": [
+        -46,
+        -25,
+        71
+      ],
+      "E_traces": [
+        -46,
+        38,
+        -25
+      ],
+      "corrected_numerator": 133,
+      "cube3": false,
+      "p": 1297
+    },
+    {
+      "A4": 37,
+      "CM_traces": [
+        68,
+        68,
+        68
+      ],
+      "E_traces": [
+        -28,
+        23,
+        8
+      ],
+      "corrected_numerator": -278,
+      "cube3": true,
+      "p": 1303
+    },
+    {
+      "A4": 43,
+      "CM_traces": [
+        -22,
+        -22,
+        -22
+      ],
+      "E_traces": [
+        26,
+        23,
+        62
+      ],
+      "corrected_numerator": -134,
+      "cube3": true,
+      "p": 1321
+    },
+    {
+      "A4": 50,
+      "CM_traces": [
+        -4,
+        -61,
+        65
+      ],
+      "E_traces": [
+        32,
+        5,
+        11
+      ],
+      "corrected_numerator": 67,
+      "cube3": false,
+      "p": 1327
+    },
+    {
+      "A4": 40,
+      "CM_traces": [
+        74,
+        -43,
+        -31
+      ],
+      "E_traces": [
+        35,
+        71,
+        -1
+      ],
+      "corrected_numerator": -275,
+      "cube3": false,
+      "p": 1381
+    },
+    {
+      "A4": 45,
+      "CM_traces": [
+        68,
+        68,
+        68
+      ],
+      "E_traces": [
+        -4,
+        -31,
+        -40
+      ],
+      "corrected_numerator": -122,
+      "cube3": true,
+      "p": 1399
+    },
+    {
+      "A4": 52,
+      "CM_traces": [
+        20,
+        -73,
+        53
+      ],
+      "E_traces": [
+        -16,
+        56,
+        -1
+      ],
+      "corrected_numerator": 25,
+      "cube3": false,
+      "p": 1423
+    },
+    {
+      "A4": 54,
+      "CM_traces": [
+        -58,
+        -13,
+        71
+      ],
+      "E_traces": [
+        11,
+        47,
+        29
+      ],
+      "corrected_numerator": 55,
+      "cube3": false,
+      "p": 1429
+    },
+    {
+      "A4": 48,
+      "CM_traces": [
+        -76,
+        35,
+        41
+      ],
+      "E_traces": [
+        32,
+        35,
+        -73
+      ],
+      "corrected_numerator": -125,
+      "cube3": false,
+      "p": 1447
+    },
+    {
+      "A4": 56,
+      "CM_traces": [
+        2,
+        -67,
+        65
+      ],
+      "E_traces": [
+        11,
+        -13,
+        -49
+      ],
+      "corrected_numerator": 85,
+      "cube3": false,
+      "p": 1453
+    },
+    {
+      "A4": 52,
+      "CM_traces": [
+        56,
+        17,
+        -73
+      ],
+      "E_traces": [
+        -52,
+        20,
+        71
+      ],
+      "corrected_numerator": -11,
+      "cube3": false,
+      "p": 1459
+    },
+    {
+      "A4": 60,
+      "CM_traces": [
+        -76,
+        29,
+        47
+      ],
+      "E_traces": [
+        -40,
+        5,
+        29
+      ],
+      "corrected_numerator": 193,
+      "cube3": false,
+      "p": 1471
+    },
+    {
+      "A4": 54,
+      "CM_traces": [
+        -40,
+        -37,
+        77
+      ],
+      "E_traces": [
+        68,
+        35,
+        53
+      ],
+      "corrected_numerator": 1,
+      "cube3": false,
+      "p": 1483
+    },
+    {
+      "A4": 54,
+      "CM_traces": [
+        -34,
+        -43,
+        77
+      ],
+      "E_traces": [
+        35,
+        35,
+        -19
+      ],
+      "corrected_numerator": -5,
+      "cube3": false,
+      "p": 1489
+    },
+    {
+      "A4": 67,
+      "CM_traces": [
+        -64,
+        -64,
+        -64
+      ],
+      "E_traces": [
+        56,
+        -28,
+        -52
+      ],
+      "corrected_numerator": 304,
+      "cube3": true,
+      "p": 1531
+    },
+    {
+      "A4": 65,
+      "CM_traces": [
+        -52,
+        -52,
+        -52
+      ],
+      "E_traces": [
+        -40,
+        65,
+        -40
+      ],
+      "corrected_numerator": 238,
+      "cube3": true,
+      "p": 1543
+    },
+    {
+      "A4": 53,
+      "CM_traces": [
+        62,
+        62,
+        62
+      ],
+      "E_traces": [
+        -34,
+        -46,
+        2
+      ],
+      "corrected_numerator": -92,
+      "cube3": true,
+      "p": 1549
+    },
+    {
+      "A4": 42,
+      "CM_traces": [
+        44,
+        35,
+        -79
+      ],
+      "E_traces": [
+        68,
+        32,
+        -49
+      ],
+      "corrected_numerator": -407,
+      "cube3": false,
+      "p": 1567
+    },
+    {
+      "A4": 66,
+      "CM_traces": [
+        32,
+        -79,
+        47
+      ],
+      "E_traces": [
+        -40,
+        -31,
+        11
+      ],
+      "corrected_numerator": 247,
+      "cube3": false,
+      "p": 1579
+    },
+    {
+      "A4": 53,
+      "CM_traces": [
+        50,
+        50,
+        50
+      ],
+      "E_traces": [
+        23,
+        -49,
+        -22
+      ],
+      "corrected_numerator": -104,
+      "cube3": true,
+      "p": 1597
+    },
+    {
+      "A4": 77,
+      "CM_traces": [
+        -58,
+        -58,
+        -58
+      ],
+      "E_traces": [
+        -37,
+        -49,
+        -46
+      ],
+      "corrected_numerator": 496,
+      "cube3": true,
+      "p": 1609
+    },
+    {
+      "A4": 55,
+      "CM_traces": [
+        26,
+        26,
+        26
+      ],
+      "E_traces": [
+        -25,
+        26,
+        2
+      ],
+      "corrected_numerator": -110,
+      "cube3": true,
+      "p": 1621
+    },
+    {
+      "A4": 56,
+      "CM_traces": [
+        80,
+        -49,
+        -31
+      ],
+      "E_traces": [
+        44,
+        -37,
+        5
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 1627
+    },
+    {
+      "A4": 62,
+      "CM_traces": [
+        -70,
+        -1,
+        71
+      ],
+      "E_traces": [
+        74,
+        -34,
+        -1
+      ],
+      "corrected_numerator": 61,
+      "cube3": false,
+      "p": 1657
+    },
+    {
+      "A4": 58,
+      "CM_traces": [
+        68,
+        5,
+        -73
+      ],
+      "E_traces": [
+        -16,
+        11,
+        65
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 1663
+    },
+    {
+      "A4": 41,
+      "CM_traces": [
+        74,
+        74,
+        74
+      ],
+      "E_traces": [
+        59,
+        11,
+        50
+      ],
+      "corrected_numerator": -536,
+      "cube3": true,
+      "p": 1669
+    },
+    {
+      "A4": 66,
+      "CM_traces": [
+        -82,
+        47,
+        35
+      ],
+      "E_traces": [
+        62,
+        -70,
+        29
+      ],
+      "corrected_numerator": 115,
+      "cube3": false,
+      "p": 1693
+    },
+    {
+      "A4": 62,
+      "CM_traces": [
+        -64,
+        77,
+        -13
+      ],
+      "E_traces": [
+        -28,
+        35,
+        59
+      ],
+      "corrected_numerator": 19,
+      "cube3": false,
+      "p": 1699
+    },
+    {
+      "A4": 74,
+      "CM_traces": [
+        -40,
+        -43,
+        83
+      ],
+      "E_traces": [
+        -40,
+        -31,
+        11
+      ],
+      "corrected_numerator": 319,
+      "cube3": false,
+      "p": 1723
+    },
+    {
+      "A4": 74,
+      "CM_traces": [
+        -34,
+        -49,
+        83
+      ],
+      "E_traces": [
+        -61,
+        23,
+        41
+      ],
+      "corrected_numerator": 283,
+      "cube3": false,
+      "p": 1741
+    },
+    {
+      "A4": 60,
+      "CM_traces": [
+        80,
+        -61,
+        -19
+      ],
+      "E_traces": [
+        80,
+        -52,
+        -7
+      ],
+      "corrected_numerator": -101,
+      "cube3": false,
+      "p": 1747
+    },
+    {
+      "A4": 58,
+      "CM_traces": [
+        -10,
+        77,
+        -67
+      ],
+      "E_traces": [
+        26,
+        -1,
+        41
+      ],
+      "corrected_numerator": -143,
+      "cube3": false,
+      "p": 1753
+    },
+    {
+      "A4": 65,
+      "CM_traces": [
+        -52,
+        -52,
+        -52
+      ],
+      "E_traces": [
+        -4,
+        65,
+        32
+      ],
+      "corrected_numerator": 22,
+      "cube3": true,
+      "p": 1759
+    },
+    {
+      "A4": 52,
+      "CM_traces": [
+        14,
+        65,
+        -79
+      ],
+      "E_traces": [
+        23,
+        59,
+        -7
+      ],
+      "corrected_numerator": -329,
+      "cube3": false,
+      "p": 1777
+    },
+    {
+      "A4": 63,
+      "CM_traces": [
+        -28,
+        -28,
+        -28
+      ],
+      "E_traces": [
+        20,
+        8,
+        56
+      ],
+      "corrected_numerator": -56,
+      "cube3": true,
+      "p": 1783
+    },
+    {
+      "A4": 60,
+      "CM_traces": [
+        -82,
+        59,
+        23
+      ],
+      "E_traces": [
+        35,
+        35,
+        -31
+      ],
+      "corrected_numerator": -125,
+      "cube3": false,
+      "p": 1789
+    },
+    {
+      "A4": 60,
+      "CM_traces": [
+        74,
+        -73,
+        -1
+      ],
+      "E_traces": [
+        11,
+        38,
+        -37
+      ],
+      "corrected_numerator": -137,
+      "cube3": false,
+      "p": 1801
+    },
+    {
+      "A4": 58,
+      "CM_traces": [
+        68,
+        11,
+        -79
+      ],
+      "E_traces": [
+        32,
+        -31,
+        -61
+      ],
+      "corrected_numerator": -221,
+      "cube3": false,
+      "p": 1831
+    },
+    {
+      "A4": 49,
+      "CM_traces": [
+        86,
+        86,
+        86
+      ],
+      "E_traces": [
+        71,
+        23,
+        -10
+      ],
+      "corrected_numerator": -512,
+      "cube3": true,
+      "p": 1861
+    },
+    {
+      "A4": 61,
+      "CM_traces": [
+        56,
+        56,
+        56
+      ],
+      "E_traces": [
+        -40,
+        -43,
+        68
+      ],
+      "corrected_numerator": -194,
+      "cube3": true,
+      "p": 1867
+    },
+    {
+      "A4": 72,
+      "CM_traces": [
+        -82,
+        17,
+        65
+      ],
+      "E_traces": [
+        -13,
+        14,
+        -31
+      ],
+      "corrected_numerator": 97,
+      "cube3": false,
+      "p": 1873
+    },
+    {
+      "A4": 69,
+      "CM_traces": [
+        -4,
+        -4,
+        -4
+      ],
+      "E_traces": [
+        -28,
+        -49,
+        80
+      ],
+      "corrected_numerator": 10,
+      "cube3": true,
+      "p": 1879
+    },
+    {
+      "A4": 61,
+      "CM_traces": [
+        62,
+        62,
+        62
+      ],
+      "E_traces": [
+        71,
+        -73,
+        -10
+      ],
+      "corrected_numerator": -224,
+      "cube3": true,
+      "p": 1933
+    },
+    {
+      "A4": 74,
+      "CM_traces": [
+        -76,
+        77,
+        -1
+      ],
+      "E_traces": [
+        -16,
+        11,
+        65
+      ],
+      "corrected_numerator": 73,
+      "cube3": false,
+      "p": 1951
+    },
+    {
+      "A4": 78,
+      "CM_traces": [
+        -40,
+        -49,
+        89
+      ],
+      "E_traces": [
+        -16,
+        47,
+        29
+      ],
+      "corrected_numerator": 145,
+      "cube3": false,
+      "p": 1987
+    },
+    {
+      "A4": 80,
+      "CM_traces": [
+        -70,
+        83,
+        -13
+      ],
+      "E_traces": [
+        -73,
+        -1,
+        71
+      ],
+      "corrected_numerator": 193,
+      "cube3": false,
+      "p": 1993
+    },
+    {
+      "A4": 84,
+      "CM_traces": [
+        -52,
+        -37,
+        89
+      ],
+      "E_traces": [
+        -52,
+        -16,
+        -1
+      ],
+      "corrected_numerator": 313,
+      "cube3": false,
+      "p": 1999
+    },
+    {
+      "A4": 70,
+      "CM_traces": [
+        -88,
+        59,
+        29
+      ],
+      "E_traces": [
+        56,
+        5,
+        -31
+      ],
+      "corrected_numerator": -95,
+      "cube3": false,
+      "p": 2011
+    },
+    {
+      "A4": 72,
+      "CM_traces": [
+        -34,
+        89,
+        -55
+      ],
+      "E_traces": [
+        2,
+        -34,
+        17
+      ],
+      "corrected_numerator": -29,
+      "cube3": false,
+      "p": 2017
+    },
+    {
+      "A4": 71,
+      "CM_traces": [
+        2,
+        2,
+        2
+      ],
+      "E_traces": [
+        14,
+        11,
+        14
+      ],
+      "corrected_numerator": -86,
+      "cube3": true,
+      "p": 2029
+    },
+    {
+      "A4": 80,
+      "CM_traces": [
+        -10,
+        -73,
+        83
+      ],
+      "E_traces": [
+        -49,
+        50,
+        -31
+      ],
+      "corrected_numerator": 133,
+      "cube3": false,
+      "p": 2053
+    },
+    {
+      "A4": 76,
+      "CM_traces": [
+        -88,
+        65,
+        23
+      ],
+      "E_traces": [
+        -28,
+        17,
+        -73
+      ],
+      "corrected_numerator": -5,
+      "cube3": false,
+      "p": 2083
+    },
+    {
+      "A4": 64,
+      "CM_traces": [
+        38,
+        53,
+        -91
+      ],
+      "E_traces": [
+        74,
+        -34,
+        -55
+      ],
+      "corrected_numerator": -317,
+      "cube3": false,
+      "p": 2089
+    },
+    {
+      "A4": 76,
+      "CM_traces": [
+        -82,
+        5,
+        77
+      ],
+      "E_traces": [
+        -1,
+        71,
+        -31
+      ],
+      "corrected_numerator": -17,
+      "cube3": false,
+      "p": 2113
+    },
+    {
+      "A4": 65,
+      "CM_traces": [
+        32,
+        32,
+        32
+      ],
+      "E_traces": [
+        80,
+        59,
+        -28
+      ],
+      "corrected_numerator": -350,
+      "cube3": true,
+      "p": 2131
+    },
+    {
+      "A4": 74,
+      "CM_traces": [
+        74,
+        11,
+        -85
+      ],
+      "E_traces": [
+        26,
+        -73,
+        -37
+      ],
+      "corrected_numerator": -113,
+      "cube3": false,
+      "p": 2137
+    },
+    {
+      "A4": 74,
+      "CM_traces": [
+        92,
+        -55,
+        -37
+      ],
+      "E_traces": [
+        56,
+        -88,
+        -91
+      ],
+      "corrected_numerator": -101,
+      "cube3": false,
+      "p": 2143
+    },
+    {
+      "A4": 68,
+      "CM_traces": [
+        62,
+        29,
+        -91
+      ],
+      "E_traces": [
+        35,
+        2,
+        -43
+      ],
+      "corrected_numerator": -299,
+      "cube3": false,
+      "p": 2161
+    },
+    {
+      "A4": 87,
+      "CM_traces": [
+        -88,
+        -88,
+        -88
+      ],
+      "E_traces": [
+        56,
+        56,
+        -52
+      ],
+      "corrected_numerator": 232,
+      "cube3": true,
+      "p": 2179
+    },
+    {
+      "A4": 77,
+      "CM_traces": [
+        8,
+        8,
+        8
+      ],
+      "E_traces": [
+        -64,
+        35,
+        44
+      ],
+      "corrected_numerator": -62,
+      "cube3": true,
+      "p": 2203
+    },
+    {
+      "A4": 103,
+      "CM_traces": [
+        -94,
+        -94,
+        -94
+      ],
+      "E_traces": [
+        -82,
+        23,
+        -46
+      ],
+      "corrected_numerator": 586,
+      "cube3": true,
+      "p": 2221
+    },
+    {
+      "A4": 90,
+      "CM_traces": [
+        68,
+        -91,
+        23
+      ],
+      "E_traces": [
+        -40,
+        -73,
+        -55
+      ],
+      "corrected_numerator": 217,
+      "cube3": false,
+      "p": 2239
+    },
+    {
+      "A4": 79,
+      "CM_traces": [
+        -16,
+        -16,
+        -16
+      ],
+      "E_traces": [
+        20,
+        20,
+        20
+      ],
+      "corrected_numerator": -56,
+      "cube3": true,
+      "p": 2251
+    },
+    {
+      "A4": 103,
+      "CM_traces": [
+        -82,
+        -82,
+        -82
+      ],
+      "E_traces": [
+        -25,
+        -82,
+        2
+      ],
+      "corrected_numerator": 538,
+      "cube3": true,
+      "p": 2269
+    },
+    {
+      "A4": 90,
+      "CM_traces": [
+        86,
+        -79,
+        -7
+      ],
+      "E_traces": [
+        -22,
+        -85,
+        -7
+      ],
+      "corrected_numerator": 193,
+      "cube3": false,
+      "p": 2281
+    },
+    {
+      "A4": 83,
+      "CM_traces": [
+        20,
+        20,
+        20
+      ],
+      "E_traces": [
+        -88,
+        20,
+        20
+      ],
+      "corrected_numerator": 16,
+      "cube3": true,
+      "p": 2287
+    },
+    {
+      "A4": 90,
+      "CM_traces": [
+        -58,
+        95,
+        -37
+      ],
+      "E_traces": [
+        -61,
+        -61,
+        -7
+      ],
+      "corrected_numerator": 163,
+      "cube3": false,
+      "p": 2293
+    },
+    {
+      "A4": 82,
+      "CM_traces": [
+        -76,
+        89,
+        -13
+      ],
+      "E_traces": [
+        -4,
+        -1,
+        -55
+      ],
+      "corrected_numerator": -71,
+      "cube3": false,
+      "p": 2311
+    },
+    {
+      "A4": 75,
+      "CM_traces": [
+        74,
+        74,
+        74
+      ],
+      "E_traces": [
+        -25,
+        2,
+        2
+      ],
+      "corrected_numerator": -254,
+      "cube3": true,
+      "p": 2341
+    },
+    {
+      "A4": 98,
+      "CM_traces": [
+        -64,
+        -31,
+        95
+      ],
+      "E_traces": [
+        8,
+        -73,
+        23
+      ],
+      "corrected_numerator": 343,
+      "cube3": false,
+      "p": 2347
+    },
+    {
+      "A4": 80,
+      "CM_traces": [
+        56,
+        41,
+        -97
+      ],
+      "E_traces": [
+        -16,
+        -31,
+        -85
+      ],
+      "corrected_numerator": -185,
+      "cube3": false,
+      "p": 2371
+    },
+    {
+      "A4": 84,
+      "CM_traces": [
+        -10,
+        89,
+        -79
+      ],
+      "E_traces": [
+        -49,
+        14,
+        5
+      ],
+      "corrected_numerator": -83,
+      "cube3": false,
+      "p": 2377
+    },
+    {
+      "A4": 81,
+      "CM_traces": [
+        -28,
+        -28,
+        -28
+      ],
+      "E_traces": [
+        8,
+        35,
+        80
+      ],
+      "corrected_numerator": -134,
+      "cube3": true,
+      "p": 2383
+    },
+    {
+      "A4": 89,
+      "CM_traces": [
+        38,
+        38,
+        38
+      ],
+      "E_traces": [
+        -13,
+        -25,
+        -58
+      ],
+      "corrected_numerator": 40,
+      "cube3": true,
+      "p": 2389
+    },
+    {
+      "A4": 90,
+      "CM_traces": [
+        86,
+        -85,
+        -1
+      ],
+      "E_traces": [
+        47,
+        -61,
+        -7
+      ],
+      "corrected_numerator": 19,
+      "cube3": false,
+      "p": 2437
+    },
+    {
+      "A4": 86,
+      "CM_traces": [
+        80,
+        -91,
+        11
+      ],
+      "E_traces": [
+        32,
+        68,
+        59
+      ],
+      "corrected_numerator": -119,
+      "cube3": false,
+      "p": 2467
+    },
+    {
+      "A4": 100,
+      "CM_traces": [
+        -22,
+        -73,
+        95
+      ],
+      "E_traces": [
+        -13,
+        -37,
+        -37
+      ],
+      "corrected_numerator": 253,
+      "cube3": false,
+      "p": 2473
+    },
+    {
+      "A4": 96,
+      "CM_traces": [
+        -100,
+        53,
+        47
+      ],
+      "E_traces": [
+        -76,
+        68,
+        5
+      ],
+      "corrected_numerator": 115,
+      "cube3": false,
+      "p": 2503
+    },
+    {
+      "A4": 88,
+      "CM_traces": [
+        26,
+        71,
+        -97
+      ],
+      "E_traces": [
+        -22,
+        -58,
+        -85
+      ],
+      "corrected_numerator": -119,
+      "cube3": false,
+      "p": 2521
+    },
+    {
+      "A4": 96,
+      "CM_traces": [
+        8,
+        83,
+        -91
+      ],
+      "E_traces": [
+        -64,
+        -52,
+        29
+      ],
+      "corrected_numerator": 79,
+      "cube3": false,
+      "p": 2539
+    },
+    {
+      "A4": 82,
+      "CM_traces": [
+        -52,
+        101,
+        -49
+      ],
+      "E_traces": [
+        80,
+        17,
+        -19
+      ],
+      "corrected_numerator": -311,
+      "cube3": false,
+      "p": 2551
+    },
+    {
+      "A4": 102,
+      "CM_traces": [
+        -46,
+        -55,
+        101
+      ],
+      "E_traces": [
+        59,
+        -22,
+        95
+      ],
+      "corrected_numerator": 223,
+      "cube3": false,
+      "p": 2557
+    },
+    {
+      "A4": 98,
+      "CM_traces": [
+        98,
+        -73,
+        -25
+      ],
+      "E_traces": [
+        -49,
+        -58,
+        -85
+      ],
+      "corrected_numerator": 79,
+      "cube3": false,
+      "p": 2593
+    },
+    {
+      "A4": 93,
+      "CM_traces": [
+        86,
+        86,
+        86
+      ],
+      "E_traces": [
+        -73,
+        -85,
+        26
+      ],
+      "corrected_numerator": -80,
+      "cube3": true,
+      "p": 2617
+    },
+    {
+      "A4": 108,
+      "CM_traces": [
+        -100,
+        29,
+        71
+      ],
+      "E_traces": [
+        -28,
+        -16,
+        65
+      ],
+      "corrected_numerator": 295,
+      "cube3": false,
+      "p": 2647
+    },
+    {
+      "A4": 90,
+      "CM_traces": [
+        56,
+        47,
+        -103
+      ],
+      "E_traces": [
+        80,
+        -91,
+        -19
+      ],
+      "corrected_numerator": -203,
+      "cube3": false,
+      "p": 2659
+    },
+    {
+      "A4": 97,
+      "CM_traces": [
+        44,
+        44,
+        44
+      ],
+      "E_traces": [
+        -28,
+        -1,
+        -64
+      ],
+      "corrected_numerator": 10,
+      "cube3": true,
+      "p": 2671
+    },
+    {
+      "A4": 100,
+      "CM_traces": [
+        -70,
+        -31,
+        101
+      ],
+      "E_traces": [
+        47,
+        -13,
+        -85
+      ],
+      "corrected_numerator": 49,
+      "cube3": false,
+      "p": 2677
+    },
+    {
+      "A4": 98,
+      "CM_traces": [
+        80,
+        17,
+        -97
+      ],
+      "E_traces": [
+        -4,
+        -76,
+        23
+      ],
+      "corrected_numerator": -11,
+      "cube3": false,
+      "p": 2683
+    },
+    {
+      "A4": 88,
+      "CM_traces": [
+        62,
+        41,
+        -103
+      ],
+      "E_traces": [
+        71,
+        -37,
+        5
+      ],
+      "corrected_numerator": -269,
+      "cube3": false,
+      "p": 2689
+    },
+    {
+      "A4": 100,
+      "CM_traces": [
+        104,
+        -55,
+        -49
+      ],
+      "E_traces": [
+        32,
+        -73,
+        35
+      ],
+      "corrected_numerator": 19,
+      "cube3": false,
+      "p": 2707
+    },
+    {
+      "A4": 109,
+      "CM_traces": [
+        38,
+        38,
+        38
+      ],
+      "E_traces": [
+        -49,
+        -61,
+        -94
+      ],
+      "corrected_numerator": 256,
+      "cube3": true,
+      "p": 2713
+    },
+    {
+      "A4": 84,
+      "CM_traces": [
+        -28,
+        101,
+        -73
+      ],
+      "E_traces": [
+        44,
+        92,
+        -7
+      ],
+      "corrected_numerator": -425,
+      "cube3": false,
+      "p": 2719
+    },
+    {
+      "A4": 96,
+      "CM_traces": [
+        104,
+        -61,
+        -43
+      ],
+      "E_traces": [
+        32,
+        5,
+        65
+      ],
+      "corrected_numerator": -95,
+      "cube3": false,
+      "p": 2731
+    },
+    {
+      "A4": 96,
+      "CM_traces": [
+        14,
+        -97,
+        83
+      ],
+      "E_traces": [
+        59,
+        59,
+        -43
+      ],
+      "corrected_numerator": -113,
+      "cube3": false,
+      "p": 2749
+    },
+    {
+      "A4": 106,
+      "CM_traces": [
+        -76,
+        -25,
+        101
+      ],
+      "E_traces": [
+        68,
+        5,
+        83
+      ],
+      "corrected_numerator": 139,
+      "cube3": false,
+      "p": 2767
+    },
+    {
+      "A4": 92,
+      "CM_traces": [
+        92,
+        -1,
+        -91
+      ],
+      "E_traces": [
+        -16,
+        20,
+        -73
+      ],
+      "corrected_numerator": -263,
+      "cube3": false,
+      "p": 2791
+    },
+    {
+      "A4": 116,
+      "CM_traces": [
+        -94,
+        5,
+        89
+      ],
+      "E_traces": [
+        -97,
+        -25,
+        -61
+      ],
+      "corrected_numerator": 361,
+      "cube3": false,
+      "p": 2797
+    },
+    {
+      "A4": 109,
+      "CM_traces": [
+        -88,
+        -88,
+        -88
+      ],
+      "E_traces": [
+        104,
+        65,
+        -76
+      ],
+      "corrected_numerator": 166,
+      "cube3": true,
+      "p": 2803
+    },
+    {
+      "A4": 106,
+      "CM_traces": [
+        98,
+        -85,
+        -13
+      ],
+      "E_traces": [
+        -73,
+        35,
+        23
+      ],
+      "corrected_numerator": 73,
+      "cube3": false,
+      "p": 2833
+    },
+    {
+      "A4": 97,
+      "CM_traces": [
+        104,
+        104,
+        104
+      ],
+      "E_traces": [
+        8,
+        -13,
+        -100
+      ],
+      "corrected_numerator": -206,
+      "cube3": true,
+      "p": 2851
+    },
+    {
+      "A4": 106,
+      "CM_traces": [
+        -106,
+        41,
+        65
+      ],
+      "E_traces": [
+        -61,
+        59,
+        -103
+      ],
+      "corrected_numerator": 31,
+      "cube3": false,
+      "p": 2857
+    },
+    {
+      "A4": 108,
+      "CM_traces": [
+        -4,
+        95,
+        -91
+      ],
+      "E_traces": [
+        -88,
+        -61,
+        -61
+      ],
+      "corrected_numerator": 55,
+      "cube3": false,
+      "p": 2887
+    },
+    {
+      "A4": 104,
+      "CM_traces": [
+        -106,
+        71,
+        35
+      ],
+      "E_traces": [
+        38,
+        74,
+        89
+      ],
+      "corrected_numerator": -65,
+      "cube3": false,
+      "p": 2917
+    },
+    {
+      "A4": 108,
+      "CM_traces": [
+        -70,
+        107,
+        -37
+      ],
+      "E_traces": [
+        -25,
+        38,
+        107
+      ],
+      "corrected_numerator": 7,
+      "cube3": false,
+      "p": 2953
+    },
+    {
+      "A4": 95,
+      "CM_traces": [
+        56,
+        56,
+        56
+      ],
+      "E_traces": [
+        56,
+        -52,
+        56
+      ],
+      "corrected_numerator": -344,
+      "cube3": true,
+      "p": 2971
+    }
+  ],
+  "status": "PASS"
+}

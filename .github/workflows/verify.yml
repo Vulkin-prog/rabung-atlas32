@@ -11,7 +11,7 @@ permissions:
 jobs:
   exact-checks:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # official v4
       - name: Check sample data and reject damaged frames
@@ -25,6 +25,8 @@ jobs:
           python3 -B reproducibility/proofs/verify_synthesis.py
           python3 -B reproducibility/proofs/verify_report4.py
           python3 -B reproducibility/anteriorities/theorie_densites_residuels_20261004/preuves/verify_results.py
+      - name: Verify cubic quadruplets and ternary diagnostics
+        run: python3 -B scripts/verify_editorial.py --catalogue
       - name: Recompute initial primes on CPU
         run: |
           python3 -B scripts/build_workers.py
@@ -34,3 +36,29 @@ jobs:
           g++ -O3 -std=c++17 reproducibility/proofs/local_maximum.cpp -o build/local_maximum
           build/local_maximum reproducibility/evidence/new/local_relations_input.txt build/local_maximum.csv
           cmp build/local_maximum.csv reproducibility/evidence/new/LOCAL_MAXIMUM_CUBIC.csv
+  manuscripts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Install the manuscript toolchain
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended texlive-pictures
+      - name: Compile both standalone manuscripts twice
+        run: |
+          mkdir -p build/paper
+          for source in paper/PAPER_EN.tex paper/CUBIC_QUADRUPLETS_EN.tex; do
+            for pass in 1 2; do
+              pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -output-directory=build/paper "$source"
+            done
+          done
+          if grep -E 'Overfull|There were undefined references|Citation.*undefined' build/paper/*.log; then
+            exit 1
+          fi
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: research-manuscripts
+          path: build/paper/*.pdf
+          if-no-files-found: error
+          retention-days: 14

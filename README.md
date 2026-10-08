@@ -138,6 +138,40 @@ canonical reflection, colour labels, binary formats and CSV exports. This
 sample includes the earlier 512 diagnostic primes; it is not an independent
 validation and does not alter any closed primary test.
 
+The atlas revision also includes the fixed-coordinate catalogue and the exact
+iid comparator using the same full-run mask. These diagnostics and their
+continuation budgets are in [reproducibility/ternary_diagnostics/](reproducibility/ternary_diagnostics/).
+They remain descriptive analyses of this fixed sample.
+
+## Cubic quadruplets and elliptic fluctuations
+
+The separate research manuscript
+[Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations](paper/CUBIC_QUADRUPLETS_EN.pdf)
+has a [standalone LaTeX source](paper/CUBIC_QUADRUPLETS_EN.tex). It proves a
+four-position elliptic identity and an exact consecutive cubic count, with
+six-curve trace certificates and the first four vertical moments. The two
+arithmetic regimes depend on whether three is a cube. This cubic statistic
+is distinct from the historical quadratic A4 column of the atlas.
+
+From the repository root:
+
+    python3 -B scripts/cubic_quadruplets.py 1000033
+    python3 -B scripts/verify_editorial.py
+    python3 -B scripts/verify_editorial.py --catalogue
+
+The first command validates stored elliptic certificates and returns the
+exact count. The second replays the curated elliptic, moment and ternary
+diagnostic checks. The third additionally requires a C++17 compiler and
+reclassifies all retained ordinary long-run positions. No command rescans
+the full million character words.
+
+The manuscript gives an argument without GRH. Independent review of the
+analytic passage is still required before publication; see
+[ELLIPTIC_REVIEW.md](docs/ELLIPTIC_REVIEW.md). Four moments do not establish
+a complete limiting distribution or a critical maximum law. The editorial
+scope and separate provenance manifests are in
+[EDITORIAL_INTEGRATION.md](docs/EDITORIAL_INTEGRATION.md).
+
 ## Manuscript and theory
 
 The paper combines the atlas analysis with exact character-class certification,
@@ -171,10 +205,13 @@ files. Rights are reserved pending an explicit owner choice. Consult
 before a future public release. Automated checks support this curation; they do
 not establish legal ownership or mathematical novelty.
 
-To compile the paper independently:
+To compile both manuscripts independently:
 
 ```bash
 mkdir -p build/paper
-pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -output-directory=build/paper paper/PAPER_EN.tex
-pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -output-directory=build/paper paper/PAPER_EN.tex
+for source in paper/PAPER_EN.tex paper/CUBIC_QUADRUPLETS_EN.tex; do
+  for pass in 1 2; do
+    pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -output-directory=build/paper "$source"
+  done
+done
 ```

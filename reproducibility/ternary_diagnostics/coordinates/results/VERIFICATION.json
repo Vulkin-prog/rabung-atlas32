@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "positive_runs": 2300,
+  "prime_trial_divisions_certified": 2187,
+  "natural_character_evaluations": 60317,
+  "quadratic_witness_checks_including_nested_catalogues": 3810,
+  "rational_witnesses": 306,
+  "sample_intervals_reclassified": 2188,
+  "all_positive_intervals_reclassified": 2300,
+  "nested_parameter_comparisons": 60,
+  "polynomial_identities": 1291,
+  "linear_implication_certificates": 1273,
+  "distinct_models": 720,
+  "summary_rows_reconciled": 112,
+  "negative_algebra_tests": 2,
+  "does_not_recompute_global_maxima": true,
+  "sample_not_representative": true
+}

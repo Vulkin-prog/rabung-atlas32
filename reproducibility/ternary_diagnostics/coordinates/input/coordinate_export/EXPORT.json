@@ -1,0 +1,32 @@
+{
+  "schema": "ternary-coordinate-classification-v1",
+  "profiles": 1000000,
+  "blocks": 248,
+  "ordinary_runs21": 1234808,
+  "tagged_runs21": 2300,
+  "source_git_blobs": {
+    "scripts/ternary_io.py": "dfdad3beeea7880e4471dc30742e1ac286cd578b",
+    "data/ternary-million/manifest.json": "12a98fdce8277663ed71a04da1be73fb67fb4c0b",
+    "data/ternary-million/threshold_counts.csv": "d628fe9a87f4ee098b8e76da59de061575ef839d"
+  },
+  "data_commit": "452907920dc623d4d1e6ae7675428fe02ed840c4",
+  "workflow_commit": "7acfafa481093d9fa256d02b4750e87e09a6bd5e",
+  "run_id": "37301544494",
+  "native_reader_full_validation": true,
+  "does_not_recompute_characters_or_maxima": true,
+  "input_tsv_sha256": "79862cfc07141191eba77c2c4a75d3534274576a61c8b6f969d12db40fdf4541",
+  "input_tsv_bytes": 36684357,
+  "seconds": 13.608032341000001,
+  "catalogues": {
+    "quadratic_small": {
+      "Amax": 64,
+      "Dmax": 256
+    },
+    "quadratic_wide": {
+      "Amax": 128,
+      "Dmax": 4096
+    },
+    "rational_qmax": 128
+  },
+  "status": "PASS"
+}
