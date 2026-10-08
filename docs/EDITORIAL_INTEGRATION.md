@@ -12,12 +12,20 @@ catalogue has 22 binary profiles and one order-four profile.
 | Reproducibility packages | Curated elliptic and moment certificates, fixed-coordinate diagnostics, same-filter arithmetic and portable verification commands. |
 | Review record | Internal review plus two supplied reports; attribution and local corrections; explicit analytic interfaces; specialist human review still needed before submission. |
 
-The atlas is now v1.3 and the companion v1.1. See the
+The atlas is now v1.4 and the companion v1.2. See the
 [response to the two reports](REVIEW_RESPONSE_2026-10-08_FR.md). The historical
 residual verifier is extended to check polynomial binding and 200 new
 irreducibility witnesses; its earlier character matrices remain unchanged.
 A separate small-prime check verifies the hypergeometric exposition against
 literal four-position sums and direct elliptic point counts.
+
+The manuscript bibliographies use published papers, archived preprints,
+official documentation and the two companion articles prepared for publication.
+Private reviews, internal notes and the unprovided GPU manuscript are removed
+from the citations. Statements previously attributed to a private review are
+proved or checked explicitly in the article and certificate package. Review
+histories remain working records in the repository, without a manuscript
+reference to them.
 
 See [ELLIPTIC_REVIEW.md](ELLIPTIC_REVIEW.md). Four moments do not prove a
 complete limiting law. The ternary diagnostic counts are descriptive, and

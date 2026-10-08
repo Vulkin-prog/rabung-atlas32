@@ -415,5 +415,19 @@
     "response_path": "docs/REVIEW_RESPONSE_2026-10-08_FR.md",
     "residual_witnesses": 200,
     "hypergeometric_cases": 2360
+  },
+  "publication_source_policy": {
+    "date": "2026-10-08",
+    "base_commit": "94d586095c1b12edf185c31f20f6f7c72c786c4a",
+    "manuscripts": {
+      "atlas": "v1.4",
+      "cubic_companion": "v1.2"
+    },
+    "excluded_from_manuscript_sources": [
+      "private reviews",
+      "internal working notes",
+      "unprovided GPU manuscript"
+    ],
+    "scientific_arguments": "self-contained manuscript proofs and versioned reproducibility artifacts"
   }
 }

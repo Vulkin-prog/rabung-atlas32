@@ -177,11 +177,13 @@ analytic passage is still required before publication; see
 a complete limiting distribution or a critical maximum law. The editorial
 scope and separate provenance manifests are in
 [EDITORIAL_INTEGRATION.md](docs/EDITORIAL_INTEGRATION.md).
-The atlas v1.3 and companion v1.1 incorporate the two reports received on
+The atlas v1.4 and companion v1.2 incorporate the two reports received on
 8 October 2026. The [response to the reviews](docs/REVIEW_RESPONSE_2026-10-08_FR.md)
 records the corrections and remaining editorial tasks. The
 [reproduction map](docs/PUBLICATION_REPRODUCIBILITY.md) identifies the frozen
 data and scanner separately from the manuscript revisions.
+The article bibliographies exclude private reviews and internal working notes;
+scientific statements are supported by the supplied proofs and certificates.
 
 ## Manuscript and theory
 

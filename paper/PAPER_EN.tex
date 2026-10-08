@@ -16,7 +16,7 @@
 \makeatother
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Arithmetic structure in power-residue runs}
-\fancyhead[R]{\small Research manuscript v1.3}
+\fancyhead[R]{\small Research manuscript v1.4}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -39,7 +39,7 @@
 of power-residue runs below $2^{32}$\\[3pt]
 \large Rabung profiles, Kummer densities, norm dependencies, and local codes}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The scope of the assistance and the status of the manuscript are stated in Section~\ref{sec:reproduction}.}}
-\date{8 October 2026 \quad Research manuscript v1.3}
+\date{8 October 2026 \quad Research manuscript v1.4}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -86,9 +86,10 @@ The present study asks what the resulting census reveals about the
 arithmetic of runs, rather than extrapolating a growth law from a few
 successful constructions.
 
-The data are the final sealed atlas on $[1,2^{32})$. An exact scanner,
-documented separately~\cite{gpu}, supplies maximum lengths, neutral
-prefixes, and canonical witnesses. The census is complete within its
+The data are the final sealed atlas on $[1,2^{32})$. An exact scanner
+supplies maximum lengths, neutral prefixes, and canonical witnesses;
+its frozen sources and reproduction commands are given in
+Section~\ref{sec:reproduction}. The census is complete within its
 specified domain; the later explanation of its most extreme profiles is
 selective and exploratory. That distinction matters. A template selected
 because it occurs at an extreme witness can subsequently have a proved
@@ -191,9 +192,10 @@ $3\,119$ elliptic-count certificates, and $324$ final record checks.
 These audit counts describe the campaign's checks, not independent
 samples for inference about the tails.
 
-The scanner uses certified rational coverage and exact completion;
-its algorithmic contract and qualification evidence are in the
-scanner manuscript~\cite{gpu}. Rejected batches supply no accepted
+The scanner uses certified rational coverage and exact completion.
+The stored profile contract is stated in Section~\ref{sec:atlas};
+the frozen implementation and retained audit certificates are identified
+in Section~\ref{sec:reproduction}. Rejected batches supply no accepted
 partial output. Execution-policy details and campaign times are
 recorded in Appendix~\ref{app:execution}, separate from the mathematical
 coverage statement.
@@ -753,7 +755,7 @@ The monic integral equation now has step $a$ rather than step one.
 Scaling all positions preserves a constant colour but can change
 whether that colour is neutral. A search restricted to integral
 monic polynomials with unit-step windows need not include these
-non-monic families~\cite{review4}.
+non-monic families.
 
 
 \subsection{The selected deep tail}
@@ -1338,9 +1340,9 @@ discarding the full square-rank certificate.
 
 
 \subsection{A parity normal form and the remaining information}
-The received review~\cite{review4} suggests a useful linear description
-of these dependencies. It is compatible with, but logically weaker
-than, their explicit generation by norms.
+These dependencies admit the following linear description. It is
+compatible with, but logically weaker than, their explicit generation
+by norms.
 
 \begin{lemma}\label{lem:parityform}
 Let $V_1,\ldots,V_n$ be binary subspaces of dimension $d$, such that
@@ -1455,9 +1457,8 @@ also gives all binomial moments and the full laws for the number
 of realizing roots, in both populations and both modes.
 
 \subsection{Short phase identities and a 30-term continuation}
-The quadratic phase coupling admits short identities, supplied
-in the received review~\cite{review4} and independently checked
-in the exact fields. Put $A_j=\alpha+j$ and
+The quadratic phase coupling admits short identities, verified
+directly in the exact fields. Put $A_j=\alpha+j$ and
 $B_j=\bar\alpha+j$ for the two roots of each quadratic.
 For $2X^2+58X+411$ the identities are
 \[
@@ -1785,10 +1786,10 @@ and exploration, including marginal histograms, prime-size bands,
 boundary losses, A4 summaries, and selected tail catalogues.
 \texttt{reproducibility/anteriorities/} contains the mathematical
 certificates and portable verifiers from the preceding theoretical
-work. External project reviews are cited as source material but
-are not redistributed because their redistribution rights have
-not been established. Host logs, local absolute paths, credentials,
-execution histories, and installed third-party libraries are excluded.
+work. The arguments and exact identities used here are presented in
+the manuscript and its reproducibility package. Host logs, local
+absolute paths, credentials, execution histories, and installed
+third-party libraries are excluded.
 
 The complete $[1,2^{32})$ atlas is supplied as pinned release assets:
 $70$ scientific packs are byte-identical to the sealed originals,
@@ -1856,11 +1857,8 @@ proof development, literature retrieval, and English writing.
 Prior primary statistical tests remain closed; no selected
 template is relabelled as a prospective test, and no universal
 growth law is claimed. The mathematical examples have explicit
-proofs or certificates. A priority audit and an AI-assisted
-counter-review received on 8 October led to the attribution and
-certification revisions documented in
-\path{docs/REVIEW_RESPONSE_2026-10-08_FR.md}. Specialist human review
-and a public immutable archive remain editorial tasks before
+proofs or certificates. Specialist human review and a public
+immutable archive remain editorial tasks before
 submission. The repository commits and hash manifests currently
 provide version identifiers for authorized reviewers; they do not
 establish a date of public disclosure. Repository deposit is not
@@ -2028,7 +2026,7 @@ $3\,696\,971\,783$ & $(1,126,5593,102996,657004)$ & 55 & 54 & 53 \\
 \bottomrule\end{longtable}\end{center}
 
 
-\section{Execution and review provenance}\label{app:execution}
+\section{Execution provenance}\label{app:execution}
 The frozen scanner's GPU batches contain at most 128 primes;
 CPU batches and commits contain at most 4096, with bounded worker
 deadlines. Two interrupted executions were followed by documented,
@@ -2041,13 +2039,11 @@ quadruplet computation took approximately 4.4 hours. These are
 campaign times, not comparative performance measurements.
 
 The release \texttt{atlas32-v1.0.0}, frozen scanner, original data
-manifest, preceding certificates and minimal reproduction commands
-are mapped in \path{docs/PUBLICATION_REPRODUCIBILITY.md}. Manuscript
-revisions and the 200 additional irreducibility witnesses have a
-separate editorial manifest. Supplied review PDFs are retained
-outside the repository; their file hashes identify the inputs to
-this revision. Neither the computational controls nor the supplied
-reports constitute a formal verification of the analytic theorems.
+manifest, certificates and reproduction commands are identified in
+Section~\ref{sec:reproduction}. Manuscript revisions and the 200
+additional irreducibility witnesses have a separate editorial manifest.
+The finite computational controls do not formally verify the analytic
+theorems used by the companion.
 
 \begin{thebibliography}{99}
 \bibitem{cubiccompanion}
@@ -2126,15 +2122,5 @@ released 28 September 2026. Documentation shipped with the fixed
 \texttt{pari-2.19.0.tar.gz} distribution; archive checksum in
 \path{docs/THIRD_PARTY.md}.
 \url{https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.19.0.tar.gz}.
-\bibitem{gpu} B. Pouly,
-\emph{Certified rational-anchor filtering for exact GPU scans of power-residue runs},
-research manuscript v0.2, 3 October 2026; accompanying project evidence.
-\bibitem{atlas} B. Pouly,
-\emph{Sealed Rabung atlas on $[1,2^{32})$ and theoretical supplements},
-project data and computational notes, 4 October 2026.
-\bibitem{review4}
-\emph{Revue des densit\'es et des profils r\'esiduels},
-received project review, 4 October 2026.
-Privately supplied source; not redistributed in the publication repository.
 \end{thebibliography}
 \end{document}

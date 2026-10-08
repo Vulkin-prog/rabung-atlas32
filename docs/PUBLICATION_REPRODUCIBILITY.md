@@ -4,7 +4,12 @@ The existing draft PR is [#1](https://github.com/Vulkin-prog/rabung-atlas32/pull
 The reviewed editorial baseline is commit
 `59a9f9c501ab6781996222470049940ddef2e691`; the sealed-census manuscript
 baseline is `452907920dc623d4d1e6ae7675428fe02ed840c4`.
-The revised atlas is v1.3 and the cubic companion v1.1, both dated 8 October 2026.
+The revised atlas is v1.4 and the cubic companion v1.2, both dated 8 October 2026.
+The source-policy correction follows commit
+`94d586095c1b12edf185c31f20f6f7c72c786c4a` (atlas v1.3 / companion v1.1).
+Private reviews and internal working notes are excluded from the manuscript
+bibliographies and prose references. The scientific reproduction artifacts
+are identified directly in the articles.
 
 For a checked-out revision, record `git rev-parse HEAD` and use that full SHA
 in a GitHub `blob/<SHA>/<path>` permalink. The commit pins the complete tree;

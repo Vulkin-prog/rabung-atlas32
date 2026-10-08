@@ -24,8 +24,10 @@ redistribution is subject to the owner's rights confirmation described in
 `RIGHTS.md`. No new licence is applied to inherited material by this deposit.
 
 Externally supplied French reports are **not redistributed**. Their rights were
-not established. The manuscript may cite a privately supplied review as a
-source; the review text is not included in source, Git history or release assets.
+not established. Editorial reports and internal working notes are not cited as
+scientific sources in either manuscript. The mathematical arguments are given
+in the articles and their reproducibility packages. The review texts are not
+included in source, Git history or release assets.
 References to papers and official documentation are bibliographic citations and
 links, not copies of those documents.
 

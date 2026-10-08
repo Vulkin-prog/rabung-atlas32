@@ -1,12 +1,24 @@
 # Réponse aux deux rapports reçus le 8 octobre 2026
 
-La présente révision produit **l'atlas v1.3 (29 pages)** et le **compagnon
-cubique v1.1 (16 pages)**. Elle part de la branche de la PR #1 au commit
+La révision initiale après les rapports a produit **l'atlas v1.3 (29 pages)**
+et le **compagnon cubique v1.1 (16 pages)**. Elle part de la branche de la PR #1 au commit
 `59a9f9c501ab6781996222470049940ddef2e691` et conserve les résultats scientifiques
 scellés. Les deux rapports ont été lus intégralement; les antécédents décisifs
 ont été contrôlés dans les sources primaires. Le compte assemblé et ses
 moments restent le sujet du compagnon. L'identité générale de corrélation
 et la famille géométrique sont maintenant attribuées explicitement.
+
+La correction éditoriale suivante produit **l'atlas v1.4 (29 pages)** et le
+**compagnon v1.2 (16 pages)**. Conformément à la demande de l'auteur, les
+reviews et documents internes sans destination de publication sont retirés
+des sources scientifiques des articles. Les trois citations de la review
+privée du 4 octobre, sa notice bibliographique, la notice des notes de projet
+et celle du manuscrit GPU non fourni sont supprimées. Les renvois aux dossiers
+de revue et les récits de révision quittent également le texte des articles.
+Les preuves, identités et certificats sont présentés directement. Les deux
+articles destinés à la publication conservent leurs références mutuelles;
+les codes et données sont identifiés dans leurs sections de reproductibilité.
+Ce document reste un registre de travail et n'est cité dans aucun manuscrit.
 
 ## Rapports d'entrée
 
