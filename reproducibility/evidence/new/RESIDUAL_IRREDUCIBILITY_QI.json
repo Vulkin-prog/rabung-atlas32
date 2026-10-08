@@ -1,0 +1,1160 @@
+{
+  "base_field": "Q(i)",
+  "criterion": "degree-preserving irreducible reduction at q=1 mod 4",
+  "models": {
+    "residual_d2_000_certificate.json": {
+      "certificate": "residual_d2_000_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        19,
+        1555,
+        15087
+      ],
+      "q": 5
+    },
+    "residual_d2_001_certificate.json": {
+      "certificate": "residual_d2_001_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        68,
+        1022,
+        -20273
+      ],
+      "q": 13
+    },
+    "residual_d2_002_certificate.json": {
+      "certificate": "residual_d2_002_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        87,
+        2577,
+        -5186
+      ],
+      "q": 5
+    },
+    "residual_d2_003_certificate.json": {
+      "certificate": "residual_d2_003_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        206,
+        5301,
+        8689
+      ],
+      "q": 17
+    },
+    "residual_d2_004_certificate.json": {
+      "certificate": "residual_d2_004_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        119,
+        2724,
+        13875
+      ],
+      "q": 41
+    },
+    "residual_d2_005_certificate.json": {
+      "certificate": "residual_d2_005_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        225,
+        6856,
+        23776
+      ],
+      "q": 13
+    },
+    "residual_d2_006_certificate.json": {
+      "certificate": "residual_d2_006_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        187,
+        3746,
+        -6398
+      ],
+      "q": 13
+    },
+    "residual_d2_007_certificate.json": {
+      "certificate": "residual_d2_007_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        138,
+        4279,
+        28962
+      ],
+      "q": 5
+    },
+    "residual_d2_008_certificate.json": {
+      "certificate": "residual_d2_008_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        106,
+        4132,
+        9901
+      ],
+      "q": 13
+    },
+    "residual_d2_009_certificate.json": {
+      "certificate": "residual_d2_009_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        51,
+        1702,
+        34148
+      ],
+      "q": 5
+    },
+    "residual_d2_010_certificate.json": {
+      "certificate": "residual_d2_010_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        49,
+        -533,
+        -35360
+      ],
+      "q": 37
+    },
+    "residual_d2_011_certificate.json": {
+      "certificate": "residual_d2_011_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        32,
+        147,
+        19061
+      ],
+      "q": 41
+    },
+    "residual_d2_012_certificate.json": {
+      "certificate": "residual_d2_012_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        100,
+        1169,
+        -1212
+      ],
+      "q": 13
+    },
+    "residual_d2_013_certificate.json": {
+      "certificate": "residual_d2_013_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        168,
+        2191,
+        -21485
+      ],
+      "q": 17
+    },
+    "residual_d2_014_certificate.json": {
+      "certificate": "residual_d2_014_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        257,
+        7003,
+        42837
+      ],
+      "q": 5
+    },
+    "residual_d2_015_certificate.json": {
+      "certificate": "residual_d2_015_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        157,
+        5834,
+        44049
+      ],
+      "q": 13
+    },
+    "residual_d2_016_certificate.json": {
+      "certificate": "residual_d2_016_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        36,
+        875,
+        -39334
+      ],
+      "q": 29
+    },
+    "residual_d2_017_certificate.json": {
+      "certificate": "residual_d2_017_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        155,
+        3599,
+        -25459
+      ],
+      "q": 17
+    },
+    "residual_d2_018_certificate.json": {
+      "certificate": "residual_d2_018_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        70,
+        3257,
+        49235
+      ],
+      "q": 13
+    },
+    "residual_d2_019_certificate.json": {
+      "certificate": "residual_d2_019_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        30,
+        -2088,
+        -50447
+      ],
+      "q": 13
+    },
+    "residual_d2_020_certificate.json": {
+      "certificate": "residual_d2_020_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        55,
+        2430,
+        -24247
+      ],
+      "q": 61
+    },
+    "residual_d2_021_certificate.json": {
+      "certificate": "residual_d2_021_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        13,
+        -1408,
+        3974
+      ],
+      "q": 41
+    },
+    "residual_d2_022_certificate.json": {
+      "certificate": "residual_d2_022_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        170,
+        4426,
+        48023
+      ],
+      "q": 13
+    },
+    "residual_d2_023_certificate.json": {
+      "certificate": "residual_d2_023_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        81,
+        -386,
+        -16299
+      ],
+      "q": 5
+    },
+    "residual_d2_024_certificate.json": {
+      "certificate": "residual_d2_024_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        17,
+        -680,
+        -54421
+      ],
+      "q": 5
+    },
+    "residual_d2_025_certificate.json": {
+      "certificate": "residual_d2_025_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        149,
+        636,
+        -36572
+      ],
+      "q": 5
+    },
+    "residual_d2_026_certificate.json": {
+      "certificate": "residual_d2_026_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        117,
+        489,
+        -55633
+      ],
+      "q": 17
+    },
+    "residual_d2_027_certificate.json": {
+      "certificate": "residual_d2_027_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        74,
+        3985,
+        -9160
+      ],
+      "q": 17
+    },
+    "residual_d2_028_certificate.json": {
+      "certificate": "residual_d2_028_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        189,
+        5981,
+        63110
+      ],
+      "q": 13
+    },
+    "residual_d2_029_certificate.json": {
+      "certificate": "residual_d2_029_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        83,
+        1849,
+        53209
+      ],
+      "q": 5
+    },
+    "residual_d2_030_certificate.json": {
+      "certificate": "residual_d2_030_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        89,
+        4812,
+        64322
+      ],
+      "q": 5
+    },
+    "residual_d2_031_certificate.json": {
+      "certificate": "residual_d2_031_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        6,
+        2963,
+        11113
+      ],
+      "q": 5
+    },
+    "residual_d2_032_certificate.json": {
+      "certificate": "residual_d2_032_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        151,
+        2871,
+        32936
+      ],
+      "q": 5
+    },
+    "residual_d2_033_certificate.json": {
+      "certificate": "residual_d2_033_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        11,
+        -3643,
+        -65534
+      ],
+      "q": 29
+    },
+    "residual_d2_034_certificate.json": {
+      "certificate": "residual_d2_034_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        62,
+        -1941,
+        -31386
+      ],
+      "q": 13
+    },
+    "residual_d2_035_certificate.json": {
+      "certificate": "residual_d2_035_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        219,
+        3893,
+        12663
+      ],
+      "q": 13
+    },
+    "residual_d2_036_certificate.json": {
+      "certificate": "residual_d2_036_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        130,
+        -919,
+        -51659
+      ],
+      "q": 17
+    },
+    "residual_d2_037_certificate.json": {
+      "certificate": "residual_d2_037_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        376,
+        9727,
+        56712
+      ],
+      "q": 13
+    },
+    "residual_d2_038_certificate.json": {
+      "certificate": "residual_d2_038_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        104,
+        1897,
+        -59607
+      ],
+      "q": 29
+    },
+    "residual_d2_039_certificate.json": {
+      "certificate": "residual_d2_039_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        123,
+        3452,
+        -44520
+      ],
+      "q": 13
+    },
+    "residual_d3_000_certificate.json": {
+      "certificate": "residual_d3_000_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        1,
+        78,
+        891,
+        -5289
+      ],
+      "q": 5
+    },
+    "residual_d3_001_certificate.json": {
+      "certificate": "residual_d3_001_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        3,
+        47,
+        -1073,
+        -9469
+      ],
+      "q": 5
+    },
+    "residual_d3_002_certificate.json": {
+      "certificate": "residual_d3_002_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        1,
+        97,
+        2446,
+        9798
+      ],
+      "q": 5
+    },
+    "residual_d3_003_certificate.json": {
+      "certificate": "residual_d3_003_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        4,
+        144,
+        1373,
+        329
+      ],
+      "q": 13
+    },
+    "residual_d3_004_certificate.json": {
+      "certificate": "residual_d3_004_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        10,
+        376,
+        3506,
+        10353
+      ],
+      "q": 13
+    },
+    "residual_d3_005_certificate.json": {
+      "certificate": "residual_d3_005_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        11,
+        454,
+        4397,
+        5064
+      ],
+      "q": 29
+    },
+    "residual_d3_006_certificate.json": {
+      "certificate": "residual_d3_006_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        5,
+        222,
+        2264,
+        -4960
+      ],
+      "q": 53
+    },
+    "residual_d3_007_certificate.json": {
+      "certificate": "residual_d3_007_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        6,
+        232,
+        2133,
+        10024
+      ],
+      "q": 89
+    },
+    "residual_d3_008_certificate.json": {
+      "certificate": "residual_d3_008_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        2,
+        -31,
+        -1964,
+        -4180
+      ],
+      "q": 17
+    },
+    "residual_d3_009_certificate.json": {
+      "certificate": "residual_d3_009_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        2,
+        175,
+        3337,
+        4509
+      ],
+      "q": 13
+    },
+    "residual_d3_010_certificate.json": {
+      "certificate": "residual_d3_010_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        7,
+        310,
+        3024,
+        4735
+      ],
+      "q": 17
+    },
+    "residual_d3_011_certificate.json": {
+      "certificate": "residual_d3_011_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        2,
+        88,
+        760,
+        9695
+      ],
+      "q": 29
+    },
+    "residual_d3_012_certificate.json": {
+      "certificate": "residual_d3_012_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        8,
+        407,
+        5470,
+        14533
+      ],
+      "q": 13
+    },
+    "residual_d3_013_certificate.json": {
+      "certificate": "residual_d3_013_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        4,
+        125,
+        -182,
+        -14758
+      ],
+      "q": 89
+    },
+    "residual_d3_014_certificate.json": {
+      "certificate": "residual_d3_014_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        12,
+        551,
+        6843,
+        14862
+      ],
+      "q": 5
+    },
+    "residual_d3_015_certificate.json": {
+      "certificate": "residual_d3_015_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        9,
+        366,
+        3637,
+        -4631
+      ],
+      "q": 5
+    },
+    "residual_d3_016_certificate.json": {
+      "certificate": "residual_d3_016_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        5,
+        154,
+        1242,
+        15313
+      ],
+      "q": 13
+    },
+    "residual_d3_017_certificate.json": {
+      "certificate": "residual_d3_017_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        12,
+        532,
+        5288,
+        -225
+      ],
+      "q": 17
+    },
+    "residual_d3_018_certificate.json": {
+      "certificate": "residual_d3_018_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        9,
+        298,
+        2615,
+        15642
+      ],
+      "q": 5
+    },
+    "residual_d3_019_certificate.json": {
+      "certificate": "residual_d3_019_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        5,
+        241,
+        3819,
+        10127
+      ],
+      "q": 17
+    },
+    "residual_d4_000_certificate.json": {
+      "certificate": "residual_d4_000_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        57,
+        1079,
+        7387,
+        5802
+      ],
+      "q": 5
+    },
+    "residual_d4_001_certificate.json": {
+      "certificate": "residual_d4_001_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        52,
+        857,
+        5123,
+        10762
+      ],
+      "q": 29
+    },
+    "residual_d4_002_certificate.json": {
+      "certificate": "residual_d4_002_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        56,
+        1001,
+        6496,
+        11091
+      ],
+      "q": 17
+    },
+    "residual_d4_003_certificate.json": {
+      "certificate": "residual_d4_003_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        56,
+        982,
+        4941,
+        -3996
+      ],
+      "q": 17
+    },
+    "residual_d4_004_certificate.json": {
+      "certificate": "residual_d4_004_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        53,
+        935,
+        6014,
+        5473
+      ],
+      "q": 5
+    },
+    "residual_d4_005_certificate.json": {
+      "certificate": "residual_d4_005_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        61,
+        1223,
+        8760,
+        6131
+      ],
+      "q": 5
+    },
+    "residual_d4_006_certificate.json": {
+      "certificate": "residual_d4_006_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        64,
+        1389,
+        10411,
+        10537
+      ],
+      "q": 13
+    },
+    "residual_d4_007_certificate.json": {
+      "certificate": "residual_d4_007_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        60,
+        1126,
+        6314,
+        -3667
+      ],
+      "q": 17
+    },
+    "residual_d4_008_certificate.json": {
+      "certificate": "residual_d4_008_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        46,
+        606,
+        1435,
+        -14349
+      ],
+      "q": 5
+    },
+    "residual_d4_009_certificate.json": {
+      "certificate": "residual_d4_009_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        54,
+        1032,
+        8460,
+        15271
+      ],
+      "q": 13
+    },
+    "residual_d4_010_certificate.json": {
+      "certificate": "residual_d4_010_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        62,
+        1214,
+        7074,
+        6028
+      ],
+      "q": 5
+    },
+    "residual_d4_011_certificate.json": {
+      "certificate": "residual_d4_011_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        58,
+        1176,
+        9833,
+        15600
+      ],
+      "q": 29
+    },
+    "residual_d4_012_certificate.json": {
+      "certificate": "residual_d4_012_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        48,
+        713,
+        3750,
+        10433
+      ],
+      "q": 17
+    },
+    "residual_d4_013_certificate.json": {
+      "certificate": "residual_d4_013_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        63,
+        1311,
+        9520,
+        15826
+      ],
+      "q": 37
+    },
+    "residual_d4_014_certificate.json": {
+      "certificate": "residual_d4_014_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        42,
+        481,
+        1617,
+        409
+      ],
+      "q": 61
+    },
+    "residual_d4_015_certificate.json": {
+      "certificate": "residual_d4_015_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        59,
+        1167,
+        8147,
+        15497
+      ],
+      "q": 37
+    },
+    "residual_d4_016_certificate.json": {
+      "certificate": "residual_d4_016_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        60,
+        1145,
+        7869,
+        11420
+      ],
+      "q": 17
+    },
+    "residual_d4_017_certificate.json": {
+      "certificate": "residual_d4_017_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        47,
+        703,
+        3881,
+        -4551
+      ],
+      "q": 13
+    },
+    "residual_d4_018_certificate.json": {
+      "certificate": "residual_d4_018_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        50,
+        750,
+        2808,
+        -14020
+      ],
+      "q": 13
+    },
+    "residual_d4_019_certificate.json": {
+      "certificate": "residual_d4_019_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        55,
+        1110,
+        9351,
+        9982
+      ],
+      "q": 13
+    },
+    "residual_d5_000_certificate.json": {
+      "certificate": "residual_d5_000_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1767,
+        21748,
+        124389,
+        252460
+      ],
+      "q": 37
+    },
+    "residual_d5_001_certificate.json": {
+      "certificate": "residual_d5_001_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1781,
+        22306,
+        132378,
+        293316
+      ],
+      "q": 53
+    },
+    "residual_d5_002_certificate.json": {
+      "certificate": "residual_d5_002_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        67,
+        1722,
+        20982,
+        118397,
+        233770
+      ],
+      "q": 13
+    },
+    "residual_d5_003_certificate.json": {
+      "certificate": "residual_d5_003_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1788,
+        22635,
+        136957,
+        313138
+      ],
+      "q": 37
+    },
+    "residual_d5_004_certificate.json": {
+      "certificate": "residual_d5_004_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1792,
+        22779,
+        138330,
+        313467
+      ],
+      "q": 17
+    },
+    "residual_d5_005_certificate.json": {
+      "certificate": "residual_d5_005_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        69,
+        1837,
+        23426,
+        141598,
+        318282
+      ],
+      "q": 5
+    },
+    "residual_d5_006_certificate.json": {
+      "certificate": "residual_d5_006_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        67,
+        1736,
+        21659,
+        129110,
+        288501
+      ],
+      "q": 61
+    },
+    "residual_d5_007_certificate.json": {
+      "certificate": "residual_d5_007_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        67,
+        1743,
+        21988,
+        133689,
+        308323
+      ],
+      "q": 29
+    },
+    "residual_d5_008_certificate.json": {
+      "certificate": "residual_d5_008_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        66,
+        1666,
+        19862,
+        109177,
+        208804
+      ],
+      "q": 5
+    },
+    "residual_d5_009_certificate.json": {
+      "certificate": "residual_d5_009_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        66,
+        1673,
+        20191,
+        113756,
+        228626
+      ],
+      "q": 5
+    },
+    "residual_d6_000_certificate.json": {
+      "certificate": "residual_d6_000_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        84,
+        2815,
+        47882,
+        429308,
+        1855669,
+        2729819
+      ],
+      "q": 13
+    },
+    "residual_d6_001_certificate.json": {
+      "certificate": "residual_d6_001_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        79,
+        2472,
+        38437,
+        298830,
+        951505,
+        215744
+      ],
+      "q": 113
+    },
+    "residual_d6_002_certificate.json": {
+      "certificate": "residual_d6_002_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        85,
+        2889,
+        50058,
+        461108,
+        2086701,
+        3397473
+      ],
+      "q": 17
+    },
+    "residual_d6_003_certificate.json": {
+      "certificate": "residual_d6_003_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2653,
+        44707,
+        404157,
+        1816419,
+        3007713
+      ],
+      "q": 5
+    },
+    "residual_d6_004_certificate.json": {
+      "certificate": "residual_d6_004_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2654,
+        44717,
+        403359,
+        1799130,
+        2910994
+      ],
+      "q": 17
+    },
+    "residual_d6_005_certificate.json": {
+      "certificate": "residual_d6_005_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        80,
+        2579,
+        42531,
+        372357,
+        1585387,
+        2340059
+      ],
+      "q": 53
+    },
+    "residual_d6_006_certificate.json": {
+      "certificate": "residual_d6_006_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        83,
+        2791,
+        48505,
+        456205,
+        2171153,
+        3968476
+      ],
+      "q": 5
+    },
+    "residual_d6_007_certificate.json": {
+      "certificate": "residual_d6_007_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2662,
+        45170,
+        413025,
+        1891248,
+        3241883
+      ],
+      "q": 181
+    },
+    "residual_d6_008_certificate.json": {
+      "certificate": "residual_d6_008_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        86,
+        2963,
+        52234,
+        492908,
+        2317733,
+        4065127
+      ],
+      "q": 37
+    },
+    "residual_d6_009_certificate.json": {
+      "certificate": "residual_d6_009_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2670,
+        45623,
+        422691,
+        1983366,
+        3572772
+      ],
+      "q": 5
+    }
+  },
+  "schema": 1,
+  "source_order": "integer coefficients descending",
+  "summary": {
+    "2": {
+      "count": 40,
+      "max_q": 61
+    },
+    "3": {
+      "count": 20,
+      "max_q": 89
+    },
+    "4": {
+      "count": 20,
+      "max_q": 61
+    },
+    "5": {
+      "count": 10,
+      "max_q": 61
+    },
+    "6": {
+      "count": 10,
+      "max_q": 181
+    }
+  }
+}

@@ -9,6 +9,7 @@ from fractions import Fraction
 from functools import lru_cache
 import argparse,json,math,time,itertools,csv,copy
 from exact_fields import Field,prime
+from residual_irreducibility import check_binding
 from finite_modules import kernel4,intersection
 from algebra import echelon,reduce,coordinates,nullspace,bits,add,scale
 
@@ -168,10 +169,16 @@ def check_local(root,previous):
 
 def check_residual(root,previous):
     total=0;values=0
+    witnesses=read(root/'RESIDUAL_IRREDUCIBILITY_QI.json')['models']
+    seen=set()
     for degree in range(2,7):
         data=read(root/f'RESIDUAL_QUALIFICATION_D{degree}.json')
         for model in data['models']:
             d=read(root/model['certificate']);m=d['M'];rows=[]
+            name=model['certificate']
+            if name in seen or name not in witnesses: raise ValueError('Missing or repeated irreducibility certificate')
+            check_binding(model,d,witnesses[name],degree)
+            seen.add(name)
             assert d['p']==2940141229 and m==28 and isprime(d['p']) and evaluate(d['polynomial'],d['witness'],d['p'])==0
             assert all(pow((d['witness']+j)%d['p'],(d['p']-1)//4,d['p'])==d['phase'] for j in range(m))
             for q,w,ii,row in d['samples']:
@@ -180,10 +187,11 @@ def check_residual(root,previous):
                 assert all((w+j)%q and pow((w+j)%q,(q-1)//4,q)==pow(ii,e,q) for j,e in enumerate(row));values+=m;rows.append(row)
             neutral=kernel4(rows);ratios=kernel4([[(e-row[0])%4 for e in row[1:]] for row in rows])
             assert (neutral['C4'],neutral['C2'],ratios['C4'],ratios['C2'])==(28,0,27,0)
-            # An image of maximal possible order proves no fourth-power
-            # relation: no unverified high-degree field assumption is needed.
+            # The split-prime irreducibility witness places every row in
+            # one root field over Q(i); a maximal image then proves full rank.
             total+=1
     assert total==100
+    if set(witnesses)!=seen: raise ValueError('Unexpected irreducibility certificates')
     return total,values
 
 def check_densities(root,previous):
