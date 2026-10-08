@@ -44,7 +44,7 @@ jobs:
         with:
           persist-credentials: false
       - name: Install the manuscript toolchain
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended texlive-pictures
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended texlive-pictures lmodern
       - name: Compile both standalone manuscripts twice
         run: |
           mkdir -p build/paper
