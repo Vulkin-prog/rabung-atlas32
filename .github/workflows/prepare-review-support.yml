@@ -1,0 +1,60 @@
+name: Prepare reviewed supporting certificates
+on:
+  push:
+    branches: [editorial/review-support-preparation-20261008]
+permissions:
+  contents: write
+jobs:
+  support:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+      - name: Prepare a support-only commit on the preserved integration
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp reproducibility/proofs/residual_irreducibility.py /tmp/residual_irreducibility.py
+          git checkout --detach 59a9f9c501ab6781996222470049940ddef2e691
+          cp /tmp/residual_irreducibility.py reproducibility/proofs/residual_irreducibility.py
+          mkdir -p /tmp/review-support
+          python3 -B reproducibility/proofs/residual_irreducibility.py --generate reproducibility/evidence/new --output reproducibility/evidence/new/RESIDUAL_IRREDUCIBILITY_QI.json | tee /tmp/review-support/irreducibility.json
+          python3 -O reproducibility/proofs/residual_irreducibility.py | tee /tmp/review-support/negative-tests-optimized.json
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib,json
+          p=Path('reproducibility/proofs/verify_synthesis.py')
+          s=p.read_text()
+          def replace(a,b):
+              global s
+              if s.count(a)!=1: raise ValueError('patch precondition: '+a[:90])
+              s=s.replace(a,b)
+          replace('from exact_fields import Field,prime','from exact_fields import Field,prime\nfrom residual_irreducibility import check_binding')
+          replace('def check_residual(root,previous):\n    total=0;values=0','def check_residual(root,previous):\n    total=0;values=0\n    witnesses=read(root/\'RESIDUAL_IRREDUCIBILITY_QI.json\')[\'models\']\n    seen=set()')
+          replace("            d=read(root/model['certificate']);m=d['M'];rows=[]", "            d=read(root/model['certificate']);m=d['M'];rows=[]\n            name=model['certificate']\n            if name in seen or name not in witnesses: raise ValueError('Missing or repeated irreducibility certificate')\n            check_binding(model,d,witnesses[name],degree)\n            seen.add(name)")
+          replace('            # An image of maximal possible order proves no fourth-power\n            # relation: no unverified high-degree field assumption is needed.', '            # The split-prime irreducibility witness places every row in\n            # one root field over Q(i); a maximal image then proves full rank.')
+          replace('    assert total==100\n    return total,values', "    assert total==100\n    if set(witnesses)!=seen: raise ValueError('Unexpected irreducibility certificates')\n    return total,values")
+          p.write_text(s)
+          manifest=Path('docs/EDITORIAL_SHA256.json'); data=json.loads(manifest.read_text())
+          for name in ['reproducibility/proofs/verify_synthesis.py','reproducibility/proofs/residual_irreducibility.py','reproducibility/evidence/new/RESIDUAL_IRREDUCIBILITY_QI.json']:
+              data[name]=hashlib.sha256(Path(name).read_bytes()).hexdigest()
+          manifest.write_text(json.dumps(data,indent=2,sort_keys=True)+'\n')
+          PY
+          python3 -B reproducibility/proofs/verify_synthesis.py | tee /tmp/review-support/synthesis.log
+          python3 -B scripts/verify_editorial.py | tee /tmp/review-support/editorial.log
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reproducibility/proofs/verify_synthesis.py reproducibility/proofs/residual_irreducibility.py reproducibility/evidence/new/RESIDUAL_IRREDUCIBILITY_QI.json docs/EDITORIAL_SHA256.json
+          test "$(git diff --cached --name-only | wc -l)" -eq 4
+          git commit -m 'Certify residual root fields over Q(i) and bind the one hundred character certificates'
+          git rev-parse HEAD > /tmp/review-support/SUPPORT_SHA.txt
+          git push origin HEAD:refs/heads/editorial/review-support-20261008
+          git archive --format=zip HEAD > /tmp/review-support/repository.zip
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: reviewed-support-snapshot
+          path: /tmp/review-support/
+          retention-days: 30
