@@ -147,21 +147,27 @@ They remain descriptive analyses of this fixed sample.
 
 The separate research manuscript
 [Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations](paper/CUBIC_QUADRUPLETS_EN.pdf)
-has a [standalone LaTeX source](paper/CUBIC_QUADRUPLETS_EN.tex). It proves a
-four-position elliptic identity and an exact consecutive cubic count, with
-six-curve trace certificates and the first four vertical moments. The two
+has a [standalone LaTeX source](paper/CUBIC_QUADRUPLETS_EN.tex). It assembles
+the Greene–Lennon four-position identity into an exact consecutive cubic count,
+including the boundary corrections, with six-curve trace certificates and
+the first four moments over primes. The direct geometric proof cites the
+preceding family and isogeny of Freeman–Satoh and Guillevic–Vergnaud. The two
 arithmetic regimes depend on whether three is a cube. This cubic statistic
 is distinct from the historical quadratic A4 column of the atlas.
 
 From the repository root:
 
     python3 -B scripts/cubic_quadruplets.py 1000033
+    python3 -B reproducibility/proofs/residual_irreducibility.py
     python3 -B scripts/verify_editorial.py
     python3 -B scripts/verify_editorial.py --catalogue
 
-The first command validates stored elliptic certificates and returns the
-exact count. The second replays the curated elliptic, moment and ternary
-diagnostic checks. The third additionally requires a C++17 compiler and
+The count command validates stored elliptic certificates. The irreducibility
+command binds all 100 residual models to their character certificates and
+replays 200 finite witnesses over Q and Q(i). The editorial command additionally
+checks the hypergeometric derivation against 2,360 literal four-position sums,
+then replays the curated elliptic, moment and ternary diagnostics.
+Its `--catalogue` option requires a C++17 compiler and
 reclassifies all retained ordinary long-run positions. No command rescans
 the full million character words.
 
@@ -171,6 +177,11 @@ analytic passage is still required before publication; see
 a complete limiting distribution or a critical maximum law. The editorial
 scope and separate provenance manifests are in
 [EDITORIAL_INTEGRATION.md](docs/EDITORIAL_INTEGRATION.md).
+The atlas v1.3 and companion v1.1 incorporate the two reports received on
+8 October 2026. The [response to the reviews](docs/REVIEW_RESPONSE_2026-10-08_FR.md)
+records the corrections and remaining editorial tasks. The
+[reproduction map](docs/PUBLICATION_REPRODUCIBILITY.md) identifies the frozen
+data and scanner separately from the manuscript revisions.
 
 ## Manuscript and theory
 

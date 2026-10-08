@@ -1,19 +1,21 @@
 # Elliptic integration review, 8 October 2026
 
-This is an internal proof review and a record of finite reproductions for the
-companion manuscript. It is not an independent external review. The manuscript
-gives an unconditional argument for four moments, using the cited analytic
-theorems; independent checking of that argument remains an editorial task
-before publication, rather than an additional mathematical hypothesis.
+This records internal proof checking and finite reproductions, now supplemented
+by the separate priority audit and AI-assisted counter-review supplied on
+8 October 2026. The [response](REVIEW_RESPONSE_2026-10-08_FR.md) identifies
+those reports and the resulting changes. They do not constitute specialist
+human peer review. The manuscript gives an unconditional argument for four
+moments using the stated analytic theorems; specialist checking remains an
+editorial task before submission, rather than a mathematical hypothesis.
 
 ## Proof obligations and changes during integration
 
 | Obligation | Check or clarification in the companion |
 | --- | --- |
-| Four-position phase | The projective substitution keeps the factor conjugate to the cubic character of (c−d)/(a−b). |
-| Genus-two reduction | Both points at infinity and the two elliptic quotients are included; the degree-three isogeny is given explicitly. |
+| Four-position phase and attribution | The identity is an explicit Greene–Lennon corollary. A fractional linear substitution keeps the cubic phase and the projective contribution one; the hypergeometric normalization and trace theorem are stated. |
+| Genus-two reduction and attribution | Both points at infinity and elliptic quotients are included. Freeman–Satoh Proposition 4.2 and Guillevic–Vergnaud Section 3.1 are cited for the same family and isogeny. |
 | Consecutive quadruplets | All 27 character terms and the four forbidden zero positions are accounted for. A self-contained three-position Jacobi-sum derivation is included. |
-| Related CM twists | Fermat/Jacobi identities give the exact three-twist relation, with separate cube and noncube cases. They are not replaced by independent random variables. |
+| Related CM twists | Fermat/Jacobi identities give the three-twist relation. Explicit maps over K(cuberoot(3)) identify the Hecke twists; Fité–Sutherland is cited for finite-class conditioning. |
 | Non-CM qualifications | Two ordinary reductions with incompatible endomorphism fields are given for each curve. |
 | Symmetric powers and base change | Newton–Thorne supplies the needed cuspidal symmetric powers. Nonzero symmetric-power traces at inert primes exclude every required quadratic self-twist. |
 | GL(2) tensor cuspidality | The three curves are nondihedral after base change; their absolute traces at 31 exclude character-twist equivalence. |
@@ -29,16 +31,18 @@ critical intensity or a void probability for logarithmic-length maxima.
 
 ## Primary analytic references checked
 
-- Newton–Thorne, [Symmetric power functoriality for holomorphic modular forms](https://arxiv.org/abs/2009.07180), Theorem A.
-- Ramakrishnan, [Modularity of the Rankin–Selberg L-series, and multiplicity one for SL(2)](https://arxiv.org/abs/math/0007203), Theorem M and the cyclic base-change criterion on printed page 54.
-- Gillespie–Ji, [Prime number theorems for Rankin–Selberg L-functions over number fields](https://arxiv.org/abs/0910.3660), Theorem 1.1.
-- Chen–Shen, [Effective Sato–Tate distributions for surfaces arising from products of elliptic curves](https://arxiv.org/abs/2309.08848), Section 3.3 and Theorem 3.6, for the CM Hecke character.
+- Newton–Thorne, [Symmetric power functoriality for holomorphic modular forms, II](https://arxiv.org/abs/2009.07180), Theorem A.
+- Ramakrishnan, [Modularity of the Rankin–Selberg L-series, and multiplicity one for SL(2)](https://arxiv.org/abs/math/0007203), Theorem M; Proposition 2.3.1(5), printed page 54; Theorem 4.2.1, pages 93–94, for the regrouping of tensor factors.
+- Gillespie–Ji, [A Prime number theorem for Rankin–Selberg L-functions over number fields](https://arxiv.org/abs/0910.3660v1), Theorem 1.1 in v1. Published under the plural title *Prime number theorems*, Science China Mathematics 54 (2011), 35–46, [DOI](https://doi.org/10.1007/s11425-010-4137-x).
+- Chen–Shen, [On Effective Sato–Tate Distributions for Surfaces Arising from Products of Elliptic Curves](https://arxiv.org/abs/2309.08848v1), Section 3.3 and Theorem 3.6 in v1, for the CM Hecke character. Published without the initial *On*, Research in the Mathematical Sciences 11 (2024), article 69, [DOI](https://doi.org/10.1007/s40687-024-00470-x).
 - Sutherland, [Lecture 13](https://math.mit.edu/classes/18.783/2023/LectureNotes13.pdf) and [Lecture 21](https://math.mit.edu/classes/18.783/2023/LectureNotes21.pdf), for ordinary endomorphism fields and modularity background.
 
 The manuscript states the exact hypotheses used, including fixed objects,
 unitary normalization, cuspidality, self-contragredience and pole exclusions.
 Its identity proofs and finite certificates do not stand in for these theorems.
-The targeted literature check is not a complete bibliographic priority review.
+The supplied priority audit identified exact antecedents, now cited and
+derived at the point of use. Neither it nor this record establishes worldwide
+priority for the assembled count or the numerical moment tuples.
 
 ## Finite verification
 
@@ -49,6 +53,11 @@ moment package checks 207 small primes, 1,242 direct elliptic point counts,
 certificates, and 315 analytic routing cases for the 70 monomials through
 degree four. Routing enumeration checks coverage, not automorphy or a prime
 number theorem.
+The additional hypergeometric check covers 2,360 four-position cases through
+prime 97, including 49 cases with A=0 and 1,589 nontrivial cubic phases. It
+compares literal sums, the fractional linear identity, the normalized Greene
+sum, direct elliptic traces, opposite parameters, and the 3-torsion coordinate
+change. The archived geometric certificates are not rewritten.
 
 The public count oracle checks six curves. The third non-CM certificate is
 transported from the archived fractional-parameter model to the integer model

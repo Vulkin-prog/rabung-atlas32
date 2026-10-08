@@ -16,7 +16,7 @@
 \makeatother
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Arithmetic structure in power-residue runs}
-\fancyhead[R]{\small Research manuscript v1.2}
+\fancyhead[R]{\small Research manuscript v1.3}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -39,7 +39,7 @@
 of power-residue runs below $2^{32}$\\[3pt]
 \large Rabung profiles, Kummer densities, norm dependencies, and local codes}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The scope of the assistance and the status of the manuscript are stated in Section~\ref{sec:reproduction}.}}
-\date{8 October 2026 \quad Research manuscript v1.2}
+\date{8 October 2026 \quad Research manuscript v1.3}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -69,7 +69,7 @@ A separate stratified million-profile ternary supplement localizes a
 continuation contrast on a bounded arithmetic catalogue, with the same
 filter evaluated in an independent-colour comparator. A companion
 article develops an exact cubic four-window oracle and its first four
-vertical moments; these fixed-length results remain separate from
+moments over primes; these fixed-length results remain separate from
 the critical maximum problem.
 \end{abstract}
 \noindent\textbf{Keywords.} Multiplicative characters; residue runs;
@@ -95,27 +95,31 @@ because it occurs at an extreme witness can subsequently have a proved
 density over varying primes, but its selection does not become an
 independent statistical test of that density.
 
-The central contributions are as follows. First, the atlas and its
-boundary conditions are summarized in a common notation, with a complete
-machine-readable catalogue of $496$ order/length pairs. Second, exact
-short-pattern counts are connected to a fixed elliptic trace, while
-global extrema are treated separately. Third, arithmetic templates are
-certified by matching upper bounds from explicit power identities with
-lower bounds from character homomorphisms. Fourth, densities count
-primes having at least one realization and correctly handle conjugate
-roots and different constant phases. Finally, higher-root dependencies
-and the full local sign law are made explicit in selected families.
+The central contributions are the complete finite enumeration and
+its boundary contract; the specific certified Kummer densities with
+conjugate-root and phase dependencies; the complete generation by norms
+of the excess relations in two families; and an arithmetic realization
+of a binary code with its exact local run law. The $496$ order/length
+pairs and the bounded residual qualification are machine-readable.
+The fixed million-profile supplement supplies a separate descriptive
+diagnostic with a same-filter comparator. The short quadratic
+elliptic formula is background to the census, rather than a claim
+of a new connection between residue patterns and curves.
 
-Some ingredients are classical: the study of consecutive quadratic
+Some ingredients are classical: the study of consecutive power
 residues~\cite{lehmer}, Kummer theory~\cite{milneFT}, Chebotarev's
 theorem~\cite{milneANT}, and the MacWilliams identity~\cite{macwilliams}.
-Character-pattern counts also have established connections with curves
-and their Jacobians~\cite{patterns}. The contribution here is the
-specific census, its certified arithmetic templates, and the structural
-consequences proved from their relations. The targeted literature check
-does not establish priority for every example. This is an integrated
-research manuscript with reproducible evidence, not a claim that all
-phenomena described here are previously unknown.
+Character-pattern counts have established connections with curves
+and their Jacobians~\cite{patterns}. Prescribed residue patterns on
+finite sets of rational integers were studied by Wright~\cite{wright07,wright08}
+and by Karthick Babu and collaborators~\cite{babu24,babu25}.
+The Kummer--Chebotarev framework is classical; our certifications
+concern the relations of selected algebraic-root windows and their
+interaction across conjugate roots. Dual distance, orthogonal arrays
+and limited independence are standard coding theory~\cite{delsarte,cameron}.
+Section~\ref{sec:code} gives a specific arithmetic realization and
+its exact local run distribution, not a new general independence
+principle. No worldwide priority claim is made for the examples.
 
 \section{The atlas and the Rabung contract}\label{sec:atlas}
 \subsection{Definitions and conventions}
@@ -140,8 +144,8 @@ The atlas also records
 \begin{equation}\label{eq:K}
  K_r(p)=
  \begin{cases}
-  \max(M_r(p)+1,,2L_r(p)+2),&\sigma=1,\\
-  \max(M_r(p)+1,,L_r(p)+2),&\sigma=-1.
+  \max(M_r(p)+1,\,2L_r(p)+2),&\sigma=1,\\
+  \max(M_r(p)+1,\,L_r(p)+2),&\sigma=-1.
  \end{cases}
 \end{equation}
 We use \emph{length-first} notation: $W(k,r)$ is the least $n$ such that
@@ -189,16 +193,10 @@ samples for inference about the tails.
 
 The scanner uses certified rational coverage and exact completion;
 its algorithmic contract and qualification evidence are in the
-companion manuscript~\cite{gpu}. GPU batches contain at most $128$
-primes, CPU batches and commits at most $4096$, with bounded worker
-deadlines. Two interrupted executions were followed by documented,
-human-authorized changes to execution policy. The capacity remedy
-replayed an entire rejected GPU batch at a smaller denominator epoch,
-without accepting partial output. These execution changes did not
-modify the scientific engine, the domain, or already committed blocks.
-The scientific scan took approximately $35.7$ cumulative hours; the
-CPU quadruplet computation approximately $4.4$ hours. These are campaign
-times, not new comparative performance measurements.
+scanner manuscript~\cite{gpu}. Rejected batches supply no accepted
+partial output. Execution-policy details and campaign times are
+recorded in Appendix~\ref{app:execution}, separate from the mathematical
+coverage statement.
 
 The final manifest covers $203$ files and $4\,893\,897\,425$ bytes.
 Its SHA-256 is
@@ -268,7 +266,7 @@ The best admissible prime for $(2,25)$ is $1\,138\,900\,957$, giving
 \]
 At $(3,17)$ the prime is $2\,072\,886\,931$, giving
 $W(17,3)>33\,166\,190\,897$. Relative to the fixed direct-construction
-entries in Table~2 of Monroe's version~7~\cite{monroe}, these primes
+entries in Table~2 of Monroe's version~7~\cite{monroev7}, these primes
 increase by $18.82\%$ and $113.84\%$. They are the two improved entries
 among the $29$ fixed comparison points. This is a comparison with that
 identified historical table, not a claim of current world records.
@@ -332,7 +330,10 @@ equal signs is
 \]
 Over all $x\in\Fp$, each of the six pair sums equals $-1$. The
 genus-one double cover $y^2=x(x+1)(x+2)(x+3)$ has two rational points
-at infinity. Put $u=2x+3$ and $v=4y$. Its equation becomes
+at infinity. This length-four quartic and the residue-pattern
+interpretation are treated in~\cite[Section 2.3]{patterns}.
+We include the specialization and boundary count needed for the
+atlas column. Put $u=2x+3$ and $v=4y$. Its equation becomes
 $v^2=(u^2-1)(u^2-9)$, and the map
 \[
  X=u^2,\qquad Y=uv
@@ -456,9 +457,34 @@ and different from its two neighbours. There are
 $h-\ell-1$ interior placements; summing over
 $k\le\ell\le h-2$ gives \eqref{eq:iid-ordinary}.
 The formula retains the finite-word endpoints.
-The tiny terminal term is omitted only when an
-explicit bound or a cancelling equal-weight contrast
-allows it.
+The terminal term is bounded explicitly below; equal population
+sizes alone do not cancel it when their word lengths differ.
+
+Let $S_c$ and $S_n$ be the two sets of $500\,000$ profiles for which
+\emph{two} is respectively a cube and a noncube. For any per-prime
+statistic $U_p$, write $\delta U=\sum_{p\in S_c}U_p-\sum_{p\in S_n}U_p$.
+Define the count contrast and its iid-centred version by
+\begin{equation}\label{eq:ternary-contrasts}
+ \delta N_k=\delta(N_{p,k}),\qquad
+ \Delta_k=\delta(N_{p,k}-\mu_{h,k}).
+\end{equation}
+For $a<b$ put
+\[
+ D^N_{a,b}=\delta N_b-3^{a-b}\delta N_a,\qquad
+ \Delta^N_{a,b}=\Delta_b-3^{a-b}\Delta_a
+                 =D^N_{a,b}-\varepsilon^N_{a,b},
+\]
+where $\varepsilon^N_{a,b}=\delta(\mu_{h,b}-3^{a-b}\mu_{h,a})$.
+Equation~\eqref{eq:iid-ordinary} gives exactly
+\[
+ \mu_{h,b}-r^{a-b}\mu_{h,a}
+ =-\frac{(r-1)(b-a)}{r^b}+(1-r^{a-b})r^{1-h}.
+\]
+Only the constant term cancels between equal-sized groups. Here
+$h\ge2^{32}$, so
+$|\varepsilon^N_{a,b}|\le10^6(1-3^{a-b})3^{1-2^{32}}<3^{-100}$.
+This bound justifies every printed continuation decimal below;
+it does not replace the exact contrast by an identity.
 
 Observed counts, their continuation from one threshold
 to another, and the number of profiles with zero count
@@ -523,13 +549,30 @@ These are necessary-condition certificates,
 not exact Kummer density calculations for
 each detected model.
 
-Removing only this fixed union moves the
-prime-size-corrected cube/noncube contrast by
-60.53\% at threshold 21, 52.86\% at 24,
-and 83.93\% at 27. For the continuation
-24 to 27, its contrast moves from 217 to
-$563/27$, about 20.852, in units of the
-cumulative half-million counts.
+Let $T_{p,k}$ count catalogue-marked ordinary runs, and put
+$\delta T_k=\delta(T_{p,k})$ and
+$D^T_{a,b}=\delta T_b-3^{a-b}\delta T_a$. The retained counts are
+\begin{center}
+\begin{tabular}{r rrrr}
+\toprule
+$k$&$\sum_{S_c}N_{p,k}$&$\sum_{S_n}N_{p,k}$&$\sum_{S_c}T_{p,k}$&$\sum_{S_n}T_{p,k}$\\
+\midrule
+21&619086&615722&2195&105\\
+24&23941&22726&663&19\\
+27&1087&825&224&4\\
+\bottomrule
+\end{tabular}
+\end{center}
+Removing this union changes the prime-size-corrected count contrast
+by $\delta T_k/\Delta_k$: 60.53\% at threshold 21, 52.86\% at 24,
+and 83.93\% at 27. These percentages precede subtraction of the
+filter's own iid background. The raw continuation innovations are
+\[
+ D^N_{24,27}=262-\frac{1215}{27}=217,\quad
+ D^T_{24,27}=220-\frac{644}{27}=\frac{5296}{27},\quad
+ D^N_{24,27}-D^T_{24,27}=\frac{563}{27}.
+\]
+The last value is about 20.852 in cumulative half-million count units.
 This is a finite descriptive decomposition
 after model selection. It is not a causal
 percentage explained or a prospective test.
@@ -620,10 +663,23 @@ increments gives, per profile,
 The same bounds applied to the two equal-sized
 cube/noncube populations give an absolute
 iid contrast below 0.002575 for 24 to 27.
-After subtracting this background, the marked
+In this calculation the background is
+$\varepsilon^T_{a,b}=\delta(\EE_{\rm iid}T_{p,b}
+-3^{a-b}\EE_{\rm iid}T_{p,a})$, and the fully centred catalogue
+fraction is
+\[
+ \frac{D^T_{a,b}-\varepsilon^T_{a,b}}
+      {D^N_{a,b}-\varepsilon^N_{a,b}}.
+\]
+For 24 to 27,
+$|\varepsilon^T_{24,27}|\le727000000/282429536481+3^{-100}$;
+the rational part is approximately 0.002574094 and the final term
+bounds the finite-word remainder.
+Retaining also the bound on $\varepsilon^N$, the marked
 catalogue accounts for a fraction between
 90.389665\% and 90.392038\% of the initial
-contrast 217; the centred residual lies in
+centred initial contrast $217-\varepsilon^N_{24,27}$;
+the centred residual lies in
 $[20.849277,20.854427]$ cumulative occurrences.
 These are outward-rounded rigorous enclosures
 for the fixed comparator, not bounds for the
@@ -634,7 +690,7 @@ The companion manuscript~\cite{cubiccompanion}
 studies the cubic window count
 $A^{(3)}_{p,4}$ on $1,\ldots,p-1$.
 It proves an exact six-curve formula and
-four vertical moments for
+four moments over primes for
 $(27A^{(3)}_{p,4}-p)/\sqrt p$.
 Its conditional second moments are 44
 when three is a cube and 17 otherwise;
@@ -787,7 +843,7 @@ presentation is exact.
 \end{lemma}
 \begin{proof}
 The first map gives $|H|\le U$, and the second gives $L\le|H|$.
-If a product of the radicandes, all units at the place, is an $r$th
+If a product of the radicands, all units at the place, is an $r$th
 power, its root has valuation zero and its reduction is an $r$th
 power. Hence the finite-place characters respect every actual
 relation and do descend to $H$.
@@ -819,7 +875,8 @@ certificates. No approximation enters this change of representation.
 
 \section{Prime densities through root orbits}\label{sec:orbits}
 \subsection{A general inclusion--exclusion formula}
-Put $C=\Q(\zeta_r)$. Let $N/C$ be a splitting field with Galois group
+Let the polynomial defining the family belong to $\Q[X]$, and put
+$C=\Q(\zeta_r)$. Let $N/C$ be its splitting field with Galois group
 $\Gamma$, acting on roots $\alpha_1,\ldots,\alpha_d$. For a nonempty
 root subset $S$, define
 \[
@@ -932,9 +989,12 @@ The first eight also determine $u_{21},\ldots,u_{25}=1$.
 The ninth gives $u_{12}^2=1$, and identities ten to eighteen give
 the same value $t=u_{12}$ at all positions $11,\ldots,20$.
 For an odd order, $t^2=t^r=1$ implies $t=1$.
-Finally $0<|Q(-j)|\le216$ at $0\le j\le31$. Such a modular root
-cannot be within $31$ positions of zero at either ordinary boundary
-when $p>512$, so all windows used here are ordinary and nonzero.
+Finally $0<|Q(-j)|\le216<p$ for $0\le j\le31$. If $w+j=0$
+modulo $p$ for any such $j$, then $p\mid Q(-j)$, a contradiction.
+Choose $w$ in $1,\ldots,p-1$. The interval $w,\ldots,w+31$
+cannot cross $p$, since then it would contain zero modulo $p$.
+It therefore lies inside the ordinary word, and all its values are
+nonzero. No lower bound of 32 on $w$ is asserted or needed.
 \end{proof}
 \begin{table}[htbp]\centering\small\setlength{\tabcolsep}{4pt}
 \caption{Exact propagation identities in $\Q[X]/(X^2+31X+216)$. Add $A_9A_{22}=-18$ to force the constant phase.}\label{tab:propagation}
@@ -1010,7 +1070,7 @@ Let
  \qquad \alpha\in\Q[X]/(f),\quad A_j=\alpha+j.
 \]
 This family arose at $p=3\,836\,617\,441$ in the quadratic atlas.
-The group generated by its $53$ radicandes has dimension $41$ over
+The group generated by its $53$ radicands has dimension $41$ over
 $\Ftwo$. Its ratio group has dimension $40$, so both constant signs
 are possible. Twelve independent square identities give an upper
 bound; finite-place character rows of rank $41$ give the matching
@@ -1061,6 +1121,8 @@ No error term for $X=2^{32}$ is asserted.
 
 \subsection{Three-wise independence and exceptional tails}
 The dual code has no nonzero vector of weight $1$, $2$, or $3$.
+The implication from this dual distance to an orthogonal array of
+strength three is classical~\cite{delsarte,cameron}.
 Every projection of $\mathcal C$ onto at most three coordinates is
 therefore uniform. These signs are independent up to triples in
 the limiting population of Proposition~\ref{prop:uniformcode}.
@@ -1073,7 +1135,9 @@ Both constant vectors belong to $\mathcal C$, so
 \]
 For $53$ independent fair signs this probability is $2^{-52}$.
 Thus three-wise independence is compatible with an enhancement
-factor $2^{12}=4096$ at this extreme.
+factor $2^{12}=4096$ at this extreme. This ratio follows from the
+code dimension and the presence of its two constant vectors;
+the result here is the certified arithmetic code and its run law.
 
 The full weight law follows from MacWilliams' identity. If $B_w$
 is the number of dual words of weight $w$, the number of code
@@ -1597,6 +1661,20 @@ their irreducible root factors.
 
 The qualified set consists of $40$ quadratic, $20$ cubic,
 $20$ quartic, $10$ quintic, and $10$ sextic candidates. For each,
+the defining polynomial is bound to its character certificate and
+proved irreducible over $\Q$ and $\Q(i)$. The portable verifier
+uses degree-preserving reductions modulo primes $q$, with
+$q\equiv1\pmod4$ for the Gaussian field. For a degree-$d$ reduction
+$\overline f$ it checks
+\[
+ X^{q^d}\equiv X\pmod{\overline f},\qquad
+ \gcd(\overline f,X^{q^{d/\ell}}-X)=1
+ \quad\text{for every prime }\ell\mid d.
+\]
+At a split Gaussian prime the residue field is $\mathbb F_q$,
+so the same irreducible reduction proves irreducibility over $\Q(i)$.
+The 200 stored witnesses use primes at most 59 for $\Q$ and
+181 for $\Q(i)$. This identifies the single root field in which
 $192$ finite-place character rows certify the full possible
 neutral group $C_4^{28}$ and ratio group $C_4^{27}$.
 Thus none of these $100$ candidates compresses the $28$-window.
@@ -1685,7 +1763,8 @@ observed deep tail. No such error bound is supplied here.
 
 Finally, the residual search suggests a stopping criterion for
 computation. A low-degree modular fit is plentiful; a proved
-reduction in class-group size is the meaningful filter. The
+reduction in the size of the power-class group generated by the
+window is the meaningful filter. The
 $100$ maximal-image candidates do not justify another broad
 census, but they do motivate more selective searches using
 several product identities or multi-window geometry. No extension
@@ -1738,6 +1817,11 @@ checks the new algebra using only the standard Python library;
 it requires no PARI, network, GPU, or access to the raw atlas.
 Its checks include $445$ fourth-power identities, $808\,064$ finite
 character values, the norm-generator spans, and the local weight law.
+It also checks the 200 irreducibility witnesses and the polynomial
+binding for all 100 residual models. They can be replayed separately
+with \path{reproducibility/proofs/residual_irreducibility.py}; their
+small primes and Frobenius remainders are stored in
+\path{reproducibility/evidence/new/RESIDUAL_IRREDUCIBILITY.json}.
 The C++ automaton source and bounded PARI scripts are included for
 regeneration rather than required for reading a certificate.
 This verification is an exact arithmetic audit, not a formal
@@ -1772,9 +1856,15 @@ proof development, literature retrieval, and English writing.
 Prior primary statistical tests remain closed; no selected
 template is relabelled as a prospective test, and no universal
 growth law is claimed. The mathematical examples have explicit
-proofs or certificates, but bibliographic priority and independent
-human review remain open editorial tasks. Repository deposit is
-not journal submission or peer review. Repository visibility and
+proofs or certificates. A priority audit and an AI-assisted
+counter-review received on 8 October led to the attribution and
+certification revisions documented in
+\path{docs/REVIEW_RESPONSE_2026-10-08_FR.md}. Specialist human review
+and a public immutable archive remain editorial tasks before
+submission. The repository commits and hash manifests currently
+provide version identifiers for authorized reviewers; they do not
+establish a date of public disclosure. Repository deposit is not
+journal submission or peer review. Repository visibility and
 licensing are described by its accompanying documentation.
 
 \appendix
@@ -1938,6 +2028,27 @@ $3\,696\,971\,783$ & $(1,126,5593,102996,657004)$ & 55 & 54 & 53 \\
 \bottomrule\end{longtable}\end{center}
 
 
+\section{Execution and review provenance}\label{app:execution}
+The frozen scanner's GPU batches contain at most 128 primes;
+CPU batches and commits contain at most 4096, with bounded worker
+deadlines. Two interrupted executions were followed by documented,
+human-authorized execution-policy changes. A rejected GPU batch
+was replayed completely at a smaller denominator epoch. Partial
+output was not accepted. These changes did not alter the scientific
+engine, the domain, or already committed blocks.
+The scan took approximately 35.7 cumulative hours; the CPU quadratic
+quadruplet computation took approximately 4.4 hours. These are
+campaign times, not comparative performance measurements.
+
+The release \texttt{atlas32-v1.0.0}, frozen scanner, original data
+manifest, preceding certificates and minimal reproduction commands
+are mapped in \path{docs/PUBLICATION_REPRODUCIBILITY.md}. Manuscript
+revisions and the 200 additional irreducibility witnesses have a
+separate editorial manifest. Supplied review PDFs are retained
+outside the repository; their file hashes identify the inputs to
+this revision. Neither the computational controls nor the supplied
+reports constitute a formal verification of the analytic theorems.
+
 \begin{thebibliography}{99}
 \bibitem{cubiccompanion}
 B. Pouly, \emph{Cubic-residue quadruplets:
@@ -1952,22 +2063,55 @@ Canadian Mathematical Bulletin \textbf{22} (1979), 87--91.
 \href{https://doi.org/10.4153/CMB-1979-012-1}{doi:10.4153/CMB-1979-012-1}.
 \bibitem{monroe} D. Monroe,
 \emph{New Lower Bounds for van der Waerden Numbers Using Distributed Computing},
+Journal of Combinatorial Mathematics and Combinatorial Computing
+\textbf{128} (2026), 305--315; published online 4 December 2025.
+\href{https://doi.org/10.61091/jcmcc128-19}{doi:10.61091/jcmcc128-19}.
+\bibitem{monroev7} D. Monroe, same title,
 arXiv:1603.03301v7, 20 November 2022.
+Historical version used for the explicitly labelled Table~2 comparison.
 \url{https://arxiv.org/html/1603.03301v7}.
 \bibitem{lehmer} D.~H. Lehmer and E. Lehmer,
 \emph{On Runs of Residues}, Proceedings of the American Mathematical Society
 \textbf{13} (1962), 102--106.
 \href{https://doi.org/10.1090/S0002-9939-1962-0138582-6}{doi:10.1090/S0002-9939-1962-0138582-6}.
 \bibitem{milneFT} J.~S. Milne, \emph{Fields and Galois Theory},
-course notes, Section~5, Kummer theory, Theorem~5.30.
+course notes v5.10 (September 2022), Section~5,
+Kummer theory, Theorem~5.30. This version is frozen by the author.
 \url{https://www.jmilne.org/math/CourseNotes/FT.pdf}.
 \bibitem{milneANT} J.~S. Milne, \emph{Algebraic Number Theory},
-course notes, Theorem~8.31, Chebotarev density theorem.
+course notes v3.08 (19 July 2020), Theorem~8.31,
+Chebotarev density theorem.
 \url{https://www.jmilne.org/math/CourseNotes/ANT.pdf}.
 \bibitem{macwilliams} J. MacWilliams,
 \emph{A Theorem on the Distribution of Weights in a Systematic Code},
 Bell System Technical Journal \textbf{42} (1963), 79--94.
 \href{https://doi.org/10.1002/j.1538-7305.1963.tb04003.x}{doi:10.1002/j.1538-7305.1963.tb04003.x}.
+\bibitem{wright07} S. Wright,
+\emph{Patterns of quadratic residues and nonresidues for infinitely many primes},
+Journal of Number Theory \textbf{123} (2007), 120--132.
+\href{https://doi.org/10.1016/j.jnt.2006.06.003}{doi:10.1016/j.jnt.2006.06.003}.
+\bibitem{wright08} S. Wright,
+\emph{Quadratic residues and the combinatorics of sign multiplication},
+Journal of Number Theory \textbf{128} (2008), 918--925.
+\href{https://doi.org/10.1016/j.jnt.2007.07.001}{doi:10.1016/j.jnt.2007.07.001}.
+\bibitem{babu24} C. G. Karthick Babu, A. Mukhopadhyay and S. Sahu,
+\emph{On the explicit Galois group of
+$\Q(\sqrt{a_1},\ldots,\sqrt{a_n},\zeta_d)$ over $\Q$},
+Research in Number Theory \textbf{10} (2024), article 37.
+\href{https://doi.org/10.1007/s40993-024-00523-8}{doi:10.1007/s40993-024-00523-8}.
+\bibitem{babu25} C. G. Karthick Babu, P. P. Pandey and M. K. Ram,
+\emph{On the explicit Galois group of
+$\Q(a_1^{1/m},\ldots,a_n^{1/m},\zeta_m)$ over $\Q$},
+Publicationes Mathematicae Debrecen \textbf{106} (2025), 285--299.
+\href{https://doi.org/10.5486/PMD.2025.9771}{doi:10.5486/PMD.2025.9771}.
+\bibitem{delsarte} P. Delsarte,
+\emph{Four fundamental parameters of a code and their combinatorial significance},
+Information and Control \textbf{23} (1973), 407--438.
+\href{https://doi.org/10.1016/S0019-9958(73)80007-5}{doi:10.1016/S0019-9958(73)80007-5}.
+\bibitem{cameron} P. J. Cameron, J. Kusuma and P. Sol\'e,
+\emph{$\Z_4$-codes and their Gray map images as orthogonal arrays},
+Designs, Codes and Cryptography \textbf{84} (2017), 109--114.
+\href{https://doi.org/10.1007/s10623-016-0225-4}{doi:10.1007/s10623-016-0225-4}.
 \bibitem{sutherland} A.~V. Sutherland,
 \emph{Sato--Tate distributions}, Contemporary Mathematics
 \textbf{740} (2019), 197--248.
@@ -1978,8 +2122,10 @@ and I. Zakharevich,
 Finite Fields and Their Applications \textbf{101} (2025), 102517.
 \href{https://doi.org/10.1016/j.ffa.2024.102517}{doi:10.1016/j.ffa.2024.102517}.
 \bibitem{pari} The PARI Group, \emph{PARI/GP}, version 2.19.0,
-exact number-field computations and official documentation.
-\url{https://pari.math.u-bordeaux.fr/dochtml/html-stable/General_number_fields.html}.
+released 28 September 2026. Documentation shipped with the fixed
+\texttt{pari-2.19.0.tar.gz} distribution; archive checksum in
+\path{docs/THIRD_PARTY.md}.
+\url{https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.19.0.tar.gz}.
 \bibitem{gpu} B. Pouly,
 \emph{Certified rational-anchor filtering for exact GPU scans of power-residue runs},
 research manuscript v0.2, 3 October 2026; accompanying project evidence.

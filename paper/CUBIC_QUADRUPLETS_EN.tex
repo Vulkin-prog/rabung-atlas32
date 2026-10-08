@@ -9,7 +9,7 @@
 \hypersetup{pdftitle={Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations},pdfauthor={Brice Pouly}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Cubic-residue quadruplets}
-\fancyhead[R]{\small Research manuscript}
+\fancyhead[R]{\small Research manuscript v1.1}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -30,22 +30,23 @@
 \title{Cubic-residue quadruplets:\\
 elliptic formulas and arithmetic fluctuations}
 \author{Brice Pouly\thanks{Prepared with AI assistance for proof development, computation, literature retrieval, and English writing. This is a research manuscript; repository deposit is not peer review.}}
-\date{8 October 2026}
+\date{8 October 2026 \quad Research manuscript v1.1}
 \begin{document}
 \maketitle
 \begin{abstract}
 For a nontrivial cubic character modulo a prime, we study the number of
-monochromatic four-windows on the nonzero residues. An explicit
-four-position identity reduces each conjugate correlation pair to an
-elliptic trace with its exact cubic phase. The proof uses a genus-two
-curve, two elliptic quotients, and a degree-three isogeny. It gives a
-finite formula for consecutive quadruplets in terms of three fixed
-elliptic curves and a Jacobi sum, and an equivalent formula using six
-fixed elliptic curves. The complex-multiplication traces are related
-cubic twists, rather than independent contributions. Using
+monochromatic four-windows on the nonzero residues. We assemble
+four-position identities following from Greene's hypergeometric
+formalism and Lennon's trace formula into an exact consecutive count,
+including its finite boundary corrections. The resulting formula uses
+three fixed elliptic curves and a Jacobi sum, or equivalently six fixed
+elliptic curves. An independent geometric proof makes the cubic phase
+and the points at infinity explicit; its genus-two family and elliptic
+factors occur in earlier work of Freeman--Satoh and Guillevic--Vergnaud.
+The complex-multiplication traces are related cubic twists. Using
 symmetric-power automorphy, cyclic base change, and a finite list of
 Rankin--Selberg prime number theorems, we obtain the first four
-vertical moments. For $(27A_p-p)/\sqrt p$, they are
+moments over primes. For $(27A_p-p)/\sqrt p$, they are
 $(0,44,0,4224)$ when three is a cube, $(0,17,0,738)$ otherwise, and
 $(0,26,0,1900)$ over all admissible primes. The arguments use no
 GRH. Point-order and Hasse certificates support exact numerical
@@ -55,10 +56,28 @@ complete limiting law, a constant-order centring of the raw count,
 or a law for maxima at logarithmic length.
 \end{abstract}
 \noindent\textbf{Keywords.} Cubic characters; Jacobi sums; elliptic
-curves; isogenies; complex multiplication; vertical moments;
+curves; isogenies; complex multiplication; moments over primes;
 Rankin--Selberg functions; exact certificates.
 
 \section{The observable and the two main results}
+Questions about consecutive power residues and prescribed character
+patterns have a long history, including Lehmer--Lehmer~\cite{lehmer},
+the computational theorem on cubic triples of
+Lehmer--Lehmer--Mills--Selfridge~\cite{lehmermachine}, and Graham's
+result on first occurrences of quadruples~\cite{graham}.
+Our observable counts all monochromatic four-windows in one period.
+The four-position identity used to compute it is a corollary of
+Greene~\cite{greene} and Lennon~\cite{lennon}, with an explicit
+fractional linear substitution given below. The associated genus-two
+family and isogeny were studied by Freeman--Satoh~\cite{freemansatoh}
+and Guillevic--Vergnaud~\cite{guillevicvergnaud}; the latter contains
+the short Weierstrass model used here.
+The contributions developed here are the assembled exact count with
+its boundary corrections, its certified evaluations, and the first
+four prime-averaged moments of that count. We retain a direct
+geometric proof to expose the phase and contributions at infinity;
+we do not claim a new general character-sum or isogeny identity.
+
 \subsection{Windows, characters, and the prime population}
 Throughout, $p>3$ is prime, $p\equiv1\pmod3$, and $\chi$ is a
 nontrivial cubic character of $\Fp^\times$. Write
@@ -93,7 +112,7 @@ Thus $b_p\in\{26,44,62\}$. We use both normalizations
 The first retains the exact finite boundary correction; the second
 is the more immediate fluctuation around $p/27$.
 
-Our vertical population is
+Our population of varying primes is
 \[
  \Pcal(X)=\{p\text{ prime}:X\le p<2X,\ p\equiv1\pmod3\}.
 \]
@@ -148,7 +167,7 @@ The finite corrections in \eqref{eq:exact} matter for an exact count:
 the character expansion on all of $\Fp$ is not the desired count
 until the four excluded residues have been removed.
 
-\subsection{Four vertical moments}
+\subsection{Four moments over primes}
 \begin{theorem}[Moments over the actual primes]\label{thm:moments}
 As $X\to\infty$, the relative cardinalities of $\Pcal_0(X)$ and
 $\Pcal_*(X)$ inside $\Pcal(X)$ tend to $1/3$ and $2/3$.
@@ -170,7 +189,7 @@ equidistribution of the six curves.
 The displayed limits have $o(1)$ errors; we do not extract a
 numerical error bound applicable near $2^{32}$.
 
-\section{A universal four-position identity}\label{sec:fourpositions}
+\section{A four-position identity from Greene and Lennon}\label{sec:fourpositions}
 \subsection{The phase and the elliptic curve}
 Take distinct $a,b,c,d\in\Fp$ and set
 \begin{equation}\label{eq:parameters}
@@ -194,7 +213,7 @@ discriminant gives
 \end{equation}
 Thus none of the curves occurring in the identity is singular.
 
-\begin{theorem}[Four-position correlation]\label{thm:fourpositions}
+\begin{corollary}[Four-position correlation; Greene--Lennon]\label{thm:fourpositions}
 With the conventions above,
 \begin{equation}\label{eq:fouridentity}
  1+\sum_{z\in\Fp}
@@ -207,11 +226,54 @@ of sums is therefore
 \begin{equation}\label{eq:pair}
  S_e(p)+S_{-e}(p)=-2-\beta_p(\rho)t_A(p).
 \end{equation}
-\end{theorem}
+\end{corollary}
 The explicit phase is part of the formula. Isomorphism over an
 algebraic closure alone would not recover it.
 
-\subsection{A degree-two rational map}
+\subsection{The hypergeometric derivation and its normalization}
+Extend the trivial character $\varepsilon$ by $\varepsilon(0)=0$,
+as in Greene. Put
+\[
+ s=\frac{2-A}{4}
+   =\frac{(a-d)(c-b)}{(a-b)(c-d)},\qquad
+ u=\frac{a-b}{a-d}\frac{z+d}{z+b}.
+\]
+The distinct-position assumption gives $s\ne0,1$. This projective
+change of variable sends $-d,-a,-c,-b$ to $0,1,1/s,\infty$, and
+\[
+ \frac{(z+a)(z+b)}{(z+c)(z+d)}
+   =\rho^{-1}\frac{1-u}{u(1-su)}.
+\]
+Define Greene's normalized function, here specialized to cubic
+characters, by its character sum:
+\begin{equation}\label{eq:greene}
+ F(s)={}_2F_1\!\left(\begin{matrix}\chi,&\overline\chi\\&\varepsilon\end{matrix};s\right)_p
+ =\frac1p\sum_{u\in\Fp}
+      \overline\chi(u)\chi(1-u)\overline\chi(1-su).
+\end{equation}
+This is Definition 3.5 of~\cite[p.~82]{greene}, since
+$\chi(-1)=1$ and $\varepsilon(s)=1$. The poles and zeros contribute
+zero; the source point $z=\infty$ contributes one. Therefore the
+left side of \eqref{eq:fouridentity} is
+$\overline\chi(\rho)\,pF(s)$, including its cubic phase and the
+extra one.
+
+In \eqref{eq:EA} the substitution
+$X=x+3$, $Y=y-3x+A-2$ gives
+\[
+ y^2-6xy+2(A-2)y=x^3.
+\]
+Lennon's Theorem 1.1~\cite{lennon}, with
+$a_1=-6$, $a_3=2(A-2)$, and $27a_3/a_1^3=s$, gives
+$t_A(p)=-pF(s)$. A residue value of $A$ can be lifted to an integer;
+$p>3$ and $A\ne\pm2$ give the required good reduction and
+$p\nmid a_1$. This also covers $A=0$.
+Greene's transformation~\cite[Theorem 4.4(i), p.~88]{greene}
+specializes to $F(s)=F(1-s)$, so $t_A=t_{-A}$.
+Conjugation gives \eqref{eq:pair}. This proves the corollary using
+the published identities.
+
+\subsection{Direct geometric proof: a degree-two rational map}
 Let
 $R(z)=(z+a)(z+b)/((z+c)(z+d))$.
 Its character equals that of the polynomial in
@@ -243,6 +305,11 @@ it is an integer. We will identify it with $-t_A$.
 Let $C_A$ be the smooth completion of
 $y^2=x^6+Ax^3+1$. The polynomial is squarefree because $A^2\ne4$,
 and the leading coefficient gives two rational points at infinity.
+This is the $b=1$ specialization of the family in
+Freeman--Satoh~\cite[Proposition 4.2]{freemansatoh}.
+The short model \eqref{eq:EA} and its degree-three isogeny also
+appear in Guillevic--Vergnaud~\cite[Section 3.1, p.~241]{guillevicvergnaud}.
+We give the maps and an elementary point count for this specialization.
 The number of cube roots of $w$ is
 $1+\chi(w)+\overline{\chi(w)}$, including the value one at zero.
 Using $\sum_w\lambda(w^2+Aw+1)=-1$ gives
@@ -324,7 +391,7 @@ We have proved $t(E_+)=t(E_-)=t_A(p)$.
 Combining this with \eqref{eq:trace-split} gives
 $-2B_A=2t_A(p)$. Equation~\eqref{eq:mixed} proves
 \eqref{eq:fouridentity}, and conjugation proves \eqref{eq:pair}.
-This completes the proof of Theorem~\ref{thm:fourpositions}.
+This completes the direct proof of Corollary~\ref{thm:fourpositions}.
 The two elliptic quotients need not be isomorphic to each other;
 their equality of traces here follows from the isogeny and the
 square twist.
@@ -385,8 +452,10 @@ $-6-2t_{14}-2t_1-\beta_p t_{10/3}$.
 The equalities of opposite-parameter traces have been proved,
 and $\beta_p(1/3)=\beta_p(3)$.
 The first two positive parameters give $E_1,E_2$ in
-\eqref{eq:noncm}. Scaling $(X,Y)=(9x,27y)$ for $E_{10/3}$
-gives $E_3$, and is valid for every $p>3$.
+\eqref{eq:noncm}. The map
+$(X,Y)\mapsto(x,y)=(9X,27Y)$ sends $E_{10/3}$,
+whose constant coefficient is $718/9$, to $E_3$.
+It is an isomorphism for every $p>3$.
 Together with the constant and pair sectors, the complete
 sum over $\Fp$ has main term $p-26$.
 
@@ -504,7 +573,7 @@ Modularity and Newton--Thorne's Theorem A~\cite{newtonthorne}
 provide cuspidal $\Sym^m\pi_i$ on $\mathrm{GL}_{m+1}/\Q$
 for $1\le m\le4$.
 Set $K=\Q(\omega)$. The cyclic base-change criterion
-recalled in~\cite[printed p.~54]{ramakrishnan} says that a
+recalled in~\cite[Proposition 2.3.1(5), p.~54]{ramakrishnan} says that a
 cuspidal representation remains cuspidal in this quadratic
 extension unless it has the corresponding quadratic
 self-twist.
@@ -569,7 +638,7 @@ different equations or different $j$-invariants.
 
 \section{A twisted averaging lemma through degree four}\label{sec:analytic}
 \subsection{The CM Hecke character and the finite prescription}
-CM Hecke theory~\cite[Theorem 3.6]{chenshen} associates to
+CM Hecke theory~\cite[Theorem 3.6 in arXiv v1]{chenshen} associates to
 $C_0$ a unitary Hecke character $\gamma$ of $K$ with
 nonzero angular infinity type. At a good prime ideal
 $\mathfrak p$, its normalized trace is
@@ -590,6 +659,14 @@ The three CM twists may be labelled so that
  v_2&=\gamma\eta+\gamma^{-1}\eta^{-1}.
  \end{split}
 \end{equation}
+Indeed, if $v^3=3$, the maps
+$(x,y)\mapsto(v^{2j}x,v^{3j}y)$ identify $C_0$ with $C_j$
+over $K(v)$ for $j=1,2$. Their descent characters are the two
+nontrivial powers of $\eta$, giving \eqref{eq:gamma} after choosing
+an orientation. Conditioning the CM angle on a finite Galois class
+is an established method; see Fité--Sutherland~\cite[Propositions
+3.6 and 3.10]{fitesutherland}. The particular six-curve observable
+still requires the mixed products below.
 Reversing the reciprocity convention conjugates both
 characters and leaves the class-conditioned moments
 unchanged. Their conductors have support only above
@@ -616,7 +693,7 @@ In that constant case the average is one.
 
 \subsection{The finite list of analytic products}
 Let $\theta=\gamma^h\eta^u$.
-Gillespie--Ji's Theorem 1.1~\cite{gillespieji} applies over
+Gillespie--Ji's Theorem 1.1 in arXiv v1~\cite{gillespieji} applies over
 the fixed Galois field $K$ to two unitary cuspidal factors
 when at least one is self-contragredient.
 Its possible main term comes from equivalence of the
@@ -625,6 +702,11 @@ contragredient on the second factor when converting
 the notation to a product of the desired local traces.
 
 The required products are exhausted by the following list.
+The regrouping of the degree pattern $(2,1,1)$ into ranks $(3,4)$
+uses the same tensor-product strategy as
+Ramakrishnan~\cite[Theorem 4.2.1, pp.~93--94]{ramakrishnan};
+the finite enumeration below checks its applicability to our
+specific moment expansion, rather than introducing that strategy.
 The indices $i,j,l$ are distinct whenever they occur together.
 \begin{center}\small
 \begin{tabular}{P{20mm}P{40mm}P{78mm}}
@@ -678,9 +760,15 @@ come from the local parameters of elliptic curves
 and CM characters, followed by the same fixed tensor
 and symmetric-power operations. In unitary
 normalization their local parameters in the Euler
-factors have modulus at most one. This follows from
-the Weil--Deligne description of the elliptic local
-factors (and is preserved by these operations).
+factors have modulus at most one. More explicitly, an elliptic
+unitary Weil--Deligne parameter is tempered: its special blocks
+have the form $U\otimes\operatorname{Sp}(r)$ with unitary $U$.
+On inertia invariants in the kernel of monodromy, the eigenvalues
+from such a block have modulus $q^{-(r-1)/2}\le1$.
+The fixed symmetric powers and tensor products here decompose into
+blocks of this same form; the unitary CM characters have $r=1$.
+Thus this bound applies to the actual ramified Rankin--Selberg
+Euler factors, not just to the good places.
 Their higher-power contribution is consequently
 $O(\log X)$ after summing over the fixed bad places.
 Equivalently these factors may be removed before
@@ -1009,42 +1097,28 @@ The global maximum problem remains
 separate from the theorems here.
 
 \subsection{Provenance and publication status}
-This manuscript consolidates the two
-research notes of 7 October 2026 on
-four-position elliptic correlations
-and cubic vertical moments.
-The companion's formulas and their
-proofs have a single principal home
-here; the atlas manuscript refers
-to them rather than duplicating
-their derivations.
-The algebraic tools, CM theory,
-and automorphic inputs are classical
-or cited published results.
-A targeted source check is not a
-complete priority review of their
-specialization to this statistic,
-and no worldwide priority claim
-is made.
+This manuscript consolidates two research notes of 7 October 2026.
+The bibliography and mathematical positioning were revised after a
+separate priority audit and an AI-assisted mathematical counter-review
+received on 8 October. The four-position identity is explicitly
+attributed to Greene--Lennon, and the geometric family and isogeny to
+Freeman--Satoh and Guillevic--Vergnaud. The exact assembled observable
+and its moments are the focus; no worldwide priority claim is made.
+The counter-review identified the direction of the $E_{10/3}$ scaling
+as a local wording error, now corrected, and requested the explicit
+CM descent and ramified-place arguments supplied above.
 
-The analytic proof has been
-re-examined for this repository
-integration, including its base-change
-criteria, cuspidality, pole exclusions,
-and conversion from logarithmic
-coefficients to rational primes.
-The local trace test at 31 makes
-the norm-twist exclusion explicit.
-This internal revision does not
-constitute independent external
-peer review. Independent review
-of the analytic argument remains
-an editorial condition before
-publication. It is a review task,
-not an additional mathematical
-hypothesis or a GRH assumption.
-AI assistance does not replace
-author responsibility for the proof.
+The analytic proof has been checked against the stated base-change,
+cuspidality, pole-exclusion, and prime-number hypotheses. These reports
+and the finite reproductions are not journal peer review or formal
+verification. Independent specialist human review remains an editorial
+task before submission, not a mathematical hypothesis or a GRH
+assumption. The response and reproduction record is maintained in
+\path{docs/REVIEW_RESPONSE_2026-10-08_FR.md}. Manuscripts and certificates
+are versioned in the repository; a publicly accessible immutable archive
+with its own persistent identifier remains to be established before
+claiming public dissemination. AI assistance does not replace author
+responsibility for the proof.
 
 \appendix
 \section{The signed support-four sector of a longer start count}
@@ -1068,7 +1142,7 @@ For a support $S$ of cardinality four, the six
 active exponent patterns have two ones and two twos.
 They form three conjugate pairs, with common coefficient
 $c(S)=-1$ if $0\in S$, and $c(S)=2$ otherwise.
-Apply Theorem~\ref{thm:fourpositions} to the three
+Apply Corollary~\ref{thm:fourpositions} to the three
 unoriented partitions of each support.
 For integer indices compute $A,\rho$ rationally first
 and then reduce modulo $p$.
@@ -1121,12 +1195,52 @@ The corresponding $H$ values are $-18$, $-6129$,
 and 1620. This sector is expressed in units
 of the full count $Z_{p,k}$.
 The reduction does not estimate all higher
-supports collectively, and the four vertical
+supports collectively, and the four prime-averaged
 moments for the six fixed curves provide no
 uniform moment theorem for these growing
 parameter lists.
 
 \begin{thebibliography}{99}
+\bibitem{lehmer}
+D. H. Lehmer and E. Lehmer, On runs of residues,
+\emph{Proc. Amer. Math. Soc.} 13 (1962), 102--106.
+\href{https://doi.org/10.1090/S0002-9939-1962-0138582-6}{doi:10.1090/S0002-9939-1962-0138582-6}.
+\bibitem{lehmermachine}
+D. H. Lehmer, E. Lehmer, W. H. Mills and J. L. Selfridge,
+Machine proof of a theorem on cubic residues,
+\emph{Math. Comp.} 16 (1962), 407--415.
+\bibitem{graham}
+R. L. Graham, On quadruples of consecutive $k$th power residues,
+\emph{Proc. Amer. Math. Soc.} 15 (1964), 196--197.
+\bibitem{greene}
+J. Greene, Hypergeometric functions over finite fields,
+\emph{Trans. Amer. Math. Soc.} 301 (1987), 77--101.
+\href{https://doi.org/10.1090/S0002-9947-1987-0879564-8}{doi:10.1090/S0002-9947-1987-0879564-8}.
+\bibitem{lennon}
+C. Lennon, Trace formulas for Hecke operators, Gaussian
+hypergeometric functions, and the modularity of a threefold,
+\emph{J. Number Theory} 131 (2011), 2320--2351.
+\href{https://doi.org/10.1016/j.jnt.2011.05.005}{doi:10.1016/j.jnt.2011.05.005}.
+Theorem 1.1 is cited from arXiv:1003.1157v2 (27 December 2010),
+\emph{A Trace Formula for Certain Hecke Operators and Gaussian
+Hypergeometric Functions}.
+\url{https://arxiv.org/abs/1003.1157v2}.
+\bibitem{freemansatoh}
+D. M. Freeman and T. Satoh, Constructing pairing-friendly
+hyperelliptic curves using Weil restriction,
+\emph{J. Number Theory} 131 (2011), 959--983.
+\href{https://doi.org/10.1016/j.jnt.2010.06.003}{doi:10.1016/j.jnt.2010.06.003}.
+\bibitem{guillevicvergnaud}
+A. Guillevic and D. Vergnaud, Genus 2 hyperelliptic curve families
+with explicit Jacobian order evaluation and pairing-friendly
+constructions, \emph{Pairing-Based Cryptography--Pairing 2012},
+LNCS 7708 (2013), 234--253.
+\href{https://doi.org/10.1007/978-3-642-36334-4_16}{doi:10.1007/978-3-642-36334-4\_16}.
+\bibitem{fitesutherland}
+F. Fit\'e and A. V. Sutherland, Sato--Tate distributions of twists
+of $y^2=x^5-x$ and $y^2=x^6+1$,
+\emph{Algebra Number Theory} 8 (2014), 543--585.
+\href{https://doi.org/10.2140/ant.2014.8.543}{doi:10.2140/ant.2014.8.543}.
 \bibitem{atlas}
 B. Pouly, \emph{Arithmetic structure in a complete atlas of
 power-residue runs below $2^{32}$}, research manuscript,
@@ -1146,15 +1260,21 @@ $L$-series, and multiplicity one for $\mathrm{SL}(2)$,
 \emph{Ann. of Math.} 152 (2000), 45--111.
 \url{https://arxiv.org/abs/math/0007203}.
 \bibitem{gillespieji}
-T. Gillespie and G. Ji, A prime number theorem for
+T. Gillespie and G. Ji, Prime number theorems for
 Rankin--Selberg $L$-functions over number fields,
-arXiv:0910.3660.
-\url{https://arxiv.org/abs/0910.3660}.
+\emph{Sci. China Math.} 54 (2011), 35--46.
+\href{https://doi.org/10.1007/s11425-010-4137-x}{doi:10.1007/s11425-010-4137-x}.
+Theorem numbering follows arXiv:0910.3660v1 (19 October 2009),
+\emph{A Prime number theorem for Rankin--Selberg $L$-functions
+over number fields}. \url{https://arxiv.org/abs/0910.3660v1}.
 \bibitem{chenshen}
 Q. Chen and E. Shen, Effective Sato--Tate distributions
 for surfaces arising from products of elliptic curves,
-arXiv:2309.08848, Section 3.3.
-\url{https://arxiv.org/abs/2309.08848}.
+\emph{Res. Math. Sci.} 11 (2024), article 69.
+\href{https://doi.org/10.1007/s40687-024-00470-x}{doi:10.1007/s40687-024-00470-x}.
+Section 3.3 and Theorem 3.6 refer to arXiv:2309.08848v1
+(16 September 2023), whose title starts \emph{On Effective
+Sato--Tate distributions}. \url{https://arxiv.org/abs/2309.08848v1}.
 \bibitem{sutherland13}
 A. V. Sutherland, \emph{18.783 Elliptic Curves},
 MIT lecture notes 13 (2023).

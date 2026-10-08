@@ -7,6 +7,15 @@ PARI/GP is an optional external tool for certificate regeneration. LaTeX and
 Poppler are external document tools. Python scripts use its standard library.
 Each dependency retains the licence and terms of its own distribution.
 
+The optional PARI documentation reference is pinned to the official
+[pari-2.19.0.tar.gz release](https://pari.math.u-bordeaux.fr/pub/pari/unix/pari-2.19.0.tar.gz),
+announced on 28 September 2026, including its shipped manual. The official
+distribution SHA256 is
+`f317b9722eb5d9094a60303774f066f3a83e3ec1f170be8546c44d7583f30b6d`.
+The [official download page](https://pari.math.u-bordeaux.fr/download.html)
+provides that checksum. The distribution and manual are not redistributed
+here; this pinned reference replaces the moving `html-stable` citation.
+
 Historical paths called `vendor/research/`, `vendor/` and `baseline/` are project
 snapshots inherited by the census engine. File identities were checked against
 the frozen campaign source record. No external licence notice was found in the

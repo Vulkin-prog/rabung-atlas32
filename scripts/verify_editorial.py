@@ -27,6 +27,8 @@ def main():
     args = parser.parse_args()
     if sys.flags.optimize:
         parser.error("Run without -O: inherited coordinate checks use assertions.")
+    run("reproducibility/proofs/residual_irreducibility.py")
+    run("scripts/verify_hypergeometric.py")
     run("reproducibility/cubic_quadruplets/elliptic/src/verify.py")
     run("reproducibility/cubic_quadruplets/moments/src/verify.py")
     run("reproducibility/ternary_diagnostics/coordinates/src/analyse.py")

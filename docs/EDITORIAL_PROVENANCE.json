@@ -393,5 +393,27 @@
     "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip": "4d15d6a55516fd67bc6b8fd93ef04dfbbc550cd2171bbe4ee06db6bda772dddf",
     "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip": "e7822d399193a23005af024f30bbc3d90682374a8d49c70adefdb57bdb863e48",
     "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip": "04f664af62a8f9e916e8494d041265bda1a807ac9aaf6364d0b693c0c5dc9a55"
+  },
+  "review_revision": {
+    "date": "2026-10-08",
+    "reviewed_branch_head": "59a9f9c501ab6781996222470049940ddef2e691",
+    "manuscripts": {
+      "atlas": "v1.3",
+      "cubic_companion": "v1.1"
+    },
+    "reports": [
+      {
+        "filename": "AUDIT_PRIORITE_ATLAS_CUBIQUE_2026-10-08_FR.pdf",
+        "sha256": "1990b4dceb74ae31e3aeca6e38231c9f2459b3ffc6de16337f574596202c08f1"
+      },
+      {
+        "filename": "CONTRE_REVUE_ATLAS_ET_QUADRUPLETS_2026-10-08_FR.pdf",
+        "sha256": "bf4a63d595b8f4e24858eb69ad36faed31ab03d1b363a2b4c3c8f1b079e85fbd"
+      }
+    ],
+    "report_redistribution": false,
+    "response_path": "docs/REVIEW_RESPONSE_2026-10-08_FR.md",
+    "residual_witnesses": 200,
+    "hypergeometric_cases": 2360
   }
 }
