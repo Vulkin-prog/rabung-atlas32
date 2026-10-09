@@ -417,6 +417,22 @@
     "hypergeometric_cases": 2360
   },
   "publication_source_policy": {
+    "date": "2026-10-09",
+    "base_commit": "a835bbdefefa8302ab1a97ed3040b4b2f2e13124",
+    "manuscripts": {
+      "bounds_revision": "v1.1",
+      "gpu_methods": "v0.3",
+      "atlas": "v1.5",
+      "cubic_companion": "v1.3"
+    },
+    "excluded_from_manuscript_sources": [
+      "private reviews",
+      "internal working notes",
+      "conversation histories"
+    ],
+    "scientific_arguments": "self-contained manuscript proofs, published primary sources and versioned scientific artifacts; companion papers intended for publication"
+  },
+  "publication_source_policy_previous": {
     "date": "2026-10-08",
     "base_commit": "94d586095c1b12edf185c31f20f6f7c72c786c4a",
     "manuscripts": {
@@ -429,5 +445,50 @@
       "unprovided GPU manuscript"
     ],
     "scientific_arguments": "self-contained manuscript proofs and versioned reproducibility artifacts"
+  },
+  "four_article_revision": {
+    "date": "2026-10-09",
+    "branch_head_before_revision": "a835bbdefefa8302ab1a97ed3040b4b2f2e13124",
+    "manuscripts": {
+      "bounds_revision": "v1.1",
+      "gpu_methods": "v0.3",
+      "atlas": "v1.5",
+      "cubic_companion": "v1.3"
+    },
+    "published_edition": {
+      "doi": "10.5281/zenodo.22980965",
+      "repository": "Vulkin-prog/vdw-rabung-bounds",
+      "commit": "704b4125b274bab3df45454adc9c421f8068b8a1",
+      "selected_import_manifest": "reproducibility/bounds_update/PUBLISHED_IMPORTS.json",
+      "immutable_original_claim_count": 13,
+      "original_deposit_modified": false
+    },
+    "gpu_source": {
+      "repository": "Vulkin-prog/vdw-gpu-starter",
+      "manuscript_commit": "f00cdcb95f12d7578bdb37a87db97ff233c86a22",
+      "full_packet_commit": "f2d515c383776d3f915b87423ea101029d041bc5",
+      "selected_import_manifest": "reproducibility/gpu_method/PROVENANCE.json",
+      "selected_files": 34,
+      "full_packet_imports": 272,
+      "new_GPU_executions": 0
+    },
+    "new_pointwise_CPU_records": 9,
+    "new_primitive_certificates": 6,
+    "new_direct_rows": 14,
+    "published_gate_modified": false,
+    "closure_scope": {
+      "min_length": 12,
+      "max_length": 28,
+      "max_colors": 6,
+      "published_max_colors": 4
+    },
+    "operations": {
+      "paper/RABUNG_BOUNDS_EN.tex": "Standalone revised draft assembled from the published source, with a separate current addendum and historical results explicitly identified. Original edition unchanged.",
+      "paper/GPU_METHOD_EN.tex": "Revised manuscript from pinned v0.2 source. Completion cost, launch/residency wording and worked example corrected; measurements retained.",
+      "paper/PAPER_EN.tex": "Scope and references revised to the four-article portfolio; colour-first notation and current versus historical lower-bound comparison clarified.",
+      "paper/CUBIC_QUADRUPLETS_EN.tex": "Portfolio interfaces and references revised; exact formulas and analytic moment argument preserved."
+    },
+    "private_review_PDFs_redistributed": false,
+    "global_priority_audit_reopened": false
   }
 }

@@ -27,6 +27,15 @@ jobs:
           python3 -B reproducibility/anteriorities/theorie_densites_residuels_20261004/preuves/verify_results.py
       - name: Verify cubic quadruplets and ternary diagnostics
         run: python3 -B scripts/verify_editorial.py --catalogue
+      - name: Verify GPU tables and the separate bounds addendum
+        run: |
+          mkdir -p build
+          python3 -B scripts/verify_gpu_method.py
+          python3 -B scripts/verify_bounds_update.py
+          g++ -O3 -std=c++17 -Wall -Wextra -Wconversion -o build/independent_profile reproducibility/bounds_update/independent_profile.cpp
+          python3 -B reproducibility/bounds_update/check_small.py build/independent_profile
+          g++ -O3 -std=c++17 -Wall -Wextra -Wconversion -o build/two_bit_profile reproducibility/bounds_update/two_bit_profile.cpp
+          python3 -B reproducibility/bounds_update/check_small.py build/two_bit_profile --max-order 3
       - name: Recompute initial primes on CPU
         run: |
           python3 -B scripts/build_workers.py
@@ -45,10 +54,10 @@ jobs:
           persist-credentials: false
       - name: Install the manuscript toolchain
         run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive-latex-extra texlive-fonts-recommended texlive-pictures lmodern
-      - name: Compile both standalone manuscripts twice
+      - name: Compile all four standalone manuscripts twice
         run: |
           mkdir -p build/paper
-          for source in paper/PAPER_EN.tex paper/CUBIC_QUADRUPLETS_EN.tex; do
+          for source in paper/PAPER_EN.tex paper/CUBIC_QUADRUPLETS_EN.tex paper/GPU_METHOD_EN.tex paper/RABUNG_BOUNDS_EN.tex; do
             for pass in 1 2; do
               pdflatex -no-shell-escape -interaction=nonstopmode -halt-on-error -output-directory=build/paper "$source"
             done

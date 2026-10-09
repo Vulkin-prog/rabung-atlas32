@@ -1,0 +1,6868 @@
+[
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234577,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617288,
+    "half_length": 250617288,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 161051,
+    "original_root": 11,
+    "root_exponent": 5,
+    "gpu_ms": 60.9376001358,
+    "total_ms": 89.74842,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 4,
+        "K": 29,
+        "witness": 114439355
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 101868072
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 4,
+        "K": 15,
+        "witness": 44625254
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 152337879
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 2543392
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234581,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617290,
+    "half_length": 250617290,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 52.3402242661,
+    "total_ms": 72.762819,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 1,
+        "K": 33,
+        "witness": 74395470
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 62436105
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 227054145
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 105973914
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234661,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617330,
+    "half_length": 250617330,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 279936,
+    "original_root": 6,
+    "root_exponent": 7,
+    "gpu_ms": 58.2161607742,
+    "total_ms": 86.265672,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 43376295
+      },
+      {
+        "r": 3,
+        "max": 17,
+        "prefix": 2,
+        "K": 18,
+        "witness": 44755476
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 39965127
+      },
+      {
+        "r": 5,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 687573
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 85876102
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 29144131
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234683,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617341,
+    "half_length": 250617341,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 72.2427835464,
+    "total_ms": 81.437156,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 14991560
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234719,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617359,
+    "half_length": 250617359,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2197,
+    "original_root": 13,
+    "root_exponent": 3,
+    "gpu_ms": 66.6300802231,
+    "total_ms": 75.117521,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 26,
+        "prefix": 12,
+        "K": 27,
+        "witness": 59636762
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234737,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617368,
+    "half_length": 250617368,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 60.1920318604,
+    "total_ms": 75.925222,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 2,
+        "K": 33,
+        "witness": 72871598
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 2,
+        "K": 17,
+        "witness": 75875395
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 101020060
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234751,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617375,
+    "half_length": 250617375,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 279936,
+    "original_root": 6,
+    "root_exponent": 7,
+    "gpu_ms": 61.2394866943,
+    "total_ms": 84.964214,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 137264604
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 20928309
+      },
+      {
+        "r": 5,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 154998870
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 75680030
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 48797730
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234779,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617389,
+    "half_length": 250617389,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 66.5957775116,
+    "total_ms": 75.229642,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 124902905
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234787,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617393,
+    "half_length": 250617393,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 60.9272937775,
+    "total_ms": 80.075398,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 143123920
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 188425724
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 16965047
+      },
+      {
+        "r": 9,
+        "max": 9,
+        "prefix": 1,
+        "K": 10,
+        "witness": 22623045
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234809,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617404,
+    "half_length": 250617404,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 63.9384336472,
+    "total_ms": 79.652472,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 27,
+        "prefix": 2,
+        "K": 28,
+        "witness": 223168533
+      },
+      {
+        "r": 4,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 34683082
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 80769961
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234827,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617413,
+    "half_length": 250617413,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 64.7872304916,
+    "total_ms": 72.728588,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 25,
+        "prefix": 1,
+        "K": 26,
+        "witness": 22234055
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234829,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617414,
+    "half_length": 250617414,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 62.4174404144,
+    "total_ms": 83.198101,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 27,
+        "prefix": 1,
+        "K": 28,
+        "witness": 52425079
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 40563331
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 156520001
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 72533997
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234859,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617429,
+    "half_length": 250617429,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 62.7802238464,
+    "total_ms": 81.917463,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 25,
+        "prefix": 1,
+        "K": 26,
+        "witness": 26728775
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 198191991
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 189471854
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 74657997
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234949,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617474,
+    "half_length": 250617474,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 58.7349767685,
+    "total_ms": 83.86216,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 142304641
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 228971806
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 41559945
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 241861066
+      },
+      {
+        "r": 9,
+        "max": 9,
+        "prefix": 1,
+        "K": 10,
+        "witness": 217021415
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234983,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617491,
+    "half_length": 250617491,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 125,
+    "original_root": 5,
+    "root_exponent": 3,
+    "gpu_ms": 66.6344947815,
+    "total_ms": 75.09739,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 25,
+        "prefix": 4,
+        "K": 26,
+        "witness": 19095633
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501234989,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617494,
+    "half_length": 250617494,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 65.1287679672,
+    "total_ms": 87.754422,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 28947789
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 168827295
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235019,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617509,
+    "half_length": 250617509,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 66.6377592087,
+    "total_ms": 75.808221,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 26,
+        "prefix": 1,
+        "K": 27,
+        "witness": 41762112
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235039,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617519,
+    "half_length": 250617519,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 7776,
+    "original_root": 6,
+    "root_exponent": 5,
+    "gpu_ms": 64.6743688583,
+    "total_ms": 84.855553,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 2,
+        "K": 32,
+        "witness": 90821154
+      },
+      {
+        "r": 3,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 29045506
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 182017257
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 137396498
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235051,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617525,
+    "half_length": 250617525,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 128,
+    "original_root": 2,
+    "root_exponent": 7,
+    "gpu_ms": 65.8393592834,
+    "total_ms": 86.554246,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 27,
+        "prefix": 1,
+        "K": 28,
+        "witness": 41059081
+      },
+      {
+        "r": 3,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 58443410
+      },
+      {
+        "r": 5,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 81872286
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 15682321
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235057,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617528,
+    "half_length": 250617528,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 46.7245121002,
+    "total_ms": 77.858018,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 4,
+        "K": 30,
+        "witness": 202543889
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 146673198
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 68937392
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 220977004
+      },
+      {
+        "r": 7,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 3223705
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 166719936
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 35493475
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235061,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617530,
+    "half_length": 250617530,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 64.6186246872,
+    "total_ms": 80.737647,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 228091679
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 193514065
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 78236621
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235069,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617534,
+    "half_length": 250617534,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 66.1385917664,
+    "total_ms": 85.732584,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 26,
+        "prefix": 1,
+        "K": 27,
+        "witness": 7400371
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 74493639
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 3601944
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 191518792
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235081,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617540,
+    "half_length": 250617540,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 397414961,
+    "original_root": 23,
+    "root_exponent": 7,
+    "gpu_ms": 61.5944643021,
+    "total_ms": 89.7992,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 10,
+        "K": 32,
+        "witness": 82108195
+      },
+      {
+        "r": 3,
+        "max": 22,
+        "prefix": 1,
+        "K": 23,
+        "witness": 128908030
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 78491014
+      },
+      {
+        "r": 5,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 85341954
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 87780755
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 39120320
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235087,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617543,
+    "half_length": 250617543,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 69.5318088531,
+    "total_ms": 85.571552,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 194979485
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 59961275
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 64339950
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235099,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617549,
+    "half_length": 250617549,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 56.8914241791,
+    "total_ms": 76.136495,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 27,
+        "prefix": 1,
+        "K": 28,
+        "witness": 142394437
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 180161899
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 65695513
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 219623904
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235121,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617560,
+    "half_length": 250617560,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 62.4355220795,
+    "total_ms": 82.842865,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 2,
+        "K": 29,
+        "witness": 83651807
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 250338368
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 97760398
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 34507481
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235139,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617569,
+    "half_length": 250617569,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 66.616063118,
+    "total_ms": 74.730656,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 128152921
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235193,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617596,
+    "half_length": 250617596,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 67.655424118,
+    "total_ms": 83.240881,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 25271322
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 52649674
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 138711000
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235199,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617599,
+    "half_length": 250617599,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 1331,
+    "original_root": 11,
+    "root_exponent": 3,
+    "gpu_ms": 74.0951356888,
+    "total_ms": 83.209141,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 26,
+        "prefix": 10,
+        "K": 27,
+        "witness": 61993103
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235201,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617600,
+    "half_length": 250617600,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 823543,
+    "original_root": 7,
+    "root_exponent": 7,
+    "gpu_ms": 47.4098243713,
+    "total_ms": 80.159449,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 26,
+        "prefix": 6,
+        "K": 27,
+        "witness": 205623189
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 84956912
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 4,
+        "K": 15,
+        "witness": 141932378
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 168129484
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 141962222
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 4,
+        "K": 11,
+        "witness": 200564893
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 203522816
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235211,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617605,
+    "half_length": 250617605,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 55.7193288803,
+    "total_ms": 72.346993,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 156681629
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 238968697
+      },
+      {
+        "r": 7,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 182450058
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 501235237,
+    "scope": "all",
+    "complete": true,
+    "coverage": 250617618,
+    "half_length": 250617618,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 53.1470718384,
+    "total_ms": 76.226326,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 105921634
+      },
+      {
+        "r": 3,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 96403640
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 38282453
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 32883925
+      },
+      {
+        "r": 9,
+        "max": 9,
+        "prefix": 1,
+        "K": 10,
+        "witness": 67987086
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345689,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172844,
+    "half_length": 756172844,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 177.97430563,
+    "total_ms": 239.550105,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 229090704
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 746009600
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 572825857
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 660920049
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345691,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172845,
+    "half_length": 756172845,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 128,
+    "original_root": 2,
+    "root_exponent": 7,
+    "gpu_ms": 133.222815514,
+    "total_ms": 205.563043,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 738382147
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 359977209
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 85370025
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 344706329
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 562671484
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345697,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172848,
+    "half_length": 756172848,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 159.071231365,
+    "total_ms": 229.706601,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 4,
+        "K": 29,
+        "witness": 684864045
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 61922847
+      },
+      {
+        "r": 4,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 295113277
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 22086258
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 54278627
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345701,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172850,
+    "half_length": 756172850,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 164.795903683,
+    "total_ms": 213.45663,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 211343628
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 305827624
+      },
+      {
+        "r": 5,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 113712364
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345763,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172881,
+    "half_length": 756172881,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 146.851200581,
+    "total_ms": 205.832267,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 351038440
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 181160317
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 145325717
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 224822571
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345767,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172883,
+    "half_length": 756172883,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 343,
+    "original_root": 7,
+    "root_exponent": 3,
+    "gpu_ms": 195.053955078,
+    "total_ms": 219.827297,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 4,
+        "K": 32,
+        "witness": 441348187
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345773,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172886,
+    "half_length": 756172886,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 186.972351551,
+    "total_ms": 234.748269,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 746074449
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 102926053
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 532411089
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345797,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172898,
+    "half_length": 756172898,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 184.915102959,
+    "total_ms": 250.23393,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 86245024
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 663118765
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345799,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172899,
+    "half_length": 756172899,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 152.377950191,
+    "total_ms": 211.372682,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 188216056
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 2,
+        "K": 19,
+        "witness": 280131748
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 320905031
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 622457102
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345829,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172914,
+    "half_length": 756172914,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 166.81964922,
+    "total_ms": 235.704612,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 27,
+        "prefix": 1,
+        "K": 28,
+        "witness": 527340466
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 205124195
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 382151621
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 189418816
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 711132007
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345833,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172916,
+    "half_length": 756172916,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 183.875516891,
+    "total_ms": 230.217968,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 2,
+        "K": 29,
+        "witness": 546826925
+      },
+      {
+        "r": 4,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 695981944
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 199905501
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345847,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172923,
+    "half_length": 756172923,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 177.333951473,
+    "total_ms": 225.368002,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 2,
+        "K": 29,
+        "witness": 237619426
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 118573404
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 358313379
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345851,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172925,
+    "half_length": 756172925,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 173.679776669,
+    "total_ms": 209.592618,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 644580477
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 159433016
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345859,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172929,
+    "half_length": 756172929,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 182.840033531,
+    "total_ms": 229.969864,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 1,
+        "K": 29,
+        "witness": 118703786
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 579877849
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 372120767
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345893,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172946,
+    "half_length": 756172946,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 184.948771,
+    "total_ms": 247.25215,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 593298436
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 382958668
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345929,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172964,
+    "half_length": 756172964,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 178.307005882,
+    "total_ms": 225.89334,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 2,
+        "K": 33,
+        "witness": 562687816
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 361209283
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 125601225
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345953,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172976,
+    "half_length": 756172976,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 178.319038868,
+    "total_ms": 227.240187,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 124314940
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 37628722
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 11297634
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345971,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172985,
+    "half_length": 756172985,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 173.705663681,
+    "total_ms": 209.117641,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 693644001
+      },
+      {
+        "r": 5,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 147192097
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512345973,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756172986,
+    "half_length": 756172986,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 184.939808846,
+    "total_ms": 244.177937,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 707707645
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 210247662
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 569179468
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 5325228
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346081,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173040,
+    "half_length": 756173040,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 621766092,
+    "original_root": 17,
+    "root_exponent": 11,
+    "gpu_ms": 159.923487663,
+    "total_ms": 257.111983,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 16,
+        "K": 34,
+        "witness": 632138397
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 2,
+        "K": 19,
+        "witness": 54644966
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 38281754
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 510843990
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 144872089
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 307706591
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 643325473
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346153,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173076,
+    "half_length": 756173076,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 175.882750511,
+    "total_ms": 254.727451,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 4,
+        "K": 29,
+        "witness": 603562241
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 695090294
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 24845321
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 271013323
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 76868645
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346169,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173084,
+    "half_length": 756173084,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 183.909121513,
+    "total_ms": 230.855457,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 180984675
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 332770635
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 90622496
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346181,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173090,
+    "half_length": 756173090,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 175.869375706,
+    "total_ms": 223.409945,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 494402873
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 38824630
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 182176278
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346189,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173094,
+    "half_length": 756173094,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 7776,
+    "original_root": 6,
+    "root_exponent": 5,
+    "gpu_ms": 173.78799963,
+    "total_ms": 232.800203,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 212404349
+      },
+      {
+        "r": 3,
+        "max": 23,
+        "prefix": 2,
+        "K": 24,
+        "witness": 194579105
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 28468320
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 102136760
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346207,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173103,
+    "half_length": 756173103,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 176.908511162,
+    "total_ms": 236.092308,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 2,
+        "K": 32,
+        "witness": 529850358
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 62137864
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 322809266
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 157610422
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346223,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173111,
+    "half_length": 756173111,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 125,
+    "original_root": 5,
+    "root_exponent": 3,
+    "gpu_ms": 206.488387585,
+    "total_ms": 232.088284,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 34,
+        "prefix": 4,
+        "K": 35,
+        "witness": 658599622
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346229,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173114,
+    "half_length": 756173114,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 196.062784672,
+    "total_ms": 259.401435,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 512395124
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 429260732
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346243,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173121,
+    "half_length": 756173121,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 188.719905376,
+    "total_ms": 235.803423,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 331576804
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 387181294
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 428092876
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346267,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173133,
+    "half_length": 756173133,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 152.379713535,
+    "total_ms": 211.21107,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 659865158
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 594170639
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 90585017
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 181458445
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346279,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173139,
+    "half_length": 756173139,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 248832,
+    "original_root": 12,
+    "root_exponent": 5,
+    "gpu_ms": 182.821407795,
+    "total_ms": 229.966425,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 399814109
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 607471425
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 668422677
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346313,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173156,
+    "half_length": 756173156,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 183.904637814,
+    "total_ms": 234.549976,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 577088841
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 670825878
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 282777493
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1512346331,
+    "scope": "all",
+    "complete": true,
+    "coverage": 756173165,
+    "half_length": 756173165,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 173.805599213,
+    "total_ms": 209.421395,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 61244876
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 12668164
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345683,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172841,
+    "half_length": 1356172841,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 376.577502251,
+    "total_ms": 424.927314,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 779994362
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345721,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172860,
+    "half_length": 1356172860,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2012218177,
+    "original_root": 13,
+    "root_exponent": 11,
+    "gpu_ms": 273.059838295,
+    "total_ms": 450.312668,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 34,
+        "prefix": 10,
+        "K": 35,
+        "witness": 421269083
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 964578028
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 10,
+        "K": 22,
+        "witness": 402997109
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 16563502
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 983529305
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 6366827
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 581808959
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345737,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172868,
+    "half_length": 1356172868,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 352.849634647,
+    "total_ms": 438.559709,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 2,
+        "K": 33,
+        "witness": 629960115
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 27636214
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 35002393
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345743,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172871,
+    "half_length": 1356172871,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 125,
+    "original_root": 5,
+    "root_exponent": 3,
+    "gpu_ms": 387.281024933,
+    "total_ms": 431.833298,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 36,
+        "prefix": 4,
+        "K": 37,
+        "witness": 404111289
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345749,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172874,
+    "half_length": 1356172874,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 343.766655445,
+    "total_ms": 428.701175,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 453773441
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 70005
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 431477779
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345761,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172880,
+    "half_length": 1356172880,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 305.410400391,
+    "total_ms": 410.556858,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 2,
+        "K": 32,
+        "witness": 892982312
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 383849766
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 1138334894
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 723951335
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345821,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172910,
+    "half_length": 1356172910,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 334.014530659,
+    "total_ms": 420.516364,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 198841621
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 701029168
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 173824712
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345833,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172916,
+    "half_length": 1356172916,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 337.788831234,
+    "total_ms": 446.357785,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 155967622
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 398921637
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 459987009
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 95035445
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345847,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172923,
+    "half_length": 1356172923,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 346.30410099,
+    "total_ms": 450.998218,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 744336255
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 1241889394
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 252096354
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 732700473
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345851,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172925,
+    "half_length": 1356172925,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 216,
+    "original_root": 6,
+    "root_exponent": 3,
+    "gpu_ms": 341.867427349,
+    "total_ms": 405.986876,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 35,
+        "prefix": 1,
+        "K": 36,
+        "witness": 245226263
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 593027306
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345859,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172929,
+    "half_length": 1356172929,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 364.38502121,
+    "total_ms": 468.745839,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 1209037774
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 412291885
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 390794469
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 527447782
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345871,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172935,
+    "half_length": 1356172935,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2187,
+    "original_root": 3,
+    "root_exponent": 7,
+    "gpu_ms": 313.623136997,
+    "total_ms": 419.229846,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 219576896
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 1314045675
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 732252665
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 952302337
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345877,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172938,
+    "half_length": 1356172938,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 355.967553616,
+    "total_ms": 482.7736,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 1303858318
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 630573069
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 675566868
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 25260174
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 118326975
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345887,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172943,
+    "half_length": 1356172943,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 125,
+    "original_root": 5,
+    "root_exponent": 3,
+    "gpu_ms": 397.258241177,
+    "total_ms": 443.399064,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 4,
+        "K": 33,
+        "witness": 1026111677
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345949,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172974,
+    "half_length": 1356172974,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 7776,
+    "original_root": 6,
+    "root_exponent": 5,
+    "gpu_ms": 366.35555315,
+    "total_ms": 491.989045,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 1317855977
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 2,
+        "K": 21,
+        "witness": 416882226
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 537867617
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1196542787
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 192569586
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712345953,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356172976,
+    "half_length": 1356172976,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 362.457883835,
+    "total_ms": 445.99824,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 2,
+        "K": 32,
+        "witness": 752433855
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 1343221537
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 469688502
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346003,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173001,
+    "half_length": 1356173001,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 344.286656857,
+    "total_ms": 459.205139,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 568557975
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 138657997
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 1230962960
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 640962141
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346033,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173016,
+    "half_length": 1356173016,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 354.009247303,
+    "total_ms": 477.835203,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 4,
+        "K": 32,
+        "witness": 1289884172
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 359446672
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 2,
+        "K": 17,
+        "witness": 539256257
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 261197182
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 898896306
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346061,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173030,
+    "half_length": 1356173030,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 343.864860058,
+    "total_ms": 430.057583,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 35,
+        "prefix": 1,
+        "K": 36,
+        "witness": 181873850
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 1283339999
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 834821080
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346067,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173033,
+    "half_length": 1356173033,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 397.868961334,
+    "total_ms": 445.047767,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 1235178404
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346079,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173039,
+    "half_length": 1356173039,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 343,
+    "original_root": 7,
+    "root_exponent": 3,
+    "gpu_ms": 418.178081036,
+    "total_ms": 462.615955,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 6,
+        "K": 32,
+        "witness": 441061648
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346097,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173048,
+    "half_length": 1356173048,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 382.471906662,
+    "total_ms": 467.570493,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 34,
+        "prefix": 2,
+        "K": 35,
+        "witness": 955705531
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 1020002449
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 10506884
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346123,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173061,
+    "half_length": 1356173061,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 402.781282902,
+    "total_ms": 487.344181,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 289342013
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 2,
+        "K": 22,
+        "witness": 1220425175
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 798980317
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346129,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173064,
+    "half_length": 1356173064,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 537824,
+    "original_root": 14,
+    "root_exponent": 5,
+    "gpu_ms": 328.150115967,
+    "total_ms": 473.27746,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 6,
+        "K": 29,
+        "witness": 46276523
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 846715103
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 258895443
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 169056814
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 941533026
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1166398774
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346177,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173088,
+    "half_length": 1356173088,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 100000,
+    "original_root": 10,
+    "root_exponent": 5,
+    "gpu_ms": 354.740355968,
+    "total_ms": 493.482875,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 39,
+        "prefix": 4,
+        "K": 40,
+        "witness": 929260030
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 27071262
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 1168018482
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 195310175
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 100420988
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346181,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173090,
+    "half_length": 1356173090,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 343.83462429,
+    "total_ms": 429.667938,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 247595279
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 1135410511
+      },
+      {
+        "r": 5,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 953472258
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346183,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173091,
+    "half_length": 1356173091,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 299.483200073,
+    "total_ms": 440.281813,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 2,
+        "K": 33,
+        "witness": 123032208
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 1106616944
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 693672107
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 4,
+        "K": 13,
+        "witness": 621615391
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1257749707
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346187,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173093,
+    "half_length": 1356173093,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 387.94806385,
+    "total_ms": 432.195523,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 137765832
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346199,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173099,
+    "half_length": 1356173099,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 4913,
+    "original_root": 17,
+    "root_exponent": 3,
+    "gpu_ms": 398.105184078,
+    "total_ms": 443.004819,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 16,
+        "K": 32,
+        "witness": 416436888
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346201,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173100,
+    "half_length": 1356173100,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 823543,
+    "original_root": 7,
+    "root_exponent": 7,
+    "gpu_ms": 329.551328659,
+    "total_ms": 499.74731,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 6,
+        "K": 31,
+        "witness": 743473952
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 828829943
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 6,
+        "K": 17,
+        "witness": 595782812
+      },
+      {
+        "r": 5,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 1052584256
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 149417609
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 83953858
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 1033062737
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346211,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173105,
+    "half_length": 1356173105,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 358.076413155,
+    "total_ms": 444.147565,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 76745707
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 569148833
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1017660512
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2712346229,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1356173114,
+    "half_length": 1356173114,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 390.906980515,
+    "total_ms": 507.387434,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 1013886635
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 295776201
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234577,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617288,
+    "half_length": 2100617288,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 580.852867603,
+    "total_ms": 745.55472,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 2,
+        "K": 34,
+        "witness": 1549014417
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 1858147578
+      },
+      {
+        "r": 7,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1554079221
+      },
+      {
+        "r": 8,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 320898022
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234601,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617300,
+    "half_length": 2100617300,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 483.52412796,
+    "total_ms": 645.674833,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 2,
+        "K": 33,
+        "witness": 1226760511
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 711334301
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 259263675
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 880958163
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234603,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617301,
+    "half_length": 2100617301,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 603.440189362,
+    "total_ms": 734.106624,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 1,
+        "K": 33,
+        "witness": 299319393
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 86327653
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 309800041
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234643,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617321,
+    "half_length": 2100617321,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 609.850397587,
+    "total_ms": 683.285674,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 545716613
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234657,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617328,
+    "half_length": 2100617328,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 542.631970406,
+    "total_ms": 737.397289,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 4,
+        "K": 34,
+        "witness": 1925622067
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 393437192
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 1266201086
+      },
+      {
+        "r": 6,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 98861646
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 339009213
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234673,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617336,
+    "half_length": 2100617336,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 590.742114067,
+    "total_ms": 719.543486,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 2,
+        "K": 34,
+        "witness": 1134709618
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 36696495
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 659549965
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234679,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617339,
+    "half_length": 2100617339,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 1331,
+    "original_root": 11,
+    "root_exponent": 3,
+    "gpu_ms": 641.24495697,
+    "total_ms": 710.857278,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 10,
+        "K": 31,
+        "witness": 182105119
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234711,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617355,
+    "half_length": 2100617355,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 279936,
+    "original_root": 6,
+    "root_exponent": 7,
+    "gpu_ms": 546.633346558,
+    "total_ms": 711.544297,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 148455872
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 1815366222
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 632973750
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 211259435
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234729,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617364,
+    "half_length": 2100617364,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 16807,
+    "original_root": 7,
+    "root_exponent": 5,
+    "gpu_ms": 574.993636131,
+    "total_ms": 772.80709,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 6,
+        "K": 32,
+        "witness": 304291340
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 2,
+        "K": 21,
+        "witness": 521381017
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 639255667
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 959670659
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 67374463
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234747,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617373,
+    "half_length": 2100617373,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 634.17638588,
+    "total_ms": 765.305587,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 15397943
+      },
+      {
+        "r": 3,
+        "max": 22,
+        "prefix": 2,
+        "K": 23,
+        "witness": 1556607521
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 1380955531
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234777,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617388,
+    "half_length": 2100617388,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 548.713506222,
+    "total_ms": 772.674748,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 4,
+        "K": 32,
+        "witness": 777668189
+      },
+      {
+        "r": 3,
+        "max": 22,
+        "prefix": 1,
+        "K": 23,
+        "witness": 221750841
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 288840560
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 1809043337
+      },
+      {
+        "r": 8,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 863848911
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1570960819
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234783,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617391,
+    "half_length": 2100617391,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 602.95641613,
+    "total_ms": 751.330169,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 574714792
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 368403804
+      },
+      {
+        "r": 6,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1967379293
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234787,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617393,
+    "half_length": 2100617393,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 606.287577629,
+    "total_ms": 702.382553,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 1,
+        "K": 33,
+        "witness": 45129918
+      },
+      {
+        "r": 7,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 375937452
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234789,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617394,
+    "half_length": 2100617394,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 590.561089039,
+    "total_ms": 755.445954,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 34,
+        "prefix": 1,
+        "K": 35,
+        "witness": 352264684
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 1793066988
+      },
+      {
+        "r": 4,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 582536205
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 21536059
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234811,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617405,
+    "half_length": 2100617405,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 544.461052418,
+    "total_ms": 643.225629,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 925713664
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1748289831
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234813,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617406,
+    "half_length": 2100617406,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 576.462496758,
+    "total_ms": 776.421969,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 1716094857
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 2026842972
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 1855837227
+      },
+      {
+        "r": 6,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 190743310
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 878166424
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234823,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617411,
+    "half_length": 2100617411,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 125,
+    "original_root": 5,
+    "root_exponent": 3,
+    "gpu_ms": 609.808034897,
+    "total_ms": 681.798053,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 36,
+        "prefix": 4,
+        "K": 37,
+        "witness": 1539121501
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234859,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617429,
+    "half_length": 2100617429,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 625.820474625,
+    "total_ms": 695.860044,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 389841367
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234879,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617439,
+    "half_length": 2100617439,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 619.052829742,
+    "total_ms": 749.849519,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 2,
+        "K": 29,
+        "witness": 1291890762
+      },
+      {
+        "r": 3,
+        "max": 22,
+        "prefix": 2,
+        "K": 23,
+        "witness": 88887422
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 355037710
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234907,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617453,
+    "half_length": 2100617453,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 641.793408394,
+    "total_ms": 711.813991,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 1217395438
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234909,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617454,
+    "half_length": 2100617454,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 606.529501915,
+    "total_ms": 772.928112,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 2037086271
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 679801638
+      },
+      {
+        "r": 4,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 252467987
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 210891457
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234937,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617468,
+    "half_length": 2100617468,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 621.280955315,
+    "total_ms": 751.336769,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 2,
+        "K": 30,
+        "witness": 183506377
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 1079778860
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 692414490
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234957,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617478,
+    "half_length": 2100617478,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 577.775004864,
+    "total_ms": 801.398478,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 1,
+        "K": 34,
+        "witness": 209129711
+      },
+      {
+        "r": 3,
+        "max": 23,
+        "prefix": 1,
+        "K": 24,
+        "witness": 675456001
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 306741884
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 520888912
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 527747588
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201234991,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617495,
+    "half_length": 2100617495,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 343,
+    "original_root": 7,
+    "root_exponent": 3,
+    "gpu_ms": 559.89468956,
+    "total_ms": 658.287525,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 6,
+        "K": 31,
+        "witness": 1817185121
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 262972238
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235021,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617510,
+    "half_length": 2100617510,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 543.274337292,
+    "total_ms": 682.496623,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 439221764
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 802822826
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 58433657
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235033,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617516,
+    "half_length": 2100617516,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 27,
+    "original_root": 3,
+    "root_exponent": 3,
+    "gpu_ms": 590.192224026,
+    "total_ms": 730.325112,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 1122625367
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 533893163
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1100046225
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235047,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617523,
+    "half_length": 2100617523,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 602.813182831,
+    "total_ms": 767.300206,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 35,
+        "prefix": 2,
+        "K": 36,
+        "witness": 651481769
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 77047880
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 612756373
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 164183841
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235081,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617540,
+    "half_length": 2100617540,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 1331,
+    "original_root": 11,
+    "root_exponent": 3,
+    "gpu_ms": 520.622463703,
+    "total_ms": 712.4928,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 2,
+        "K": 31,
+        "witness": 337396599
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 584115750
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 4,
+        "K": 15,
+        "witness": 1193924620
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 428126913
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 309185761
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235113,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617556,
+    "half_length": 2100617556,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 559.224518299,
+    "total_ms": 761.248663,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 4,
+        "K": 33,
+        "witness": 1348869039
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 234533640
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 4,
+        "K": 17,
+        "witness": 1149198845
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 283130670
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1061845946
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235161,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617580,
+    "half_length": 2100617580,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 62748517,
+    "original_root": 13,
+    "root_exponent": 7,
+    "gpu_ms": 520.934816837,
+    "total_ms": 754.723374,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 10,
+        "K": 33,
+        "witness": 1420745261
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 1519773778
+      },
+      {
+        "r": 4,
+        "max": 18,
+        "prefix": 10,
+        "K": 22,
+        "witness": 945006521
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1545755934
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 757486493
+      },
+      {
+        "r": 8,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 953519191
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235231,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617615,
+    "half_length": 2100617615,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 343,
+    "original_root": 7,
+    "root_exponent": 3,
+    "gpu_ms": 527.016416073,
+    "total_ms": 625.730542,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 6,
+        "K": 32,
+        "witness": 273784747
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 4,
+        "K": 15,
+        "witness": 285282860
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4201235261,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2100617630,
+    "half_length": 2100617630,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 513.097181797,
+    "total_ms": 645.189826,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 1404735742
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 1112225333
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 116321844
+      }
+    ],
+    "cohort": "natural32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 207768961,
+    "scope": "all",
+    "complete": true,
+    "coverage": 103884480,
+    "half_length": 103884480,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 151427187,
+    "original_root": 29,
+    "root_exponent": 11,
+    "gpu_ms": 13.3914556503,
+    "total_ms": 28.428236,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 28,
+        "prefix": 16,
+        "K": 34,
+        "witness": 3317109
+      },
+      {
+        "r": 3,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 64655555
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 2,
+        "K": 16,
+        "witness": 58938459
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 19567820
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 19593175
+      },
+      {
+        "r": 7,
+        "max": 9,
+        "prefix": 1,
+        "K": 10,
+        "witness": 2045865
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 2,
+        "K": 11,
+        "witness": 13403553
+      },
+      {
+        "r": 9,
+        "max": 9,
+        "prefix": 1,
+        "K": 10,
+        "witness": 22386444
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 673777441,
+    "scope": "all",
+    "complete": true,
+    "coverage": 336888720,
+    "half_length": 336888720,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 79492582,
+    "original_root": 53,
+    "root_exponent": 11,
+    "gpu_ms": 61.2411837578,
+    "total_ms": 109.59535,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 10,
+        "K": 32,
+        "witness": 195155217
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 2,
+        "K": 21,
+        "witness": 210233643
+      },
+      {
+        "r": 4,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 60564649
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 168913767
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 208833122
+      },
+      {
+        "r": 7,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 134757935
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 132139441
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 108091069
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1073766961,
+    "scope": "all",
+    "complete": true,
+    "coverage": 536883480,
+    "half_length": 536883480,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 476213396,
+    "original_root": 17,
+    "root_exponent": 11,
+    "gpu_ms": 94.6799352169,
+    "total_ms": 172.723957,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 27,
+        "prefix": 12,
+        "K": 28,
+        "witness": 70922288
+      },
+      {
+        "r": 3,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 169564154
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 212704736
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 236067652
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 99559922
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 403001079
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 15692689
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 201638821
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 1773792721,
+    "scope": "all",
+    "complete": true,
+    "coverage": 886896360,
+    "half_length": 886896360,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 1504835251,
+    "original_root": 11,
+    "root_exponent": 11,
+    "gpu_ms": 191.309472084,
+    "total_ms": 318.379456,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 10,
+        "K": 31,
+        "witness": 192529063
+      },
+      {
+        "r": 3,
+        "max": 22,
+        "prefix": 1,
+        "K": 23,
+        "witness": 56055578
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 344594141
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 84295674
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 771628962
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 170616190
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 117741440
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 30413933
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 2473775641,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1236887820,
+    "half_length": 1236887820,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 827471896,
+    "original_root": 11,
+    "root_exponent": 11,
+    "gpu_ms": 272.6061759,
+    "total_ms": 455.074074,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 10,
+        "K": 30,
+        "witness": 246552139
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 253264102
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 790852856
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 91271755
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 17073099
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 207350011
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 966551447
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 896778268
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 3173766121,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1586883060,
+    "half_length": 1586883060,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2156301793,
+    "original_root": 13,
+    "root_exponent": 11,
+    "gpu_ms": 361.265823841,
+    "total_ms": 582.418294,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 12,
+        "K": 34,
+        "witness": 602071387
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 2,
+        "K": 21,
+        "witness": 1158499070
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 1466735455
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1202187067
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 59378172
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1552305537
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 262203119
+      },
+      {
+        "r": 9,
+        "max": 9,
+        "prefix": 1,
+        "K": 10,
+        "witness": 113311819
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 3873779281,
+    "scope": "all",
+    "complete": true,
+    "coverage": 1936889640,
+    "half_length": 1936889640,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 598708772,
+    "original_root": 26,
+    "root_exponent": 11,
+    "gpu_ms": 456.87990284,
+    "total_ms": 736.296724,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 12,
+        "K": 32,
+        "witness": 199318433
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 2,
+        "K": 21,
+        "witness": 559578310
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 253417160
+      },
+      {
+        "r": 5,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 514152502
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 229343206
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1211993771
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 194982694
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 1453844722
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4273768801,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2136884400,
+    "half_length": 2136884400,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2920112584,
+    "original_root": 23,
+    "root_exponent": 11,
+    "gpu_ms": 421.434977531,
+    "total_ms": 722.229633,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 22,
+        "K": 46,
+        "witness": 609993619
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 1029935166
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 666978350
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1656552767
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 42403
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 340660692
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 510187042
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 717783156
+      }
+    ],
+    "cohort": "stress32"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4407123493,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2203561746,
+    "half_length": 2203561746,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 584.764994621,
+    "total_ms": 791.669266,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 30,
+        "prefix": 1,
+        "K": 31,
+        "witness": 2005236078
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 362095559
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 1,
+        "K": 17,
+        "witness": 293710538
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 314370298
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 83622297
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4697138881,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2348569440,
+    "half_length": 2348569440,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2550480376,
+    "original_root": 13,
+    "root_exponent": 11,
+    "gpu_ms": 447.539520264,
+    "total_ms": 774.99654,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 10,
+        "K": 34,
+        "witness": 1723984653
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 1,
+        "K": 20,
+        "witness": 624428762
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 2316466485
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 575062620
+      },
+      {
+        "r": 6,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 35015642
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1992075236
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1254713596
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 2185362322
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 4957123469,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2478561734,
+    "half_length": 2478561734,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 777.498911858,
+    "total_ms": 987.754391,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 29,
+        "prefix": 1,
+        "K": 30,
+        "witness": 1154622255
+      },
+      {
+        "r": 4,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 355971135
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 5217125761,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2608562880,
+    "half_length": 2608562880,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 151035798,
+    "original_root": 31,
+    "root_exponent": 13,
+    "gpu_ms": 553.754144669,
+    "total_ms": 951.6988,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 34,
+        "prefix": 16,
+        "K": 35,
+        "witness": 1982989548
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 4,
+        "K": 20,
+        "witness": 129117802
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 769244051
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1290334045
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 4,
+        "K": 14,
+        "witness": 2365166998
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 248298229
+      },
+      {
+        "r": 8,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1650508975
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1761583445
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 5507123509,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2753561754,
+    "half_length": 2753561754,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 695.501375675,
+    "total_ms": 956.400265,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 36,
+        "prefix": 1,
+        "K": 37,
+        "witness": 1870846147
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 1,
+        "K": 22,
+        "witness": 1525014415
+      },
+      {
+        "r": 4,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 1745139204
+      },
+      {
+        "r": 6,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 136267704
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 227589344
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 5827127041,
+    "scope": "all",
+    "complete": true,
+    "coverage": 2913563520,
+    "half_length": 2913563520,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3137375053,
+    "original_root": 22,
+    "root_exponent": 11,
+    "gpu_ms": 554.188128948,
+    "total_ms": 958.686665,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 10,
+        "K": 34,
+        "witness": 281233793
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 1233195802
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 10,
+        "K": 22,
+        "witness": 97805548
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 448582795
+      },
+      {
+        "r": 6,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 912986133
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 150572241
+      },
+      {
+        "r": 8,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 154125121
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1158882796
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 6107123479,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3053561739,
+    "half_length": 3053561739,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 243,
+    "original_root": 3,
+    "root_exponent": 5,
+    "gpu_ms": 940.473463058,
+    "total_ms": 1137.638667,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 2,
+        "K": 32,
+        "witness": 952072242
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 2,
+        "K": 22,
+        "witness": 2510970598
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 355151775
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 6407125201,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3203562600,
+    "half_length": 3203562600,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 183607484,
+    "original_root": 17,
+    "root_exponent": 11,
+    "gpu_ms": 753.425438881,
+    "total_ms": 1209.874668,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 33,
+        "prefix": 16,
+        "K": 34,
+        "witness": 1315756520
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 352862515
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 798661956
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1642217857
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 2,
+        "K": 14,
+        "witness": 2058515154
+      },
+      {
+        "r": 7,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 255306831
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 306094379
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 2756962736
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 6697123501,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3348561750,
+    "half_length": 3348561750,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 279936,
+    "original_root": 6,
+    "root_exponent": 7,
+    "gpu_ms": 842.804864883,
+    "total_ms": 1168.686829,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 34,
+        "prefix": 1,
+        "K": 35,
+        "witness": 1401724808
+      },
+      {
+        "r": 3,
+        "max": 19,
+        "prefix": 2,
+        "K": 20,
+        "witness": 3009521068
+      },
+      {
+        "r": 4,
+        "max": 18,
+        "prefix": 1,
+        "K": 19,
+        "witness": 335547391
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 220859060
+      },
+      {
+        "r": 6,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 2548500302
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 6987138481,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3493569240,
+    "half_length": 3493569240,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3452942901,
+    "original_root": 13,
+    "root_exponent": 11,
+    "gpu_ms": 747.905533314,
+    "total_ms": 1243.308863,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 36,
+        "prefix": 12,
+        "K": 37,
+        "witness": 36071576
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 2,
+        "K": 22,
+        "witness": 2558582117
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 348204794
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1298464195
+      },
+      {
+        "r": 6,
+        "max": 12,
+        "prefix": 2,
+        "K": 13,
+        "witness": 1926054540
+      },
+      {
+        "r": 7,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 2946747910
+      },
+      {
+        "r": 8,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 4442795
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 623254778
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 7267123459,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3633561729,
+    "half_length": 3633561729,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 32,
+    "original_root": 2,
+    "root_exponent": 5,
+    "gpu_ms": 925.94732666,
+    "total_ms": 1251.897699,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 1609521897
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 3115716160
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 1644928439
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 167022880
+      },
+      {
+        "r": 9,
+        "max": 10,
+        "prefix": 1,
+        "K": 11,
+        "witness": 801380552
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 7567144201,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3783572100,
+    "half_length": 3783572100,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 2188309347,
+    "original_root": 19,
+    "root_exponent": 13,
+    "gpu_ms": 893.680705547,
+    "total_ms": 1427.8677,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 12,
+        "K": 32,
+        "witness": 233591210
+      },
+      {
+        "r": 3,
+        "max": 24,
+        "prefix": 1,
+        "K": 25,
+        "witness": 3222332716
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 4,
+        "K": 18,
+        "witness": 1217802303
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 1945862817
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 621339343
+      },
+      {
+        "r": 7,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 2606763645
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 512716903
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 267742288
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 7857123457,
+    "scope": "all",
+    "complete": true,
+    "coverage": 3928561728,
+    "half_length": 3928561728,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3125,
+    "original_root": 5,
+    "root_exponent": 5,
+    "gpu_ms": 886.071102142,
+    "total_ms": 1311.430689,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 36,
+        "prefix": 4,
+        "K": 37,
+        "witness": 2246444671
+      },
+      {
+        "r": 3,
+        "max": 21,
+        "prefix": 2,
+        "K": 22,
+        "witness": 392613098
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 2461113443
+      },
+      {
+        "r": 6,
+        "max": 14,
+        "prefix": 2,
+        "K": 15,
+        "witness": 3731564141
+      },
+      {
+        "r": 7,
+        "max": 11,
+        "prefix": 2,
+        "K": 12,
+        "witness": 1481035269
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1300064823
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 8157179521,
+    "scope": "all",
+    "complete": true,
+    "coverage": 4078589760,
+    "half_length": 4078589760,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 3217963056,
+    "original_root": 22,
+    "root_exponent": 11,
+    "gpu_ms": 831.372318268,
+    "total_ms": 1397.494998,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 10,
+        "K": 33,
+        "witness": 3427582607
+      },
+      {
+        "r": 3,
+        "max": 22,
+        "prefix": 1,
+        "K": 23,
+        "witness": 1499374119
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 2,
+        "K": 17,
+        "witness": 3235795144
+      },
+      {
+        "r": 5,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 2464682544
+      },
+      {
+        "r": 6,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 77410843
+      },
+      {
+        "r": 7,
+        "max": 13,
+        "prefix": 1,
+        "K": 14,
+        "witness": 3689858995
+      },
+      {
+        "r": 8,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 3208547895
+      },
+      {
+        "r": 9,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 1600870207
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 8397123461,
+    "scope": "all",
+    "complete": true,
+    "coverage": 4198561730,
+    "half_length": 4198561730,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 8,
+    "original_root": 2,
+    "root_exponent": 3,
+    "gpu_ms": 1178.65401745,
+    "total_ms": 1446.398702,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 31,
+        "prefix": 1,
+        "K": 32,
+        "witness": 2210402131
+      },
+      {
+        "r": 4,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 3728372833
+      },
+      {
+        "r": 5,
+        "max": 14,
+        "prefix": 1,
+        "K": 15,
+        "witness": 162740102
+      }
+    ],
+    "cohort": "wide33"
+  },
+  {
+    "type": "oracle",
+    "status": "PASS",
+    "p": 8517186721,
+    "scope": "all",
+    "complete": true,
+    "coverage": 4258593360,
+    "half_length": 4258593360,
+    "arithmetic": "natural_FP64_corrected",
+    "primitive_root": 4244508818,
+    "original_root": 11,
+    "root_exponent": 11,
+    "gpu_ms": 966.809437275,
+    "total_ms": 1562.382878,
+    "profiles": [
+      {
+        "r": 2,
+        "max": 32,
+        "prefix": 10,
+        "K": 33,
+        "witness": 569587986
+      },
+      {
+        "r": 3,
+        "max": 20,
+        "prefix": 1,
+        "K": 21,
+        "witness": 421101162
+      },
+      {
+        "r": 4,
+        "max": 16,
+        "prefix": 6,
+        "K": 17,
+        "witness": 337866460
+      },
+      {
+        "r": 5,
+        "max": 17,
+        "prefix": 1,
+        "K": 18,
+        "witness": 1986644332
+      },
+      {
+        "r": 6,
+        "max": 15,
+        "prefix": 1,
+        "K": 16,
+        "witness": 2663416509
+      },
+      {
+        "r": 7,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 961840099
+      },
+      {
+        "r": 8,
+        "max": 12,
+        "prefix": 1,
+        "K": 13,
+        "witness": 3550865558
+      },
+      {
+        "r": 9,
+        "max": 11,
+        "prefix": 1,
+        "K": 12,
+        "witness": 1277747615
+      }
+    ],
+    "cohort": "wide33"
+  }
+]

@@ -9,7 +9,7 @@
 \hypersetup{pdftitle={Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations},pdfauthor={Brice Pouly}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Cubic-residue quadruplets}
-\fancyhead[R]{\small Research manuscript v1.2}
+\fancyhead[R]{\small Research manuscript v1.3}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -30,7 +30,7 @@
 \title{Cubic-residue quadruplets:\\
 elliptic formulas and arithmetic fluctuations}
 \author{Brice Pouly\thanks{Prepared with AI assistance for proof development, computation, literature retrieval, and English writing. This is a research manuscript; repository deposit is not peer review.}}
-\date{8 October 2026 \quad Research manuscript v1.2}
+\date{9 October 2026 \quad Research manuscript v1.3}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -77,6 +77,18 @@ its boundary corrections, its certified evaluations, and the first
 four prime-averaged moments of that count. We retain a direct
 geometric proof to expose the phase and contributions at infinity;
 we do not claim a new general character-sum or isogeny identity.
+
+\paragraph{Scope within the companion series.}
+The exact formula and the moment arguments below are self-contained
+apart from their cited mathematical inputs. The atlas~\cite{atlas}
+provides a distinct census and fixed-population diagnostics; it is not
+an assumption of either theorem. Scanner coverage and measured GPU
+performance belong to the methods article~\cite{gpu}, while Rabung
+certificates and recurrence-closed bounds belong to the published
+certificates paper~\cite{bounds}. No theorem about logarithmic-length
+maxima or new van der Waerden bound is inferred from the four moments.
+When needed, $W(r,k)$ denotes $r$ colours and progression length $k$;
+this convention is shared with those articles.
 
 \subsection{Windows, characters, and the prime population}
 Throughout, $p>3$ is prime, $p\equiv1\pmod3$, and $\chi$ is a
@@ -1232,6 +1244,14 @@ B. Pouly, \emph{Arithmetic structure in a complete atlas of
 power-residue runs below $2^{32}$}, research manuscript,
 2026. Repository:
 \url{https://github.com/Vulkin-prog/rabung-atlas32}.
+\bibitem{gpu}
+B. Pouly, \emph{Certified rational-anchor filtering for exact GPU scans
+of power-residue runs}, research manuscript v0.3, 2026,
+\path{paper/GPU_METHOD_EN.tex}, in the same repository.
+\bibitem{bounds}
+B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
+bounds for van der Waerden numbers}, published edition v1.0.0, 2026.
+\href{https://doi.org/10.5281/zenodo.22980965}{doi:10.5281/zenodo.22980965}.
 \bibitem{velu}
 J. V\'elu, Isog\'enies entre courbes elliptiques,
 \emph{C. R. Acad. Sci. Paris S\'er. A--B} 273 (1971), A238--A241.

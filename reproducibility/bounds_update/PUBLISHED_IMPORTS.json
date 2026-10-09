@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "source_repository": "Vulkin-prog/vdw-rabung-bounds",
+  "source_commit": "704b4125b274bab3df45454adc9c421f8068b8a1",
+  "published_doi": "10.5281/zenodo.22980965",
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "git_blob": "0acf522b29188edfd5d29af91ac3f65166537126",
+      "bytes": 1056,
+      "sha256": "f4cbf78c8d513fa36527aef6d68f63e6ec1b8f89397106dd8b7207868c128382"
+    },
+    {
+      "path": "audit/baselines.json",
+      "git_blob": "9508fff3e6670374aa3768cf1b0f81fc22064997",
+      "bytes": 19621,
+      "sha256": "c2188561be45fbda5a505915cb12de3344ed83a1b42399bf08cb833c8a493971"
+    },
+    {
+      "path": "audit/claims.json",
+      "git_blob": "04771463225d9e65a948ca8ddd641dfbc35551cc",
+      "bytes": 4087,
+      "sha256": "3b3ffc1739b091194e9b54d2f9435bcfbff7ab2ba84d7176330e9dead12d0aeb"
+    },
+    {
+      "path": "audit/generated/bounds_closure.json",
+      "git_blob": "e5e0224db72900a042164f458d318b63292a8658",
+      "bytes": 124944,
+      "sha256": "5c8bdced65ba6ec0ba2eb7802854275d340db5c4d2863aa916fe38b005f4d5ec"
+    },
+    {
+      "path": "audit/generated/publication_comparison.json",
+      "git_blob": "262a0a98ac51b139bb1b53a274abc028026c4828",
+      "bytes": 15842,
+      "sha256": "df8c185ad2b301d4dac01e9ad48ee6076817eda3438e5897ea5db9fe23d1e5d3"
+    },
+    {
+      "path": "audit/published-unresolved.json",
+      "git_blob": "6b30d71c4bfdb5aa4f8202f92592006c4a32884d",
+      "bytes": 797,
+      "sha256": "35e1539c4d7b9a1e108e6556723aee40b287890a6d58cade48dbfafce7678936"
+    },
+    {
+      "path": "results/claims/validated-claims.json",
+      "git_blob": "5863f35d25a924a3b6745fda5376e73432b82664",
+      "bytes": 11086,
+      "sha256": "db2a55bd9e389bb9937aaab6a144efcadc530721ad8e895988f97b076f5634e1"
+    },
+    {
+      "path": "results/claims/validated-claims.tex",
+      "git_blob": "d498ffb580041f148e33ee82e0500af2fefa157c",
+      "bytes": 10888,
+      "sha256": "ae01f6ba45623386066932950870b743418a03778a341cef9f68b89050392358"
+    },
+    {
+      "path": "tools/close_baselines.py",
+      "git_blob": "0cad4d1ca0b827e7f51983e29dd0541fcec5f874",
+      "bytes": 24863,
+      "sha256": "8759368b46240859b4578437e202248cee0d149de90c0c222c9c49c9b985d4f9"
+    }
+  ]
+}

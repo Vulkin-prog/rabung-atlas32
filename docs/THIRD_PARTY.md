@@ -25,7 +25,7 @@ redistribution is subject to the owner's rights confirmation described in
 
 Externally supplied French reports are **not redistributed**. Their rights were
 not established. Editorial reports and internal working notes are not cited as
-scientific sources in either manuscript. The mathematical arguments are given
+scientific sources in any manuscript. The mathematical arguments are given
 in the articles and their reproducibility packages. The review texts are not
 included in source, Git history or release assets.
 References to papers and official documentation are bibliographic citations and
@@ -36,3 +36,17 @@ absolute home paths, software installations and executable binaries are omitted.
 Compressed research records are audited after decompression as well as on disk.
 Publication-derived indices contain mathematical records and commitments only;
 they are rebuilt rather than copied with deleted SQLite pages.
+
+The certificates addendum imports nine author-owned files from the already
+published v1.0.0 artifact. Their original Git identities and SHA256 values are
+listed in `reproducibility/bounds_update/PUBLISHED_IMPORTS.json`; the original
+artifact's component licences remain applicable to those copies. This does
+not grant a new blanket licence to the assembled repository.
+
+The GPU selected package imports author-owned scientific source extracts,
+configuration and measured data from the pinned methods packet. Source code
+remains byte-identical. Its thirteen explicit JSON publication copies remove
+host-path and disk-only metadata; timings, profiles and mathematical values
+are unchanged. The full original packet and its build environment are not
+redistributed here. Source paths containing `vendor/research` have the same
+rights-confirmation boundary as the existing census snapshots.

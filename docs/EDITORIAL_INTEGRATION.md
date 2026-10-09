@@ -1,4 +1,10 @@
-# Editorial integration, 8 October 2026
+# Editorial integration, 9 October 2026
+
+The current organization has four articles, including a revised draft of the
+already published certificates paper; see [FOUR_ARTICLE_PORTFOLIO.md](FOUR_ARTICLE_PORTFOLIO.md).
+The certificates draft is v1.1, the methods manuscript v0.3, the atlas v1.5
+and the cubic companion v1.3. The published edition at DOI
+10.5281/zenodo.22980965 remains separate and unchanged.
 
 The atlas manuscript is updated in place. Its already integrated Kummer
 densities, norm dependencies, order-four models and dihedral quartic are
@@ -12,7 +18,7 @@ catalogue has 22 binary profiles and one order-four profile.
 | Reproducibility packages | Curated elliptic and moment certificates, fixed-coordinate diagnostics, same-filter arithmetic and portable verification commands. |
 | Review record | Internal review plus two supplied reports; attribution and local corrections; explicit analytic interfaces; specialist human review still needed before submission. |
 
-The atlas is now v1.4 and the companion v1.2. See the
+The atlas is now v1.5 and the companion v1.3. See the
 [response to the two reports](REVIEW_RESPONSE_2026-10-08_FR.md). The historical
 residual verifier is extended to check polynomial binding and 200 new
 irreducibility witnesses; its earlier character matrices remain unchanged.
@@ -20,9 +26,9 @@ A separate small-prime check verifies the hypergeometric exposition against
 literal four-position sums and direct elliptic point counts.
 
 The manuscript bibliographies use published papers, archived preprints,
-official documentation and the two companion articles prepared for publication.
-Private reviews, internal notes and the unprovided GPU manuscript are removed
-from the citations. Statements previously attributed to a private review are
+official documentation and the companion articles prepared for publication.
+Private reviews and internal notes are excluded from the citations.
+Statements previously attributed to a private review are
 proved or checked explicitly in the article and certificate package. Review
 histories remain working records in the repository, without a manuscript
 reference to them.
@@ -54,6 +60,15 @@ reproduce byte for byte against the retained ordinary-position catalogue.
 
 ## Reproduction
 
+The additional selected GPU package reproduces the frozen benchmark cells and
+CPU source bridges. Its measured sources remain unchanged; host-path and disk-only
+metadata curation is documented separately. The bounds addendum preserves nine
+published input files byte for byte and has nine new full CPU rechecks, six
+primitive certificates, fourteen direct rows and a separate recurrence graph.
+Its short default verification inspects those full execution records; it does
+not replace them by checking only a run witness. No full GPU campaign, new
+benchmark or reopening of the old primary tests occurs.
+
 From the repository root, with standard-library Python 3.10 or newer:
 
     python3 -B scripts/cubic_quadruplets.py 1000033
@@ -61,6 +76,8 @@ From the repository root, with standard-library Python 3.10 or newer:
     python3 -B scripts/verify_hypergeometric.py
     python3 -B -m unittest discover -s tests
     python3 -B scripts/verify_editorial.py
+    python3 -B scripts/verify_gpu_method.py
+    python3 -B scripts/verify_bounds_update.py
 
 To also reclassify every retained ordinary long-run position, use a C++17
 compiler and run:
@@ -73,9 +90,9 @@ Python optimization because inherited coordinate checks use assertions.
 No default command or CI job starts a GPU calculation or downloads the full
 multi-gigabyte atlas.
 
-Both LaTeX sources are standalone. Compile each twice with pdflatex and
+All four LaTeX sources are standalone. Compile each twice with pdflatex and
 no-shell-escape. CI retains the earlier checks, adds the curated reproductions
-and catalogue comparison, and compiles both manuscripts, rejecting overfull
+and catalogue comparison, and compiles all four manuscripts, rejecting overfull
 boxes and unresolved references. Numerical checks do not machine-verify the
 analytic proof.
 

@@ -16,7 +16,7 @@
 \makeatother
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Arithmetic structure in power-residue runs}
-\fancyhead[R]{\small Research manuscript v1.4}
+\fancyhead[R]{\small Research manuscript v1.5}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -39,7 +39,7 @@
 of power-residue runs below $2^{32}$\\[3pt]
 \large Rabung profiles, Kummer densities, norm dependencies, and local codes}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The scope of the assistance and the status of the manuscript are stated in Section~\ref{sec:reproduction}.}}
-\date{8 October 2026 \quad Research manuscript v1.4}
+\date{9 October 2026 \quad Research manuscript v1.5}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -96,8 +96,8 @@ because it occurs at an extreme witness can subsequently have a proved
 density over varying primes, but its selection does not become an
 independent statistical test of that density.
 
-The central contributions are the complete finite enumeration and
-its boundary contract; the specific certified Kummer densities with
+The central contributions are the complete finite enumeration under the
+Rabung boundary contract; the specific certified Kummer densities with
 conjugate-root and phase dependencies; the complete generation by norms
 of the excess relations in two families; and an arithmetic realization
 of a binary code with its exact local run law. The $496$ order/length
@@ -121,6 +121,19 @@ and limited independence are standard coding theory~\cite{delsarte,cameron}.
 Section~\ref{sec:code} gives a specific arithmetic realization and
 its exact local run distribution, not a new general independence
 principle. No worldwide priority claim is made for the examples.
+
+\paragraph{Relation to the companion articles.}
+The published certificates paper~\cite{bounds} proves the equivalence of
+the implemented boundary test with Rabung's criterion and owns the
+recurrence-closed comparison of lower bounds. Its revised draft~\cite{boundsupdate}
+incorporates separately rechecked constructions from this census and
+larger-prime searches. The methods article~\cite{gpu} proves the
+cover--selection--completion contract and reports its controlled GPU
+comparisons. Here we retain the finite population, distributions and
+algebraic explanations together: their subject is the structure visible
+in the complete atlas. The cubic companion~\cite{cubiccompanion}
+develops a separate exact four-window observable and its prime moments;
+its proof does not depend on the census or on GPU performance.
 
 \section{The atlas and the Rabung contract}\label{sec:atlas}
 \subsection{Definitions and conventions}
@@ -149,9 +162,13 @@ The atlas also records
   \max(M_r(p)+1,\,L_r(p)+2),&\sigma=-1.
  \end{cases}
 \end{equation}
-We use \emph{length-first} notation: $W(k,r)$ is the least $n$ such that
+We use \emph{colour-first} notation: $W(r,k)$ is the least $n$ such that
 every $r$-colouring of $[n]$ contains a monochromatic progression of
-length $k$. Other papers may reverse the arguments.
+length $k$, as in the published certificates paper~\cite{bounds}.
+Historical files retain their original schema: in particular,
+\texttt{W\_length\_first\_lower\_bound} in the catalogue stores the weak
+integer bound $W(r,k)\ge(k-1)p+2$. Its name is not a convention for
+the revised article. A strict bound $W(r,k)>B$ means $W(r,k)\ge B+1$.
 
 \subsection{Internal and boundary conditions}
 For $p>k$, the atlas calls $M_r(p)<k$ criterion (a), and
@@ -161,7 +178,7 @@ constructive meaning.
 If $p>k$ and $K_r(p)\le k$, the power-residue colouring extends to an
 $r$-colouring of $[0,(k-1)p]$ with no monochromatic $k$-term arithmetic
 progression, by colouring its $k$ multiples of $p$ non-constantly.
-Consequently $W(k,r)>(k-1)p+1$.
+Consequently $W(r,k)>(k-1)p+1$.
 \end{proposition}
 \begin{proof}
 Consider a progression of common difference $d$. If $p\mid d$, the
@@ -178,8 +195,9 @@ have different colours, so a monochromatic progression would have zero
 at an end and require $k-1$ neutral prefix values, also excluded.
 \end{proof}
 The proof explains why a good ordinary maximum alone does not certify
-the construction. It also fixes the rounding at the boundary without
-relying on competing interval conventions in older statements.
+the construction. This is the census specialization of Rabung's theorem;
+the full boundary-test equivalence and the separately checked certificates
+are developed in the certificates paper~\cite{bounds,boundsupdate}.
 
 \subsection{Coverage, exactness, and sealing}
 The census visits every prime $p<2^{32}$ and every $r\in[2,9]$ dividing
@@ -192,7 +210,8 @@ $3\,119$ elliptic-count certificates, and $324$ final record checks.
 These audit counts describe the campaign's checks, not independent
 samples for inference about the tails.
 
-The scanner uses certified rational coverage and exact completion.
+The scanner uses certified rational coverage and exact completion,
+with the success hypotheses proved in the methods article~\cite{gpu}.
 The stored profile contract is stated in Section~\ref{sec:atlas};
 the frozen implementation and retained audit certificates are identified
 in Section~\ref{sec:reproduction}. Rejected batches supply no accepted
@@ -264,16 +283,24 @@ $r$ & $k$ & (a) count & (a)+(b) count & Largest prime \\
 
 The best admissible prime for $(2,25)$ is $1\,138\,900\,957$, giving
 \[
- W(25,2)>27\,333\,622\,969.
+ W(2,25)>27\,333\,622\,969.
 \]
 At $(3,17)$ the prime is $2\,072\,886\,931$, giving
-$W(17,3)>33\,166\,190\,897$. Relative to the fixed direct-construction
+$W(3,17)>33\,166\,190\,897$. Relative to the fixed direct-construction
 entries in Table~2 of Monroe's version~7~\cite{monroev7}, these primes
 increase by $18.82\%$ and $113.84\%$. They are the two improved entries
 among the $29$ fixed comparison points. This is a comparison with that
 identified historical table, not a claim of current world records.
-Earlier work of this project already found a larger $(3,18)$ prime
-outside the atlas; a bounded census cannot supersede such evidence.
+The $(2,25)$ certificate is already in the published paper~\cite{bounds},
+which credits Monroe's phase-2 project. It is not a new construction here.
+The $(3,17)$ value increases that paper's published strict bound
+$31\,385\,622\,833$ by $5.67\%$. The revised certificates
+article~\cite{boundsupdate} supplies its separate CPU check and updated
+recurrence comparison. It also uses the larger primes
+$5\,899\,373\,413$, $14\,413\,721\,599$ and $17\,177\,303\,971$
+at lengths $18$, $19$ and $20$. Their consequences exceed the
+corresponding bounded-atlas rows and retain their own pointwise checks;
+they are not added to the census population.
 Large $k$ values in Table~\ref{tab:targets} also approach the upper
 boundary of the search domain, which censors any conclusion about the
 largest possible construction prime.
@@ -1842,7 +1869,7 @@ its explicit \texttt{--catalogue} option reclassifies
 all retained ordinary positions on CPU and compares
 the archived hit lists. It does not rescan the
 full character words.
-Both manuscript sources compile independently.
+All four manuscript sources compile independently.
 The editorial provenance and new-file hashes
 are recorded separately from the original
 publication manifest in
@@ -2046,10 +2073,23 @@ The finite computational controls do not formally verify the analytic
 theorems used by the companion.
 
 \begin{thebibliography}{99}
+\bibitem{bounds}
+B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
+bounds for van der Waerden numbers}, published edition v1.0.0, 2026.
+\href{https://doi.org/10.5281/zenodo.22980965}{doi:10.5281/zenodo.22980965}.
+\bibitem{boundsupdate}
+B. Pouly, same title, revised research manuscript v1.1, 2026,
+\path{paper/RABUNG_BOUNDS_EN.tex} and
+\path{reproducibility/bounds_update/}, in the same repository.
+\bibitem{gpu}
+B. Pouly, \emph{Certified rational-anchor filtering for exact GPU scans
+of power-residue runs}, research manuscript v0.3, 2026,
+\path{paper/GPU_METHOD_EN.tex} and
+\path{reproducibility/gpu_method/}, in the same repository.
 \bibitem{cubiccompanion}
 B. Pouly, \emph{Cubic-residue quadruplets:
 elliptic formulas and arithmetic fluctuations},
-research manuscript, 2026, in the same repository.
+research manuscript v1.3, 2026, in the same repository.
 Standalone source and certificates:
 \path{paper/CUBIC_QUADRUPLETS_EN.tex},
 \path{reproducibility/cubic_quadruplets/}.

@@ -1,0 +1,9 @@
+{
+  "github_repository": "https://github.com/Vulkin-prog/vdw-rabung-bounds",
+  "github_commit": "704b4125b274bab3df45454adc9c421f8068b8a1",
+  "github_source_sha256": "0b6f941f3fafc12c8452f118450fde9f096b8f14f921cdb759390843f1318337",
+  "historical_source_sha256": "923bb904c130dd86669832ee0fe5c4ce52fa165c940af72d778380cc4600f5f9",
+  "engine_prefix_identical": true,
+  "engine_prefix_sha256": "b5ba2f527539d2bcd1d0f5ceaa6010afb9588e9655baf591047fdd5da723f64b",
+  "difference": "Only the archived main --xcheck diagnostic policy differs; the adapter calls identical scanner engine functions."
+}

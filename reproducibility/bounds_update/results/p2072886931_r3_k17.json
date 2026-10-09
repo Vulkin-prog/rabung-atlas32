@@ -1,0 +1,35 @@
+{
+  "source_sha256": "d5dd61b542d240a67b190c8552c8ec1d70a9704e85c103c711687bafdcc53df9",
+  "binary_sha256": "313db499ecc2592dfec829a662c79485d08a942741cd56a7b4e23ad3b511b481",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "build_command": "g++ -O3 -std=c++17 -Wall -Wextra -Wconversion -o build/four_revision/independent_profile reproducibility/bounds_update/independent_profile.cpp",
+  "command": [
+    "build/four_revision/independent_profile",
+    "2072886931",
+    "3",
+    "17"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"schema\":1,\"p\":2072886931,\"r\":3,\"k\":17,\"g\":2,\"M\":16,\"L\":1,\"K\":17,\"w\":4523337,\"Bstar\":true,\"accepted\":true,\"strict_bound\":33166190897,\"powering_checks\":2048,\"reflection_checks\":2048,\"full_positions\":2072886930,\"seconds\":28.508060}\n",
+  "stderr": "",
+  "utc_date": "2026-10-09",
+  "independence": "Separate CPU source and full multiplicative walk; author-controlled recheck, not external replication.",
+  "profile": {
+    "schema": 1,
+    "p": 2072886931,
+    "r": 3,
+    "k": 17,
+    "g": 2,
+    "M": 16,
+    "L": 1,
+    "K": 17,
+    "w": 4523337,
+    "Bstar": true,
+    "accepted": true,
+    "strict_bound": 33166190897,
+    "powering_checks": 2048,
+    "reflection_checks": 2048,
+    "full_positions": 2072886930,
+    "seconds": 28.50806
+  }
+}

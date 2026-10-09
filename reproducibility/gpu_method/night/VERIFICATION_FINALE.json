@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "known_primes": {
+    "u32": 41,
+    "wide33": 16
+  },
+  "new_primes": {
+    "u32": 136,
+    "wide33": 16
+  },
+  "distinct_primes_controlled": 209,
+  "new_primes_exhaustively_checked": 152,
+  "wide_primes_exhaustively_checked_including_previous": 32,
+  "exact_fields": [
+    "r",
+    "max",
+    "prefix",
+    "K",
+    "witness"
+  ],
+  "historical_comparison_fields": [
+    "r",
+    "max",
+    "prefix",
+    "K"
+  ],
+  "final_known_qualification": {
+    "status": "COMPLETE",
+    "experiment": "070_final_known_qualification",
+    "started_utc": "2026-10-01T01:18:07Z",
+    "commands": 30,
+    "measurements": 100,
+    "elapsed_seconds": 9.115341901779175,
+    "known_primes": {
+      "32": 41,
+      "33": 16
+    },
+    "exact_profiles": "PASS",
+    "sanitizer_errors": 0,
+    "negative_tests": "PASS",
+    "frozen_sha256": {
+      "32": "40b7092d50f2c4da48d2b5ad0e98acb2d12e8d7b9765bf4686fa6625d2e163c7",
+      "33": "97e22a0dc9020ce4fd439bdea420dac3b7fd0f5c083e0283e7747c2ff5e54d38"
+    }
+  },
+  "final_oracle_qualification": {
+    "status": "COMPLETE",
+    "experiment": "072_final_independent_oracles",
+    "started_utc": "2026-10-01T01:26:43Z",
+    "commands": 160,
+    "measurements": 768,
+    "elapsed_seconds": 109.02777218818665,
+    "new_primes": 152,
+    "new_32_primes": 136,
+    "new_33_primes": 16,
+    "independent_exhaustive_differential": "PASS",
+    "complete_half_intervals": "PASS",
+    "wide_direct_speedup": 1.7540320778076692,
+    "maximum_single_oracle_seconds": 1.7659838549952838
+  },
+  "failed_intermediate_attempts_preserved": [
+    {
+      "experiment": "007_fused_pack",
+      "status": "FAILED",
+      "error": "('compile_fused_pack', 2, PosixPath('original-work/overnight_sm120/experiments/007_fused_pack/000_compile_fused_pack.log'))"
+    },
+    {
+      "experiment": "024_exact_seed",
+      "status": "SUPERSEDED",
+      "error": null
+    },
+    {
+      "experiment": "043_wide33_shared_plans",
+      "status": "FAILED",
+      "error": "('screen_0_plans', 2, PosixPath('original-work/overnight_sm120/experiments/043_wide33_shared_plans/003_screen_0_plans.log'))"
+    },
+    {
+      "experiment": "046_gpu_pilot",
+      "status": "FAILED",
+      "error": "('graph_l2_target0', 2, PosixPath('original-work/overnight_sm120/experiments/046_gpu_pilot/061_graph_l2_target0.log'))"
+    },
+    {
+      "experiment": "057_single4_cover",
+      "status": "FAILED",
+      "error": "('screen_0_base_q6', 2, PosixPath('original-work/overnight_sm120/experiments/057_single4_cover/008_screen_0_base_q6.log'))"
+    },
+    {
+      "experiment": "057b_single4_cover_screen",
+      "status": "FAILED",
+      "error": "'<' not supported between instances of 'NoneType' and 'float'"
+    }
+  ],
+  "rebuild_status": "PASS"
+}

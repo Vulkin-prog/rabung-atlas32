@@ -1,0 +1,19 @@
+{
+  "all_archive_members_verified": 1746,
+  "analysis_sha256": "284bc571d4904825a3a24b116b0b9da66c095bc0a6efd07ce573d082a46070db",
+  "exact_moment_dense_large_cases": 12,
+  "final_engine_holdout_primes": 6144,
+  "final_engine_holdout_profiles": 20512,
+  "full_oracle_calls": 25,
+  "maximum_prime_exclusive": 8589934592,
+  "parent_sealed_manifest_files_verified": 215,
+  "portable_elliptic_certificates": 537,
+  "scope": "Research, qualification and candidate engines; no atlas production campaign launched",
+  "sealed_controls_primes": 209,
+  "sealed_controls_profiles": 867,
+  "status": "PASS",
+  "total_holdout_primes": 8192,
+  "total_holdout_profiles": 27338,
+  "unique_full_oracle_primes": 23,
+  "utc": "2026-10-02T16:00:50Z"
+}
