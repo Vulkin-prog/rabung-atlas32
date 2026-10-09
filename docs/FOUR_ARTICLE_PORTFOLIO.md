@@ -5,10 +5,10 @@ as a new draft, and three companion articles. It does not create a fifth paper.
 
 | Article | Version in this PR | Main question and proof ownership |
 | --- | --- | --- |
-| Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | Revised draft v1.1; published v1.0.0 remains at DOI 10.5281/zenodo.22980965 | Which succinct triples satisfy Rabung's criterion, and which bounds follow after closing an explicit source corpus? Owns the full boundary equivalence, pointwise checks, fixed-prime monotonicity, exact-modulus products and bound comparisons. |
-| Certified rational-anchor filtering for exact GPU scans of power-residue runs | v0.3 | How can a scanner preserve exact maxima, prefixes and canonical witnesses while avoiding a dense expensive character evaluation? Owns the integer cover, anchor selection, conservative rejection, completion, arithmetic and controlled timings. |
-| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | v1.5 | What does the complete finite population reveal, and which selected structures have exact algebraic explanations? Keeps census, Kummer densities, norm dependencies, local codes and ternary diagnostics together. |
-| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | v1.3 | How can a consecutive cubic four-window count be computed exactly, and what are its first four moments over primes? Owns the assembled Greene–Lennon count, boundary corrections, geometric proof, six curves, CM twists and analytic moment argument. |
+| Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | Revised draft v1.2; published v1.0.0 remains at DOI 10.5281/zenodo.22980965 | Which succinct triples satisfy Rabung's criterion, and which bounds follow after closing an explicit source corpus? Owns the full boundary equivalence, pointwise checks, fixed-prime monotonicity, exact-modulus products and bound comparisons. |
+| Certified rational-anchor filtering for exact GPU scans of power-residue runs | v0.4 | How can a scanner preserve exact maxima, prefixes and canonical witnesses while avoiding a dense expensive character evaluation? Owns the integer cover, anchor selection, conservative rejection, completion, arithmetic and controlled timings. |
+| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | v1.6 | What does the complete finite population reveal, and which selected structures have exact algebraic explanations? Keeps census, Kummer densities, norm dependencies, local codes and ternary diagnostics together. |
+| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | v1.4 | How can a consecutive cubic four-window count be computed exactly, and what are its first four moments over primes? Owns the assembled Greene–Lennon count, boundary corrections, geometric proof, six curves, CM twists and analytic moment argument. |
 
 The atlas retains a short Rabung specialization for readability and cites the
 published full boundary proof. The cubic proofs use neither the census nor a
@@ -24,11 +24,20 @@ fields, seals, registries and closed tests keep their original names and bytes.
 The atlas field `W_length_first_lower_bound` remains a historical schema name;
 its numerical entries are weak integer bounds, one above construction length.
 
-Article bibliographies cite published work, versioned public preprints,
-scientific software/data artifacts and the companion manuscripts intended for
-publication. Supplied reviews, private working notes and conversation histories
+Article bibliographies cite published work, versioned public preprints and
+scientific software/data artifacts. Within this four-article series, only
+already published editions are cited. New references will be added after each
+release according to [the publication plan](SUCCESSIVE_PUBLICATION_PLAN_FR.md)
+and `PUBLICATION_SEQUENCE.json`. Supplied reviews, private working notes and conversation histories
 are not scientific references. Existing internal review records remain work
 records and are not redistributed as received PDFs.
+
+The publication order is revised certificates, GPU method, atlas, cubic
+quadruplets. The new bounds have independent complete CPU checks, so they
+can be released before the scanner and census papers. The atlas no longer
+announces the future cubic article's six-curve formula or moment constants.
+Each public release will have its own curated artifact. Only the already
+published certificates v1.0.0 is currently recorded as public.
 
 ## Changes in this revision
 

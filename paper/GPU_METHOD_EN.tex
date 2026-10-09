@@ -11,7 +11,7 @@
 \hypersetup{pdftitle={Certified rational-anchor filtering for exact GPU scans of power-residue runs},pdfauthor={Brice Pouly}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Exact GPU scans of power-residue runs}
-\fancyhead[R]{\small Draft v0.3}\fancyfoot[C]{\thepage}
+\fancyhead[R]{\small Draft v0.4}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -25,7 +25,7 @@
 \title{Certified rational-anchor filtering\\
 for exact GPU scans of power-residue runs}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The declaration at the end specifies its role and the remaining review requirements.}}
-\date{9 October 2026 \quad Research manuscript v0.3}
+\date{9 October 2026 \quad Research manuscript v0.4}
 \begin{document}\maketitle
 \begin{abstract}
 Power-residue colourings provide succinct inputs to Rabung constructions,
@@ -64,10 +64,10 @@ candidate certificates and for building an experimental census. Distributed
 searches by Monroe provide an important computational predecessor~\cite{monroe,monroecode}.
 The published certificates paper separates GPU discovery from
 pointwise certificate verification~\cite{bounds}. The present paper treats
-the scanner itself as the object of study. The complete census and its
-algebraic explanations are developed in the atlas~\cite{atlas}; the exact
-cubic four-window count and its prime-averaged moments have a separate
-companion~\cite{cubic}. None is an input to the scanner's exactness theorem.
+the scanner itself as the object of study. Its exactness theorem concerns
+ordinary maxima, prefixes and canonical witnesses. The coverage proof and
+controlled measurements establish this computational contract independently
+of any census classification or limiting probability law.
 
 \paragraph{Reading contract.}
 A successful scan returns $(M_r,L_r,K_r,w_r)$: the largest ordinary run,
@@ -1064,15 +1064,15 @@ disabled in the recorded ptrace environment. Sanitizers cover the executions
 they observe and are not a formal verification of all device schedules.
 
 \section{Reproducibility and limits}\label{sec:reproducibility}
-The frozen v0.1 packet containing all measured source and data bytes is
+The frozen packet containing all measured source and data bytes is
 identified by commit
 \begin{center}\footnotesize
 \href{https://github.com/Vulkin-prog/vdw-gpu-starter/tree/f2d515c383776d3f915b87423ea101029d041bc5}{\nolinkurl{f2d515c383776d3f915b87423ea101029d041bc5}}.
 \end{center}
-The preceding editorial v0.2 is pinned at
+The selected source ledger is pinned at
 \href{https://github.com/Vulkin-prog/vdw-gpu-starter/tree/f00cdcb95f12d7578bdb37a87db97ff233c86a22}{\nolinkurl{f00cdcb95f12d7578bdb37a87db97ff233c86a22}}.
-The present v0.3 adds the small worked example, counts in-table completion
-work and clarifies launch sizes. Measured source/data snapshots remain
+The present draft includes the small worked example, counts in-table
+completion work and clarifies launch sizes. Measured source/data snapshots remain
 byte-identical. The current article and its selected reproduction files
 are versioned with the atlas repository.
 \path{reproducibility/gpu_method/SOURCE_MAP.json} links engine versions, hashes,
@@ -1145,14 +1145,14 @@ Selection-time freezes concern these algorithm experiments; they do not
 reopen the earlier paper's closed primary statistical tests. There is no
 refit of those tests or assertion of a universal law of run maxima.
 
-\paragraph{Short patterns and the companion articles.}
+\paragraph{Short patterns and the output contract.}
 Exact counts of short patterns can sometimes be computed by character sums
 or elliptic-curve point counts without reconstructing the longest run.
 The completed research archives contain prototypes for such tasks, including
 quadratic quadruplets. They are separate observables with their own
-arithmetic and certification requirements. The completed atlas~\cite{atlas} and the cubic companion~\cite{cubic}
-report those separate observables; they are not used
-to enlarge the performance claim in this methods paper.
+arithmetic and certification requirements. The controlled comparisons here
+concern the full maximum-and-witness contract. They supply no measured
+speedup for a character-sum or elliptic short-pattern algorithm.
 
 \section{Conclusion}
 Exact sparse scanning is possible because exclusion is justified
@@ -1177,7 +1177,7 @@ drafting and source checking. Brice Pouly is the named human author.
 The CPU exposition checks in this revision are not CUDA qualifications.
 Human specialist review,
 an accessible archival release and unresolved historical-source access
-remain open. No submission or publication is made by preparing v0.3.
+remain open. No submission or publication is made by preparing this draft.
 
 \clearpage
 \appendix
@@ -1235,14 +1235,6 @@ Offline v0.2 checks & Anchor policy, source hashes, logged diagnostics, printed 
 \small
 \phantomsection\pdfbookmark[1]{References}{gpu-references}
 \begin{thebibliography}{99}
-\bibitem{atlas}
-B. Pouly, \emph{Arithmetic structure in a complete atlas of power-residue
-runs below $2^{32}$}, research manuscript v1.5, 2026;
-\path{paper/PAPER_EN.tex}, in \url{https://github.com/Vulkin-prog/rabung-atlas32}.
-\bibitem{cubic}
-B. Pouly, \emph{Cubic-residue quadruplets: elliptic formulas and arithmetic
-fluctuations}, research manuscript v1.3, 2026;
-\path{paper/CUBIC_QUADRUPLETS_EN.tex}, in the same repository.
 \bibitem{rabung}
 J. R. Rabung, Some progression-free partitions constructed using Folkman's
 method, \emph{Canadian Mathematical Bulletin} 22(1) (1979), 87--91.

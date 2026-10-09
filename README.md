@@ -12,14 +12,20 @@ already published certificates paper. The published v1.0.0 remains at
 
 | Article | Current draft | Source and evidence |
 | --- | --- | --- |
-| Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | [v1.1](paper/RABUNG_BOUNDS_EN.pdf) | [Standalone LaTeX](paper/RABUNG_BOUNDS_EN.tex); [separate pointwise and recurrence package](reproducibility/bounds_update/README.md). |
-| Certified rational-anchor filtering for exact GPU scans of power-residue runs | [v0.3](paper/GPU_METHOD_EN.pdf) | [Standalone LaTeX](paper/GPU_METHOD_EN.tex); [selected frozen measurements and source bridges](reproducibility/gpu_method/README.md). |
-| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | [v1.5](paper/PAPER_EN.pdf) | [Standalone LaTeX](paper/PAPER_EN.tex); the sealed atlas and algebraic certificates below. |
-| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | [v1.3](paper/CUBIC_QUADRUPLETS_EN.pdf) | [Standalone LaTeX](paper/CUBIC_QUADRUPLETS_EN.tex); [elliptic count and moments package](reproducibility/cubic_quadruplets/README.md). |
+| Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | [v1.2](paper/RABUNG_BOUNDS_EN.pdf) | [Standalone LaTeX](paper/RABUNG_BOUNDS_EN.tex); [separate pointwise and recurrence package](reproducibility/bounds_update/README.md). |
+| Certified rational-anchor filtering for exact GPU scans of power-residue runs | [v0.4](paper/GPU_METHOD_EN.pdf) | [Standalone LaTeX](paper/GPU_METHOD_EN.tex); [selected frozen measurements and source bridges](reproducibility/gpu_method/README.md). |
+| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | [v1.6](paper/PAPER_EN.pdf) | [Standalone LaTeX](paper/PAPER_EN.tex); the sealed atlas and algebraic certificates below. |
+| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | [v1.4](paper/CUBIC_QUADRUPLETS_EN.pdf) | [Standalone LaTeX](paper/CUBIC_QUADRUPLETS_EN.tex); [elliptic count and moments package](reproducibility/cubic_quadruplets/README.md). |
 
 [FOUR_ARTICLE_PORTFOLIO.md](docs/FOUR_ARTICLE_PORTFOLIO.md) fixes their scopes
 and proof dependencies. All current manuscripts use `W(r,k)`, colours first.
 Historical field names and scientific files retain their original bytes.
+
+The [successive publication plan](docs/SUCCESSIVE_PUBLICATION_PLAN_FR.md)
+uses this order: revised certificates, GPU method, atlas, cubic quadruplets.
+Current series citations point only to the already published certificates
+edition. New references will be added to later manuscripts after the cited
+edition is actually published, using its precise version and locator.
 
 The complete census covers every prime in **[1, 4,294,967,296)** and every
 admissible order **r = 2, …, 9** (r divides p−1).
@@ -192,13 +198,16 @@ analytic passage is still required before publication; see
 a complete limiting distribution or a critical maximum law. The editorial
 scope and separate provenance manifests are in
 [EDITORIAL_INTEGRATION.md](docs/EDITORIAL_INTEGRATION.md).
-The atlas v1.5 and companion v1.3 retain the corrections to the two reports received on
+The atlas v1.6 and companion v1.4 retain the corrections to the two reports received on
 8 October 2026 and implement the four-article organization. The [response to the reviews](docs/REVIEW_RESPONSE_2026-10-08_FR.md)
 records the corrections and remaining editorial tasks. The
 [reproduction map](docs/PUBLICATION_REPRODUCIBILITY.md) identifies the frozen
 data and scanner separately from the manuscript revisions.
 The article bibliographies exclude private reviews and internal working notes;
 scientific statements are supported by the supplied proofs and certificates.
+The [current validation record](docs/SUCCESSIVE_PUBLICATION_VALIDATION.json)
+records the successive-publication revision; the previous four-article record
+remains identified as a historical snapshot.
 
 ## Manuscript and theory
 

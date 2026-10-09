@@ -24,17 +24,24 @@ def run(path, *args):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--catalogue", action="store_true")
+    parser.add_argument("--scope", choices=["all", "atlas", "cubic"], default="all",
+                        help="Select article-owned checks; the default retains the complete replay.")
     args = parser.parse_args()
+    if args.catalogue and args.scope == "cubic":
+        parser.error("--catalogue belongs to the atlas scope")
     if sys.flags.optimize:
         parser.error("Run without -O: inherited coordinate checks use assertions.")
-    run("reproducibility/proofs/residual_irreducibility.py")
-    run("scripts/verify_hypergeometric.py")
-    run("reproducibility/cubic_quadruplets/elliptic/src/verify.py")
-    run("reproducibility/cubic_quadruplets/moments/src/verify.py")
-    run("reproducibility/ternary_diagnostics/coordinates/src/analyse.py")
-    run("reproducibility/ternary_diagnostics/coordinates/tests/verify_results.py")
-    run("reproducibility/ternary_diagnostics/same_filter/src/analyse.py")
-    run("reproducibility/ternary_diagnostics/same_filter/tests/verify.py")
+    if args.scope in ["all", "atlas"]:
+        run("reproducibility/proofs/residual_irreducibility.py")
+    if args.scope in ["all", "cubic"]:
+        run("scripts/verify_hypergeometric.py")
+        run("reproducibility/cubic_quadruplets/elliptic/src/verify.py")
+        run("reproducibility/cubic_quadruplets/moments/src/verify.py")
+    if args.scope in ["all", "atlas"]:
+        run("reproducibility/ternary_diagnostics/coordinates/src/analyse.py")
+        run("reproducibility/ternary_diagnostics/coordinates/tests/verify_results.py")
+        run("reproducibility/ternary_diagnostics/same_filter/src/analyse.py")
+        run("reproducibility/ternary_diagnostics/same_filter/tests/verify.py")
     if args.catalogue:
         pack = ROOT / "reproducibility/ternary_diagnostics/coordinates"
         with tempfile.TemporaryDirectory(prefix="rabung-coordinates-") as folder:
@@ -52,6 +59,7 @@ def main():
         if hashlib.sha256((ROOT / path).read_bytes()).hexdigest() != expected:
             raise ArithmeticError(f"Editorial file changed: {path}")
     print(json.dumps({"status": "PASS", "editorial_files": len(manifest),
+                      "selected_scope": args.scope,
                       "full_retained_catalogue_reclassified": args.catalogue,
                       "scope": "finite certificates and archived diagnostics; analytic proofs are not machine-verified"}))
 

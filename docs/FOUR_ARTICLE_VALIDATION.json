@@ -397,5 +397,8 @@
     "Local and CI finite checks do not machine-verify the analytic moment theorems.",
     "Specialist analytic review and a public immutable artifact remain publication tasks.",
     "No new global literature priority audit or complete GPU census."
-  ]
+  ],
+  "historical_validation_record": true,
+  "artifact_snapshot_commit": "b856350dd924696932cde2eea8902c225cfe6850",
+  "superseded_for_current_manuscripts_by": "docs/SUCCESSIVE_PUBLICATION_VALIDATION.json"
 }

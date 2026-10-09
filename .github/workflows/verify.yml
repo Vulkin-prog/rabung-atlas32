@@ -30,6 +30,7 @@ jobs:
       - name: Verify GPU tables and the separate bounds addendum
         run: |
           mkdir -p build
+          python3 -B scripts/verify_publication_references.py
           python3 -B scripts/verify_gpu_method.py
           python3 -B scripts/verify_bounds_update.py
           g++ -O3 -std=c++17 -Wall -Wextra -Wconversion -o build/independent_profile reproducibility/bounds_update/independent_profile.cpp

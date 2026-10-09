@@ -9,7 +9,7 @@
 \hypersetup{pdftitle={Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations},pdfauthor={Brice Pouly}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Cubic-residue quadruplets}
-\fancyhead[R]{\small Research manuscript v1.3}
+\fancyhead[R]{\small Research manuscript v1.4}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -30,7 +30,7 @@
 \title{Cubic-residue quadruplets:\\
 elliptic formulas and arithmetic fluctuations}
 \author{Brice Pouly\thanks{Prepared with AI assistance for proof development, computation, literature retrieval, and English writing. This is a research manuscript; repository deposit is not peer review.}}
-\date{9 October 2026 \quad Research manuscript v1.3}
+\date{9 October 2026 \quad Research manuscript v1.4}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -78,17 +78,15 @@ four prime-averaged moments of that count. We retain a direct
 geometric proof to expose the phase and contributions at infinity;
 we do not claim a new general character-sum or isogeny identity.
 
-\paragraph{Scope within the companion series.}
+\paragraph{Scope and relation to progression-free constructions.}
 The exact formula and the moment arguments below are self-contained
-apart from their cited mathematical inputs. The atlas~\cite{atlas}
-provides a distinct census and fixed-population diagnostics; it is not
-an assumption of either theorem. Scanner coverage and measured GPU
-performance belong to the methods article~\cite{gpu}, while Rabung
-certificates and recurrence-closed bounds belong to the published
-certificates paper~\cite{bounds}. No theorem about logarithmic-length
+apart from their cited mathematical inputs. Rabung certificates and
+recurrence-closed bounds~\cite{bounds} use finite run maxima and boundary
+conditions. Here the observable is instead a count of fixed four-windows,
+and its averaging population consists of primes. No theorem about logarithmic-length
 maxima or new van der Waerden bound is inferred from the four moments.
 When needed, $W(r,k)$ denotes $r$ colours and progression length $k$;
-this convention is shared with those articles.
+the ordinary window convention is fixed explicitly below.
 
 \subsection{Windows, characters, and the prime population}
 Throughout, $p>3$ is prime, $p\equiv1\pmod3$, and $\chi$ is a
@@ -105,10 +103,9 @@ Define the cubic four-window count by
 \end{equation}
 All three nonzero colours are included. The four entries are consecutive
 integer residues, and overlapping windows are counted separately.
-This is a window statistic, not a count of maximal runs. It is also
-distinct from the \emph{quadratic} A4 column of the Rabung
-atlas~\cite{atlas}. In particular, the cubic count is not obtained
-by relabelling that historical column.
+This is a window statistic, not a count of maximal runs. The character
+order is part of its definition: a cubic four-window count is not
+reconstructed by relabelling a quadratic four-window count.
 
 Put
 \begin{equation}\label{eq:correction}
@@ -907,10 +904,8 @@ $\left(\begin{smallmatrix}2&-1\\-1&2\end{smallmatrix}\right)$.
 The unconditional covariance is zero,
 although the exact twist relations remain.
 The arithmetic contrast concerns the cubic
-class of \emph{three}. It must not be confused
-with the cube/noncube class of \emph{two}
-used to stratify the million-profile
-ternary supplement of the atlas.
+class of \emph{three}. Replacing this stratum by the cube/noncube
+class of \emph{two} would change the prime-averaging question.
 
 \section{Exact certificates and reproducibility}\label{sec:certificates}
 \subsection{Point orders determine the trace}
@@ -1029,16 +1024,14 @@ certificate set is reported as such.
 The explicit option \texttt{--generate}
 requests a bounded new six-curve
 certificate search and may refuse.
-The integrated replay command is
+The two finite certificate replay commands are
 \begin{quote}\ttfamily\small
-python3 -B scripts/verify\_editorial.py
+python3 -B reproducibility/cubic\_quadruplets/elliptic/src/verify.py\\
+python3 -B reproducibility/cubic\_quadruplets/moments/src/verify.py
 \end{quote}
-Its cubic verification uses standard
-Python only. The additional archived
-ternary diagnostics use a C++ compiler.
-No network, GPU, new prime census,
-or regeneration of the sealed atlas
-is part of these checks.
+They use standard Python only. These commands check the supplied finite
+identities and certificates without a network connection or GPU; they
+do not establish the external analytic theorems by computation.
 
 \section{Consequences and scope}
 \subsection{A non-Gaussian moment signature}
@@ -1239,15 +1232,6 @@ F. Fit\'e and A. V. Sutherland, Sato--Tate distributions of twists
 of $y^2=x^5-x$ and $y^2=x^6+1$,
 \emph{Algebra Number Theory} 8 (2014), 543--585.
 \href{https://doi.org/10.2140/ant.2014.8.543}{doi:10.2140/ant.2014.8.543}.
-\bibitem{atlas}
-B. Pouly, \emph{Arithmetic structure in a complete atlas of
-power-residue runs below $2^{32}$}, research manuscript,
-2026. Repository:
-\url{https://github.com/Vulkin-prog/rabung-atlas32}.
-\bibitem{gpu}
-B. Pouly, \emph{Certified rational-anchor filtering for exact GPU scans
-of power-residue runs}, research manuscript v0.3, 2026,
-\path{paper/GPU_METHOD_EN.tex}, in the same repository.
 \bibitem{bounds}
 B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
 bounds for van der Waerden numbers}, published edition v1.0.0, 2026.

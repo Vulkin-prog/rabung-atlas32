@@ -1,6 +1,6 @@
 # Selected GPU methods reproduction package
 
-The source article is `paper/GPU_METHOD_EN.tex` (v0.3, 9 October 2026).
+The source article is `paper/GPU_METHOD_EN.tex` (v0.4, 9 October 2026).
 The complete original experimental packet remains pinned at
 `Vulkin-prog/vdw-gpu-starter@f2d515c383776d3f915b87423ea101029d041bc5`;
 the v0.2 editorial source is pinned at `f00cdcb95f12d7578bdb37a87db97ff233c86a22`.

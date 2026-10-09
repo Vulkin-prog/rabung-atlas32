@@ -4,14 +4,24 @@ The existing draft PR is [#1](https://github.com/Vulkin-prog/rabung-atlas32/pull
 The reviewed editorial baseline is commit
 `59a9f9c501ab6781996222470049940ddef2e691`; the sealed-census manuscript
 baseline is `452907920dc623d4d1e6ae7675428fe02ed840c4`.
-The current four-paper revision is dated 9 October 2026: certificates v1.1,
-GPU methods v0.3, atlas v1.5 and cubic companion v1.3. The published certificates
+The current four-paper revision is dated 9 October 2026: certificates v1.2,
+GPU methods v0.4, atlas v1.6 and cubic companion v1.4. The published certificates
 edition v1.0.0 remains at DOI 10.5281/zenodo.22980965 and is not overwritten.
 The source-policy correction follows commit
 `94d586095c1b12edf185c31f20f6f7c72c786c4a` (atlas v1.3 / companion v1.1).
 Private reviews and internal working notes are excluded from the manuscript
 bibliographies and prose references. The scientific reproduction artifacts
 are identified directly in the articles.
+
+The publication sequence is revised certificates, GPU method, atlas, cubic
+quadruplets. `PUBLICATION_SEQUENCE.json` distinguishes current public editions
+from planned insertions. `scripts/verify_publication_references.py` checks the
+actual series references and exact edition locators. Its offline check does
+not establish public availability or publish anything. See
+[the per-stage plan](SUCCESSIVE_PUBLICATION_PLAN_FR.md).
+The current compilation, bibliography and scoped reproduction checks are in
+`SUCCESSIVE_PUBLICATION_VALIDATION.json`. `FOUR_ARTICLE_VALIDATION.json` retains
+the scientific checks performed on the preceding four-article revision.
 
 For a checked-out revision, record `git rev-parse HEAD` and use that full SHA
 in a GitHub `blob/<SHA>/<path>` permalink. The commit pins the complete tree;
@@ -35,9 +45,9 @@ the versions supplied to the reviews.
 | Original mathematical certification | `reproducibility/anteriorities/` and `reproducibility/evidence/new/` | `python3 -B reproducibility/proofs/verify_synthesis.py`; `python3 -B reproducibility/proofs/verify_report4.py`. |
 | Residual irreducibility addition | `RESIDUAL_IRREDUCIBILITY.json` in the evidence directory; 100 model bindings and 200 finite witnesses | `python3 -B reproducibility/proofs/residual_irreducibility.py`. `--generate` regenerates the small witness file. |
 | Greene–Lennon exposition check | `scripts/verify_hypergeometric.py`; archived geometric verifier kept intact | `python3 -B scripts/verify_hypergeometric.py`. |
-| Elliptic count and moments | `reproducibility/cubic_quadruplets/`; copied-source identities in `docs/EDITORIAL_PROVENANCE.json` | `python3 -B scripts/verify_editorial.py`. |
+| Elliptic count and moments | `reproducibility/cubic_quadruplets/`; copied-source identities in `docs/EDITORIAL_PROVENANCE.json` | `python3 -B scripts/verify_editorial.py --scope cubic`. |
 | Fixed million ternary population | `data/ternary-million/`; original commitments and publication provenance | `python3 -B scripts/verify_ternary.py`. |
-| Same-filter diagnostics and retained coordinates | `reproducibility/ternary_diagnostics/`; complete ordinary catalogue retained | `python3 -B scripts/verify_editorial.py --catalogue` with a C++17 compiler. |
+| Same-filter diagnostics and retained coordinates | `reproducibility/ternary_diagnostics/`; complete ordinary catalogue retained | `python3 -B scripts/verify_editorial.py --scope atlas --catalogue` with a C++17 compiler. |
 
 The complete original atlas manifest SHA256 is
 `762dc0aadc9beaa8a6bf2cb1a82604ad0c3dfcbb9f67c1a852ca7a2bb4468c20`.

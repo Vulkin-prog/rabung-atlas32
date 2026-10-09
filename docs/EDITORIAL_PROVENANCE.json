@@ -430,7 +430,8 @@
       "internal working notes",
       "conversation histories"
     ],
-    "scientific_arguments": "self-contained manuscript proofs, published primary sources and versioned scientific artifacts; companion papers intended for publication"
+    "scientific_arguments": "self-contained manuscript proofs, published primary sources and versioned scientific artifacts; companion papers intended for publication",
+    "superseded_by": "successive_publication_revision"
   },
   "publication_source_policy_previous": {
     "date": "2026-10-08",
@@ -490,5 +491,40 @@
     },
     "private_review_PDFs_redistributed": false,
     "global_priority_audit_reopened": false
+  },
+  "successive_publication_revision": {
+    "date": "2026-10-09",
+    "base_commit": "b856350dd924696932cde2eea8902c225cfe6850",
+    "manuscripts": {
+      "bounds_revision": "v1.2",
+      "gpu_methods": "v0.4",
+      "atlas": "v1.6",
+      "cubic_companion": "v1.4"
+    },
+    "release_order": [
+      "certificates revision",
+      "GPU method",
+      "atlas",
+      "cubic quadruplets"
+    ],
+    "currently_public_series_edition": "certificates v1.0.0; DOI 10.5281/zenodo.22980965",
+    "registry": "docs/PUBLICATION_SEQUENCE.json",
+    "plan": "docs/SUCCESSIVE_PUBLICATION_PLAN_FR.md",
+    "series_reference_policy": "Already public editions only; insert real edition locators into later manuscripts after publication.",
+    "removed_series_bibliography_entries": {
+      "bounds": 2,
+      "GPU": 2,
+      "atlas": 3,
+      "cubic": 2
+    },
+    "content_changes": [
+      "Remove forward references and circular series bibliography.",
+      "Keep exact cubic six-curve formulas and moment constants in the cubic paper; remove their advance announcement from the atlas.",
+      "Give cubic-only replay commands rather than requiring the atlas diagnostic workflow.",
+      "Separate atlas/cubic replay scopes while keeping the original integrated CI default."
+    ],
+    "scientific_sources_and_data_unchanged": true,
+    "publication_performed": false,
+    "deposit_modified": false
   }
 }

@@ -2,8 +2,8 @@
 
 The current organization has four articles, including a revised draft of the
 already published certificates paper; see [FOUR_ARTICLE_PORTFOLIO.md](FOUR_ARTICLE_PORTFOLIO.md).
-The certificates draft is v1.1, the methods manuscript v0.3, the atlas v1.5
-and the cubic companion v1.3. The published edition at DOI
+The certificates draft is v1.2, the methods manuscript v0.4, the atlas v1.6
+and the cubic companion v1.4. The published edition at DOI
 10.5281/zenodo.22980965 remains separate and unchanged.
 
 The atlas manuscript is updated in place. Its already integrated Kummer
@@ -18,15 +18,18 @@ catalogue has 22 binary profiles and one order-four profile.
 | Reproducibility packages | Curated elliptic and moment certificates, fixed-coordinate diagnostics, same-filter arithmetic and portable verification commands. |
 | Review record | Internal review plus two supplied reports; attribution and local corrections; explicit analytic interfaces; specialist human review still needed before submission. |
 
-The atlas is now v1.5 and the companion v1.3. See the
+The atlas is now v1.6 and the companion v1.4. See the
 [response to the two reports](REVIEW_RESPONSE_2026-10-08_FR.md). The historical
 residual verifier is extended to check polynomial binding and 200 new
 irreducibility witnesses; its earlier character matrices remain unchanged.
 A separate small-prime check verifies the hypergeometric exposition against
 literal four-position sums and direct elliptic point counts.
 
-The manuscript bibliographies use published papers, archived preprints,
-official documentation and the companion articles prepared for publication.
+The manuscript bibliographies use published papers, public preprints and
+official documentation. Series references now use already published editions
+only, following [the successive publication plan](SUCCESSIVE_PUBLICATION_PLAN_FR.md).
+The future cubic formula and moment constants have been removed from the atlas
+and remain fully developed in the cubic article.
 Private reviews and internal notes are excluded from the citations.
 Statements previously attributed to a private review are
 proved or checked explicitly in the article and certificate package. Review

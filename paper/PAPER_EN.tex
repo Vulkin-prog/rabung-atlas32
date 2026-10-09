@@ -16,7 +16,7 @@
 \makeatother
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Arithmetic structure in power-residue runs}
-\fancyhead[R]{\small Research manuscript v1.5}
+\fancyhead[R]{\small Research manuscript v1.6}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -39,7 +39,7 @@
 of power-residue runs below $2^{32}$\\[3pt]
 \large Rabung profiles, Kummer densities, norm dependencies, and local codes}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The scope of the assistance and the status of the manuscript are stated in Section~\ref{sec:reproduction}.}}
-\date{9 October 2026 \quad Research manuscript v1.5}
+\date{9 October 2026 \quad Research manuscript v1.6}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -67,10 +67,8 @@ exploratory model selection. It gives no universal law for global run
 maxima and no finite-range error estimate for the limiting densities.
 A separate stratified million-profile ternary supplement localizes a
 continuation contrast on a bounded arithmetic catalogue, with the same
-filter evaluated in an independent-colour comparator. A companion
-article develops an exact cubic four-window oracle and its first four
-moments over primes; these fixed-length results remain separate from
-the critical maximum problem.
+filter evaluated in an independent-colour comparator. These finite
+diagnostics do not close the critical maximum problem.
 \end{abstract}
 \noindent\textbf{Keywords.} Multiplicative characters; residue runs;
 van der Waerden numbers; Rabung construction; Kummer theory; Chebotarev
@@ -122,18 +120,16 @@ Section~\ref{sec:code} gives a specific arithmetic realization and
 its exact local run distribution, not a new general independence
 principle. No worldwide priority claim is made for the examples.
 
-\paragraph{Relation to the companion articles.}
+\paragraph{Relation to succinct certificates.}
 The published certificates paper~\cite{bounds} proves the equivalence of
 the implemented boundary test with Rabung's criterion and owns the
-recurrence-closed comparison of lower bounds. Its revised draft~\cite{boundsupdate}
-incorporates separately rechecked constructions from this census and
-larger-prime searches. The methods article~\cite{gpu} proves the
-cover--selection--completion contract and reports its controlled GPU
-comparisons. Here we retain the finite population, distributions and
-algebraic explanations together: their subject is the structure visible
-in the complete atlas. The cubic companion~\cite{cubiccompanion}
-develops a separate exact four-window observable and its prime moments;
-its proof does not depend on the census or on GPU performance.
+recurrence-closed comparison of lower bounds. Here the subject is the
+structure visible in a complete finite population: its distributions,
+selected algebraic windows and their exact relations. Pointwise
+construction certificates, complete census coverage and limiting prime
+densities have different verification requirements. We retain a short
+Rabung specialization for readability and identify the frozen scanner
+and finite audit artifacts in the reproduction section.
 
 \section{The atlas and the Rabung contract}\label{sec:atlas}
 \subsection{Definitions and conventions}
@@ -197,7 +193,7 @@ at an end and require $k-1$ neutral prefix values, also excluded.
 The proof explains why a good ordinary maximum alone does not certify
 the construction. This is the census specialization of Rabung's theorem;
 the full boundary-test equivalence and the separately checked certificates
-are developed in the certificates paper~\cite{bounds,boundsupdate}.
+are developed in the published certificates paper~\cite{bounds}.
 
 \subsection{Coverage, exactness, and sealing}
 The census visits every prime $p<2^{32}$ and every $r\in[2,9]$ dividing
@@ -210,8 +206,7 @@ $3\,119$ elliptic-count certificates, and $324$ final record checks.
 These audit counts describe the campaign's checks, not independent
 samples for inference about the tails.
 
-The scanner uses certified rational coverage and exact completion,
-with the success hypotheses proved in the methods article~\cite{gpu}.
+The scanner implements rational coverage and exact completion.
 The stored profile contract is stated in Section~\ref{sec:atlas};
 the frozen implementation and retained audit certificates are identified
 in Section~\ref{sec:reproduction}. Rejected batches supply no accepted
@@ -294,9 +289,9 @@ identified historical table, not a claim of current world records.
 The $(2,25)$ certificate is already in the published paper~\cite{bounds},
 which credits Monroe's phase-2 project. It is not a new construction here.
 The $(3,17)$ value increases that paper's published strict bound
-$31\,385\,622\,833$ by $5.67\%$. The revised certificates
-article~\cite{boundsupdate} supplies its separate CPU check and updated
-recurrence comparison. It also uses the larger primes
+$31\,385\,622\,833$ by $5.67\%$. Separate full ordinary CPU scans
+are retained in \path{reproducibility/bounds_update/results/}, with
+their source identities and commands. They also check the larger primes
 $5\,899\,373\,413$, $14\,413\,721\,599$ and $17\,177\,303\,971$
 at lengths $18$, $19$ and $20$. Their consequences exceed the
 corresponding bounded-atlas rows and retain their own pointwise checks;
@@ -713,30 +708,6 @@ $[20.849277,20.854427]$ cumulative occurrences.
 These are outward-rounded rigorous enclosures
 for the fixed comparator, not bounds for the
 error of a universal maximum law.
-
-\subsection{A separate fixed-length elliptic contribution}
-The companion manuscript~\cite{cubiccompanion}
-studies the cubic window count
-$A^{(3)}_{p,4}$ on $1,\ldots,p-1$.
-It proves an exact six-curve formula and
-four moments over primes for
-$(27A^{(3)}_{p,4}-p)/\sqrt p$.
-Its conditional second moments are 44
-when three is a cube and 17 otherwise;
-the unconditional second and fourth
-moments are 26 and 1900.
-The conditioning concerns three, whereas
-the present supplement is stratified by two.
-The principal proof and its external analytic
-inputs are in that companion.
-
-The new oracle is useful as an exact
-short-pattern cross-check. It neither
-replaces the atlas's quadratic A4 column
-nor reconstructs the maximum. In particular,
-fixed-length trace moments do not close
-the first intensity or the void probability
-for logarithmically long cubic runs.
 
 \section{Structural classification of extreme witnesses}\label{sec:classification}
 \subsection{Boundary structure and rational anchors}
@@ -1745,7 +1716,7 @@ $\lambda_{p,k}=(p-1)/3^k$. Its proposed void target is
  -\EE_{\mathcal P_3(X)}e^{-\lambda_{p,k}}\longrightarrow0.
 \]
 This is a research conjecture, not a theorem
-of the atlas or its companion. Prime-size
+of this article. Prime-size
 variation is retained inside the mixture;
 $\EE e^{-\lambda}$ is not replaced by
 $e^{-\EE\lambda}$. Reflection also prevents
@@ -1858,18 +1829,16 @@ proof assistant development. The additional
 quadratic identities, the sixteen comparison generators, and
 explicit parity normal forms.
 
-The additional curated packages
-\path{reproducibility/ternary_diagnostics/} and
-\path{reproducibility/cubic_quadruplets/}
-contain the fixed-coordinate diagnostics, the same-filter
-finite comparator, the elliptic identities and trace
-certificates, and the moment arithmetic.
-\path{scripts/verify_editorial.py} replays them;
+The additional curated package
+\path{reproducibility/ternary_diagnostics/}
+contains the fixed-coordinate diagnostics and the same-filter
+finite comparator.
+\path{scripts/verify_editorial.py}, with \texttt{--scope atlas}, replays them;
 its explicit \texttt{--catalogue} option reclassifies
 all retained ordinary positions on CPU and compares
 the archived hit lists. It does not rescan the
 full character words.
-All four manuscript sources compile independently.
+The manuscript source compiles independently.
 The editorial provenance and new-file hashes
 are recorded separately from the original
 publication manifest in
@@ -2069,30 +2038,14 @@ The release \texttt{atlas32-v1.0.0}, frozen scanner, original data
 manifest, certificates and reproduction commands are identified in
 Section~\ref{sec:reproduction}. Manuscript revisions and the 200
 additional irreducibility witnesses have a separate editorial manifest.
-The finite computational controls do not formally verify the analytic
-theorems used by the companion.
+The finite computational controls verify their stated finite identities;
+they do not prove the proposed critical maximum law.
 
 \begin{thebibliography}{99}
 \bibitem{bounds}
 B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
 bounds for van der Waerden numbers}, published edition v1.0.0, 2026.
 \href{https://doi.org/10.5281/zenodo.22980965}{doi:10.5281/zenodo.22980965}.
-\bibitem{boundsupdate}
-B. Pouly, same title, revised research manuscript v1.1, 2026,
-\path{paper/RABUNG_BOUNDS_EN.tex} and
-\path{reproducibility/bounds_update/}, in the same repository.
-\bibitem{gpu}
-B. Pouly, \emph{Certified rational-anchor filtering for exact GPU scans
-of power-residue runs}, research manuscript v0.3, 2026,
-\path{paper/GPU_METHOD_EN.tex} and
-\path{reproducibility/gpu_method/}, in the same repository.
-\bibitem{cubiccompanion}
-B. Pouly, \emph{Cubic-residue quadruplets:
-elliptic formulas and arithmetic fluctuations},
-research manuscript v1.3, 2026, in the same repository.
-Standalone source and certificates:
-\path{paper/CUBIC_QUADRUPLETS_EN.tex},
-\path{reproducibility/cubic_quadruplets/}.
 \bibitem{rabung} J.~R. Rabung,
 \emph{Some Progression-Free Partitions Constructed using Folkman's Method},
 Canadian Mathematical Bulletin \textbf{22} (1979), 87--91.

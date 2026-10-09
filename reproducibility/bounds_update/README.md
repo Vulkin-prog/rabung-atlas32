@@ -1,6 +1,6 @@
 # Separate addendum to the published Rabung certificates paper
 
-The revised draft is `paper/RABUNG_BOUNDS_EN.tex` (v1.1, 9 October 2026).
+The revised draft is `paper/RABUNG_BOUNDS_EN.tex` (v1.2, 9 October 2026).
 The published v1.0.0 remains at <https://doi.org/10.5281/zenodo.22980965>.
 Its original repository snapshot is
 `Vulkin-prog/vdw-rabung-bounds@704b4125b274bab3df45454adc9c421f8068b8a1`.

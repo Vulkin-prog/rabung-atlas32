@@ -11,7 +11,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\small Succinct Rabung certificates}
-\fancyhead[R]{\small Research manuscript v1.1}\fancyfoot[C]{\thepage}
+\fancyhead[R]{\small Research manuscript v1.2}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \usepackage[colorlinks]{hyperref}
 \hypersetup{allcolors=blue!40!black,
@@ -28,7 +28,7 @@
 \title{Succinct Rabung certificates and recurrence-closed\\
 lower bounds for van der Waerden numbers}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance; see the declaration at the end.}}
-\date{9 October 2026 \quad Revised research manuscript v1.1}
+\date{9 October 2026 \quad Revised research manuscript v1.2}
 \begin{document}\maketitle
 \begin{abstract}
 Rabung's construction encodes a progression-free colouring by a prime,
@@ -77,11 +77,12 @@ write $w(k;r)$.
 The published edition~\cite{publishededition} remains a separate immutable
 edition. New pointwise executions and a new recurrence graph accompany this
 revised draft; they are not retroactively inserted into its thirteen-claim
-audit. The rational cover, sparse scanner and controlled performance study
-belong to the methods article~\cite{gpucompanion}. The complete finite
-census and its Kummer, norm and code explanations belong to the
-atlas~\cite{atlascompanion}. Neither a timing measurement nor a proposed
-law of maxima enters the lower-bound proof here.
+audit. The subject here is pointwise certification and the consequences of
+explicit recurrence inputs. Complete search coverage, scanner performance
+and the algebraic classification of a census have separate evidence
+requirements. The new inequalities use full ordinary CPU rechecks;
+neither a timing measurement nor a proposed law of maxima enters their
+proof.
 
 
 \subsection{Results of the published edition}
@@ -2122,19 +2123,10 @@ Xiaodong Xu.
   3670--3677, 2013.
 \newblock \doi{10.1016/j.jnt.2013.05.008}.
 
-\bibitem[Pouly(2026a)]{publishededition}
+\bibitem[Pouly(2026)]{publishededition}
 B. Pouly. \emph{Succinct Rabung certificates and recurrence-closed lower
 bounds for van der Waerden numbers}, published edition v1.0.0, 2026.
 \href{https://doi.org/10.5281/zenodo.22980965}{doi:10.5281/zenodo.22980965}.
-\bibitem[Pouly(2026b)]{gpucompanion}
-B. Pouly. \emph{Certified rational-anchor filtering for exact GPU scans of
-power-residue runs}, research manuscript v0.3, 2026.
-\path{paper/GPU_METHOD_EN.tex}, in
-\url{https://github.com/Vulkin-prog/rabung-atlas32}.
-\bibitem[Pouly(2026c)]{atlascompanion}
-B. Pouly. \emph{Arithmetic structure in a complete atlas of power-residue
-runs below $2^{32}$}, research manuscript v1.5, 2026;
-\path{paper/PAPER_EN.tex}, in the same repository.
 \end{thebibliography}
 
 \endgroup
