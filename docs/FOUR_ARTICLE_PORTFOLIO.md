@@ -6,9 +6,9 @@ as a new draft, and three companion articles. It does not create a fifth paper.
 | Article | Version in this PR | Main question and proof ownership |
 | --- | --- | --- |
 | Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | Revised draft v1.2; published v1.0.0 remains at DOI 10.5281/zenodo.22980965 | Which succinct triples satisfy Rabung's criterion, and which bounds follow after closing an explicit source corpus? Owns the full boundary equivalence, pointwise checks, fixed-prime monotonicity, exact-modulus products and bound comparisons. |
-| Certified rational-anchor filtering for exact GPU scans of power-residue runs | v0.4 | How can a scanner preserve exact maxima, prefixes and canonical witnesses while avoiding a dense expensive character evaluation? Owns the integer cover, anchor selection, conservative rejection, completion, arithmetic and controlled timings. |
-| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | v1.6 | What does the complete finite population reveal, and which selected structures have exact algebraic explanations? Keeps census, Kummer densities, norm dependencies, local codes and ternary diagnostics together. |
-| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | v1.4 | How can a consecutive cubic four-window count be computed exactly, and what are its first four moments over primes? Owns the assembled Greene–Lennon count, boundary corrections, geometric proof, six curves, CM twists and analytic moment argument. |
+| Certified rational-anchor filtering for exact GPU scans of power-residue runs | v1.0 | How can a scanner preserve exact maxima, prefixes and canonical witnesses while avoiding a dense expensive character evaluation? Owns the integer cover, anchor selection, conservative rejection, completion, arithmetic and controlled timings. |
+| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | v1.0 | What does the complete finite population reveal, and which selected structures have exact algebraic explanations? Keeps census, Kummer densities, norm dependencies, local codes and ternary diagnostics together. |
+| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | v1.0 | How can a consecutive cubic four-window count be computed exactly, and what are its first four moments over primes? Owns the assembled Greene–Lennon count, boundary corrections, geometric proof, six curves, CM twists and analytic moment argument. |
 
 The atlas retains a short Rabung specialization for readability and cites the
 published full boundary proof. The cubic proofs use neither the census nor a
@@ -57,8 +57,14 @@ used for the current bound table. The finite recurrence scope extends the
 published four-colour corpus to six colours, with no fresh global priority
 audit. The unresolved Landman–Robertson statement remains a separate comparator.
 
-The original published edition is not overwritten. This PR provides a revised
-draft in the atlas repository; it does not update the original deposit, change
+The original published edition is not overwritten. This PR provides prepared publication
+editions in the atlas repository; it does not update the original deposit, change
 repository visibility, submit an article or merge the PR. A public immutable
 artifact and specialist review of the cubic analytic interfaces remain needed
 for submission. The four-moment argument is not formally machine-verified.
+
+The 12 October revision moves current results and mechanisms to the openings,
+distinguishes the four atlas populations, explains the 44/17 variance contrast
+immediately after the cubic moment theorem, and removes working-version labels
+from printed headers. Versions remain in PDF and archive metadata. The archive
+builder supplies one article per package; see AUDIT_RESPONSE_2026-10-12_FR.md.

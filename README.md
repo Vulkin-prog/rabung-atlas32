@@ -6,16 +6,29 @@ by Brice Pouly. The manuscript was prepared with AI assistance; it is a research
 manuscript, not a peer-reviewed publication. See [the paper](paper/PAPER_EN.pdf)
 and [its standalone LaTeX source](paper/PAPER_EN.tex).
 
-The repository now assembles four articles, including a revised draft of the
+The repository now assembles four articles, including a prepared second edition of the
 already published certificates paper. The published v1.0.0 remains at
 [DOI 10.5281/zenodo.22980965](https://doi.org/10.5281/zenodo.22980965).
 
-| Article | Current draft | Source and evidence |
+| Article | Prepared edition | Source and evidence |
 | --- | --- | --- |
-| Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | [v1.2](paper/RABUNG_BOUNDS_EN.pdf) | [Standalone LaTeX](paper/RABUNG_BOUNDS_EN.tex); [separate pointwise and recurrence package](reproducibility/bounds_update/README.md). |
-| Certified rational-anchor filtering for exact GPU scans of power-residue runs | [v0.4](paper/GPU_METHOD_EN.pdf) | [Standalone LaTeX](paper/GPU_METHOD_EN.tex); [selected frozen measurements and source bridges](reproducibility/gpu_method/README.md). |
-| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | [v1.6](paper/PAPER_EN.pdf) | [Standalone LaTeX](paper/PAPER_EN.tex); the sealed atlas and algebraic certificates below. |
-| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | [v1.4](paper/CUBIC_QUADRUPLETS_EN.pdf) | [Standalone LaTeX](paper/CUBIC_QUADRUPLETS_EN.tex); [elliptic count and moments package](reproducibility/cubic_quadruplets/README.md). |
+| Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers | [v2.0](paper/RABUNG_BOUNDS_EN.pdf) | [Standalone LaTeX](paper/RABUNG_BOUNDS_EN.tex); [separate pointwise and recurrence package](reproducibility/bounds_update/README.md). |
+| Certified rational-anchor filtering for exact GPU scans of power-residue runs | [v1.0](paper/GPU_METHOD_EN.pdf) | [Standalone LaTeX](paper/GPU_METHOD_EN.tex); [selected frozen measurements and source bridges](reproducibility/gpu_method/README.md). |
+| Arithmetic structure in a complete atlas of power-residue runs below 2^32 | [v1.0](paper/PAPER_EN.pdf) | [Standalone LaTeX](paper/PAPER_EN.tex); the sealed atlas and algebraic certificates below. |
+| Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | [v1.0](paper/CUBIC_QUADRUPLETS_EN.pdf) | [Standalone LaTeX](paper/CUBIC_QUADRUPLETS_EN.tex); [elliptic count and moments package](reproducibility/cubic_quadruplets/README.md). |
+
+The 12 October revision applies E01–E12 of the four-paper editorial audit.
+The [response](docs/AUDIT_RESPONSE_2026-10-12_FR.md) maps the changes.
+Build one archive per article with:
+
+```bash
+python3 -B scripts/build_publication_archives.py --verify
+```
+
+For the final certificates archive, `--legacy-archive /path/to/v1-deposit.zip`
+also includes the unchanged complete historical deposit. Archive builds do
+not publish a release or change repository visibility. Full atlas release
+assets remain a separate data product, explicitly identified in its package.
 
 [FOUR_ARTICLE_PORTFOLIO.md](docs/FOUR_ARTICLE_PORTFOLIO.md) fixes their scopes
 and proof dependencies. All current manuscripts use `W(r,k)`, colours first.

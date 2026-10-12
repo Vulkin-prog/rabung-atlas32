@@ -11,7 +11,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\small Succinct Rabung certificates}
-\fancyhead[R]{\small Research manuscript v1.2}\fancyfoot[C]{\thepage}
+\fancyhead[R]{}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \usepackage[colorlinks]{hyperref}
 \hypersetup{allcolors=blue!40!black,
@@ -28,26 +28,26 @@
 \title{Succinct Rabung certificates and recurrence-closed\\
 lower bounds for van der Waerden numbers}
 \author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance; see the declaration at the end.}}
-\date{9 October 2026 \quad Revised research manuscript v1.2}
+\date{12 October 2026}
+\hypersetup{pdfsubject={Publication edition v2.0; 12 October 2026}}
 \begin{document}\maketitle
 \begin{abstract}
-Rabung's construction encodes a progression-free colouring by a prime,
-a colour count and a target length. The published edition established
-thirteen direct inequalities using separately checked succinct certificates
-and compared them with a finite closure of earlier constructions.
-This revision retains that evidence and adds six primitive certificates,
-rechecked by full ordinary CPU scans, giving fourteen further direct rows.
-In colour-first notation, these include
-$W(3,17)>33\,166\,190\,897$, $W(3,18)>100\,289\,348\,022$,
+Rabung's power-residue construction describes a large progression-free
+colouring by a prime, a colour count and a target length. We give six
+additional primitive certificates, checked by full ordinary CPU scans,
+which yield fourteen direct lower bounds. In colour-first notation, these
+include $W(3,17)>33\,166\,190\,897$, $W(3,18)>100\,289\,348\,022$,
 $W(3,19)>259\,446\,988\,783$ and $W(3,20)>326\,368\,775\,450$.
-The larger ternary primes lie outside the $2^{32}$ atlas.
-Within the extended admitted corpus, direct ternary certificates win
-through length $23$; Berlekamp and binary recurrence inputs win afterwards.
-Exact-modulus products also give six-colour consequences. We retain the
-proved Rabung boundary equivalence and exact-integer recurrence conventions.
-The original thirteen-claim gate and closed empirical analyses remain
-unchanged. Comparisons are with a dated explicit corpus; no new global
-priority or optimality claim is made.
+The larger ternary primes lie outside the complete census below $2^{32}$.
+We prove the equivalence of the run and boundary tests with Rabung's
+criterion and separate pointwise verification from discovery. A finite
+closure of explicitly identified earlier constructions places the new
+bounds in context: direct ternary certificates win through length $23$;
+Berlekamp and binary recurrence inputs win thereafter. Exact-modulus
+cyclic witnesses also give six-colour product bounds. The previously
+published thirteen-claim evidence and its closed empirical analyses are
+retained separately. Comparisons refer to the stated source catalogue,
+without an exhaustive global priority or optimality claim.
 \end{abstract}
 \noindent\textbf{Keywords.} Van der Waerden numbers; power-residue colourings;
 Rabung certificates; computational Ramsey theory.
@@ -73,16 +73,29 @@ progression of length $k$. We put colours first. Monroe~\cite{Monroe2026}
 uses the reverse convention $W(k,r)$; Fox and Hunter~\cite{FoxHunter2026}
 write $w(k;r)$.
 
-\paragraph{Scope of this revision.}
-The published edition~\cite{publishededition} remains a separate immutable
-edition. New pointwise executions and a new recurrence graph accompany this
-revised draft; they are not retroactively inserted into its thirteen-claim
-audit. The subject here is pointwise certification and the consequences of
-explicit recurrence inputs. Complete search coverage, scanner performance
-and the algebraic classification of a census have separate evidence
-requirements. The new inequalities use full ordinary CPU rechecks;
-neither a timing measurement nor a proposed law of maxima enters their
-proof.
+\subsection{Current results and their evidence}
+Six additional primitive certificates give fourteen direct inequalities.
+The four leading ternary bounds are
+\[
+\begin{aligned}
+ W(3,17)&>33\,166\,190\,897, & W(3,18)&>100\,289\,348\,022,\\
+ W(3,19)&>259\,446\,988\,783, & W(3,20)&>326\,368\,775\,450.
+\end{aligned}
+\]
+Theorem~\ref{thm:update} gives the certificates and their mathematical
+implications. In the extended admitted comparison, the direct ternary
+rows win through length $23$; new binary inputs give stronger recurrence
+consequences at $27$ and $28$, and exact cyclic witnesses yield six-colour
+products. The larger ternary primes are pointwise constructions outside
+the complete census below $2^{32}$.
+
+The published edition~\cite{publishededition} and its thirteen-claim
+evidence are retained separately. New pointwise executions and a separate
+recurrence graph are not retroactively inserted into that evidence.
+The new inequalities use full ordinary CPU rechecks. Complete search
+coverage, scanner performance and the algebraic classification of a census
+have separate evidence requirements; neither a timing measurement nor a
+proposed law of maxima enters the lower-bound proof.
 
 
 \subsection{Results of the published edition}
@@ -105,7 +118,8 @@ review, but stronger bounds already follow from other constructions. A
 stronger published statement of Landman and Robertson has an unresolved
 proof status in our audit. We display its consequences separately and include
 it among prior comparators: the five improvements at lengths $17$--$21$
-remain, whereas it dominates the admitted table at lengths $24$--$28$.
+remain, whereas it dominates that edition's admitted table at lengths
+$24$--$28$. Section~\ref{s:update} gives the current comparison.
 This is a comparison with a dated, explicit corpus, not an assertion of
 exhaustive global priority.
 
@@ -221,7 +235,7 @@ preserved local computations and their limits are stated throughout.
 
 \section{Current certificate addendum and its closure}\label{s:update}
 
-This addendum is dated 9 October 2026. It imports the admitted inputs of
+The additional certificates were recorded on 9 October 2026. It imports the admitted inputs of
 the published edition and adds pointwise certificates from the complete
 atlas and from subsequent targeted searches. The latter searches are not
 claimed to enumerate a new interval exhaustively. The finite comparison
@@ -475,7 +489,7 @@ $k$ & new strict bound & prior comparator & comparator source \\
 21 & $39\,999\,998\,541$ & $26\,783\,744\,079$ & BCT from two colours \\
 \bottomrule
 \end{tabular}
-\caption{The five improvements over prior comparators identified through
+\caption{Historical comparison retained from the published edition. The five improvements over prior comparators identified through
 26 September 2026. Every numerical entry $B$ uses the strict convention
 $W(3,k)>B$. $^{*}$The published Landman--Robertson statement is included
 for a conservative comparison; its proof was not verified in our review.
@@ -505,8 +519,10 @@ For example, the published input $W(2,22)>2\,582\,037\,634$ gives
 \[
  W(3,22)>19\times2\,582\,037\,634=49\,058\,715\,046,
 \]
-which exceeds our direct value $41\,999\,998\,468$. This is the first length
-at which the new direct row loses to a recurrence consequence in the table.
+which exceeds the direct value $41\,999\,998\,468$ retained from the
+published edition. In that comparison, length $22$ is the first at which
+a direct row loses to a recurrence consequence. The current frontier is
+length $24$, as Table~\ref{tab:updated-closed} shows.
 
 We use Xu's concatenation in its \emph{exact-witness} form
 \cite{xu2013,Monroe2026}. Let $k\ge3$, $s\ge2$, $t\ge1$, and suppose an
@@ -578,8 +594,9 @@ For $q=3$, its specializations at $p=19$ and $p=23$ give respectively
  W(3,20)>22\,082\,967\,854,
  \qquad W(3,24)>2\,165\,293\,112\,998.
 \]
-The latter would dominate the admitted comparison through $k=28$ by length
-monotonicity. Berlekamp's primary construction proves the general factor
+In the comparison retained from the published edition, the latter would
+dominate through $k=28$ by length monotonicity. The updated admitted values
+exceed it at $27$ and $28$ (Section~\ref{s:update}). Berlekamp's primary construction proves the general factor
 $1/(q-1)$, with its stronger extension confined to $q=2$, and Johannson's
 detailed reconstruction reports that the proposed general adaptation could
 not be confirmed~\cite[pp.~88--90]{Johannson2007}.
@@ -606,7 +623,7 @@ $k$ & best admitted consequence & published unresolved statement \\
 28 & $2\,159\,051\,058\,266$ & $2\,165\,293\,112\,998$ \\
 \bottomrule
 \end{tabular}
-\caption{Two distinct comparison levels. The middle column uses the checked
+\caption{Historical comparison retained from the published edition; the current comparison is in Section~\ref{s:update}. The middle column uses the checked
 seed registry, including this work. The last column records the numerical
 consequences of the stronger published Landman--Robertson statement and
 length monotonicity; these are not certified by this paper.}
@@ -647,7 +664,7 @@ $k$ & direct $p$ & direct bound & winning admitted bound & method \\
 28 & -- & -- & $2\,159\,051\,058\,266$ & BCT, $q=23$ (archived input) \\
 \bottomrule
 \end{tabular}
-\caption{Direct three-colour Rabung certificates and the winning lower bounds
+\caption{Historical comparison retained from the published edition; Section~\ref{s:update} gives the extended comparison. Direct three-colour Rabung certificates and the winning lower bounds
 obtained after closing the audited, admitted baselines under length monotonicity and the published
 Blankenship--Cummings--Taranchuk and Xu recurrences.  A dash means that the
 GPU campaign made no direct three-colour claim for that length.  For
@@ -662,8 +679,8 @@ Table~\ref{tab:unresolved}; this is not an unqualified table of best published b
 
 
 %
-\begin{corollary}[Recurrence-closed consequences]\label{cor:closed-bounds}
-Within the frozen seed set and finite scope just specified, closing under the
+\begin{corollary}[Historical recurrence-closed consequences]\label{cor:closed-bounds}
+Within the published edition's frozen seed set and finite scope, closing under the
 length-monotonicity, Blankenship--Cummings--Taranchuk and Xu operations gives
 the winning strict bounds in Table~\ref{tab:r3}. In particular, the certified
 direct rows win for $17\le k\le21$, while for $22\le k\le25$ they are dominated
@@ -671,7 +688,8 @@ by the displayed admitted consequences.
 \end{corollary}
 
 
-Thus the certified rows for $17\le k\le21$ give the strongest bounds located
+In the comparison retained from the published edition, the certified rows
+for $17\le k\le21$ give the strongest bounds located
 in the registered, recurrence-closed source corpus. For $22\le k\le25$ the
 direct rows improve the direct Rabung family but do not win the admitted
 comparison. BCT consequences of published two-colour values win at $k=22,23$;
@@ -702,7 +720,7 @@ $k$ & prime $p$ & $W(2,k)>$ & method and provenance \\
 28 & $3\,476\,732\,783$ & $93\,871\,785\,142$ & phase-2 table; accepted manifest and no-Montgomery witness \\
 \bottomrule
 \end{tabular}
-\caption{Two-colour succinct Rabung certificates used as recurrence inputs.
+\caption{Historical inputs retained from the published edition. Two-colour succinct Rabung certificates used as recurrence inputs.
 The method column separates dated phase-2 attribution from the separate-source
 recheck recorded in the accepted final manifests.}
 \label{tab:r2}
@@ -1241,20 +1259,22 @@ GPU scanner, not independently administered replication.
 
 \section{Data, code, and reproducibility}\label{s:data}
 
-The original reproducibility package contains the manuscript sources,
-certificate registries, verification programs, archived execution evidence and
-table generators of v1.0.0. That complete package remains in the original
-Zenodo deposit~\cite{publishededition}. This revised draft and its separate
-addendum are supplied in the atlas repository; they have not replaced that
-deposit. The original package was separated from the earlier development
-repository under an explicit file allowlist. The source-import ledger preserves the original
-commit identities and byte-level provenance. Reproduction instructions are
-provided in its \texttt{REPRODUCIBILITY.md}; the following three levels
-describe that original artifact. The current addendum is documented in
-\path{reproducibility/bounds_update/README.md}; its source-import ledger
+The accompanying article archive contains the current manuscript,
+pointwise CPU records and separate recurrence graph. The original v1.0.0
+reproducibility package remains at its Zenodo deposit~\cite{publishededition}
+and is bundled unchanged under
+\path{historical-publication/vdw_rabung_publication_package_v1.zip}.
+It contains the original certificate registries, execution evidence,
+campaign and empirical analyses, and their component licence texts.
+After extracting that historical package separately, its original paths
+and commands are described by \texttt{REPRODUCIBILITY.md}; the following
+three levels concern that preserved artifact.
+
+The current certificates and closure are documented in
+\path{reproducibility/bounds_update/README.md}. Their source-import ledger
 binds nine selected published inputs to their Git identities. The bounded
-verifier regenerates the two current tables and provenance graph, keeping
-the original claims separate.
+verifier regenerates the current tables and provenance graph while keeping
+the original thirteen claims separate.
 
 \paragraph{Individual triples.}
 The registry \texttt{audit/claims.json} contains exactly thirteen succinct
@@ -1895,33 +1915,20 @@ surviving project records.
 \section*{Declaration on artificial-intelligence assistance}\label{s:ai}
 \addcontentsline{toc}{section}{Declaration on artificial-intelligence assistance}
 
-The research was organized by the author with substantial assistance from
-artificial-intelligence systems---Anthropic's Claude (models
-\texttt{claude-fable-5} and \texttt{claude-opus-4-8}) and OpenAI Codex in
-ChatGPT Work, including GPT-6 Astra for the final revision---used to explore and design the computational method, plan and
-analyse the campaign, draft and revise the manuscript, examine the literature
-and provenance, and carry out separate counter-audits.  Under the author's
-direction, these systems created or substantially developed all original
-computational code for the project: the GPU scanner, campaign drivers,
-reference implementations and CPU verifiers, statistical- and audit-analysis
-programs, recovery and operator tooling, tests, and reproducibility and release
-tooling.
+Artificial-intelligence systems assisted with method and proof development,
+computational code, campaign planning and analysis, literature and source
+checking, and drafting and revision. The work used Anthropic's Claude and
+OpenAI Codex in ChatGPT Work, including GPT-6 Astra. Under the author's
+direction, these systems created or substantially developed the project's
+original computational code. Pre-existing code consulted from Daniel
+Monroe's project is attributed to its source and is not claimed as original
+work or redistributed here.
 
-The sole exception among computation code used or consulted during the project
-is pre-existing code recovered from Daniel Monroe's project.  It is treated as
-an attributed upstream source, its provenance is tracked, and it is not
-redistributed in this repository; no claim of authorship is made for it.
-
-These procedures constitute neither an independent scientific validation nor
-a human certification of the computations.  No independently administered
-external replication has been performed.  The local rechecks use separately
-written source code and distinct arithmetic paths but remain author-controlled
-and are not independent replications.  The author conceived the project, set
-its scope and claims, provided and operated the hardware, and alone assumes
-responsibility
-for the manuscript, the code and data attributed to this project, the
-references, the conclusions, and their possible errors and limitations.
-
+The separately written checkers and arithmetic paths remain
+author-controlled; they do not constitute independently administered
+external replication. Brice Pouly conceived the project, set its scope and
+claims, provided and operated the hardware, and assumes responsibility for
+the manuscript, code, data, references and conclusions.
 
 \begingroup\small
 \setlength{\bibsep}{3pt}

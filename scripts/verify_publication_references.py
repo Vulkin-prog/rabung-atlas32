@@ -36,7 +36,7 @@ def main():
     checked = 0
     for m in manuscripts.values():
         source = (ROOT / m["source"]).read_text()
-        require(m["draft_version"] in source, "Draft version differs: " + m["id"])
+        require(m.get("edition_version", m.get("draft_version")) in source, "Edition version differs: " + m["id"])
         # TeX comments can retain editorial instructions; they are not printed references.
         printed = re.sub(r"(?<!\\)%[^\n]*", "", source)
         marker = r"\\bibitem(?:\[[\s\S]*?\])?\{([^}]+)\}"

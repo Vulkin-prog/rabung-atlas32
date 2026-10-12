@@ -9,7 +9,7 @@
 \hypersetup{pdftitle={Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations},pdfauthor={Brice Pouly}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Cubic-residue quadruplets}
-\fancyhead[R]{\small Research manuscript v1.4}
+\fancyhead[R]{}
 \fancyfoot[C]{\thepage}\renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -29,37 +29,47 @@
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \title{Cubic-residue quadruplets:\\
 elliptic formulas and arithmetic fluctuations}
-\author{Brice Pouly\thanks{Prepared with AI assistance for proof development, computation, literature retrieval, and English writing. This is a research manuscript; repository deposit is not peer review.}}
-\date{9 October 2026 \quad Research manuscript v1.4}
+\author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance; see the declaration at the end.}}
+\date{12 October 2026}
+\hypersetup{pdfsubject={Publication edition v1.0; 12 October 2026}}
 \begin{document}
 \maketitle
 \begin{abstract}
-For a nontrivial cubic character modulo a prime, we study the number of
-monochromatic four-windows on the nonzero residues. We assemble
-four-position identities following from Greene's hypergeometric
-formalism and Lennon's trace formula into an exact consecutive count,
-including its finite boundary corrections. The resulting formula uses
-three fixed elliptic curves and a Jacobi sum, or equivalently six fixed
-elliptic curves. An independent geometric proof makes the cubic phase
-and the points at infinity explicit; its genus-two family and elliptic
-factors occur in earlier work of Freeman--Satoh and Guillevic--Vergnaud.
-The complex-multiplication traces are related cubic twists. Using
-symmetric-power automorphy, cyclic base change, and a finite list of
-Rankin--Selberg prime number theorems, we obtain the first four
-moments over primes. For $(27A_p-p)/\sqrt p$, they are
-$(0,44,0,4224)$ when three is a cube, $(0,17,0,738)$ otherwise, and
-$(0,26,0,1900)$ over all admissible primes. The arguments use no
-GRH. Point-order and Hasse certificates support exact numerical
-examples without constructing billion-letter character words.
-The results concern a fixed pattern length. They do not prove a
-complete limiting law, a constant-order centring of the raw count,
-or a law for maxima at logarithmic length.
+Let $A_p$ count the monochromatic consecutive four-windows of a nontrivial
+cubic character modulo a prime $p\equiv1\pmod3$, with zero excluded and
+overlapping windows counted separately. We give an exact formula for
+$A_p$ in terms of fixed elliptic traces and a finite boundary correction.
+Its complex-multiplication terms are related cubic twists. This produces
+two arithmetic fluctuation regimes: the first four moments of
+$(27A_p-p)/\sqrt p$ tend to $(0,44,0,4224)$ when three is a cube and
+to $(0,17,0,738)$ otherwise. Over all admissible primes they tend to
+$(0,26,0,1900)$. The proof combines a four-position identity following
+from Greene's hypergeometric formalism and Lennon's trace formula with
+symmetric-power automorphy, cyclic base change and a finite collection of
+Rankin--Selberg prime number theorems; it uses no GRH. A direct geometric
+proof exposes the phases and exceptional points, with the genus-two and
+isogeny constructions of Freeman--Satoh and Guillevic--Vergnaud explicitly
+credited. Point-order and Hasse certificates verify numerical examples
+without enumerating their billion-position character words. The
+conclusions concern fixed pattern length and four moments; no complete
+limiting distribution, constant-order centring of the raw count, or law
+for logarithmic-length maxima is proved.
 \end{abstract}
 \noindent\textbf{Keywords.} Cubic characters; Jacobi sums; elliptic
 curves; isogenies; complex multiplication; moments over primes;
 Rankin--Selberg functions; exact certificates.
 
 \section{The observable and the two main results}
+The number $A_p$ of monochromatic cubic four-windows has leading scale
+$p/27$, but its fluctuations depend on a small arithmetic condition.
+After normalization by $\sqrt p$, the limiting variance is $44$ when
+three is a cube modulo $p$, and $17$ otherwise. The cause is not a change
+in the number of colours: two complex-multiplication traces in the exact
+count are related twists, and their relation depends on the cubic class
+of three. We count all overlapping consecutive windows of length four
+on the ordinary positions $1,\ldots,p-1$. This observable differs from
+maximal-run starts and from a quadratic four-window count.
+
 Questions about consecutive power residues and prescribed character
 patterns have a long history, including Lehmer--Lehmer~\cite{lehmer},
 the computational theorem on cubic triples of
@@ -191,6 +201,26 @@ For $r=1,2,3,4$, the limits of the averages of $D_p^r$ are
 \]
 The same statements hold with $Y_p$ in place of $D_p$.
 \end{theorem}
+The constants can be read from the trace combination before the analytic
+proof. Write $x_i=t_i/\sqrt p$ and $v_j=c_j/\sqrt p$. Equations
+\eqref{eq:exact} and \eqref{eq:twistrelations} give
+\[
+ D_p=\begin{cases}
+ -4v_0-2x_1-2x_2-2x_3,&\chi(3)=1,\\
+ 2v_2-2x_1-2x_2+x_3,&\chi(3)\ne1.
+ \end{cases}
+\]
+The low-degree averaging rule proved below assigns second moment $2$ to
+the CM coordinate and $1$ to each non-CM coordinate, with vanishing mixed
+terms in the required range. Thus
+\[
+ 44=4^2\cdot2+2^2+2^2+2^2,\qquad
+ 17=2^2\cdot2+2^2+2^2+1.
+\]
+Proving this averaging rule under the finite cubic conditioning is the
+analytic task. It provides the needed mixed moments through total degree
+four and does not posit an independent joint law in every degree.
+
 The analytic proof in Sections~\ref{sec:qualification}--\ref{sec:moments}
 uses fixed automorphic objects. It establishes the mixed moments
 needed up to total degree four, without postulating complete joint
@@ -1102,14 +1132,21 @@ The global maximum problem remains
 separate from the theorems here.
 
 \subsection{Manuscript status}
-The arguments use the stated base-change, cuspidality, pole-exclusion,
-and prime-number hypotheses. The finite reproductions do not formally
-verify these analytic input theorems. Specialist human checking remains
-an editorial task before submission, not a mathematical hypothesis or
-a GRH assumption. Manuscripts and certificates are versioned in the
-repository; a publicly accessible immutable archive remains to be
-established before claiming public dissemination. AI assistance does
-not replace author responsibility for the proof.
+The analytic inputs are the cited literature theorems. Their required
+cuspidality, base-change and twist-exclusion conditions are verified for
+the fixed representations used here. Finite programs check the arithmetic
+identities and the routing of the low-degree calculations, rather than
+the external analytic theorems themselves. Specialist review is a
+validation task, not an additional mathematical hypothesis or a GRH
+assumption.
+
+Artificial-intelligence tools assisted with proof development, computation,
+literature retrieval, and English writing and revision. Brice Pouly is the
+human author and assumes responsibility for the proof, programs, data,
+references and conclusions. Author-controlled checks do not constitute
+independent external replication or peer review. The accompanying article
+archive contains its numerical certificates and bounded reproduction
+commands.
 
 \appendix
 \section{The signed support-four sector of a longer start count}

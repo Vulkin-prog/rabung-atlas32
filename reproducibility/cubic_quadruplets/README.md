@@ -1,6 +1,6 @@
 # Cubic quadruplets: curated certificates
 
-The [companion manuscript](../../paper/CUBIC_QUADRUPLETS_EN.tex) gives the
+The [article](../../paper/CUBIC_QUADRUPLETS_EN.tex) gives the
 four-position elliptic reduction, exact consecutive count and four prime-averaged
 moments. These directories retain the scientific inputs, algorithms and
 finite results from the two selected elliptic research archives. Archive

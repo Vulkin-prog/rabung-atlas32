@@ -93,3 +93,16 @@ L'option `--catalogue` appartient au périmètre de l'atlas. Les deux commandes
 de certificats indiquées dans le papier cubique fonctionnent directement sur
 son propre paquet. Le manifeste de fichiers livré avec chaque publication
 devra lui aussi être limité au paquet effectivement livré.
+
+## Éditions préparées le 12 octobre 2026
+
+Les fichiers destinés au dépôt sont désormais les certificats v2.0, puis la
+méthode GPU, l'atlas et les quadruplets cubiques v1.0. Les marqueurs de travail
+sont retirés des couvertures ; les versions restent dans les métadonnées.
+Aucune de ces nouvelles éditions n'est enregistrée comme publiée sans son
+dépôt effectif. Les références actuelles à v1.0.0 sont donc conservées.
+
+Les quatre archives sont produites par `scripts/build_publication_archives.py`.
+Chaque archive possède son README, les pièces de son article, un manifeste et
+ses commandes de contrôle. Le jeu de données complet de l'atlas demeure un
+composant séparé ; son accès doit accompagner une diffusion publique de l'atlas.

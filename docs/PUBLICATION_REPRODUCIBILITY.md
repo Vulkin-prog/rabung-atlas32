@@ -4,9 +4,10 @@ The existing draft PR is [#1](https://github.com/Vulkin-prog/rabung-atlas32/pull
 The reviewed editorial baseline is commit
 `59a9f9c501ab6781996222470049940ddef2e691`; the sealed-census manuscript
 baseline is `452907920dc623d4d1e6ae7675428fe02ed840c4`.
-The current four-paper revision is dated 9 October 2026: certificates v1.2,
-GPU methods v0.4, atlas v1.6 and cubic companion v1.4. The published certificates
-edition v1.0.0 remains at DOI 10.5281/zenodo.22980965 and is not overwritten.
+The four publication editions prepared on 12 October 2026 are certificates
+v2.0 and GPU methods, atlas and cubic quadruplets v1.0. The previously published
+certificates v1.0.0 remains at DOI 10.5281/zenodo.22980965. The new files do not
+overwrite that historical deposit. Prepared does not mean published.
 The source-policy correction follows commit
 `94d586095c1b12edf185c31f20f6f7c72c786c4a` (atlas v1.3 / companion v1.1).
 Private reviews and internal working notes are excluded from the manuscript
@@ -19,8 +20,9 @@ from planned insertions. `scripts/verify_publication_references.py` checks the
 actual series references and exact edition locators. Its offline check does
 not establish public availability or publish anything. See
 [the per-stage plan](SUCCESSIVE_PUBLICATION_PLAN_FR.md).
-The current compilation, bibliography and scoped reproduction checks are in
-`SUCCESSIVE_PUBLICATION_VALIDATION.json`. `FOUR_ARTICLE_VALIDATION.json` retains
+The 12 October compilation, bibliography and scoped reproduction checks are in
+`PUBLICATION_EDITION_VALIDATION_2026-10-12.json`.
+`SUCCESSIVE_PUBLICATION_VALIDATION.json` records the preceding revision. `FOUR_ARTICLE_VALIDATION.json` retains
 the scientific checks performed on the preceding four-article revision.
 
 For a checked-out revision, record `git rev-parse HEAD` and use that full SHA
@@ -61,3 +63,19 @@ human review remain publication tasks. No public availability or first public
 disclosure date is inferred from a private commit, an internal note date, or a
 hash. This revision does not change visibility, publish an archive, or submit
 any paper to a journal. Supplied external review PDFs are not redistributed.
+
+## One archive per article
+
+`scripts/build_publication_archives.py --verify` creates four separate ZIPs
+and runs their stated bounded commands in freshly extracted directories.
+Each ZIP includes exactly one current paper, its LaTeX source, inline-math
+abstract, component rights notices, a README and file hashes. The certificates
+ZIP also includes a short version note. Use `--legacy-archive` to include the
+unchanged complete v1 deposit, as in the final user-delivered archive.
+
+The cubic archive contains no atlas or GPU data. The methods archive retains
+its selected source and timing packet. The atlas archive includes its exact
+certificates, the complete million-profile supplement and collector sources;
+the 4.85 GB full atlas is a separate release asset set. Its manifest and
+downloader are included and their access requirements are stated explicitly.
+No new licence is imposed by packaging. Internal reviews are not included.

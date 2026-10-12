@@ -11,7 +11,7 @@
 \hypersetup{pdftitle={Certified rational-anchor filtering for exact GPU scans of power-residue runs},pdfauthor={Brice Pouly}}
 \pagestyle{fancy}\fancyhf{}
 \fancyhead[L]{\small Exact GPU scans of power-residue runs}
-\fancyhead[R]{\small Draft v0.4}\fancyfoot[C]{\thepage}
+\fancyhead[R]{}\fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.3pt}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{proposition}[theorem]{Proposition}
@@ -24,33 +24,28 @@
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 \title{Certified rational-anchor filtering\\
 for exact GPU scans of power-residue runs}
-\author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance. The declaration at the end specifies its role and the remaining review requirements.}}
-\date{9 October 2026 \quad Research manuscript v0.4}
+\author{Brice Pouly\thanks{Prepared with artificial-intelligence assistance; see the declaration at the end.}}
+\date{12 October 2026}
+\hypersetup{pdfsubject={Publication edition v1.0; 12 October 2026}}
 \begin{document}\maketitle
 \begin{abstract}
-Power-residue colourings provide succinct inputs to Rabung constructions,
-but obtaining their exact longest monochromatic runs by evaluating a
-multiplicative character at every position is expensive. We describe a CUDA
-scanner that uses a short character table, certified rational covers,
-bit-parallel anchor filters and exact bilateral completion. An integer
-coverage condition derived from Minkowski's theorem ensures that a long run
-cannot disappear from the candidate set; conservative rejection rules also
-preserve ties needed for a canonical witness. We compose the coverage, selection and completion invariants into a
-conditional exactness theorem, specify the implemented fallback for anchor
-lengths and the independent oracle arithmetic, explain profile sharing and bounded concurrent execution, and
-describe the separate arithmetic requirements for primes below $2^{32}$ and
-$2^{33}$. On one RTX 5090, comparisons with the engine of the earlier bounds
-paper give ratios of sums of hot per-prime medians of $24.00$ and $10.95$ on
-two reserved 32-bit cohorts. A subsequent experiment, using an already
-optimized reference and a different batch protocol, gives throughput factors
-between $1.23$ and $2.58$ on six fresh windows of 1024 primes. These factors
-are reported separately. Final engines agree with the reference on 6144
-fresh primes and 20\,512 admissible profiles, with additional full-scan
-oracles using different arithmetic. Short-table multiplicative extraction and reversal have prior algorithmic
-uses in cryptanalysis. Our contribution is their organization under an exact
-maximum-and-witness contract and its measured CUDA implementation: the coverage has square-root-sized
-parameters, but its word enumeration remains linear-scale, and no general
-$O(\sqrt p)$ algorithm for the longest run is claimed.
+We study exact longest monochromatic runs of power-residue colourings,
+including neutral prefixes and least canonical witnesses. A certified
+rational cover represents every relevant interval inside a short signed
+character table. A reflection-compatible schedule retains an anchor;
+conservative filters reject only known contradictions, bilateral completion
+recovers the full run, and tie-preserving reduction selects its least
+witness. We prove this exact-success contract and describe its CUDA
+realization with separate arithmetic domains below $2^{32}$ and $2^{33}$.
+On one RTX 5090, two reserved cohorts give ratios $24.00$ and $10.95$ of
+sums of hot per-prime medians against the identified historical dense
+engine. A separate batch study gives throughput factors $1.23$--$2.58$
+against an already optimized reference. The experiments have different
+timing boundaries and their factors are reported separately. Short-table
+multiplicative extraction has close algorithmic antecedents in cryptanalysis;
+our contribution is its certified organization for exhaustive maxima and
+witnesses and its measured implementation. Square-root-sized cover
+parameters do not give a general $O(\sqrt p)$ running-time bound.
 \end{abstract}
 \noindent\textbf{Keywords.} Multiplicative characters; monochromatic runs;
 Rabung construction; rational approximation; CUDA; reproducible computation.
@@ -97,7 +92,7 @@ is essential to assessing the scale of the improvement.
 
 Minkowski's theorem, multiplicativity, Montgomery reduction and CUDA streams
 are established tools. Our claims concern their explicit assembly for this
-finite scanning problem and the archived measurements. This draft does not
+finite scanning problem and the archived measurements. The article does not
 claim priority for rational approximation or for any general-purpose GPU
 technique. The related work below identifies close algorithmic precedents. We make no
 claim that the primitives or their use for extracting sequences were invented
@@ -1071,15 +1066,15 @@ identified by commit
 \end{center}
 The selected source ledger is pinned at
 \href{https://github.com/Vulkin-prog/vdw-gpu-starter/tree/f00cdcb95f12d7578bdb37a87db97ff233c86a22}{\nolinkurl{f00cdcb95f12d7578bdb37a87db97ff233c86a22}}.
-The present draft includes the small worked example, counts in-table
-completion work and clarifies launch sizes. Measured source/data snapshots remain
-byte-identical. The current article and its selected reproduction files
-are versioned with the atlas repository.
+The article includes a small worked example and separates in-table
+completion work from character evaluations. Measured source and data
+snapshots retain their original identities. The accompanying article
+archive contains the selected reproduction files and their source map.
 \path{reproducibility/gpu_method/SOURCE_MAP.json} links engine versions, hashes,
-qualification records and source functions. The repository is currently
-private; this immutable identifier does not make it accessible to every
-reader or establish a public release date. An accessible archival release
-remains a dissemination requirement.
+qualification records and source functions. The source map distinguishes files included in the accompanying archive
+from additional upstream material. Upstream commit identifiers establish
+versions; they do not by themselves establish public accessibility or a
+release date.
 
 The preceding repository packet separates the editorial source \texttt{paper-gpu/}
 from imported scientific evidence under \data.
@@ -1099,15 +1094,13 @@ because of compilation paths or toolchain details; the archive records
 functional reconstruction checks. A source hash identifies bytes and
 cannot establish bitwise binary reproducibility on another machine.
 
-\paragraph{Current draft checks.}
+\paragraph{Offline checks.}
 The original packet's offline checker validates all 272 import hashes.
 The selected reproduction package in the atlas repository checks its own
 source imports and explicit publication copies, cohort sizes, admissible profile counts, repeated-time
 statistics and every printed benchmark cell. It makes
 no CUDA call. The LaTeX source is standalone, with inline bibliography and
-vector drawing. This editorial preparation performs no new GPU experiment
-and does not modify the active campaign, scientific sources or frozen
-protocols. From a checkout of the atlas repository, run
+vector drawing. From the root of the accompanying article archive, run
 \begin{quote}\small\ttfamily
 python3 -B scripts/verify\_gpu\_method.py
 \end{quote}
@@ -1173,17 +1166,21 @@ the complete maximum.
 
 \paragraph{Declaration of assistance and status.}
 Artificial-intelligence tools assisted with implementation, analysis,
-drafting and source checking. Brice Pouly is the named human author.
-The CPU exposition checks in this revision are not CUDA qualifications.
-Human specialist review,
-an accessible archival release and unresolved historical-source access
-remain open. No submission or publication is made by preparing this draft.
+literature and source checking, and writing and revision. Brice Pouly is
+the human author and assumes responsibility for the code, data, references
+and conclusions. Author-controlled CPU and GPU checks do not constitute
+independently administered external replication or peer review. The
+source-access limits of the historical comparisons are stated above.
 
 \clearpage
 \appendix
 \section{Reader's map of the evidence}\label{app:evidence}
-All paths in this table are relative to \data. Original paths and exact
-hashes are recorded in its \texttt{PROVENANCE.json}.
+This table maps the full upstream packet: paths start at
+\path{results/gpu-algorithms/2026-10-02/}, whose \texttt{PROVENANCE.json} records their identities.
+The accompanying article archive retains the selected measurements and
+source bridges under \path{reproducibility/gpu_method/}; its
+\path{SOURCE_MAP.json} and \path{README.md} identify those accessible
+files and distinguish the additional upstream qualification records.
 
 \footnotesize
 \noindent\begin{tabular}{P{0.30\textwidth}P{0.64\textwidth}}
