@@ -3,7 +3,7 @@
   "date": "2026-10-12",
   "baseline_commit": "4700f6673d468c4767846b9e433d740f640d35cb",
   "operation": "four_article_publication_edition_revision",
-  "status": "MANUSCRIPTS_PASS_ARCHIVE_REPLAY_PENDING",
+  "status": "PASS",
   "manuscripts": [
     {
       "source": "paper/RABUNG_BOUNDS_EN.tex",
@@ -91,6 +91,50 @@
     "cubic elliptic and moment verifiers, including 1242 direct small curve counts",
     "independent scalar checks supplied with the audit"
   ],
-  "archive_replay": "CI then final user-delivered packages; no automatic publication",
-  "scientific_protected_files": "Only manuscripts, editorial docs, version metadata and archive tooling are edited; source and data commitments are retained."
+  "archive_replay": "All four autonomous CI packages replayed after fresh extraction; user packages additionally retain the committed PDFs and unchanged original v1 deposit in the certificates ZIP.",
+  "scientific_protected_files": "Only manuscripts, editorial docs, version metadata and archive tooling are edited; source and data commitments are retained.",
+  "ci": {
+    "edition_commit": "100f60c6b46f5f431a1e5f852b8c89292bef65a6",
+    "pull_request_run": 38271908223,
+    "push_run": 38271902061,
+    "exact_checks": "success",
+    "manuscripts_and_archives": "success",
+    "includes_scoped_archive_commands": true
+  },
+  "unchanged_existing_files_checked_locally": 2043,
+  "unexpected_protected_file_changes": [],
+  "final_archive_components": [
+    {
+      "archive": "cubic_quadruplets_v1_publication.zip",
+      "bytes": 685667,
+      "sha256": "0be5a46963158dbb5300dab6dabde14d3f0a6cf73e2bb48dbd59821c889a94d8",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": false,
+      "full_atlas_assets_external": false
+    },
+    {
+      "archive": "rabung_atlas_v1_publication.zip",
+      "bytes": 55456135,
+      "sha256": "3f30370080e57860b502d1bffe336ca5a5412539a574b014f2fe284483c7dba0",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": false,
+      "full_atlas_assets_external": true
+    },
+    {
+      "archive": "rabung_certificates_v2_publication.zip",
+      "bytes": 23158139,
+      "sha256": "e8f73e8610a67f9af5e05260da54aa62499cb15247b9686bc58453714c67cca2",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": true,
+      "full_atlas_assets_external": false
+    },
+    {
+      "archive": "rabung_gpu_method_v1_publication.zip",
+      "bytes": 1059096,
+      "sha256": "7ede8ed35a735ff4a0283d437e5134ea1e598401d78b1ce11c50da622b312b2d",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": false,
+      "full_atlas_assets_external": false
+    }
+  ]
 }
