@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-13",
+  "published_reference": {
+    "doi": "10.5281/zenodo.23337824",
+    "version": "v2.0",
+    "record": "https://zenodo.org/records/23337824"
+  },
+  "compiled_source_commit": "6fc5338d767328f051ec3387901c2bafc9bf8829",
+  "completed_ci": {
+    "url": "https://github.com/Vulkin-prog/rabung-atlas32/actions/runs/38380689706",
+    "status": "success",
+    "jobs": [
+      "exact-checks",
+      "manuscripts"
+    ]
+  },
+  "bibliography_check": {
+    "status": "PASS",
+    "manuscripts": 4,
+    "existing_public_editions": 2,
+    "series_references_checked": 6,
+    "forward_references": 0
+  },
+  "pdfs": [
+    {
+      "path": "paper/GPU_METHOD_EN.pdf",
+      "pages": 21,
+      "sha256": "63d00e66f61df2ac8ab8d00c583ce9b18d5f5bb62634ac56db408b9db1eaa963",
+      "published_version_doi_link_verified": true
+    },
+    {
+      "path": "paper/PAPER_EN.pdf",
+      "pages": 30,
+      "sha256": "8b105e40134cfa40411dbcb71bdbffb9980ccaa48cdfc0635a36423027347c72",
+      "published_version_doi_link_verified": true
+    },
+    {
+      "path": "paper/CUBIC_QUADRUPLETS_EN.pdf",
+      "pages": 16,
+      "sha256": "b778007ac3cb5f8a15a1531038f193e3468f74eb1c91f23e0b0e727484b08caf",
+      "published_version_doi_link_verified": true
+    }
+  ],
+  "visual_review": {
+    "pages_rendered": 67,
+    "all_pages_reviewed_in_contact_sheets": true,
+    "bibliography_pages_reviewed_at_144_dpi": true,
+    "visible_layout_defects": 0
+  },
+  "preserved_publication": {
+    "pdf_md5": "79a88d52105acbca5ed9abbc880772f4",
+    "archive_md5": "7ab523f058579baf7a87256ba1d6051a"
+  },
+  "scope": "Publication citations, registry, README, compiled PDFs and archive access notice. The scientific datasets, algorithms and published certificates deposit are preserved."
+}
