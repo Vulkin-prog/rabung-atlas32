@@ -22,6 +22,8 @@ Its [first edition, v1.0.0](https://doi.org/10.5281/zenodo.22980965), remains
 available for the original evidence and historical comparisons. The GPU
 method paper is published as
 [v1.0, DOI 10.5281/zenodo.23338707](https://doi.org/10.5281/zenodo.23338707).
+The atlas paper is published as
+[v1.0, DOI 10.5281/zenodo.23339668](https://doi.org/10.5281/zenodo.23339668).
 
 ## GPU hardware
 

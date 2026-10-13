@@ -36,6 +36,18 @@
       "url": "https://doi.org/10.5281/zenodo.23338707",
       "publication_date": "2026-10-13",
       "record_url": "https://zenodo.org/records/23338707"
+    },
+    {
+      "id": "atlas_v1_0",
+      "paper": "atlas",
+      "title": "Arithmetic structure in a complete atlas of power-residue runs below \\(2^{32}\\) : Rabung profiles, Kummer densities, norm dependencies, and local codes",
+      "version": "v1.0",
+      "status": "published",
+      "release_order": 3,
+      "doi": "10.5281/zenodo.23339668",
+      "url": "https://doi.org/10.5281/zenodo.23339668",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23339668"
     }
   ],
   "manuscripts": [
@@ -91,7 +103,7 @@
         }
       ],
       "edition_version": "v1.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     },
     {
       "id": "cubic",
@@ -102,19 +114,17 @@
         {
           "key": "bounds",
           "publication": "certificates_v2_0"
+        },
+        {
+          "key": "atlas",
+          "publication": "atlas_v1_0"
         }
       ],
       "edition_version": "v1.0",
       "status": "prepared_for_publication"
     }
   ],
-  "planned_insertions_after_publication": [
-    {
-      "in": "cubic",
-      "after": "atlas",
-      "role": "Motivation and distinction between finite census diagnostics and prime-averaged fixed-length moments."
-    }
-  ],
+  "planned_insertions_after_publication": [],
   "completed_insertions_after_publication": [
     {
       "in": "gpu",
@@ -142,6 +152,13 @@
       "after": "gpu",
       "role": "Coverage/exactness hypotheses of the scanner; distinguish controlled timings from census times.",
       "publication": "gpu_v1_0",
+      "completed_date": "2026-10-13"
+    },
+    {
+      "in": "cubic",
+      "after": "atlas",
+      "role": "Motivation and distinction between finite census diagnostics and prime-averaged fixed-length moments.",
+      "publication": "atlas_v1_0",
       "completed_date": "2026-10-13"
     }
   ]
