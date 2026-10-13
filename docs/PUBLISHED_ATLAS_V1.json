@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "paper": "atlas",
+  "title": "Arithmetic structure in a complete atlas of power-residue runs below \\(2^{32}\\) : Rabung profiles, Kummer densities, norm dependencies, and local codes",
+  "edition_version": "v1.0",
+  "status": "published",
+  "publication_date": "2026-10-13",
+  "doi": "10.5281/zenodo.23339668",
+  "url": "https://doi.org/10.5281/zenodo.23339668",
+  "record_url": "https://zenodo.org/records/23339668",
+  "concept_doi": "10.5281/zenodo.23339667",
+  "deposited_files": [
+    {
+      "name": "PAPER_EN.pdf",
+      "bytes": 540363,
+      "checksum": "md5:bbdf2af69d27d723ee167a594676da1e"
+    },
+    {
+      "name": "rabung_atlas_v1_publication.zip",
+      "bytes": 55457316,
+      "checksum": "md5:0b566ad83d5923a8f6e5066968f8ffb7"
+    }
+  ],
+  "verification": "The deposited PDF and ZIP MD5 digests match the previously delivered publication files.",
+  "source_repository_commit": "a609188626f5a41f698991472cf88397d3f9a30d",
+  "citation_policy": "Cite the atlas for the finite census, selected algebraic windows and sampled ternary diagnostics that motivate the arithmetic questions; distinguish this finite population from the fixed-length, prime-averaged cubic moments."
+}

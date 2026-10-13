@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-13",
+  "published_reference": {
+    "doi": "10.5281/zenodo.23339668",
+    "version": "v1.0",
+    "record": "https://zenodo.org/records/23339668",
+    "title": "Arithmetic structure in a complete atlas of power-residue runs below \\(2^{32}\\) : Rabung profiles, Kummer densities, norm dependencies, and local codes"
+  },
+  "compiled_source_commit": "4def39f073c759eec3bc2adcedc5fc1e528bf157",
+  "completed_ci": [
+    {
+      "id": 38389308979,
+      "url": "https://github.com/Vulkin-prog/rabung-atlas32/actions/runs/38389308979",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "4def39f073c759eec3bc2adcedc5fc1e528bf157"
+    },
+    {
+      "id": 38389316615,
+      "url": "https://github.com/Vulkin-prog/rabung-atlas32/actions/runs/38389316615",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "4def39f073c759eec3bc2adcedc5fc1e528bf157"
+    }
+  ],
+  "bibliography_check": {
+    "status": "PASS",
+    "manuscripts": 4,
+    "existing_public_editions": 4,
+    "series_references_checked": 8,
+    "forward_references": 0,
+    "remaining_planned_insertions": 0
+  },
+  "pdfs": [
+    {
+      "path": "paper/CUBIC_QUADRUPLETS_EN.pdf",
+      "pages": 16,
+      "bytes": 454796,
+      "sha256": "cf293418fcff15185863b444ded8b159f6b0560474cfceefbc3aa4d9ac7f90cf",
+      "published_atlas_doi_link_verified": true,
+      "abstract_unchanged": true
+    }
+  ],
+  "visual_review": {
+    "pages_rendered": 16,
+    "all_pages_reviewed_in_contact_sheets": true,
+    "changed_page_and_bibliography_reviewed_at_144_dpi": [
+      2,
+      16
+    ],
+    "visible_layout_defects": 0
+  },
+  "preserved_atlas_publication": {
+    "pdf_md5": "bbdf2af69d27d723ee167a594676da1e",
+    "archive_md5": "0b566ad83d5923a8f6e5066968f8ffb7",
+    "source_repository_commit": "a609188626f5a41f698991472cf88397d3f9a30d"
+  },
+  "preserved_earlier_publications": [
+    {
+      "path": "paper/RABUNG_BOUNDS_EN.pdf",
+      "md5": "79a88d52105acbca5ed9abbc880772f4",
+      "matches_deposit": true
+    },
+    {
+      "path": "paper/GPU_METHOD_EN.pdf",
+      "md5": "32d14e0d42083fa42ac95842647f9564",
+      "matches_deposit": true
+    },
+    {
+      "path": "paper/PAPER_EN.pdf",
+      "md5": "bbdf2af69d27d723ee167a594676da1e",
+      "matches_deposit": true
+    }
+  ],
+  "scope": "Published atlas DOI, cubic context and bibliography, registry, README, archive notices and refreshed cubic PDF. Scientific datasets, algorithms and results and the already-deposited publications are preserved."
+}

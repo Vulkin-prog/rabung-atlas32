@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "policy": "Series citations use existing public editions; later releases are added only after publication, with their actual version-specific locator.",
   "publications": [
     {
@@ -12,6 +12,54 @@
       "release_order": 0,
       "doi": "10.5281/zenodo.22980965",
       "url": "https://doi.org/10.5281/zenodo.22980965"
+    },
+    {
+      "id": "certificates_v2_0",
+      "paper": "certificates",
+      "title": "Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers",
+      "version": "v2.0",
+      "status": "published",
+      "release_order": 1,
+      "doi": "10.5281/zenodo.23337824",
+      "url": "https://doi.org/10.5281/zenodo.23337824",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23337824"
+    },
+    {
+      "id": "gpu_v1_0",
+      "paper": "gpu",
+      "title": "Certified rational-anchor filtering for exact GPU scans of power-residue runs",
+      "version": "v1.0",
+      "status": "published",
+      "release_order": 2,
+      "doi": "10.5281/zenodo.23338707",
+      "url": "https://doi.org/10.5281/zenodo.23338707",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23338707"
+    },
+    {
+      "id": "atlas_v1_0",
+      "paper": "atlas",
+      "title": "Arithmetic structure in a complete atlas of power-residue runs below \\(2^{32}\\) : Rabung profiles, Kummer densities, norm dependencies, and local codes",
+      "version": "v1.0",
+      "status": "published",
+      "release_order": 3,
+      "doi": "10.5281/zenodo.23339668",
+      "url": "https://doi.org/10.5281/zenodo.23339668",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23339668"
+    },
+    {
+      "id": "cubic_v1_0",
+      "paper": "cubic",
+      "title": "Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations",
+      "version": "v1.0",
+      "status": "published",
+      "release_order": 4,
+      "doi": "10.5281/zenodo.23340847",
+      "url": "https://doi.org/10.5281/zenodo.23340847",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23340847"
     }
   ],
   "manuscripts": [
@@ -27,7 +75,7 @@
         }
       ],
       "edition_version": "v2.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     },
     {
       "id": "gpu",
@@ -38,10 +86,14 @@
         {
           "key": "bounds",
           "publication": "certificates_v1_0"
+        },
+        {
+          "key": "boundsv2",
+          "publication": "certificates_v2_0"
         }
       ],
       "edition_version": "v1.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     },
     {
       "id": "atlas",
@@ -52,10 +104,18 @@
         {
           "key": "bounds",
           "publication": "certificates_v1_0"
+        },
+        {
+          "key": "boundsv2",
+          "publication": "certificates_v2_0"
+        },
+        {
+          "key": "gpumethod",
+          "publication": "gpu_v1_0"
         }
       ],
       "edition_version": "v1.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     },
     {
       "id": "cubic",
@@ -65,33 +125,53 @@
       "series_references": [
         {
           "key": "bounds",
-          "publication": "certificates_v1_0"
+          "publication": "certificates_v2_0"
+        },
+        {
+          "key": "atlas",
+          "publication": "atlas_v1_0"
         }
       ],
       "edition_version": "v1.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     }
   ],
-  "planned_insertions_after_publication": [
+  "planned_insertions_after_publication": [],
+  "completed_insertions_after_publication": [
     {
       "in": "gpu",
       "after": "certificates",
-      "role": "Updated certificate applications, if used; retain v1.0 citations for its original evidence."
+      "role": "Updated certificate applications, if used; retain v1.0 citations for its original evidence.",
+      "publication": "certificates_v2_0",
+      "completed_date": "2026-10-13"
     },
     {
       "in": "atlas",
       "after": "certificates",
-      "role": "The new pointwise bounds and recurrence comparisons; retain v1.0 for historical numerical comparisons."
+      "role": "The new pointwise bounds and recurrence comparisons; retain v1.0 for historical numerical comparisons.",
+      "publication": "certificates_v2_0",
+      "completed_date": "2026-10-13"
+    },
+    {
+      "in": "cubic",
+      "after": "certificates",
+      "role": "Published background on finite Rabung certificates and recurrence-closed bounds.",
+      "publication": "certificates_v2_0",
+      "completed_date": "2026-10-13"
     },
     {
       "in": "atlas",
       "after": "gpu",
-      "role": "Coverage/exactness hypotheses of the scanner; distinguish controlled timings from census times."
+      "role": "Coverage/exactness hypotheses of the scanner; distinguish controlled timings from census times.",
+      "publication": "gpu_v1_0",
+      "completed_date": "2026-10-13"
     },
     {
       "in": "cubic",
       "after": "atlas",
-      "role": "Motivation and distinction between finite census diagnostics and prime-averaged fixed-length moments."
+      "role": "Motivation and distinction between finite census diagnostics and prime-averaged fixed-length moments.",
+      "publication": "atlas_v1_0",
+      "completed_date": "2026-10-13"
     }
   ]
 }

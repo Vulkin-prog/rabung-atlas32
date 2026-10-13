@@ -86,7 +86,8 @@ what the resulting template laws and finite diagnostics allow us to
 conclude about run statistics. Rabung's criterion~\cite{rabung} and earlier
 large searches, including Monroe's~\cite{monroe}, supply the construction
 context. The atlas covers all primes below $2^{32}$ and every admissible
-order from $2$ to $9$. Its frozen scanner and data commitments are described
+order from $2$ to $9$. The scanner method is developed in~\cite{gpumethod};
+its frozen implementation and data commitments are described
 in Section~\ref{sec:reproduction}.
 
 The classification of its $11\,557$ deep-tail profiles is selective:
@@ -116,7 +117,7 @@ its exact local run distribution, not a new general independence
 principle. No worldwide priority claim is made for the examples.
 
 \paragraph{Relation to succinct certificates.}
-The published certificates paper~\cite{bounds} proves the equivalence of
+The published certificates paper~\cite{boundsv2} proves the equivalence of
 the implemented boundary test with Rabung's criterion and owns the
 recurrence-closed comparison of lower bounds. Here the subject is the
 structure visible in a complete finite population: its distributions,
@@ -176,7 +177,7 @@ The atlas also records
 \end{equation}
 We use \emph{colour-first} notation: $W(r,k)$ is the least $n$ such that
 every $r$-colouring of $[n]$ contains a monochromatic progression of
-length $k$, as in the published certificates paper~\cite{bounds}.
+length $k$, as in the published certificates paper~\cite{boundsv2}.
 Historical files retain their original schema: in particular,
 \texttt{W\_length\_first\_lower\_bound} in the catalogue stores the weak
 integer bound $W(r,k)\ge(k-1)p+2$. Its name is not a convention for
@@ -209,7 +210,7 @@ at an end and require $k-1$ neutral prefix values, also excluded.
 The proof explains why a good ordinary maximum alone does not certify
 the construction. This is the census specialization of Rabung's theorem;
 the full boundary-test equivalence and the separately checked certificates
-are developed in the published certificates paper~\cite{bounds}.
+are developed in the published certificates paper~\cite{boundsv2}.
 
 \subsection{Coverage, exactness, and sealing}
 The census visits every prime $p<2^{32}$ and every $r\in[2,9]$ dividing
@@ -222,7 +223,10 @@ $3\,119$ elliptic-count certificates, and $324$ final record checks.
 These audit counts describe the campaign's checks, not independent
 samples for inference about the tails.
 
-The scanner implements rational coverage and exact completion.
+The scanner implements rational coverage and exact completion. Under the
+coverage and implementation hypotheses of the published method, a
+successfully completed scan returns exact maxima and least canonical
+witnesses~\cite[Theorems~3.1 and~4.3]{gpumethod}.
 The stored profile contract is stated in Section~\ref{sec:atlas};
 the frozen implementation and retained audit certificates are identified
 in Section~\ref{sec:reproduction}. Rejected batches supply no accepted
@@ -302,16 +306,17 @@ entries in Table~2 of Monroe's version~7~\cite{monroev7}, these primes
 increase by $18.82\%$ and $113.84\%$. They are the two improved entries
 among the $29$ fixed comparison points. This is a comparison with that
 identified historical table, not a claim of current world records.
-The $(2,25)$ certificate is already in the published paper~\cite{bounds},
+The $(2,25)$ certificate is already in the first published edition~\cite{bounds},
 which credits Monroe's phase-2 project. It is not a new construction here.
-The $(3,17)$ value increases that paper's published strict bound
+The $(3,17)$ value increases that edition's published strict bound
 $31\,385\,622\,833$ by $5.67\%$. Separate full ordinary CPU scans
 are retained in \path{reproducibility/bounds_update/results/}, with
 their source identities and commands. They also check the larger primes
 $5\,899\,373\,413$, $14\,413\,721\,599$ and $17\,177\,303\,971$
 at lengths $18$, $19$ and $20$. Their consequences exceed the
 corresponding bounded-atlas rows and retain their own pointwise checks;
-they are not added to the census population.
+they are not added to the census population. The current pointwise bounds
+and recurrence-closed comparisons are reported in the second edition~\cite{boundsv2}.
 Large $k$ values in Table~\ref{tab:targets} also approach the upper
 boundary of the search domain, which censors any conclusion about the
 largest possible construction prime.
@@ -2070,7 +2075,9 @@ output was not accepted. These changes did not alter the scientific
 engine, the domain, or already committed blocks.
 The scan took approximately 35.7 cumulative hours; the CPU quadratic
 quadruplet computation took approximately 4.4 hours. These are
-campaign times, not comparative performance measurements.
+campaign times, not comparative performance measurements. The controlled
+comparisons in~\cite[Section~7]{gpumethod} have separate inputs and timing
+boundaries.
 
 The release \texttt{atlas32-v1.0.0}, frozen scanner, original data
 manifest, certificates and reproduction commands are identified in
@@ -2084,6 +2091,14 @@ they do not prove the proposed critical maximum law.
 B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
 bounds for van der Waerden numbers}, published edition v1.0.0, 2026.
 \href{https://doi.org/10.5281/zenodo.22980965}{doi:10.5281/zenodo.22980965}.
+\bibitem{boundsv2}
+B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
+bounds for van der Waerden numbers}, published edition v2.0, 2026.
+\href{https://doi.org/10.5281/zenodo.23337824}{doi:10.5281/zenodo.23337824}.
+\bibitem{gpumethod}
+B. Pouly, \emph{Certified rational-anchor filtering for exact GPU scans
+of power-residue runs}, published edition v1.0, 2026.
+\href{https://doi.org/10.5281/zenodo.23338707}{doi:10.5281/zenodo.23338707}.
 \bibitem{rabung} J.~R. Rabung,
 \emph{Some Progression-Free Partitions Constructed using Folkman's Method},
 Canadian Mathematical Bulletin \textbf{22} (1979), 87--91.

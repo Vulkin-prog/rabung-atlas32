@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "paper": "cubic",
+  "title": "Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations",
+  "edition_version": "v1.0",
+  "status": "published",
+  "publication_date": "2026-10-13",
+  "doi": "10.5281/zenodo.23340847",
+  "url": "https://doi.org/10.5281/zenodo.23340847",
+  "record_url": "https://zenodo.org/records/23340847",
+  "concept_doi": "10.5281/zenodo.23340846",
+  "deposited_files": [
+    {
+      "name": "CUBIC_QUADRUPLETS_EN.pdf",
+      "bytes": 454796,
+      "checksum": "md5:cbb2038b002bbc6f80733ce7a7d1b16a"
+    },
+    {
+      "name": "cubic_quadruplets_v1_publication.zip",
+      "bytes": 686677,
+      "checksum": "md5:d7f9e7f0ecf4e4e0c8b00a677ed03582"
+    }
+  ],
+  "verification": "The deposited PDF and ZIP MD5 digests match the previously delivered publication files.",
+  "source_repository_commit": "523ea80ad421f56f8271c1fc554617a637f632a8",
+  "citation_policy": "Cite this edition for the exact cubic four-window formula, elliptic trace certificates and fixed-length, prime-averaged moment results; retain the stated distinctions from finite atlas diagnostics and logarithmic-length maxima."
+}
