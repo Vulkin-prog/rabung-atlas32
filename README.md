@@ -16,8 +16,10 @@ packages for the finite computations reported in the papers.
 | Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations | [v1.0](paper/CUBIC_QUADRUPLETS_EN.pdf) | [Source](paper/CUBIC_QUADRUPLETS_EN.tex) | [Elliptic counts and moments](reproducibility/cubic_quadruplets/README.md) |
 
 All manuscripts use $W(r,k)$ with the number of colours first. They acknowledge
-AI assistance. The published first edition of the certificates paper is
-available at [DOI 10.5281/zenodo.22980965](https://doi.org/10.5281/zenodo.22980965).
+AI assistance. The certificates paper is published as
+[v2.0, DOI 10.5281/zenodo.23337824](https://doi.org/10.5281/zenodo.23337824).
+Its [first edition, v1.0.0](https://doi.org/10.5281/zenodo.22980965), remains
+available for the original evidence and historical comparisons.
 
 ## GPU hardware
 

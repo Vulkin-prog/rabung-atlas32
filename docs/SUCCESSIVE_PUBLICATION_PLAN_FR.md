@@ -7,30 +7,30 @@ articles, avec plusieurs éditions possibles du premier.
 
 Une publication désigne ici une édition scientifique rendue publiquement
 accessible et citable, par dépôt ou par revue. Un dépôt public et une évaluation
-par les pairs ont des statuts distincts. La seule édition de cette série
-actuellement enregistrée comme publiée est celle des certificats v1.0.0,
-DOI **10.5281/zenodo.22980965**. Aucun identifiant de publication future n'est
-supposé.
+par les pairs ont des statuts distincts. Les certificats disposent de deux
+éditions publiées : v1.0.0, DOI **10.5281/zenodo.22980965**, et v2.0,
+DOI **10.5281/zenodo.23337824**, publiée le 13 octobre 2026. Les trois autres
+articles attendent leur dépôt ; aucun identifiant futur n'est supposé.
 
 | Étape | Article | Justification et contenu |
 | --- | --- | --- |
 | 1 | Certificats et bornes, nouvelle édition | Les six nouveaux certificats et leurs quatorze conséquences directes utilisent des scans CPU complets. Leur validité ne dépend pas de la publication du scanner ou de l'atlas. Cette édition porte la preuve du critère, les vérifications ponctuelles, les produits à module exact et les comparaisons par récurrences. |
-| 2 | Méthode GPU | Le théorème de couverture et de complétion, les garanties arithmétiques et les deux comparaisons contrôlées forment un sujet autonome. L'application aux constructions peut citer la nouvelle édition des certificats une fois celle-ci publiée. |
+| 2 | Méthode GPU | Le théorème de couverture et de complétion, les garanties arithmétiques et les deux comparaisons contrôlées forment un sujet autonome. L'application aux constructions cite les éditions publiées des certificats, en distinguant les pièces originales de la preuve et des résultats actuels. |
 | 3 | Atlas arithmétique | Il peut alors citer la méthode du scanner et les certificats. Il conserve le recensement, les densités de Kummer, les normes, les codes locaux et les diagnostics ternaires. Les résultats elliptiques cubiques détaillés sont réservés à l'article suivant. |
 | 4 | Quadruplets cubiques | L'atlas fournit un contexte publié pour les questions sur les structures et les fluctuations. La formule exacte, les six courbes, les torsions CM et les quatre moments restent démontrés dans cet article. Le raccord analytique doit être contre-revu avant sa publication. |
 
 ## Références disponibles et ajouts par étape
 
-Les quatre textes actuels citent l'édition déjà publiée des certificats lorsqu'ils
-en utilisent le critère ou le contexte. Leurs bibliographies ne citent aucun des
-autres brouillons de la série. Les références scientifiques extérieures sont
+Le papier des certificats v2.0 conserve sa référence à la v1.0.0. La méthode
+GPU et l'atlas citent la v2.0 pour le critère et les résultats actuels, et
+conservent la v1.0.0 pour ses pièces et comparaisons originales. Le papier
+cubique cite la v2.0 pour le contexte des constructions finies. Les
+bibliographies ne citent aucun des autres articles encore non publiés. Les références scientifiques extérieures sont
 conservées. Cette règle s'applique aux références entre ces quatre articles ;
 elle n'exclut pas les prépublications publiques extérieures déjà citées.
 
 | Après la publication de… | Texte encore non publié à actualiser | Rôle de la référence |
 | --- | --- | --- |
-| La nouvelle édition des certificats | Méthode GPU | Application aux constructions, si les nouveaux exemples sont utilisés. |
-| La nouvelle édition des certificats | Atlas | Nouvelles bornes ponctuelles et comparaison par récurrences. |
 | La méthode GPU | Atlas | Hypothèses et preuve d'exactitude du calcul des profils ; les temps du recensement gardent leur statut distinct. |
 | L'atlas | Quadruplets cubiques | Motivation, origine des questions et distinction entre population finie et moyenne sur les premiers. |
 
@@ -80,8 +80,8 @@ corrections de bord et arguments nécessaires à la compréhension du nouveau te
 5. Conserver l'édition publiée telle quelle. Une évolution scientifique de ce
    texte donne lieu à une nouvelle édition identifiable.
 
-`docs/PUBLICATION_SEQUENCE.json` enregistre l'ordre, l'édition actuellement
-publique et les références présentes. `scripts/verify_publication_references.py`
+`docs/PUBLICATION_SEQUENCE.json` enregistre l'ordre, les éditions
+publiées et les références présentes. `scripts/verify_publication_references.py`
 contrôle les titres, versions, locateurs et l'absence de références anticipées.
 Ce contrôle ne publie aucun fichier et ne déduit pas la publication d'un commit
 privé. Le registre et les citations seront actualisés à réception des véritables
@@ -94,13 +94,14 @@ de certificats indiquées dans le papier cubique fonctionnent directement sur
 son propre paquet. Le manifeste de fichiers livré avec chaque publication
 devra lui aussi être limité au paquet effectivement livré.
 
-## Éditions préparées le 12 octobre 2026
+## État des éditions au 13 octobre 2026
 
-Les fichiers destinés au dépôt sont désormais les certificats v2.0, puis la
-méthode GPU, l'atlas et les quadruplets cubiques v1.0. Les marqueurs de travail
-sont retirés des couvertures ; les versions restent dans les métadonnées.
-Aucune de ces nouvelles éditions n'est enregistrée comme publiée sans son
-dépôt effectif. Les références actuelles à v1.0.0 sont donc conservées.
+Les certificats v2.0 sont publiés. Le PDF et l'archive déposés sont conservés
+tels quels ; leurs empreintes correspondent aux fichiers précédemment livrés.
+La méthode GPU, l'atlas et les quadruplets cubiques v1.0 citent désormais cette
+édition là où elle est pertinente. Leurs PDF et archives sont régénérés après
+cet ajout. La prochaine publication est la méthode GPU. La v1.0.0 reste citée
+lorsqu'une comparaison porte sur ses résultats ou ses pièces originales.
 
 Les quatre archives sont produites par `scripts/build_publication_archives.py`.
 Chaque archive possède son README, les pièces de son article, un manifeste et

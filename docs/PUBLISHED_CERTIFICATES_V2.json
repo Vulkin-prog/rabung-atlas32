@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "paper": "certificates",
+  "title": "Succinct Rabung certificates and recurrence-closed lower bounds for van der Waerden numbers",
+  "edition_version": "v2.0",
+  "status": "published",
+  "publication_date": "2026-10-13",
+  "doi": "10.5281/zenodo.23337824",
+  "url": "https://doi.org/10.5281/zenodo.23337824",
+  "record_url": "https://zenodo.org/records/23337824",
+  "concept_doi": "10.5281/zenodo.22980964",
+  "deposited_files": [
+    {
+      "name": "RABUNG_BOUNDS_EN.pdf",
+      "bytes": 656400,
+      "checksum": "md5:79a88d52105acbca5ed9abbc880772f4"
+    },
+    {
+      "name": "rabung_certificates_v2_publication.zip",
+      "bytes": 23158169,
+      "checksum": "md5:7ab523f058579baf7a87256ba1d6051a"
+    }
+  ],
+  "verification": "The deposited PDF and ZIP MD5 digests match the previously delivered publication files.",
+  "source_repository_commit": "5007ade2f457a931dec2459560264e12da684639",
+  "citation_policy": "Cite this version for the current certificate theorem and bounds; retain v1.0.0 for comparisons to its original numerical claims and scanner snapshot."
+}
