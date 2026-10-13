@@ -1,0 +1,231 @@
+{
+  "counts": {
+    "A4_trace_certificate_rechecks": 9,
+    "finite_velu_images": 11014,
+    "formal_polynomial_identities": 3,
+    "four_point_complex_identities": 2205,
+    "genus_two_quotient_counts": 2007,
+    "large_trace_certificates": 2625,
+    "literal_Jacobi_comparisons": 207,
+    "literal_cubic_A4_comparisons": 207,
+    "literal_fourth_sector_comparisons": 62,
+    "million_Euler_vs_walk_values": 1000032,
+    "million_direct_window_starts": 1000019,
+    "mixed_sum_trace_equalities": 2007,
+    "negative_tests": 13,
+    "opposite_trace_equalities": 2007,
+    "order_three_points": 2007
+  },
+  "formal": {
+    "discriminant": "-432*(A-2)^3*(A+2)",
+    "variables": [
+      "x",
+      "A"
+    ],
+    "velu_identity_nonzero_terms_after_subtraction": 0
+  },
+  "large_signed_sectors": [
+    {
+      "coefficient_sum": 327,
+      "conjugate_pairs": 3003,
+      "constant_term_numerator": 6864,
+      "elliptic_packet": 438273,
+      "fourth_sector": {
+        "denominator": 531441,
+        "numerator": -148373
+      },
+      "grouped_absolute_weight": 3831,
+      "holes_numerator": -18,
+      "k": 13,
+      "nonzero_parameters": 319,
+      "p": 1000033,
+      "pair_coefficient_sum": 3432,
+      "rational_parameters": 320,
+      "raw_absolute_weight": 7023,
+      "raw_monomials": 6006
+    },
+    {
+      "coefficient_sum": 4758,
+      "conjugate_pairs": 21945,
+      "constant_term_numerator": 63840,
+      "elliptic_packet": -108879048,
+      "fourth_sector": {
+        "denominator": 3486784401,
+        "numerator": 36273779
+      },
+      "grouped_absolute_weight": 36928,
+      "holes_numerator": -6129,
+      "k": 21,
+      "nonzero_parameters": 1158,
+      "p": 4294967197,
+      "pair_coefficient_sum": 31920,
+      "rational_parameters": 1169,
+      "raw_absolute_weight": 55086,
+      "raw_monomials": 43890
+    },
+    {
+      "coefficient_sum": 723,
+      "conjugate_pairs": 21945,
+      "constant_term_numerator": 63840,
+      "elliptic_packet": 130803933,
+      "fourth_sector": {
+        "denominator": 3486784401,
+        "numerator": -43623131
+      },
+      "grouped_absolute_weight": 31175,
+      "holes_numerator": 1620,
+      "k": 21,
+      "nonzero_parameters": 1148,
+      "p": 4294967311,
+      "pair_coefficient_sum": 31920,
+      "rational_parameters": 1169,
+      "raw_absolute_weight": 53435,
+      "raw_monomials": 43890
+    }
+  ],
+  "million_independent_check": {
+    "A4_cubic_direct": 36876,
+    "fourth_sector": {
+      "denominator": 531441,
+      "numerator": -148373
+    },
+    "k": 13,
+    "p": 1000033,
+    "primitive_root": 5,
+    "purpose": "finite identity validation, not an estimate of a vertical law",
+    "whole_word_start_count": 2,
+    "word_labels_sha256": "86b0b4958fddc4bfe27369fe4a9ccc7488a108a8126746a0495ca950d19ac2bf"
+  },
+  "not_checked": [
+    "global prime-averaged first intensity",
+    "probability of no critical runs",
+    "all supports >=5",
+    "completeness of the bounded point search outside supplied certificates",
+    "worldwide novelty"
+  ],
+  "prime_words_near_2pow32_scanned": [],
+  "scope": "exact finite identities and supplied trace certificates; no universal maximum law",
+  "status": "PASS",
+  "twist_counterexamples": [
+    {
+      "S_plus_one": [
+        -1,
+        -1
+      ],
+      "cubic_phase": [
+        0,
+        1
+      ],
+      "offsets": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "p": 7,
+      "parameter": {
+        "denominator": 3,
+        "numerator": -10
+      },
+      "partition": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "rho": {
+        "denominator": 3,
+        "numerator": 1
+      },
+      "trace": -1,
+      "untwisted_wrong_value": [
+        1,
+        0
+      ]
+    },
+    {
+      "S_plus_one": [
+        2,
+        2
+      ],
+      "cubic_phase": [
+        0,
+        1
+      ],
+      "offsets": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "p": 7,
+      "parameter": {
+        "denominator": 1,
+        "numerator": 10
+      },
+      "partition": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "rho": {
+        "denominator": 1,
+        "numerator": 2
+      },
+      "trace": 2,
+      "untwisted_wrong_value": [
+        -2,
+        0
+      ]
+    },
+    {
+      "S_plus_one": [
+        2,
+        2
+      ],
+      "cubic_phase": [
+        0,
+        1
+      ],
+      "offsets": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "p": 7,
+      "parameter": {
+        "denominator": 3,
+        "numerator": -2
+      },
+      "partition": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "rho": {
+        "denominator": 2,
+        "numerator": 3
+      },
+      "trace": 2,
+      "untwisted_wrong_value": [
+        -2,
+        0
+      ]
+    }
+  ]
+}

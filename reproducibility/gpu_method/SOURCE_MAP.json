@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "source_repository": "Vulkin-prog/vdw-gpu-starter",
+  "source_revision": "f00cdcb95f12d7578bdb37a87db97ff233c86a22",
+  "frozen_experimental_packet_commit": "f2d515c383776d3f915b87423ea101029d041bc5",
+  "unchanged_sources": {
+    "source/engine32/src/gpu_pipeline.cuh": {
+      "sha256": "31fbb9b5f87d9e84e15581f78a2ede4eb38988bbaede928d61bab290ebc7361b",
+      "symbols": {
+        "anchor_t": [
+          152,
+          164
+        ],
+        "epoch_snapshot": [
+          162
+        ],
+        "generate": [
+          170,
+          378,
+          379,
+          380,
+          381,
+          383
+        ]
+      }
+    },
+    "source/engine32/src/completion_core.hpp": {
+      "sha256": "dbf4b84f2279485daba97320e8d9db7332461856af115d06f3765189221f20b9",
+      "symbols": {
+        "complete": [
+          43,
+          45
+        ],
+        "take_snapshot": [
+          49
+        ]
+      }
+    },
+    "source/engine32/vendor/research/src/profile_masks.hpp": {
+      "sha256": "9a1c872d086218ccbb2e38952906254237dd5d12c7b7a7a0a26753029c0cafff",
+      "symbols": {
+        "split": [
+          70
+        ]
+      }
+    },
+    "source/engine32/vendor/research/baseline/baseline/src/coupled_device.hpp": {
+      "sha256": "983525d6073f003ead0f99a56ad0d302b8edaef2b8c4fc0704c08c5cb5bf7044",
+      "symbols": {
+        "complete": [
+          24
+        ]
+      }
+    },
+    "source/engine32/vendor/research/baseline/baseline/previous/src/periodic_bands.hpp": {
+      "sha256": "888c7d3c46a2c3128d75a6125cd2cecbbcfe830e478cb5db32da5760074fbfb4",
+      "symbols": {
+        "make_shapes": [
+          45
+        ],
+        "make_side": [
+          28,
+          50,
+          51
+        ],
+        "floor_div": [
+          14,
+          15,
+          30
+        ]
+      }
+    },
+    "source/engine32/vendor/research/baseline/baseline/previous/src/clipped_cover.hpp": {
+      "sha256": "414e0f9588bb69ebab121fb29e503791e1d14913f7b69b4ce49d3fa1cb990631",
+      "symbols": {
+        "certified": [
+          7,
+          20,
+          26,
+          27
+        ],
+        "from_denominator": [
+          14
+        ]
+      }
+    },
+    "source/engine33/src/math33.hpp": {
+      "sha256": "10f53ed4e9cf7e598edf434cac0e9f1b3dc4220984df10c72cd6df5a8c8be70a",
+      "symbols": {
+        "float_mod": [
+          62
+        ],
+        "mont": [
+          31
+        ]
+      }
+    },
+    "historical-source/prototype33/dense_oracle.cu": {
+      "sha256": "4f002299e6305f9070f1b573180a4b610f5e5b816ff708f683d966b992e77188",
+      "symbols": {
+        "fp_power": [
+          8,
+          21
+        ],
+        "dense_chunk": [
+          12,
+          58
+        ],
+        "merge": [
+          32,
+          60
+        ]
+      }
+    },
+    "source/engine33/src/gpu_pipeline.cuh": {
+      "sha256": "3fe954e5b1bdc85c280558e84316e26aad1e9087abaccc238ff59b7c07e03716",
+      "symbols": {
+        "anchor_t": [
+          152,
+          164
+        ]
+      }
+    },
+    "source/worker32.cu": {
+      "sha256": "9d87500603a87ebfc07ff62f094db1668901af166cd1f2192092a07961bc21ad",
+      "symbols": {
+        "calculate_prime": [
+          13,
+          47
+        ]
+      }
+    },
+    "source/worker33.cu": {
+      "sha256": "b37eb78809f89a0e770ef89bd7ebe3a052a486ae2c0f1aea45d72a34ed70e4a6",
+      "symbols": {
+        "calculate_prime": [
+          13,
+          35
+        ]
+      }
+    },
+    "source/CONFIGURATION.json": {
+      "sha256": "13de259556956313736f5be75c6976537569cbbb1e380aaead0f63caf4b07795",
+      "symbols": {
+        "runtime_arguments": [
+          1
+        ]
+      }
+    },
+    "historical-source/prototype33/src/math33.hpp": {
+      "sha256": "26fff72d5e0720e8ea0211bec06f8086c24c1439b4db9bc7a11285b99b3e0d2b",
+      "symbols": {
+        "float_mod": [
+          61
+        ]
+      }
+    },
+    "source/engine33/vendor/research/baseline/baseline/previous/src/clipped_cover.hpp": {
+      "sha256": "ce1cea0bbeaf4d7f9ddd5d446c6218ac050e485c944b37fab6e8840c15150c2a",
+      "symbols": {
+        "certified": [
+          7,
+          20,
+          26,
+          27
+        ]
+      }
+    }
+  },
+  "qualification_records": {
+    "night/HISTORICAL_ENGINE_IDENTITY.json": {
+      "sha256": "84592ea81da3fabefad514abe033d88285f9df485894698e6cd831dc67f59d54"
+    },
+    "night/FINAL_FREEZE.json": {
+      "sha256": "07f052f43c09550df1b58c43aa8fc87606de1b272ff0e1e1c08b00dc1beeb11b",
+      "source_sha256": "579364c9c744ee8f9273651ddaf61220dfb82d23b5f28fe0c45695fbb9730243"
+    },
+    "night/ORACLES_NOUVEAUX.json": {
+      "sha256": "70a6b42f50aa6806296bfd2ff13561dda6c7e43134e9ff049e53eb46759b9693"
+    },
+    "throughput/VERIFICATION.json": {
+      "sha256": "5ee663b3b5c0424f31b583e6333befb8218f6d9542f574d514d9edec7db4173d",
+      "source_sha256": "db7708d32e9122402b300cb36ea6295f208d679463db2f8f473ee19eec2334ee"
+    },
+    "throughput/CONTROLES_INDEPENDANTS.json": {
+      "sha256": "2b7590a2244fde14b5209b88b2f25a70a63c679259929d7ea34f46b52426c072",
+      "source_sha256": "efc493dd0f63aeb5cdd8cd24a170a2871b68ad3b0b020bc1bf33ff214661712e"
+    },
+    "throughput/holdout-32-mr_selected.json": {
+      "sha256": "28cc28e9991b66d8d2cbdad61d19a6b3e00f170b18f125175d3394a930147d13",
+      "source_sha256": "31f2aa7a9ba1ee60cd4771180622cb41d27cf7256c74e5d51c3474b1cac4ef71"
+    },
+    "throughput/holdout-33-selected_selected_binary48.json": {
+      "sha256": "1e92cc941523027056218dfb18959696f99762fb53bfb8b6204f0f2af3042bc7",
+      "source_sha256": "8b79deeb115f30fb8a71f6025e614feb994223034f264a42607d4e2bf9699bc8"
+    },
+    "throughput/holdout-33-mr_selected.json": {
+      "sha256": "ce716160cfdc439b85e89a8785b08f4750208e9e9a309f3203bac3d61782cb7f",
+      "source_sha256": "94ca7f8195bd1dd4f6ebaad4e22b891301048af1bcaeb7ea988fe04b3b2c87f9"
+    },
+    "source/worker32.build.json": {
+      "sha256": "3d7f0c63683d428928e4c9a6c314998d70276f1c99ba1bb59c6fdacf095ce9cd",
+      "source_sha256": "accc846b57e4ef5d1b537ce11def95deeddfd69b4e4707fcadce8fd7e3d0837e"
+    },
+    "source/worker33.build.json": {
+      "sha256": "0950d92c7759fdf1f7d4dd08fd7b9f6da049d88867dc95ae362aedc992ec0541",
+      "source_sha256": "6d724b7921dd35ae0415291aab7e3baea9c880ba210a805da280bbd092c279e6"
+    }
+  },
+  "oracle_build_record": {
+    "file": "ORACLE_BUILD_RECORD.json",
+    "sha256": "a4466917f17b6645d163e0ac8572236f1419e8d45fcd4dde51b6b88a8e79aa18",
+    "source_sha256": "512da20f3222cce4995d103c002874b02e4dfcf6152cbfda1513e51c3f37c807"
+  },
+  "publication_curation": "Selected sources remain byte-identical; host-path and disk-only metadata curation is explicit in PROVENANCE.json."
+}

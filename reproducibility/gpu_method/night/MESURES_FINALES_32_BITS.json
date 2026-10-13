@@ -1,0 +1,6238 @@
+{
+  "frozen": {
+    "path": "original-work/overnight_sm120/kit/build/small32_both",
+    "sha256": "40b7092d50f2c4da48d2b5ad0e98acb2d12e8d7b9765bf4686fa6625d2e163c7",
+    "extra": [
+      "--threads",
+      "512",
+      "--generator-blocks",
+      "4",
+      "--completion-blocks",
+      "12",
+      "--graph",
+      "0",
+      "--cover-q",
+      "48",
+      "--denominator-divisor",
+      "4",
+      "--grid-policy",
+      "3",
+      "--threads",
+      "1024",
+      "--generator-blocks",
+      "8",
+      "--t-mode",
+      "13",
+      "--pair-mode",
+      "1",
+      "--single4-q",
+      "20",
+      "--group36-q",
+      "32",
+      "--other-q",
+      "32"
+    ],
+    "macros": [
+      "KIT_CHUNK_SHIFT=3",
+      "KIT_WARP_COMPLETION=1",
+      "VDW_COMPLETION_MONT=1",
+      "VDW_COLOUR_FAST=1",
+      "KIT_WARP_SEED=1",
+      "KIT_ADAPTIVE_CHUNKS=1",
+      "KIT_RECIP_SELECT=1",
+      "KIT_WARP_PACK=1",
+      "KIT_COPY_MODE=2",
+      "KIT_STATIC_FINE_PLANES=1",
+      "KIT_SINGLETON_FAST=1",
+      "KIT_MID_CHUNK_SHIFT=3",
+      "KIT_HIGH_CHUNK_SHIFT=3",
+      "KIT_MID_DEN_DIV=2",
+      "KIT_STATIC_RESIDUAL=1",
+      "KIT_ALIAS_READS=1",
+      "KIT_COMPACT_FINE=1",
+      "KIT_SHARE_PLANS=1",
+      "KIT_FILTER_MODE=4",
+      "KIT_LOW_CHUNK_SHIFT=6",
+      "KIT_LOW_CYCLES=16",
+      "KIT_SINGLETON_SEED=1",
+      "KIT_CHARACTER_ROOT=1"
+    ]
+  },
+  "method": "sum of per-prime hot medians; ABBA then BAAB, five hot samples per command, four commands per pair and engine",
+  "warm_iteration_excluded": 0,
+  "hot_samples_per_prime_per_pair_engine": 20,
+  "cohorts": {
+    "control15": {
+      "per_prime": [
+        {
+          "p": 116000009,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 26,
+              "prefix": 2,
+              "K": 27,
+              "witness": 13144785
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 20130069
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 34173614
+            }
+          ],
+          "qualified_ref": 1.7721795,
+          "qualified_best": 0.289619,
+          "night_start_ref": 0.6990145000000001,
+          "night_start_best": 0.28727899999999995,
+          "historical_ref": 1.320998,
+          "historical_best": 0.287574,
+          "speedup_vs_qualified": 6.119002896909388,
+          "speedup_vs_night_start": 2.4332251922347274,
+          "speedup_vs_historical": 4.593593301202473
+        },
+        {
+          "p": 375006241,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 16,
+              "K": 34,
+              "witness": 71351944
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 11682586
+            },
+            {
+              "r": 4,
+              "max": 13,
+              "prefix": 4,
+              "K": 14,
+              "witness": 6590647
+            },
+            {
+              "r": 5,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 24659028
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 66892301
+            },
+            {
+              "r": 7,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 41253158
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 81239736
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 145499963
+            }
+          ],
+          "qualified_ref": 7.413216,
+          "qualified_best": 1.0327890000000002,
+          "night_start_ref": 2.9015095000000004,
+          "night_start_best": 1.034754,
+          "historical_ref": 4.4982015,
+          "historical_best": 1.035259,
+          "speedup_vs_qualified": 7.177861111998674,
+          "speedup_vs_night_start": 2.8040572928444836,
+          "speedup_vs_historical": 4.3450011060034255
+        },
+        {
+          "p": 731000087,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 4,
+              "K": 31,
+              "witness": 51317804
+            }
+          ],
+          "qualified_ref": 0.6855640000000001,
+          "qualified_best": 0.147977,
+          "night_start_ref": 0.34628950000000003,
+          "night_start_best": 0.148337,
+          "historical_ref": 6.2485345,
+          "historical_best": 0.148392,
+          "speedup_vs_qualified": 4.632909168316698,
+          "speedup_vs_night_start": 2.334478248852276,
+          "speedup_vs_historical": 42.10829761712222
+        },
+        {
+          "p": 1147003201,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 12,
+              "K": 29,
+              "witness": 161809912
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 6,
+              "K": 21,
+              "witness": 197657240
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 174756571
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 421926803
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 6,
+              "K": 14,
+              "witness": 153549502
+            },
+            {
+              "r": 7,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 47201040
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 33262506
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 89469704
+            }
+          ],
+          "qualified_ref": 12.808644,
+          "qualified_best": 1.5648415,
+          "night_start_ref": 5.237425999999999,
+          "night_start_best": 1.565197,
+          "historical_ref": 12.2552065,
+          "historical_best": 1.571132,
+          "speedup_vs_qualified": 8.185266047711542,
+          "speedup_vs_night_start": 3.3461768710264583,
+          "speedup_vs_historical": 7.800239890728468
+        },
+        {
+          "p": 1537000009,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 6,
+              "K": 33,
+              "witness": 497740990
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 122019194
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 4,
+              "K": 16,
+              "witness": 489315410
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 363584890
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 4,
+              "K": 11,
+              "witness": 192467516
+            }
+          ],
+          "qualified_ref": 8.313768,
+          "qualified_best": 0.8931720000000001,
+          "night_start_ref": 3.397926,
+          "night_start_best": 0.894027,
+          "historical_ref": 13.171664,
+          "historical_best": 0.896432,
+          "speedup_vs_qualified": 9.308137738307963,
+          "speedup_vs_night_start": 3.800697294377015,
+          "speedup_vs_historical": 14.69343352312278
+        },
+        {
+          "p": 1867015081,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 37,
+              "prefix": 10,
+              "K": 38,
+              "witness": 929527405
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 787784625
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 786354652
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 834462062
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 443375840
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 337831133
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 142303518
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 214666706
+            }
+          ],
+          "qualified_ref": 15.532786,
+          "qualified_best": 1.997837,
+          "night_start_ref": 6.7796520000000005,
+          "night_start_best": 2.0011574999999997,
+          "historical_ref": 19.4714,
+          "historical_best": 2.0027220000000003,
+          "speedup_vs_qualified": 7.774801447765758,
+          "speedup_vs_night_start": 3.3878652729732677,
+          "speedup_vs_historical": 9.72246772143113
+        },
+        {
+          "p": 2277000007,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 2,
+              "K": 32,
+              "witness": 816019167
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 363638077
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 129510647
+            }
+          ],
+          "qualified_ref": 4.754554,
+          "qualified_best": 0.6424335000000001,
+          "night_start_ref": 2.3812825,
+          "night_start_best": 0.6422334999999999,
+          "historical_ref": 20.421547,
+          "historical_best": 0.6433935,
+          "speedup_vs_qualified": 7.4008500490712255,
+          "speedup_vs_night_start": 3.7078142139891495,
+          "speedup_vs_historical": 31.740368841152424
+        },
+        {
+          "p": 2647015561,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 12,
+              "K": 34,
+              "witness": 675823443
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 2,
+              "K": 19,
+              "witness": 5174248
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 2,
+              "K": 15,
+              "witness": 147221688
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 82511183
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 517583132
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 137705182
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 26049431
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 704846954
+            }
+          ],
+          "qualified_ref": 16.886464500000002,
+          "qualified_best": 2.498784,
+          "night_start_ref": 7.7473755,
+          "night_start_best": 2.494909,
+          "historical_ref": 26.5684005,
+          "historical_best": 2.4988840000000003,
+          "speedup_vs_qualified": 6.757872829344194,
+          "speedup_vs_night_start": 3.1052737795246244,
+          "speedup_vs_historical": 10.632106372284586
+        },
+        {
+          "p": 3037000013,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 249099152
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1461549388
+            }
+          ],
+          "qualified_ref": 5.5042,
+          "qualified_best": 0.582428,
+          "night_start_ref": 2.348752,
+          "night_start_best": 0.5788975000000001,
+          "historical_ref": 25.931437000000003,
+          "historical_best": 0.5793925,
+          "speedup_vs_qualified": 9.45043850913761,
+          "speedup_vs_night_start": 4.057284752482088,
+          "speedup_vs_historical": 44.75625245407906
+        },
+        {
+          "p": 3397010401,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 12,
+              "K": 34,
+              "witness": 71362580
+            },
+            {
+              "r": 3,
+              "max": 22,
+              "prefix": 1,
+              "K": 23,
+              "witness": 715930122
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 4,
+              "K": 16,
+              "witness": 55157966
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1164546215
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 36214109
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 4,
+              "K": 13,
+              "witness": 744941339
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1467634424
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 25401447
+            }
+          ],
+          "qualified_ref": 19.09444,
+          "qualified_best": 2.7892029999999997,
+          "night_start_ref": 8.404234,
+          "night_start_best": 2.7820080000000003,
+          "historical_ref": 34.919074,
+          "historical_best": 2.7882629999999997,
+          "speedup_vs_qualified": 6.8458409086753464,
+          "speedup_vs_night_start": 3.020923735661436,
+          "speedup_vs_historical": 12.52359407989849
+        },
+        {
+          "p": 3887000017,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 4,
+              "K": 30,
+              "witness": 291023201
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 2,
+              "K": 19,
+              "witness": 180918370
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 4,
+              "K": 16,
+              "witness": 170060954
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 47885394
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1191980882
+            }
+          ],
+          "qualified_ref": 13.3528365,
+          "qualified_best": 1.6525825,
+          "night_start_ref": 6.024217,
+          "night_start_best": 1.6482475,
+          "historical_ref": 35.6792895,
+          "historical_best": 1.6517624999999998,
+          "speedup_vs_qualified": 8.079981786083296,
+          "speedup_vs_night_start": 3.654922576858148,
+          "speedup_vs_historical": 21.600738302268038
+        },
+        {
+          "p": 4287018961,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 22,
+              "K": 46,
+              "witness": 619390546
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 394971863
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 1662626326
+            },
+            {
+              "r": 5,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 1392027155
+            },
+            {
+              "r": 6,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1129126990
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 1636443785
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 14963460
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1526274309
+            }
+          ],
+          "qualified_ref": 22.794349,
+          "qualified_best": 3.5931290000000002,
+          "night_start_ref": 10.142168,
+          "night_start_best": 3.5909240000000002,
+          "historical_ref": 46.3104845,
+          "historical_best": 3.597909,
+          "speedup_vs_qualified": 6.3438715949246465,
+          "speedup_vs_night_start": 2.8243894886107306,
+          "speedup_vs_historical": 12.871499668279547
+        },
+        {
+          "p": 2147483647,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 2,
+              "K": 34,
+              "witness": 517940559
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 4,
+              "K": 20,
+              "witness": 173308989
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 687838818
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 525630245
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 2,
+              "K": 10,
+              "witness": 12287430
+            }
+          ],
+          "qualified_ref": 9.0662085,
+          "qualified_best": 1.541416,
+          "night_start_ref": 4.155517,
+          "night_start_best": 1.536421,
+          "historical_ref": 15.847159999999999,
+          "historical_best": 1.539311,
+          "speedup_vs_qualified": 5.881740231060272,
+          "speedup_vs_night_start": 2.704673393555542,
+          "speedup_vs_historical": 10.294969632517404
+        },
+        {
+          "p": 2147483659,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 853048865
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 275158337
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 320995901
+            }
+          ],
+          "qualified_ref": 4.100880500000001,
+          "qualified_best": 0.722525,
+          "night_start_ref": 2.0276625,
+          "night_start_best": 0.72374,
+          "historical_ref": 18.7812755,
+          "historical_best": 0.723365,
+          "speedup_vs_qualified": 5.675762776374521,
+          "speedup_vs_night_start": 2.8016449277364797,
+          "speedup_vs_historical": 25.96376034228916
+        },
+        {
+          "p": 4294967291,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 1,
+              "K": 33,
+              "witness": 212914923
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 329762637
+            }
+          ],
+          "qualified_ref": 4.8533360000000005,
+          "qualified_best": 0.815761,
+          "night_start_ref": 2.2916415,
+          "night_start_best": 0.8143065,
+          "historical_ref": 36.9394915,
+          "historical_best": 0.815136,
+          "speedup_vs_qualified": 5.949458235929397,
+          "speedup_vs_night_start": 2.814224742157897,
+          "speedup_vs_historical": 45.316967352687165
+        }
+      ],
+      "sum_medians": {
+        "qualified_ref": 146.9334265,
+        "qualified_best": 20.7644975,
+        "night_start_ref": 64.8846675,
+        "night_start_best": 20.7424385,
+        "historical_ref": 318.364164,
+        "historical_best": 20.7789275
+      },
+      "speedups": {
+        "qualified": 7.076185036502809,
+        "night_start": 3.1281118418164775,
+        "historical": 15.321491640990613
+      },
+      "first_iteration_sum_ms": {
+        "qualified_ref": 151.374642,
+        "qualified_best": 25.722638500000002,
+        "night_start_ref": 68.983778,
+        "night_start_best": 25.710167,
+        "historical_ref": 316.206716,
+        "historical_best": 25.7035285
+      }
+    },
+    "natural128": {
+      "per_prime": [
+        {
+          "p": 501234577,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 4,
+              "K": 29,
+              "witness": 114439355
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 2,
+              "K": 20,
+              "witness": 101868072
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 4,
+              "K": 15,
+              "witness": 44625254
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 152337879
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 2543392
+            }
+          ],
+          "qualified_ref": 4.130341,
+          "qualified_best": 0.5908880000000001,
+          "night_start_ref": 1.694538,
+          "night_start_best": 0.591433,
+          "historical_ref": 4.8885065,
+          "historical_best": 0.590608,
+          "speedup_vs_qualified": 6.990057337431119,
+          "speedup_vs_night_start": 2.8651394156227337,
+          "speedup_vs_historical": 8.277074641725138
+        },
+        {
+          "p": 501234581,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 1,
+              "K": 33,
+              "witness": 74395470
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 62436105
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 227054145
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 105973914
+            }
+          ],
+          "qualified_ref": 3.5293080000000003,
+          "qualified_best": 0.541742,
+          "night_start_ref": 1.450085,
+          "night_start_best": 0.5424869999999999,
+          "historical_ref": 4.551397,
+          "historical_best": 0.542832,
+          "speedup_vs_qualified": 6.514739488538826,
+          "speedup_vs_night_start": 2.673031796153641,
+          "speedup_vs_historical": 8.38454070504318
+        },
+        {
+          "p": 501234661,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 43376295
+            },
+            {
+              "r": 3,
+              "max": 17,
+              "prefix": 2,
+              "K": 18,
+              "witness": 44755476
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 39965127
+            },
+            {
+              "r": 5,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 687573
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 85876102
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 29144131
+            }
+          ],
+          "qualified_ref": 6.769717,
+          "qualified_best": 0.7787755000000001,
+          "night_start_ref": 2.799278,
+          "night_start_best": 0.7769010000000001,
+          "historical_ref": 5.0263985,
+          "historical_best": 0.778251,
+          "speedup_vs_qualified": 8.69277089482142,
+          "speedup_vs_night_start": 3.603133475178948,
+          "speedup_vs_historical": 6.458582770854133
+        },
+        {
+          "p": 501234683,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 14991560
+            }
+          ],
+          "qualified_ref": 0.6027285,
+          "qualified_best": 0.135472,
+          "night_start_ref": 0.322874,
+          "night_start_best": 0.1356415,
+          "historical_ref": 4.882611499999999,
+          "historical_best": 0.1357265,
+          "speedup_vs_qualified": 4.449100183063659,
+          "speedup_vs_night_start": 2.3803481972700093,
+          "speedup_vs_historical": 35.97389971744648
+        },
+        {
+          "p": 501234719,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 26,
+              "prefix": 12,
+              "K": 27,
+              "witness": 59636762
+            }
+          ],
+          "qualified_ref": 0.6249285,
+          "qualified_best": 0.13633699999999999,
+          "night_start_ref": 0.3414695,
+          "night_start_best": 0.136297,
+          "historical_ref": 4.631768,
+          "historical_best": 0.136171,
+          "speedup_vs_qualified": 4.583704350249749,
+          "speedup_vs_night_start": 2.505333939851941,
+          "speedup_vs_historical": 34.01434960454135
+        },
+        {
+          "p": 501234737,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 2,
+              "K": 33,
+              "witness": 72871598
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 2,
+              "K": 17,
+              "witness": 75875395
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 101020060
+            }
+          ],
+          "qualified_ref": 3.009786,
+          "qualified_best": 0.41151550000000003,
+          "night_start_ref": 1.1676555,
+          "night_start_best": 0.41116549999999996,
+          "historical_ref": 4.580897,
+          "historical_best": 0.4112055,
+          "speedup_vs_qualified": 7.3139067665737985,
+          "speedup_vs_night_start": 2.83986740132623,
+          "speedup_vs_historical": 11.140164710831932
+        },
+        {
+          "p": 501234751,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 137264604
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 20928309
+            },
+            {
+              "r": 5,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 154998870
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 75680030
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 48797730
+            }
+          ],
+          "qualified_ref": 4.2876835,
+          "qualified_best": 0.6639189999999999,
+          "night_start_ref": 1.794309,
+          "night_start_best": 0.664544,
+          "historical_ref": 5.067944000000001,
+          "historical_best": 0.664919,
+          "speedup_vs_qualified": 6.458142484248833,
+          "speedup_vs_night_start": 2.7000604926084653,
+          "speedup_vs_historical": 7.62189680246767
+        },
+        {
+          "p": 501234779,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 124902905
+            }
+          ],
+          "qualified_ref": 0.590338,
+          "qualified_best": 0.135791,
+          "night_start_ref": 0.3102495,
+          "night_start_best": 0.13540649999999999,
+          "historical_ref": 4.5988175,
+          "historical_best": 0.134807,
+          "speedup_vs_qualified": 4.347401521455767,
+          "speedup_vs_night_start": 2.2912452504126466,
+          "speedup_vs_historical": 34.11408532197883
+        },
+        {
+          "p": 501234787,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 143123920
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 188425724
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 16965047
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 22623045
+            }
+          ],
+          "qualified_ref": 3.31111,
+          "qualified_best": 0.511977,
+          "night_start_ref": 1.3543034999999999,
+          "night_start_best": 0.511172,
+          "historical_ref": 4.763455,
+          "historical_best": 0.512832,
+          "speedup_vs_qualified": 6.467302242092907,
+          "speedup_vs_night_start": 2.6494086139303406,
+          "speedup_vs_historical": 9.288529186946214
+        },
+        {
+          "p": 501234809,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 2,
+              "K": 28,
+              "witness": 223168533
+            },
+            {
+              "r": 4,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 34683082
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 80769961
+            }
+          ],
+          "qualified_ref": 3.2275785,
+          "qualified_best": 0.411661,
+          "night_start_ref": 1.4043645,
+          "night_start_best": 0.414276,
+          "historical_ref": 4.73992,
+          "historical_best": 0.41216050000000004,
+          "speedup_vs_qualified": 7.840379584172413,
+          "speedup_vs_night_start": 3.3899248327202156,
+          "speedup_vs_historical": 11.500180148267482
+        },
+        {
+          "p": 501234827,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 25,
+              "prefix": 1,
+              "K": 26,
+              "witness": 22234055
+            }
+          ],
+          "qualified_ref": 0.7633304999999999,
+          "qualified_best": 0.137877,
+          "night_start_ref": 0.36650000000000005,
+          "night_start_best": 0.137942,
+          "historical_ref": 4.509761,
+          "historical_best": 0.1395265,
+          "speedup_vs_qualified": 5.536314976392001,
+          "speedup_vs_night_start": 2.6569137753548593,
+          "speedup_vs_historical": 32.32189584057509
+        },
+        {
+          "p": 501234829,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 1,
+              "K": 28,
+              "witness": 52425079
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 40563331
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 156520001
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 72533997
+            }
+          ],
+          "qualified_ref": 3.2217935000000004,
+          "qualified_best": 0.4587515,
+          "night_start_ref": 1.377364,
+          "night_start_best": 0.4566115,
+          "historical_ref": 4.7792745,
+          "historical_best": 0.459851,
+          "speedup_vs_qualified": 7.022960142909616,
+          "speedup_vs_night_start": 3.0164899482382728,
+          "speedup_vs_historical": 10.393093632502701
+        },
+        {
+          "p": 501234859,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 25,
+              "prefix": 1,
+              "K": 26,
+              "witness": 26728775
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 198191991
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 189471854
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 74657997
+            }
+          ],
+          "qualified_ref": 3.1081475000000003,
+          "qualified_best": 0.5264825,
+          "night_start_ref": 1.333913,
+          "night_start_best": 0.5256670000000001,
+          "historical_ref": 4.832806,
+          "historical_best": 0.5277274999999999,
+          "speedup_vs_qualified": 5.9036102814433535,
+          "speedup_vs_night_start": 2.53756275360637,
+          "speedup_vs_historical": 9.157767976844111
+        },
+        {
+          "p": 501234949,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 142304641
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 228971806
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 41559945
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 241861066
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 217021415
+            }
+          ],
+          "qualified_ref": 4.8622060000000005,
+          "qualified_best": 0.6725639999999999,
+          "night_start_ref": 1.9395164999999999,
+          "night_start_best": 0.6741090000000001,
+          "historical_ref": 4.8438005,
+          "historical_best": 0.6747289999999999,
+          "speedup_vs_qualified": 7.229358098262769,
+          "speedup_vs_night_start": 2.8771556232004016,
+          "speedup_vs_historical": 7.178882929294578
+        },
+        {
+          "p": 501234983,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 25,
+              "prefix": 4,
+              "K": 26,
+              "witness": 19095633
+            }
+          ],
+          "qualified_ref": 0.581188,
+          "qualified_best": 0.146077,
+          "night_start_ref": 0.307904,
+          "night_start_best": 0.146772,
+          "historical_ref": 4.567942,
+          "historical_best": 0.146797,
+          "speedup_vs_qualified": 3.9786414014526583,
+          "speedup_vs_night_start": 2.0978388248439757,
+          "speedup_vs_historical": 31.117407031478844
+        },
+        {
+          "p": 501234989,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 28947789
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 168827295
+            }
+          ],
+          "qualified_ref": 1.565651,
+          "qualified_best": 0.2511385,
+          "night_start_ref": 0.689199,
+          "night_start_best": 0.248474,
+          "historical_ref": 4.753539,
+          "historical_best": 0.2534785,
+          "speedup_vs_qualified": 6.234213392211867,
+          "speedup_vs_night_start": 2.7737268285615397,
+          "speedup_vs_historical": 18.753223646186957
+        },
+        {
+          "p": 501235019,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 26,
+              "prefix": 1,
+              "K": 27,
+              "witness": 41762112
+            }
+          ],
+          "qualified_ref": 0.594348,
+          "qualified_best": 0.135617,
+          "night_start_ref": 0.308529,
+          "night_start_best": 0.1354665,
+          "historical_ref": 4.5760625,
+          "historical_best": 0.136647,
+          "speedup_vs_qualified": 4.382547910660168,
+          "speedup_vs_night_start": 2.2775298690082053,
+          "speedup_vs_historical": 33.488203180457674
+        },
+        {
+          "p": 501235039,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 2,
+              "K": 32,
+              "witness": 90821154
+            },
+            {
+              "r": 3,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 29045506
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 182017257
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 137396498
+            }
+          ],
+          "qualified_ref": 3.2655045,
+          "qualified_best": 0.5112414999999999,
+          "night_start_ref": 1.383509,
+          "night_start_best": 0.511987,
+          "historical_ref": 4.906752,
+          "historical_best": 0.510847,
+          "speedup_vs_qualified": 6.387401061924747,
+          "speedup_vs_night_start": 2.702234627051078,
+          "speedup_vs_historical": 9.605130303202328
+        },
+        {
+          "p": 501235051,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 1,
+              "K": 28,
+              "witness": 41059081
+            },
+            {
+              "r": 3,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 58443410
+            },
+            {
+              "r": 5,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 81872286
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 15682321
+            }
+          ],
+          "qualified_ref": 2.7135664999999998,
+          "qualified_best": 0.496261,
+          "night_start_ref": 1.2268620000000001,
+          "night_start_best": 0.498871,
+          "historical_ref": 4.9863175,
+          "historical_best": 0.497857,
+          "speedup_vs_qualified": 5.468022875059696,
+          "speedup_vs_night_start": 2.459277047573421,
+          "speedup_vs_historical": 10.015561697435208
+        },
+        {
+          "p": 501235057,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 4,
+              "K": 30,
+              "witness": 202543889
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 146673198
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 68937392
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 220977004
+            },
+            {
+              "r": 7,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 3223705
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 166719936
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 35493475
+            }
+          ],
+          "qualified_ref": 7.1790225,
+          "qualified_best": 0.947593,
+          "night_start_ref": 2.839024,
+          "night_start_best": 0.9485030000000001,
+          "historical_ref": 4.6937935,
+          "historical_best": 0.946488,
+          "speedup_vs_qualified": 7.576061135951828,
+          "speedup_vs_night_start": 2.993162910396699,
+          "speedup_vs_historical": 4.9591685261725456
+        },
+        {
+          "p": 501235061,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 228091679
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 193514065
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 78236621
+            }
+          ],
+          "qualified_ref": 2.8606334999999996,
+          "qualified_best": 0.4152355,
+          "night_start_ref": 1.3160880000000001,
+          "night_start_best": 0.4154555,
+          "historical_ref": 4.760244999999999,
+          "historical_best": 0.4184755,
+          "speedup_vs_qualified": 6.889183367029071,
+          "speedup_vs_night_start": 3.167819417482739,
+          "speedup_vs_historical": 11.375205955904226
+        },
+        {
+          "p": 501235069,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 26,
+              "prefix": 1,
+              "K": 27,
+              "witness": 7400371
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 74493639
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 3601944
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 191518792
+            }
+          ],
+          "qualified_ref": 3.29767,
+          "qualified_best": 0.4897665,
+          "night_start_ref": 1.3504535,
+          "night_start_best": 0.4885315,
+          "historical_ref": 4.9072320000000005,
+          "historical_best": 0.489306,
+          "speedup_vs_qualified": 6.733147326327955,
+          "speedup_vs_night_start": 2.7643120249154864,
+          "speedup_vs_historical": 10.02896347071158
+        },
+        {
+          "p": 501235081,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 10,
+              "K": 32,
+              "witness": 82108195
+            },
+            {
+              "r": 3,
+              "max": 22,
+              "prefix": 1,
+              "K": 23,
+              "witness": 128908030
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 78491014
+            },
+            {
+              "r": 5,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 85341954
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 87780755
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 39120320
+            }
+          ],
+          "qualified_ref": 5.360932999999999,
+          "qualified_best": 0.7292645,
+          "night_start_ref": 2.3313265000000003,
+          "night_start_best": 0.730915,
+          "historical_ref": 5.036683,
+          "historical_best": 0.73447,
+          "speedup_vs_qualified": 7.351150371367315,
+          "speedup_vs_night_start": 3.189600021890371,
+          "speedup_vs_historical": 6.857574849891759
+        },
+        {
+          "p": 501235087,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 194979485
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 59961275
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 64339950
+            }
+          ],
+          "qualified_ref": 1.903226,
+          "qualified_best": 0.372975,
+          "night_start_ref": 0.896772,
+          "night_start_best": 0.37256999999999996,
+          "historical_ref": 4.924392,
+          "historical_best": 0.37446,
+          "speedup_vs_qualified": 5.102824586098264,
+          "speedup_vs_night_start": 2.4069892906031085,
+          "speedup_vs_historical": 13.15064893446563
+        },
+        {
+          "p": 501235099,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 1,
+              "K": 28,
+              "witness": 142394437
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 180161899
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 65695513
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 219623904
+            }
+          ],
+          "qualified_ref": 3.894483,
+          "qualified_best": 0.4713765,
+          "night_start_ref": 1.630047,
+          "night_start_best": 0.46694199999999997,
+          "historical_ref": 4.5955775,
+          "historical_best": 0.4713815,
+          "speedup_vs_qualified": 8.261937113963043,
+          "speedup_vs_night_start": 3.490898227188816,
+          "speedup_vs_historical": 9.749168136636673
+        },
+        {
+          "p": 501235121,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 2,
+              "K": 29,
+              "witness": 83651807
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 250338368
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 97760398
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 34507481
+            }
+          ],
+          "qualified_ref": 3.053416,
+          "qualified_best": 0.5129170000000001,
+          "night_start_ref": 1.2601965,
+          "night_start_best": 0.5112669999999999,
+          "historical_ref": 4.8582865,
+          "historical_best": 0.510687,
+          "speedup_vs_qualified": 5.95304113531039,
+          "speedup_vs_night_start": 2.4648500685551777,
+          "speedup_vs_historical": 9.513237070847701
+        },
+        {
+          "p": 501235139,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 128152921
+            }
+          ],
+          "qualified_ref": 0.594393,
+          "qualified_best": 0.133372,
+          "night_start_ref": 0.3324695,
+          "night_start_best": 0.1335515,
+          "historical_ref": 4.546172,
+          "historical_best": 0.1338115,
+          "speedup_vs_qualified": 4.456655070029691,
+          "speedup_vs_night_start": 2.489447890888534,
+          "speedup_vs_historical": 33.97444913180108
+        },
+        {
+          "p": 501235193,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 25271322
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 2,
+              "K": 15,
+              "witness": 52649674
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 138711000
+            }
+          ],
+          "qualified_ref": 2.6741515,
+          "qualified_best": 0.40025,
+          "night_start_ref": 1.0761795,
+          "night_start_best": 0.39940600000000004,
+          "historical_ref": 4.865496500000001,
+          "historical_best": 0.400185,
+          "speedup_vs_qualified": 6.681202998126171,
+          "speedup_vs_night_start": 2.6944500082622693,
+          "speedup_vs_historical": 12.15811812036933
+        },
+        {
+          "p": 501235199,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 26,
+              "prefix": 10,
+              "K": 27,
+              "witness": 61993103
+            }
+          ],
+          "qualified_ref": 0.618473,
+          "qualified_best": 0.124387,
+          "night_start_ref": 0.3287045,
+          "night_start_best": 0.12409200000000001,
+          "historical_ref": 4.920311999999999,
+          "historical_best": 0.124192,
+          "speedup_vs_qualified": 4.9721675094664235,
+          "speedup_vs_night_start": 2.6488774457660447,
+          "speedup_vs_historical": 39.61859056944086
+        },
+        {
+          "p": 501235201,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 26,
+              "prefix": 6,
+              "K": 27,
+              "witness": 205623189
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 84956912
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 4,
+              "K": 15,
+              "witness": 141932378
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 168129484
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 141962222
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 4,
+              "K": 11,
+              "witness": 200564893
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 203522816
+            }
+          ],
+          "qualified_ref": 7.286574,
+          "qualified_best": 0.9191425,
+          "night_start_ref": 2.94123,
+          "night_start_best": 0.9197075,
+          "historical_ref": 4.6439035,
+          "historical_best": 0.9259975,
+          "speedup_vs_qualified": 7.927578150286816,
+          "speedup_vs_night_start": 3.198005887741483,
+          "speedup_vs_historical": 5.015028118326454
+        },
+        {
+          "p": 501235211,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 156681629
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 238968697
+            },
+            {
+              "r": 7,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 182450058
+            }
+          ],
+          "qualified_ref": 2.155424,
+          "qualified_best": 0.39926,
+          "night_start_ref": 0.9732784999999999,
+          "night_start_best": 0.3994855,
+          "historical_ref": 4.472106,
+          "historical_best": 0.4002555,
+          "speedup_vs_qualified": 5.398547312528177,
+          "speedup_vs_night_start": 2.4363299794360493,
+          "speedup_vs_historical": 11.173128164385
+        },
+        {
+          "p": 501235237,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 105921634
+            },
+            {
+              "r": 3,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 96403640
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 38282453
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 32883925
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 67987086
+            }
+          ],
+          "qualified_ref": 5.764608,
+          "qualified_best": 0.6029235,
+          "night_start_ref": 2.443923,
+          "night_start_best": 0.603178,
+          "historical_ref": 4.5444320000000005,
+          "historical_best": 0.601933,
+          "speedup_vs_qualified": 9.561093571572513,
+          "speedup_vs_night_start": 4.051744261229686,
+          "speedup_vs_historical": 7.5497306178594625
+        },
+        {
+          "p": 1512345689,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 229090704
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 746009600
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 572825857
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 660920049
+            }
+          ],
+          "qualified_ref": 5.7918780000000005,
+          "qualified_best": 0.797676,
+          "night_start_ref": 2.5497845000000003,
+          "night_start_best": 0.795651,
+          "historical_ref": 12.3400225,
+          "historical_best": 0.8005605,
+          "speedup_vs_qualified": 7.260940532246176,
+          "speedup_vs_night_start": 3.204651913967305,
+          "speedup_vs_historical": 15.414228531135374
+        },
+        {
+          "p": 1512345691,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 738382147
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 359977209
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 85370025
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 344706329
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 562671484
+            }
+          ],
+          "qualified_ref": 6.497218500000001,
+          "qualified_best": 1.06201,
+          "night_start_ref": 2.93705,
+          "night_start_best": 1.0609345000000001,
+          "historical_ref": 11.133581,
+          "historical_best": 1.0660444999999998,
+          "speedup_vs_qualified": 6.117850585211063,
+          "speedup_vs_night_start": 2.7683612890333946,
+          "speedup_vs_historical": 10.443823874144092
+        },
+        {
+          "p": 1512345697,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 4,
+              "K": 29,
+              "witness": 684864045
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 61922847
+            },
+            {
+              "r": 4,
+              "max": 14,
+              "prefix": 2,
+              "K": 15,
+              "witness": 295113277
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 22086258
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 54278627
+            }
+          ],
+          "qualified_ref": 7.766946,
+          "qualified_best": 0.9350080000000001,
+          "night_start_ref": 3.4661915,
+          "night_start_best": 0.935488,
+          "historical_ref": 11.950382000000001,
+          "historical_best": 0.9359025000000001,
+          "speedup_vs_qualified": 8.306823043225299,
+          "speedup_vs_night_start": 3.705222835568174,
+          "speedup_vs_historical": 12.768832223442079
+        },
+        {
+          "p": 1512345701,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 211343628
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 305827624
+            },
+            {
+              "r": 5,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 113712364
+            }
+          ],
+          "qualified_ref": 4.5651969999999995,
+          "qualified_best": 0.5885130000000001,
+          "night_start_ref": 2.0097225,
+          "night_start_best": 0.587038,
+          "historical_ref": 11.584418,
+          "historical_best": 0.5903430000000001,
+          "speedup_vs_qualified": 7.757172738750034,
+          "speedup_vs_night_start": 3.4234964346430727,
+          "speedup_vs_historical": 19.623198716678267
+        },
+        {
+          "p": 1512345763,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 351038440
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 181160317
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 145325717
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 224822571
+            }
+          ],
+          "qualified_ref": 5.450979,
+          "qualified_best": 0.6993045,
+          "night_start_ref": 2.4178930000000003,
+          "night_start_best": 0.7006345,
+          "historical_ref": 11.257038,
+          "historical_best": 0.7019545,
+          "speedup_vs_qualified": 7.794857604948917,
+          "speedup_vs_night_start": 3.451004767821168,
+          "speedup_vs_historical": 16.03670608280166
+        },
+        {
+          "p": 1512345767,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 4,
+              "K": 32,
+              "witness": 441348187
+            }
+          ],
+          "qualified_ref": 1.130835,
+          "qualified_best": 0.1741725,
+          "night_start_ref": 0.535947,
+          "night_start_best": 0.174267,
+          "historical_ref": 12.0211135,
+          "historical_best": 0.1742775,
+          "speedup_vs_qualified": 6.492615079877707,
+          "speedup_vs_night_start": 3.075435968944206,
+          "speedup_vs_historical": 68.97685300741634
+        },
+        {
+          "p": 1512345773,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 746074449
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 102926053
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 532411089
+            }
+          ],
+          "qualified_ref": 5.18241,
+          "qualified_best": 0.6209985,
+          "night_start_ref": 2.201815,
+          "night_start_best": 0.617644,
+          "historical_ref": 12.569690999999999,
+          "historical_best": 0.6197285,
+          "speedup_vs_qualified": 8.345285858178402,
+          "speedup_vs_night_start": 3.5648609878829873,
+          "speedup_vs_historical": 20.282576967171913
+        },
+        {
+          "p": 1512345797,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 86245024
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 663118765
+            }
+          ],
+          "qualified_ref": 1.8958555,
+          "qualified_best": 0.35123950000000004,
+          "night_start_ref": 0.899072,
+          "night_start_best": 0.35168449999999996,
+          "historical_ref": 12.221810999999999,
+          "historical_best": 0.35176450000000004,
+          "speedup_vs_qualified": 5.397614732967106,
+          "speedup_vs_night_start": 2.5564732025437573,
+          "speedup_vs_historical": 34.74429909783392
+        },
+        {
+          "p": 1512345799,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 188216056
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 2,
+              "K": 19,
+              "witness": 280131748
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 320905031
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 622457102
+            }
+          ],
+          "qualified_ref": 5.4924595,
+          "qualified_best": 0.8966620000000001,
+          "night_start_ref": 2.432433,
+          "night_start_best": 0.8877075,
+          "historical_ref": 11.631143,
+          "historical_best": 0.8949425,
+          "speedup_vs_qualified": 6.125451396401319,
+          "speedup_vs_night_start": 2.7401289276028424,
+          "speedup_vs_historical": 12.996525475100356
+        },
+        {
+          "p": 1512345829,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 1,
+              "K": 28,
+              "witness": 527340466
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 205124195
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 382151621
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 189418816
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 711132007
+            }
+          ],
+          "qualified_ref": 9.324382,
+          "qualified_best": 1.0647495,
+          "night_start_ref": 4.1208504999999995,
+          "night_start_best": 1.0624195,
+          "historical_ref": 12.759963500000001,
+          "historical_best": 1.0678345,
+          "speedup_vs_qualified": 8.757348089855876,
+          "speedup_vs_night_start": 3.878741401113213,
+          "speedup_vs_historical": 11.949383073875213
+        },
+        {
+          "p": 1512345833,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 2,
+              "K": 29,
+              "witness": 546826925
+            },
+            {
+              "r": 4,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 695981944
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 199905501
+            }
+          ],
+          "qualified_ref": 6.3750365,
+          "qualified_best": 0.6181835,
+          "night_start_ref": 2.884664,
+          "night_start_best": 0.6172839999999999,
+          "historical_ref": 12.516,
+          "historical_best": 0.6197585,
+          "speedup_vs_qualified": 10.312530987967165,
+          "speedup_vs_night_start": 4.673155306147576,
+          "speedup_vs_historical": 20.19496303802207
+        },
+        {
+          "p": 1512345847,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 2,
+              "K": 29,
+              "witness": 237619426
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 118573404
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 358313379
+            }
+          ],
+          "qualified_ref": 3.31686,
+          "qualified_best": 0.497042,
+          "night_start_ref": 1.386749,
+          "night_start_best": 0.4948565,
+          "historical_ref": 12.153545000000001,
+          "historical_best": 0.501247,
+          "speedup_vs_qualified": 6.673198643173012,
+          "speedup_vs_night_start": 2.8023255226515165,
+          "speedup_vs_historical": 24.24661893238264
+        },
+        {
+          "p": 1512345851,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 644580477
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 159433016
+            }
+          ],
+          "qualified_ref": 2.868674,
+          "qualified_best": 0.442336,
+          "night_start_ref": 1.2839375,
+          "night_start_best": 0.445031,
+          "historical_ref": 11.995657999999999,
+          "historical_best": 0.447356,
+          "speedup_vs_qualified": 6.485282681038848,
+          "speedup_vs_night_start": 2.8850518278501944,
+          "speedup_vs_historical": 26.814568263307073
+        },
+        {
+          "p": 1512345859,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 1,
+              "K": 29,
+              "witness": 118703786
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 579877849
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 372120767
+            }
+          ],
+          "qualified_ref": 3.9774190000000003,
+          "qualified_best": 0.492647,
+          "night_start_ref": 1.7160585,
+          "night_start_best": 0.4933415,
+          "historical_ref": 12.395843,
+          "historical_best": 0.4974115,
+          "speedup_vs_qualified": 8.073567889381241,
+          "speedup_vs_night_start": 3.478439377185986,
+          "speedup_vs_historical": 24.920700466314106
+        },
+        {
+          "p": 1512345893,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 593298436
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 382958668
+            }
+          ],
+          "qualified_ref": 3.882658,
+          "qualified_best": 0.40092550000000005,
+          "night_start_ref": 1.6236519999999999,
+          "night_start_best": 0.400875,
+          "historical_ref": 12.300322000000001,
+          "historical_best": 0.4015755,
+          "speedup_vs_qualified": 9.684238094109753,
+          "speedup_vs_night_start": 4.0502700342999685,
+          "speedup_vs_historical": 30.63016045550588
+        },
+        {
+          "p": 1512345929,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 2,
+              "K": 33,
+              "witness": 562687816
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 361209283
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 125601225
+            }
+          ],
+          "qualified_ref": 5.2094455,
+          "qualified_best": 0.657069,
+          "night_start_ref": 2.1621045,
+          "night_start_best": 0.654709,
+          "historical_ref": 12.284172000000002,
+          "historical_best": 0.656229,
+          "speedup_vs_qualified": 7.928308138110305,
+          "speedup_vs_night_start": 3.3023900694812505,
+          "speedup_vs_historical": 18.719337304508034
+        },
+        {
+          "p": 1512345953,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 124314940
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 37628722
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 11297634
+            }
+          ],
+          "qualified_ref": 4.2383375,
+          "qualified_best": 0.569322,
+          "night_start_ref": 1.771109,
+          "night_start_best": 0.5677675,
+          "historical_ref": 12.2747165,
+          "historical_best": 0.5745125,
+          "speedup_vs_qualified": 7.444534902919614,
+          "speedup_vs_night_start": 3.11942652582263,
+          "speedup_vs_historical": 21.365447226996803
+        },
+        {
+          "p": 1512345971,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 693644001
+            },
+            {
+              "r": 5,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 147192097
+            }
+          ],
+          "qualified_ref": 2.8745190000000003,
+          "qualified_best": 0.46422149999999995,
+          "night_start_ref": 1.2970975,
+          "night_start_best": 0.464206,
+          "historical_ref": 12.000558,
+          "historical_best": 0.46461600000000003,
+          "speedup_vs_qualified": 6.192128111257235,
+          "speedup_vs_night_start": 2.7942282090278883,
+          "speedup_vs_historical": 25.828981352342577
+        },
+        {
+          "p": 1512345973,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 707707645
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 210247662
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 569179468
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 5325228
+            }
+          ],
+          "qualified_ref": 6.6450555,
+          "qualified_best": 0.7004995,
+          "night_start_ref": 2.741092,
+          "night_start_best": 0.6936439999999999,
+          "historical_ref": 12.867505000000001,
+          "historical_best": 0.700415,
+          "speedup_vs_qualified": 9.486167370569143,
+          "speedup_vs_night_start": 3.951727399069264,
+          "speedup_vs_historical": 18.371258468193858
+        },
+        {
+          "p": 1512346081,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 16,
+              "K": 34,
+              "witness": 632138397
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 2,
+              "K": 19,
+              "witness": 54644966
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 38281754
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 2,
+              "K": 15,
+              "witness": 510843990
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 144872089
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 307706591
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 643325473
+            }
+          ],
+          "qualified_ref": 11.251782500000001,
+          "qualified_best": 1.547101,
+          "night_start_ref": 4.7297695,
+          "night_start_best": 1.5437955,
+          "historical_ref": 13.5176485,
+          "historical_best": 1.551016,
+          "speedup_vs_qualified": 7.272817030045227,
+          "speedup_vs_night_start": 3.063728000243555,
+          "speedup_vs_historical": 8.715350776523259
+        },
+        {
+          "p": 1512346153,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 4,
+              "K": 29,
+              "witness": 603562241
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 695090294
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 24845321
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 271013323
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 76868645
+            }
+          ],
+          "qualified_ref": 7.221823,
+          "qualified_best": 0.9813430000000001,
+          "night_start_ref": 3.0701615,
+          "night_start_best": 0.981634,
+          "historical_ref": 12.879204999999999,
+          "historical_best": 0.9892084999999999,
+          "speedup_vs_qualified": 7.359122141799554,
+          "speedup_vs_night_start": 3.1276030577587983,
+          "speedup_vs_historical": 13.019707169924237
+        },
+        {
+          "p": 1512346169,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 180984675
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 332770635
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 90622496
+            }
+          ],
+          "qualified_ref": 5.863085,
+          "qualified_best": 0.6860790000000001,
+          "night_start_ref": 2.351667,
+          "night_start_best": 0.683279,
+          "historical_ref": 12.5370655,
+          "historical_best": 0.684429,
+          "speedup_vs_qualified": 8.5457870012054,
+          "speedup_vs_night_start": 3.4417375625476563,
+          "speedup_vs_historical": 18.317554487024953
+        },
+        {
+          "p": 1512346181,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 494402873
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 38824630
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 182176278
+            }
+          ],
+          "qualified_ref": 5.3019115,
+          "qualified_best": 0.597588,
+          "night_start_ref": 2.194135,
+          "night_start_best": 0.593823,
+          "historical_ref": 12.250122000000001,
+          "historical_best": 0.596578,
+          "speedup_vs_qualified": 8.872185351780825,
+          "speedup_vs_night_start": 3.6949309811172695,
+          "speedup_vs_historical": 20.533982144832695
+        },
+        {
+          "p": 1512346189,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 212404349
+            },
+            {
+              "r": 3,
+              "max": 23,
+              "prefix": 2,
+              "K": 24,
+              "witness": 194579105
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 28468320
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 102136760
+            }
+          ],
+          "qualified_ref": 4.944712,
+          "qualified_best": 0.7961805,
+          "night_start_ref": 2.149555,
+          "night_start_best": 0.792126,
+          "historical_ref": 12.401623,
+          "historical_best": 0.7951455000000001,
+          "speedup_vs_qualified": 6.210541453853743,
+          "speedup_vs_night_start": 2.713652878456205,
+          "speedup_vs_historical": 15.596671301038615
+        },
+        {
+          "p": 1512346207,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 2,
+              "K": 32,
+              "witness": 529850358
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 2,
+              "K": 20,
+              "witness": 62137864
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 322809266
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 157610422
+            }
+          ],
+          "qualified_ref": 4.7913245,
+          "qualified_best": 0.7380599999999999,
+          "night_start_ref": 2.0094625,
+          "night_start_best": 0.7399804999999999,
+          "historical_ref": 12.7569635,
+          "historical_best": 0.7406295,
+          "speedup_vs_qualified": 6.491781833455275,
+          "speedup_vs_night_start": 2.715561423578054,
+          "speedup_vs_historical": 17.224487412397156
+        },
+        {
+          "p": 1512346223,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 34,
+              "prefix": 4,
+              "K": 35,
+              "witness": 658599622
+            }
+          ],
+          "qualified_ref": 1.121185,
+          "qualified_best": 0.17751250000000002,
+          "night_start_ref": 0.529608,
+          "night_start_best": 0.177248,
+          "historical_ref": 12.651037,
+          "historical_best": 0.17757250000000002,
+          "speedup_vs_qualified": 6.316090416167875,
+          "speedup_vs_night_start": 2.9879490882830835,
+          "speedup_vs_historical": 71.24434808317729
+        },
+        {
+          "p": 1512346229,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 512395124
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 429260732
+            }
+          ],
+          "qualified_ref": 3.833167,
+          "qualified_best": 0.41530049999999996,
+          "night_start_ref": 1.5767065,
+          "night_start_best": 0.4133105,
+          "historical_ref": 12.806999000000001,
+          "historical_best": 0.4137905,
+          "speedup_vs_qualified": 9.229863677024229,
+          "speedup_vs_night_start": 3.814823238219208,
+          "speedup_vs_historical": 30.950442313199556
+        },
+        {
+          "p": 1512346243,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 331576804
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 387181294
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 428092876
+            }
+          ],
+          "qualified_ref": 3.978719,
+          "qualified_best": 0.585053,
+          "night_start_ref": 1.728414,
+          "night_start_best": 0.585663,
+          "historical_ref": 12.641947,
+          "historical_best": 0.5875980000000001,
+          "speedup_vs_qualified": 6.800612935922044,
+          "speedup_vs_night_start": 2.9512091424590587,
+          "speedup_vs_historical": 21.51461883804914
+        },
+        {
+          "p": 1512346267,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 659865158
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 2,
+              "K": 20,
+              "witness": 594170639
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 90585017
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 181458445
+            }
+          ],
+          "qualified_ref": 6.245620000000001,
+          "qualified_best": 0.889032,
+          "night_start_ref": 2.629021,
+          "night_start_best": 0.888657,
+          "historical_ref": 11.686788499999999,
+          "historical_best": 0.894597,
+          "speedup_vs_qualified": 7.025191444177488,
+          "speedup_vs_night_start": 2.958420402922612,
+          "speedup_vs_historical": 13.063746580862666
+        },
+        {
+          "p": 1512346279,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 399814109
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 607471425
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 668422677
+            }
+          ],
+          "qualified_ref": 3.8895675,
+          "qualified_best": 0.6128534999999999,
+          "night_start_ref": 1.6753930000000001,
+          "night_start_best": 0.6115435,
+          "historical_ref": 12.3680325,
+          "historical_best": 0.6115685,
+          "speedup_vs_qualified": 6.346651361214386,
+          "speedup_vs_night_start": 2.7396137805405503,
+          "speedup_vs_historical": 20.2234622940848
+        },
+        {
+          "p": 1512346313,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 577088841
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 670825878
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 282777493
+            }
+          ],
+          "qualified_ref": 5.098814,
+          "qualified_best": 0.6252629999999999,
+          "night_start_ref": 2.1139390000000002,
+          "night_start_best": 0.6227739999999999,
+          "historical_ref": 12.5378005,
+          "historical_best": 0.6256835000000001,
+          "speedup_vs_qualified": 8.154670914479189,
+          "speedup_vs_night_start": 3.394391866070196,
+          "speedup_vs_historical": 20.038566623540493
+        },
+        {
+          "p": 1512346331,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 61244876
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 12668164
+            }
+          ],
+          "qualified_ref": 2.868894,
+          "qualified_best": 0.37851999999999997,
+          "night_start_ref": 1.271282,
+          "night_start_best": 0.37675499999999995,
+          "historical_ref": 12.027928,
+          "historical_best": 0.37864,
+          "speedup_vs_qualified": 7.579240198668499,
+          "speedup_vs_night_start": 3.374293639102335,
+          "speedup_vs_historical": 31.766131417705473
+        },
+        {
+          "p": 2712345683,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 779994362
+            }
+          ],
+          "qualified_ref": 1.4537749999999998,
+          "qualified_best": 0.2539985,
+          "night_start_ref": 0.7027695,
+          "night_start_best": 0.25406300000000004,
+          "historical_ref": 23.016652999999998,
+          "historical_best": 0.25410849999999996,
+          "speedup_vs_qualified": 5.7235574225832035,
+          "speedup_vs_night_start": 2.766122969499691,
+          "speedup_vs_historical": 90.57805228868772
+        },
+        {
+          "p": 2712345721,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 34,
+              "prefix": 10,
+              "K": 35,
+              "witness": 421269083
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 964578028
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 10,
+              "K": 22,
+              "witness": 402997109
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 16563502
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 983529305
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 6366827
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 581808959
+            }
+          ],
+          "qualified_ref": 13.6566255,
+          "qualified_best": 2.1432535,
+          "night_start_ref": 6.3729115,
+          "night_start_best": 2.148994,
+          "historical_ref": 23.660677,
+          "historical_best": 2.1533045,
+          "speedup_vs_qualified": 6.371913308435049,
+          "speedup_vs_night_start": 2.965532477056706,
+          "speedup_vs_historical": 10.988077626736024
+        },
+        {
+          "p": 2712345737,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 2,
+              "K": 33,
+              "witness": 629960115
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 27636214
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 35002393
+            }
+          ],
+          "qualified_ref": 6.8620835,
+          "qualified_best": 0.854862,
+          "night_start_ref": 2.9360999999999997,
+          "night_start_best": 0.853721,
+          "historical_ref": 23.0201075,
+          "historical_best": 0.8585864999999999,
+          "speedup_vs_qualified": 8.027124260991831,
+          "speedup_vs_night_start": 3.439179778873894,
+          "speedup_vs_historical": 26.811634587778872
+        },
+        {
+          "p": 2712345743,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 36,
+              "prefix": 4,
+              "K": 37,
+              "witness": 404111289
+            }
+          ],
+          "qualified_ref": 1.5335655,
+          "qualified_best": 0.2566485,
+          "night_start_ref": 0.75651,
+          "night_start_best": 0.2567785,
+          "historical_ref": 23.535375000000002,
+          "historical_best": 0.256293,
+          "speedup_vs_qualified": 5.975353450341615,
+          "speedup_vs_night_start": 2.946157875367291,
+          "speedup_vs_historical": 91.82995633903386
+        },
+        {
+          "p": 2712345749,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 453773441
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 70005
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 431477779
+            }
+          ],
+          "qualified_ref": 3.641794,
+          "qualified_best": 0.7759855,
+          "night_start_ref": 1.7831644999999998,
+          "night_start_best": 0.7761705,
+          "historical_ref": 23.162374999999997,
+          "historical_best": 0.7772705,
+          "speedup_vs_qualified": 4.6931211987852866,
+          "speedup_vs_night_start": 2.2973876229514003,
+          "speedup_vs_historical": 29.79963217438459
+        },
+        {
+          "p": 2712345761,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 2,
+              "K": 32,
+              "witness": 892982312
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 383849766
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 1138334894
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 723951335
+            }
+          ],
+          "qualified_ref": 8.130530499999999,
+          "qualified_best": 1.1366405,
+          "night_start_ref": 3.70757,
+          "night_start_best": 1.1362700000000001,
+          "historical_ref": 22.4163645,
+          "historical_best": 1.139506,
+          "speedup_vs_qualified": 7.153124052855762,
+          "speedup_vs_night_start": 3.2629304654703546,
+          "speedup_vs_historical": 19.672002165850817
+        },
+        {
+          "p": 2712345821,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 198841621
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 701029168
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 173824712
+            }
+          ],
+          "qualified_ref": 7.1391215,
+          "qualified_best": 0.8434715,
+          "night_start_ref": 2.986605,
+          "night_start_best": 0.839817,
+          "historical_ref": 22.7522095,
+          "historical_best": 0.843507,
+          "speedup_vs_qualified": 8.463974775674103,
+          "speedup_vs_night_start": 3.5562568988243863,
+          "speedup_vs_historical": 26.973349954416502
+        },
+        {
+          "p": 2712345833,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 155967622
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 398921637
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 459987009
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 95035445
+            }
+          ],
+          "qualified_ref": 7.633343999999999,
+          "qualified_best": 1.1239055,
+          "night_start_ref": 3.4348515,
+          "night_start_best": 1.1238105,
+          "historical_ref": 23.6325115,
+          "historical_best": 1.126515,
+          "speedup_vs_qualified": 6.791802335694593,
+          "speedup_vs_night_start": 3.056433001827265,
+          "speedup_vs_historical": 20.978425941953727
+        },
+        {
+          "p": 2712345847,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 744336255
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 1241889394
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 252096354
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 732700473
+            }
+          ],
+          "qualified_ref": 7.7065795,
+          "qualified_best": 1.12522,
+          "night_start_ref": 3.5717689999999997,
+          "night_start_best": 1.127501,
+          "historical_ref": 24.124423,
+          "historical_best": 1.127786,
+          "speedup_vs_qualified": 6.848953537974795,
+          "speedup_vs_night_start": 3.1678632657532004,
+          "speedup_vs_historical": 21.390958036365056
+        },
+        {
+          "p": 2712345851,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 35,
+              "prefix": 1,
+              "K": 36,
+              "witness": 245226263
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 593027306
+            }
+          ],
+          "qualified_ref": 3.439832,
+          "qualified_best": 0.532977,
+          "night_start_ref": 1.688783,
+          "night_start_best": 0.530842,
+          "historical_ref": 22.7499085,
+          "historical_best": 0.532117,
+          "speedup_vs_qualified": 6.453997076796934,
+          "speedup_vs_night_start": 3.181328907659906,
+          "speedup_vs_historical": 42.75358332847851
+        },
+        {
+          "p": 2712345859,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 1209037774
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 412291885
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 390794469
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 527447782
+            }
+          ],
+          "qualified_ref": 7.6812345,
+          "qualified_best": 1.357123,
+          "night_start_ref": 3.4092015,
+          "night_start_best": 1.356888,
+          "historical_ref": 24.6746255,
+          "historical_best": 1.3608285,
+          "speedup_vs_qualified": 5.659939813856224,
+          "speedup_vs_night_start": 2.5125150344022495,
+          "speedup_vs_historical": 18.132061093664632
+        },
+        {
+          "p": 2712345871,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 219576896
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 1314045675
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 732252665
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 952302337
+            }
+          ],
+          "qualified_ref": 7.204908,
+          "qualified_best": 1.228561,
+          "night_start_ref": 3.5797535,
+          "night_start_best": 1.226582,
+          "historical_ref": 22.511971,
+          "historical_best": 1.2328765000000002,
+          "speedup_vs_qualified": 5.864509780141157,
+          "speedup_vs_night_start": 2.9184787482614287,
+          "speedup_vs_historical": 18.25971295583945
+        },
+        {
+          "p": 2712345877,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 1303858318
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 630573069
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 675566868
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 25260174
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 118326975
+            }
+          ],
+          "qualified_ref": 11.285748,
+          "qualified_best": 1.5918565,
+          "night_start_ref": 4.8660215,
+          "night_start_best": 1.591736,
+          "historical_ref": 25.2111725,
+          "historical_best": 1.5929769999999999,
+          "speedup_vs_qualified": 7.089676739077926,
+          "speedup_vs_night_start": 3.0570531168485227,
+          "speedup_vs_historical": 15.82645104103826
+        },
+        {
+          "p": 2712345887,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 4,
+              "K": 33,
+              "witness": 1026111677
+            }
+          ],
+          "qualified_ref": 1.44859,
+          "qualified_best": 0.240779,
+          "night_start_ref": 0.73396,
+          "night_start_best": 0.2409235,
+          "historical_ref": 23.9546505,
+          "historical_best": 0.2416185,
+          "speedup_vs_qualified": 6.016263876833113,
+          "speedup_vs_night_start": 3.0464442032429377,
+          "speedup_vs_historical": 99.14245184040129
+        },
+        {
+          "p": 2712345949,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 1317855977
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 2,
+              "K": 21,
+              "witness": 416882226
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 537867617
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 1196542787
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 192569586
+            }
+          ],
+          "qualified_ref": 10.385670999999999,
+          "qualified_best": 1.632707,
+          "night_start_ref": 4.492171,
+          "night_start_best": 1.631637,
+          "historical_ref": 25.6504835,
+          "historical_best": 1.6408369999999999,
+          "speedup_vs_qualified": 6.361013335521927,
+          "speedup_vs_night_start": 2.753168137275632,
+          "speedup_vs_historical": 15.632560394481597
+        },
+        {
+          "p": 2712345953,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 2,
+              "K": 32,
+              "witness": 752433855
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 1343221537
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 469688502
+            }
+          ],
+          "qualified_ref": 6.8191475,
+          "qualified_best": 0.8487365,
+          "night_start_ref": 2.9215795,
+          "night_start_best": 0.8481765,
+          "historical_ref": 23.568415,
+          "historical_best": 0.8518315000000001,
+          "speedup_vs_qualified": 8.03446947315215,
+          "speedup_vs_night_start": 3.4445419084353315,
+          "speedup_vs_historical": 27.667930805564247
+        },
+        {
+          "p": 2712346003,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 568557975
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 138657997
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 1230962960
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 640962141
+            }
+          ],
+          "qualified_ref": 8.279398,
+          "qualified_best": 1.096825,
+          "night_start_ref": 3.697095,
+          "night_start_best": 1.0964200000000002,
+          "historical_ref": 23.883629,
+          "historical_best": 1.09768,
+          "speedup_vs_qualified": 7.548513208579309,
+          "speedup_vs_night_start": 3.371969683150617,
+          "speedup_vs_historical": 21.75828019094818
+        },
+        {
+          "p": 2712346033,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 4,
+              "K": 32,
+              "witness": 1289884172
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 359446672
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 2,
+              "K": 17,
+              "witness": 539256257
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 261197182
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 2,
+              "K": 12,
+              "witness": 898896306
+            }
+          ],
+          "qualified_ref": 9.215675000000001,
+          "qualified_best": 1.285393,
+          "night_start_ref": 3.9957589999999996,
+          "night_start_best": 1.2854325,
+          "historical_ref": 24.858092499999998,
+          "historical_best": 1.286817,
+          "speedup_vs_qualified": 7.169538810309377,
+          "speedup_vs_night_start": 3.1084938337874606,
+          "speedup_vs_historical": 19.31750396521028
+        },
+        {
+          "p": 2712346061,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 35,
+              "prefix": 1,
+              "K": 36,
+              "witness": 181873850
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 1283339999
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 834821080
+            }
+          ],
+          "qualified_ref": 7.0173055,
+          "qualified_best": 0.895412,
+          "night_start_ref": 3.0958724999999996,
+          "night_start_best": 0.8951925000000001,
+          "historical_ref": 23.163864,
+          "historical_best": 0.8989024999999999,
+          "speedup_vs_qualified": 7.836957177254717,
+          "speedup_vs_night_start": 3.4583315878986913,
+          "speedup_vs_historical": 25.769050592249997
+        },
+        {
+          "p": 2712346067,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 1235178404
+            }
+          ],
+          "qualified_ref": 1.5075655000000001,
+          "qualified_best": 0.25484300000000004,
+          "night_start_ref": 0.753395,
+          "night_start_best": 0.2551635,
+          "historical_ref": 24.047172,
+          "historical_best": 0.2545185,
+          "speedup_vs_qualified": 5.915663761610089,
+          "speedup_vs_night_start": 2.952597060316229,
+          "speedup_vs_historical": 94.4810377241733
+        },
+        {
+          "p": 2712346079,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 6,
+              "K": 32,
+              "witness": 441061648
+            }
+          ],
+          "qualified_ref": 1.4711850000000002,
+          "qualified_best": 0.217933,
+          "night_start_ref": 0.7096145,
+          "night_start_best": 0.218013,
+          "historical_ref": 24.881667999999998,
+          "historical_best": 0.217828,
+          "speedup_vs_qualified": 6.750629780712422,
+          "speedup_vs_night_start": 3.2549182846894453,
+          "speedup_vs_historical": 114.22621517894852
+        },
+        {
+          "p": 2712346097,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 34,
+              "prefix": 2,
+              "K": 35,
+              "witness": 955705531
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 1020002449
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 10506884
+            }
+          ],
+          "qualified_ref": 7.596118499999999,
+          "qualified_best": 0.812191,
+          "night_start_ref": 3.6258739999999996,
+          "night_start_best": 0.812786,
+          "historical_ref": 24.444297499999998,
+          "historical_best": 0.812651,
+          "speedup_vs_qualified": 9.35262579861141,
+          "speedup_vs_night_start": 4.461043866405179,
+          "speedup_vs_historical": 30.079699034394835
+        },
+        {
+          "p": 2712346123,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 289342013
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 2,
+              "K": 22,
+              "witness": 1220425175
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 798980317
+            }
+          ],
+          "qualified_ref": 4.2791735,
+          "qualified_best": 0.74588,
+          "night_start_ref": 1.971527,
+          "night_start_best": 0.7458104999999999,
+          "historical_ref": 25.005099,
+          "historical_best": 0.7526649999999999,
+          "speedup_vs_qualified": 5.737080361452244,
+          "speedup_vs_night_start": 2.6434690849753393,
+          "speedup_vs_historical": 33.22208286555108
+        },
+        {
+          "p": 2712346129,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 6,
+              "K": 29,
+              "witness": 46276523
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 846715103
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 258895443
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 169056814
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 941533026
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1166398774
+            }
+          ],
+          "qualified_ref": 13.106207999999999,
+          "qualified_best": 1.809464,
+          "night_start_ref": 5.668892,
+          "night_start_best": 1.8100990000000001,
+          "historical_ref": 24.478952999999997,
+          "historical_best": 1.81128,
+          "speedup_vs_qualified": 7.243143826016985,
+          "speedup_vs_night_start": 3.1318132323149173,
+          "speedup_vs_historical": 13.514726050086125
+        },
+        {
+          "p": 2712346177,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 39,
+              "prefix": 4,
+              "K": 40,
+              "witness": 929260030
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 27071262
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 1168018482
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 195310175
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 100420988
+            }
+          ],
+          "qualified_ref": 9.9914355,
+          "qualified_best": 1.3223980000000002,
+          "night_start_ref": 4.557912,
+          "night_start_best": 1.321498,
+          "historical_ref": 24.796836499999998,
+          "historical_best": 1.323478,
+          "speedup_vs_qualified": 7.555543414312482,
+          "speedup_vs_night_start": 3.4490494877782636,
+          "speedup_vs_historical": 18.736115371770442
+        },
+        {
+          "p": 2712346181,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 247595279
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1135410511
+            },
+            {
+              "r": 5,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 953472258
+            }
+          ],
+          "qualified_ref": 6.1476435,
+          "qualified_best": 0.803231,
+          "night_start_ref": 2.646346,
+          "night_start_best": 0.8026310000000001,
+          "historical_ref": 23.133459000000002,
+          "historical_best": 0.8037110000000001,
+          "speedup_vs_qualified": 7.6536432234313665,
+          "speedup_vs_night_start": 3.2970891979004047,
+          "speedup_vs_historical": 28.783305193035805
+        },
+        {
+          "p": 2712346183,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 2,
+              "K": 33,
+              "witness": 123032208
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 1106616944
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 693672107
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 4,
+              "K": 13,
+              "witness": 621615391
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1257749707
+            }
+          ],
+          "qualified_ref": 9.4588385,
+          "qualified_best": 1.456065,
+          "night_start_ref": 4.112661,
+          "night_start_best": 1.4490195,
+          "historical_ref": 22.8519855,
+          "historical_best": 1.4581650000000002,
+          "speedup_vs_qualified": 6.496165006369909,
+          "speedup_vs_night_start": 2.838237166580574,
+          "speedup_vs_historical": 15.671741881062841
+        },
+        {
+          "p": 2712346187,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 137765832
+            }
+          ],
+          "qualified_ref": 1.462555,
+          "qualified_best": 0.22791299999999998,
+          "night_start_ref": 0.7238595,
+          "night_start_best": 0.227993,
+          "historical_ref": 23.4925445,
+          "historical_best": 0.229913,
+          "speedup_vs_qualified": 6.417163566799613,
+          "speedup_vs_night_start": 3.174919844030299,
+          "speedup_vs_historical": 102.18014857794036
+        },
+        {
+          "p": 2712346199,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 16,
+              "K": 32,
+              "witness": 416436888
+            }
+          ],
+          "qualified_ref": 1.476685,
+          "qualified_best": 0.2411435,
+          "night_start_ref": 0.7306845,
+          "night_start_best": 0.241413,
+          "historical_ref": 23.9439305,
+          "historical_best": 0.2427735,
+          "speedup_vs_qualified": 6.123677395409787,
+          "speedup_vs_night_start": 3.0266990592884393,
+          "speedup_vs_historical": 98.62662316933273
+        },
+        {
+          "p": 2712346201,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 6,
+              "K": 31,
+              "witness": 743473952
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 828829943
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 6,
+              "K": 17,
+              "witness": 595782812
+            },
+            {
+              "r": 5,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 1052584256
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 149417609
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 83953858
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 1033062737
+            }
+          ],
+          "qualified_ref": 13.789247,
+          "qualified_best": 2.0423575,
+          "night_start_ref": 6.0407665,
+          "night_start_best": 2.041423,
+          "historical_ref": 25.913111999999998,
+          "historical_best": 2.0452275,
+          "speedup_vs_qualified": 6.751632366027985,
+          "speedup_vs_night_start": 2.9590959345515357,
+          "speedup_vs_historical": 12.670038907652081
+        },
+        {
+          "p": 2712346211,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 76745707
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 569148833
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 1017660512
+            }
+          ],
+          "qualified_ref": 6.4997489999999996,
+          "qualified_best": 0.974478,
+          "night_start_ref": 2.939225,
+          "night_start_best": 0.976433,
+          "historical_ref": 24.203723500000002,
+          "historical_best": 0.9816035000000001,
+          "speedup_vs_qualified": 6.669980235572275,
+          "speedup_vs_night_start": 3.0101655720361764,
+          "speedup_vs_historical": 24.657332110164646
+        },
+        {
+          "p": 2712346229,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 1013886635
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 295776201
+            }
+          ],
+          "qualified_ref": 2.5986200000000004,
+          "qualified_best": 0.453121,
+          "night_start_ref": 1.205436,
+          "night_start_best": 0.4532065,
+          "historical_ref": 24.6790255,
+          "historical_best": 0.4545715,
+          "speedup_vs_qualified": 5.734936142884573,
+          "speedup_vs_night_start": 2.6597941556442812,
+          "speedup_vs_historical": 54.29074524029773
+        },
+        {
+          "p": 4201234577,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 2,
+              "K": 34,
+              "witness": 1549014417
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1858147578
+            },
+            {
+              "r": 7,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1554079221
+            },
+            {
+              "r": 8,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 320898022
+            }
+          ],
+          "qualified_ref": 10.6888005,
+          "qualified_best": 1.524446,
+          "night_start_ref": 4.5649820000000005,
+          "night_start_best": 1.5225105,
+          "historical_ref": 39.328444000000005,
+          "historical_best": 1.5284155,
+          "speedup_vs_qualified": 7.01159667184013,
+          "speedup_vs_night_start": 2.998325463108465,
+          "speedup_vs_historical": 25.731513452984483
+        },
+        {
+          "p": 4201234601,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 2,
+              "K": 33,
+              "witness": 1226760511
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 711334301
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 259263675
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 880958163
+            }
+          ],
+          "qualified_ref": 9.068123,
+          "qualified_best": 1.5093455,
+          "night_start_ref": 4.104751,
+          "night_start_best": 1.5083255,
+          "historical_ref": 35.2699095,
+          "historical_best": 1.5136255,
+          "speedup_vs_qualified": 6.007983592888441,
+          "speedup_vs_night_start": 2.721396011669895,
+          "speedup_vs_historical": 23.301608951487665
+        },
+        {
+          "p": 4201234603,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 1,
+              "K": 33,
+              "witness": 299319393
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 86327653
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 309800041
+            }
+          ],
+          "qualified_ref": 5.905670000000001,
+          "qualified_best": 0.938303,
+          "night_start_ref": 2.7747075,
+          "night_start_best": 0.938513,
+          "historical_ref": 38.420661499999994,
+          "historical_best": 0.9400075000000001,
+          "speedup_vs_qualified": 6.293990320823871,
+          "speedup_vs_night_start": 2.9564934103203684,
+          "speedup_vs_historical": 40.87271803682416
+        },
+        {
+          "p": 4201234643,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 545716613
+            }
+          ],
+          "qualified_ref": 1.983617,
+          "qualified_best": 0.29549400000000003,
+          "night_start_ref": 0.9526380000000001,
+          "night_start_best": 0.295389,
+          "historical_ref": 37.1045745,
+          "historical_best": 0.296799,
+          "speedup_vs_qualified": 6.712884187157775,
+          "speedup_vs_night_start": 3.2250286909803685,
+          "speedup_vs_historical": 125.0158339482276
+        },
+        {
+          "p": 4201234657,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 4,
+              "K": 34,
+              "witness": 1925622067
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 2,
+              "K": 20,
+              "witness": 393437192
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1266201086
+            },
+            {
+              "r": 6,
+              "max": 14,
+              "prefix": 2,
+              "K": 15,
+              "witness": 98861646
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 339009213
+            }
+          ],
+          "qualified_ref": 12.810739000000002,
+          "qualified_best": 1.9298160000000002,
+          "night_start_ref": 5.889225,
+          "night_start_best": 1.925561,
+          "historical_ref": 38.465977499999994,
+          "historical_best": 1.936177,
+          "speedup_vs_qualified": 6.638321477280736,
+          "speedup_vs_night_start": 3.0584463436889298,
+          "speedup_vs_historical": 19.866973680608744
+        },
+        {
+          "p": 4201234673,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 2,
+              "K": 34,
+              "witness": 1134709618
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 36696495
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 659549965
+            }
+          ],
+          "qualified_ref": 6.134443,
+          "qualified_best": 1.0780295,
+          "night_start_ref": 2.7447875,
+          "night_start_best": 1.0779195000000001,
+          "historical_ref": 37.760298,
+          "historical_best": 1.07939,
+          "speedup_vs_qualified": 5.690422200876692,
+          "speedup_vs_night_start": 2.5463752163310893,
+          "speedup_vs_historical": 34.982997804315396
+        },
+        {
+          "p": 4201234679,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 10,
+              "K": 31,
+              "witness": 182105119
+            }
+          ],
+          "qualified_ref": 1.998602,
+          "qualified_best": 0.293844,
+          "night_start_ref": 0.9466129999999999,
+          "night_start_best": 0.29400899999999996,
+          "historical_ref": 38.423972,
+          "historical_best": 0.293784,
+          "speedup_vs_qualified": 6.801574985366385,
+          "speedup_vs_night_start": 3.2196735474084126,
+          "speedup_vs_historical": 130.78987283174033
+        },
+        {
+          "p": 4201234711,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 148455872
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 1815366222
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 632973750
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 211259435
+            }
+          ],
+          "qualified_ref": 9.5977,
+          "qualified_best": 1.605972,
+          "night_start_ref": 4.7461649999999995,
+          "night_start_best": 1.6077119999999998,
+          "historical_ref": 37.5826605,
+          "historical_best": 1.6067815,
+          "speedup_vs_qualified": 5.976256124017106,
+          "speedup_vs_night_start": 2.9521238878605125,
+          "speedup_vs_historical": 23.3900256506563
+        },
+        {
+          "p": 4201234729,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 6,
+              "K": 32,
+              "witness": 304291340
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 2,
+              "K": 21,
+              "witness": 521381017
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 639255667
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 959670659
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 67374463
+            }
+          ],
+          "qualified_ref": 13.548509,
+          "qualified_best": 1.9196810000000002,
+          "night_start_ref": 6.109248,
+          "night_start_best": 1.919246,
+          "historical_ref": 39.714895,
+          "historical_best": 1.928677,
+          "speedup_vs_qualified": 7.057687709572579,
+          "speedup_vs_night_start": 3.183150049550709,
+          "speedup_vs_historical": 20.591781309156485
+        },
+        {
+          "p": 4201234747,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 15397943
+            },
+            {
+              "r": 3,
+              "max": 22,
+              "prefix": 2,
+              "K": 23,
+              "witness": 1556607521
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 1380955531
+            }
+          ],
+          "qualified_ref": 7.0071449999999995,
+          "qualified_best": 1.10985,
+          "night_start_ref": 3.620764,
+          "night_start_best": 1.10908,
+          "historical_ref": 39.7038845,
+          "historical_best": 1.111055,
+          "speedup_vs_qualified": 6.313596431950263,
+          "speedup_vs_night_start": 3.2646553900530164,
+          "speedup_vs_historical": 35.73530068268448
+        },
+        {
+          "p": 4201234777,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 4,
+              "K": 32,
+              "witness": 777668189
+            },
+            {
+              "r": 3,
+              "max": 22,
+              "prefix": 1,
+              "K": 23,
+              "witness": 221750841
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 288840560
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 1809043337
+            },
+            {
+              "r": 8,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 863848911
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1570960819
+            }
+          ],
+          "qualified_ref": 15.270648000000001,
+          "qualified_best": 2.3992329999999997,
+          "night_start_ref": 6.96416,
+          "night_start_best": 2.3949475,
+          "historical_ref": 39.7317295,
+          "historical_best": 2.4057925,
+          "speedup_vs_qualified": 6.364804085305597,
+          "speedup_vs_night_start": 2.9078549738564208,
+          "speedup_vs_historical": 16.51502758446541
+        },
+        {
+          "p": 4201234783,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 574714792
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 368403804
+            },
+            {
+              "r": 6,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1967379293
+            }
+          ],
+          "qualified_ref": 6.0880030000000005,
+          "qualified_best": 1.1178055,
+          "night_start_ref": 3.1157375,
+          "night_start_best": 1.116625,
+          "historical_ref": 38.398041500000005,
+          "historical_best": 1.12362,
+          "speedup_vs_qualified": 5.446388481717079,
+          "speedup_vs_night_start": 2.7903168028657785,
+          "speedup_vs_historical": 34.17351195243944
+        },
+        {
+          "p": 4201234787,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 1,
+              "K": 33,
+              "witness": 45129918
+            },
+            {
+              "r": 7,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 375937452
+            }
+          ],
+          "qualified_ref": 4.3256835,
+          "qualified_best": 0.7155745,
+          "night_start_ref": 2.046418,
+          "night_start_best": 0.71516,
+          "historical_ref": 38.694181,
+          "historical_best": 0.71792,
+          "speedup_vs_qualified": 6.04504981661588,
+          "speedup_vs_night_start": 2.8614827451199734,
+          "speedup_vs_historical": 53.89762229774905
+        },
+        {
+          "p": 4201234789,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 34,
+              "prefix": 1,
+              "K": 35,
+              "witness": 352264684
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 1793066988
+            },
+            {
+              "r": 4,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 582536205
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 21536059
+            }
+          ],
+          "qualified_ref": 10.6633845,
+          "qualified_best": 1.4465795,
+          "night_start_ref": 4.883086499999999,
+          "night_start_best": 1.4468845,
+          "historical_ref": 38.817032,
+          "historical_best": 1.4534395,
+          "speedup_vs_qualified": 7.371447265774194,
+          "speedup_vs_night_start": 3.374897236095901,
+          "speedup_vs_historical": 26.70701601270641
+        },
+        {
+          "p": 4201234811,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 925713664
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1748289831
+            }
+          ],
+          "qualified_ref": 4.478881,
+          "qualified_best": 0.690474,
+          "night_start_ref": 2.0744485,
+          "night_start_best": 0.69129,
+          "historical_ref": 35.815347,
+          "historical_best": 0.6934294999999999,
+          "speedup_vs_qualified": 6.486675819799153,
+          "speedup_vs_night_start": 3.0008368412677746,
+          "speedup_vs_historical": 51.64958658378394
+        },
+        {
+          "p": 4201234813,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 1716094857
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 2026842972
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1855837227
+            },
+            {
+              "r": 6,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 190743310
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 878166424
+            }
+          ],
+          "qualified_ref": 14.236913,
+          "qualified_best": 1.990952,
+          "night_start_ref": 6.464097499999999,
+          "night_start_best": 1.992742,
+          "historical_ref": 40.260881999999995,
+          "historical_best": 1.997752,
+          "speedup_vs_qualified": 7.150806749735804,
+          "speedup_vs_night_start": 3.2438205748661892,
+          "speedup_vs_historical": 20.153093076618116
+        },
+        {
+          "p": 4201234823,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 36,
+              "prefix": 4,
+              "K": 37,
+              "witness": 1539121501
+            }
+          ],
+          "qualified_ref": 1.9714260000000001,
+          "qualified_best": 0.306539,
+          "night_start_ref": 0.9282675,
+          "night_start_best": 0.3065545,
+          "historical_ref": 37.053903000000005,
+          "historical_best": 0.30863399999999996,
+          "speedup_vs_qualified": 6.431240396817371,
+          "speedup_vs_night_start": 3.028066787471722,
+          "speedup_vs_historical": 120.05774801220866
+        },
+        {
+          "p": 4201234859,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 389841367
+            }
+          ],
+          "qualified_ref": 1.9760365000000002,
+          "qualified_best": 0.26085400000000003,
+          "night_start_ref": 0.960568,
+          "night_start_best": 0.260714,
+          "historical_ref": 37.7440325,
+          "historical_best": 0.264088,
+          "speedup_vs_qualified": 7.575258573761568,
+          "speedup_vs_night_start": 3.6843744486295327,
+          "speedup_vs_historical": 142.9221793493078
+        },
+        {
+          "p": 4201234879,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 2,
+              "K": 29,
+              "witness": 1291890762
+            },
+            {
+              "r": 3,
+              "max": 22,
+              "prefix": 2,
+              "K": 23,
+              "witness": 88887422
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 355037710
+            }
+          ],
+          "qualified_ref": 5.9655059999999995,
+          "qualified_best": 0.938758,
+          "night_start_ref": 2.8162979999999997,
+          "night_start_best": 0.9383680000000001,
+          "historical_ref": 39.055760500000005,
+          "historical_best": 0.943638,
+          "speedup_vs_qualified": 6.354679267713298,
+          "speedup_vs_night_start": 3.00127242190697,
+          "speedup_vs_historical": 41.388499085454384
+        },
+        {
+          "p": 4201234907,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 1,
+              "K": 31,
+              "witness": 1217395438
+            }
+          ],
+          "qualified_ref": 1.990097,
+          "qualified_best": 0.293439,
+          "night_start_ref": 0.9397679999999999,
+          "night_start_best": 0.293909,
+          "historical_ref": 38.493223,
+          "historical_best": 0.293634,
+          "speedup_vs_qualified": 6.781978537276912,
+          "speedup_vs_night_start": 3.1974794919515905,
+          "speedup_vs_historical": 131.09252675098932
+        },
+        {
+          "p": 4201234909,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 2037086271
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 679801638
+            },
+            {
+              "r": 4,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 252467987
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 210891457
+            }
+          ],
+          "qualified_ref": 8.547321,
+          "qualified_best": 1.4355045,
+          "night_start_ref": 4.2244725,
+          "night_start_best": 1.4366794999999999,
+          "historical_ref": 39.5362075,
+          "historical_best": 1.4373645,
+          "speedup_vs_qualified": 5.954227938679399,
+          "speedup_vs_night_start": 2.9404418313200686,
+          "speedup_vs_historical": 27.50604143903652
+        },
+        {
+          "p": 4201234937,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 2,
+              "K": 30,
+              "witness": 183506377
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1079778860
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 692414490
+            }
+          ],
+          "qualified_ref": 8.791299500000001,
+          "qualified_best": 1.0537845,
+          "night_start_ref": 3.6221995,
+          "night_start_best": 1.0526689999999999,
+          "historical_ref": 39.118897000000004,
+          "historical_best": 1.0615394999999999,
+          "speedup_vs_qualified": 8.342597086975564,
+          "speedup_vs_night_start": 3.4409671986160895,
+          "speedup_vs_historical": 36.85109880508451
+        },
+        {
+          "p": 4201234957,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 1,
+              "K": 34,
+              "witness": 209129711
+            },
+            {
+              "r": 3,
+              "max": 23,
+              "prefix": 1,
+              "K": 24,
+              "witness": 675456001
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 306741884
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 520888912
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 527747588
+            }
+          ],
+          "qualified_ref": 12.375278,
+          "qualified_best": 1.806109,
+          "night_start_ref": 5.678277,
+          "night_start_best": 1.804959,
+          "historical_ref": 40.298617500000006,
+          "historical_best": 1.8204845,
+          "speedup_vs_qualified": 6.851899857649787,
+          "speedup_vs_night_start": 3.145931292622159,
+          "speedup_vs_historical": 22.136204675184
+        },
+        {
+          "p": 4201234991,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 6,
+              "K": 31,
+              "witness": 1817185121
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 262972238
+            }
+          ],
+          "qualified_ref": 4.4735005,
+          "qualified_best": 0.701165,
+          "night_start_ref": 2.075188,
+          "night_start_best": 0.7031149999999999,
+          "historical_ref": 36.536951,
+          "historical_best": 0.7028595,
+          "speedup_vs_qualified": 6.380096696212732,
+          "speedup_vs_night_start": 2.9514204646466085,
+          "speedup_vs_historical": 51.983292535705935
+        },
+        {
+          "p": 4201235021,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 1,
+              "K": 32,
+              "witness": 439221764
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 802822826
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 58433657
+            }
+          ],
+          "qualified_ref": 9.219666,
+          "qualified_best": 1.072335,
+          "night_start_ref": 3.8859130000000004,
+          "night_start_best": 1.072165,
+          "historical_ref": 36.5149915,
+          "historical_best": 1.0726395,
+          "speedup_vs_qualified": 8.59774790527214,
+          "speedup_vs_night_start": 3.624360989213414,
+          "speedup_vs_historical": 34.042184256686426
+        },
+        {
+          "p": 4201235033,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 1122625367
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 533893163
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1100046225
+            }
+          ],
+          "qualified_ref": 8.059139,
+          "qualified_best": 1.06365,
+          "night_start_ref": 3.4876775,
+          "night_start_best": 1.0617945,
+          "historical_ref": 37.764778,
+          "historical_best": 1.0640744999999998,
+          "speedup_vs_qualified": 7.576871151224557,
+          "speedup_vs_night_start": 3.2847010414915507,
+          "speedup_vs_historical": 35.49072738797895
+        },
+        {
+          "p": 4201235047,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 35,
+              "prefix": 2,
+              "K": 36,
+              "witness": 651481769
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 2,
+              "K": 20,
+              "witness": 77047880
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 612756373
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 164183841
+            }
+          ],
+          "qualified_ref": 10.644975,
+          "qualified_best": 1.8356845,
+          "night_start_ref": 4.839705,
+          "night_start_best": 1.833355,
+          "historical_ref": 40.2853675,
+          "historical_best": 1.84282,
+          "speedup_vs_qualified": 5.798913157462517,
+          "speedup_vs_night_start": 2.6398078931794444,
+          "speedup_vs_historical": 21.860717541593864
+        },
+        {
+          "p": 4201235081,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 2,
+              "K": 31,
+              "witness": 337396599
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 584115750
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 4,
+              "K": 15,
+              "witness": 1193924620
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 428126913
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 309185761
+            }
+          ],
+          "qualified_ref": 15.317803000000001,
+          "qualified_best": 2.024488,
+          "night_start_ref": 6.3628915,
+          "night_start_best": 2.0223079999999998,
+          "historical_ref": 39.0519305,
+          "historical_best": 2.034223,
+          "speedup_vs_qualified": 7.566260209988897,
+          "speedup_vs_night_start": 3.1463513470747286,
+          "speedup_vs_historical": 19.19746778008114
+        },
+        {
+          "p": 4201235113,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 4,
+              "K": 33,
+              "witness": 1348869039
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 234533640
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 4,
+              "K": 17,
+              "witness": 1149198845
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 283130670
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 1061845946
+            }
+          ],
+          "qualified_ref": 14.196503,
+          "qualified_best": 1.9587415,
+          "night_start_ref": 6.409452,
+          "night_start_best": 1.9576319999999998,
+          "historical_ref": 39.1769475,
+          "historical_best": 1.970947,
+          "speedup_vs_qualified": 7.247767507861553,
+          "speedup_vs_night_start": 3.274084199686152,
+          "speedup_vs_historical": 19.87722018907662
+        },
+        {
+          "p": 4201235161,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 32,
+              "prefix": 10,
+              "K": 33,
+              "witness": 1420745261
+            },
+            {
+              "r": 3,
+              "max": 21,
+              "prefix": 1,
+              "K": 22,
+              "witness": 1519773778
+            },
+            {
+              "r": 4,
+              "max": 18,
+              "prefix": 10,
+              "K": 22,
+              "witness": 945006521
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1545755934
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 757486493
+            },
+            {
+              "r": 8,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 953519191
+            }
+          ],
+          "qualified_ref": 15.4034945,
+          "qualified_best": 2.171309,
+          "night_start_ref": 6.6601155,
+          "night_start_best": 2.1712745,
+          "historical_ref": 38.669180499999996,
+          "historical_best": 2.17516,
+          "speedup_vs_qualified": 7.0941052148726875,
+          "speedup_vs_night_start": 3.067376096389471,
+          "speedup_vs_historical": 17.777625783850382
+        },
+        {
+          "p": 4201235231,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 6,
+              "K": 32,
+              "witness": 273784747
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 4,
+              "K": 15,
+              "witness": 285282860
+            }
+          ],
+          "qualified_ref": 4.7424040000000005,
+          "qualified_best": 0.814516,
+          "night_start_ref": 2.193035,
+          "night_start_best": 0.8129655,
+          "historical_ref": 35.1460425,
+          "historical_best": 0.814216,
+          "speedup_vs_qualified": 5.822358308492406,
+          "speedup_vs_night_start": 2.697574497318767,
+          "speedup_vs_historical": 43.165502151763164
+        },
+        {
+          "p": 4201235261,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 1,
+              "K": 30,
+              "witness": 1404735742
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 1112225333
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 116321844
+            }
+          ],
+          "qualified_ref": 8.2609525,
+          "qualified_best": 1.172251,
+          "night_start_ref": 3.6517144999999998,
+          "night_start_best": 1.172616,
+          "historical_ref": 35.2617135,
+          "historical_best": 1.172981,
+          "speedup_vs_qualified": 7.047085052603922,
+          "speedup_vs_night_start": 3.1141605606609493,
+          "speedup_vs_historical": 30.06162376031666
+        }
+      ],
+      "sum_medians": {
+        "qualified_ref": 731.961248,
+        "qualified_best": 105.2949175,
+        "night_start_ref": 324.9144645,
+        "night_start_best": 105.2180375,
+        "historical_ref": 2534.1975925,
+        "historical_best": 105.579262
+      },
+      "speedups": {
+        "qualified": 6.9515344650894475,
+        "night_start": 3.088011069394827,
+        "historical": 24.00279699340956
+      },
+      "first_iteration_sum_ms": {
+        "qualified_ref": 736.73432,
+        "qualified_best": 110.3261305,
+        "night_start_ref": 329.7602635,
+        "night_start_best": 110.608488,
+        "historical_ref": 2519.864739,
+        "historical_best": 110.9237315
+      }
+    },
+    "stress8": {
+      "per_prime": [
+        {
+          "p": 207768961,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 28,
+              "prefix": 16,
+              "K": 34,
+              "witness": 3317109
+            },
+            {
+              "r": 3,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 64655555
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 2,
+              "K": 16,
+              "witness": 58938459
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 19567820
+            },
+            {
+              "r": 6,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 19593175
+            },
+            {
+              "r": 7,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 2045865
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 2,
+              "K": 11,
+              "witness": 13403553
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 22386444
+            }
+          ],
+          "qualified_ref": 4.971502,
+          "qualified_best": 0.890603,
+          "night_start_ref": 2.19129,
+          "night_start_best": 0.8936525,
+          "historical_ref": 2.740887,
+          "historical_best": 0.894272,
+          "speedup_vs_qualified": 5.5821752228546275,
+          "speedup_vs_night_start": 2.452060504502589,
+          "speedup_vs_historical": 3.0649366188363274
+        },
+        {
+          "p": 673777441,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 10,
+              "K": 32,
+              "witness": 195155217
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 2,
+              "K": 21,
+              "witness": 210233643
+            },
+            {
+              "r": 4,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 60564649
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 168913767
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 208833122
+            },
+            {
+              "r": 7,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 134757935
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 132139441
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 108091069
+            }
+          ],
+          "qualified_ref": 6.755827,
+          "qualified_best": 1.250122,
+          "night_start_ref": 2.9305250000000003,
+          "night_start_best": 1.2511670000000001,
+          "historical_ref": 7.0891765,
+          "historical_best": 1.250277,
+          "speedup_vs_qualified": 5.404134156506325,
+          "speedup_vs_night_start": 2.342233290999523,
+          "speedup_vs_historical": 5.670084709228434
+        },
+        {
+          "p": 1073766961,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 27,
+              "prefix": 12,
+              "K": 28,
+              "witness": 70922288
+            },
+            {
+              "r": 3,
+              "max": 18,
+              "prefix": 1,
+              "K": 19,
+              "witness": 169564154
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 212704736
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 236067652
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 99559922
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 403001079
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 15692689
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 201638821
+            }
+          ],
+          "qualified_ref": 9.620101,
+          "qualified_best": 1.5026305,
+          "night_start_ref": 4.335354000000001,
+          "night_start_best": 1.5026205,
+          "historical_ref": 11.081806,
+          "historical_best": 1.5011655,
+          "speedup_vs_qualified": 6.402173388600857,
+          "speedup_vs_night_start": 2.885195563350827,
+          "speedup_vs_historical": 7.382134747967497
+        },
+        {
+          "p": 1773792721,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 10,
+              "K": 31,
+              "witness": 192529063
+            },
+            {
+              "r": 3,
+              "max": 22,
+              "prefix": 1,
+              "K": 23,
+              "witness": 56055578
+            },
+            {
+              "r": 4,
+              "max": 15,
+              "prefix": 1,
+              "K": 16,
+              "witness": 344594141
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 84295674
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 771628962
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 170616190
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 117741440
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 30413933
+            }
+          ],
+          "qualified_ref": 13.393212,
+          "qualified_best": 1.944451,
+          "night_start_ref": 6.042397,
+          "night_start_best": 1.943861,
+          "historical_ref": 18.805176,
+          "historical_best": 1.941816,
+          "speedup_vs_qualified": 6.887914377888669,
+          "speedup_vs_night_start": 3.1084511701196744,
+          "speedup_vs_historical": 9.684324364409399
+        },
+        {
+          "p": 2473775641,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 29,
+              "prefix": 10,
+              "K": 30,
+              "witness": 246552139
+            },
+            {
+              "r": 3,
+              "max": 19,
+              "prefix": 1,
+              "K": 20,
+              "witness": 253264102
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 790852856
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 91271755
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 17073099
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 207350011
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 966551447
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 896778268
+            }
+          ],
+          "qualified_ref": 18.281668,
+          "qualified_best": 2.5972305,
+          "night_start_ref": 7.957423,
+          "night_start_best": 2.58645,
+          "historical_ref": 26.46159,
+          "historical_best": 2.5909805,
+          "speedup_vs_qualified": 7.038908560483946,
+          "speedup_vs_night_start": 3.07658102805003,
+          "speedup_vs_historical": 10.212963779542147
+        },
+        {
+          "p": 3173766121,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 33,
+              "prefix": 12,
+              "K": 34,
+              "witness": 602071387
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 2,
+              "K": 21,
+              "witness": 1158499070
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 1466735455
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1202187067
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 2,
+              "K": 13,
+              "witness": 59378172
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 1552305537
+            },
+            {
+              "r": 8,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 262203119
+            },
+            {
+              "r": 9,
+              "max": 9,
+              "prefix": 1,
+              "K": 10,
+              "witness": 113311819
+            }
+          ],
+          "qualified_ref": 17.568179,
+          "qualified_best": 2.816859,
+          "night_start_ref": 8.0542345,
+          "night_start_best": 2.8130930000000003,
+          "historical_ref": 34.554469,
+          "historical_best": 2.8153685,
+          "speedup_vs_qualified": 6.236797439985459,
+          "speedup_vs_night_start": 2.8631241484017766,
+          "speedup_vs_historical": 12.273515527363468
+        },
+        {
+          "p": 3873779281,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 31,
+              "prefix": 12,
+              "K": 32,
+              "witness": 199318433
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 2,
+              "K": 21,
+              "witness": 559578310
+            },
+            {
+              "r": 4,
+              "max": 17,
+              "prefix": 1,
+              "K": 18,
+              "witness": 253417160
+            },
+            {
+              "r": 5,
+              "max": 13,
+              "prefix": 1,
+              "K": 14,
+              "witness": 514152502
+            },
+            {
+              "r": 6,
+              "max": 13,
+              "prefix": 2,
+              "K": 14,
+              "witness": 229343206
+            },
+            {
+              "r": 7,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 1211993771
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 194982694
+            },
+            {
+              "r": 9,
+              "max": 10,
+              "prefix": 1,
+              "K": 11,
+              "witness": 1453844722
+            }
+          ],
+          "qualified_ref": 20.510679,
+          "qualified_best": 3.027076,
+          "night_start_ref": 9.162424,
+          "night_start_best": 3.018946,
+          "historical_ref": 42.255834,
+          "historical_best": 3.0203160000000002,
+          "speedup_vs_qualified": 6.775739690711432,
+          "speedup_vs_night_start": 3.0349744579730804,
+          "speedup_vs_historical": 13.990534103054117
+        },
+        {
+          "p": 4273768801,
+          "profiles": [
+            {
+              "r": 2,
+              "max": 30,
+              "prefix": 22,
+              "K": 46,
+              "witness": 609993619
+            },
+            {
+              "r": 3,
+              "max": 20,
+              "prefix": 1,
+              "K": 21,
+              "witness": 1029935166
+            },
+            {
+              "r": 4,
+              "max": 16,
+              "prefix": 1,
+              "K": 17,
+              "witness": 666978350
+            },
+            {
+              "r": 5,
+              "max": 14,
+              "prefix": 1,
+              "K": 15,
+              "witness": 1656552767
+            },
+            {
+              "r": 6,
+              "max": 12,
+              "prefix": 1,
+              "K": 13,
+              "witness": 42403
+            },
+            {
+              "r": 7,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 340660692
+            },
+            {
+              "r": 8,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 510187042
+            },
+            {
+              "r": 9,
+              "max": 11,
+              "prefix": 1,
+              "K": 12,
+              "witness": 717783156
+            }
+          ],
+          "qualified_ref": 21.421271,
+          "qualified_best": 3.020101,
+          "night_start_ref": 9.136554,
+          "night_start_best": 3.0143560000000003,
+          "historical_ref": 43.46286550000001,
+          "historical_best": 3.010146,
+          "speedup_vs_qualified": 7.092898879871899,
+          "speedup_vs_night_start": 3.0310135896357298,
+          "speedup_vs_historical": 14.438789846073913
+        }
+      ],
+      "sum_medians": {
+        "qualified_ref": 112.522439,
+        "qualified_best": 17.049073,
+        "night_start_ref": 49.8102015,
+        "night_start_best": 17.024146000000002,
+        "historical_ref": 186.451804,
+        "historical_best": 17.024341500000002
+      },
+      "speedups": {
+        "qualified": 6.599915373698031,
+        "night_start": 2.9258561046175235,
+        "historical": 10.952071420794748
+      },
+      "first_iteration_sum_ms": {
+        "qualified_ref": 117.479466,
+        "qualified_best": 22.4550485,
+        "night_start_ref": 54.2131725,
+        "night_start_best": 21.8862085,
+        "historical_ref": 185.406044,
+        "historical_best": 22.02184
+      }
+    }
+  }
+}

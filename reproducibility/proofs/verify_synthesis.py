@@ -11,6 +11,7 @@ import argparse,json,math,time,itertools,csv,copy
 from exact_fields import Field,prime
 from finite_modules import kernel4,intersection
 from algebra import echelon,reduce,coordinates,nullspace,bits,add,scale
+from residual_irreducibility import load_witnesses, verify_binding
 
 @lru_cache(None)
 def isprime(q):return prime(q)
@@ -168,10 +169,12 @@ def check_local(root,previous):
 
 def check_residual(root,previous):
     total=0;values=0
+    witnesses=load_witnesses(root)
     for degree in range(2,7):
         data=read(root/f'RESIDUAL_QUALIFICATION_D{degree}.json')
         for model in data['models']:
             d=read(root/model['certificate']);m=d['M'];rows=[]
+            verify_binding(model,d,witnesses[model['certificate']])
             assert d['p']==2940141229 and m==28 and isprime(d['p']) and evaluate(d['polynomial'],d['witness'],d['p'])==0
             assert all(pow((d['witness']+j)%d['p'],(d['p']-1)//4,d['p'])==d['phase'] for j in range(m))
             for q,w,ii,row in d['samples']:
@@ -180,8 +183,9 @@ def check_residual(root,previous):
                 assert all((w+j)%q and pow((w+j)%q,(q-1)//4,q)==pow(ii,e,q) for j,e in enumerate(row));values+=m;rows.append(row)
             neutral=kernel4(rows);ratios=kernel4([[(e-row[0])%4 for e in row[1:]] for row in rows])
             assert (neutral['C4'],neutral['C2'],ratios['C4'],ratios['C2'])==(28,0,27,0)
-            # An image of maximal possible order proves no fourth-power
-            # relation: no unverified high-degree field assumption is needed.
+            # Irreducibility over Q(i) identifies the single root field.
+            # The maximal finite character image then excludes every
+            # nontrivial fourth-power relation in that field.
             total+=1
     assert total==100
     return total,values

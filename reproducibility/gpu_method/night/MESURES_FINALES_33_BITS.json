@@ -1,0 +1,890 @@
+{
+  "per_prime": [
+    {
+      "p": 4407123493,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 30,
+          "prefix": 1,
+          "K": 31,
+          "witness": 2005236078
+        },
+        {
+          "r": 3,
+          "max": 19,
+          "prefix": 1,
+          "K": 20,
+          "witness": 362095559
+        },
+        {
+          "r": 4,
+          "max": 16,
+          "prefix": 1,
+          "K": 17,
+          "witness": 293710538
+        },
+        {
+          "r": 6,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 314370298
+        },
+        {
+          "r": 9,
+          "max": 10,
+          "prefix": 1,
+          "K": 11,
+          "witness": 83622297
+        }
+      ],
+      "initial": 3.637945,
+      "latest": 1.924521,
+      "speedup": 1.8903119269678015
+    },
+    {
+      "p": 4697138881,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 33,
+          "prefix": 10,
+          "K": 34,
+          "witness": 1723984653
+        },
+        {
+          "r": 3,
+          "max": 19,
+          "prefix": 1,
+          "K": 20,
+          "witness": 624428762
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 2316466485
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 2,
+          "K": 15,
+          "witness": 575062620
+        },
+        {
+          "r": 6,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 35015642
+        },
+        {
+          "r": 7,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 1992075236
+        },
+        {
+          "r": 8,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 1254713596
+        },
+        {
+          "r": 9,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 2185362322
+        }
+      ],
+      "initial": 6.440363,
+      "latest": 3.7887864999999996,
+      "speedup": 1.6998484871079436
+    },
+    {
+      "p": 4957123469,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 29,
+          "prefix": 1,
+          "K": 30,
+          "witness": 1154622255
+        },
+        {
+          "r": 4,
+          "max": 15,
+          "prefix": 1,
+          "K": 16,
+          "witness": 355971135
+        }
+      ],
+      "initial": 1.3824290000000001,
+      "latest": 0.7599104999999999,
+      "speedup": 1.8191997610244894
+    },
+    {
+      "p": 5217125761,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 34,
+          "prefix": 16,
+          "K": 35,
+          "witness": 1982989548
+        },
+        {
+          "r": 3,
+          "max": 19,
+          "prefix": 4,
+          "K": 20,
+          "witness": 129117802
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 769244051
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 1290334045
+        },
+        {
+          "r": 6,
+          "max": 13,
+          "prefix": 4,
+          "K": 14,
+          "witness": 2365166998
+        },
+        {
+          "r": 7,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 248298229
+        },
+        {
+          "r": 8,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 1650508975
+        },
+        {
+          "r": 9,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 1761583445
+        }
+      ],
+      "initial": 6.968745,
+      "latest": 3.754686,
+      "speedup": 1.8560127264969695
+    },
+    {
+      "p": 5507123509,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 36,
+          "prefix": 1,
+          "K": 37,
+          "witness": 1870846147
+        },
+        {
+          "r": 3,
+          "max": 21,
+          "prefix": 1,
+          "K": 22,
+          "witness": 1525014415
+        },
+        {
+          "r": 4,
+          "max": 18,
+          "prefix": 1,
+          "K": 19,
+          "witness": 1745139204
+        },
+        {
+          "r": 6,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 136267704
+        },
+        {
+          "r": 9,
+          "max": 10,
+          "prefix": 1,
+          "K": 11,
+          "witness": 227589344
+        }
+      ],
+      "initial": 4.1644665,
+      "latest": 2.1959445000000004,
+      "speedup": 1.8964352241142701
+    },
+    {
+      "p": 5827127041,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 33,
+          "prefix": 10,
+          "K": 34,
+          "witness": 281233793
+        },
+        {
+          "r": 3,
+          "max": 20,
+          "prefix": 1,
+          "K": 21,
+          "witness": 1233195802
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 10,
+          "K": 22,
+          "witness": 97805548
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 2,
+          "K": 15,
+          "witness": 448582795
+        },
+        {
+          "r": 6,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 912986133
+        },
+        {
+          "r": 7,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 150572241
+        },
+        {
+          "r": 8,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 154125121
+        },
+        {
+          "r": 9,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 1158882796
+        }
+      ],
+      "initial": 6.5796695,
+      "latest": 3.835647,
+      "speedup": 1.715400165865107
+    },
+    {
+      "p": 6107123479,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 31,
+          "prefix": 2,
+          "K": 32,
+          "witness": 952072242
+        },
+        {
+          "r": 3,
+          "max": 21,
+          "prefix": 2,
+          "K": 22,
+          "witness": 2510970598
+        },
+        {
+          "r": 6,
+          "max": 12,
+          "prefix": 2,
+          "K": 13,
+          "witness": 355151775
+        }
+      ],
+      "initial": 2.3747875,
+      "latest": 1.295642,
+      "speedup": 1.8329040738105125
+    },
+    {
+      "p": 6407125201,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 33,
+          "prefix": 16,
+          "K": 34,
+          "witness": 1315756520
+        },
+        {
+          "r": 3,
+          "max": 19,
+          "prefix": 2,
+          "K": 20,
+          "witness": 352862515
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 798661956
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 1642217857
+        },
+        {
+          "r": 6,
+          "max": 13,
+          "prefix": 2,
+          "K": 14,
+          "witness": 2058515154
+        },
+        {
+          "r": 7,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 255306831
+        },
+        {
+          "r": 8,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 306094379
+        },
+        {
+          "r": 9,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 2756962736
+        }
+      ],
+      "initial": 7.5489675,
+      "latest": 4.2674579999999995,
+      "speedup": 1.7689611707953543
+    },
+    {
+      "p": 6697123501,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 34,
+          "prefix": 1,
+          "K": 35,
+          "witness": 1401724808
+        },
+        {
+          "r": 3,
+          "max": 19,
+          "prefix": 2,
+          "K": 20,
+          "witness": 3009521068
+        },
+        {
+          "r": 4,
+          "max": 18,
+          "prefix": 1,
+          "K": 19,
+          "witness": 335547391
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 220859060
+        },
+        {
+          "r": 6,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 2548500302
+        }
+      ],
+      "initial": 4.731579,
+      "latest": 2.420903,
+      "speedup": 1.9544686424858824
+    },
+    {
+      "p": 6987138481,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 36,
+          "prefix": 12,
+          "K": 37,
+          "witness": 36071576
+        },
+        {
+          "r": 3,
+          "max": 21,
+          "prefix": 2,
+          "K": 22,
+          "witness": 2558582117
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 348204794
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 1298464195
+        },
+        {
+          "r": 6,
+          "max": 12,
+          "prefix": 2,
+          "K": 13,
+          "witness": 1926054540
+        },
+        {
+          "r": 7,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 2946747910
+        },
+        {
+          "r": 8,
+          "max": 10,
+          "prefix": 1,
+          "K": 11,
+          "witness": 4442795
+        },
+        {
+          "r": 9,
+          "max": 10,
+          "prefix": 1,
+          "K": 11,
+          "witness": 623254778
+        }
+      ],
+      "initial": 7.6012235,
+      "latest": 4.3619140000000005,
+      "speedup": 1.7426348845942399
+    },
+    {
+      "p": 7267123459,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 31,
+          "prefix": 1,
+          "K": 32,
+          "witness": 1609521897
+        },
+        {
+          "r": 3,
+          "max": 20,
+          "prefix": 1,
+          "K": 21,
+          "witness": 3115716160
+        },
+        {
+          "r": 6,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 1644928439
+        },
+        {
+          "r": 7,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 167022880
+        },
+        {
+          "r": 9,
+          "max": 10,
+          "prefix": 1,
+          "K": 11,
+          "witness": 801380552
+        }
+      ],
+      "initial": 4.417275,
+      "latest": 2.7541025,
+      "speedup": 1.6038891072500026
+    },
+    {
+      "p": 7567144201,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 31,
+          "prefix": 12,
+          "K": 32,
+          "witness": 233591210
+        },
+        {
+          "r": 3,
+          "max": 24,
+          "prefix": 1,
+          "K": 25,
+          "witness": 3222332716
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 4,
+          "K": 18,
+          "witness": 1217802303
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 1945862817
+        },
+        {
+          "r": 6,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 621339343
+        },
+        {
+          "r": 7,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 2606763645
+        },
+        {
+          "r": 8,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 512716903
+        },
+        {
+          "r": 9,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 267742288
+        }
+      ],
+      "initial": 7.955763,
+      "latest": 4.771715,
+      "speedup": 1.667275392599935
+    },
+    {
+      "p": 7857123457,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 36,
+          "prefix": 4,
+          "K": 37,
+          "witness": 2246444671
+        },
+        {
+          "r": 3,
+          "max": 21,
+          "prefix": 2,
+          "K": 22,
+          "witness": 392613098
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 2461113443
+        },
+        {
+          "r": 6,
+          "max": 14,
+          "prefix": 2,
+          "K": 15,
+          "witness": 3731564141
+        },
+        {
+          "r": 7,
+          "max": 11,
+          "prefix": 2,
+          "K": 12,
+          "witness": 1481035269
+        },
+        {
+          "r": 8,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 1300064823
+        }
+      ],
+      "initial": 5.846199,
+      "latest": 3.1653279999999997,
+      "speedup": 1.8469488785996273
+    },
+    {
+      "p": 8157179521,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 32,
+          "prefix": 10,
+          "K": 33,
+          "witness": 3427582607
+        },
+        {
+          "r": 3,
+          "max": 22,
+          "prefix": 1,
+          "K": 23,
+          "witness": 1499374119
+        },
+        {
+          "r": 4,
+          "max": 16,
+          "prefix": 2,
+          "K": 17,
+          "witness": 3235795144
+        },
+        {
+          "r": 5,
+          "max": 15,
+          "prefix": 1,
+          "K": 16,
+          "witness": 2464682544
+        },
+        {
+          "r": 6,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 77410843
+        },
+        {
+          "r": 7,
+          "max": 13,
+          "prefix": 1,
+          "K": 14,
+          "witness": 3689858995
+        },
+        {
+          "r": 8,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 3208547895
+        },
+        {
+          "r": 9,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 1600870207
+        }
+      ],
+      "initial": 7.231278,
+      "latest": 4.5269165000000005,
+      "speedup": 1.5973959316457458
+    },
+    {
+      "p": 8397123461,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 31,
+          "prefix": 1,
+          "K": 32,
+          "witness": 2210402131
+        },
+        {
+          "r": 4,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 3728372833
+        },
+        {
+          "r": 5,
+          "max": 14,
+          "prefix": 1,
+          "K": 15,
+          "witness": 162740102
+        }
+      ],
+      "initial": 2.953815,
+      "latest": 1.6654429999999998,
+      "speedup": 1.7735911706374823
+    },
+    {
+      "p": 8517186721,
+      "profiles": [
+        {
+          "r": 2,
+          "max": 32,
+          "prefix": 10,
+          "K": 33,
+          "witness": 569587986
+        },
+        {
+          "r": 3,
+          "max": 20,
+          "prefix": 1,
+          "K": 21,
+          "witness": 421101162
+        },
+        {
+          "r": 4,
+          "max": 16,
+          "prefix": 6,
+          "K": 17,
+          "witness": 337866460
+        },
+        {
+          "r": 5,
+          "max": 17,
+          "prefix": 1,
+          "K": 18,
+          "witness": 1986644332
+        },
+        {
+          "r": 6,
+          "max": 15,
+          "prefix": 1,
+          "K": 16,
+          "witness": 2663416509
+        },
+        {
+          "r": 7,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 961840099
+        },
+        {
+          "r": 8,
+          "max": 12,
+          "prefix": 1,
+          "K": 13,
+          "witness": 3550865558
+        },
+        {
+          "r": 9,
+          "max": 11,
+          "prefix": 1,
+          "K": 12,
+          "witness": 1277747615
+        }
+      ],
+      "initial": 9.095804000000001,
+      "latest": 5.2115860000000005,
+      "speedup": 1.7453044044557646
+    }
+  ],
+  "sum_medians": {
+    "initial": 88.9303095,
+    "latest": 50.7005035
+  },
+  "speedup": 1.7540320778076692,
+  "hot_samples_per_prime_per_engine": 20,
+  "initial_binary": "original-work/overnight_sm120/wide33/kit/build/vdw_wide33",
+  "initial_configuration": [
+    "--threads",
+    "512",
+    "--generator-blocks",
+    "4",
+    "--completion-blocks",
+    "12",
+    "--graph",
+    "0",
+    "--cover-q",
+    "32",
+    "--denominator-divisor",
+    "3",
+    "--grid-policy",
+    "3"
+  ],
+  "final_binary": "original-work/overnight_sm120/wide33/kit/build/wide_other_cover",
+  "final_configuration": [
+    "--threads",
+    "512",
+    "--generator-blocks",
+    "4",
+    "--completion-blocks",
+    "12",
+    "--graph",
+    "0",
+    "--cover-q",
+    "32",
+    "--denominator-divisor",
+    "3",
+    "--grid-policy",
+    "3",
+    "--threads",
+    "1024",
+    "--generator-blocks",
+    "4",
+    "--cover-q",
+    "24",
+    "--denominator-divisor",
+    "4",
+    "--epoch",
+    "16384",
+    "--gpu-pilot",
+    "768",
+    "--dynamic-t",
+    "1",
+    "--pilot-threads",
+    "256",
+    "--pair-mode",
+    "1",
+    "--single4-q",
+    "16",
+    "--group36-q",
+    "12",
+    "--gpu-pilot",
+    "1536",
+    "--t-mode",
+    "13",
+    "--pilot-threads",
+    "512",
+    "--other-q",
+    "12"
+  ],
+  "warm_iteration_excluded": 0,
+  "oracle_comparison": "PASS"
+}

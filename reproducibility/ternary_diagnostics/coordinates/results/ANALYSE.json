@@ -1,0 +1,2707 @@
+{
+  "certificates": [
+    {
+      "both_forced": 1855,
+      "cubic_stratum_hits": 1929,
+      "k": 21,
+      "neutral_forced": 1935,
+      "neutral_observed": 1956,
+      "quadratic_hits": 1994,
+      "two_cube_forced": 1856
+    },
+    {
+      "both_forced": 1479,
+      "cubic_stratum_hits": 1517,
+      "k": 22,
+      "neutral_forced": 1535,
+      "neutral_observed": 1544,
+      "quadratic_hits": 1555,
+      "two_cube_forced": 1480
+    },
+    {
+      "both_forced": 1023,
+      "cubic_stratum_hits": 1041,
+      "k": 23,
+      "neutral_forced": 1055,
+      "neutral_observed": 1058,
+      "quadratic_hits": 1060,
+      "two_cube_forced": 1023
+    },
+    {
+      "both_forced": 598,
+      "cubic_stratum_hits": 606,
+      "k": 24,
+      "neutral_forced": 616,
+      "neutral_observed": 616,
+      "quadratic_hits": 617,
+      "two_cube_forced": 598
+    },
+    {
+      "both_forced": 413,
+      "cubic_stratum_hits": 416,
+      "k": 25,
+      "neutral_forced": 424,
+      "neutral_observed": 424,
+      "quadratic_hits": 424,
+      "two_cube_forced": 413
+    },
+    {
+      "both_forced": 353,
+      "cubic_stratum_hits": 354,
+      "k": 26,
+      "neutral_forced": 358,
+      "neutral_observed": 358,
+      "quadratic_hits": 358,
+      "two_cube_forced": 353
+    },
+    {
+      "both_forced": 192,
+      "cubic_stratum_hits": 192,
+      "k": 27,
+      "neutral_forced": 194,
+      "neutral_observed": 194,
+      "quadratic_hits": 194,
+      "two_cube_forced": 192
+    }
+  ],
+  "continuations": [
+    {
+      "a": 21,
+      "b": 22,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 896.333349266511,
+            "fraction": "28127890262867/31381059609"
+          },
+          "residual_sum": {
+            "decimal": 431.33334926651105,
+            "fraction": "13535697544682/31381059609"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 465.0,
+            "fraction": "465"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 237.33334926651105,
+            "fraction": "7447771980536/31381059609"
+          },
+          "residual_sum": {
+            "decimal": 223.6666825998444,
+            "fraction": "7018897499213/31381059609"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 13.666666666666666,
+            "fraction": "41/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 933.6666825998444,
+            "fraction": "29299449821603/31381059609"
+          },
+          "residual_sum": {
+            "decimal": 455.33334926651105,
+            "fraction": "14288842975298/31381059609"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 478.3333333333333,
+            "fraction": "1435/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -149.99998406682226,
+            "fraction": "-4707158441350/31381059609"
+          },
+          "residual_sum": {
+            "decimal": -163.3333174001556,
+            "fraction": "-5125572569470/31381059609"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 13.333333333333334,
+            "fraction": "40/3"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 1742.6666666666667,
+        "fraction": "5228/3"
+      },
+      "residual_contrast": {
+        "decimal": 826.3333333333334,
+        "fraction": "2479/3"
+      },
+      "tagged_contrast": {
+        "decimal": 916.3333333333334,
+        "fraction": "2749/3"
+      }
+    },
+    {
+      "a": 21,
+      "b": 23,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 850.7777883998963,
+            "fraction": "80094925475371/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 397.4444550665629,
+            "fraction": "37416684407131/94143178827"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 453.3333333333333,
+            "fraction": "1360/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -107.8888782667704,
+            "fraction": "-10157001960113/94143178827"
+          },
+          "residual_sum": {
+            "decimal": -116.77776715565929,
+            "fraction": "-10993830216353/94143178827"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 8.88888888888889,
+            "fraction": "80/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 731.8888995110074,
+            "fraction": "68902347548161/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 271.1111217332296,
+            "fraction": "25523262815320/94143178827"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 460.77777777777777,
+            "fraction": "4147/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 19.333343955451816,
+            "fraction": "1820102457322/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 3.888899511007373,
+            "fraction": "366113362105/94143178827"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 15.444444444444445,
+            "fraction": "139/9"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 1671.2222222222222,
+        "fraction": "15041/9"
+      },
+      "residual_contrast": {
+        "decimal": 781.4444444444445,
+        "fraction": "7033/9"
+      },
+      "tagged_contrast": {
+        "decimal": 889.7777777777778,
+        "fraction": "8008/9"
+      }
+    },
+    {
+      "a": 21,
+      "b": 24,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 515.2592645703185,
+            "fraction": "48508145086712/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 229.48148679254072,
+            "fraction": "21604116648596/94143178827"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 285.77777777777777,
+            "fraction": "2572/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 5.703709014762946,
+            "fraction": "536965297754/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 0.4074127184666496,
+            "fraction": "38355128411/94143178827"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 5.296296296296297,
+            "fraction": "143/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 496.62963494068885,
+            "fraction": "46754292533009/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 200.70370901476295,
+            "fraction": "18894885169019/94143178827"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 295.9259259259259,
+            "fraction": "7990/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -84.22221691116297,
+            "fraction": "-7928947227874/94143178827"
+          },
+          "residual_sum": {
+            "decimal": -94.0370317259778,
+            "fraction": "-8852945094139/94143178827"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 9.814814814814815,
+            "fraction": "265/27"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 1090.4074074074074,
+        "fraction": "29441/27"
+      },
+      "residual_contrast": {
+        "decimal": 523.8148148148148,
+        "fraction": "14143/27"
+      },
+      "tagged_contrast": {
+        "decimal": 566.5925925925926,
+        "fraction": "15298/27"
+      }
+    },
+    {
+      "a": 21,
+      "b": 25,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 332.0864221135572,
+            "fraction": "281373042807497/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 109.4938295209646,
+            "fraction": "92772874557407/847288609443"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 222.59259259259258,
+            "fraction": "6010/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -7.7654297382946575,
+            "fraction": "-6579560164687/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -12.197528503726756,
+            "fraction": "-10334826964564/847288609443"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 4.432098765432099,
+            "fraction": "359/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 315.87654557034733,
+            "fraction": "267638599051958/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 94.56790359503867,
+            "fraction": "80126307534980/847288609443"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 221.30864197530863,
+            "fraction": "17926/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -109.74073838026996,
+            "fraction": "-92982077621467/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -117.01234331854157,
+            "fraction": "-99143225658034/847288609443"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 7.271604938271605,
+            "fraction": "589/81"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 765.4691358024692,
+        "fraction": "62003/81"
+      },
+      "residual_contrast": {
+        "decimal": 333.2716049382716,
+        "fraction": "26995/81"
+      },
+      "tagged_contrast": {
+        "decimal": 432.1975308641975,
+        "fraction": "35008/81"
+      }
+    },
+    {
+      "a": 21,
+      "b": 26,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 248.02880756789162,
+            "fraction": "630455950398013/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 57.497943370360765,
+            "fraction": "146152057452316/2541865828329"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 190.53086419753086,
+            "fraction": "15433/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -5.588476382725655,
+            "fraction": "-14205157149674/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -8.399175971203022,
+            "fraction": "-21349578387323/2541865828329"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 2.8106995884773665,
+            "fraction": "683/243"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 301.2921820534883,
+            "fraction": "765844301904442/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 112.85596806171878,
+            "fraction": "286864728739072/2541865828329"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 188.43621399176953,
+            "fraction": "45790/243"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -65.24691259671742,
+            "fraction": "-165848897533565/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -70.00411424280796,
+            "fraction": "-177941065836233/2541865828329"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 4.757201646090535,
+            "fraction": "1156/243"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 620.156378600823,
+        "fraction": "150698/243"
+      },
+      "residual_contrast": {
+        "decimal": 248.75720164609052,
+        "fraction": "60448/243"
+      },
+      "tagged_contrast": {
+        "decimal": 371.3991769547325,
+        "fraction": "90250/243"
+      }
+    },
+    {
+      "a": 21,
+      "b": 27,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 97.34293592153251,
+            "fraction": "247432682448163/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -10.167352144311112,
+            "fraction": "-25844044980212/2541865828329"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 107.51028806584362,
+            "fraction": "26125/243"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 6.470507937993414,
+            "fraction": "16447163019517/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 4.533608075167626,
+            "fraction": "11523823445305/2541865828329"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.9368998628257887,
+            "fraction": "1412/729"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 140.4307274167314,
+            "fraction": "356956067267974/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 26.951989419474895,
+            "fraction": "68508340910848/2541865828329"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 113.47873799725652,
+            "fraction": "82726/729"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -26.082304133337175,
+            "fraction": "-66297717600614/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -28.001371348700687,
+            "fraction": "-71175728977613/2541865828329"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 1.9190672153635118,
+            "fraction": "1399/729"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 257.3854595336077,
+        "fraction": "187634/729"
+      },
+      "residual_contrast": {
+        "decimal": 40.25240054869685,
+        "fraction": "29344/729"
+      },
+      "tagged_contrast": {
+        "decimal": 217.13305898491083,
+        "fraction": "158290/729"
+      }
+    },
+    {
+      "a": 22,
+      "b": 23,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 552.0000053110592,
+            "fraction": "51967035212504/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 253.6666719777259,
+            "fraction": "23880986862449/94143178827"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 298.3333333333333,
+            "fraction": "895/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -186.99999468894075,
+            "fraction": "-17604773940649/94143178827"
+          },
+          "residual_sum": {
+            "decimal": -191.3333280222741,
+            "fraction": "-18012727715566/94143178827"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 4.333333333333333,
+            "fraction": "13/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 420.6666719777259,
+            "fraction": "39602897726558/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 119.33333864439257,
+            "fraction": "11234419840022/94143178827"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 301.3333333333333,
+            "fraction": "904/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 69.33333864439257,
+            "fraction": "6527260898672/94143178827"
+          },
+          "residual_sum": {
+            "decimal": 58.333338644392576,
+            "fraction": "5491685931575/94143178827"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 11.0,
+            "fraction": "11"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 1090.3333333333333,
+        "fraction": "3271/3"
+      },
+      "residual_contrast": {
+        "decimal": 506.0,
+        "fraction": "506"
+      },
+      "tagged_contrast": {
+        "decimal": 584.3333333333334,
+        "fraction": "1753/3"
+      }
+    },
+    {
+      "a": 22,
+      "b": 24,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 415.6666702073728,
+            "fraction": "117396544997269/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 181.5555590962617,
+            "fraction": "51276652401106/282429536481"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 234.11111111111111,
+            "fraction": "2107/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -20.666663125960504,
+            "fraction": "-5836876087274/282429536481"
+          },
+          "residual_sum": {
+            "decimal": -24.444440903738283,
+            "fraction": "-6903832113980/282429536481"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 3.7777777777777777,
+            "fraction": "34/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 392.88889242959505,
+            "fraction": "110963427777424/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 150.11111465181727,
+            "fraction": "42395812531759/282429536481"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 242.77777777777777,
+            "fraction": "2185/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -67.5555520148494,
+            "fraction": "-19079683242272/282429536481"
+          },
+          "residual_sum": {
+            "decimal": -75.88888534818273,
+            "fraction": "-21433262712947/282429536481"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 8.333333333333334,
+            "fraction": "25/3"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 896.7777777777778,
+        "fraction": "8071/9"
+      },
+      "residual_contrast": {
+        "decimal": 432.0,
+        "fraction": "432"
+      },
+      "tagged_contrast": {
+        "decimal": 464.77777777777777,
+        "fraction": "4183/9"
+      }
+    },
+    {
+      "a": 22,
+      "b": 25,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 298.88889065924195,
+            "fraction": "84415050848210/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 93.5185202888716,
+            "fraction": "26412392337575/282429536481"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 205.37037037037038,
+            "fraction": "5545/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -16.555553785202473,
+            "fraction": "-4675777381741/282429536481"
+          },
+          "residual_sum": {
+            "decimal": -20.4814797111284,
+            "fraction": "-5784574821259/282429536481"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 3.925925925925926,
+            "fraction": "106/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 281.2962980666494,
+            "fraction": "79446383076785/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 77.70370547405679,
+            "fraction": "21945821519894/282429536481"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 203.59259259259258,
+            "fraction": "5497/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -104.18518341483211,
+            "fraction": "-29424973060039/282429536481"
+          },
+          "residual_sum": {
+            "decimal": -110.96296119260988,
+            "fraction": "-31339217696188/282429536481"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 6.777777777777778,
+            "fraction": "61/9"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 700.925925925926,
+        "fraction": "18925/27"
+      },
+      "residual_contrast": {
+        "decimal": 302.6666666666667,
+        "fraction": "908/3"
+      },
+      "tagged_contrast": {
+        "decimal": 398.25925925925924,
+        "fraction": "10753/27"
+      }
+    },
+    {
+      "a": 22,
+      "b": 26,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 236.96296374978655,
+            "fraction": "602328060135146/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 52.17284029299643,
+            "fraction": "132616359907634/2541865828329"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 184.79012345679013,
+            "fraction": "14968/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -8.518517731694928,
+            "fraction": "-21652929130210/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -11.160493040336902,
+            "fraction": "-28368475886536/2541865828329"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 2.6419753086419755,
+            "fraction": "214/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 289.765432885589,
+            "fraction": "736544852082839/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 107.23456868805816,
+            "fraction": "272575885763774/2541865828329"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 182.53086419753086,
+            "fraction": "14785/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -63.39506094157147,
+            "fraction": "-161141739092215/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -67.98765353416407,
+            "fraction": "-172815493266763/2541865828329"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 4.592592592592593,
+            "fraction": "124/27"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 598.641975308642,
+        "fraction": "48490/81"
+      },
+      "residual_contrast": {
+        "decimal": 238.55555555555554,
+        "fraction": "2147/9"
+      },
+      "tagged_contrast": {
+        "decimal": 360.08641975308643,
+        "fraction": "29167/81"
+      }
+    },
+    {
+      "a": 22,
+      "b": 27,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 93.65432131549748,
+            "fraction": "714170157081622/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -11.942386503432557,
+            "fraction": "-91067832485318/7625597484987"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 105.59670781893004,
+            "fraction": "25660/243"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 5.49382748833699,
+            "fraction": "41893717078015/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 3.6131690521229984,
+            "fraction": "27552572836702/7625597484987"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.8806584362139918,
+            "fraction": "457/243"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 136.58847769409832,
+            "fraction": "1041568751982319/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 25.078189628254687,
+            "fraction": "191236179757246/7625597484987"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 111.51028806584362,
+            "fraction": "27097/243"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -25.465020248288525,
+            "fraction": "-194185994360492/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -27.32921777915272,
+            "fraction": "-208401614363369/7625597484987"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 1.8641975308641976,
+            "fraction": "151/81"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 250.21399176954733,
+        "fraction": "60802/243"
+      },
+      "residual_contrast": {
+        "decimal": 36.851851851851855,
+        "fraction": "995/27"
+      },
+      "tagged_contrast": {
+        "decimal": 213.3621399176955,
+        "fraction": "51847/243"
+      }
+    },
+    {
+      "a": 23,
+      "b": 24,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 231.66666843701975,
+            "fraction": "65429509784765/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 97.00000177035308,
+            "fraction": "27395665538657/282429536481"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 134.66666666666666,
+            "fraction": "404/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 41.666668437019744,
+            "fraction": "11767897853375/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 39.333335103686416,
+            "fraction": "11108895601586/282429536481"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 2.3333333333333335,
+            "fraction": "7/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 252.66666843701975,
+            "fraction": "71360530050866/282429536481"
+          },
+          "residual_sum": {
+            "decimal": 110.33333510368641,
+            "fraction": "31161392691737/282429536481"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 142.33333333333334,
+            "fraction": "427/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -90.66666489631359,
+            "fraction": "-25606944140944/282429536481"
+          },
+          "residual_sum": {
+            "decimal": -95.33333156298025,
+            "fraction": "-26924948644522/282429536481"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 4.666666666666667,
+            "fraction": "14/3"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 533.3333333333334,
+        "fraction": "1600/3"
+      },
+      "residual_contrast": {
+        "decimal": 263.3333333333333,
+        "fraction": "790/3"
+      },
+      "tagged_contrast": {
+        "decimal": 270.0,
+        "fraction": "270"
+      }
+    },
+    {
+      "a": 23,
+      "b": 25,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 237.55555673579093,
+            "fraction": "201278117332126/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 65.33333451356872,
+            "fraction": "55356190150276/847288609443"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 172.22222222222223,
+            "fraction": "1550/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 4.222223402457609,
+            "fraction": "3577441795426/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 0.777778958013165,
+            "fraction": "659003251789/847288609443"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 3.4444444444444446,
+            "fraction": "31/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 234.55555673579093,
+            "fraction": "198736251503797/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 64.44444562467983,
+            "fraction": "54603044719660/847288609443"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 170.11111111111111,
+            "fraction": "1531/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -111.8888877086535,
+            "fraction": "-94802180078789/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -117.44444326420906,
+            "fraction": "-99509339020139/847288609443"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 5.555555555555555,
+            "fraction": "50/9"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 579.7777777777778,
+        "fraction": "5218/9"
+      },
+      "residual_contrast": {
+        "decimal": 246.44444444444446,
+        "fraction": "2218/9"
+      },
+      "tagged_contrast": {
+        "decimal": 333.3333333333333,
+        "fraction": "1000/3"
+      }
+    },
+    {
+      "a": 23,
+      "b": 26,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 216.5185191086362,
+            "fraction": "183453674974214/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 42.77777836789547,
+            "fraction": "36245124348395/847288609443"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 173.74074074074073,
+            "fraction": "4691/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -1.592592002474899,
+            "fraction": "-1349385063187/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -4.07407348395638,
+            "fraction": "-3451916056990/847288609443"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 2.4814814814814814,
+            "fraction": "67/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 274.1851857753029,
+            "fraction": "232313984785427/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 102.8148154049325,
+            "fraction": "87113821974584/847288609443"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 171.37037037037038,
+            "fraction": "4627/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -65.96296237284527,
+            "fraction": "-55889666663629/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -70.14814755803046,
+            "fraction": "-59435726399446/847288609443"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 4.185185185185185,
+            "fraction": "113/27"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 558.2592592592592,
+        "fraction": "15073/27"
+      },
+      "residual_contrast": {
+        "decimal": 219.8148148148148,
+        "fraction": "5935/27"
+      },
+      "tagged_contrast": {
+        "decimal": 338.44444444444446,
+        "fraction": "3046/9"
+      }
+    },
+    {
+      "a": 23,
+      "b": 27,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 86.83950643511403,
+            "fraction": "662203121869118/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -15.074073811799543,
+            "fraction": "-114948819347767/7625597484987"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 101.91358024691358,
+            "fraction": "8255/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 7.802469398076999,
+            "fraction": "59498491018664/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 5.9753089042498395,
+            "fraction": "45565300552268/7625597484987"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.8271604938271604,
+            "fraction": "148/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 131.3950619906696,
+            "fraction": "1001965854255761/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 23.60493853387947,
+            "fraction": "180001759917224/7625597484987"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 107.79012345679013,
+            "fraction": "8731/81"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -26.320987392046458,
+            "fraction": "-200713255259164/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -28.049382453774854,
+            "fraction": "-213893300294944/7625597484987"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 1.728395061728395,
+            "fraction": "140/81"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 236.7530864197531,
+        "fraction": "19177/81"
+      },
+      "residual_contrast": {
+        "decimal": 30.604938271604937,
+        "fraction": "2479/81"
+      },
+      "tagged_contrast": {
+        "decimal": 206.14814814814815,
+        "fraction": "5566/27"
+      }
+    },
+    {
+      "a": 24,
+      "b": 25,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 160.33333392345102,
+            "fraction": "135848607547361/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 33.00000059011769,
+            "fraction": "27960524611619/847288609443"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 127.33333333333333,
+            "fraction": "382/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -9.666666076548973,
+            "fraction": "-8190456057949/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -12.33333274321564,
+            "fraction": "-10449892349797/847288609443"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 2.6666666666666665,
+            "fraction": "8/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 150.33333392345102,
+            "fraction": "127375721452931/847288609443"
+          },
+          "residual_sum": {
+            "decimal": 27.66666725678436,
+            "fraction": "23441652027923/847288609443"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 122.66666666666667,
+            "fraction": "368/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -81.66666607654898,
+            "fraction": "-69195235937845/847288609443"
+          },
+          "residual_sum": {
+            "decimal": -85.66666607654898,
+            "fraction": "-72584390375617/847288609443"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 4.0,
+            "fraction": "4"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 402.0,
+        "fraction": "402"
+      },
+      "residual_contrast": {
+        "decimal": 158.66666666666666,
+        "fraction": "476/3"
+      },
+      "tagged_contrast": {
+        "decimal": 243.33333333333334,
+        "fraction": "730/3"
+      }
+    },
+    {
+      "a": 24,
+      "b": 26,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 190.77777817118957,
+            "fraction": "484931515137877/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 32.000000393411796,
+            "fraction": "81339707506528/2541865828329"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 158.77777777777777,
+            "fraction": "1429/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -6.222221828810427,
+            "fraction": "-15816053042936/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -8.444444051032649,
+            "fraction": "-21464643772556/2541865828329"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 2.2222222222222223,
+            "fraction": "20/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 246.1111115045229,
+            "fraction": "625581424305415/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 90.55555594896735,
+            "fraction": "230180073232015/2541865828329"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 155.55555555555554,
+            "fraction": "1400/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -55.88888849547709,
+            "fraction": "-142062055849943/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -59.55555516214376,
+            "fraction": "-151382230553816/2541865828329"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 3.6666666666666665,
+            "fraction": "11/3"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 499.0,
+        "fraction": "499"
+      },
+      "residual_contrast": {
+        "decimal": 190.55555555555554,
+        "fraction": "1715/9"
+      },
+      "tagged_contrast": {
+        "decimal": 308.44444444444446,
+        "fraction": "2776/9"
+      }
+    },
+    {
+      "a": 24,
+      "b": 27,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 78.25925945596515,
+            "fraction": "198924537361451/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -18.66666646996077,
+            "fraction": "-47448161628808/2541865828329"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 96.92592592592592,
+            "fraction": "2617/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 6.259259455965157,
+            "fraction": "15910197721763/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 4.518518715224416,
+            "fraction": "11485468316894/2541865828329"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.7407407407407407,
+            "fraction": "47/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 122.03703723374294,
+            "fraction": "310201774734965/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 19.518518715224417,
+            "fraction": "49613455741829/2541865828329"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 102.51851851851852,
+            "fraction": "2768/27"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -22.962962766257064,
+            "fraction": "-58368770372740/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -24.51851832181262,
+            "fraction": "-62322783883474/2541865828329"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 1.5555555555555556,
+            "fraction": "14/9"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 217.0,
+        "fraction": "217"
+      },
+      "residual_contrast": {
+        "decimal": 20.85185185185185,
+        "fraction": "563/27"
+      },
+      "tagged_contrast": {
+        "decimal": 196.14814814814815,
+        "fraction": "5296/27"
+      }
+    },
+    {
+      "a": 25,
+      "b": 26,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 137.33333353003923,
+            "fraction": "349082907590516/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 21.000000196705898,
+            "fraction": "53379182894909/2541865828329"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 116.33333333333333,
+            "fraction": "349/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -2.999999803294102,
+            "fraction": "-7625596984987/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -4.333333136627435,
+            "fraction": "-11014751422759/2541865828329"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.3333333333333333,
+            "fraction": "4/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 196.0000001967059,
+            "fraction": "498205702852484/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": 81.33333353003923,
+            "fraction": "206738421204092/2541865828329"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 114.66666666666667,
+            "fraction": "344/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -28.66666646996077,
+            "fraction": "-72866819912098/2541865828329"
+          },
+          "residual_sum": {
+            "decimal": -30.999999803294102,
+            "fraction": "-78797840178199/2541865828329"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 2.3333333333333335,
+            "fraction": "7/3"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 365.0,
+        "fraction": "365"
+      },
+      "residual_contrast": {
+        "decimal": 137.66666666666666,
+        "fraction": "413/3"
+      },
+      "tagged_contrast": {
+        "decimal": 227.33333333333334,
+        "fraction": "682/3"
+      }
+    },
+    {
+      "a": 25,
+      "b": 27,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 60.44444457558171,
+            "fraction": "460925004536992/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -22.33333320219607,
+            "fraction": "-170305009498043/7625597484987"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 82.77777777777777,
+            "fraction": "745/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 7.3333334644705985,
+            "fraction": "55921049223238/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 5.888889020026154,
+            "fraction": "44906297300479/7625597484987"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.4444444444444444,
+            "fraction": "13/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 105.3333334644706,
+            "fraction": "803229602751964/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 16.44444457558171,
+            "fraction": "125398715197564/7625597484987"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 88.88888888888889,
+            "fraction": "800/9"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -13.888888757751623,
+            "fraction": "-105911075180375/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -14.999999868862735,
+            "fraction": "-114383961274805/7625597484987"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 1.1111111111111112,
+            "fraction": "10/9"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 172.33333333333334,
+        "fraction": "517/3"
+      },
+      "residual_contrast": {
+        "decimal": 3.2222222222222223,
+        "fraction": "29/9"
+      },
+      "tagged_contrast": {
+        "decimal": 169.11111111111111,
+        "fraction": "1522/9"
+      }
+    },
+    {
+      "a": 26,
+      "b": 27,
+      "by_stratum": [
+        {
+          "innovation_sum": {
+            "decimal": 14.6666667322353,
+            "fraction": "111842096946476/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -29.3333332677647,
+            "fraction": "-223684192392952/7625597484987"
+          },
+          "stratum": 0,
+          "tagged_sum": {
+            "decimal": 44.0,
+            "fraction": "44"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 8.333333398901965,
+            "fraction": "63546646208225/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": 7.333333398901966,
+            "fraction": "55921048723238/7625597484987"
+          },
+          "stratum": 1,
+          "tagged_sum": {
+            "decimal": 1.0,
+            "fraction": "1"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": 40.000000065568635,
+            "fraction": "305023899899480/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -10.666666601098035,
+            "fraction": "-81339706006528/7625597484987"
+          },
+          "stratum": 2,
+          "tagged_sum": {
+            "decimal": 50.666666666666664,
+            "fraction": "152/3"
+          }
+        },
+        {
+          "innovation_sum": {
+            "decimal": -4.333333267764701,
+            "fraction": "-33044255268277/7625597484987"
+          },
+          "residual_sum": {
+            "decimal": -4.666666601098034,
+            "fraction": "-35586121096606/7625597484987"
+          },
+          "stratum": 3,
+          "tagged_sum": {
+            "decimal": 0.3333333333333333,
+            "fraction": "1/3"
+          }
+        }
+      ],
+      "raw_contrast": {
+        "decimal": 50.666666666666664,
+        "fraction": "152/3"
+      },
+      "residual_contrast": {
+        "decimal": -42.666666666666664,
+        "fraction": "-128/3"
+      },
+      "tagged_contrast": {
+        "decimal": 93.33333333333333,
+        "fraction": "280/3"
+      }
+    }
+  ],
+  "contrasts": [
+    {
+      "contrast_after_removal": {
+        "decimal": 1362.7927545681366,
+        "fraction": "4751764518424/3486784401"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 3452.7927545681364,
+        "fraction": "12039143916514/3486784401"
+      },
+      "cube_excess": {
+        "decimal": 3556.8317895867517,
+        "fraction": "12401905600912/3486784401"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.6053071089293948,
+        "fraction": "331244518095/547233814387"
+      },
+      "k": 21,
+      "noncube_excess": {
+        "decimal": 104.03903501861514,
+        "fraction": "40306853822/387420489"
+      },
+      "removed_cube": 2195,
+      "removed_noncube": 105
+    },
+    {
+      "contrast_after_removal": {
+        "decimal": 1280.5975848560456,
+        "fraction": "13395503048503/10460353203"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 2893.5975848560456,
+        "fraction": "30268052764942/10460353203"
+      },
+      "cube_excess": {
+        "decimal": 3015.6106283952727,
+        "fraction": "94633056887206/31381059609"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.5574375678365953,
+        "fraction": "16872549716439/30268052764942"
+      },
+      "k": 22,
+      "noncube_excess": {
+        "decimal": 122.01304353922717,
+        "fraction": "3828898592380/31381059609"
+      },
+      "removed_cube": 1675,
+      "removed_noncube": 62
+    },
+    {
+      "contrast_after_removal": {
+        "decimal": 932.8658616186818,
+        "fraction": "29274319210657/31381059609"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 2054.8658616186817,
+        "fraction": "64483868091955/31381059609"
+      },
+      "cube_excess": {
+        "decimal": 1977.8702200872094,
+        "fraction": "186202989826268/94143178827"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.5460210425201019,
+        "fraction": "35209548881298/64483868091955"
+      },
+      "k": 23,
+      "noncube_excess": {
+        "decimal": -76.99564153147246,
+        "fraction": "-7248614449597/94143178827"
+      },
+      "removed_cube": 1158,
+      "removed_noncube": 36
+    },
+    {
+      "contrast_after_removal": {
+        "decimal": 574.2886205395606,
+        "fraction": "54065356301767/94143178827"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 1218.2886205395607,
+        "fraction": "114693563466355/94143178827"
+      },
+      "cube_excess": {
+        "decimal": 1143.6234102364426,
+        "fraction": "107664343220633/94143178827"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.5286103712556903,
+        "fraction": "60628207164588/114693563466355"
+      },
+      "k": 24,
+      "noncube_excess": {
+        "decimal": -74.66521030311799,
+        "fraction": "-7029220245722/94143178827"
+      },
+      "removed_cube": 663,
+      "removed_noncube": 19
+    },
+    {
+      "contrast_after_removal": {
+        "decimal": 350.0962068465202,
+        "fraction": "98877509423419/282429536481"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 808.0962068465202,
+        "fraction": "228230237131717/282429536481"
+      },
+      "cube_excess": {
+        "decimal": 691.8744712590496,
+        "fraction": "586217358662191/847288609443"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.5667641997569565,
+        "fraction": "129352727708298/228230237131717"
+      },
+      "k": 25,
+      "noncube_excess": {
+        "decimal": -116.2217355874706,
+        "fraction": "-98473352732960/847288609443"
+      },
+      "removed_cube": 471,
+      "removed_noncube": 13
+    },
+    {
+      "contrast_after_removal": {
+        "decimal": 254.3654022821734,
+        "fraction": "215520907990072/847288609443"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 634.3654022821734,
+        "fraction": "537490579578412/847288609443"
+      },
+      "cube_excess": {
+        "decimal": 563.9581574797617,
+        "fraction": "1433505969105191/2541865828329"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.5990238412008658,
+        "fraction": "4236443047215/7072244468137"
+      },
+      "k": 26,
+      "noncube_excess": {
+        "decimal": -70.40724480241174,
+        "fraction": "-178965769630045/2541865828329"
+      },
+      "removed_cube": 388,
+      "removed_noncube": 8
+    },
+    {
+      "contrast_after_removal": {
+        "decimal": 42.12180076072447,
+        "fraction": "107067965981368/2541865828329"
+      },
+      "contrast_count_equivalent": {
+        "decimal": 262.12180076072445,
+        "fraction": "666278448213748/2541865828329"
+      },
+      "cube_excess": {
+        "decimal": 242.65271929105782,
+        "fraction": "205596885105683/847288609443"
+      },
+      "fraction_of_contrast_displaced": {
+        "decimal": 0.8393044735749585,
+        "fraction": "139802620558095/166569612053437"
+      },
+      "k": 27,
+      "noncube_excess": {
+        "decimal": -19.469081469666648,
+        "fraction": "-49487792896699/2541865828329"
+      },
+      "removed_cube": 224,
+      "removed_noncube": 4
+    }
+  ],
+  "distinct_models": 720,
+  "distinct_polynomials": 495,
+  "rows": [
+    {
+      "count": 257816,
+      "excess": {
+        "decimal": 1447.9979695934173,
+        "fraction": "5048856733058/3486784401"
+      },
+      "k": 21,
+      "new_voids": 367,
+      "reference_sum": {
+        "decimal": 256368.00203040658,
+        "fraction": "893899950395158/3486784401"
+      },
+      "removed": 1086,
+      "residual_count": 256730,
+      "residual_excess": {
+        "decimal": 361.9979695934174,
+        "fraction": "1262208873572/3486784401"
+      },
+      "residual_theta": {
+        "decimal": 1.0014120247719156,
+        "fraction": "447581079634365/446949975197579"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.0056481228473344,
+        "fraction": "449474403564108/446949975197579"
+      }
+    },
+    {
+      "count": 86835,
+      "excess": {
+        "decimal": 1378.9993391309836,
+        "fraction": "43274460462041/31381059609"
+      },
+      "k": 22,
+      "new_voids": 553,
+      "reference_sum": {
+        "decimal": 85456.00066086902,
+        "fraction": "2681699850685474/31381059609"
+      },
+      "removed": 827,
+      "residual_count": 86008,
+      "residual_excess": {
+        "decimal": 551.9993391309836,
+        "fraction": "17322324165398/31381059609"
+      },
+      "residual_theta": {
+        "decimal": 1.006459456736357,
+        "fraction": "1349511087425436/1340849925342737"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.0161369515126681,
+        "fraction": "2724974311147515/2681699850685474"
+      }
+    },
+    {
+      "count": 29497,
+      "excess": {
+        "decimal": 1011.6664516880537,
+        "fraction": "95241495674545/94143178827"
+      },
+      "k": 23,
+      "new_voids": 490,
+      "reference_sum": {
+        "decimal": 28485.333548311944,
+        "fraction": "2681699850185474/94143178827"
+      },
+      "removed": 574,
+      "residual_count": 28923,
+      "residual_excess": {
+        "decimal": 437.66645168805377,
+        "fraction": "41203311027847/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 1.015364624428419,
+        "fraction": "2722903161213321/2681699850185474"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.0355153451151358,
+        "fraction": "2776941345860019/2681699850185474"
+      }
+    },
+    {
+      "count": 10064,
+      "excess": {
+        "decimal": 568.8888189997043,
+        "fraction": "53557001819770/94143178827"
+      },
+      "k": 24,
+      "new_voids": 295,
+      "reference_sum": {
+        "decimal": 9495.111181000295,
+        "fraction": "893899949895158/94143178827"
+      },
+      "removed": 326,
+      "residual_count": 9738,
+      "residual_excess": {
+        "decimal": 242.88881899970434,
+        "fraction": "22866325522168/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 1.0255804081036697,
+        "fraction": "458383137708663/446949974947579"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.0599138660048606,
+        "fraction": "473728475857464/446949974947579"
+      }
+    },
+    {
+      "count": 3515,
+      "excess": {
+        "decimal": 349.9629402566858,
+        "fraction": "296519613006671/847288609443"
+      },
+      "k": 25,
+      "new_voids": 226,
+      "reference_sum": {
+        "decimal": 3165.0370597433143,
+        "fraction": "2681699849185474/847288609443"
+      },
+      "removed": 236,
+      "residual_count": 3279,
+      "residual_excess": {
+        "decimal": 113.9629402566858,
+        "fraction": "96559501178123/847288609443"
+      },
+      "residual_theta": {
+        "decimal": 1.0360068264938194,
+        "fraction": "2778259350363597/2681699849185474"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.1105715142195105,
+        "fraction": "2978219462192145/2681699849185474"
+      }
+    },
+    {
+      "count": 1309,
+      "excess": {
+        "decimal": 253.9876469489345,
+        "fraction": "645602520597187/2541865828329"
+      },
+      "k": 26,
+      "new_voids": 192,
+      "reference_sum": {
+        "decimal": 1055.0123530510655,
+        "fraction": "2681699848685474/2541865828329"
+      },
+      "removed": 195,
+      "residual_count": 1114,
+      "residual_excess": {
+        "decimal": 58.9876469489345,
+        "fraction": "149938684073032/2541865828329"
+      },
+      "residual_theta": {
+        "decimal": 1.0559118068886528,
+        "fraction": "1415819266379253/1340849924342737"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.2407437659041711,
+        "fraction": "3327302369282661/2681699848685474"
+      }
+    },
+    {
+      "count": 451,
+      "excess": {
+        "decimal": 99.32921571521346,
+        "fraction": "9351168117823/94143178827"
+      },
+      "k": 27,
+      "new_voids": 109,
+      "reference_sum": {
+        "decimal": 351.6707842847865,
+        "fraction": "33107405533154/94143178827"
+      },
+      "removed": 109,
+      "residual_count": 342,
+      "residual_excess": {
+        "decimal": -9.670784284786535,
+        "fraction": "-910438374320/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 0.9725004614629714,
+        "fraction": "16098483579417/16553702766577"
+      },
+      "stratum": 0,
+      "theta": {
+        "decimal": 1.282449438946784,
+        "fraction": "42458573650977/33107405533154"
+      }
+    },
+    {
+      "count": 256265,
+      "excess": {
+        "decimal": -255.6216094340041,
+        "fraction": "-891297440333/3486784401"
+      },
+      "k": 21,
+      "new_voids": 11,
+      "reference_sum": {
+        "decimal": 256520.621609434,
+        "fraction": "894432101962598/3486784401"
+      },
+      "removed": 46,
+      "residual_count": 256219,
+      "residual_excess": {
+        "decimal": -301.62160943400414,
+        "fraction": "-1051689522779/3486784401"
+      },
+      "residual_theta": {
+        "decimal": 0.9988241818238954,
+        "fraction": "893380412439819/894432101962598"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 0.9990035046390024,
+        "fraction": "893540804522265/894432101962598"
+      }
+    },
+    {
+      "count": 85659,
+      "excess": {
+        "decimal": 152.12614612184302,
+        "fraction": "4773879659537/31381059609"
+      },
+      "k": 22,
+      "new_voids": 17,
+      "reference_sum": {
+        "decimal": 85506.87385387816,
+        "fraction": "2683296305387794/31381059609"
+      },
+      "removed": 29,
+      "residual_count": 85630,
+      "residual_excess": {
+        "decimal": 123.12614612184302,
+        "fraction": "3863828930876/31381059609"
+      },
+      "residual_theta": {
+        "decimal": 1.0014399561178233,
+        "fraction": "1343580067159335/1341648152693897"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 1.0017791101377629,
+        "fraction": "2688070185047331/2683296305387794"
+      }
+    },
+    {
+      "count": 28366,
+      "excess": {
+        "decimal": -136.2912793149931,
+        "fraction": "-12830894281112/94143178827"
+      },
+      "k": 23,
+      "new_voids": 13,
+      "reference_sum": {
+        "decimal": 28502.29127931499,
+        "fraction": "2683296304887794/94143178827"
+      },
+      "removed": 14,
+      "residual_count": 28352,
+      "residual_excess": {
+        "decimal": -150.2912793149931,
+        "fraction": "-14148898784690/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 0.9947270457016182,
+        "fraction": "1334573703051552/1341648152443897"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 0.9952182342823117,
+        "fraction": "1335232705303341/1341648152443897"
+      }
+    },
+    {
+      "count": 9497,
+      "excess": {
+        "decimal": -3.7637580013112806,
+        "fraction": "-118110714193/31381059609"
+      },
+      "k": 24,
+      "new_voids": 7,
+      "reference_sum": {
+        "decimal": 9500.76375800131,
+        "fraction": "298144033820866/31381059609"
+      },
+      "removed": 7,
+      "residual_count": 9490,
+      "residual_excess": {
+        "decimal": -10.763758001311281,
+        "fraction": "-337778131456/31381059609"
+      },
+      "residual_theta": {
+        "decimal": 0.998867063925019,
+        "fraction": "148903127844705/149072016910433"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 0.9996038467961966,
+        "fraction": "298025923106673/298144033820866"
+      }
+    },
+    {
+      "count": 3156,
+      "excess": {
+        "decimal": -10.921252076986066,
+        "fraction": "-9253452485686/847288609443"
+      },
+      "k": 25,
+      "new_voids": 5,
+      "reference_sum": {
+        "decimal": 3166.921252076986,
+        "fraction": "2683296303887794/847288609443"
+      },
+      "removed": 5,
+      "residual_count": 3151,
+      "residual_excess": {
+        "decimal": -15.921252076986066,
+        "fraction": "-13489895532901/847288609443"
+      },
+      "residual_theta": {
+        "decimal": 0.9949726403627673,
+        "fraction": "2669806408354893/2683296303887794"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 0.9965514608012992,
+        "fraction": "1337021425701054/1341648151943897"
+      }
+    },
+    {
+      "count": 1049,
+      "excess": {
+        "decimal": -6.640417162289458,
+        "fraction": "-16879049470673/2541865828329"
+      },
+      "k": 26,
+      "new_voids": 3,
+      "reference_sum": {
+        "decimal": 1055.6404171622894,
+        "fraction": "2683296303387794/2541865828329"
+      },
+      "removed": 3,
+      "residual_count": 1046,
+      "residual_excess": {
+        "decimal": -9.640417162289458,
+        "fraction": "-24504646955660/2541865828329"
+      },
+      "residual_theta": {
+        "decimal": 0.9908677074072209,
+        "fraction": "1329395828216067/1341648151693897"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 0.9937095841971078,
+        "fraction": "2666417253917121/2683296303387794"
+      }
+    },
+    {
+      "count": 358,
+      "excess": {
+        "decimal": 6.119861011472147,
+        "fraction": "15555865579184/2541865828329"
+      },
+      "k": 27,
+      "new_voids": 2,
+      "reference_sum": {
+        "decimal": 351.88013898852785,
+        "fraction": "894432100962598/2541865828329"
+      },
+      "removed": 2,
+      "residual_count": 356,
+      "residual_excess": {
+        "decimal": 4.119861011472147,
+        "fraction": "10472133922526/2541865828329"
+      },
+      "residual_theta": {
+        "decimal": 1.0117081373882442,
+        "fraction": "452452117442562/447216050481299"
+      },
+      "stratum": 1,
+      "theta": {
+        "decimal": 1.0173918909690771,
+        "fraction": "454993983270891/447216050481299"
+      }
+    },
+    {
+      "count": 361270,
+      "excess": {
+        "decimal": 2108.833819993334,
+        "fraction": "7353048867854/3486784401"
+      },
+      "k": 21,
+      "new_voids": 245,
+      "reference_sum": {
+        "decimal": 359161.1661800067,
+        "fraction": "1252317551681416/3486784401"
+      },
+      "removed": 1109,
+      "residual_count": 360161,
+      "residual_excess": {
+        "decimal": 999.8338199933343,
+        "fraction": "3486204967145/3486784401"
+      },
+      "residual_theta": {
+        "decimal": 1.002783802688435,
+        "fraction": "1255803756648561/1252317551681416"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.0058715529922755,
+        "fraction": "629835300274635/626158775840708"
+      }
+    },
+    {
+      "count": 121357,
+      "excess": {
+        "decimal": 1636.611289264289,
+        "fraction": "51358596425165/31381059609"
+      },
+      "k": 22,
+      "new_voids": 474,
+      "reference_sum": {
+        "decimal": 119720.38871073571,
+        "fraction": "3756952654544248/31381059609"
+      },
+      "removed": 848,
+      "residual_count": 120509,
+      "residual_excess": {
+        "decimal": 788.6112892642892,
+        "fraction": "24747457876733/31381059609"
+      },
+      "residual_theta": {
+        "decimal": 1.0065871093283008,
+        "fraction": "3781700112420981/3756952654544248"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.0136702804500461,
+        "fraction": "3808311250969413/3756952654544248"
+      }
+    },
+    {
+      "count": 40873,
+      "excess": {
+        "decimal": 966.2037683991556,
+        "fraction": "90961494151723/94143178827"
+      },
+      "k": 23,
+      "new_voids": 477,
+      "reference_sum": {
+        "decimal": 39906.79623160084,
+        "fraction": "3756952654044248/94143178827"
+      },
+      "removed": 584,
+      "residual_count": 40289,
+      "residual_excess": {
+        "decimal": 382.20376839915565,
+        "fraction": "35981877716755/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 1.0095774104786819,
+        "fraction": "3792934531761003/3756952654044248"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.0242115093076314,
+        "fraction": "3847914148195971/3756952654044248"
+      }
+    },
+    {
+      "count": 13877,
+      "excess": {
+        "decimal": 574.7345912367383,
+        "fraction": "54107341400863/94143178827"
+      },
+      "k": 24,
+      "new_voids": 308,
+      "reference_sum": {
+        "decimal": 13302.265408763262,
+        "fraction": "1252317551181416/94143178827"
+      },
+      "removed": 337,
+      "residual_count": 13540,
+      "residual_excess": {
+        "decimal": 237.73459123673828,
+        "fraction": "22381090136164/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 1.0178717371764454,
+        "fraction": "318674660329395/313079387795354"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.0432057678580158,
+        "fraction": "1306424892582279/1252317551181416"
+      }
+    },
+    {
+      "count": 4776,
+      "excess": {
+        "decimal": 341.9115310023638,
+        "fraction": "289697745655520/847288609443"
+      },
+      "k": 25,
+      "new_voids": 228,
+      "reference_sum": {
+        "decimal": 4434.0884689976365,
+        "fraction": "3756952653044248/847288609443"
+      },
+      "removed": 235,
+      "residual_count": 4541,
+      "residual_excess": {
+        "decimal": 106.91153100236379,
+        "fraction": "90584922436415/847288609443"
+      },
+      "residual_theta": {
+        "decimal": 1.0241112760265993,
+        "fraction": "3847537575480663/3756952653044248"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.077109767518837,
+        "fraction": "505831299837471/469619081630531"
+      }
+    },
+    {
+      "count": 1788,
+      "excess": {
+        "decimal": 309.97051053082714,
+        "fraction": "787903448508004/2541865828329"
+      },
+      "k": 26,
+      "new_voids": 190,
+      "reference_sum": {
+        "decimal": 1478.0294894691729,
+        "fraction": "3756952652544248/2541865828329"
+      },
+      "removed": 193,
+      "residual_count": 1595,
+      "residual_excess": {
+        "decimal": 116.97051053082716,
+        "fraction": "297323343640507/2541865828329"
+      },
+      "residual_theta": {
+        "decimal": 1.0791394971238608,
+        "fraction": "4054275996184755/3756952652544248"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.209718759158284,
+        "fraction": "1136214025263063/939238163136062"
+      }
+    },
+    {
+      "count": 636,
+      "excess": {
+        "decimal": 143.32350357584434,
+        "fraction": "121436372045276/847288609443"
+      },
+      "k": 27,
+      "new_voids": 114,
+      "reference_sum": {
+        "decimal": 492.67649642415563,
+        "fraction": "417439183560472/847288609443"
+      },
+      "removed": 115,
+      "residual_count": 521,
+      "residual_excess": {
+        "decimal": 28.323503575844352,
+        "fraction": "23998181959331/847288609443"
+      },
+      "residual_theta": {
+        "decimal": 1.0574890496733989,
+        "fraction": "441437365519803/417439183560472"
+      },
+      "stratum": 2,
+      "theta": {
+        "decimal": 1.2909079377970856,
+        "fraction": "134718888901437/104359795890118"
+      }
+    },
+    {
+      "count": 359457,
+      "excess": {
+        "decimal": 359.66064445261924,
+        "fraction": "1254059124731/3486784401"
+      },
+      "k": 21,
+      "new_voids": 13,
+      "reference_sum": {
+        "decimal": 359097.3393555474,
+        "fraction": "1252095001305526/3486784401"
+      },
+      "removed": 59,
+      "residual_count": 359398,
+      "residual_excess": {
+        "decimal": 300.66064445261924,
+        "fraction": "1048338845072/3486784401"
+      },
+      "residual_theta": {
+        "decimal": 1.0008372678143262,
+        "fraction": "626571670075299/626047500652763"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 1.0010015686696485,
+        "fraction": "179049865775751/178870714472218"
+      }
+    },
+    {
+      "count": 119669,
+      "excess": {
+        "decimal": -30.113102582615856,
+        "fraction": "-944981067157/31381059609"
+      },
+      "k": 22,
+      "new_voids": 19,
+      "reference_sum": {
+        "decimal": 119699.11310258262,
+        "fraction": "3756285003416578/31381059609"
+      },
+      "removed": 33,
+      "residual_count": 119636,
+      "residual_excess": {
+        "decimal": -63.11310258261585,
+        "fraction": "-1980556034254/31381059609"
+      },
+      "residual_theta": {
+        "decimal": 0.9994727354201152,
+        "fraction": "1877152223691162/1878142501708289"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 0.9997484266858618,
+        "fraction": "3755340022349421/3756285003416578"
+      }
+    },
+    {
+      "count": 39959,
+      "excess": {
+        "decimal": 59.295637783520625,
+        "fraction": "5582279831515/94143178827"
+      },
+      "k": 23,
+      "new_voids": 20,
+      "reference_sum": {
+        "decimal": 39899.70436221648,
+        "fraction": "3756285002916578/94143178827"
+      },
+      "removed": 22,
+      "residual_count": 39937,
+      "residual_excess": {
+        "decimal": 37.295637783520625,
+        "fraction": "3511129897321/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 1.000934734689885,
+        "fraction": "3759796132813899/3756285002916578"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 1.0014861172214518,
+        "fraction": "3761867282748093/3756285002916578"
+      }
+    },
+    {
+      "count": 13229,
+      "excess": {
+        "decimal": -70.90145230180671,
+        "fraction": "-6674888103143/94143178827"
+      },
+      "k": 24,
+      "new_voids": 12,
+      "reference_sum": {
+        "decimal": 13299.901452301807,
+        "fraction": "1252095000805526/94143178827"
+      },
+      "removed": 12,
+      "residual_count": 13217,
+      "residual_excess": {
+        "decimal": -82.90145230180671,
+        "fraction": "-7804606249067/94143178827"
+      },
+      "residual_theta": {
+        "decimal": 0.993766761911799,
+        "fraction": "1244290394556459/1252095000805526"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 0.994669024236301,
+        "fraction": "1245420112702383/1252095000805526"
+      }
+    },
+    {
+      "count": 4328,
+      "excess": {
+        "decimal": -105.30048351048454,
+        "fraction": "-89219900247274/847288609443"
+      },
+      "k": 25,
+      "new_voids": 8,
+      "reference_sum": {
+        "decimal": 4433.300483510485,
+        "fraction": "3756285001916578/847288609443"
+      },
+      "removed": 8,
+      "residual_count": 4320,
+      "residual_excess": {
+        "decimal": -113.30048351048454,
+        "fraction": "-95998209122818/847288609443"
+      },
+      "residual_theta": {
+        "decimal": 0.9744433105917585,
+        "fraction": "1830143396396880/1878142500958289"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 0.9762478352410024,
+        "fraction": "1833532550834652/1878142500958289"
+      }
+    },
+    {
+      "count": 1414,
+      "excess": {
+        "decimal": -63.76682764012228,
+        "fraction": "-162086720159372/2541865828329"
+      },
+      "k": 26,
+      "new_voids": 5,
+      "reference_sum": {
+        "decimal": 1477.7668276401223,
+        "fraction": "3756285001416578/2541865828329"
+      },
+      "removed": 5,
+      "residual_count": 1409,
+      "residual_excess": {
+        "decimal": -68.76682764012229,
+        "fraction": "-174796049301017/2541865828329"
+      },
+      "residual_theta": {
+        "decimal": 0.9534657116712131,
+        "fraction": "3581488952115561/3756285001416578"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 0.9568491953889959,
+        "fraction": "1797099140628603/1878142500708289"
+      }
+    },
+    {
+      "count": 467,
+      "excess": {
+        "decimal": -25.588942481138794,
+        "fraction": "-7227073163987/282429536481"
+      },
+      "k": 27,
+      "new_voids": 2,
+      "reference_sum": {
+        "decimal": 492.5889424811388,
+        "fraction": "139121666700614/282429536481"
+      },
+      "removed": 2,
+      "residual_count": 465,
+      "residual_excess": {
+        "decimal": -27.588942481138794,
+        "fraction": "-7791932236949/282429536481"
+      },
+      "residual_theta": {
+        "decimal": 0.943991957387076,
+        "fraction": "131329734463665/139121666700614"
+      },
+      "stratum": 3,
+      "theta": {
+        "decimal": 0.9480521378489559,
+        "fraction": "131894593536627/139121666700614"
+      }
+    }
+  ],
+  "scope": "Descriptive finite sample; no causal attribution, no predictive refit. Reference sum omits positive iid terminal term 3^(1-h).",
+  "source_export": {
+    "blocks": 248,
+    "catalogues": {
+      "quadratic_small": {
+        "Amax": 64,
+        "Dmax": 256
+      },
+      "quadratic_wide": {
+        "Amax": 128,
+        "Dmax": 4096
+      },
+      "rational_qmax": 128
+    },
+    "data_commit": "452907920dc623d4d1e6ae7675428fe02ed840c4",
+    "does_not_recompute_characters_or_maxima": true,
+    "input_tsv_bytes": 36684357,
+    "input_tsv_sha256": "79862cfc07141191eba77c2c4a75d3534274576a61c8b6f969d12db40fdf4541",
+    "native_reader_full_validation": true,
+    "ordinary_runs21": 1234808,
+    "profiles": 1000000,
+    "run_id": "37301544494",
+    "schema": "ternary-coordinate-classification-v1",
+    "seconds": 13.608032341000001,
+    "source_git_blobs": {
+      "data/ternary-million/manifest.json": "12a98fdce8277663ed71a04da1be73fb67fb4c0b",
+      "data/ternary-million/threshold_counts.csv": "d628fe9a87f4ee098b8e76da59de061575ef839d",
+      "scripts/ternary_io.py": "dfdad3beeea7880e4471dc30742e1ac286cd578b"
+    },
+    "status": "PASS",
+    "tagged_runs21": 2300,
+    "workflow_commit": "7acfafa481093d9fa256d02b4750e87e09a6bd5e"
+  },
+  "status": "PASS",
+  "stored_identities": 1291
+}

@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "date": "2026-10-12",
+  "baseline_commit": "4700f6673d468c4767846b9e433d740f640d35cb",
+  "operation": "four_article_publication_edition_revision",
+  "status": "PASS",
+  "manuscripts": [
+    {
+      "source": "paper/RABUNG_BOUNDS_EN.tex",
+      "source_sha256": "00056092d4ac6ac57a2bc08bde4cacc3d38fcc36ec590846d7c8449d1de0cf82",
+      "pdf": "paper/RABUNG_BOUNDS_EN.pdf",
+      "pdf_sha256": "7c85d5397f97920a0e5dd7f4e2a7598ef8e078ac1fe5ced6e9ed47a51a655266",
+      "edition": "v2.0",
+      "pages": 29,
+      "pdflatex_passes_at_least": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true,
+      "valid_internal_destinations": true
+    },
+    {
+      "source": "paper/GPU_METHOD_EN.tex",
+      "source_sha256": "39fea4da03f09d007d1f79bdc614a172a2756e0758d8ebc7486df9de053a26f7",
+      "pdf": "paper/GPU_METHOD_EN.pdf",
+      "pdf_sha256": "b52863efe14271a0d6e79814ced0c791794db29a1169aafd55e7ccc6615b43f6",
+      "edition": "v1.0",
+      "pages": 21,
+      "pdflatex_passes_at_least": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true,
+      "valid_internal_destinations": true
+    },
+    {
+      "source": "paper/PAPER_EN.tex",
+      "source_sha256": "89558bb68a6a895ca700fb8909f18781811d8796299f167b25242a805627deee",
+      "pdf": "paper/PAPER_EN.pdf",
+      "pdf_sha256": "516c64224553e68e8d9bfdedd5b0ef1ee7cbc0bf3656d2ebde9971dcfc2561d3",
+      "edition": "v1.0",
+      "pages": 30,
+      "pdflatex_passes_at_least": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true,
+      "valid_internal_destinations": true
+    },
+    {
+      "source": "paper/CUBIC_QUADRUPLETS_EN.tex",
+      "source_sha256": "972b37cd5555d225eed3a08fa48c3f67d61a076625a55999bd934fe84936b060",
+      "pdf": "paper/CUBIC_QUADRUPLETS_EN.pdf",
+      "pdf_sha256": "887aede8b67aa2fa44ccd2c17472f6399d7d1d0cda6816da759898d444a7db08",
+      "edition": "v1.0",
+      "pages": 16,
+      "pdflatex_passes_at_least": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true,
+      "valid_internal_destinations": true
+    }
+  ],
+  "audit_actions": [
+    "E01",
+    "E02",
+    "E03",
+    "E04",
+    "E05",
+    "E06",
+    "E07",
+    "E08",
+    "E09",
+    "E10",
+    "E11",
+    "E12"
+  ],
+  "new_GPU_executions": 0,
+  "new_large_CPU_scans": 0,
+  "already_passed_local_checks": [
+    "publication reference guard: four existing-edition citations, no forward references",
+    "bounds verifier: nine retained complete executions, six primitive certificates and fourteen rows",
+    "GPU offline tables: 34 imports, 6144 primes, 20512 profiles",
+    "source bridges: 254 anchors per engine and 2740 scalar oracle cases",
+    "Greene-Lennon identity: 2360 four-position cases",
+    "cubic elliptic and moment verifiers, including 1242 direct small curve counts",
+    "independent scalar checks supplied with the audit"
+  ],
+  "archive_replay": "All four autonomous CI packages replayed after fresh extraction; user packages additionally retain the committed PDFs and unchanged original v1 deposit in the certificates ZIP.",
+  "scientific_protected_files": "Only manuscripts, editorial docs, version metadata and archive tooling are edited; source and data commitments are retained.",
+  "ci": {
+    "edition_commit": "100f60c6b46f5f431a1e5f852b8c89292bef65a6",
+    "pull_request_run": 38271908223,
+    "push_run": 38271902061,
+    "exact_checks": "success",
+    "manuscripts_and_archives": "success",
+    "includes_scoped_archive_commands": true
+  },
+  "unchanged_existing_files_checked_locally": 2043,
+  "unexpected_protected_file_changes": [],
+  "final_archive_components": [
+    {
+      "archive": "cubic_quadruplets_v1_publication.zip",
+      "bytes": 685667,
+      "sha256": "0be5a46963158dbb5300dab6dabde14d3f0a6cf73e2bb48dbd59821c889a94d8",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": false,
+      "full_atlas_assets_external": false
+    },
+    {
+      "archive": "rabung_atlas_v1_publication.zip",
+      "bytes": 55456135,
+      "sha256": "3f30370080e57860b502d1bffe336ca5a5412539a574b014f2fe284483c7dba0",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": false,
+      "full_atlas_assets_external": true
+    },
+    {
+      "archive": "rabung_certificates_v2_publication.zip",
+      "bytes": 23158139,
+      "sha256": "e8f73e8610a67f9af5e05260da54aa62499cb15247b9686bc58453714c67cca2",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": true,
+      "full_atlas_assets_external": false
+    },
+    {
+      "archive": "rabung_gpu_method_v1_publication.zip",
+      "bytes": 1059096,
+      "sha256": "7ede8ed35a735ff4a0283d437e5134ea1e598401d78b1ce11c50da622b312b2d",
+      "current_pdf_matches_repository": true,
+      "contains_complete_legacy_deposit": false,
+      "full_atlas_assets_external": false
+    }
+  ]
+}

@@ -1,0 +1,1882 @@
+{
+  "cross_width": {
+    "profiles": 186,
+    "seconds": 0.006906183989485726
+  },
+  "results": [
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 128500005,
+          "gpu_ms": 26.0783033371,
+          "half_length": 128500005,
+          "original_root": 3,
+          "p": 257000011,
+          "primitive_root": 2187,
+          "profiles": [
+            {
+              "K": 31,
+              "max": 30,
+              "prefix": 1,
+              "r": 2,
+              "witness": 9675693
+            },
+            {
+              "K": 20,
+              "max": 19,
+              "prefix": 2,
+              "r": 3,
+              "witness": 96726559
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 5,
+              "witness": 8077574
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 6,
+              "witness": 8459826
+            }
+          ],
+          "root_exponent": 7,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 36.217116,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.15275290899444371
+      },
+      "p": 257000011,
+      "profiles": [
+        {
+          "K": 31,
+          "max": 30,
+          "prefix": 1,
+          "r": 2,
+          "witness": 9675693
+        },
+        {
+          "K": 20,
+          "max": 19,
+          "prefix": 2,
+          "r": 3,
+          "witness": 96726559
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 5,
+          "witness": 8077574
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 6,
+          "witness": 8459826
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 128511180,
+          "gpu_ms": 19.6928963661,
+          "half_length": 128511180,
+          "original_root": 13,
+          "p": 257022361,
+          "primitive_root": 200493145,
+          "profiles": [
+            {
+              "K": 27,
+              "max": 26,
+              "prefix": 10,
+              "r": 2,
+              "witness": 88044789
+            },
+            {
+              "K": 20,
+              "max": 19,
+              "prefix": 2,
+              "r": 3,
+              "witness": 62753850
+            },
+            {
+              "K": 16,
+              "max": 15,
+              "prefix": 1,
+              "r": 4,
+              "witness": 43815146
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 2,
+              "r": 5,
+              "witness": 57381873
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 2,
+              "r": 6,
+              "witness": 26455743
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 7,
+              "witness": 47540662
+            },
+            {
+              "K": 10,
+              "max": 9,
+              "prefix": 1,
+              "r": 8,
+              "witness": 55623328
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 9,
+              "witness": 87367649
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 38.583648,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.15142304098117165
+      },
+      "p": 257022361,
+      "profiles": [
+        {
+          "K": 27,
+          "max": 26,
+          "prefix": 10,
+          "r": 2,
+          "witness": 88044789
+        },
+        {
+          "K": 20,
+          "max": 19,
+          "prefix": 2,
+          "r": 3,
+          "witness": 62753850
+        },
+        {
+          "K": 16,
+          "max": 15,
+          "prefix": 1,
+          "r": 4,
+          "witness": 43815146
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 2,
+          "r": 5,
+          "witness": 57381873
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 2,
+          "r": 6,
+          "witness": 26455743
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 7,
+          "witness": 47540662
+        },
+        {
+          "K": 10,
+          "max": 9,
+          "prefix": 1,
+          "r": 8,
+          "witness": 55623328
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 9,
+          "witness": 87367649
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 668500005,
+          "gpu_ms": 137.781152725,
+          "half_length": 668500005,
+          "original_root": 7,
+          "p": 1337000011,
+          "primitive_root": 823543,
+          "profiles": [
+            {
+              "K": 30,
+              "max": 29,
+              "prefix": 1,
+              "r": 2,
+              "witness": 584904246
+            },
+            {
+              "K": 19,
+              "max": 18,
+              "prefix": 2,
+              "r": 3,
+              "witness": 230694471
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 5,
+              "witness": 135869547
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 1,
+              "r": 6,
+              "witness": 8672517
+            }
+          ],
+          "root_exponent": 7,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 192.320891,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.3047361389908474
+      },
+      "p": 1337000011,
+      "profiles": [
+        {
+          "K": 30,
+          "max": 29,
+          "prefix": 1,
+          "r": 2,
+          "witness": 584904246
+        },
+        {
+          "K": 19,
+          "max": 18,
+          "prefix": 2,
+          "r": 3,
+          "witness": 230694471
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 5,
+          "witness": 135869547
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 1,
+          "r": 6,
+          "witness": 8672517
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 668513160,
+          "gpu_ms": 110.324736595,
+          "half_length": 668513160,
+          "original_root": 74,
+          "p": 1337026321,
+          "primitive_root": 1317044109,
+          "profiles": [
+            {
+              "K": 31,
+              "max": 30,
+              "prefix": 12,
+              "r": 2,
+              "witness": 84291969
+            },
+            {
+              "K": 24,
+              "max": 23,
+              "prefix": 2,
+              "r": 3,
+              "witness": 72591509
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 1,
+              "r": 4,
+              "witness": 314330344
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 2,
+              "r": 5,
+              "witness": 516517663
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 2,
+              "r": 6,
+              "witness": 131625344
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 7,
+              "witness": 106797471
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 8,
+              "witness": 99465442
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 9,
+              "witness": 508231481
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 207.511499,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.31963735198951326
+      },
+      "p": 1337026321,
+      "profiles": [
+        {
+          "K": 31,
+          "max": 30,
+          "prefix": 12,
+          "r": 2,
+          "witness": 84291969
+        },
+        {
+          "K": 24,
+          "max": 23,
+          "prefix": 2,
+          "r": 3,
+          "witness": 72591509
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 1,
+          "r": 4,
+          "witness": 314330344
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 2,
+          "r": 5,
+          "witness": 516517663
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 2,
+          "r": 6,
+          "witness": 131625344
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 7,
+          "witness": 106797471
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 8,
+          "witness": 99465442
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 9,
+          "witness": 508231481
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 1485500000,
+          "gpu_ms": 368.737090111,
+          "half_length": 1485500000,
+          "original_root": 3,
+          "p": 2971000001,
+          "primitive_root": 27,
+          "profiles": [
+            {
+              "K": 29,
+              "max": 28,
+              "prefix": 2,
+              "r": 2,
+              "witness": 84631270
+            },
+            {
+              "K": 16,
+              "max": 15,
+              "prefix": 2,
+              "r": 4,
+              "witness": 872473099
+            },
+            {
+              "K": 16,
+              "max": 15,
+              "prefix": 2,
+              "r": 5,
+              "witness": 1397587415
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 1,
+              "r": 8,
+              "witness": 691429711
+            }
+          ],
+          "root_exponent": 3,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 487.376767,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.6014091570104938
+      },
+      "p": 2971000001,
+      "profiles": [
+        {
+          "K": 29,
+          "max": 28,
+          "prefix": 2,
+          "r": 2,
+          "witness": 84631270
+        },
+        {
+          "K": 16,
+          "max": 15,
+          "prefix": 2,
+          "r": 4,
+          "witness": 872473099
+        },
+        {
+          "K": 16,
+          "max": 15,
+          "prefix": 2,
+          "r": 5,
+          "witness": 1397587415
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 1,
+          "r": 8,
+          "witness": 691429711
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 1485508500,
+          "gpu_ms": 365.767107964,
+          "half_length": 1485508500,
+          "original_root": 31,
+          "p": 2971017001,
+          "primitive_root": 807914717,
+          "profiles": [
+            {
+              "K": 31,
+              "max": 30,
+              "prefix": 10,
+              "r": 2,
+              "witness": 310563612
+            },
+            {
+              "K": 19,
+              "max": 18,
+              "prefix": 1,
+              "r": 3,
+              "witness": 149588867
+            },
+            {
+              "K": 18,
+              "max": 17,
+              "prefix": 2,
+              "r": 4,
+              "witness": 1088985358
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 1,
+              "r": 5,
+              "witness": 533543631
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 6,
+              "witness": 85961571
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 2,
+              "r": 7,
+              "witness": 49585812
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 8,
+              "witness": 641077679
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 9,
+              "witness": 1127879355
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 585.942086,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.6983693840156775
+      },
+      "p": 2971017001,
+      "profiles": [
+        {
+          "K": 31,
+          "max": 30,
+          "prefix": 10,
+          "r": 2,
+          "witness": 310563612
+        },
+        {
+          "K": 19,
+          "max": 18,
+          "prefix": 1,
+          "r": 3,
+          "witness": 149588867
+        },
+        {
+          "K": 18,
+          "max": 17,
+          "prefix": 2,
+          "r": 4,
+          "witness": 1088985358
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 1,
+          "r": 5,
+          "witness": 533543631
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 6,
+          "witness": 85961571
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 2,
+          "r": 7,
+          "witness": 49585812
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 8,
+          "witness": 641077679
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 9,
+          "witness": 1127879355
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 2118500001,
+          "gpu_ms": 605.240286827,
+          "half_length": 2118500001,
+          "original_root": 3,
+          "p": 4237000003,
+          "primitive_root": 243,
+          "profiles": [
+            {
+              "K": 36,
+              "max": 35,
+              "prefix": 1,
+              "r": 2,
+              "witness": 1015727830
+            },
+            {
+              "K": 23,
+              "max": 22,
+              "prefix": 2,
+              "r": 3,
+              "witness": 466751391
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 6,
+              "witness": 41749199
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 9,
+              "witness": 593019624
+            }
+          ],
+          "root_exponent": 5,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 772.325996,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.8831321510078851
+      },
+      "p": 4237000003,
+      "profiles": [
+        {
+          "K": 36,
+          "max": 35,
+          "prefix": 1,
+          "r": 2,
+          "witness": 1015727830
+        },
+        {
+          "K": 23,
+          "max": 22,
+          "prefix": 2,
+          "r": 3,
+          "witness": 466751391
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 6,
+          "witness": 41749199
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 9,
+          "witness": 593019624
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 2118503520,
+          "gpu_ms": 450.598306179,
+          "half_length": 2118503520,
+          "original_root": 17,
+          "p": 4237007041,
+          "primitive_root": 2983360025,
+          "profiles": [
+            {
+              "K": 33,
+              "max": 32,
+              "prefix": 12,
+              "r": 2,
+              "witness": 198185904
+            },
+            {
+              "K": 20,
+              "max": 19,
+              "prefix": 1,
+              "r": 3,
+              "witness": 306004641
+            },
+            {
+              "K": 18,
+              "max": 17,
+              "prefix": 1,
+              "r": 4,
+              "witness": 1566208946
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 1,
+              "r": 5,
+              "witness": 593516903
+            },
+            {
+              "K": 16,
+              "max": 15,
+              "prefix": 1,
+              "r": 6,
+              "witness": 1681331099
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 2,
+              "r": 7,
+              "witness": 1885503918
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 8,
+              "witness": 492403503
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 9,
+              "witness": 320046627
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 763.013388,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.879460841009859
+      },
+      "p": 4237007041,
+      "profiles": [
+        {
+          "K": 33,
+          "max": 32,
+          "prefix": 12,
+          "r": 2,
+          "witness": 198185904
+        },
+        {
+          "K": 20,
+          "max": 19,
+          "prefix": 1,
+          "r": 3,
+          "witness": 306004641
+        },
+        {
+          "K": 18,
+          "max": 17,
+          "prefix": 1,
+          "r": 4,
+          "witness": 1566208946
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 1,
+          "r": 5,
+          "witness": 593516903
+        },
+        {
+          "K": 16,
+          "max": 15,
+          "prefix": 1,
+          "r": 6,
+          "witness": 1681331099
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 2,
+          "r": 7,
+          "witness": 1885503918
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 8,
+          "witness": 492403503
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 9,
+          "witness": 320046627
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 32,
+      "modular_checks": {
+        "profiles": 56,
+        "seconds": 0.0018214350275229663
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 2147482260,
+          "gpu_ms": 442.773697853,
+          "half_length": 2147482260,
+          "original_root": 17,
+          "p": 4294964521,
+          "primitive_root": 3300673047,
+          "profiles": [
+            {
+              "K": 34,
+              "max": 30,
+              "prefix": 16,
+              "r": 2,
+              "witness": 210946141
+            },
+            {
+              "K": 20,
+              "max": 19,
+              "prefix": 1,
+              "r": 3,
+              "witness": 1066178783
+            },
+            {
+              "K": 17,
+              "max": 16,
+              "prefix": 1,
+              "r": 4,
+              "witness": 520474938
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 1,
+              "r": 5,
+              "witness": 500791538
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 1,
+              "r": 6,
+              "witness": 511111235
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 1,
+              "r": 7,
+              "witness": 48943107
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 8,
+              "witness": 107950674
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 9,
+              "witness": 411037574
+            }
+          ],
+          "root_exponent": 13,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 765.31765,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.877467444021022
+      },
+      "p": 4294964521,
+      "profiles": [
+        {
+          "K": 34,
+          "max": 30,
+          "prefix": 16,
+          "r": 2,
+          "witness": 210946141
+        },
+        {
+          "K": 20,
+          "max": 19,
+          "prefix": 1,
+          "r": 3,
+          "witness": 1066178783
+        },
+        {
+          "K": 17,
+          "max": 16,
+          "prefix": 1,
+          "r": 4,
+          "witness": 520474938
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 1,
+          "r": 5,
+          "witness": 500791538
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 1,
+          "r": 6,
+          "witness": 511111235
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 1,
+          "r": 7,
+          "witness": 48943107
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 8,
+          "witness": 107950674
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 9,
+          "witness": 411037574
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 177,
+          "profiles": 689,
+          "sha256": "457669759acf285a5c0bc5635c98c87a8ce30ad91a613e8a9dbde444d2b3c415"
+        }
+      },
+      "selected_profile_sha256": "f2beb8e706d8890924378a313c280f74c37d44571d8c03869d6df70a3407d629"
+    },
+    {
+      "bits": 33,
+      "modular_checks": {
+        "profiles": 37,
+        "seconds": 0.0016607920115347952
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 2694500003,
+          "gpu_ms": 783.189945698,
+          "half_length": 2694500003,
+          "original_root": 5,
+          "p": 5389000007,
+          "primitive_root": 125,
+          "profiles": [
+            {
+              "K": 31,
+              "max": 30,
+              "prefix": 4,
+              "r": 2,
+              "witness": 550317298
+            }
+          ],
+          "root_exponent": 3,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 871.698215,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.9856458840076812
+      },
+      "p": 5389000007,
+      "profiles": [
+        {
+          "K": 31,
+          "max": 30,
+          "prefix": 4,
+          "r": 2,
+          "witness": 550317298
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 32,
+          "profiles": 178,
+          "sha256": "12feea74f1e04a059a7b6ff0c27cbe8585b5e740795dc53b3458b649444ab8e7"
+        }
+      },
+      "selected_profile_sha256": "36b29bc8850a47261f735138b87568ea5c876088e5943c5d5683327f8b8845ca"
+    },
+    {
+      "bits": 33,
+      "modular_checks": {
+        "profiles": 37,
+        "seconds": 0.0016607920115347952
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 2694510000,
+          "gpu_ms": 493.01584053,
+          "half_length": 2694510000,
+          "original_root": 23,
+          "p": 5389020001,
+          "primitive_root": 4076637122,
+          "profiles": [
+            {
+              "K": 31,
+              "max": 30,
+              "prefix": 10,
+              "r": 2,
+              "witness": 1657908590
+            },
+            {
+              "K": 21,
+              "max": 20,
+              "prefix": 1,
+              "r": 3,
+              "witness": 946889182
+            },
+            {
+              "K": 19,
+              "max": 18,
+              "prefix": 1,
+              "r": 4,
+              "witness": 477800902
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 1,
+              "r": 5,
+              "witness": 2530327618
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 6,
+              "witness": 2192565152
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 2,
+              "r": 7,
+              "witness": 1510317691
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 8,
+              "witness": 84977766
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 9,
+              "witness": 488877683
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 890.509902,
+          "type": "oracle"
+        },
+        "wall_seconds": 1.0059429820103105
+      },
+      "p": 5389020001,
+      "profiles": [
+        {
+          "K": 31,
+          "max": 30,
+          "prefix": 10,
+          "r": 2,
+          "witness": 1657908590
+        },
+        {
+          "K": 21,
+          "max": 20,
+          "prefix": 1,
+          "r": 3,
+          "witness": 946889182
+        },
+        {
+          "K": 19,
+          "max": 18,
+          "prefix": 1,
+          "r": 4,
+          "witness": 477800902
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 1,
+          "r": 5,
+          "witness": 2530327618
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 6,
+          "witness": 2192565152
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 2,
+          "r": 7,
+          "witness": 1510317691
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 8,
+          "witness": 84977766
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 9,
+          "witness": 488877683
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 32,
+          "profiles": 178,
+          "sha256": "12feea74f1e04a059a7b6ff0c27cbe8585b5e740795dc53b3458b649444ab8e7"
+        }
+      },
+      "selected_profile_sha256": "36b29bc8850a47261f735138b87568ea5c876088e5943c5d5683327f8b8845ca"
+    },
+    {
+      "bits": 33,
+      "modular_checks": {
+        "profiles": 37,
+        "seconds": 0.0016607920115347952
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 4158500025,
+          "gpu_ms": 1130.57836533,
+          "half_length": 4158500025,
+          "original_root": 3,
+          "p": 8317000051,
+          "primitive_root": 2187,
+          "profiles": [
+            {
+              "K": 41,
+              "max": 40,
+              "prefix": 1,
+              "r": 2,
+              "witness": 706408615
+            },
+            {
+              "K": 21,
+              "max": 20,
+              "prefix": 2,
+              "r": 3,
+              "witness": 643693839
+            },
+            {
+              "K": 15,
+              "max": 14,
+              "prefix": 1,
+              "r": 5,
+              "witness": 1427134993
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 6,
+              "witness": 1127366117
+            }
+          ],
+          "root_exponent": 7,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 1516.81594,
+          "type": "oracle"
+        },
+        "wall_seconds": 1.632466862007277
+      },
+      "p": 8317000051,
+      "profiles": [
+        {
+          "K": 41,
+          "max": 40,
+          "prefix": 1,
+          "r": 2,
+          "witness": 706408615
+        },
+        {
+          "K": 21,
+          "max": 20,
+          "prefix": 2,
+          "r": 3,
+          "witness": 643693839
+        },
+        {
+          "K": 15,
+          "max": 14,
+          "prefix": 1,
+          "r": 5,
+          "witness": 1427134993
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 6,
+          "witness": 1127366117
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 32,
+          "profiles": 178,
+          "sha256": "12feea74f1e04a059a7b6ff0c27cbe8585b5e740795dc53b3458b649444ab8e7"
+        }
+      },
+      "selected_profile_sha256": "36b29bc8850a47261f735138b87568ea5c876088e5943c5d5683327f8b8845ca"
+    },
+    {
+      "bits": 33,
+      "modular_checks": {
+        "profiles": 37,
+        "seconds": 0.0016607920115347952
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 4158500220,
+          "gpu_ms": 906.825086594,
+          "half_length": 4158500220,
+          "original_root": 11,
+          "p": 8317000441,
+          "primitive_root": 2533655617,
+          "profiles": [
+            {
+              "K": 34,
+              "max": 33,
+              "prefix": 10,
+              "r": 2,
+              "witness": 269907557
+            },
+            {
+              "K": 21,
+              "max": 20,
+              "prefix": 2,
+              "r": 3,
+              "witness": 1760981456
+            },
+            {
+              "K": 22,
+              "max": 16,
+              "prefix": 10,
+              "r": 4,
+              "witness": 173592798
+            },
+            {
+              "K": 17,
+              "max": 16,
+              "prefix": 1,
+              "r": 5,
+              "witness": 2535609789
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 2,
+              "r": 6,
+              "witness": 809946201
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 7,
+              "witness": 23641808
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 8,
+              "witness": 1162643676
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 9,
+              "witness": 1924186166
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 1516.03515,
+          "type": "oracle"
+        },
+        "wall_seconds": 1.631210045015905
+      },
+      "p": 8317000441,
+      "profiles": [
+        {
+          "K": 34,
+          "max": 33,
+          "prefix": 10,
+          "r": 2,
+          "witness": 269907557
+        },
+        {
+          "K": 21,
+          "max": 20,
+          "prefix": 2,
+          "r": 3,
+          "witness": 1760981456
+        },
+        {
+          "K": 22,
+          "max": 16,
+          "prefix": 10,
+          "r": 4,
+          "witness": 173592798
+        },
+        {
+          "K": 17,
+          "max": 16,
+          "prefix": 1,
+          "r": 5,
+          "witness": 2535609789
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 2,
+          "r": 6,
+          "witness": 809946201
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 7,
+          "witness": 23641808
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 8,
+          "witness": 1162643676
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 9,
+          "witness": 1924186166
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 32,
+          "profiles": 178,
+          "sha256": "12feea74f1e04a059a7b6ff0c27cbe8585b5e740795dc53b3458b649444ab8e7"
+        }
+      },
+      "selected_profile_sha256": "36b29bc8850a47261f735138b87568ea5c876088e5943c5d5683327f8b8845ca"
+    },
+    {
+      "bits": 33,
+      "modular_checks": {
+        "profiles": 37,
+        "seconds": 0.0016607920115347952
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 2147496120,
+          "gpu_ms": 413.562686443,
+          "half_length": 2147496120,
+          "original_root": 34,
+          "p": 4294992241,
+          "primitive_root": 1278578495,
+          "profiles": [
+            {
+              "K": 30,
+              "max": 29,
+              "prefix": 12,
+              "r": 2,
+              "witness": 1785237001
+            },
+            {
+              "K": 20,
+              "max": 19,
+              "prefix": 1,
+              "r": 3,
+              "witness": 317769160
+            },
+            {
+              "K": 17,
+              "max": 16,
+              "prefix": 1,
+              "r": 4,
+              "witness": 317958586
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 5,
+              "witness": 573072501
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 6,
+              "witness": 1930620641
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 7,
+              "witness": 228008325
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 8,
+              "witness": 560272767
+            },
+            {
+              "K": 11,
+              "max": 10,
+              "prefix": 1,
+              "r": 9,
+              "witness": 822468711
+            }
+          ],
+          "root_exponent": 13,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 729.802144,
+          "type": "oracle"
+        },
+        "wall_seconds": 0.8461891160113737
+      },
+      "p": 4294992241,
+      "profiles": [
+        {
+          "K": 30,
+          "max": 29,
+          "prefix": 12,
+          "r": 2,
+          "witness": 1785237001
+        },
+        {
+          "K": 20,
+          "max": 19,
+          "prefix": 1,
+          "r": 3,
+          "witness": 317769160
+        },
+        {
+          "K": 17,
+          "max": 16,
+          "prefix": 1,
+          "r": 4,
+          "witness": 317958586
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 5,
+          "witness": 573072501
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 6,
+          "witness": 1930620641
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 7,
+          "witness": 228008325
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 8,
+          "witness": 560272767
+        },
+        {
+          "K": 11,
+          "max": 10,
+          "prefix": 1,
+          "r": 9,
+          "witness": 822468711
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 32,
+          "profiles": 178,
+          "sha256": "12feea74f1e04a059a7b6ff0c27cbe8585b5e740795dc53b3458b649444ab8e7"
+        }
+      },
+      "selected_profile_sha256": "36b29bc8850a47261f735138b87568ea5c876088e5943c5d5683327f8b8845ca"
+    },
+    {
+      "bits": 33,
+      "modular_checks": {
+        "profiles": 37,
+        "seconds": 0.0016607920115347952
+      },
+      "oracle": {
+        "record": {
+          "arithmetic": "natural_FP64_corrected",
+          "complete": true,
+          "coverage": 4294965780,
+          "gpu_ms": 940.193983078,
+          "half_length": 4294965780,
+          "original_root": 11,
+          "p": 8589931561,
+          "primitive_root": 1843929098,
+          "profiles": [
+            {
+              "K": 33,
+              "max": 32,
+              "prefix": 10,
+              "r": 2,
+              "witness": 2121888479
+            },
+            {
+              "K": 22,
+              "max": 21,
+              "prefix": 1,
+              "r": 3,
+              "witness": 220906811
+            },
+            {
+              "K": 18,
+              "max": 17,
+              "prefix": 1,
+              "r": 4,
+              "witness": 1126579163
+            },
+            {
+              "K": 16,
+              "max": 15,
+              "prefix": 1,
+              "r": 5,
+              "witness": 2566544816
+            },
+            {
+              "K": 14,
+              "max": 13,
+              "prefix": 1,
+              "r": 6,
+              "witness": 56718778
+            },
+            {
+              "K": 13,
+              "max": 12,
+              "prefix": 2,
+              "r": 7,
+              "witness": 1664883478
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 8,
+              "witness": 569520885
+            },
+            {
+              "K": 12,
+              "max": 11,
+              "prefix": 1,
+              "r": 9,
+              "witness": 1504698373
+            }
+          ],
+          "root_exponent": 11,
+          "scope": "all",
+          "status": "PASS",
+          "total_ms": 1566.579481,
+          "type": "oracle"
+        },
+        "wall_seconds": 1.6775744800106622
+      },
+      "p": 8589931561,
+      "profiles": [
+        {
+          "K": 33,
+          "max": 32,
+          "prefix": 10,
+          "r": 2,
+          "witness": 2121888479
+        },
+        {
+          "K": 22,
+          "max": 21,
+          "prefix": 1,
+          "r": 3,
+          "witness": 220906811
+        },
+        {
+          "K": 18,
+          "max": 17,
+          "prefix": 1,
+          "r": 4,
+          "witness": 1126579163
+        },
+        {
+          "K": 16,
+          "max": 15,
+          "prefix": 1,
+          "r": 5,
+          "witness": 2566544816
+        },
+        {
+          "K": 14,
+          "max": 13,
+          "prefix": 1,
+          "r": 6,
+          "witness": 56718778
+        },
+        {
+          "K": 13,
+          "max": 12,
+          "prefix": 2,
+          "r": 7,
+          "witness": 1664883478
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 8,
+          "witness": 569520885
+        },
+        {
+          "K": 12,
+          "max": 11,
+          "prefix": 1,
+          "r": 9,
+          "witness": 1504698373
+        }
+      ],
+      "qualification": {
+        "selected": {
+          "primes": 32,
+          "profiles": 178,
+          "sha256": "12feea74f1e04a059a7b6ff0c27cbe8585b5e740795dc53b3458b649444ab8e7"
+        }
+      },
+      "selected_profile_sha256": "36b29bc8850a47261f735138b87568ea5c876088e5943c5d5683327f8b8845ca"
+    }
+  ],
+  "status": "PASS",
+  "utc": "2026-10-02T15:01:35Z"
+}

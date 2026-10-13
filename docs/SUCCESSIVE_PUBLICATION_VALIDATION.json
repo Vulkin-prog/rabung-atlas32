@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "status": "PASS",
+  "operation": "successive_publication_editorial_revision",
+  "branch_head_before_revision": "b856350dd924696932cde2eea8902c225cfe6850",
+  "release_order": [
+    "certificates revision",
+    "GPU method",
+    "atlas",
+    "cubic quadruplets"
+  ],
+  "manuscripts": [
+    {
+      "source": "paper/RABUNG_BOUNDS_EN.tex",
+      "source_sha256": "132b84ebdd61d46545c4ae85843a9285b881c73c5d22a758ccb2e163e69f0880",
+      "pdf": "paper/RABUNG_BOUNDS_EN.pdf",
+      "pdf_sha256": "b0d4189e7855a9bf07ed100f7a2393e9d095c2a2ce47eebf74da77c69719182d",
+      "version": "v1.2",
+      "pages": 29,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    },
+    {
+      "source": "paper/GPU_METHOD_EN.tex",
+      "source_sha256": "fab93d9c16d7160d7d518ce0869810ede038c6b0e21a7242ddc7edaa09abf755",
+      "pdf": "paper/GPU_METHOD_EN.pdf",
+      "pdf_sha256": "e22bbcf56e850aa30adbcebcd5225e935d23bf22da6cf7f26682b0401c15f7d6",
+      "version": "v0.4",
+      "pages": 21,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    },
+    {
+      "source": "paper/PAPER_EN.tex",
+      "source_sha256": "63e2fe28e27b2fb48f8e7e2835d96ae1691b7b6406c6112986ef0dd09c89da56",
+      "pdf": "paper/PAPER_EN.pdf",
+      "pdf_sha256": "64bf3a0d5d428d7e3ec66fd11c1b342a5700ca76128c381a19dee4d83a7d3536",
+      "version": "v1.6",
+      "pages": 30,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    },
+    {
+      "source": "paper/CUBIC_QUADRUPLETS_EN.tex",
+      "source_sha256": "ecebeb52c809d755b75f3044c27218cb4cd3b89ffa44aff9f48a91d932c17fbc",
+      "pdf": "paper/CUBIC_QUADRUPLETS_EN.pdf",
+      "pdf_sha256": "caddacf0eaedcb1804ea868b5fdd5388d76a71702c107e46150b3d3c4a773a7a",
+      "version": "v1.4",
+      "pages": 16,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    }
+  ],
+  "total_pages": 96,
+  "bibliography": {
+    "existing_public_series_editions": 1,
+    "series_references_checked": 4,
+    "forward_references": 0,
+    "removed_unpublished_series_entries": 9,
+    "future_identifiers_invented": false,
+    "registered_edition": "certificates v1.0.0; DOI 10.5281/zenodo.22980965",
+    "offline_registry_check_not_publication_validation": true
+  },
+  "reference_refusal_controls": [
+    {
+      "case": "unpublished_edition",
+      "rejected": true,
+      "reason": "Series entry is not a published edition"
+    },
+    {
+      "case": "forward_edition",
+      "rejected": true,
+      "reason": "Forward series reference"
+    },
+    {
+      "case": "unregistered_future_paper",
+      "rejected": true,
+      "reason": "Unregistered series bibliography entry: gpu:futureatlas"
+    }
+  ],
+  "bounded_commands": [
+    {
+      "name": "atlas_scope",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_editorial.py",
+        "--scope",
+        "atlas",
+        "--catalogue"
+      ],
+      "exit_code": 0,
+      "seconds": 27.214
+    },
+    {
+      "name": "cubic_scope",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_editorial.py",
+        "--scope",
+        "cubic"
+      ],
+      "exit_code": 0,
+      "seconds": 8.314
+    },
+    {
+      "name": "refs",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_publication_references.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.032
+    },
+    {
+      "name": "gpu",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_gpu_method.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.944
+    },
+    {
+      "name": "bounds",
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_bounds_update.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.496
+    }
+  ],
+  "preservation": {
+    "scientific_source_data_and_test_files_unchanged_since_base": 2006,
+    "published_claims_unchanged": 13,
+    "prior_complete_CPU_records_retained": 9,
+    "new_complete_CPU_scans_this_revision": 0,
+    "new_GPU_executions": 0,
+    "scientific_seals_modified": false,
+    "original_publication_deposit_modified": false
+  },
+  "historical_scientific_validation": "docs/FOUR_ARTICLE_VALIDATION.json (snapshot b856350dd924696932cde2eea8902c225cfe6850)",
+  "publication": {
+    "performed": false,
+    "merge_performed": false,
+    "specialist_cubic_analytic_review_pending": true,
+    "public_packages_curated_per_article_before_release": true
+  },
+  "limits": [
+    "The offline bibliography check validates the declared registry, not public availability.",
+    "Finite certificates do not machine-verify the analytic input theorems.",
+    "Four moments do not prove a full limiting distribution or a critical maximum law.",
+    "This revision does not repeat billion-position CPU scans or CUDA experiments."
+  ],
+  "scope_refusal_control": {
+    "command": [
+      "python3",
+      "-B",
+      "scripts/verify_editorial.py",
+      "--scope",
+      "cubic",
+      "--catalogue"
+    ],
+    "exit_code": 2,
+    "rejected": true,
+    "reason": "--catalogue belongs to the atlas scope"
+  },
+  "replays": {
+    "atlas_full_catalogue_ordinary_positions": 1234808,
+    "atlas_scope_passed": true,
+    "cubic_scope_passed": true,
+    "default_integrated_replay_preserved": true,
+    "default_integrated_replay_in_CI": true,
+    "CI_status_recorded_in_PR": true
+  }
+}

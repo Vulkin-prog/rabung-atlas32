@@ -1,0 +1,35 @@
+{
+  "source_sha256": "3ad8cf001868b5b5e04bcd6ed19a774dafa3b370183896717dfca5fe50d90f07",
+  "binary_sha256": "dbc3beed484b946ea67181b434b6ef4f7eba7ba7d69dfdc4671c97d3ce638f02",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "build_command": "g++ -O3 -std=c++17 -Wall -Wextra -Wconversion -o build/four_revision/two_bit_profile reproducibility/bounds_update/two_bit_profile.cpp",
+  "command": [
+    "build/four_revision/two_bit_profile",
+    "5899373413",
+    "3",
+    "18"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"schema\":1,\"p\":5899373413,\"r\":3,\"k\":18,\"g\":6,\"M\":17,\"L\":2,\"K\":18,\"w\":11332521,\"Bstar\":true,\"accepted\":true,\"strict_bound\":100289348022,\"powering_checks\":2048,\"reflection_checks\":2048,\"full_positions\":5899373412,\"seconds\":176.168096}\n",
+  "stderr": "",
+  "utc_date": "2026-10-09",
+  "independence": "Separate CPU source with two-bit storage, exact integer arithmetic and full multiplicative walk; author-controlled recheck, not external replication.",
+  "profile": {
+    "schema": 1,
+    "p": 5899373413,
+    "r": 3,
+    "k": 18,
+    "g": 6,
+    "M": 17,
+    "L": 2,
+    "K": 18,
+    "w": 11332521,
+    "Bstar": true,
+    "accepted": true,
+    "strict_bound": 100289348022,
+    "powering_checks": 2048,
+    "reflection_checks": 2048,
+    "full_positions": 5899373412,
+    "seconds": 176.168096
+  }
+}

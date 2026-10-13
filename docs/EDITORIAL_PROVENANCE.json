@@ -1,0 +1,530 @@
+{
+  "base_commit": "452907920dc623d4d1e6ae7675428fe02ed840c4",
+  "copies": [
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/src/core.py",
+      "repository_sha256": "fae80fb000de00f20c7cf2641fc0e1d99a8fb387bd65d9ad53dcb048ecee7078",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "src/core.py",
+      "source_sha256": "fae80fb000de00f20c7cf2641fc0e1d99a8fb387bd65d9ad53dcb048ecee7078"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/src/elliptic.py",
+      "repository_sha256": "9e53cc77a593aff78cc14e0c9a5ca5865f5a9715cc01ecf5aeb6a7054855b781",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "src/elliptic.py",
+      "source_sha256": "9e53cc77a593aff78cc14e0c9a5ca5865f5a9715cc01ecf5aeb6a7054855b781"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/src/a4.py",
+      "repository_sha256": "9ae5481149fa8ecf6254fd92e1c25abf05ddc4f9198fa3409f32d1f96d03586b",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "src/a4.py",
+      "source_sha256": "9ae5481149fa8ecf6254fd92e1c25abf05ddc4f9198fa3409f32d1f96d03586b"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/src/generate.py",
+      "repository_sha256": "de649e5d50d9bd4e12106c93d03bca1a6795f81ac8d8c1fa2e3a847f59064865",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "src/generate.py",
+      "source_sha256": "de649e5d50d9bd4e12106c93d03bca1a6795f81ac8d8c1fa2e3a847f59064865"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/src/compute.py",
+      "repository_sha256": "2d52a7a29290e061c887d85f1a452e37011a5458db6b150f3ff8fcb524539762",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "src/compute.py",
+      "source_sha256": "2d52a7a29290e061c887d85f1a452e37011a5458db6b150f3ff8fcb524539762"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/src/verify.py",
+      "repository_sha256": "72137814245d7e474d1762c0555da8f59a5c4991a5b5a26aebf490c742f5f54c",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "src/verify.py",
+      "source_sha256": "72137814245d7e474d1762c0555da8f59a5c4991a5b5a26aebf490c742f5f54c"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/input/jacobi_sector_inherited.py",
+      "repository_sha256": "2477417f0af9add84aff1d77edd1fa5630964c3a620b0b4de2ecaf04d021acf6",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "input/jacobi_sector_inherited.py",
+      "source_sha256": "2477417f0af9add84aff1d77edd1fa5630964c3a620b0b4de2ecaf04d021acf6"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/results/A4_CUBIQUE.json",
+      "repository_sha256": "8616a1d8504ae98707ab80582ce3ee9af7a2e778a201c7691bc6f628c59dd551",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "results/A4_CUBIQUE.json",
+      "source_sha256": "8616a1d8504ae98707ab80582ce3ee9af7a2e778a201c7691bc6f628c59dd551"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/results/CERTIFICATS_ELLIPTIQUES.json",
+      "repository_sha256": "6631bdc95294c394492e4cf01104acf35520ba59ac295c06ccb9d4f0a9e8510d",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "results/CERTIFICATS_ELLIPTIQUES.json",
+      "source_sha256": "6631bdc95294c394492e4cf01104acf35520ba59ac295c06ccb9d4f0a9e8510d"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/elliptic/results/VERIFICATION.json",
+      "repository_sha256": "e9226d6fd0d414773cae4b150710140919f997c2a975814261cbdefb19a486bd",
+      "source_archive": "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip",
+      "source_path": "results/VERIFICATION.json",
+      "source_sha256": "e9226d6fd0d414773cae4b150710140919f997c2a975814261cbdefb19a486bd"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/src/generate.py",
+      "repository_sha256": "25c2df02337219adcf48109fc13292b8870f61e18ad0ac05f529f24f0580eaec",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "src/generate.py",
+      "source_sha256": "25c2df02337219adcf48109fc13292b8870f61e18ad0ac05f529f24f0580eaec"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/src/moments.py",
+      "repository_sha256": "e122e7364af570fe681a315eb407ba63e5e5e6cfa189fc1ab710c5964bbce5c8",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "src/moments.py",
+      "source_sha256": "e122e7364af570fe681a315eb407ba63e5e5e6cfa189fc1ab710c5964bbce5c8"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/src/verify.py",
+      "repository_sha256": "397276de4f78244dde47dd1163e1aca304d0caf56f1cff86c5fef024f211400b",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "src/verify.py",
+      "source_sha256": "397276de4f78244dde47dd1163e1aca304d0caf56f1cff86c5fef024f211400b"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/input/jacobi_sector_inherited.py",
+      "repository_sha256": "2477417f0af9add84aff1d77edd1fa5630964c3a620b0b4de2ecaf04d021acf6",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "input/jacobi_sector_inherited.py",
+      "source_sha256": "2477417f0af9add84aff1d77edd1fa5630964c3a620b0b4de2ecaf04d021acf6"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/input/elliptic_inherited.py",
+      "repository_sha256": "9e53cc77a593aff78cc14e0c9a5ca5865f5a9715cc01ecf5aeb6a7054855b781",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "input/elliptic_inherited.py",
+      "source_sha256": "9e53cc77a593aff78cc14e0c9a5ca5865f5a9715cc01ecf5aeb6a7054855b781"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/input/A4_CUBIQUE_PRECEDENT.json",
+      "repository_sha256": "8616a1d8504ae98707ab80582ce3ee9af7a2e778a201c7691bc6f628c59dd551",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "input/A4_CUBIQUE_PRECEDENT.json",
+      "source_sha256": "8616a1d8504ae98707ab80582ce3ee9af7a2e778a201c7691bc6f628c59dd551"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/results/CERTIFICATS_FINIS.json",
+      "repository_sha256": "cd9aaa5cbbad1bf07879508a7da8e5c19487b703aef7b85785a6f51817bc4de1",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "results/CERTIFICATS_FINIS.json",
+      "source_sha256": "cd9aaa5cbbad1bf07879508a7da8e5c19487b703aef7b85785a6f51817bc4de1"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/results/CERTIFICATS_CM.json",
+      "repository_sha256": "19514045190e3e5a390d4da61728b7c7e113168ce56146d889aa95824df54157",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "results/CERTIFICATS_CM.json",
+      "source_sha256": "19514045190e3e5a390d4da61728b7c7e113168ce56146d889aa95824df54157"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/results/VERIFICATION.json",
+      "repository_sha256": "d13093056a04617975cb4bf8a8cfaf8c9069e0031656e4cc80d97242c5c98f86",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "results/VERIFICATION.json",
+      "source_sha256": "d13093056a04617975cb4bf8a8cfaf8c9069e0031656e4cc80d97242c5c98f86"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/cubic_quadruplets/moments/results/MOMENTS_EXACTS.json",
+      "repository_sha256": "458c1251904e500a9907146adf396ce537f6a09dd7b551e48127626dc5a0eefe",
+      "source_archive": "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip",
+      "source_path": "results/MOMENTS_EXACTS.json",
+      "source_sha256": "458c1251904e500a9907146adf396ce537f6a09dd7b551e48127626dc5a0eefe"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/src/relations.py",
+      "repository_sha256": "5c1896c84e435108a7bdf08589d75af1851d6d87c843664c527d9f7d24a539d2",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "src/relations.py",
+      "source_sha256": "5c1896c84e435108a7bdf08589d75af1851d6d87c843664c527d9f7d24a539d2"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/src/analyse.py",
+      "repository_sha256": "c4b3d5db473a17182f6f55b02d28c023e440569a9e04c0270a3bf3d8330f707b",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "src/analyse.py",
+      "source_sha256": "c4b3d5db473a17182f6f55b02d28c023e440569a9e04c0270a3bf3d8330f707b"
+    },
+    {
+      "operation": "packaging: find classifier source beside exporter",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/src/export_classified.py",
+      "repository_sha256": "b2899a048b369cd82c63227bb4fbcf177f26d9990e9282f86f7ffba66fb45700",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "src/export_classified.py",
+      "source_sha256": "00a62cdb7c7e8c0d37886593bb21e13cd9e526b8ecc2d500e5c0ac603baffee1"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/src/classify.cpp",
+      "repository_sha256": "4354426ff193db08ca467a0fa4e074b45c8b7f4d588d3e89bcf0e1e0ae95d0f5",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "src/classify.cpp",
+      "source_sha256": "4354426ff193db08ca467a0fa4e074b45c8b7f4d588d3e89bcf0e1e0ae95d0f5"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/tests/qualify_classifier.py",
+      "repository_sha256": "904594feada3fea1404839c0172297a8e637c8e514c619c290b7bb063afa99d3",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "tests/qualify_classifier.py",
+      "source_sha256": "904594feada3fea1404839c0172297a8e637c8e514c619c290b7bb063afa99d3"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/tests/verify_results.py",
+      "repository_sha256": "134770848046cf6fe9762618f5adf53cb526d0ab7cdf9a2a5278e325e73024f4",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "tests/verify_results.py",
+      "source_sha256": "134770848046cf6fe9762618f5adf53cb526d0ab7cdf9a2a5278e325e73024f4"
+    },
+    {
+      "operation": "packaging: find classifier source beside exporter",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/export_classified.py",
+      "repository_sha256": "b2899a048b369cd82c63227bb4fbcf177f26d9990e9282f86f7ffba66fb45700",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/export_classified.py",
+      "source_sha256": "00a62cdb7c7e8c0d37886593bb21e13cd9e526b8ecc2d500e5c0ac603baffee1"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/EXPORT.json",
+      "repository_sha256": "a4e9ce6798e27d298db66f79df7b78bd51e268c8b2ca2e154b2e6f2f2fb6de06",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/EXPORT.json",
+      "source_sha256": "a4e9ce6798e27d298db66f79df7b78bd51e268c8b2ca2e154b2e6f2f2fb6de06"
+    },
+    {
+      "operation": "packaging: checksum updated for adjacent classifier path",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/SHA256SUMS",
+      "repository_sha256": "545228297608daf0c08a3dcddf9e85e24143d2d2ce38c52d4ad44b2681c56cb8",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/SHA256SUMS",
+      "source_sha256": "c8c012a2c647ded52a4b1c44efd41bc00c038b741080b80fb96edce86769d5b0"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/SAMPLE_RUNS.json",
+      "repository_sha256": "a1a8277fc382d0464a06a8ff61a5c5decd4231a771eff7ae73726571c2ea45b2",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/SAMPLE_RUNS.json",
+      "source_sha256": "a1a8277fc382d0464a06a8ff61a5c5decd4231a771eff7ae73726571c2ea45b2"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/classify.cpp",
+      "repository_sha256": "4354426ff193db08ca467a0fa4e074b45c8b7f4d588d3e89bcf0e1e0ae95d0f5",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/classify.cpp",
+      "source_sha256": "4354426ff193db08ca467a0fa4e074b45c8b7f4d588d3e89bcf0e1e0ae95d0f5"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/HITS.csv",
+      "repository_sha256": "f9ffda80a6497bc43cf0f38c34674bfb57b5261e61381e70c5c466022560e4b5",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/HITS.csv",
+      "source_sha256": "f9ffda80a6497bc43cf0f38c34674bfb57b5261e61381e70c5c466022560e4b5"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/coordinate_export/SUMMARY.csv",
+      "repository_sha256": "0d14724b78df09c296b283072404f47eeda588cd5c4ce394b97c82aa2f895afb",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/coordinate_export/SUMMARY.csv",
+      "source_sha256": "0d14724b78df09c296b283072404f47eeda588cd5c4ce394b97c82aa2f895afb"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/COMPACT.json",
+      "repository_sha256": "27f9679d7b2cdbb3884ef5a201092a43c1a1e992b4d2b5900c8dc30915389e48",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/COMPACT.json",
+      "source_sha256": "27f9679d7b2cdbb3884ef5a201092a43c1a1e992b4d2b5900c8dc30915389e48"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/input/threshold_counts.csv",
+      "repository_sha256": "beb030c205ee160d440e98466cc9f52e11f13dae6e60ffbca67e3f62815299da",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "input/threshold_counts.csv",
+      "source_sha256": "beb030c205ee160d440e98466cc9f52e11f13dae6e60ffbca67e3f62815299da"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/results/CERTIFICATS.json",
+      "repository_sha256": "8ef26253c3bcd0fda3e2b36a3d5179c013d0b37df2ebbf34d3ba17fcbac84df4",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "results/CERTIFICATS.json",
+      "source_sha256": "8ef26253c3bcd0fda3e2b36a3d5179c013d0b37df2ebbf34d3ba17fcbac84df4"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/results/ANALYSE.json",
+      "repository_sha256": "ad26d5f3d70d90015a93d3d45bd11a5144afbaf525c2002261d96b88f112573e",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "results/ANALYSE.json",
+      "source_sha256": "ad26d5f3d70d90015a93d3d45bd11a5144afbaf525c2002261d96b88f112573e"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/results/CLASSIFIER_TESTS.json",
+      "repository_sha256": "866176c54b71f46cc70540fab078e9d0e9f7336862f42773dbf027dd17183917",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "results/CLASSIFIER_TESTS.json",
+      "source_sha256": "866176c54b71f46cc70540fab078e9d0e9f7336862f42773dbf027dd17183917"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/coordinates/results/VERIFICATION.json",
+      "repository_sha256": "415a77b8f750444de6cb4ae1082f5867a85c8d0acb938bf14e80caa658e5eb12",
+      "source_archive": "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip",
+      "source_path": "results/VERIFICATION.json",
+      "source_sha256": "415a77b8f750444de6cb4ae1082f5867a85c8d0acb938bf14e80caa658e5eb12"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/src/filter_model.py",
+      "repository_sha256": "a3e555d5a7aed25033c7bae3f1df6f40697a5dffd3c80f8d812cd7069aa69641",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "src/filter_model.py",
+      "source_sha256": "a3e555d5a7aed25033c7bae3f1df6f40697a5dffd3c80f8d812cd7069aa69641"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/src/analyse.py",
+      "repository_sha256": "a89a0c89308facc6dfd877af2ca12fa4b8c7886b5e2bf800bcf265be126353d4",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "src/analyse.py",
+      "source_sha256": "a89a0c89308facc6dfd877af2ca12fa4b8c7886b5e2bf800bcf265be126353d4"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/tests/verify.py",
+      "repository_sha256": "0ab352f1347a0bee58acee0df9f1a6956994f778b139ddde716815c20b76cc2b",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "tests/verify.py",
+      "source_sha256": "0ab352f1347a0bee58acee0df9f1a6956994f778b139ddde716815c20b76cc2b"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/input/HITS.csv",
+      "repository_sha256": "f9ffda80a6497bc43cf0f38c34674bfb57b5261e61381e70c5c466022560e4b5",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "input/HITS.csv",
+      "source_sha256": "f9ffda80a6497bc43cf0f38c34674bfb57b5261e61381e70c5c466022560e4b5"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/input/SUMMARY.csv",
+      "repository_sha256": "0d14724b78df09c296b283072404f47eeda588cd5c4ce394b97c82aa2f895afb",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "input/SUMMARY.csv",
+      "source_sha256": "0d14724b78df09c296b283072404f47eeda588cd5c4ce394b97c82aa2f895afb"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/input/threshold_counts.csv",
+      "repository_sha256": "beb030c205ee160d440e98466cc9f52e11f13dae6e60ffbca67e3f62815299da",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "input/threshold_counts.csv",
+      "source_sha256": "beb030c205ee160d440e98466cc9f52e11f13dae6e60ffbca67e3f62815299da"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/input/COMPACT.json",
+      "repository_sha256": "27f9679d7b2cdbb3884ef5a201092a43c1a1e992b4d2b5900c8dc30915389e48",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "input/COMPACT.json",
+      "source_sha256": "27f9679d7b2cdbb3884ef5a201092a43c1a1e992b4d2b5900c8dc30915389e48"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/results/ANALYSE.json",
+      "repository_sha256": "042dd6621e12f970cc634d8875c809034ba1bb7b992766658a52ea8819cd49a5",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "results/ANALYSE.json",
+      "source_sha256": "042dd6621e12f970cc634d8875c809034ba1bb7b992766658a52ea8819cd49a5"
+    },
+    {
+      "operation": "byte-identical scientific/source copy",
+      "repository_path": "reproducibility/ternary_diagnostics/same_filter/results/VERIFICATION.json",
+      "repository_sha256": "80b282e0344c25d0c6b4989c55ccc4d027f31f1485b76ad6cfcc4816df53c228",
+      "source_archive": "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip",
+      "source_path": "results/VERIFICATION.json",
+      "source_sha256": "80b282e0344c25d0c6b4989c55ccc4d027f31f1485b76ad6cfcc4816df53c228"
+    }
+  ],
+  "excluded": "Private reports, external reviews, execution logs, operational workflows and research ZIPs. The original atlas and million-profile data remain byte-identical.",
+  "snapshot_commit": "72ba1ba61ff8a096b1e704bedfbae437c396e030",
+  "source_archives": {
+    "VDW_A4_CUBIQUE_MOMENTS_VERTICAUX_2026-10-07.zip": "d33da5051afaa724c6643e3c7b9d05dbe955de9ec305e44f004566a1d452eb93",
+    "VDW_BIAIS_ET_COORDONNEES_2026-10-05.zip": "4d15d6a55516fd67bc6b8fd93ef04dfbbc550cd2171bbe4ee06db6bda772dddf",
+    "VDW_FILTRE_IID_ET_RESTE_2026-10-05.zip": "e7822d399193a23005af024f30bbc3d90682374a8d49c70adefdb57bdb863e48",
+    "VDW_SUPPORT_QUATRE_ET_TRACES_ELLIPTIQUES_2026-10-07.zip": "04f664af62a8f9e916e8494d041265bda1a807ac9aaf6364d0b693c0c5dc9a55"
+  },
+  "review_revision": {
+    "date": "2026-10-08",
+    "reviewed_branch_head": "59a9f9c501ab6781996222470049940ddef2e691",
+    "manuscripts": {
+      "atlas": "v1.3",
+      "cubic_companion": "v1.1"
+    },
+    "reports": [
+      {
+        "filename": "AUDIT_PRIORITE_ATLAS_CUBIQUE_2026-10-08_FR.pdf",
+        "sha256": "1990b4dceb74ae31e3aeca6e38231c9f2459b3ffc6de16337f574596202c08f1"
+      },
+      {
+        "filename": "CONTRE_REVUE_ATLAS_ET_QUADRUPLETS_2026-10-08_FR.pdf",
+        "sha256": "bf4a63d595b8f4e24858eb69ad36faed31ab03d1b363a2b4c3c8f1b079e85fbd"
+      }
+    ],
+    "report_redistribution": false,
+    "response_path": "docs/REVIEW_RESPONSE_2026-10-08_FR.md",
+    "residual_witnesses": 200,
+    "hypergeometric_cases": 2360
+  },
+  "publication_source_policy": {
+    "date": "2026-10-09",
+    "base_commit": "a835bbdefefa8302ab1a97ed3040b4b2f2e13124",
+    "manuscripts": {
+      "bounds_revision": "v1.1",
+      "gpu_methods": "v0.3",
+      "atlas": "v1.5",
+      "cubic_companion": "v1.3"
+    },
+    "excluded_from_manuscript_sources": [
+      "private reviews",
+      "internal working notes",
+      "conversation histories"
+    ],
+    "scientific_arguments": "self-contained manuscript proofs, published primary sources and versioned scientific artifacts; companion papers intended for publication",
+    "superseded_by": "successive_publication_revision"
+  },
+  "publication_source_policy_previous": {
+    "date": "2026-10-08",
+    "base_commit": "94d586095c1b12edf185c31f20f6f7c72c786c4a",
+    "manuscripts": {
+      "atlas": "v1.4",
+      "cubic_companion": "v1.2"
+    },
+    "excluded_from_manuscript_sources": [
+      "private reviews",
+      "internal working notes",
+      "unprovided GPU manuscript"
+    ],
+    "scientific_arguments": "self-contained manuscript proofs and versioned reproducibility artifacts"
+  },
+  "four_article_revision": {
+    "date": "2026-10-09",
+    "branch_head_before_revision": "a835bbdefefa8302ab1a97ed3040b4b2f2e13124",
+    "manuscripts": {
+      "bounds_revision": "v1.1",
+      "gpu_methods": "v0.3",
+      "atlas": "v1.5",
+      "cubic_companion": "v1.3"
+    },
+    "published_edition": {
+      "doi": "10.5281/zenodo.22980965",
+      "repository": "Vulkin-prog/vdw-rabung-bounds",
+      "commit": "704b4125b274bab3df45454adc9c421f8068b8a1",
+      "selected_import_manifest": "reproducibility/bounds_update/PUBLISHED_IMPORTS.json",
+      "immutable_original_claim_count": 13,
+      "original_deposit_modified": false
+    },
+    "gpu_source": {
+      "repository": "Vulkin-prog/vdw-gpu-starter",
+      "manuscript_commit": "f00cdcb95f12d7578bdb37a87db97ff233c86a22",
+      "full_packet_commit": "f2d515c383776d3f915b87423ea101029d041bc5",
+      "selected_import_manifest": "reproducibility/gpu_method/PROVENANCE.json",
+      "selected_files": 34,
+      "full_packet_imports": 272,
+      "new_GPU_executions": 0
+    },
+    "new_pointwise_CPU_records": 9,
+    "new_primitive_certificates": 6,
+    "new_direct_rows": 14,
+    "published_gate_modified": false,
+    "closure_scope": {
+      "min_length": 12,
+      "max_length": 28,
+      "max_colors": 6,
+      "published_max_colors": 4
+    },
+    "operations": {
+      "paper/RABUNG_BOUNDS_EN.tex": "Standalone revised draft assembled from the published source, with a separate current addendum and historical results explicitly identified. Original edition unchanged.",
+      "paper/GPU_METHOD_EN.tex": "Revised manuscript from pinned v0.2 source. Completion cost, launch/residency wording and worked example corrected; measurements retained.",
+      "paper/PAPER_EN.tex": "Scope and references revised to the four-article portfolio; colour-first notation and current versus historical lower-bound comparison clarified.",
+      "paper/CUBIC_QUADRUPLETS_EN.tex": "Portfolio interfaces and references revised; exact formulas and analytic moment argument preserved."
+    },
+    "private_review_PDFs_redistributed": false,
+    "global_priority_audit_reopened": false
+  },
+  "successive_publication_revision": {
+    "date": "2026-10-09",
+    "base_commit": "b856350dd924696932cde2eea8902c225cfe6850",
+    "manuscripts": {
+      "bounds_revision": "v1.2",
+      "gpu_methods": "v0.4",
+      "atlas": "v1.6",
+      "cubic_companion": "v1.4"
+    },
+    "release_order": [
+      "certificates revision",
+      "GPU method",
+      "atlas",
+      "cubic quadruplets"
+    ],
+    "currently_public_series_edition": "certificates v1.0.0; DOI 10.5281/zenodo.22980965",
+    "registry": "docs/PUBLICATION_SEQUENCE.json",
+    "plan": "docs/SUCCESSIVE_PUBLICATION_PLAN_FR.md",
+    "series_reference_policy": "Already public editions only; insert real edition locators into later manuscripts after publication.",
+    "removed_series_bibliography_entries": {
+      "bounds": 2,
+      "GPU": 2,
+      "atlas": 3,
+      "cubic": 2
+    },
+    "content_changes": [
+      "Remove forward references and circular series bibliography.",
+      "Keep exact cubic six-curve formulas and moment constants in the cubic paper; remove their advance announcement from the atlas.",
+      "Give cubic-only replay commands rather than requiring the atlas diagnostic workflow.",
+      "Separate atlas/cubic replay scopes while keeping the original integrated CI default."
+    ],
+    "scientific_sources_and_data_unchanged": true,
+    "publication_performed": false,
+    "deposit_modified": false
+  }
+}

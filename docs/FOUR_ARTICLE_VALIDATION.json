@@ -1,0 +1,404 @@
+{
+  "schema": 1,
+  "date": "2026-10-09",
+  "status": "PASS",
+  "operation": "four_article_editorial_revision_and_pointwise_checks",
+  "branch_head_before_revision": "a835bbdefefa8302ab1a97ed3040b4b2f2e13124",
+  "manuscripts": [
+    {
+      "source": "paper/PAPER_EN.tex",
+      "source_sha256": "62563a00df39cbffed894a7de7b3193ce04508e9a5b383ec9a4dcf1436841e52",
+      "pdf": "paper/PAPER_EN.pdf",
+      "pdf_sha256": "218dc65b9027e572223a6177a799f56ffd302161ac35abd2323d4aa45b7b5ea0",
+      "version": "v1.5",
+      "pages": 30,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    },
+    {
+      "source": "paper/CUBIC_QUADRUPLETS_EN.tex",
+      "source_sha256": "d3d27f0bd6d1f54ad7557174a76e9b3aa7b7eb1f508443a73589e3aa1e0f5c10",
+      "pdf": "paper/CUBIC_QUADRUPLETS_EN.pdf",
+      "pdf_sha256": "dcb5094343e930c42e0652efdc6dc6788d5b81ee02793d04e5b481730a4be14f",
+      "version": "v1.3",
+      "pages": 16,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    },
+    {
+      "source": "paper/GPU_METHOD_EN.tex",
+      "source_sha256": "a560033c76565272b4bfe925c6f887f4f9b05e82d0aac72302b975d3b4c066f1",
+      "pdf": "paper/GPU_METHOD_EN.pdf",
+      "pdf_sha256": "050215dde4fef047d6775cc52ad90ed7d4b94aecb505a9ab46d65ee591d57d51",
+      "version": "v0.3",
+      "pages": 21,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    },
+    {
+      "source": "paper/RABUNG_BOUNDS_EN.tex",
+      "source_sha256": "62e3ae767a829a44ccc04491c7a36a4e627db0505c8cfc3066ccb65dd887d283",
+      "pdf": "paper/RABUNG_BOUNDS_EN.pdf",
+      "pdf_sha256": "3d0f13f3b0d534d7ad3421cbb6209082015e18b876e93f29b6f4f95e5d72bafd",
+      "version": "v1.1",
+      "pages": 29,
+      "pdflatex_passes": 2,
+      "shell_escape": false,
+      "overfull_boxes": 0,
+      "unresolved_references": 0,
+      "embedded_fonts": true,
+      "rendered_and_visually_reviewed": true
+    }
+  ],
+  "bounded_commands": [
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_atlas.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.125
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests"
+      ],
+      "exit_code": 0,
+      "seconds": 0.963
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_ternary.py"
+      ],
+      "exit_code": 0,
+      "seconds": 28.97
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "reproducibility/proofs/verify_synthesis.py"
+      ],
+      "exit_code": 0,
+      "seconds": 77.279
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "reproducibility/proofs/verify_report4.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.172
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "reproducibility/anteriorities/theorie_densites_residuels_20261004/preuves/verify_results.py"
+      ],
+      "exit_code": 0,
+      "seconds": 2.395
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_gpu_method.py",
+        "--report",
+        "build/four_revision/GPU_VALIDATION.json"
+      ],
+      "exit_code": 0,
+      "seconds": 0.856
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/verify_bounds_update.py"
+      ],
+      "exit_code": 0,
+      "seconds": 0.419
+    },
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Wconversion",
+        "-o",
+        "build/four_revision/independent_profile",
+        "reproducibility/bounds_update/independent_profile.cpp"
+      ],
+      "exit_code": 0,
+      "seconds": 0.447
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "reproducibility/bounds_update/check_small.py",
+        "build/four_revision/independent_profile"
+      ],
+      "exit_code": 0,
+      "seconds": 0.744
+    },
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "-Wall",
+        "-Wextra",
+        "-Wconversion",
+        "-o",
+        "build/four_revision/two_bit_profile",
+        "reproducibility/bounds_update/two_bit_profile.cpp"
+      ],
+      "exit_code": 0,
+      "seconds": 0.439
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "reproducibility/bounds_update/check_small.py",
+        "build/four_revision/two_bit_profile",
+        "--max-order",
+        "3"
+      ],
+      "exit_code": 0,
+      "seconds": 0.396
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/build_workers.py"
+      ],
+      "exit_code": 0,
+      "seconds": 3.344
+    },
+    {
+      "command": [
+        "python3",
+        "-B",
+        "scripts/recompute_small.py",
+        "--count",
+        "256"
+      ],
+      "exit_code": 0,
+      "seconds": 0.082
+    },
+    {
+      "command": [
+        "g++",
+        "-O3",
+        "-std=c++17",
+        "reproducibility/proofs/local_maximum.cpp",
+        "-o",
+        "build/four_revision/local_maximum"
+      ],
+      "exit_code": 0,
+      "seconds": 0.649
+    },
+    {
+      "command": [
+        "build/four_revision/local_maximum",
+        "reproducibility/evidence/new/local_relations_input.txt",
+        "build/four_revision/local_maximum.csv"
+      ],
+      "exit_code": 0,
+      "seconds": 1.137
+    },
+    {
+      "command": [
+        "cmp",
+        "build/four_revision/local_maximum.csv",
+        "reproducibility/evidence/new/LOCAL_MAXIMUM_CUBIC.csv"
+      ],
+      "exit_code": 0,
+      "seconds": 0.002
+    }
+  ],
+  "GPU_table_verification": {
+    "status": "PASS",
+    "operation": "OFFLINE_EDITORIAL_AUDIT",
+    "imported_files_verified": 34,
+    "historical_engine_prefix_identity_verified": true,
+    "tables_checked": [
+      "historical hot medians",
+      "later repeated batch wall times"
+    ],
+    "historical_comparison": [
+      {
+        "cohort": "natural128",
+        "primes": 128,
+        "historical_sum_hot_medians_ms": 2534.1975925,
+        "selected_sum_hot_medians_ms": 105.579262,
+        "factor": 24.00279699340956
+      },
+      {
+        "cohort": "stress8",
+        "primes": 8,
+        "historical_sum_hot_medians_ms": 186.451804,
+        "selected_sum_hot_medians_ms": 17.024341500000002,
+        "factor": 10.952071420794748
+      },
+      {
+        "cohort": "control15",
+        "primes": 15,
+        "historical_sum_hot_medians_ms": 318.364164,
+        "selected_sum_hot_medians_ms": 20.7789275,
+        "factor": 15.321491640990613
+      }
+    ],
+    "later_throughput": [
+      {
+        "lo": 257000003,
+        "hi_exclusive": 257019067,
+        "bits": 32,
+        "primes": 1024,
+        "profiles": 3412,
+        "reference_seconds": 0.3768729815007343,
+        "selected_seconds": 0.14608515534200706,
+        "factor": 2.5798170979003214
+      },
+      {
+        "lo": 1337000003,
+        "hi_exclusive": 1337021633,
+        "bits": 32,
+        "primes": 1024,
+        "profiles": 3426,
+        "reference_seconds": 0.7147763748313688,
+        "selected_seconds": 0.4461023430194473,
+        "factor": 1.60226994100367
+      },
+      {
+        "lo": 2971000001,
+        "hi_exclusive": 2971023053,
+        "bits": 32,
+        "primes": 1024,
+        "profiles": 3377,
+        "reference_seconds": 1.1105812865134794,
+        "selected_seconds": 0.8446895551411823,
+        "factor": 1.314780418147654
+      },
+      {
+        "lo": 4237000001,
+        "hi_exclusive": 4237023083,
+        "bits": 32,
+        "primes": 1024,
+        "profiles": 3405,
+        "reference_seconds": 1.3659543865069281,
+        "selected_seconds": 1.111832476167668,
+        "factor": 1.2285613307637704
+      },
+      {
+        "lo": 6023000001,
+        "hi_exclusive": 6023023361,
+        "bits": 33,
+        "primes": 1024,
+        "profiles": 3448,
+        "reference_seconds": 1.6345479425023466,
+        "selected_seconds": 1.1628199683133669,
+        "factor": 1.4056758458260792
+      },
+      {
+        "lo": 8041000003,
+        "hi_exclusive": 8041022923,
+        "bits": 33,
+        "primes": 1024,
+        "profiles": 3444,
+        "reference_seconds": 1.9084463595111931,
+        "selected_seconds": 1.4750300535088172,
+        "factor": 1.2938355764151115
+      }
+    ],
+    "final_engine_primes": 6144,
+    "final_engine_profiles": 20512,
+    "per_r": {
+      "2": 6144,
+      "3": 3076,
+      "4": 3094,
+      "5": 1519,
+      "6": 3076,
+      "7": 1044,
+      "8": 1529,
+      "9": 1030
+    },
+    "limitations": [
+      "No CUDA compilation or execution.",
+      "No proof of completeness from witness or hash checks alone.",
+      "Historical per-prime medians are retained; individual hot samples are external.",
+      "Freeze flags are audited as archived declarations, not an independent chronology proof."
+    ]
+  },
+  "CPU_small_controls": {
+    "byte_table": {
+      "status": "PASS",
+      "power_colour_profiles": 389,
+      "literal_AP_checks": 55,
+      "invalid_inputs": 4
+    },
+    "two_bit": {
+      "status": "PASS",
+      "power_colour_profiles": 221,
+      "literal_AP_checks": 30,
+      "invalid_inputs": 4
+    }
+  },
+  "CPU_full_checks": {
+    "record_count": 9,
+    "complete_ordinary_scans": 9,
+    "new_primitive_certificates": 6,
+    "new_direct_rows": 14,
+    "records_directory": "reproducibility/bounds_update/results/",
+    "outside_atlas_ternary_primes": [
+      5899373413,
+      14413721599,
+      17177303971
+    ],
+    "external_replication": false
+  },
+  "preservation": {
+    "existing_scientific_source_data_and_test_files_unchanged": 1942,
+    "published_claims_unchanged": 13,
+    "new_GPU_executions": 0,
+    "old_registry_modified": false,
+    "original_publication_deposit_modified": false
+  },
+  "editorial_and_catalogue_verification_command": "python3 -B scripts/verify_editorial.py --catalogue",
+  "limits": [
+    "The default record audit does not repeat billion-position scans.",
+    "Local and CI finite checks do not machine-verify the analytic moment theorems.",
+    "Specialist analytic review and a public immutable artifact remain publication tasks.",
+    "No new global literature priority audit or complete GPU census."
+  ],
+  "historical_validation_record": true,
+  "artifact_snapshot_commit": "b856350dd924696932cde2eea8902c225cfe6850",
+  "superseded_for_current_manuscripts_by": "docs/SUCCESSIVE_PUBLICATION_VALIDATION.json"
+}

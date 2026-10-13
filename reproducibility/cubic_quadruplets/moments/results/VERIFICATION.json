@@ -1,0 +1,43 @@
+{
+  "counts": {
+    "CM_Jacobi_trace_identities": 621,
+    "Fermat_birational_map_points": 1551,
+    "Fermat_fiber_vs_elliptic_trace": 621,
+    "altered_certificates_rejected": 3,
+    "analytic_case_bookkeeping": 315,
+    "conditional_trace_decompositions": 207,
+    "cube_moments": 1,
+    "exact_cubic_twist_relations": 207,
+    "incompatible_CM_field_witnesses": 3,
+    "inherited_nonCM_point_order_certificates": 9,
+    "joint_monomials_total_degree_at_most_four": 70,
+    "large_CM_curve_parameters": 9,
+    "large_CM_vs_Jacobi": 3,
+    "large_case_alignment": 3,
+    "large_new_A4_identity": 3,
+    "mixture_moments": 1,
+    "negative_domain_tests": 4,
+    "new_A4_vs_natural_word": 207,
+    "new_CM_point_order_certificates": 9,
+    "no_GL2_twist_equivalences_witness": 1,
+    "no_Sym2_cubic_twist_equivalences_witness": 1,
+    "no_quadratic_basechange_self_twist_witnesses": 3,
+    "noncube_moments": 1,
+    "one_variable_Weyl_moments": 280,
+    "ordinary_reduction_witnesses": 6,
+    "small_natural_primes": 207,
+    "trace_at_31": 1,
+    "two_independent_point_counts": 1242
+  },
+  "external_inputs_not_computationally_proved": [
+    "CM Hecke theory",
+    "symmetric-power automorphy",
+    "cyclic base change",
+    "GL2 tensor product functoriality",
+    "Rankin-Selberg prime number theorem"
+  ],
+  "no_GPU": true,
+  "no_atlas_rescan": true,
+  "no_full_maximum_law": true,
+  "status": "PASS"
+}

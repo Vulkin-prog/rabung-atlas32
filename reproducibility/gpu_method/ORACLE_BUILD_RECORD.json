@@ -1,0 +1,25 @@
+{
+  "status": "IMPORTED_HISTORICAL_RECORD",
+  "source_record_sha256": "60675678672f57b043ea3b0f44fa97bc360b28e9c9379e2f6eddb3c33601ae67",
+  "record": {
+    "label": "compile",
+    "command": [
+      "nvcc",
+      "-O3",
+      "-std=c++17",
+      "-lineinfo",
+      "-Xptxas=-v",
+      "-gencode",
+      "arch=compute_120,code=sm_120",
+      "original-work/overnight_sm120/wide33/dense_oracle.cu",
+      "-o",
+      "original-work/overnight_sm120/wide33/dense_oracle"
+    ],
+    "returncode": 0,
+    "expected_returncode": 0,
+    "elapsed_seconds": 1.6658226889994694,
+    "log": "original-work/overnight_sm120/experiments/020_wide33_dense_oracle/000_compile.log"
+  },
+  "new_compilation": false,
+  "limit": "Historical compilation record; not a new rebuild or proof of compiler semantics"
+}

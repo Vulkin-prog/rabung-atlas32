@@ -1,0 +1,173 @@
+{
+  "claims": [
+    {
+      "check_record": "results/p2072886931_r3_k17.json",
+      "colors": 3,
+      "derivation": "pointwise",
+      "id": "update_w3_k17_p2072886931",
+      "length": 17,
+      "lower_bound": 33166190897,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 2072886931,
+      "qualified_at_length": 17
+    },
+    {
+      "check_record": "results/p5899373413_r3_k18.json",
+      "colors": 3,
+      "derivation": "pointwise",
+      "id": "update_w3_k18_p5899373413",
+      "length": 18,
+      "lower_bound": 100289348022,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 5899373413,
+      "qualified_at_length": 18
+    },
+    {
+      "check_record": "results/p14413721599_r3_k19.json",
+      "colors": 3,
+      "derivation": "pointwise",
+      "id": "update_w3_k19_p14413721599",
+      "length": 19,
+      "lower_bound": 259446988783,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 14413721599,
+      "qualified_at_length": 19
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "pointwise",
+      "id": "update_w3_k20_p17177303971",
+      "length": 20,
+      "lower_bound": 326368775450,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k21_p17177303971",
+      "length": 21,
+      "lower_bound": 343546079421,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k22_p17177303971",
+      "length": 22,
+      "lower_bound": 360723383392,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k23_p17177303971",
+      "length": 23,
+      "lower_bound": 377900687363,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k24_p17177303971",
+      "length": 24,
+      "lower_bound": 395077991334,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k25_p17177303971",
+      "length": 25,
+      "lower_bound": 412255295305,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k26_p17177303971",
+      "length": 26,
+      "lower_bound": 429432599276,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k27_p17177303971",
+      "length": 27,
+      "lower_bound": 446609903247,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p17177303971_r3_k20.json",
+      "colors": 3,
+      "derivation": "fixed-prime Rabung monotonicity",
+      "id": "update_w3_k28_p17177303971",
+      "length": 28,
+      "lower_bound": 463787207218,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 17177303971,
+      "qualified_at_length": 20
+    },
+    {
+      "check_record": "results/p4195501393_r2_k27.json",
+      "colors": 2,
+      "derivation": "pointwise",
+      "id": "update_w2_k27_p4195501393",
+      "length": 27,
+      "lower_bound": 109083036219,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 4195501393,
+      "qualified_at_length": 27
+    },
+    {
+      "check_record": "results/p4294720151_r2_k28.json",
+      "colors": 2,
+      "derivation": "pointwise",
+      "id": "update_w2_k28_p4294720151",
+      "length": 28,
+      "lower_bound": 115957444078,
+      "origin": "bounds_update_2026_10_09",
+      "prime": 4294720151,
+      "qualified_at_length": 28
+    }
+  ],
+  "limits": [
+    "Retained full author-controlled CPU executions; no external replication.",
+    "The default verification does not rescan the full periods.",
+    "No fresh global literature search or full GPU campaign."
+  ],
+  "new_direct_rows": 14,
+  "new_full_CPU_records": 9,
+  "new_primitive_certificates": 6,
+  "published_claims_unchanged": 13,
+  "published_doi": "10.5281/zenodo.22980965",
+  "schema": 1,
+  "source_hashes": {
+    "independent_profile.cpp": "d5dd61b542d240a67b190c8552c8ec1d70a9704e85c103c711687bafdcc53df9",
+    "two_bit_profile.cpp": "3ad8cf001868b5b5e04bcd6ed19a774dafa3b370183896717dfca5fe50d90f07"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "coverage_slope_checks": 4550,
+    "exhaustive_masks": 682,
+    "expectation_equalities": 490,
+    "finite_geometric_sum_equalities": 2200,
+    "finite_tail_enclosures": 48,
+    "masks_tested_against_words": 98,
+    "modular_mask_cases": 16,
+    "modular_positions": 5791,
+    "negative_tests": 8,
+    "signed_continuation_bounds": 9178,
+    "words_enumerated": 30527
+  },
+  "scope": "Finite combinatorial models and mask geometry; no re-reading of the million, no new primality or full-run audit of its entries.",
+  "status": "PASS"
+}

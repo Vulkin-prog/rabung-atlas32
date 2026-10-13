@@ -1,0 +1,7002 @@
+{
+  "schema": 1,
+  "coefficient_order": "descending",
+  "models": [
+    {
+      "certificate": "residual_d2_000_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        19,
+        1555,
+        15087
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_001_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        68,
+        1022,
+        -20273
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_002_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        87,
+        2577,
+        -5186
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_003_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        206,
+        5301,
+        8689
+      ],
+      "over_Q": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_004_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        119,
+        2724,
+        13875
+      ],
+      "over_Q": {
+        "prime": 41,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            25,
+            40
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 41,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            25,
+            40
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_005_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        225,
+        6856,
+        23776
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_006_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        187,
+        3746,
+        -6398
+      ],
+      "over_Q": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_007_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        138,
+        4279,
+        28962
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_008_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        106,
+        4132,
+        9901
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_009_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        51,
+        1702,
+        34148
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_010_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        49,
+        -533,
+        -35360
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 37,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            29,
+            36
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_011_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        32,
+        147,
+        19061
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 41,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_012_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        100,
+        1169,
+        -1212
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_013_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        168,
+        2191,
+        -21485
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_014_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        257,
+        7003,
+        42837
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_015_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        157,
+        5834,
+        44049
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_016_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        36,
+        875,
+        -39334
+      ],
+      "over_Q": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            20,
+            28
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            20,
+            28
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_017_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        155,
+        3599,
+        -25459
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            11,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_018_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        70,
+        3257,
+        49235
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_019_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        30,
+        -2088,
+        -50447
+      ],
+      "over_Q": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_020_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        55,
+        2430,
+        -24247
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 61,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            39,
+            60
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_021_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        13,
+        -1408,
+        3974
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 41,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            20,
+            40
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_022_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        170,
+        4426,
+        48023
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_023_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        81,
+        -386,
+        -16299
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_024_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        17,
+        -680,
+        -54421
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_025_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        149,
+        636,
+        -36572
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_026_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        117,
+        489,
+        -55633
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_027_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        74,
+        3985,
+        -9160
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_028_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        189,
+        5981,
+        63110
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_029_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        83,
+        1849,
+        53209
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_030_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        89,
+        4812,
+        64322
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_031_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        6,
+        2963,
+        11113
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_032_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        151,
+        2871,
+        32936
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_033_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        11,
+        -3643,
+        -65534
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            28,
+            28
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_034_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        62,
+        -1941,
+        -31386
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_035_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        219,
+        3893,
+        12663
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_036_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        130,
+        -919,
+        -51659
+      ],
+      "over_Q": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            14,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            14,
+            16
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_037_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        376,
+        9727,
+        56712
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_038_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        104,
+        1897,
+        -59607
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            28
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d2_039_certificate.json",
+      "degree": 2,
+      "polynomial": [
+        123,
+        3452,
+        -44520
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_000_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        1,
+        78,
+        891,
+        -5289
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            3
+          ],
+          [
+            0,
+            4,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_001_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        3,
+        47,
+        -1073,
+        -9469
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_002_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        1,
+        97,
+        2446,
+        9798
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_003_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        4,
+        144,
+        1373,
+        329
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            12,
+            4,
+            4
+          ],
+          [
+            4,
+            8,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_004_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        10,
+        376,
+        3506,
+        10353
+      ],
+      "over_Q": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            11
+          ],
+          [
+            1,
+            12,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            0,
+            11
+          ],
+          [
+            1,
+            12,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_005_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        11,
+        454,
+        4397,
+        5064
+      ],
+      "over_Q": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            3,
+            16
+          ],
+          [
+            9,
+            25,
+            13
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            3,
+            16
+          ],
+          [
+            9,
+            25,
+            13
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_006_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        5,
+        222,
+        2264,
+        -4960
+      ],
+      "over_Q": {
+        "prime": 19,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            18,
+            11
+          ],
+          [
+            18,
+            0,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 53,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            16,
+            12,
+            8
+          ],
+          [
+            35,
+            40,
+            45
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_007_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        6,
+        232,
+        2133,
+        10024
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            6,
+            2
+          ],
+          [
+            0,
+            4,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 89,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            50,
+            1,
+            85
+          ],
+          [
+            30,
+            87,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_008_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        2,
+        -31,
+        -1964,
+        -4180
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            2
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            6,
+            16
+          ],
+          [
+            5,
+            10,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_009_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        2,
+        175,
+        3337,
+        4509
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            1,
+            7
+          ],
+          [
+            0,
+            9,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            4
+          ],
+          [
+            9,
+            10,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_010_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        7,
+        310,
+        3024,
+        4735
+      ],
+      "over_Q": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            14,
+            10
+          ],
+          [
+            7,
+            2,
+            7
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            14,
+            10
+          ],
+          [
+            7,
+            2,
+            7
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_011_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        2,
+        88,
+        760,
+        9695
+      ],
+      "over_Q": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            20,
+            3,
+            9
+          ],
+          [
+            23,
+            25,
+            20
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            20,
+            3,
+            9
+          ],
+          [
+            23,
+            25,
+            20
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_012_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        8,
+        407,
+        5470,
+        14533
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            1
+          ],
+          [
+            2,
+            5,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            9,
+            4
+          ],
+          [
+            6,
+            3,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_013_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        4,
+        125,
+        -182,
+        -14758
+      ],
+      "over_Q": {
+        "prime": 19,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            6,
+            14
+          ],
+          [
+            18,
+            12,
+            5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 89,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            74,
+            51,
+            51
+          ],
+          [
+            6,
+            37,
+            38
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_014_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        12,
+        551,
+        6843,
+        14862
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            2,
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            2,
+            1,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_015_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        9,
+        366,
+        3637,
+        -4631
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            4
+          ],
+          [
+            4,
+            4,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_016_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        5,
+        154,
+        1242,
+        15313
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            9,
+            10
+          ],
+          [
+            5,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            5,
+            11
+          ],
+          [
+            2,
+            7,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_017_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        12,
+        532,
+        5288,
+        -225
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            6,
+            3
+          ],
+          [
+            4,
+            4,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            16,
+            13
+          ],
+          [
+            3,
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_018_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        9,
+        298,
+        2615,
+        15642
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            4
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            1,
+            4
+          ],
+          [
+            0,
+            3,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d3_019_certificate.json",
+      "degree": 3,
+      "polynomial": [
+        5,
+        241,
+        3819,
+        10127
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            1,
+            6
+          ],
+          [
+            9,
+            15,
+            11
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_000_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        57,
+        1079,
+        7387,
+        5802
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            4,
+            4,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            2,
+            1
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            4,
+            4,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_001_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        52,
+        857,
+        5123,
+        10762
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            4,
+            5,
+            7
+          ],
+          [
+            10,
+            5,
+            6,
+            3
+          ],
+          [
+            8,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            12,
+            16,
+            14
+          ],
+          [
+            25,
+            4,
+            28,
+            11
+          ],
+          [
+            26,
+            12,
+            14,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_002_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        56,
+        1001,
+        6496,
+        11091
+      ],
+      "over_Q": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            7,
+            1,
+            1
+          ],
+          [
+            14,
+            0,
+            11,
+            5
+          ],
+          [
+            0,
+            9,
+            5,
+            11
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            7,
+            1,
+            1
+          ],
+          [
+            14,
+            0,
+            11,
+            5
+          ],
+          [
+            0,
+            9,
+            5,
+            11
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_003_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        56,
+        982,
+        4941,
+        -3996
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            3,
+            3,
+            3
+          ],
+          [
+            1,
+            2,
+            3,
+            5
+          ],
+          [
+            0,
+            1,
+            1,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            15,
+            8,
+            14
+          ],
+          [
+            5,
+            14,
+            3,
+            16
+          ],
+          [
+            15,
+            4,
+            6,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_004_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        53,
+        935,
+        6014,
+        5473
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4,
+            1,
+            4
+          ],
+          [
+            3,
+            1,
+            1,
+            4
+          ],
+          [
+            0,
+            4,
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4,
+            1,
+            4
+          ],
+          [
+            3,
+            1,
+            1,
+            4
+          ],
+          [
+            0,
+            4,
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_005_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        61,
+        1223,
+        8760,
+        6131
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4,
+            3,
+            3
+          ],
+          [
+            3,
+            0,
+            1,
+            4
+          ],
+          [
+            0,
+            0,
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_006_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        64,
+        1389,
+        10411,
+        10537
+      ],
+      "over_Q": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            12,
+            10,
+            10
+          ],
+          [
+            1,
+            4,
+            9,
+            3
+          ],
+          [
+            12,
+            9,
+            7
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            12,
+            10,
+            10
+          ],
+          [
+            1,
+            4,
+            9,
+            3
+          ],
+          [
+            12,
+            9,
+            7
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_007_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        60,
+        1126,
+        6314,
+        -3667
+      ],
+      "over_Q": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            1,
+            10,
+            15
+          ],
+          [
+            8,
+            16,
+            9,
+            6
+          ],
+          [
+            2,
+            16,
+            15,
+            13
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            15,
+            1,
+            10,
+            15
+          ],
+          [
+            8,
+            16,
+            9,
+            6
+          ],
+          [
+            2,
+            16,
+            15,
+            13
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_008_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        46,
+        606,
+        1435,
+        -14349
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            4,
+            1
+          ],
+          [
+            0,
+            4,
+            1,
+            2
+          ],
+          [
+            3,
+            1,
+            3,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_009_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        54,
+        1032,
+        8460,
+        15271
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            7,
+            7,
+            1,
+            4
+          ],
+          [
+            7,
+            7,
+            4,
+            3
+          ],
+          [
+            9,
+            7,
+            6,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2,
+            8,
+            4
+          ],
+          [
+            11,
+            7,
+            0,
+            4
+          ],
+          [
+            12,
+            3,
+            5,
+            5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_010_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        62,
+        1214,
+        7074,
+        6028
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2
+          ],
+          [
+            4,
+            0,
+            0,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_011_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        58,
+        1176,
+        9833,
+        15600
+      ],
+      "over_Q": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            11,
+            9,
+            25
+          ],
+          [
+            8,
+            17,
+            27,
+            16
+          ],
+          [
+            13,
+            0,
+            22,
+            17
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            11,
+            9,
+            25
+          ],
+          [
+            8,
+            17,
+            27,
+            16
+          ],
+          [
+            13,
+            0,
+            22,
+            17
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_012_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        48,
+        713,
+        3750,
+        10433
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            8
+          ],
+          [
+            7,
+            12,
+            2,
+            6
+          ],
+          [
+            13,
+            2,
+            15,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_013_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        63,
+        1311,
+        9520,
+        15826
+      ],
+      "over_Q": {
+        "prime": 31,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            10,
+            9,
+            4
+          ],
+          [
+            11,
+            13,
+            2,
+            22
+          ],
+          [
+            11,
+            7,
+            20,
+            5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 37,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            24,
+            32,
+            13
+          ],
+          [
+            21,
+            8,
+            24,
+            11
+          ],
+          [
+            21,
+            4,
+            18,
+            13
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_014_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        42,
+        481,
+        1617,
+        409
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            6,
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 61,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            50,
+            55,
+            35,
+            43
+          ],
+          [
+            24,
+            52,
+            55,
+            14
+          ],
+          [
+            6,
+            14,
+            32,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_015_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        59,
+        1167,
+        8147,
+        15497
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 37,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            33,
+            16,
+            24,
+            35
+          ],
+          [
+            29,
+            12,
+            25,
+            29
+          ],
+          [
+            27,
+            8,
+            25,
+            10
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_016_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        60,
+        1145,
+        7869,
+        11420
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            12,
+            6,
+            14,
+            8
+          ],
+          [
+            16,
+            3,
+            5,
+            1
+          ],
+          [
+            14,
+            7,
+            15,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_017_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        47,
+        703,
+        3881,
+        -4551
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            11,
+            12,
+            0,
+            4
+          ],
+          [
+            8,
+            1,
+            11,
+            6
+          ],
+          [
+            12,
+            12,
+            2,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_018_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        50,
+        750,
+        2808,
+        -14020
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            2,
+            5
+          ],
+          [
+            6,
+            8,
+            1,
+            9
+          ],
+          [
+            9,
+            4,
+            10,
+            12
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d4_019_certificate.json",
+      "degree": 4,
+      "polynomial": [
+        1,
+        55,
+        1110,
+        9351,
+        9982
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            0,
+            3,
+            3
+          ],
+          [
+            6,
+            4,
+            1,
+            5
+          ],
+          [
+            7,
+            6,
+            7,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            6,
+            5,
+            5,
+            1
+          ],
+          [
+            4,
+            1,
+            1,
+            4
+          ],
+          [
+            0,
+            6,
+            7,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_000_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1767,
+        21748,
+        124389,
+        252460
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            5,
+            5,
+            0,
+            4
+          ],
+          [
+            1,
+            5,
+            4,
+            4,
+            6
+          ],
+          [
+            0,
+            2,
+            3,
+            3,
+            5
+          ],
+          [
+            6,
+            1,
+            2,
+            0,
+            6
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 37,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            29,
+            19,
+            34,
+            9,
+            17
+          ],
+          [
+            25,
+            12,
+            25,
+            14,
+            20
+          ],
+          [
+            31,
+            21,
+            29,
+            2,
+            34
+          ],
+          [
+            32,
+            21,
+            23,
+            12,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_001_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1781,
+        22306,
+        132378,
+        293316
+      ],
+      "over_Q": {
+        "prime": 23,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            16,
+            7,
+            2,
+            4
+          ],
+          [
+            16,
+            5,
+            20,
+            5,
+            22
+          ],
+          [
+            15,
+            4,
+            14,
+            13,
+            11
+          ],
+          [
+            12,
+            20,
+            5,
+            3,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 53,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            28,
+            40,
+            46,
+            10,
+            29
+          ],
+          [
+            34,
+            22,
+            40,
+            52,
+            42
+          ],
+          [
+            42,
+            43,
+            35,
+            21,
+            46
+          ],
+          [
+            40,
+            0,
+            38,
+            23,
+            42
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_002_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        67,
+        1722,
+        20982,
+        118397,
+        233770
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            2,
+            2
+          ],
+          [
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            11,
+            7,
+            3
+          ],
+          [
+            10,
+            9,
+            3,
+            11,
+            1
+          ],
+          [
+            10,
+            4,
+            5,
+            7,
+            3
+          ],
+          [
+            3,
+            1,
+            11,
+            5,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_003_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1788,
+        22635,
+        136957,
+        313138
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            2,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            0,
+            2,
+            1
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 37,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            34,
+            0,
+            26,
+            32,
+            1
+          ],
+          [
+            14,
+            17,
+            27,
+            13,
+            8
+          ],
+          [
+            9,
+            15,
+            30,
+            1,
+            9
+          ],
+          [
+            23,
+            4,
+            28,
+            28,
+            19
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_004_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        68,
+        1792,
+        22779,
+        138330,
+        313467
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            8,
+            12,
+            16,
+            14
+          ],
+          [
+            2,
+            2,
+            11,
+            14
+          ],
+          [
+            9,
+            2,
+            13,
+            8,
+            5
+          ],
+          [
+            14,
+            4,
+            15,
+            13,
+            15
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_005_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        69,
+        1837,
+        23426,
+        141598,
+        318282
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            3,
+            4,
+            1,
+            0,
+            3
+          ],
+          [
+            2,
+            2,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            1,
+            1,
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            3,
+            2,
+            4,
+            3,
+            1
+          ],
+          [
+            3,
+            4,
+            1,
+            0,
+            3
+          ],
+          [
+            2,
+            2,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            1,
+            1,
+            4,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_006_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        67,
+        1736,
+        21659,
+        129110,
+        288501
+      ],
+      "over_Q": {
+        "prime": 11,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            8,
+            3,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            6,
+            5,
+            8
+          ],
+          [
+            4,
+            1,
+            9,
+            4,
+            8
+          ],
+          [
+            3,
+            10,
+            4,
+            1,
+            5
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 61,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            30,
+            16,
+            42,
+            5
+          ],
+          [
+            44,
+            3,
+            6,
+            21,
+            18
+          ],
+          [
+            18,
+            59,
+            45,
+            46,
+            45
+          ],
+          [
+            53,
+            29,
+            55,
+            13,
+            54
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_007_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        67,
+        1743,
+        21988,
+        133689,
+        308323
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 29,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            13,
+            2,
+            27,
+            5,
+            28
+          ],
+          [
+            8,
+            24,
+            4,
+            17,
+            17
+          ],
+          [
+            20,
+            6,
+            23,
+            28,
+            5
+          ],
+          [
+            8,
+            25,
+            4,
+            8,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_008_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        66,
+        1666,
+        19862,
+        109177,
+        208804
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            3,
+            4,
+            4
+          ],
+          [
+            4,
+            2,
+            2,
+            2,
+            4
+          ],
+          [
+            2,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3,
+            3,
+            4,
+            4
+          ],
+          [
+            4,
+            2,
+            2,
+            2,
+            4
+          ],
+          [
+            2,
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            2,
+            0,
+            3,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d5_009_certificate.json",
+      "degree": 5,
+      "polynomial": [
+        1,
+        66,
+        1673,
+        20191,
+        113756,
+        228626
+      ],
+      "over_Q": {
+        "prime": 3,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            2
+          ],
+          [
+            1,
+            1,
+            2,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            4,
+            4,
+            2,
+            4
+          ],
+          [
+            3,
+            4,
+            1,
+            2,
+            4
+          ],
+          [
+            1,
+            4,
+            3,
+            1,
+            4
+          ],
+          [
+            1,
+            2,
+            2,
+            0,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "1": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_000_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        84,
+        2815,
+        47882,
+        429308,
+        1855669,
+        2729819
+      ],
+      "over_Q": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            11,
+            0,
+            12,
+            3,
+            5,
+            10
+          ],
+          [
+            0,
+            4,
+            5,
+            8,
+            4
+          ],
+          [
+            12,
+            2,
+            10,
+            2,
+            4,
+            7
+          ],
+          [
+            5,
+            1,
+            5,
+            0,
+            5,
+            9
+          ],
+          [
+            5,
+            5,
+            7,
+            0,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 13,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            11,
+            0,
+            12,
+            3,
+            5,
+            10
+          ],
+          [
+            0,
+            4,
+            5,
+            8,
+            4
+          ],
+          [
+            12,
+            2,
+            10,
+            2,
+            4,
+            7
+          ],
+          [
+            5,
+            1,
+            5,
+            0,
+            5,
+            9
+          ],
+          [
+            5,
+            5,
+            7,
+            0,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_001_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        79,
+        2472,
+        38437,
+        298830,
+        951505,
+        215744
+      ],
+      "over_Q": {
+        "prime": 59,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            24,
+            26,
+            35,
+            3,
+            2,
+            46
+          ],
+          [
+            36,
+            25,
+            11,
+            2,
+            3,
+            35
+          ],
+          [
+            0,
+            31,
+            28,
+            8,
+            6,
+            58
+          ],
+          [
+            34,
+            31,
+            58,
+            35,
+            57,
+            3
+          ],
+          [
+            4,
+            4,
+            45,
+            11,
+            50,
+            35
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 113,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            106,
+            98,
+            69,
+            57,
+            11,
+            29
+          ],
+          [
+            76,
+            70,
+            81,
+            77,
+            61,
+            53
+          ],
+          [
+            62,
+            75,
+            18,
+            78,
+            1,
+            71
+          ],
+          [
+            33,
+            95,
+            34,
+            111,
+            8,
+            54
+          ],
+          [
+            96,
+            0,
+            24,
+            16,
+            32,
+            19
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_002_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        85,
+        2889,
+        50058,
+        461108,
+        2086701,
+        3397473
+      ],
+      "over_Q": {
+        "prime": 2,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            5,
+            11,
+            16,
+            0,
+            13
+          ],
+          [
+            4,
+            13,
+            1,
+            5,
+            4,
+            6
+          ],
+          [
+            16,
+            13,
+            15,
+            10,
+            11,
+            2
+          ],
+          [
+            0,
+            15,
+            7,
+            1,
+            5,
+            5
+          ],
+          [
+            6,
+            4,
+            0,
+            2,
+            14,
+            8
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_003_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2653,
+        44707,
+        404157,
+        1816419,
+        3007713
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            4,
+            3,
+            1,
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            4,
+            3,
+            1,
+            1,
+            2,
+            3
+          ],
+          [
+            4,
+            2,
+            2,
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            1,
+            4,
+            4,
+            3,
+            2
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_004_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2654,
+        44717,
+        403359,
+        1799130,
+        2910994
+      ],
+      "over_Q": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            3,
+            13,
+            2,
+            0,
+            5
+          ],
+          [
+            8,
+            0,
+            0,
+            1,
+            16,
+            8
+          ],
+          [
+            11,
+            3,
+            4,
+            8,
+            9,
+            2
+          ],
+          [
+            4,
+            7,
+            3,
+            10,
+            6,
+            16
+          ],
+          [
+            6,
+            3,
+            14,
+            13,
+            3,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 17,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            9,
+            3,
+            13,
+            2,
+            0,
+            5
+          ],
+          [
+            8,
+            0,
+            0,
+            1,
+            16,
+            8
+          ],
+          [
+            11,
+            3,
+            4,
+            8,
+            9,
+            2
+          ],
+          [
+            4,
+            7,
+            3,
+            10,
+            6,
+            16
+          ],
+          [
+            6,
+            3,
+            14,
+            13,
+            3,
+            3
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_005_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        80,
+        2579,
+        42531,
+        372357,
+        1585387,
+        2340059
+      ],
+      "over_Q": {
+        "prime": 53,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            32,
+            44,
+            28,
+            21,
+            25,
+            6
+          ],
+          [
+            46,
+            31,
+            10,
+            27,
+            2,
+            20
+          ],
+          [
+            25,
+            6,
+            18,
+            40,
+            39,
+            37
+          ],
+          [
+            28,
+            11,
+            29,
+            42,
+            31,
+            34
+          ],
+          [
+            1,
+            13,
+            21,
+            29,
+            9,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 53,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            32,
+            44,
+            28,
+            21,
+            25,
+            6
+          ],
+          [
+            46,
+            31,
+            10,
+            27,
+            2,
+            20
+          ],
+          [
+            25,
+            6,
+            18,
+            40,
+            39,
+            37
+          ],
+          [
+            28,
+            11,
+            29,
+            42,
+            31,
+            34
+          ],
+          [
+            1,
+            13,
+            21,
+            29,
+            9,
+            9
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_006_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        83,
+        2791,
+        48505,
+        456205,
+        2171153,
+        3968476
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            3,
+            1,
+            3
+          ],
+          [
+            2,
+            0,
+            4,
+            4,
+            4,
+            3
+          ],
+          [
+            3,
+            3,
+            0,
+            4,
+            1,
+            4
+          ],
+          [
+            2,
+            2,
+            3,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            4,
+            3,
+            1,
+            3
+          ],
+          [
+            2,
+            0,
+            4,
+            4,
+            4,
+            3
+          ],
+          [
+            3,
+            3,
+            0,
+            4,
+            1,
+            4
+          ],
+          [
+            2,
+            2,
+            3,
+            1,
+            2,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_007_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2662,
+        45170,
+        413025,
+        1891248,
+        3241883
+      ],
+      "over_Q": {
+        "prime": 7,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            4,
+            0,
+            0,
+            6,
+            2
+          ],
+          [
+            2,
+            1,
+            2,
+            6,
+            5,
+            6
+          ],
+          [
+            3,
+            6,
+            2,
+            3,
+            6,
+            5
+          ],
+          [
+            5,
+            0,
+            1,
+            6,
+            1,
+            6
+          ],
+          [
+            3,
+            6,
+            2,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 181,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            87,
+            81,
+            144,
+            61,
+            32,
+            18
+          ],
+          [
+            162,
+            169,
+            27,
+            91,
+            45,
+            74
+          ],
+          [
+            114,
+            129,
+            98,
+            40,
+            8,
+            73
+          ],
+          [
+            171,
+            42,
+            131,
+            50,
+            81,
+            174
+          ],
+          [
+            109,
+            121,
+            143,
+            120,
+            15,
+            23
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_008_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        86,
+        2963,
+        52234,
+        492908,
+        2317733,
+        4065127
+      ],
+      "over_Q": {
+        "prime": 23,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            8,
+            5,
+            9,
+            7,
+            11,
+            2
+          ],
+          [
+            0,
+            15,
+            11,
+            3,
+            10,
+            5
+          ],
+          [
+            20,
+            15,
+            18,
+            21,
+            7,
+            2
+          ],
+          [
+            14,
+            20,
+            2,
+            0,
+            9,
+            10
+          ],
+          [
+            10,
+            13,
+            6,
+            15,
+            9,
+            4
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 37,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            28,
+            25,
+            24,
+            18,
+            18,
+            35
+          ],
+          [
+            25,
+            17,
+            16,
+            1,
+            10,
+            21
+          ],
+          [
+            25,
+            22,
+            9,
+            16,
+            32,
+            3
+          ],
+          [
+            13,
+            34,
+            35,
+            19,
+            32
+          ],
+          [
+            8,
+            12,
+            27,
+            20,
+            19,
+            15
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    },
+    {
+      "certificate": "residual_d6_009_certificate.json",
+      "degree": 6,
+      "polynomial": [
+        1,
+        81,
+        2670,
+        45623,
+        422691,
+        1983366,
+        3572772
+      ],
+      "over_Q": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            3,
+            4,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            4,
+            4,
+            0,
+            3
+          ],
+          [
+            0,
+            1,
+            1,
+            4,
+            1
+          ],
+          [
+            3,
+            4,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      },
+      "over_Q_i": {
+        "prime": 5,
+        "frobenius_powers_ascending": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            3,
+            4,
+            1,
+            4
+          ],
+          [
+            4,
+            1,
+            4,
+            4,
+            0,
+            3
+          ],
+          [
+            0,
+            1,
+            1,
+            4,
+            1
+          ],
+          [
+            3,
+            4,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "proper_subfield_gcd_degrees": {
+          "3": 0,
+          "2": 0
+        }
+      }
+    }
+  ]
+}
