@@ -48,6 +48,18 @@
       "url": "https://doi.org/10.5281/zenodo.23339668",
       "publication_date": "2026-10-13",
       "record_url": "https://zenodo.org/records/23339668"
+    },
+    {
+      "id": "cubic_v1_0",
+      "paper": "cubic",
+      "title": "Cubic-residue quadruplets: elliptic formulas and arithmetic fluctuations",
+      "version": "v1.0",
+      "status": "published",
+      "release_order": 4,
+      "doi": "10.5281/zenodo.23340847",
+      "url": "https://doi.org/10.5281/zenodo.23340847",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23340847"
     }
   ],
   "manuscripts": [
@@ -121,7 +133,7 @@
         }
       ],
       "edition_version": "v1.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     }
   ],
   "planned_insertions_after_publication": [],

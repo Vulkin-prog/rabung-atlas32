@@ -24,6 +24,8 @@ method paper is published as
 [v1.0, DOI 10.5281/zenodo.23338707](https://doi.org/10.5281/zenodo.23338707).
 The atlas paper is published as
 [v1.0, DOI 10.5281/zenodo.23339668](https://doi.org/10.5281/zenodo.23339668).
+The cubic quadruplets paper is published as
+[v1.0, DOI 10.5281/zenodo.23340847](https://doi.org/10.5281/zenodo.23340847).
 
 ## GPU hardware
 
