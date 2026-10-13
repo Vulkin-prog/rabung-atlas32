@@ -9,8 +9,10 @@ Une publication désigne ici une édition scientifique rendue publiquement
 accessible et citable, par dépôt ou par revue. Un dépôt public et une évaluation
 par les pairs ont des statuts distincts. Les certificats disposent de deux
 éditions publiées : v1.0.0, DOI **10.5281/zenodo.22980965**, et v2.0,
-DOI **10.5281/zenodo.23337824**, publiée le 13 octobre 2026. Les trois autres
-articles attendent leur dépôt ; aucun identifiant futur n'est supposé.
+DOI **10.5281/zenodo.23337824**, publiée le 13 octobre 2026. La méthode GPU
+v1.0 est publiée le même jour, DOI **10.5281/zenodo.23338707**. L'atlas et
+les quadruplets cubiques attendent leur dépôt ; aucun identifiant futur n'est
+supposé.
 
 | Étape | Article | Justification et contenu |
 | --- | --- | --- |
@@ -24,14 +26,16 @@ articles attendent leur dépôt ; aucun identifiant futur n'est supposé.
 Le papier des certificats v2.0 conserve sa référence à la v1.0.0. La méthode
 GPU et l'atlas citent la v2.0 pour le critère et les résultats actuels, et
 conservent la v1.0.0 pour ses pièces et comparaisons originales. Le papier
-cubique cite la v2.0 pour le contexte des constructions finies. Les
-bibliographies ne citent aucun des autres articles encore non publiés. Les références scientifiques extérieures sont
-conservées. Cette règle s'applique aux références entre ces quatre articles ;
+cubique cite la v2.0 pour le contexte des constructions finies. L'atlas cite
+aussi la méthode GPU v1.0 pour la couverture, les hypothèses d'exactitude
+et la distinction entre comparaisons contrôlées et temps du recensement.
+Les bibliographies ne citent aucun des articles encore non publiés. Les
+références scientifiques extérieures sont conservées. Cette règle s'applique
+aux références entre ces quatre articles ;
 elle n'exclut pas les prépublications publiques extérieures déjà citées.
 
 | Après la publication de… | Texte encore non publié à actualiser | Rôle de la référence |
 | --- | --- | --- |
-| La méthode GPU | Atlas | Hypothèses et preuve d'exactitude du calcul des profils ; les temps du recensement gardent leur statut distinct. |
 | L'atlas | Quadruplets cubiques | Motivation, origine des questions et distinction entre population finie et moyenne sur les premiers. |
 
 Le papier cubique ne doit citer la méthode GPU que si une contribution précise
@@ -96,12 +100,15 @@ devra lui aussi être limité au paquet effectivement livré.
 
 ## État des éditions au 13 octobre 2026
 
-Les certificats v2.0 sont publiés. Le PDF et l'archive déposés sont conservés
-tels quels ; leurs empreintes correspondent aux fichiers précédemment livrés.
-La méthode GPU, l'atlas et les quadruplets cubiques v1.0 citent désormais cette
-édition là où elle est pertinente. Leurs PDF et archives sont régénérés après
-cet ajout. La prochaine publication est la méthode GPU. La v1.0.0 reste citée
-lorsqu'une comparaison porte sur ses résultats ou ses pièces originales.
+Les certificats v2.0 et la méthode GPU v1.0 sont publiés. Leurs PDF et
+archives déposés sont conservés tels quels ; leurs empreintes correspondent
+aux fichiers précédemment livrés. L'atlas cite désormais la méthode GPU
+publiée, avec des renvois à la preuve d'exactitude et aux comparaisons
+contrôlées. Son PDF et son archive sont régénérés après cet ajout.
+La prochaine publication est l'atlas, puis les quadruplets cubiques.
+La référence de l'atlas sera ajoutée au papier cubique après son dépôt.
+La v1.0.0 des certificats reste citée lorsqu'une comparaison porte sur ses
+résultats ou ses pièces originales.
 
 Les quatre archives sont produites par `scripts/build_publication_archives.py`.
 Chaque archive possède son README, les pièces de son article, un manifeste et

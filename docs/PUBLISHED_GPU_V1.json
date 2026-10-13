@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "paper": "gpu",
+  "title": "Certified rational-anchor filtering for exact GPU scans of power-residue runs",
+  "edition_version": "v1.0",
+  "status": "published",
+  "publication_date": "2026-10-13",
+  "doi": "10.5281/zenodo.23338707",
+  "url": "https://doi.org/10.5281/zenodo.23338707",
+  "record_url": "https://zenodo.org/records/23338707",
+  "concept_doi": "10.5281/zenodo.23338705",
+  "deposited_files": [
+    {
+      "name": "rabung_gpu_method_v1_publication.zip",
+      "bytes": 1059305,
+      "checksum": "md5:97419a0a8c292fca2dca148b97ced228"
+    },
+    {
+      "name": "GPU_METHOD_EN.pdf",
+      "bytes": 477809,
+      "checksum": "md5:32d14e0d42083fa42ac95842647f9564"
+    }
+  ],
+  "verification": "The deposited PDF and ZIP MD5 digests match the previously delivered publication files.",
+  "source_repository_commit": "972df2a46aaa035dba5da7dd5ff1ccc40932dbb5",
+  "citation_policy": "Cite Theorems 3.1 and 4.3 for the scanner coverage and exact-success hypotheses, and Section 7 for the separate controlled performance comparisons; census campaign times are not comparative benchmark results."
+}

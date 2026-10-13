@@ -19,7 +19,9 @@ All manuscripts use $W(r,k)$ with the number of colours first. They acknowledge
 AI assistance. The certificates paper is published as
 [v2.0, DOI 10.5281/zenodo.23337824](https://doi.org/10.5281/zenodo.23337824).
 Its [first edition, v1.0.0](https://doi.org/10.5281/zenodo.22980965), remains
-available for the original evidence and historical comparisons.
+available for the original evidence and historical comparisons. The GPU
+method paper is published as
+[v1.0, DOI 10.5281/zenodo.23338707](https://doi.org/10.5281/zenodo.23338707).
 
 ## GPU hardware
 

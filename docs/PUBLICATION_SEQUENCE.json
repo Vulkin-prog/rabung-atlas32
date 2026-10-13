@@ -24,6 +24,18 @@
       "url": "https://doi.org/10.5281/zenodo.23337824",
       "publication_date": "2026-10-13",
       "record_url": "https://zenodo.org/records/23337824"
+    },
+    {
+      "id": "gpu_v1_0",
+      "paper": "gpu",
+      "title": "Certified rational-anchor filtering for exact GPU scans of power-residue runs",
+      "version": "v1.0",
+      "status": "published",
+      "release_order": 2,
+      "doi": "10.5281/zenodo.23338707",
+      "url": "https://doi.org/10.5281/zenodo.23338707",
+      "publication_date": "2026-10-13",
+      "record_url": "https://zenodo.org/records/23338707"
     }
   ],
   "manuscripts": [
@@ -57,7 +69,7 @@
         }
       ],
       "edition_version": "v1.0",
-      "status": "prepared_for_publication"
+      "status": "published"
     },
     {
       "id": "atlas",
@@ -72,6 +84,10 @@
         {
           "key": "boundsv2",
           "publication": "certificates_v2_0"
+        },
+        {
+          "key": "gpumethod",
+          "publication": "gpu_v1_0"
         }
       ],
       "edition_version": "v1.0",
@@ -93,11 +109,6 @@
     }
   ],
   "planned_insertions_after_publication": [
-    {
-      "in": "atlas",
-      "after": "gpu",
-      "role": "Coverage/exactness hypotheses of the scanner; distinguish controlled timings from census times."
-    },
     {
       "in": "cubic",
       "after": "atlas",
@@ -124,6 +135,13 @@
       "after": "certificates",
       "role": "Published background on finite Rabung certificates and recurrence-closed bounds.",
       "publication": "certificates_v2_0",
+      "completed_date": "2026-10-13"
+    },
+    {
+      "in": "atlas",
+      "after": "gpu",
+      "role": "Coverage/exactness hypotheses of the scanner; distinguish controlled timings from census times.",
+      "publication": "gpu_v1_0",
       "completed_date": "2026-10-13"
     }
   ]

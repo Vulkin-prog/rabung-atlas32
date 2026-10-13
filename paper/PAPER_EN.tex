@@ -86,7 +86,8 @@ what the resulting template laws and finite diagnostics allow us to
 conclude about run statistics. Rabung's criterion~\cite{rabung} and earlier
 large searches, including Monroe's~\cite{monroe}, supply the construction
 context. The atlas covers all primes below $2^{32}$ and every admissible
-order from $2$ to $9$. Its frozen scanner and data commitments are described
+order from $2$ to $9$. The scanner method is developed in~\cite{gpumethod};
+its frozen implementation and data commitments are described
 in Section~\ref{sec:reproduction}.
 
 The classification of its $11\,557$ deep-tail profiles is selective:
@@ -222,7 +223,10 @@ $3\,119$ elliptic-count certificates, and $324$ final record checks.
 These audit counts describe the campaign's checks, not independent
 samples for inference about the tails.
 
-The scanner implements rational coverage and exact completion.
+The scanner implements rational coverage and exact completion. Under the
+coverage and implementation hypotheses of the published method, a
+successfully completed scan returns exact maxima and least canonical
+witnesses~\cite[Theorems~3.1 and~4.3]{gpumethod}.
 The stored profile contract is stated in Section~\ref{sec:atlas};
 the frozen implementation and retained audit certificates are identified
 in Section~\ref{sec:reproduction}. Rejected batches supply no accepted
@@ -2071,7 +2075,9 @@ output was not accepted. These changes did not alter the scientific
 engine, the domain, or already committed blocks.
 The scan took approximately 35.7 cumulative hours; the CPU quadratic
 quadruplet computation took approximately 4.4 hours. These are
-campaign times, not comparative performance measurements.
+campaign times, not comparative performance measurements. The controlled
+comparisons in~\cite[Section~7]{gpumethod} have separate inputs and timing
+boundaries.
 
 The release \texttt{atlas32-v1.0.0}, frozen scanner, original data
 manifest, certificates and reproduction commands are identified in
@@ -2089,6 +2095,10 @@ bounds for van der Waerden numbers}, published edition v1.0.0, 2026.
 B. Pouly, \emph{Succinct Rabung certificates and recurrence-closed lower
 bounds for van der Waerden numbers}, published edition v2.0, 2026.
 \href{https://doi.org/10.5281/zenodo.23337824}{doi:10.5281/zenodo.23337824}.
+\bibitem{gpumethod}
+B. Pouly, \emph{Certified rational-anchor filtering for exact GPU scans
+of power-residue runs}, published edition v1.0, 2026.
+\href{https://doi.org/10.5281/zenodo.23338707}{doi:10.5281/zenodo.23338707}.
 \bibitem{rabung} J.~R. Rabung,
 \emph{Some Progression-Free Partitions Constructed using Folkman's Method},
 Canadian Mathematical Bulletin \textbf{22} (1979), 87--91.
